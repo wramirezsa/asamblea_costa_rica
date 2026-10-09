@@ -1,0 +1,187 @@
+# Actualiza los datos desde las fuentes oficiales y publica el sitio (ADR-024).
+#
+# - Todos los dias a las 06:17 de Costa Rica corre etl/actualizar.py, guarda
+#   en el repositorio lo que cambio en data/ y publica el sitio en GitHub Pages.
+# - Con cada push a main que toque el sitio o los datos, solo publica: no le
+#   pide nada a la Asamblea.
+# - Si un paso del ETL falla (codigo 1) no se guarda ni se publica nada: el
+#   sitio sigue con el ultimo dato bueno, con su fecha. La corrida queda en
+#   rojo y GitHub avisa por correo.
+# - Si termina con avisos (codigo 2) se guarda y se publica igual, porque lo
+#   no publicable ya quedo fuera, y se abre o actualiza un issue
+#   "requiere atencion". La primera corrida sin avisos lo cierra.
+
+name: Actualizar y publicar
+
+on:
+  schedule:
+    - cron: "17 12 * * *"  # 12:17 UTC = 06:17 en Costa Rica
+  workflow_dispatch:
+    inputs:
+      completo:
+        description: "Tambien fotos, banderas y colores (cambian muy poco)"
+        type: boolean
+        default: false
+  push:
+    branches: [main]
+    paths:
+      - "web/**"
+      - "data/processed/**"
+      - "data/assets/**"
+      - "etl/publish_web.py"
+      - ".github/workflows/actualizar.yml"
+
+permissions:
+  contents: read
+
+# Una corrida a la vez: un push no se publica encima de una actualizacion.
+concurrency:
+  group: actualizar-y-publicar
+  cancel-in-progress: false
+
+env:
+  TZ: America/Costa_Rica
+
+jobs:
+  actualizar:
+    if: github.event_name != 'push'
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    permissions:
+      contents: write
+      issues: write
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+
+      - name: Dependencias del ETL
+        run: pip install openpyxl==3.1.5 Pillow==10.4.0
+
+      - name: ETL (etl/actualizar.py)
+        id: etl
+        env:
+          PYTHONIOENCODING: utf-8
+          COMPLETO: ${{ inputs.completo && '--completo' || '' }}
+        run: |
+          set +e
+          python etl/actualizar.py $COMPLETO | tee "$RUNNER_TEMP/salida.txt"
+          codigo=${PIPESTATUS[0]}
+          echo "codigo=$codigo" >> "$GITHUB_OUTPUT"
+          { echo '```'; cat "$RUNNER_TEMP/salida.txt"; echo '```'; } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Bitacora de la corrida
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: bitacora
+          path: data/bitacora/
+          retention-days: 30
+          if-no-files-found: ignore
+
+      - name: Guardar los datos en el repositorio
+        if: steps.etl.outputs.codigo == '0' || steps.etl.outputs.codigo == '2'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "Sin cambios en data/."
+            exit 0
+          fi
+          git commit -q -m "Datos: actualizacion automatica del $(date +%F)"
+          git pull -q --rebase origin main
+          git push -q origin HEAD:main
+
+      - name: Avisos para revision humana
+        if: steps.etl.outputs.codigo == '0' || steps.etl.outputs.codigo == '2'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          CODIGO: ${{ steps.etl.outputs.codigo }}
+          CORRIDA: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          titulo="La actualizacion automatica requiere atencion"
+          abierto=$(gh issue list --state open --limit 100 --json number,title \
+                    --jq ".[] | select(.title == \"$titulo\") | .number" | head -n1)
+          if [ "$CODIGO" = "0" ]; then
+            if [ -n "$abierto" ]; then
+              gh issue close "$abierto" --comment "Resuelto: la corrida del $(date +%F) termino sin avisos. $CORRIDA"
+            fi
+            exit 0
+          fi
+          {
+            echo "La corrida del $(date +%F) guardo y publico los datos, pero hay cosas que necesitan ojo humano."
+            echo "Lo no publicable ya quedo fuera del sitio. Corrida: $CORRIDA"
+            echo
+            echo '```'
+            sed -n '/REQUIERE ATENCION/,$p' "$RUNNER_TEMP/salida.txt"
+            echo '```'
+            echo
+            echo "Este issue se actualiza en cada corrida y se cierra solo cuando una termina sin avisos."
+          } > "$RUNNER_TEMP/aviso.md"
+          if [ -n "$abierto" ]; then
+            gh issue edit "$abierto" --body-file "$RUNNER_TEMP/aviso.md"
+          else
+            gh issue create --title "$titulo" --body-file "$RUNNER_TEMP/aviso.md"
+          fi
+
+      - name: Fallo del ETL
+        if: steps.etl.outputs.codigo != '0' && steps.etl.outputs.codigo != '2'
+        run: |
+          echo "::error::El ETL fallo (codigo ${{ steps.etl.outputs.codigo }}). No se guardo ni se publico nada: el sitio sigue con el ultimo dato bueno. Detalle en la bitacora adjunta."
+          exit 1
+
+  publicar:
+    needs: actualizar
+    # Corre si la actualizacion salio bien o si no hubo actualizacion (push).
+    if: ${{ !cancelled() && (needs.actualizar.result == 'success' || needs.actualizar.result == 'skipped') }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.despliegue.outputs.page_url }}
+    steps:
+      # main, no el commit que disparo la corrida: asi entran los datos que
+      # el paso anterior acaba de guardar.
+      - uses: actions/checkout@v7
+        with:
+          ref: main
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+
+      - name: Payload del sitio (etl/publish_web.py)
+        env:
+          PYTHONIOENCODING: utf-8
+        run: python etl/publish_web.py
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+
+      - name: Compilar el sitio
+        working-directory: web
+        env:
+          BASE_PATH: /${{ github.event.repository.name }}/
+        run: |
+          npm ci
+          npm run build
+          # GitHub Pages no sabe de rutas de la aplicacion (/diputado/...):
+          # sirve 404.html, que es el mismo sitio y resuelve la ruta.
+          cp dist/index.html dist/404.html
+
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: web/dist
+
+      - id: despliegue
+        uses: actions/deploy-pages@v5

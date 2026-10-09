@@ -58,7 +58,7 @@ def pasos(completo: bool) -> list[list[str]]:
     lista += [
         ["fetch_actividad.py"],
         ["fetch_gasto.py"],
-        ["fetch_actas.py", "--desde", desde],
+        ["fetch_actas.py", "--desde", desde, "--solo-nuevas"],
         ["publish_web.py"],
     ]
     return lista
@@ -105,8 +105,18 @@ def revisar() -> list[str]:
     r = actas["resumen"]
     if r["votaciones"] != r["votaciones_publicables"]:
         avisos.append(f"{r['votaciones'] - r['votaciones_publicables']} votaciones no publicables.")
-    viejas = [x["sesion"] for x in actas.get("sin_documento", [])
-              if x["sesion"][-11:-1] < (date.today() - timedelta(days=VENTANA_ACTAS_DIAS)).isoformat()]
+    # Se mira el indice del SIL+, no `sin_documento`: ese solo cubre la
+    # ventana de esta corrida, y un acta que nunca trae texto saldria de la
+    # ventana sin que nadie se entere.
+    procesadas = {str(s["sil"]["Id_Orden_Dia"]) for s in actas["sesiones"]}
+    indice = json.loads((RAIZ / "data" / "raw" / "actas" / "indice_sil.json")
+                        .read_text(encoding="utf-8"))
+    limite = (date.today() - timedelta(days=VENTANA_ACTAS_DIAS)).isoformat()
+    viejas = []
+    for f in indice:
+        d, m, a = f["Fecha_Sesion"][:10].split("/")
+        if str(f["Id_Orden_Dia"]) not in procesadas and f"{a}-{m}-{d}" < limite:
+            viejas.append(f"{f['Nombre_Tipo'].lower()} #{f['Numero_Sesion_1']} ({a}-{m}-{d})")
     if viejas:
         avisos.append(f"Actas que llevan mas de {VENTANA_ACTAS_DIAS} dias sin texto: {viejas}.")
     return avisos

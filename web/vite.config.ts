@@ -4,6 +4,11 @@ import { defineConfig } from 'vite'
 export default defineConfig({
   plugins: [react()],
 
+  // En GitHub Pages el sitio vive en una subdireccion
+  // (/asamblea_costa_rica/). El flujo de publicacion la pasa por BASE_PATH;
+  // en local queda en la raiz.
+  base: process.env.BASE_PATH ?? '/',
+
   optimizeDeps: {
     /**
      * Three.js y sus acompanantes se cargan de forma diferida (solo al entrar

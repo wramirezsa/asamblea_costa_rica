@@ -187,6 +187,9 @@ def main() -> int:
     ap.add_argument("--sin-listar", action="store_true",
                     help="usa el indice guardado; solo baja las actas que falten")
     ap.add_argument("--refrescar", action="store_true")
+    ap.add_argument("--solo-nuevas", action="store_true",
+                    help="no vuelve a bajar un acta ya procesada cuyo .docx no esta en "
+                         "disco: se conserva lo procesado (asi corre en la nube)")
     args = ap.parse_args()
 
     CRUDO.mkdir(parents=True, exist_ok=True)
@@ -213,12 +216,25 @@ def main() -> int:
                 if args.desde.isoformat() <= fecha_fila(f) <= args.hasta.isoformat()]
     en_rango.sort(key=lambda f: (fecha_fila(f), f["Nombre_Tipo"], f["Numero_Sesion_1"]))
 
+    destino = PROCESADO / "actas_plenario.json"
+    procesadas = set()
+    if args.solo_nuevas and destino.exists():
+        procesadas = {str(s["sil"]["Id_Orden_Dia"]) for s in
+                      json.loads(destino.read_text(encoding="utf-8")).get("sesiones", [])}
+
     subtitulo = votaciones_del_subtitulo()
     sesiones, sin_documento = [], []
-    fallas_seguidas = 0
+    fallas_seguidas = conservadas = 0
     for f in en_rango:
         etiqueta = f"{f['Nombre_Tipo'].lower()} #{f['Numero_Sesion_1']} ({fecha_fila(f)})"
         archivo = CRUDO / f"TextoActa_{f['Id_Orden_Dia']}.docx"
+        # En la nube los .docx no se guardan entre corridas (pesan hasta
+        # 160 MB). Volver a bajar cada dia las actas de la ventana seria
+        # cargar el servidor de la Asamblea para nada: lo ya procesado se
+        # conserva tal cual por la fusion de abajo.
+        if args.solo_nuevas and not archivo.exists() and clave(f) in procesadas:
+            conservadas += 1
+            continue
         # Un .docx que no es un zip valido quedo a medio escribir (corrida
         # interrumpida): se vuelve a bajar.
         incompleto = archivo.exists() and not zipfile.is_zipfile(archivo)
@@ -245,8 +261,10 @@ def main() -> int:
         print(f"   {etiqueta:<34} {len(s['presentes']):>2} presentes  "
               f"{s['total_votaciones']:>4} votaciones ({s['votaciones_publicables']} publicables){marca}")
 
+    if conservadas:
+        print(f"   {conservadas} actas ya procesadas se conservan sin volver a bajarlas")
+
     # Fusion con lo ya procesado: una corrida parcial no borra el resto.
-    destino = PROCESADO / "actas_plenario.json"
     previas = []
     if destino.exists():
         hechas = {str(s["sil"]["Id_Orden_Dia"]) for s in sesiones}

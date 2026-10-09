@@ -12,7 +12,9 @@ verificable.
 
 ## Estado
 
-**Funcionando de punta a punta en local.** ETL → datos → sitio.
+**Funcionando de punta a punta, en local y en la nube.** ETL → datos → sitio.
+En producción, GitHub Actions actualiza `data/` y publica el sitio cada día
+(ADR-024).
 
 ### Lo que ya funciona
 
@@ -140,21 +142,22 @@ período. **Estos datos NO están en el sitio y no deben publicarse todavía**
 
 ## Riesgos y bloqueos
 
-1. **Sin asistencia por sesión ni votaciones nominales en el sitio.** Sigue
-   siendo el hueco mayor, pero **ya no por falta de fuente**: el acta oficial
-   del SIL+ trae ambas cosas (ADR-021) y la asistencia mensual está en
-   `/pa/datosabiertos/` (ADR-020). Falta el ETL. El SIL+ es una aplicación
-   interna sin API documentada: puede cambiar sin aviso. Las 3.215
-   votaciones extraídas de la transmisión quedan como contraste, no como
-   fuente; la vía de acceso al video dejó de ser un bloqueo.
+1. **El SIL+ es una aplicación interna sin API documentada**: puede cambiar
+   sin aviso, y de él salen la asistencia por sesión y el voto nominal
+   (ADR-021). Si cambia, `fetch_actas.py` falla ruidosamente y la corrida
+   diaria queda en rojo. Las 3.215 votaciones de la transmisión quedan como
+   contraste, no como fuente.
 2. **Las ubicaciones viejas del catálogo están congeladas** (órdenes del día
    2016, uso de la palabra 2018, asistencia y actas 2019, vehículos 2021),
    **pero varios conjuntos se mudaron** al portal vigente `/pa/datosabiertos/`
    o al SIL. Antes de declarar muerto un conjunto, buscar su sucesor
    (ADR-020). Detalle en `docs/fuentes-de-datos.md`.
 3. ~~Decisión sobre Delfino.cr~~ — ya no aplica: el voto nominal sale del acta oficial (ADR-021).
-4. **Verificación TLS relajada** (ADR-002).
-5. **Sin actualización automática**: el ETL se corre a mano.
+4. **Verificación TLS relajada en el SharePoint** (ADR-002). El SIL+ ya
+   verifica con el intermedio guardado (ADR-024); el mismo archivo serviría
+   para el SharePoint.
+5. **Dependencia de GitHub** para la actualización y la publicación
+   (ADR-024). El ETL no depende de GitHub: corre igual en local.
 6. **El mapa de curules es curaduría propia**, no dato oficial. Declarado en
    la interfaz.
 
@@ -174,6 +177,6 @@ período. **Estos datos NO están en el sitio y no deben publicarse todavía**
 5. Definir medio de pago para las donaciones; dominio y despliegue.
 
 **Ya funcionando y programado:** `etl/actualizar.py` corre solo todos los días
-a las 6:00 (tarea «Asamblea Abierta - actualizar» del Programador de tareas
-de Windows, creada el 2026-10-09 a pedido del usuario). Primera corrida
-programada: correcta, sin avisos.
+a las 06:17 en GitHub Actions y publica en GitHub Pages (ADR-024). La tarea
+«Asamblea Abierta - actualizar» del Programador de tareas de Windows (creada
+el 2026-10-09) quedó redundante y choca con los commits del bot.

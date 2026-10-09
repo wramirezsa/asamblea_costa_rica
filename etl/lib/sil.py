@@ -35,6 +35,7 @@ import urllib.parse
 import urllib.request
 import uuid
 from datetime import date, timedelta
+from pathlib import Path
 from typing import Any
 
 from .sharepoint import FuenteError
@@ -43,9 +44,15 @@ BASE = "https://produccion.asamblea.go.cr/SILConsulta/"
 UA = "asamblea-abierta/0.1 (proyecto civico; datos abiertos CC-BY-4.0)"
 PAUSA = 1.5  # segundos entre pedidos
 
-# Este servidor, a diferencia del SharePoint, manda la cadena de
-# certificados completa: se verifica TLS normalmente.
+# Este servidor manda solo su propio certificado, sin el intermedio de
+# GlobalSign. Windows lo completa solo (lo baja por AIA) y por eso funcionaba
+# en local; Linux no, y en la nube fallaba la verificacion. Se agrega el
+# intermedio publico, guardado en el repo, y TLS se verifica normalmente
+# contra las raices del sistema (ADR-024). Si la Asamblea cambia de
+# certificadora, la verificacion falla ruidosamente: nunca se apaga.
+INTERMEDIO = Path(__file__).with_name("certs") / "globalsign_gcc_r3_dv_tls_ca_2020.pem"
 _CTX = ssl.create_default_context()
+_CTX.load_verify_locations(cafile=str(INTERMEDIO))
 
 PANTALLA_ACTAS = "SIL_CNSACTAPLENARIO_PRINCIPAL"
 MARCO_FILTRO = "ff_CNSACTAPLENARIO_FiltroFechas"

@@ -25,7 +25,7 @@ Thumbs.db
 # guarda la frase literal, el video y el segundo exacto.
 data/raw/subtitulos/
 
-# Actas del Plenario bajadas del SIL+ (ADR-021): ~700 KB cada una, una por
+# Actas del Plenario bajadas del SIL+ (ADR-021): de 72 KB a 160 MB, una por
 # sesion. Se regeneran con `python etl/fetch_actas.py`. Lo que SI se versiona
 # es data/raw/actas/indice_sil.json (que actas existen y sus identificadores)
 # y data/processed/actas_plenario.json, que guarda el sha256 de cada archivo

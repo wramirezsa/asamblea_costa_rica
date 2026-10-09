@@ -32,8 +32,19 @@ export function aSlug(texto: string): string {
     .replace(/^-|-$/g, '')
 }
 
+/**
+ * Subdireccion donde vive el sitio ('/' en local, '/asamblea_costa_rica/' en
+ * GitHub Pages). Las rutas se leen y escriben relativas a ella.
+ */
+const BASE = (import.meta.env.BASE_URL || '/').replace(/\/$/, '')
+
+function rutaRelativa(): string {
+  const p = window.location.pathname
+  return BASE && p.startsWith(BASE) ? p.slice(BASE.length) || '/' : p
+}
+
 export function leerRuta(): Ruta {
-  const partes = window.location.pathname.split('/').filter(Boolean)
+  const partes = rutaRelativa().split('/').filter(Boolean)
   if (partes[0] === 'diputado' && partes[1]) {
     return { tipo: 'diputado', slug: decodeURIComponent(partes[1]) }
   }
@@ -47,10 +58,10 @@ export function leerRuta(): Ruta {
 }
 
 export function rutaAUrl(r: Ruta): string {
-  if (r.tipo === 'diputado') return `/diputado/${encodeURIComponent(r.slug)}`
-  if (r.tipo === 'provincia') return `/provincia/${encodeURIComponent(r.provincia)}`
-  if (r.tipo === 'votacion') return `/votacion/${encodeURIComponent(r.clave)}`
-  return '/'
+  if (r.tipo === 'diputado') return `${BASE}/diputado/${encodeURIComponent(r.slug)}`
+  if (r.tipo === 'provincia') return `${BASE}/provincia/${encodeURIComponent(r.provincia)}`
+  if (r.tipo === 'votacion') return `${BASE}/votacion/${encodeURIComponent(r.clave)}`
+  return `${BASE}/`
 }
 
 /** Cambia la dirección sin recargar. `reemplazar` evita ensuciar el historial. */

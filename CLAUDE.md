@@ -106,15 +106,24 @@ edita a mano.
 Todo lo anterior corre en un solo paso con `python etl/actualizar.py`, que
 se puede programar a diario (ver `docs/test-playbook.md`).
 
+En producción todo eso corre solo: `.github/workflows/actualizar.yml` ejecuta
+`etl/actualizar.py` cada día, guarda `data/` en el repo y publica el sitio en
+GitHub Pages (ADR-024). Antes de trabajar en local, `git pull`: el bot
+commitea datos a diario.
+
 Antes de dar una tarea por terminada, ver `docs/test-playbook.md`.
 
 ## Restricciones
 
 - **Windows**: usar `PYTHONIOENCODING=utf-8` al correr el ETL, o los acentos
   revientan la consola.
-- **TLS**: el servidor de la Asamblea manda una cadena de certificados
-  incompleta. Ver ADR-002 en `docs/decisions.md`.
-- Sin dependencias de pago ni servicios externos. Todo corre local.
+- **TLS**: los servidores de la Asamblea mandan solo su certificado, sin el
+  intermedio. El SharePoint corre sin verificar (ADR-002); el SIL+ verifica
+  con el intermedio guardado en `etl/lib/certs/` (ADR-024). Windows completa
+  la cadena solo: que algo funcione en local no prueba que funcione en Linux.
+- Sin dependencias de pago. El ETL es Python plano y corre igual en local;
+  la nube (GitHub Actions + Pages, gratis en repos públicos) solo lo
+  programa y publica (ADR-024).
 - El botón de donaciones está **deshabilitado a propósito** hasta que exista
   una cuenta real. No se publican botones que no funcionan.
 

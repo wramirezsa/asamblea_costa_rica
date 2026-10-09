@@ -725,8 +725,10 @@ primera captura no mostraba y hubo que descubrir al implementarlo:
   `ObtenerContextosVisuales`), y la pantalla se abre con
   `parametros={"sistema":"SIL","basedatos":"SIL","ventanaPrincipal":true}`.
   El rango de fechas se fija con `Contexto`.
-- Este servidor sí manda la cadena TLS completa: se verifica normalmente, a
-  diferencia del SharePoint (ADR-002).
+- ~~Este servidor sí manda la cadena TLS completa.~~ **Falso, corregido en
+  ADR-024:** manda solo su certificado, igual que el SharePoint. En Windows
+  funcionaba porque el sistema baja el intermedio solo; en Linux fallaba. Se
+  sigue verificando TLS, con el intermedio guardado en `etl/lib/certs/`.
 
 El formato del acta **cambia a lo largo del período**, y el lector lo
 contempla sin adivinar:
@@ -838,3 +840,61 @@ Asamblea anterior y no se mezclan.
   diputación dentro de un texto) y viajes al exterior (montos con formatos
   mezclados, «¢382,795.94» y «¢ 811.037,00»). Leerlos mal sería inventar
   cifras: requieren su propio tratamiento.
+
+## ADR-024 — Actualización y publicación automáticas en GitHub (Actions + Pages)
+
+**2026-10-09**
+
+La tarea programada de Windows (documentada en `docs/test-playbook.md`)
+necesita la computadora encendida. El responsable del proyecto pidió que el
+sitio se mantenga al día **sin su intervención**. El repositorio es público
+(`wramirezsa/asamblea_costa_rica`), así que GitHub Actions y GitHub Pages son
+gratuitos y no hace falta ninguna cuenta ni servicio nuevo.
+
+- **`.github/workflows/actualizar.yml`.** Todos los días a las 06:17 de Costa
+  Rica (cron `17 12 * * *` en UTC; GitHub puede atrasarlo en horas de mucha
+  carga) corre `etl/actualizar.py` en Ubuntu con Python 3.12, guarda en el
+  repositorio lo que cambió en `data/` con la identidad
+  `github-actions[bot]`, compila el sitio y lo publica en GitHub Pages. El
+  historial de git queda como bitácora pública de qué dijo la fuente y
+  cuándo. También se puede correr a mano desde la pestaña Actions, con la
+  opción «completo» (fotos, banderas y colores).
+- **Un push a `main` que toque `web/` o `data/` solo publica.** No le pide
+  nada a la Asamblea.
+- **Las mismas reglas del ETL.** Código 1: no se guarda ni se publica nada,
+  el sitio sigue con el último dato bueno y la corrida queda en rojo (GitHub
+  avisa por correo). Código 2: se guarda y se publica, porque lo no
+  publicable ya quedó fuera, y se abre o actualiza un issue «La actualizacion
+  automatica requiere atencion» que la primera corrida sin avisos cierra.
+- **«Todo corre local» se reinterpreta así:** sin dependencias de pago, y el
+  ETL sigue siendo Python plano que corre igual en cualquier máquina. Si
+  GitHub dejara de servir, el sitio se compila y se sube a cualquier
+  hosting estático.
+- **En la nube no se vuelven a bajar las actas.** Los `.docx` no se versionan
+  (pesan de 72 KB a 160 MB; mediana 2,6 MB) y en la nube no persisten entre
+  corridas. Volver a bajar cada día las de la ventana de 14 días sería cargar
+  el servidor de la Asamblea para nada. `actualizar.py` pasa `--solo-nuevas`
+  a `fetch_actas.py`: un acta ya procesada sin su `.docx` en disco se
+  conserva tal como quedó; solo se bajan las nuevas. Si cambia el lector o la
+  tabla de equivalencias, las actas viejas se reprocesan en local, donde
+  están los archivos, como antes.
+- **Hallazgo TLS: el SIL+ tampoco manda el intermedio** (corrige ADR-021).
+  Los dos servidores usan el mismo certificado `*.asamblea.go.cr`, firmado
+  por *GlobalSign GCC R3 DV TLS CA 2020*, y mandan solo la hoja. Windows
+  completaba la cadena solo, por AIA; Linux no, y la verificación fallaba
+  (probado: solo raíces → `CERTIFICATE_VERIFY_FAILED`; raíces + intermedio →
+  correcto). El intermedio público quedó en
+  `etl/lib/certs/globalsign_gcc_r3_dv_tls_ca_2020.pem`, bajado de la URL
+  AIA del propio certificado y verificado contra *GlobalSign Root CA - R3*.
+  Vence el 2029-03-18. El SIL+ sigue verificando TLS; si la Asamblea cambia
+  de certificadora, falla ruidosamente. Con el mismo archivo se podría volver
+  a verificar también el SharePoint (ADR-002): queda en el backlog.
+- **Aviso de actas sin texto, corregido.** `revisar()` miraba
+  `sin_documento`, que solo cubre la ventana de la corrida: un acta que nunca
+  trajera texto habría salido de la ventana sin que nadie se enterara. Ahora
+  compara el índice del SIL+ contra lo procesado.
+- **La tarea de Windows queda redundante.** Si sigue activa, deja cambios
+  locales en `data/` que chocan con los commits del bot al hacer `git pull`.
+- GitHub desactiva los flujos programados de los repositorios públicos tras
+  60 días sin actividad. Si el sitio deja de actualizarse, revisar primero
+  la pestaña Actions.

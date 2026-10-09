@@ -185,9 +185,25 @@ paso falló y el sitio quedó con el último dato bueno; **2** corrió bien pero
 hay algo que requiere ojo humano (otra cantidad de diputaciones, un nombre de
 acta sin resolver, votaciones no publicables, actas que no aparecen).
 
-Para programarlo a diario en Windows. Crea una tarea persistente, así que se
-hace a mano y una sola vez (reemplazar las rutas por las de cada equipo; la
-de python sale de `where python`):
+**En producción corre en GitHub** (`.github/workflows/actualizar.yml`,
+ADR-024): todos los días a las 06:17 de Costa Rica, y a mano desde la pestaña
+Actions → «Actualizar y publicar» → *Run workflow*. Cómo comprobar una
+corrida:
+
+- El resumen de la corrida muestra la salida de `actualizar.py`; la bitácora
+  completa va adjunta como artefacto `bitacora`.
+- Código 0 o 2: aparece un commit «Datos: actualizacion automatica del …»
+  de `github-actions[bot]` (si algo cambió) y el sitio se publica.
+- Código 2: se abre o actualiza el issue «La actualizacion automatica
+  requiere atencion». Código 1: corrida en rojo, nada se guarda ni se publica.
+- En la nube los `.docx` de las actas no persisten: `--solo-nuevas` evita
+  volver a bajarlos. Para reprocesar actas viejas (cambió el lector o la
+  tabla de equivalencias), correr `fetch_actas.py` en local y subir el
+  resultado.
+
+Programarlo en Windows ya no hace falta y choca con los commits del bot. Si
+se quisiera de todos modos (reemplazar las rutas; la de python sale de
+`where python`):
 
 ```
 schtasks /Create /TN "Asamblea Abierta - actualizar" /SC DAILY /ST 06:00 /TR "<ruta a python.exe> <ruta del proyecto>/etl/actualizar.py"
