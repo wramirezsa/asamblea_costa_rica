@@ -917,7 +917,7 @@ gratuitos y no hace falta ninguna cuenta ni servicio nuevo.
 - **La tarea de Windows cambia de papel** (decidido por el responsable del
   proyecto el mismo día: «que suba sola»). Corre
   `actualizar.py --fuentes sharepoint --subir` en una **copia del repo
-  dedicada** (`%LOCALAPPDATA%\AsambleaAbierta\repo`), nunca en la copia de
+  dedicada** (`%USERPROFILE%\AsambleaAbierta\repo`), nunca en la copia de
   trabajo: así no toca lo que alguien esté editando. Antes de extraer se pone
   al día con GitHub; al terminar bien hace commit de `data/raw`,
   `data/processed` y `data/assets` (nunca `data/curated/`, que edita una
@@ -927,6 +927,15 @@ gratuitos y no hace falta ninguna cuenta ni servicio nuevo.
   código 2. Corre a las 06:00 o, si la computadora estaba apagada, apenas
   se enciende y hay red. Si corriera todo, sus cambios en las actas
   chocarían con los commits del bot.
+- **La copia no va en `AppData`.** La primera se creó en `%LOCALAPPDATA%`
+  desde la app de Claude, que corre empaquetada (MSIX): Windows virtualiza
+  esas escrituras en una carpeta privada del paquete y el Programador de
+  tareas no las ve (primero `0x8007010B`, «nombre de directorio no válido»;
+  sin carpeta de inicio, `can't open file`). En `%USERPROFILE%` no hay
+  virtualización. **Verificado el 2026-10-09:** la tarea, lanzada por el
+  Programador, extrajo el SharePoint en unos 80 s, sin avisos, hizo commit y
+  push, y la publicación que disparó dejó el sitio con el padrón, la
+  actividad y el gasto de esa corrida y las actas de la nube.
 - GitHub desactiva los flujos programados de los repositorios públicos tras
   60 días sin actividad. Si el sitio deja de actualizarse, revisar primero
   la pestaña Actions.

@@ -206,11 +206,11 @@ corrida:
 En Windows, la tarea programada corre solo la parte del SharePoint y la sube
 (`--fuentes sharepoint --subir`; si corriera todo, sus cambios en las actas
 chocarían con los commits del bot). Corre en una copia del repo dedicada,
-no en la de trabajo. Montarla, una sola vez (reemplazar la ruta de python,
-que sale de `where python`):
+no en la de trabajo, y fuera de `AppData` (ADR-024). Montarla, una sola
+vez (reemplazar la ruta de python, que sale de `where python`):
 
 ```
-git clone https://github.com/wramirezsa/asamblea_costa_rica.git "%LOCALAPPDATA%\AsambleaAbierta\repo"
+git clone https://github.com/wramirezsa/asamblea_costa_rica.git "%USERPROFILE%\AsambleaAbierta\repo"
 ```
 
 En esa copia, `git config user.name`, `git config user.email` (el noreply
@@ -218,7 +218,7 @@ de GitHub) y `git config credential.helper manager`. Después, en
 PowerShell:
 
 ```
-$accion = New-ScheduledTaskAction -Execute "<ruta a python.exe>" -Argument '"<copia>\etl\actualizar.py" --fuentes sharepoint --subir' -WorkingDirectory "<copia>"
+$accion = New-ScheduledTaskAction -Execute "<ruta a python.exe>" -Argument '"<copia>\etl\actualizar.py" --fuentes sharepoint --subir'
 $ajustes = New-ScheduledTaskSettingsSet -StartWhenAvailable -RunOnlyIfNetworkAvailable -ExecutionTimeLimit (New-TimeSpan -Hours 2)
 Register-ScheduledTask -TaskName "Asamblea Abierta - actualizar" -Action $accion -Settings $ajustes -Trigger (New-ScheduledTaskTrigger -Daily -At 6am)
 ```
