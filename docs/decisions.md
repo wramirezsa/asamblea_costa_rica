@@ -914,11 +914,19 @@ gratuitos y no hace falta ninguna cuenta ni servicio nuevo.
   `sin_documento`, que solo cubre la ventana de la corrida: un acta que nunca
   trajera texto habría salido de la ventana sin que nadie se enterara. Ahora
   compara el índice del SIL+ contra lo procesado.
-- **La tarea de Windows cambia de papel**: ya no corre todo, sino
-  `--fuentes sharepoint`. Si corriera todo, sus cambios en las actas
-  chocarían con los commits del bot. Para que sea sin intervención tiene que
-  subir lo que extrae (commit de `data/` y push); eso es una decisión del
-  responsable del proyecto, pendiente al cierre de este ADR.
+- **La tarea de Windows cambia de papel** (decidido por el responsable del
+  proyecto el mismo día: «que suba sola»). Corre
+  `actualizar.py --fuentes sharepoint --subir` en una **copia del repo
+  dedicada** (`%LOCALAPPDATA%\AsambleaAbierta\repo`), nunca en la copia de
+  trabajo: así no toca lo que alguien esté editando. Antes de extraer se pone
+  al día con GitHub; al terminar bien hace commit de `data/raw`,
+  `data/processed` y `data/assets` (nunca `data/curated/`, que edita una
+  persona), se rebasa sobre los commits del bot y hace push, que publica el
+  sitio. No sube nada si la copia no está en `main` o si tiene commits sin
+  subir que no sean suyos (prefijo `Datos (SharePoint):`); lo avisa con
+  código 2. Corre a las 06:00 o, si la computadora estaba apagada, apenas
+  se enciende y hay red. Si corriera todo, sus cambios en las actas
+  chocarían con los commits del bot.
 - GitHub desactiva los flujos programados de los repositorios públicos tras
   60 días sin actividad. Si el sitio deja de actualizarse, revisar primero
   la pestaña Actions.

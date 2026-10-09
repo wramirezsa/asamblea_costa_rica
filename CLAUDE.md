@@ -111,8 +111,9 @@ En producción, `.github/workflows/actualizar.yml` corre cada día
 publica el sitio en GitHub Pages (ADR-024). **`www.asamblea.go.cr` no
 responde desde fuera de Costa Rica**: el padrón, la actividad y el gasto
 (`--fuentes sharepoint`) solo se pueden extraer desde una computadora en el
-país. Antes de trabajar en local, `git pull`: el bot commitea datos a
-diario.
+país: la tarea programada de Windows lo corre con `--subir` en una copia
+dedicada (`%LOCALAPPDATA%\AsambleaAbierta\repo`) y el push publica. Antes de
+trabajar en local, `git pull`: llegan commits de datos a diario.
 
 Antes de dar una tarea por terminada, ver `docs/test-playbook.md`.
 

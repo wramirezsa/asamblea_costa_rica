@@ -32,6 +32,10 @@ Uso:
     python etl/actualizar.py --completo
     python etl/actualizar.py --fuentes sil          # solo actas (asi corre la nube)
     python etl/actualizar.py --fuentes sharepoint   # todo lo demas
+    python etl/actualizar.py --fuentes sharepoint --subir
+        # asi corre la tarea programada en Costa Rica: al terminar bien hace
+        # commit y push de data/ y el push publica el sitio. Corre en una
+        # copia del repo dedicada a eso, no en la de trabajo (ADR-024).
 """
 
 from __future__ import annotations
@@ -60,6 +64,10 @@ VENTANA_ACTAS_DIAS = 14
 # Con las fuentes repartidas entre la nube y una computadora en el pais, una
 # parte puede quedarse vieja sin que nada falle. Pasado este plazo se avisa.
 VIGENCIA_DIAS = 7
+
+# --subir: lo que escribe el ETL y con que marca se reconocen sus commits.
+RUTAS_DATOS = ["data/raw", "data/processed", "data/assets"]
+PREFIJO_COMMIT = "Datos (SharePoint):"
 
 
 def pasos(completo: bool, fuentes: str) -> list[list[str]]:
@@ -150,24 +158,103 @@ def revisar() -> list[str]:
     return avisos
 
 
+def git(*args: str) -> subprocess.CompletedProcess:
+    return subprocess.run(["git", *args], cwd=RAIZ, capture_output=True, text=True,
+                          encoding="utf-8")
+
+
+def _fallo_git(registro, paso: str, r: subprocess.CompletedProcess) -> list[str]:
+    registro.write(f"\n--- git {paso} ---\n{r.stdout}{r.stderr}")
+    detalle = (r.stderr or r.stdout).strip().splitlines()
+    return [f"No se subieron los datos: fallo `git {paso}`"
+            f"{': ' + detalle[-1][:160] if detalle else ''}."]
+
+
+def preparar_subida(registro) -> list[str]:
+    """Antes de extraer: la copia tiene que estar en main, sin commits ajenos
+    sin subir, y al dia con GitHub (codigo nuevo y actas del bot).
+
+    Pensado para una copia del repo dedicada a la tarea programada, no para
+    la copia de trabajo de una persona. Igual, ante cualquier duda no sigue y
+    avisa: nunca sube trabajo que no sea del ETL.
+    """
+    r = git("rev-parse", "--abbrev-ref", "HEAD")
+    if r.returncode != 0:
+        return _fallo_git(registro, "rev-parse", r)
+    if r.stdout.strip() != "main":
+        return [f"No se subieron los datos: la copia esta en «{r.stdout.strip()}», no en main."]
+    r = git("fetch", "-q", "origin", "main")
+    if r.returncode != 0:
+        return _fallo_git(registro, "fetch", r)
+    ajenos = [m for m in git("log", "--format=%s", "origin/main..HEAD").stdout.splitlines()
+              if not m.startswith(PREFIJO_COMMIT)]
+    if ajenos:
+        return [f"No se subieron los datos: hay {len(ajenos)} commit(s) locales sin subir "
+                f"que no son de datos («{ajenos[0][:60]}»). Subirlos o descartarlos a mano."]
+    r = git("pull", "-q", "--rebase", "origin", "main")
+    if r.returncode != 0:
+        git("rebase", "--abort")
+        return _fallo_git(registro, "pull --rebase", r)
+    return []
+
+
+def subir(registro) -> list[str]:
+    """Despues de extraer: commit de lo que escribe el ETL y push a main.
+
+    data/curated/ queda fuera: lo edita una persona y nunca se sube solo.
+    """
+    rutas = [p for p in RUTAS_DATOS if (RAIZ / p).exists()]
+    git("add", "--", *rutas)
+    if git("diff", "--cached", "--quiet", "--", *rutas).returncode != 0:
+        r = git("commit", "-q", "-m",
+                f"{PREFIJO_COMMIT} actualizacion desde Costa Rica del {date.today()}",
+                "--", *rutas)
+        if r.returncode != 0:
+            return _fallo_git(registro, "commit", r)
+    # El bot pudo haber subido actas mientras tanto: toca otros archivos.
+    r = git("pull", "-q", "--rebase", "origin", "main")
+    if r.returncode != 0:
+        git("rebase", "--abort")
+        return _fallo_git(registro, "pull --rebase", r)
+    if not git("log", "--format=%s", "origin/main..HEAD").stdout.strip():
+        print("  Nada nuevo que subir.")
+        return []
+    r = git("push", "-q", "origin", "HEAD:main")
+    if r.returncode != 0:
+        return _fallo_git(registro, "push", r)
+    print("  Datos subidos a GitHub: el sitio se publica solo.")
+    return []
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__.split("\n\n")[0])
     ap.add_argument("--completo", action="store_true",
                     help="tambien fotos, banderas y colores (cambian muy poco)")
     ap.add_argument("--fuentes", choices=("todas", "sil", "sharepoint"), default="todas",
                     help="que fuentes consultar (la nube solo alcanza el SIL+)")
+    ap.add_argument("--subir", action="store_true",
+                    help="al terminar bien, commit y push de lo extraido a main (la "
+                         "computadora en Costa Rica; ADR-024)")
     args = ap.parse_args()
     BITACORA.mkdir(parents=True, exist_ok=True)
     ruta = BITACORA / f"actualizacion-{datetime.now():%Y-%m-%d_%H%M}.log"
     print(f"Actualizacion del {datetime.now():%Y-%m-%d %H:%M} (fuentes: {args.fuentes})"
           f"{' (completa)' if args.completo else ''}")
     with ruta.open("w", encoding="utf-8") as registro:
+        if args.subir:
+            problemas = preparar_subida(registro)
+            if problemas:
+                # No se extrae nada: quedarian cambios locales sin poder subir.
+                print("\n  REQUIERE ATENCION:\n      - " + "\n      - ".join(problemas))
+                return 2
         for paso in pasos(args.completo, args.fuentes):
             if not correr(paso, registro):
                 print(f"\n  Se detuvo en {paso[0]}. El sitio sigue con el ultimo dato bueno.")
                 print(f"  Detalle: {ruta.relative_to(RAIZ)}")
                 return 1
         avisos = revisar()
+        if args.subir:
+            avisos += subir(registro)
         registro.write("\n===== REVISION =====\n" + "\n".join(avisos or ["sin avisos"]) + "\n")
 
     actas = json.loads((PROCESADO / "actas_plenario.json").read_text(encoding="utf-8"))["resumen"]

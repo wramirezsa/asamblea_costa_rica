@@ -203,13 +203,30 @@ corrida:
   tabla de equivalencias), correr `fetch_actas.py` en local y subir el
   resultado.
 
-En Windows, la tarea programada tiene que correr solo la parte del
-SharePoint; si corre todo, sus cambios en las actas chocan con los commits
-del bot (reemplazar las rutas; la de python sale de `where python`):
+En Windows, la tarea programada corre solo la parte del SharePoint y la sube
+(`--fuentes sharepoint --subir`; si corriera todo, sus cambios en las actas
+chocarían con los commits del bot). Corre en una copia del repo dedicada,
+no en la de trabajo. Montarla, una sola vez (reemplazar la ruta de python,
+que sale de `where python`):
 
 ```
-schtasks /Create /TN "Asamblea Abierta - actualizar" /SC DAILY /ST 06:00 /TR "<ruta a python.exe> <ruta del proyecto>/etl/actualizar.py --fuentes sharepoint"
+git clone https://github.com/wramirezsa/asamblea_costa_rica.git "%LOCALAPPDATA%\AsambleaAbierta\repo"
 ```
+
+En esa copia, `git config user.name`, `git config user.email` (el noreply
+de GitHub) y `git config credential.helper manager`. Después, en
+PowerShell:
+
+```
+$accion = New-ScheduledTaskAction -Execute "<ruta a python.exe>" -Argument '"<copia>\etl\actualizar.py" --fuentes sharepoint --subir' -WorkingDirectory "<copia>"
+$ajustes = New-ScheduledTaskSettingsSet -StartWhenAvailable -RunOnlyIfNetworkAvailable -ExecutionTimeLimit (New-TimeSpan -Hours 2)
+Register-ScheduledTask -TaskName "Asamblea Abierta - actualizar" -Action $accion -Settings $ajustes -Trigger (New-ScheduledTaskTrigger -Daily -At 6am)
+```
+
+Cómo comprobarla: `Start-ScheduledTask "Asamblea Abierta - actualizar"`,
+y al rato `Get-ScheduledTaskInfo` (resultado 0, o 2 si hay avisos), la
+bitácora en `<copia>\data\bitacora\`, un commit «Datos (SharePoint): …» en
+GitHub y la corrida de publicación que dispara.
 
 Con `--completo` también refresca fotos, banderas y colores; basta una vez
 por semana.

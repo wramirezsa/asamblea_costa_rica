@@ -183,7 +183,7 @@ período. **Estos datos NO están en el sitio y no deben publicarse todavía**
 solas todos los días a las 06:17 en GitHub Actions, y el sitio se publica en
 `https://wramirezsa.github.io/asamblea_costa_rica/` (ADR-024). La tarea
 «Asamblea Abierta - actualizar» del Programador de tareas de Windows (creada
-el 2026-10-09) todavía corre el ETL completo y no sube nada: hay que pasarla
-a `--fuentes sharepoint` con commit y push, o el padrón, la actividad y el
-gasto del sitio se quedan con la fecha del 2026-10-09. Decisión pendiente
-del responsable del proyecto.
+el 2026-10-09) corre `--fuentes sharepoint --subir` en la copia dedicada
+`%LOCALAPPDATA%\AsambleaAbierta\repo`: extrae el padrón, la actividad y el
+gasto, los sube y el push publica. Si la computadora pasa más de 7 días sin
+correrla, la corrida diaria de la nube abre un issue.
