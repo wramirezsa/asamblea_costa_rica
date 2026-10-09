@@ -22,18 +22,26 @@ Reglas, las mismas del resto del ETL:
   reporta y el script termina con codigo 2, para que el programador de tareas
   lo marque como "requiere atencion".
 
+El SharePoint de la Asamblea (www.asamblea.go.cr) solo acepta conexiones
+desde Costa Rica; el SIL+ responde desde cualquier lado (ADR-024). Por eso
+se puede correr por fuente: la nube corre `--fuentes sil` y una computadora
+en el pais corre `--fuentes sharepoint`.
+
 Uso:
     python etl/actualizar.py
     python etl/actualizar.py --completo
+    python etl/actualizar.py --fuentes sil          # solo actas (asi corre la nube)
+    python etl/actualizar.py --fuentes sharepoint   # todo lo demas
 """
 
 from __future__ import annotations
 
+import argparse
 import json
 import os
 import subprocess
 import sys
-from datetime import date, datetime, timedelta
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 # Programada, la tarea corre sin consola: se fija utf-8 aqui para no depender
@@ -49,18 +57,22 @@ BITACORA = RAIZ / "data" / "bitacora"
 # levantar las que el dia anterior todavia no tenian texto.
 VENTANA_ACTAS_DIAS = 14
 
+# Con las fuentes repartidas entre la nube y una computadora en el pais, una
+# parte puede quedarse vieja sin que nada falle. Pasado este plazo se avisa.
+VIGENCIA_DIAS = 7
 
-def pasos(completo: bool) -> list[list[str]]:
+
+def pasos(completo: bool, fuentes: str) -> list[list[str]]:
     desde = (date.today() - timedelta(days=VENTANA_ACTAS_DIAS)).isoformat()
-    lista = [["fetch_diputados.py"], ["fetch_directorio.py"]]
-    if completo:
-        lista += [["fetch_assets.py"], ["derive_colores.py"]]
-    lista += [
-        ["fetch_actividad.py"],
-        ["fetch_gasto.py"],
-        ["fetch_actas.py", "--desde", desde, "--solo-nuevas"],
-        ["publish_web.py"],
-    ]
+    lista = []
+    if fuentes in ("todas", "sharepoint"):
+        lista += [["fetch_diputados.py"], ["fetch_directorio.py"]]
+        if completo:
+            lista += [["fetch_assets.py"], ["derive_colores.py"]]
+        lista += [["fetch_actividad.py"], ["fetch_gasto.py"]]
+    if fuentes in ("todas", "sil"):
+        lista += [["fetch_actas.py", "--desde", desde, "--solo-nuevas"]]
+    lista += [["publish_web.py"]]
     return lista
 
 
@@ -119,16 +131,38 @@ def revisar() -> list[str]:
             viejas.append(f"{f['Nombre_Tipo'].lower()} #{f['Numero_Sesion_1']} ({a}-{m}-{d})")
     if viejas:
         avisos.append(f"Actas que llevan mas de {VENTANA_ACTAS_DIAS} dias sin texto: {viejas}.")
+
+    # Lo que esta corrida no refresco puede llevar dias sin actualizarse.
+    actividad = json.loads((PROCESADO / "actividad.json").read_text(encoding="utf-8"))
+    ahora = datetime.now(timezone.utc)
+    for nombre, cuando, como in (
+        ("Padron", dips.get("generado"), "--fuentes sharepoint"),
+        ("Actividad legislativa", actividad.get("generado"), "--fuentes sharepoint"),
+        ("Gasto", gasto.get("_extraido"), "--fuentes sharepoint"),
+        ("Actas", actas.get("_extraido"), "--fuentes sil"),
+    ):
+        if cuando and (ahora - datetime.fromisoformat(cuando)).days > VIGENCIA_DIAS:
+            donde = (" en una computadora en Costa Rica: el SharePoint no responde "
+                     "desde fuera del pais (ADR-024)") if "sharepoint" in como else ""
+            avisos.append(f"{nombre}: sin actualizar desde {cuando[:10]} (mas de "
+                          f"{VIGENCIA_DIAS} dias). Correr `python etl/actualizar.py "
+                          f"{como}`{donde}.")
     return avisos
 
 
 def main() -> int:
-    completo = "--completo" in sys.argv
+    ap = argparse.ArgumentParser(description=__doc__.split("\n\n")[0])
+    ap.add_argument("--completo", action="store_true",
+                    help="tambien fotos, banderas y colores (cambian muy poco)")
+    ap.add_argument("--fuentes", choices=("todas", "sil", "sharepoint"), default="todas",
+                    help="que fuentes consultar (la nube solo alcanza el SIL+)")
+    args = ap.parse_args()
     BITACORA.mkdir(parents=True, exist_ok=True)
     ruta = BITACORA / f"actualizacion-{datetime.now():%Y-%m-%d_%H%M}.log"
-    print(f"Actualizacion del {datetime.now():%Y-%m-%d %H:%M}{' (completa)' if completo else ''}")
+    print(f"Actualizacion del {datetime.now():%Y-%m-%d %H:%M} (fuentes: {args.fuentes})"
+          f"{' (completa)' if args.completo else ''}")
     with ruta.open("w", encoding="utf-8") as registro:
-        for paso in pasos(completo):
+        for paso in pasos(args.completo, args.fuentes):
             if not correr(paso, registro):
                 print(f"\n  Se detuvo en {paso[0]}. El sitio sigue con el ultimo dato bueno.")
                 print(f"  Detalle: {ruta.relative_to(RAIZ)}")

@@ -106,10 +106,13 @@ edita a mano.
 Todo lo anterior corre en un solo paso con `python etl/actualizar.py`, que
 se puede programar a diario (ver `docs/test-playbook.md`).
 
-En producción todo eso corre solo: `.github/workflows/actualizar.yml` ejecuta
-`etl/actualizar.py` cada día, guarda `data/` en el repo y publica el sitio en
-GitHub Pages (ADR-024). Antes de trabajar en local, `git pull`: el bot
-commitea datos a diario.
+En producción, `.github/workflows/actualizar.yml` corre cada día
+`etl/actualizar.py --fuentes sil` (actas), guarda `data/` en el repo y
+publica el sitio en GitHub Pages (ADR-024). **`www.asamblea.go.cr` no
+responde desde fuera de Costa Rica**: el padrón, la actividad y el gasto
+(`--fuentes sharepoint`) solo se pueden extraer desde una computadora en el
+país. Antes de trabajar en local, `git pull`: el bot commitea datos a
+diario.
 
 Antes de dar una tarea por terminada, ver `docs/test-playbook.md`.
 

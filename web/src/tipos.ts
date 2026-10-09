@@ -295,8 +295,22 @@ export interface Gasto {
   >
 }
 
+/**
+ * Cuándo se leyó cada fuente (ISO 8601). No confundir con `generado`, que es
+ * cuándo se armó el payload: las fuentes se actualizan en momentos distintos
+ * (ADR-024).
+ */
+export interface Extraido {
+  padron: string | null
+  directorio: string | null
+  actividad: string | null
+  gasto: string | null
+  actas: string | null
+}
+
 export interface Asamblea {
   generado: string
+  extraido: Extraido
   gasto: Gasto | null
   periodo: string
   fuente_oficial: string

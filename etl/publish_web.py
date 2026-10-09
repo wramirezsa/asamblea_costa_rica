@@ -284,8 +284,22 @@ def main() -> int:
             }
         )
 
+    # Cuando se leyo cada fuente. No es lo mismo que `generado` (cuando se
+    # armo este payload): en la nube el sitio se compila a diario, pero el
+    # SharePoint de la Asamblea solo responde desde Costa Rica y se actualiza
+    # cuando corre la computadora local (ADR-024). La cabecera muestra la
+    # fecha mas vieja de estas, para no aparentar frescura que no hay.
+    extraido = {
+        "padron": d.get("generado"),
+        "directorio": directorio.get("generado"),
+        "actividad": actividad.get("generado") if actividad else None,
+        "gasto": g.get("_extraido") if archivo_gasto.exists() else None,
+        "actas": actas.get("_extraido") if archivo_actas.exists() else None,
+    }
+
     salida = {
         "generado": ahora_iso(),
+        "extraido": extraido,
         "periodo": d["periodo"],
         "fuente_oficial": d["fuentes"]["diputados"],
         "licencia": d["licencia"],

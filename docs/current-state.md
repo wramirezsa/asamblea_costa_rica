@@ -156,8 +156,11 @@ período. **Estos datos NO están en el sitio y no deben publicarse todavía**
 4. **Verificación TLS relajada en el SharePoint** (ADR-002). El SIL+ ya
    verifica con el intermedio guardado (ADR-024); el mismo archivo serviría
    para el SharePoint.
-5. **Dependencia de GitHub** para la actualización y la publicación
-   (ADR-024). El ETL no depende de GitHub: corre igual en local.
+5. **El SharePoint solo responde desde Costa Rica** (ADR-024). La nube
+   actualiza las actas; el padrón, la actividad y el gasto dependen de una
+   computadora en el país. Si pasan más de 7 días sin refrescarse, la
+   corrida diaria lo avisa en un issue. Además, dependencia de GitHub para
+   programar y publicar; el ETL no depende de GitHub.
 6. **El mapa de curules es curaduría propia**, no dato oficial. Declarado en
    la interfaz.
 
@@ -176,7 +179,11 @@ período. **Estos datos NO están en el sitio y no deben publicarse todavía**
    Plenario (JSON por cédula; sumaría comisiones).
 5. Definir medio de pago para las donaciones; dominio y despliegue.
 
-**Ya funcionando y programado:** `etl/actualizar.py` corre solo todos los días
-a las 06:17 en GitHub Actions y publica en GitHub Pages (ADR-024). La tarea
+**Ya funcionando y programado:** las actas (`--fuentes sil`) se actualizan
+solas todos los días a las 06:17 en GitHub Actions, y el sitio se publica en
+`https://wramirezsa.github.io/asamblea_costa_rica/` (ADR-024). La tarea
 «Asamblea Abierta - actualizar» del Programador de tareas de Windows (creada
-el 2026-10-09) quedó redundante y choca con los commits del bot.
+el 2026-10-09) todavía corre el ETL completo y no sube nada: hay que pasarla
+a `--fuentes sharepoint` con commit y push, o el padrón, la actividad y el
+gasto del sitio se quedan con la fecha del 2026-10-09. Decisión pendiente
+del responsable del proyecto.

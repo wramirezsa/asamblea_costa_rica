@@ -191,11 +191,13 @@ export default function PanelDiputado({
               <div className="nota-fuente">
                 Toda la información de esta ficha proviene del padrón oficial de la Asamblea
                 Legislativa de Costa Rica ({datos.periodo}), extraído el{' '}
-                {new Date(datos.generado).toLocaleDateString('es-CR', {
-                  day: 'numeric',
-                  month: 'long',
-                  year: 'numeric',
-                })}
+                {datos.extraido.padron
+                  ? new Date(datos.extraido.padron).toLocaleDateString('es-CR', {
+                      day: 'numeric',
+                      month: 'long',
+                      year: 'numeric',
+                    })
+                  : 'una fecha sin dato'}
                 . Los campos vacíos aparecen así porque la Asamblea no los publica: no se
                 completan con estimaciones.{' '}
                 <a href={dip.foto_oficial_url ?? datos.fuente_oficial} target="_blank" rel="noopener noreferrer">

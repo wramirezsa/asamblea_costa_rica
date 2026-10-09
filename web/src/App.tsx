@@ -5,6 +5,7 @@ import Actividad from './Actividad'
 import QuienTeRepresenta from './QuienTeRepresenta'
 import BarraVotacion from './BarraVotacion'
 import Votaciones from './Votaciones'
+import { FUENTES, extraccionMasVieja, fechaHora } from './frescura'
 import { aSlug, irA, leerRuta, ponerTitulo, recurso } from './rutas'
 import type { Asamblea, CodigoVoto, DatosVotaciones, Diputado } from './tipos'
 import { VOTO, buscarVotacion, cargarVotaciones, claveVotacion, nombreSesion, votoDe } from './votos'
@@ -271,6 +272,7 @@ export default function App() {
   const mayoriaSimple = Math.floor(datos.total / 2) + 1
   const bancadaMayor = activas[0]
   const filtrando = busqueda.trim() !== '' || bancadas.size > 0 || provincia !== ''
+  const masVieja = extraccionMasVieja(datos.extraido)
 
   return (
     <div className="app">
@@ -289,14 +291,23 @@ export default function App() {
 
         <div className="cabecera-espacio" />
 
-        <div className="sello-datos" title={`Fuente: ${datos.fuente_oficial}`}>
+        <div
+          className="sello-datos"
+          title={[
+            `Fuente: ${datos.fuente_oficial}`,
+            'Fecha de la extracción más vieja. Por fuente:',
+            ...FUENTES.map(([k, n]) => `${n}: ${fechaHora(datos.extraido[k])}`),
+          ].join('\n')}
+        >
           <span className="punto-vivo" />
           Datos oficiales ·{' '}
-          {new Date(datos.generado).toLocaleDateString('es-CR', {
-            day: '2-digit',
-            month: 'short',
-            year: 'numeric',
-          })}
+          {masVieja
+            ? new Date(masVieja).toLocaleDateString('es-CR', {
+                day: '2-digit',
+                month: 'short',
+                year: 'numeric',
+              })
+            : 'sin fecha'}
         </div>
       </header>
 
@@ -585,8 +596,10 @@ export default function App() {
               estimaciones.
             </p>
             <p style={{ fontSize: 11.5 }}>
-              Última extracción: {new Date(datos.generado).toLocaleString('es-CR')} · Proyecto
-              ciudadano independiente, sin vínculo con la Asamblea Legislativa.
+              Extracción por fuente:{' '}
+              {FUENTES.map(([k, n]) => `${n} ${fechaHora(datos.extraido[k])}`).join(' · ')}.
+              Sitio armado el {fechaHora(datos.generado)}. Proyecto ciudadano independiente,
+              sin vínculo con la Asamblea Legislativa.
             </p>
           </div>
 

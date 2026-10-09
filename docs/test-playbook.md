@@ -185,9 +185,11 @@ paso falló y el sitio quedó con el último dato bueno; **2** corrió bien pero
 hay algo que requiere ojo humano (otra cantidad de diputaciones, un nombre de
 acta sin resolver, votaciones no publicables, actas que no aparecen).
 
-**En producción corre en GitHub** (`.github/workflows/actualizar.yml`,
-ADR-024): todos los días a las 06:17 de Costa Rica, y a mano desde la pestaña
-Actions → «Actualizar y publicar» → *Run workflow*. Cómo comprobar una
+**En producción, las actas corren en GitHub** (`.github/workflows/actualizar.yml`,
+ADR-024): `actualizar.py --fuentes sil` todos los días a las 06:17 de Costa
+Rica, y a mano desde la pestaña Actions → «Actualizar y publicar» → *Run
+workflow*. El resto (`--fuentes sharepoint`) solo funciona desde Costa Rica:
+`www.asamblea.go.cr` no responde desde el exterior. Cómo comprobar una
 corrida:
 
 - El resumen de la corrida muestra la salida de `actualizar.py`; la bitácora
@@ -201,12 +203,12 @@ corrida:
   tabla de equivalencias), correr `fetch_actas.py` en local y subir el
   resultado.
 
-Programarlo en Windows ya no hace falta y choca con los commits del bot. Si
-se quisiera de todos modos (reemplazar las rutas; la de python sale de
-`where python`):
+En Windows, la tarea programada tiene que correr solo la parte del
+SharePoint; si corre todo, sus cambios en las actas chocan con los commits
+del bot (reemplazar las rutas; la de python sale de `where python`):
 
 ```
-schtasks /Create /TN "Asamblea Abierta - actualizar" /SC DAILY /ST 06:00 /TR "<ruta a python.exe> <ruta del proyecto>/etl/actualizar.py"
+schtasks /Create /TN "Asamblea Abierta - actualizar" /SC DAILY /ST 06:00 /TR "<ruta a python.exe> <ruta del proyecto>/etl/actualizar.py --fuentes sharepoint"
 ```
 
 Con `--completo` también refresca fotos, banderas y colores; basta una vez

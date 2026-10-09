@@ -853,12 +853,33 @@ gratuitos y no hace falta ninguna cuenta ni servicio nuevo.
 
 - **`.github/workflows/actualizar.yml`.** Todos los días a las 06:17 de Costa
   Rica (cron `17 12 * * *` en UTC; GitHub puede atrasarlo en horas de mucha
-  carga) corre `etl/actualizar.py` en Ubuntu con Python 3.12, guarda en el
-  repositorio lo que cambió en `data/` con la identidad
-  `github-actions[bot]`, compila el sitio y lo publica en GitHub Pages. El
-  historial de git queda como bitácora pública de qué dijo la fuente y
-  cuándo. También se puede correr a mano desde la pestaña Actions, con la
-  opción «completo» (fotos, banderas y colores).
+  carga) corre `etl/actualizar.py --fuentes sil` en Ubuntu con Python 3.12,
+  guarda en el repositorio lo que cambió en `data/` con la identidad
+  `github-actions[bot]`, compila el sitio y lo publica en GitHub Pages
+  (`https://wramirezsa.github.io/asamblea_costa_rica/`). El historial de git
+  queda como bitácora pública de qué dijo la fuente y cuándo. También se
+  puede correr a mano desde la pestaña Actions.
+- **Hallazgo: el SharePoint solo responde desde Costa Rica.** La primera
+  corrida completa en la nube falló en `fetch_diputados.py`: tres intentos de
+  120 s agotados (366 s). Comprobado desde afuera con check-host.net:
+  `www.asamblea.go.cr` no conecta desde ningún nodo extranjero (10 nodos, 9
+  países, puertos 443 y 80, con y sin `www`); el SIL+ sí (8 de 10). Detalle
+  en `docs/fuentes-de-datos.md`, «Trampas conocidas». Consecuencia: **la
+  nube corre solo `--fuentes sil`** (actas: presentes y voto nominal, lo que
+  más cambia). El padrón, el Directorio, la actividad y el gasto necesitan
+  una computadora en el país que corra `--fuentes sharepoint` y suba
+  `data/`; el push dispara la publicación. Un servidor en Costa Rica lo
+  resolvería del todo, pero es de pago y el proyecto no tiene esa
+  dependencia.
+- **La cabecera ya no aparenta frescura.** Mostraba `generado`, que es
+  cuándo se armó el payload; con la nube compilando a diario habría dicho
+  «hoy» aunque el padrón tuviera semanas. Ahora `publish_web.py` publica
+  `extraido` por fuente: la cabecera muestra la extracción más vieja y el
+  pie y el tooltip, la de cada fuente.
+- **Aviso de datos viejos.** `revisar()` avisa si una fuente lleva más de 7
+  días sin actualizarse (`VIGENCIA_DIAS`), con el comando que la refresca.
+  En la nube eso abre el issue: es como se entera alguien de que la
+  computadora local dejó de correr.
 - **Un push a `main` que toque `web/` o `data/` solo publica.** No le pide
   nada a la Asamblea.
 - **Las mismas reglas del ETL.** Código 1: no se guarda ni se publica nada,
@@ -893,8 +914,11 @@ gratuitos y no hace falta ninguna cuenta ni servicio nuevo.
   `sin_documento`, que solo cubre la ventana de la corrida: un acta que nunca
   trajera texto habría salido de la ventana sin que nadie se enterara. Ahora
   compara el índice del SIL+ contra lo procesado.
-- **La tarea de Windows queda redundante.** Si sigue activa, deja cambios
-  locales en `data/` que chocan con los commits del bot al hacer `git pull`.
+- **La tarea de Windows cambia de papel**: ya no corre todo, sino
+  `--fuentes sharepoint`. Si corriera todo, sus cambios en las actas
+  chocarían con los commits del bot. Para que sea sin intervención tiene que
+  subir lo que extrae (commit de `data/` y push); eso es una decisión del
+  responsable del proyecto, pendiente al cierre de este ADR.
 - GitHub desactiva los flujos programados de los repositorios públicos tras
   60 días sin actividad. Si el sitio deja de actualizarse, revisar primero
   la pestaña Actions.

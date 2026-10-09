@@ -1,7 +1,12 @@
 # Actualiza los datos desde las fuentes oficiales y publica el sitio (ADR-024).
 #
-# - Todos los dias a las 06:17 de Costa Rica corre etl/actualizar.py, guarda
-#   en el repositorio lo que cambio en data/ y publica el sitio en GitHub Pages.
+# - Todos los dias a las 06:17 de Costa Rica corre etl/actualizar.py con
+#   --fuentes sil (actas del Plenario), guarda en el repositorio lo que cambio
+#   en data/ y publica el sitio en GitHub Pages.
+# - Solo el SIL+: www.asamblea.go.cr (el SharePoint: padron, actividad,
+#   gasto) no acepta conexiones desde fuera de Costa Rica. Esa parte la corre
+#   una computadora en el pais con --fuentes sharepoint y la sube; el push la
+#   publica. Si se queda vieja mas de 7 dias, la revision lo avisa.
 # - Con cada push a main que toque el sitio o los datos, solo publica: no le
 #   pide nada a la Asamblea.
 # - Si un paso del ETL falla (codigo 1) no se guarda ni se publica nada: el
@@ -17,11 +22,6 @@ on:
   schedule:
     - cron: "17 12 * * *"  # 12:17 UTC = 06:17 en Costa Rica
   workflow_dispatch:
-    inputs:
-      completo:
-        description: "Tambien fotos, banderas y colores (cambian muy poco)"
-        type: boolean
-        default: false
   push:
     branches: [main]
     paths:
@@ -57,17 +57,13 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Dependencias del ETL
-        run: pip install openpyxl==3.1.5 Pillow==10.4.0
-
       - name: ETL (etl/actualizar.py)
         id: etl
         env:
           PYTHONIOENCODING: utf-8
-          COMPLETO: ${{ inputs.completo && '--completo' || '' }}
         run: |
           set +e
-          python etl/actualizar.py $COMPLETO | tee "$RUNNER_TEMP/salida.txt"
+          python etl/actualizar.py --fuentes sil | tee "$RUNNER_TEMP/salida.txt"
           codigo=${PIPESTATUS[0]}
           echo "codigo=$codigo" >> "$GITHUB_OUTPUT"
           { echo '```'; cat "$RUNNER_TEMP/salida.txt"; echo '```'; } >> "$GITHUB_STEP_SUMMARY"
@@ -130,7 +126,9 @@ jobs:
       - name: Fallo del ETL
         if: steps.etl.outputs.codigo != '0' && steps.etl.outputs.codigo != '2'
         run: |
-          echo "::error::El ETL fallo (codigo ${{ steps.etl.outputs.codigo }}). No se guardo ni se publico nada: el sitio sigue con el ultimo dato bueno. Detalle en la bitacora adjunta."
+          echo "::error::El ETL fallo (codigo ${{ steps.etl.outputs.codigo }}). No se guardo ni se publico nada: el sitio sigue con el ultimo dato bueno."
+          # El detalle del error queda a la vista, sin bajar el artefacto.
+          { echo; echo "Final de la bitacora:"; echo '```'; tail -n 40 data/bitacora/*.log; echo '```'; } >> "$GITHUB_STEP_SUMMARY"
           exit 1
 
   publicar:

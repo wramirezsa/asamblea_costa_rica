@@ -408,7 +408,18 @@ Subsitio `Diputados`: `UsoVehiculosYCombustiblesXDiputado` (639),
 ## Trampas conocidas
 
 - **Certificado TLS**: cadena incompleta (falta el intermedio). Los
-  navegadores lo resuelven con AIA fetching; Python no. Ver ADR-002.
+  navegadores lo resuelven con AIA fetching; Python no. Ver ADR-002. El SIL+
+  tiene el mismo certificado y el mismo problema; en Windows no se nota
+  porque el sistema completa la cadena solo (ADR-024).
+- **`www.asamblea.go.cr` solo responde desde Costa Rica.** Verificado el
+  2026-10-09: desde GitHub Actions (EE. UU.) la conexión se agota, y lo
+  mismo desde 10 nodos de check-host.net en 9 países, en los puertos 443 y
+  80, con y sin `www` (IP 196.40.23.181). El SIL+
+  (`produccion.asamblea.go.cr`, IP 196.40.23.164) sí responde desde el
+  exterior: conectaron 8 de 10 nodos (no Rusia ni Ucrania). Por eso la nube
+  solo actualiza las actas, y el padrón, la actividad y el gasto necesitan
+  una computadora en el país (ADR-024). Lo verificado son esas pruebas, no
+  una política declarada: la Asamblea podría cambiarla sin aviso.
 - **URLs con espacios**: hay archivos como `ps_guadamuz_rosales .jpg` (espacio
   antes de la extensión) y URLs ya codificadas. Hay que `unquote` antes de
   `quote` o se producen dobles escapes (`%20` → `%2520`) y da 404.
