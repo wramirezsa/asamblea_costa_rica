@@ -1,0 +1,1567 @@
+{
+  "_fuente": "https://www.youtube.com/channel/UCWN0rIWneMdqRmZ4yHs5GuA/streams",
+  "_extraido": "2026-09-04T15:19:00+00:00",
+  "_nota": "Indice de las transmisiones del Plenario publicadas por la propia Asamblea. Numero, tipo y fecha se leen del titulo que ella misma escribe; no hay otra fuente estructurada. Los titulos que no se pudieron interpretar quedan en `sin_parsear`, sin completar.",
+  "canal": {
+    "nombre": "Asamblea Legislativa Costa Rica",
+    "id": "UCWN0rIWneMdqRmZ4yHs5GuA",
+    "url": "https://www.youtube.com/@AsambleaCRC"
+  },
+  "periodo": "2026-2030",
+  "desde": "2026-05-01",
+  "total": 77,
+  "total_videos": 80,
+  "por_tipo": {
+    "ordinaria": 57,
+    "extraordinaria": 20
+  },
+  "horas_transmitidas": 276.3,
+  "primera": "2026-05-05",
+  "ultima": "2026-09-03",
+  "numeros_sin_transmision": {
+    "ordinaria": [
+      1,
+      2,
+      6,
+      20
+    ],
+    "extraordinaria": [
+      8,
+      20
+    ]
+  },
+  "sesiones_en_varios_videos": [
+    {
+      "tipo": "ordinaria",
+      "numero": 17,
+      "fecha": "2026-05-28",
+      "fecha_fin": null,
+      "videos": [
+        "LrPGe6rki7E",
+        "GTrmmRa6B04"
+      ]
+    },
+    {
+      "tipo": "ordinaria",
+      "numero": 31,
+      "fecha": "2026-06-29",
+      "fecha_fin": "2026-06-30",
+      "videos": [
+        "ou1L-d7Dlsw",
+        "48eQeUCCFEU"
+      ]
+    },
+    {
+      "tipo": "extraordinaria",
+      "numero": 21,
+      "fecha": "2026-09-01",
+      "fecha_fin": "2026-09-02",
+      "videos": [
+        "vhPGoARDp8c",
+        "VYq4j89Gw_M"
+      ]
+    }
+  ],
+  "sin_parsear": [
+    {
+      "video_id": "WOVO2MhV-1I",
+      "titulo": "Plenario Legislativo, Sesión #102, 14 enero 2026"
+    }
+  ],
+  "advertencias": [
+    "Sin transmision indexada para 4 sesion(es) ordinaria: [1, 2, 6, 20]",
+    "Sin transmision indexada para 2 sesion(es) extraordinaria: [8, 20]"
+  ],
+  "sesiones": [
+    {
+      "tipo": "ordinaria",
+      "numero": 3,
+      "fecha": "2026-05-05",
+      "fecha_fin": null,
+      "duracion_s": 13308,
+      "videos": [
+        {
+          "video_id": "iR-1YYXOIfQ",
+          "url": "https://www.youtube.com/watch?v=iR-1YYXOIfQ",
+          "titulo": "Plenario Legislativo, Sesión Ordinaria #03,  05 mayo 2026",
+          "fecha": "2026-05-05",
+          "parte": null,
+          "duracion_s": 13308,
+          "vistas": 14000
+        }
+      ],
+      "_agrupado_por": "tipo + numero declarados por la Asamblea en el titulo"
+    },
+    {
+      "tipo": "ordinaria",
+      "numero": 4,
+      "fecha": "2026-05-06",
+      "fecha_fin": null,
+      "duracion_s": 13970,
+      "videos": [
+        {
+          "video_id": "_dAERyLYeFQ",
+          "url": "https://www.youtube.com/watch?v=_dAERyLYeFQ",
+          "titulo": "Plenario Legislativo, Sesión Ordinaria #04,  06 mayo 2026",
+          "fecha": "2026-05-06",
+          "parte": null,
+          "duracion_s": 13970,
+          "vistas": 8900
+        }
+      ],
+      "_agrupado_por": "tipo + numero declarados por la Asamblea en el titulo"
+    },
+    {
+      "tipo": "ordinaria",
+      "numero": 5,
+      "fecha": "2026-05-07",
+      "fecha_fin": null,
+      "duracion_s": 9330,
+      "videos": [
+        {
+          "video_id": "MXialJ49KM4",
+          "url": "https://www.youtube.com/watch?v=MXialJ49KM4",
+          "titulo": "Plenario Legislativo, Sesión Ordinaria #05,  07 mayo 2026",
+          "fecha": "2026-05-07",
+          "parte": null,
+          "duracion_s": 9330,
+          "vistas": 10000
+        }
+      ],
+      "_agrupado_por": "tipo + numero declarados por la Asamblea en el titulo"
+    },
+    {
+      "tipo": "ordinaria",
+      "numero": 7,
+      "fecha": "2026-05-11",
+      "fecha_fin": null,
+      "duracion_s": 22139,
+      "videos": [
+        {
+          "video_id": "T-Sc0P0l-ts",
+          "url": "https://www.youtube.com/watch?v=T-Sc0P0l-ts",
+          "titulo": "Plenario Legislativo, Sesión Ordinaria #07, 11 mayo 2026",
+          "fecha": "2026-05-11",
+          "parte": null,
+          "duracion_s": 22139,
+          "vistas": 17000
+        }
+      ],
+      "_agrupado_por": "tipo + numero declarados por la Asamblea en el titulo"
+    },
+    {
+      "tipo": "ordinaria",
+      "numero": 8,
+      "fecha": "2026-05-12",
+      "fecha_fin": null,
+      "duracion_s": 13894,
+      "videos": [
+        {
+          "video_id": "FQlcIeYYRCA",
+          "url": "https://www.youtube.com/watch?v=FQlcIeYYRCA",
+          "titulo": "Plenario Legislativo, Sesión Ordinaria #08, 12 mayo 2026",
+          "fecha": "2026-05-12",
+          "parte": null,
+          "duracion_s": 13894,
+          "vistas": 15000
+        }
+      ],
+      "_agrupado_por": "tipo + numero declarados por la Asamblea en el titulo"
+    },
+    {
+      "tipo": "ordinaria",
+      "numero": 9,
+      "fecha": "2026-05-13",
+      "fecha_fin": null,
+      "duracion_s": 8186,
+      "videos": [
+        {
+          "video_id": "GVcA1hodL80",
+          "url": "https://www.youtube.com/watch?v=GVcA1hodL80",
+          "titulo": "Plenario Legislativo, Sesión Ordinaria #09, 13 mayo 2026",
+          "fecha": "2026-05-13",
+          "parte": null,
+          "duracion_s": 8186,
+          "vistas": 9100
+        }
+      ],
+      "_agrupado_por": "tipo + numero declarados por la Asamblea en el titulo"
+    },
+    {
+      "tipo": "ordinaria",
+      "numero": 10,
+      "fecha": "2026-05-14",
+      "fecha_fin": null,
+      "duracion_s": 13198,
+      "videos": [
+        {
+          "video_id": "V6F3u0L2JmU",
+          "url": "https://www.youtube.com/watch?v=V6F3u0L2JmU",
+          "titulo": "Plenario Legislativo, Sesión Ordinaria #10, 14 mayo 2026",
+          "fecha": "2026-05-14",
+          "parte": null,
+          "duracion_s": 13198,
+          "vistas": 12000
+        }
+      ],
+      "_agrupado_por": "tipo + numero declarados por la Asamblea en el titulo"
+    },
+    {
+      "tipo": "ordinaria",
+      "numero": 11,
+      "fecha": "2026-05-18",
+      "fecha_fin": null,
+      "duracion_s": 15079,
+      "videos": [
+        {
+          "video_id": "7fKYQqR6E80",
+          "url": "https://www.youtube.com/watch?v=7fKYQqR6E80",
+          "titulo": "Plenario Legislativo, Sesión Ordinaria #11, 18 mayo 2026",
+          "fecha": "2026-05-18",
+          "parte": null,
+          "duracion_s": 15079,
+          "vistas": 10000
+        }
+      ],
+      "_agrupado_por": "tipo + numero declarados por la Asamblea en el titulo"
+    },
+    {
+      "tipo": "ordinaria",
+      "numero": 12,
+      "fecha": "2026-05-19",
+      "fecha_fin": null,
+      "duracion_s": 14820,
+      "videos": [
+        {
+          "video_id": "rt-SUyob2G8",
+          "url": "https://www.youtube.com/watch?v=rt-SUyob2G8",
+          "titulo": "Plenario Legislativo, Sesión Ordinaria #12, 19 mayo 2026",
+          "fecha": "2026-05-19",
+          "parte": null,
+          "duracion_s": 14820,
+          "vistas": 9400
+        }
+      ],
+      "_agrupado_por": "tipo + numero declarados por la Asamblea en el titulo"
+    },
+    {
+      "tipo": "ordinaria",
+      "numero": 13,
+      "fecha": "2026-05-20",
+      "fecha_fin": null,
+      "duracion_s": 7045,
+      "videos": [
+        {
+          "video_id": "Gc7_TQMdX8o",
+          "url": "https://www.youtube.com/watch?v=Gc7_TQMdX8o",
+          "titulo": "Plenario Legislativo, Sesión Ordinaria #13, 20 mayo 2026",
+          "fecha": "2026-05-20",
+          "parte": null,
+          "duracion_s": 7045,
+          "vistas": 4700
+        }
+      ],
+      "_agrupado_por": "tipo + numero declarados por la Asamblea en el titulo"
+    },
+    {
+      "tipo": "ordinaria",
+      "numero": 14,
+      "fecha": "2026-05-21",
+      "fecha_fin": null,
+      "duracion_s": 9392,
+      "videos": [
+        {
+          "video_id": "uFMTFpU1GMI",
+          "url": "https://www.youtube.com/watch?v=uFMTFpU1GMI",
+          "titulo": "Plenario Legislativo, Sesión Ordinaria #14,  21mayo 2026",
+          "fecha": "2026-05-21",
+          "parte": null,
+          "duracion_s": 9392,
+          "vistas": 7800
+        }
+      ],
+      "_agrupado_por": "tipo + numero declarados por la Asamblea en el titulo"
+    },
+    {
+      "tipo": "ordinaria",
+      "numero": 15,
+      "fecha": "2026-05-25",
+      "fecha_fin": null,
+      "duracion_s": 11865,
+      "videos": [
+        {
+          "video_id": "tkih6RqIFjY",
+          "url": "https://www.youtube.com/watch?v=tkih6RqIFjY",
+          "titulo": "Plenario Legislativo, Sesión ordinaria #15,  25 Mayo 2026.",
+          "fecha": "2026-05-25",
+          "parte": null,
+          "duracion_s": 11865,
+          "vistas": 10000
+        }
+      ],
+      "_agrupado_por": "tipo + numero declarados por la Asamblea en el titulo"
+    },
+    {
+      "tipo": "ordinaria",
+      "numero": 16,
+      "fecha": "2026-05-26",
+      "fecha_fin": null,
+      "duracion_s": 25284,
+      "videos": [
+        {
+          "video_id": "xiqeDO1DhT4",
+          "url": "https://www.youtube.com/watch?v=xiqeDO1DhT4",
+          "titulo": "Plenario Legislativo, Sesión Ordinaria #16, 26 Mayo 2026",
+          "fecha": "2026-05-26",
+          "parte": null,
+          "duracion_s": 25284,
+          "vistas": 24000
+        }
+      ],
+      "_agrupado_por": "tipo + numero declarados por la Asamblea en el titulo"
+    },
+    {
+      "tipo": "extraordinaria",
+      "numero": 1,
+      "fecha": "2026-05-27",
+      "fecha_fin": null,
+      "duracion_s": 13215,
+      "videos": [
+        {
+          "video_id": "-eGzA0hbvWU",
+          "url": "https://www.youtube.com/watch?v=-eGzA0hbvWU",
+          "titulo": "Plenario Legislativo, Sesión Extraordinaria #01, 27 Mayo 2026",
+          "fecha": "2026-05-27",
+          "parte": null,
+          "duracion_s": 13215,
+          "vistas": 10000
+        }
+      ],
+      "_agrupado_por": "tipo + numero declarados por la Asamblea en el titulo"
+    },
+    {
+      "tipo": "ordinaria",
+      "numero": 17,
+      "fecha": "2026-05-28",
+      "fecha_fin": null,
+      "duracion_s": 11513,
+      "videos": [
+        {
+          "video_id": "LrPGe6rki7E",
+          "url": "https://www.youtube.com/watch?v=LrPGe6rki7E",
+          "titulo": "Plenario Legislativo, Sesión Ordinaria #17, 28 MAYO 2026",
+          "fecha": "2026-05-28",
+          "parte": null,
+          "duracion_s": 8353,
+          "vistas": 6100
+        },
+        {
+          "video_id": "GTrmmRa6B04",
+          "url": "https://www.youtube.com/watch?v=GTrmmRa6B04",
+          "titulo": "Plenario Legislativo, Sesión Ordinaria #17, 28 Mayo 2026",
+          "fecha": "2026-05-28",
+          "parte": null,
+          "duracion_s": 3160,
+          "vistas": 3000
+        }
+      ],
+      "_agrupado_por": "tipo + numero declarados por la Asamblea en el titulo"
+    },
+    {
+      "tipo": "ordinaria",
+      "numero": 18,
+      "fecha": "2026-06-01",
+      "fecha_fin": null,
+      "duracion_s": 11636,
+      "videos": [
+        {
+          "video_id": "WJ-cEUVfrys",
+          "url": "https://www.youtube.com/watch?v=WJ-cEUVfrys",
+          "titulo": "Plenario Legislativo, Sesión Ordinaria # 18,  01 Junio 2026",
+          "fecha": "2026-06-01",
+          "parte": null,
+          "duracion_s": 11636,
+          "vistas": 6000
+        }
+      ],
+      "_agrupado_por": "tipo + numero declarados por la Asamblea en el titulo"
+    },
+    {
+      "tipo": "ordinaria",
+      "numero": 19,
+      "fecha": "2026-06-02",
+      "fecha_fin": null,
+      "duracion_s": 20877,
+      "videos": [
+        {
+          "video_id": "ggnCodM0Gfs",
+          "url": "https://www.youtube.com/watch?v=ggnCodM0Gfs",
+          "titulo": "Plenario Legislativo, Sesión Ordinaria #19, 02 Junio 2026",
+          "fecha": "2026-06-02",
+          "parte": null,
+          "duracion_s": 20877,
+          "vistas": 10000
+        }
+      ],
+      "_agrupado_por": "tipo + numero declarados por la Asamblea en el titulo"
+    },
+    {
+      "tipo": "ordinaria",
+      "numero": 21,
+      "fecha": "2026-06-04",
+      "fecha_fin": null,
+      "duracion_s": 12042,
+      "videos": [
+        {
+          "video_id": "u32QIkj7158",
+          "url": "https://www.youtube.com/watch?v=u32QIkj7158",
+          "titulo": "Plenario Legislativo, Sesión Ordinaria #21, 04 Junio 2026",
+          "fecha": "2026-06-04",
+          "parte": null,
+          "duracion_s": 12042,
+          "vistas": 7400
+        }
+      ],
+      "_agrupado_por": "tipo + numero declarados por la Asamblea en el titulo"
+    },
+    {
+      "tipo": "ordinaria",
+      "numero": 22,
+      "fecha": "2026-06-08",
+      "fecha_fin": null,
+      "duracion_s": 14946,
+      "videos": [
+        {
+          "video_id": "p3py28jHN_I",
+          "url": "https://www.youtube.com/watch?v=p3py28jHN_I",
+          "titulo": "Plenario Legislativo, Sesión Ordinario #22,  08 Junio 2026",
+          "fecha": "2026-06-08",
+          "parte": null,
+          "duracion_s": 14946,
+          "vistas": 6300
+        }
+      ],
+      "_agrupado_por": "tipo + numero declarados por la Asamblea en el titulo"
+    },
+    {
+      "tipo": "ordinaria",
+      "numero": 23,
+      "fecha": "2026-06-09",
+      "fecha_fin": null,
+      "duracion_s": 13253,
+      "videos": [
+        {
+          "video_id": "TtqWl-3VHlA",
+          "url": "https://www.youtube.com/watch?v=TtqWl-3VHlA",
+          "titulo": "Plenario Legislativo, Sesión Ordinaria # 23, 09 Junio 2026",
+          "fecha": "2026-06-09",
+          "parte": null,
+          "duracion_s": 13253,
+          "vistas": 5500
+        }
+      ],
+      "_agrupado_por": "tipo + numero declarados por la Asamblea en el titulo"
+    },
+    {
+      "tipo": "extraordinaria",
+      "numero": 2,
+      "fecha": "2026-06-10",
+      "fecha_fin": null,
+      "duracion_s": 17954,
+      "videos": [
+        {
+          "video_id": "lA-sUL2bW0s",
+          "url": "https://www.youtube.com/watch?v=lA-sUL2bW0s",
+          "titulo": "Plenario Legislativo, Sesión Extraordinaria #02, 10 Junio 2026",
+          "fecha": "2026-06-10",
+          "parte": null,
+          "duracion_s": 17954,
+          "vistas": 9100
+        }
+      ],
+      "_agrupado_por": "tipo + numero declarados por la Asamblea en el titulo"
+    },
+    {
+      "tipo": "ordinaria",
+      "numero": 24,
+      "fecha": "2026-06-11",
+      "fecha_fin": null,
+      "duracion_s": 10722,
+      "videos": [
+        {
+          "video_id": "R_FJaOdiIiA",
+          "url": "https://www.youtube.com/watch?v=R_FJaOdiIiA",
+          "titulo": "Plenario Legislativo, Sesión Ordinario #24, 11 Junio 2026",
+          "fecha": "2026-06-11",
+          "parte": null,
+          "duracion_s": 10722,
+          "vistas": 5600
+        }
+      ],
+      "_agrupado_por": "tipo + numero declarados por la Asamblea en el titulo"
+    },
+    {
+      "tipo": "ordinaria",
+      "numero": 25,
+      "fecha": "2026-06-15",
+      "fecha_fin": null,
+      "duracion_s": 11911,
+      "videos": [
+        {
+          "video_id": "CT1wYpLJIEo",
+          "url": "https://www.youtube.com/watch?v=CT1wYpLJIEo",
+          "titulo": "Plenario Legislativo, Sesión Ordinario #25, 15 Junio 2026",
+          "fecha": "2026-06-15",
+          "parte": null,
+          "duracion_s": 11911,
+          "vistas": 6200
+        }
+      ],
+      "_agrupado_por": "tipo + numero declarados por la Asamblea en el titulo"
+    },
+    {
+      "tipo": "ordinaria",
+      "numero": 26,
+      "fecha": "2026-06-16",
+      "fecha_fin": null,
+      "duracion_s": 11767,
+      "videos": [
+        {
+          "video_id": "DGCqyt0EX3k",
+          "url": "https://www.youtube.com/watch?v=DGCqyt0EX3k",
+          "titulo": "Plenario Legislativo, Sesión Ordinario #26, 16 Junio 2026",
+          "fecha": "2026-06-16",
+          "parte": null,
+          "duracion_s": 11767,
+          "vistas": 5900
+        }
+      ],
+      "_agrupado_por": "tipo + numero declarados por la Asamblea en el titulo"
+    },
+    {
+      "tipo": "ordinaria",
+      "numero": 27,
+      "fecha": "2026-06-17",
+      "fecha_fin": null,
+      "duracion_s": 7934,
+      "videos": [
+        {
+          "video_id": "6JBwhTwaJ9c",
+          "url": "https://www.youtube.com/watch?v=6JBwhTwaJ9c",
+          "titulo": "Plenario Legislativo, Sesión Ordinaria #27, 17 Junio 2026",
+          "fecha": "2026-06-17",
+          "parte": null,
+          "duracion_s": 7934,
+          "vistas": 3100
+        }
+      ],
+      "_agrupado_por": "tipo + numero declarados por la Asamblea en el titulo"
+    },
+    {
+      "tipo": "extraordinaria",
+      "numero": 3,
+      "fecha": "2026-06-18",
+      "fecha_fin": null,
+      "duracion_s": 9618,
+      "videos": [
+        {
+          "video_id": "tm6Nbn-a5SA",
+          "url": "https://www.youtube.com/watch?v=tm6Nbn-a5SA",
+          "titulo": "Plenario Legislativo, Sesión Extraordinaria #03, 18 Junio 2026",
+          "fecha": "2026-06-18",
+          "parte": null,
+          "duracion_s": 9618,
+          "vistas": 4300
+        }
+      ],
+      "_agrupado_por": "tipo + numero declarados por la Asamblea en el titulo"
+    },
+    {
+      "tipo": "ordinaria",
+      "numero": 28,
+      "fecha": "2026-06-22",
+      "fecha_fin": null,
+      "duracion_s": 12870,
+      "videos": [
+        {
+          "video_id": "NresDWFgWM0",
+          "url": "https://www.youtube.com/watch?v=NresDWFgWM0",
+          "titulo": "Plenario Legislativo, Sesión Ordinaria #28, 22 Junio 2026",
+          "fecha": "2026-06-22",
+          "parte": null,
+          "duracion_s": 12870,
+          "vistas": 5500
+        }
+      ],
+      "_agrupado_por": "tipo + numero declarados por la Asamblea en el titulo"
+    },
+    {
+      "tipo": "ordinaria",
+      "numero": 29,
+      "fecha": "2026-06-23",
+      "fecha_fin": null,
+      "duracion_s": 13771,
+      "videos": [
+        {
+          "video_id": "6G-dar16-ww",
+          "url": "https://www.youtube.com/watch?v=6G-dar16-ww",
+          "titulo": "Plenario Legislativo, Sesión Ordinaria #29, 23 Junio 2026",
+          "fecha": "2026-06-23",
+          "parte": null,
+          "duracion_s": 13771,
+          "vistas": 5400
+        }
+      ],
+      "_agrupado_por": "tipo + numero declarados por la Asamblea en el titulo"
+    },
+    {
+      "tipo": "extraordinaria",
+      "numero": 4,
+      "fecha": "2026-06-24",
+      "fecha_fin": null,
+      "duracion_s": 10882,
+      "videos": [
+        {
+          "video_id": "EMWIx3oem2s",
+          "url": "https://www.youtube.com/watch?v=EMWIx3oem2s",
+          "titulo": "Plenario Legislativo, Sesión Extraordinaria #4, 24 Junio 2026",
+          "fecha": "2026-06-24",
+          "parte": null,
+          "duracion_s": 10882,
+          "vistas": 4900
+        }
+      ],
+      "_agrupado_por": "tipo + numero declarados por la Asamblea en el titulo"
+    },
+    {
+      "tipo": "ordinaria",
+      "numero": 30,
+      "fecha": "2026-06-25",
+      "fecha_fin": null,
+      "duracion_s": 12136,
+      "videos": [
+        {
+          "video_id": "mBGcpmqKl2c",
+          "url": "https://www.youtube.com/watch?v=mBGcpmqKl2c",
+          "titulo": "Plenario Legislativo, Sesión Ordinaria #30, 25 Junio 2026",
+          "fecha": "2026-06-25",
+          "parte": null,
+          "duracion_s": 12136,
+          "vistas": 4600
+        }
+      ],
+      "_agrupado_por": "tipo + numero declarados por la Asamblea en el titulo"
+    },
+    {
+      "tipo": "ordinaria",
+      "numero": 31,
+      "fecha": "2026-06-29",
+      "fecha_fin": "2026-06-30",
+      "duracion_s": 14592,
+      "videos": [
+        {
+          "video_id": "ou1L-d7Dlsw",
+          "url": "https://www.youtube.com/watch?v=ou1L-d7Dlsw",
+          "titulo": "Plenario Legislativo, Sesión Ordinaria 31, 29 Junio 2026",
+          "fecha": "2026-06-29",
+          "parte": null,
+          "duracion_s": 1094,
+          "vistas": 1700
+        },
+        {
+          "video_id": "48eQeUCCFEU",
+          "url": "https://www.youtube.com/watch?v=48eQeUCCFEU",
+          "titulo": "Plenario Legislativo, Sesión Ordinaria #31, 30 Junio 2026",
+          "fecha": "2026-06-30",
+          "parte": null,
+          "duracion_s": 13498,
+          "vistas": 4400
+        }
+      ],
+      "_agrupado_por": "tipo + numero declarados por la Asamblea en el titulo"
+    },
+    {
+      "tipo": "extraordinaria",
+      "numero": 5,
+      "fecha": "2026-07-01",
+      "fecha_fin": null,
+      "duracion_s": 8857,
+      "videos": [
+        {
+          "video_id": "ZCwpA-gYhUM",
+          "url": "https://www.youtube.com/watch?v=ZCwpA-gYhUM",
+          "titulo": "Plenario Legislativo, Sesión Extraordinaria #5, 01 Julio 2026",
+          "fecha": "2026-07-01",
+          "parte": null,
+          "duracion_s": 8857,
+          "vistas": 3900
+        }
+      ],
+      "_agrupado_por": "tipo + numero declarados por la Asamblea en el titulo"
+    },
+    {
+      "tipo": "ordinaria",
+      "numero": 32,
+      "fecha": "2026-07-02",
+      "fecha_fin": null,
+      "duracion_s": 12343,
+      "videos": [
+        {
+          "video_id": "Jj5XooSAWs4",
+          "url": "https://www.youtube.com/watch?v=Jj5XooSAWs4",
+          "titulo": "Plenario Legislativo, Sesión Ordinaria #32, 02 Julio 2026",
+          "fecha": "2026-07-02",
+          "parte": null,
+          "duracion_s": 12343,
+          "vistas": 4200
+        }
+      ],
+      "_agrupado_por": "tipo + numero declarados por la Asamblea en el titulo"
+    },
+    {
+      "tipo": "ordinaria",
+      "numero": 33,
+      "fecha": "2026-07-13",
+      "fecha_fin": null,
+      "duracion_s": 22316,
+      "videos": [
+        {
+          "video_id": "S3YVNvFxHrQ",
+          "url": "https://www.youtube.com/watch?v=S3YVNvFxHrQ",
+          "titulo": "Plenario Legislativo, Sesión Ordinario #33, 13 Julio 2026",
+          "fecha": "2026-07-13",
+          "parte": null,
+          "duracion_s": 22316,
+          "vistas": 5800
+        }
+      ],
+      "_agrupado_por": "tipo + numero declarados por la Asamblea en el titulo"
+    },
+    {
+      "tipo": "extraordinaria",
+      "numero": 6,
+      "fecha": "2026-07-14",
+      "fecha_fin": null,
+      "duracion_s": 19408,
+      "videos": [
+        {
+          "video_id": "mq9Dd3wkDaA",
+          "url": "https://www.youtube.com/watch?v=mq9Dd3wkDaA",
+          "titulo": "Plenario Legislativo, Sesión Extraordinaria #06, 14 Julio 2026",
+          "fecha": "2026-07-14",
+          "parte": null,
+          "duracion_s": 19408,
+          "vistas": 5200
+        }
+      ],
+      "_agrupado_por": "tipo + numero declarados por la Asamblea en el titulo"
+    },
+    {
+      "tipo": "ordinaria",
+      "numero": 34,
+      "fecha": "2026-07-15",
+      "fecha_fin": null,
+      "duracion_s": 8995,
+      "videos": [
+        {
+          "video_id": "mJX47IqgPfc",
+          "url": "https://www.youtube.com/watch?v=mJX47IqgPfc",
+          "titulo": "Plenario Legislativo, Sesión Ordinario #34, 15 Julio 2026",
+          "fecha": "2026-07-15",
+          "parte": null,
+          "duracion_s": 8995,
+          "vistas": 3300
+        }
+      ],
+      "_agrupado_por": "tipo + numero declarados por la Asamblea en el titulo"
+    },
+    {
+      "tipo": "ordinaria",
+      "numero": 35,
+      "fecha": "2026-07-16",
+      "fecha_fin": null,
+      "duracion_s": 20562,
+      "videos": [
+        {
+          "video_id": "JkeNILat56s",
+          "url": "https://www.youtube.com/watch?v=JkeNILat56s",
+          "titulo": "Plenario Legislativo, Sesión Ordinario #35, 16 Julio 2026",
+          "fecha": "2026-07-16",
+          "parte": null,
+          "duracion_s": 20562,
+          "vistas": 6000
+        }
+      ],
+      "_agrupado_por": "tipo + numero declarados por la Asamblea en el titulo"
+    },
+    {
+      "tipo": "ordinaria",
+      "numero": 36,
+      "fecha": "2026-07-20",
+      "fecha_fin": null,
+      "duracion_s": 10882,
+      "videos": [
+        {
+          "video_id": "beG7vNIgSwg",
+          "url": "https://www.youtube.com/watch?v=beG7vNIgSwg",
+          "titulo": "Plenario Legislativo, Sesión Ordinaria #36, 20 Julio 2026",
+          "fecha": "2026-07-20",
+          "parte": null,
+          "duracion_s": 10882,
+          "vistas": 5600
+        }
+      ],
+      "_agrupado_por": "tipo + numero declarados por la Asamblea en el titulo"
+    },
+    {
+      "tipo": "ordinaria",
+      "numero": 37,
+      "fecha": "2026-07-21",
+      "fecha_fin": null,
+      "duracion_s": 6215,
+      "videos": [
+        {
+          "video_id": "q08zdQhBNMk",
+          "url": "https://www.youtube.com/watch?v=q08zdQhBNMk",
+          "titulo": "Plenario Legislativo, Sesión Ordinario #37, 21 Julio 2026",
+          "fecha": "2026-07-21",
+          "parte": null,
+          "duracion_s": 6215,
+          "vistas": 3600
+        }
+      ],
+      "_agrupado_por": "tipo + numero declarados por la Asamblea en el titulo"
+    },
+    {
+      "tipo": "ordinaria",
+      "numero": 38,
+      "fecha": "2026-07-22",
+      "fecha_fin": null,
+      "duracion_s": 8029,
+      "videos": [
+        {
+          "video_id": "9EPGc0XEXwU",
+          "url": "https://www.youtube.com/watch?v=9EPGc0XEXwU",
+          "titulo": "Plenario Legislativo, Sesión Ordinario #38, 22 Julio 2026",
+          "fecha": "2026-07-22",
+          "parte": null,
+          "duracion_s": 8029,
+          "vistas": 4800
+        }
+      ],
+      "_agrupado_por": "tipo + numero declarados por la Asamblea en el titulo"
+    },
+    {
+      "tipo": "extraordinaria",
+      "numero": 7,
+      "fecha": "2026-07-23",
+      "fecha_fin": null,
+      "duracion_s": 9906,
+      "videos": [
+        {
+          "video_id": "0hkiR4UULqw",
+          "url": "https://www.youtube.com/watch?v=0hkiR4UULqw",
+          "titulo": "Plenario Legislativo, Sesión Extraordinaria #07, 23 Julio 2026",
+          "fecha": "2026-07-23",
+          "parte": null,
+          "duracion_s": 9906,
+          "vistas": 3000
+        }
+      ],
+      "_agrupado_por": "tipo + numero declarados por la Asamblea en el titulo"
+    },
+    {
+      "tipo": "ordinaria",
+      "numero": 39,
+      "fecha": "2026-07-27",
+      "fecha_fin": null,
+      "duracion_s": 18717,
+      "videos": [
+        {
+          "video_id": "Q5mYLQQyg4k",
+          "url": "https://www.youtube.com/watch?v=Q5mYLQQyg4k",
+          "titulo": "Plenario Legislativo, Sesión Ordinario #39, 27 Julio 2026",
+          "fecha": "2026-07-27",
+          "parte": null,
+          "duracion_s": 18717,
+          "vistas": 6700
+        }
+      ],
+      "_agrupado_por": "tipo + numero declarados por la Asamblea en el titulo"
+    },
+    {
+      "tipo": "ordinaria",
+      "numero": 40,
+      "fecha": "2026-07-28",
+      "fecha_fin": null,
+      "duracion_s": 16501,
+      "videos": [
+        {
+          "video_id": "5QO5QwLkqAw",
+          "url": "https://www.youtube.com/watch?v=5QO5QwLkqAw",
+          "titulo": "Plenario Legislativo, Sesión Ordinario #40, 28 Julio 2026",
+          "fecha": "2026-07-28",
+          "parte": null,
+          "duracion_s": 16501,
+          "vistas": 6300
+        }
+      ],
+      "_agrupado_por": "tipo + numero declarados por la Asamblea en el titulo"
+    },
+    {
+      "tipo": "ordinaria",
+      "numero": 41,
+      "fecha": "2026-07-29",
+      "fecha_fin": null,
+      "duracion_s": 8180,
+      "videos": [
+        {
+          "video_id": "LwFvPnjxhzE",
+          "url": "https://www.youtube.com/watch?v=LwFvPnjxhzE",
+          "titulo": "Plenario Legislativo, Sesión Ordinaria #41, 29 Julio 2026",
+          "fecha": "2026-07-29",
+          "parte": null,
+          "duracion_s": 8180,
+          "vistas": 4000
+        }
+      ],
+      "_agrupado_por": "tipo + numero declarados por la Asamblea en el titulo"
+    },
+    {
+      "tipo": "ordinaria",
+      "numero": 42,
+      "fecha": "2026-07-30",
+      "fecha_fin": null,
+      "duracion_s": 9626,
+      "videos": [
+        {
+          "video_id": "dXUsJYXc0LM",
+          "url": "https://www.youtube.com/watch?v=dXUsJYXc0LM",
+          "titulo": "Plenario Legislativo, Sesión Ordinaria #42, 30 Julio 2026",
+          "fecha": "2026-07-30",
+          "parte": null,
+          "duracion_s": 9626,
+          "vistas": 4700
+        }
+      ],
+      "_agrupado_por": "tipo + numero declarados por la Asamblea en el titulo"
+    },
+    {
+      "tipo": "ordinaria",
+      "numero": 43,
+      "fecha": "2026-08-03",
+      "fecha_fin": null,
+      "duracion_s": 12254,
+      "videos": [
+        {
+          "video_id": "KaFD3ctIfaA",
+          "url": "https://www.youtube.com/watch?v=KaFD3ctIfaA",
+          "titulo": "Plenario Legislativo, Sesión Ordinaria #43, 03 Agosto 2026",
+          "fecha": "2026-08-03",
+          "parte": null,
+          "duracion_s": 12254,
+          "vistas": 7000
+        }
+      ],
+      "_agrupado_por": "tipo + numero declarados por la Asamblea en el titulo"
+    },
+    {
+      "tipo": "ordinaria",
+      "numero": 44,
+      "fecha": "2026-08-04",
+      "fecha_fin": null,
+      "duracion_s": 12838,
+      "videos": [
+        {
+          "video_id": "CPF3Qg3ThX4",
+          "url": "https://www.youtube.com/watch?v=CPF3Qg3ThX4",
+          "titulo": "Plenario Legislativo, Sesión Ordinaria #44, 04 Agosto 2026",
+          "fecha": "2026-08-04",
+          "parte": null,
+          "duracion_s": 12838,
+          "vistas": 4900
+        }
+      ],
+      "_agrupado_por": "tipo + numero declarados por la Asamblea en el titulo"
+    },
+    {
+      "tipo": "ordinaria",
+      "numero": 45,
+      "fecha": "2026-08-05",
+      "fecha_fin": null,
+      "duracion_s": 4211,
+      "videos": [
+        {
+          "video_id": "Qp0mygwlQTg",
+          "url": "https://www.youtube.com/watch?v=Qp0mygwlQTg",
+          "titulo": "Plenario Legislativo, Sesión Ordinaria #45, 05 Agosto 2026",
+          "fecha": "2026-08-05",
+          "parte": null,
+          "duracion_s": 4211,
+          "vistas": 5300
+        }
+      ],
+      "_agrupado_por": "tipo + numero declarados por la Asamblea en el titulo"
+    },
+    {
+      "tipo": "ordinaria",
+      "numero": 46,
+      "fecha": "2026-08-06",
+      "fecha_fin": null,
+      "duracion_s": 8741,
+      "videos": [
+        {
+          "video_id": "yL776TDZdjY",
+          "url": "https://www.youtube.com/watch?v=yL776TDZdjY",
+          "titulo": "Plenario Legislativo, Sesión Ordinaria #46, 06 Agosto 2026",
+          "fecha": "2026-08-06",
+          "parte": null,
+          "duracion_s": 8741,
+          "vistas": 7800
+        }
+      ],
+      "_agrupado_por": "tipo + numero declarados por la Asamblea en el titulo"
+    },
+    {
+      "tipo": "ordinaria",
+      "numero": 47,
+      "fecha": "2026-08-10",
+      "fecha_fin": null,
+      "duracion_s": 18291,
+      "videos": [
+        {
+          "video_id": "9cxOmz7KZUY",
+          "url": "https://www.youtube.com/watch?v=9cxOmz7KZUY",
+          "titulo": "Plenario Legislativo, Sesión Ordinaria #47, 10 Agosto 2026",
+          "fecha": "2026-08-10",
+          "parte": null,
+          "duracion_s": 18291,
+          "vistas": 7700
+        }
+      ],
+      "_agrupado_por": "tipo + numero declarados por la Asamblea en el titulo"
+    },
+    {
+      "tipo": "extraordinaria",
+      "numero": 9,
+      "fecha": "2026-08-11",
+      "fecha_fin": null,
+      "duracion_s": 11005,
+      "videos": [
+        {
+          "video_id": "M1574bYzjjE",
+          "url": "https://www.youtube.com/watch?v=M1574bYzjjE",
+          "titulo": "Plenario Legislativo, Sesión Extraordinaria #09, 11 Agosto 2026",
+          "fecha": "2026-08-11",
+          "parte": null,
+          "duracion_s": 11005,
+          "vistas": 7000
+        }
+      ],
+      "_agrupado_por": "tipo + numero declarados por la Asamblea en el titulo"
+    },
+    {
+      "tipo": "ordinaria",
+      "numero": 48,
+      "fecha": "2026-08-11",
+      "fecha_fin": null,
+      "duracion_s": 16051,
+      "videos": [
+        {
+          "video_id": "_WAqjteYLT8",
+          "url": "https://www.youtube.com/watch?v=_WAqjteYLT8",
+          "titulo": "Plenario Legislativo, Sesión Ordinaria #48, 11 Agosto 2026",
+          "fecha": "2026-08-11",
+          "parte": null,
+          "duracion_s": 16051,
+          "vistas": 6500
+        }
+      ],
+      "_agrupado_por": "tipo + numero declarados por la Asamblea en el titulo"
+    },
+    {
+      "tipo": "extraordinaria",
+      "numero": 10,
+      "fecha": "2026-08-12",
+      "fecha_fin": null,
+      "duracion_s": 11210,
+      "videos": [
+        {
+          "video_id": "N1eG7Unf-ZM",
+          "url": "https://www.youtube.com/watch?v=N1eG7Unf-ZM",
+          "titulo": "Plenario Legislativo, Sesión Extraordinaria #10, 12 Agosto 2026",
+          "fecha": "2026-08-12",
+          "parte": null,
+          "duracion_s": 11210,
+          "vistas": 5900
+        }
+      ],
+      "_agrupado_por": "tipo + numero declarados por la Asamblea en el titulo"
+    },
+    {
+      "tipo": "ordinaria",
+      "numero": 49,
+      "fecha": "2026-08-12",
+      "fecha_fin": null,
+      "duracion_s": 8046,
+      "videos": [
+        {
+          "video_id": "6h97oLniRUs",
+          "url": "https://www.youtube.com/watch?v=6h97oLniRUs",
+          "titulo": "Plenario Legislativo, Sesión Ordinaria #49, 12 Agosto 2026",
+          "fecha": "2026-08-12",
+          "parte": null,
+          "duracion_s": 8046,
+          "vistas": 5300
+        }
+      ],
+      "_agrupado_por": "tipo + numero declarados por la Asamblea en el titulo"
+    },
+    {
+      "tipo": "extraordinaria",
+      "numero": 11,
+      "fecha": "2026-08-13",
+      "fecha_fin": null,
+      "duracion_s": 10830,
+      "videos": [
+        {
+          "video_id": "56rvCL85vX8",
+          "url": "https://www.youtube.com/watch?v=56rvCL85vX8",
+          "titulo": "Plenario Legislativo, Sesión Extraordinaria #11, 13 Agosto 2026",
+          "fecha": "2026-08-13",
+          "parte": null,
+          "duracion_s": 10830,
+          "vistas": 7500
+        }
+      ],
+      "_agrupado_por": "tipo + numero declarados por la Asamblea en el titulo"
+    },
+    {
+      "tipo": "ordinaria",
+      "numero": 50,
+      "fecha": "2026-08-13",
+      "fecha_fin": null,
+      "duracion_s": 18173,
+      "videos": [
+        {
+          "video_id": "HxhEjFQW55o",
+          "url": "https://www.youtube.com/watch?v=HxhEjFQW55o",
+          "titulo": "Plenario Legislativo, Sesión Ordinaria #50, 13 Agosto 2026",
+          "fecha": "2026-08-13",
+          "parte": null,
+          "duracion_s": 18173,
+          "vistas": 7200
+        }
+      ],
+      "_agrupado_por": "tipo + numero declarados por la Asamblea en el titulo"
+    },
+    {
+      "tipo": "extraordinaria",
+      "numero": 12,
+      "fecha": "2026-08-17",
+      "fecha_fin": null,
+      "duracion_s": 11019,
+      "videos": [
+        {
+          "video_id": "p2wnyBSraSk",
+          "url": "https://www.youtube.com/watch?v=p2wnyBSraSk",
+          "titulo": "Plenario Legislativo, Sesión Extraordinaria #12, 17 Agosto 2026",
+          "fecha": "2026-08-17",
+          "parte": null,
+          "duracion_s": 11019,
+          "vistas": 5900
+        }
+      ],
+      "_agrupado_por": "tipo + numero declarados por la Asamblea en el titulo"
+    },
+    {
+      "tipo": "ordinaria",
+      "numero": 51,
+      "fecha": "2026-08-17",
+      "fecha_fin": null,
+      "duracion_s": 15340,
+      "videos": [
+        {
+          "video_id": "epON7QImSOo",
+          "url": "https://www.youtube.com/watch?v=epON7QImSOo",
+          "titulo": "Plenario Legislativo, Sesión Ordinaria #51, 17 Agosto 2026",
+          "fecha": "2026-08-17",
+          "parte": null,
+          "duracion_s": 15340,
+          "vistas": 6800
+        }
+      ],
+      "_agrupado_por": "tipo + numero declarados por la Asamblea en el titulo"
+    },
+    {
+      "tipo": "extraordinaria",
+      "numero": 13,
+      "fecha": "2026-08-18",
+      "fecha_fin": null,
+      "duracion_s": 10665,
+      "videos": [
+        {
+          "video_id": "oEjkrV80QL0",
+          "url": "https://www.youtube.com/watch?v=oEjkrV80QL0",
+          "titulo": "Plenario Legislativo, Sesión Extraordinaria #13, 18 Agosto 2026",
+          "fecha": "2026-08-18",
+          "parte": null,
+          "duracion_s": 10665,
+          "vistas": 3800
+        }
+      ],
+      "_agrupado_por": "tipo + numero declarados por la Asamblea en el titulo"
+    },
+    {
+      "tipo": "ordinaria",
+      "numero": 52,
+      "fecha": "2026-08-18",
+      "fecha_fin": null,
+      "duracion_s": 19703,
+      "videos": [
+        {
+          "video_id": "tCtf27fog9M",
+          "url": "https://www.youtube.com/watch?v=tCtf27fog9M",
+          "titulo": "Plenario Legislativo, Sesión Ordinaria #52, 18 Agosto 2026",
+          "fecha": "2026-08-18",
+          "parte": null,
+          "duracion_s": 19703,
+          "vistas": 7600
+        }
+      ],
+      "_agrupado_por": "tipo + numero declarados por la Asamblea en el titulo"
+    },
+    {
+      "tipo": "extraordinaria",
+      "numero": 14,
+      "fecha": "2026-08-19",
+      "fecha_fin": null,
+      "duracion_s": 10840,
+      "videos": [
+        {
+          "video_id": "4Yc5fxJO0bo",
+          "url": "https://www.youtube.com/watch?v=4Yc5fxJO0bo",
+          "titulo": "Plenario Legislativo, Sesión Extraordinaria #14, 19 Agosto 2026",
+          "fecha": "2026-08-19",
+          "parte": null,
+          "duracion_s": 10840,
+          "vistas": 4000
+        }
+      ],
+      "_agrupado_por": "tipo + numero declarados por la Asamblea en el titulo"
+    },
+    {
+      "tipo": "ordinaria",
+      "numero": 53,
+      "fecha": "2026-08-19",
+      "fecha_fin": null,
+      "duracion_s": 8248,
+      "videos": [
+        {
+          "video_id": "PMPQwdBdvS0",
+          "url": "https://www.youtube.com/watch?v=PMPQwdBdvS0",
+          "titulo": "Plenario Legislativo, Sesión Ordinaria #53, 19 Agosto 2026",
+          "fecha": "2026-08-19",
+          "parte": null,
+          "duracion_s": 8248,
+          "vistas": 5100
+        }
+      ],
+      "_agrupado_por": "tipo + numero declarados por la Asamblea en el titulo"
+    },
+    {
+      "tipo": "extraordinaria",
+      "numero": 15,
+      "fecha": "2026-08-20",
+      "fecha_fin": null,
+      "duracion_s": 10913,
+      "videos": [
+        {
+          "video_id": "rH541qT9Tz4",
+          "url": "https://www.youtube.com/watch?v=rH541qT9Tz4",
+          "titulo": "Plenario Legislativo, Sesión Extraordinaria #15, 20 Agosto 2026",
+          "fecha": "2026-08-20",
+          "parte": null,
+          "duracion_s": 10913,
+          "vistas": 4000
+        }
+      ],
+      "_agrupado_por": "tipo + numero declarados por la Asamblea en el titulo"
+    },
+    {
+      "tipo": "ordinaria",
+      "numero": 54,
+      "fecha": "2026-08-20",
+      "fecha_fin": null,
+      "duracion_s": 17887,
+      "videos": [
+        {
+          "video_id": "7wLw7vDZ_Vs",
+          "url": "https://www.youtube.com/watch?v=7wLw7vDZ_Vs",
+          "titulo": "Plenario Legislativo, Sesión Ordinaria #54, 20 Agosto 2026",
+          "fecha": "2026-08-20",
+          "parte": null,
+          "duracion_s": 17887,
+          "vistas": 7500
+        }
+      ],
+      "_agrupado_por": "tipo + numero declarados por la Asamblea en el titulo"
+    },
+    {
+      "tipo": "extraordinaria",
+      "numero": 16,
+      "fecha": "2026-08-24",
+      "fecha_fin": null,
+      "duracion_s": 10876,
+      "videos": [
+        {
+          "video_id": "81f9ixCL4sQ",
+          "url": "https://www.youtube.com/watch?v=81f9ixCL4sQ",
+          "titulo": "Plenario Legislativo, Sesión Extraordinaria #16, 24 Agosto 2026",
+          "fecha": "2026-08-24",
+          "parte": null,
+          "duracion_s": 10876,
+          "vistas": 4300
+        }
+      ],
+      "_agrupado_por": "tipo + numero declarados por la Asamblea en el titulo"
+    },
+    {
+      "tipo": "ordinaria",
+      "numero": 55,
+      "fecha": "2026-08-24",
+      "fecha_fin": null,
+      "duracion_s": 16100,
+      "videos": [
+        {
+          "video_id": "T5lhKlYK8f4",
+          "url": "https://www.youtube.com/watch?v=T5lhKlYK8f4",
+          "titulo": "Plenario Legislativo, Sesión Ordinaria #55, 24 Agosto 2026",
+          "fecha": "2026-08-24",
+          "parte": null,
+          "duracion_s": 16100,
+          "vistas": 7100
+        }
+      ],
+      "_agrupado_por": "tipo + numero declarados por la Asamblea en el titulo"
+    },
+    {
+      "tipo": "extraordinaria",
+      "numero": 17,
+      "fecha": "2026-08-25",
+      "fecha_fin": null,
+      "duracion_s": 10993,
+      "videos": [
+        {
+          "video_id": "aMxroHjzhh8",
+          "url": "https://www.youtube.com/watch?v=aMxroHjzhh8",
+          "titulo": "Plenario Legislativo, Sesión Extraordinaria #17,  25 Agosto 2026",
+          "fecha": "2026-08-25",
+          "parte": null,
+          "duracion_s": 10993,
+          "vistas": 3000
+        }
+      ],
+      "_agrupado_por": "tipo + numero declarados por la Asamblea en el titulo"
+    },
+    {
+      "tipo": "ordinaria",
+      "numero": 56,
+      "fecha": "2026-08-25",
+      "fecha_fin": null,
+      "duracion_s": 15945,
+      "videos": [
+        {
+          "video_id": "bOcxCCm1rVo",
+          "url": "https://www.youtube.com/watch?v=bOcxCCm1rVo",
+          "titulo": "Plenario Legislativo, Sesión Ordinaria #56, 25 Agosto 2026",
+          "fecha": "2026-08-25",
+          "parte": null,
+          "duracion_s": 15945,
+          "vistas": 6700
+        }
+      ],
+      "_agrupado_por": "tipo + numero declarados por la Asamblea en el titulo"
+    },
+    {
+      "tipo": "extraordinaria",
+      "numero": 18,
+      "fecha": "2026-08-26",
+      "fecha_fin": null,
+      "duracion_s": 11036,
+      "videos": [
+        {
+          "video_id": "prM17Et-C1Y",
+          "url": "https://www.youtube.com/watch?v=prM17Et-C1Y",
+          "titulo": "Plenario Legislativo, Sesión Extraordinaria #18, 26 Agosto 2026",
+          "fecha": "2026-08-26",
+          "parte": null,
+          "duracion_s": 11036,
+          "vistas": 3400
+        }
+      ],
+      "_agrupado_por": "tipo + numero declarados por la Asamblea en el titulo"
+    },
+    {
+      "tipo": "ordinaria",
+      "numero": 57,
+      "fecha": "2026-08-26",
+      "fecha_fin": null,
+      "duracion_s": 8015,
+      "videos": [
+        {
+          "video_id": "rqCMc_z-yn8",
+          "url": "https://www.youtube.com/watch?v=rqCMc_z-yn8",
+          "titulo": "Plenario Legislativo, Sesión Ordinaria #57, 26 Agosto 2026",
+          "fecha": "2026-08-26",
+          "parte": null,
+          "duracion_s": 8015,
+          "vistas": 4400
+        }
+      ],
+      "_agrupado_por": "tipo + numero declarados por la Asamblea en el titulo"
+    },
+    {
+      "tipo": "extraordinaria",
+      "numero": 19,
+      "fecha": "2026-08-27",
+      "fecha_fin": null,
+      "duracion_s": 13094,
+      "videos": [
+        {
+          "video_id": "_eBh_ssleuM",
+          "url": "https://www.youtube.com/watch?v=_eBh_ssleuM",
+          "titulo": "Plenario Legislativo, Sesión Extraordinaria #19, 27 Agosto 2026",
+          "fecha": "2026-08-27",
+          "parte": null,
+          "duracion_s": 13094,
+          "vistas": 7200
+        }
+      ],
+      "_agrupado_por": "tipo + numero declarados por la Asamblea en el titulo"
+    },
+    {
+      "tipo": "ordinaria",
+      "numero": 58,
+      "fecha": "2026-08-27",
+      "fecha_fin": null,
+      "duracion_s": 15654,
+      "videos": [
+        {
+          "video_id": "dzBsCitMFAo",
+          "url": "https://www.youtube.com/watch?v=dzBsCitMFAo",
+          "titulo": "Plenario Legislativo, Sesión Ordinaria #58, 27 Agosto 2026",
+          "fecha": "2026-08-27",
+          "parte": null,
+          "duracion_s": 15654,
+          "vistas": 7300
+        }
+      ],
+      "_agrupado_por": "tipo + numero declarados por la Asamblea en el titulo"
+    },
+    {
+      "tipo": "extraordinaria",
+      "numero": 21,
+      "fecha": "2026-09-01",
+      "fecha_fin": "2026-09-02",
+      "duracion_s": 12635,
+      "videos": [
+        {
+          "video_id": "vhPGoARDp8c",
+          "url": "https://www.youtube.com/watch?v=vhPGoARDp8c",
+          "titulo": "Plenario Legislativo, Sesión Extraordinaria #21, 01 Setiembre 2026",
+          "fecha": "2026-09-01",
+          "parte": null,
+          "duracion_s": 1633,
+          "vistas": 2700
+        },
+        {
+          "video_id": "VYq4j89Gw_M",
+          "url": "https://www.youtube.com/watch?v=VYq4j89Gw_M",
+          "titulo": "Plenario Legislativo, Sesión Extraordinaria #21, 02 Setiembre 2026",
+          "fecha": "2026-09-02",
+          "parte": null,
+          "duracion_s": 11002,
+          "vistas": 4700
+        }
+      ],
+      "_agrupado_por": "tipo + numero declarados por la Asamblea en el titulo"
+    },
+    {
+      "tipo": "ordinaria",
+      "numero": 59,
+      "fecha": "2026-09-01",
+      "fecha_fin": null,
+      "duracion_s": 19011,
+      "videos": [
+        {
+          "video_id": "IRQL115m_Qc",
+          "url": "https://www.youtube.com/watch?v=IRQL115m_Qc",
+          "titulo": "Plenario Legislativo, Sesión Ordinaria #59, 01 Setiembre 2026",
+          "fecha": "2026-09-01",
+          "parte": null,
+          "duracion_s": 19011,
+          "vistas": 6700
+        }
+      ],
+      "_agrupado_por": "tipo + numero declarados por la Asamblea en el titulo"
+    },
+    {
+      "tipo": "ordinaria",
+      "numero": 60,
+      "fecha": "2026-09-02",
+      "fecha_fin": null,
+      "duracion_s": 8141,
+      "videos": [
+        {
+          "video_id": "I3H2aYvGoKk",
+          "url": "https://www.youtube.com/watch?v=I3H2aYvGoKk",
+          "titulo": "Plenario Legislativo, Sesión Ordinaria #60, 02 Setiembre 2026",
+          "fecha": "2026-09-02",
+          "parte": null,
+          "duracion_s": 8141,
+          "vistas": 6200
+        }
+      ],
+      "_agrupado_por": "tipo + numero declarados por la Asamblea en el titulo"
+    },
+    {
+      "tipo": "extraordinaria",
+      "numero": 22,
+      "fecha": "2026-09-03",
+      "fecha_fin": null,
+      "duracion_s": 11384,
+      "videos": [
+        {
+          "video_id": "YqKmXEBTXcU",
+          "url": "https://www.youtube.com/watch?v=YqKmXEBTXcU",
+          "titulo": "Plenario Legislativo, Sesión Extraordinaria #22, 03 Setiembre 2026",
+          "fecha": "2026-09-03",
+          "parte": null,
+          "duracion_s": 11384,
+          "vistas": 5000
+        }
+      ],
+      "_agrupado_por": "tipo + numero declarados por la Asamblea en el titulo"
+    },
+    {
+      "tipo": "ordinaria",
+      "numero": 61,
+      "fecha": "2026-09-03",
+      "fecha_fin": null,
+      "duracion_s": 15873,
+      "videos": [
+        {
+          "video_id": "hEGwrnsaN90",
+          "url": "https://www.youtube.com/watch?v=hEGwrnsaN90",
+          "titulo": "Plenario Legislativo, Sesión Ordinaria #61, 03 Setiembre 2026",
+          "fecha": "2026-09-03",
+          "parte": null,
+          "duracion_s": 15873,
+          "vistas": 7000
+        }
+      ],
+      "_agrupado_por": "tipo + numero declarados por la Asamblea en el titulo"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+# Dependencias y compilados
+node_modules/
+web/dist/
+__pycache__/
+*.pyc
+
+# Generado por etl/publish_web.py a partir de data/.
+# No se versiona: es una copia derivada.
+web/public/datos/
+web/public/assets/
+
+# Sistema
+.DS_Store
+Thumbs.db
+*.log
+
+# NOTA: data/raw/, data/processed/ y data/assets/ SÍ se versionan a
+# proposito. Son la prueba de que dijo la fuente oficial y cuando; sin
+# ellos el proyecto pierde su capacidad de auditoria.
+
+# EXCEPCION a la nota de arriba: el cache de subtitulos de YouTube.
+# Son 80 archivos json3 de ~2 MB cada uno (163 MB) con marca de tiempo por
+# palabra. Se regeneran con `python etl/fetch_votaciones.py`, y la prueba de
+# que se dijo queda igual en data/processed/votaciones.json: cada votacion
+# guarda la frase literal, el video y el segundo exacto.
+data/raw/subtitulos/
+
+# Actas del Plenario bajadas del SIL+ (ADR-021): ~700 KB cada una, una por
+# sesion. Se regeneran con `python etl/fetch_actas.py`. Lo que SI se versiona
+# es data/raw/actas/indice_sil.json (que actas existen y sus identificadores)
+# y data/processed/actas_plenario.json, que guarda el sha256 de cada archivo
+# para poder comprobar que el acta que se vuelva a bajar es la misma.
+data/raw/actas/*.docx
+
+# Bitacoras de etl/actualizar.py: una por corrida, solo para diagnostico.
+data/bitacora/

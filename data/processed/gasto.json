@@ -1,0 +1,2674 @@
+{
+ "_fuente": "https://www.asamblea.go.cr/pa/datosabiertos/SitePages/Inicio.aspx",
+ "_extraido": "2026-10-09T20:58:05+00:00",
+ "periodo_desde": "2026-05",
+ "salarios": {
+  "2026-05": {
+   "_fuente": "https://www.asamblea.go.cr/pa/datosabiertos/Documentos%20compartidos/SalarioDiputados/2026-05-Salario%20Diputados.xlsx",
+   "publicado": "2026-08-06",
+   "por_diputacion": {
+    "nogui-acosta-jaen": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "angela-aguilar-vargas": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "iztaru-alfaro-guerrero": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "karen-alfaro-jimenez": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "edgardo-araya-sibaja": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "reynaldo-arias-mora": {
+     "dieta": 2670476.13,
+     "representacion": 943072.72,
+     "bruta": 3613548.8499999996
+    },
+    "osvaldo-artavia-carballo": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "grethel-maria-avila-vargas": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "marco-badilla-chavarria": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "robert-junior-barrantes-camacho": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "antonio-barzuna-thompson": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "cindy-maria-blanco-gonzalez": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "gerald-bogantes-rivera": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "esmeralda-britton-gonzalez": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "stephan-brunner-neibig": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "jesus-calderon-calderon": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "kattia-calvo-cruz": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "maria-isabel-camareno-camareno": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "ronald-campos-villegas": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "claudia-dobles-camargo": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "ana-ruth-esquivel-medrano": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "marta-eugenia-esquivel-rodriguez": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "abril-gordienko-lopez": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "nayuribe-guadamuz-rosales": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "eder-hernandez-ulloa": {
+     "dieta": 2861224.41,
+     "representacion": 1010435.04,
+     "bruta": 3871659.45
+    },
+    "victor-hidalgo-solis": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "wilson-alfredo-jimenez-cordero": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "yara-jimenez-fallas": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "norjelens-maria-lobo-vargas": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "karol-vanessa-matamoros-montoya": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "mangell-mc-lean-villalobos": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "ariel-mora-fallas": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "kattya-mora-montoya": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "royner-g-mora-ruiz": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "vianey-mora-vega": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "anna-katharina-muller-castro": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "cindy-murillo-artavia": {
+     "dieta": 2670476.13,
+     "representacion": 943072.72,
+     "bruta": 3613548.8499999996
+    },
+    "zaira-murillo-marin": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "diana-murillo-murillo": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "fernando-obaldia-alvarez": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "mayuli-ortega-guzman": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "salvador-padilla-villanueva": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "juan-manuel-quesada-espinoza": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "alvaro-ramirez-bogantes": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "gonzalo-ramirez-zamora": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "maria-eugenia-roman-mora": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "joselyn-saenz-nunez": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "janice-sandi-morales": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "sigrid-segura-artavia": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "daniel-siezar-cardenas": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "antonio-trejos-mazariegos": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "kattia-maria-ulate-alvarado": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "andrea-valverde-palavicini": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "rafael-vargas-brenes": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "jose-miguel-villalobos-umana": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "jose-maria-villalta-florez-estrada": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "kristel-ward-hudson": {
+     "dieta": 667619.19,
+     "representacion": 235768.36,
+     "bruta": 903387.5499999999
+    }
+   },
+   "notas": [
+    "Nota:  no se incluyen los subsidios por Incapacidad, pues los mismos no son salario y están exentos de cargas sociales"
+   ]
+  },
+  "2026-06": {
+   "_fuente": "https://www.asamblea.go.cr/pa/datosabiertos/Documentos%20compartidos/SalarioDiputados/2026-06-Salario%20Diputados.xlsx",
+   "publicado": "2026-08-06",
+   "por_diputacion": {
+    "nogui-acosta-jaen": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "angela-aguilar-vargas": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "iztaru-alfaro-guerrero": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "karen-alfaro-jimenez": {
+     "dieta": 2858045.27,
+     "representacion": 1009312.33,
+     "bruta": 3867357.6
+    },
+    "edgardo-araya-sibaja": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "reynaldo-arias-mora": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "osvaldo-artavia-carballo": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "grethel-maria-avila-vargas": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "marco-badilla-chavarria": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "robert-junior-barrantes-camacho": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "antonio-barzuna-thompson": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "cindy-maria-blanco-gonzalez": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "gerald-bogantes-rivera": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "esmeralda-britton-gonzalez": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "stephan-brunner-neibig": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "jesus-calderon-calderon": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "kattia-calvo-cruz": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "maria-isabel-camareno-camareno": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "ronald-campos-villegas": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "claudia-dobles-camargo": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "ana-ruth-esquivel-medrano": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "marta-eugenia-esquivel-rodriguez": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "abril-gordienko-lopez": {
+     "dieta": 2759491.99,
+     "representacion": 974508.46,
+     "bruta": 3734000.45
+    },
+    "nayuribe-guadamuz-rosales": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "eder-hernandez-ulloa": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "victor-hidalgo-solis": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "wilson-alfredo-jimenez-cordero": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "yara-jimenez-fallas": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "norjelens-maria-lobo-vargas": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "karol-vanessa-matamoros-montoya": {
+     "dieta": 2858045.27,
+     "representacion": 1009312.33,
+     "bruta": 3867357.6
+    },
+    "mangell-mc-lean-villalobos": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "ariel-mora-fallas": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "kattya-mora-montoya": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "royner-g-mora-ruiz": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "vianey-mora-vega": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "anna-katharina-muller-castro": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "cindy-murillo-artavia": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "zaira-murillo-marin": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "diana-murillo-murillo": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "fernando-obaldia-alvarez": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "mayuli-ortega-guzman": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "salvador-padilla-villanueva": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "juan-manuel-quesada-espinoza": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "alvaro-ramirez-bogantes": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "gonzalo-ramirez-zamora": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "maria-eugenia-roman-mora": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "joselyn-saenz-nunez": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "janice-sandi-morales": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "sigrid-segura-artavia": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "daniel-siezar-cardenas": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "antonio-trejos-mazariegos": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "kattia-maria-ulate-alvarado": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "andrea-valverde-palavicini": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "rafael-vargas-brenes": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "jose-miguel-villalobos-umana": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "jose-maria-villalta-florez-estrada": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "kristel-ward-hudson": {
+     "dieta": 0.0,
+     "representacion": 0.0,
+     "bruta": 0.0
+    }
+   },
+   "notas": [
+    "Nota:  no se incluyen los subsidios por Incapacidad, pues los mismos no son salario y están exentos de cargas sociales"
+   ]
+  },
+  "2026-07": {
+   "_fuente": "https://www.asamblea.go.cr/pa/datosabiertos/Documentos%20compartidos/SalarioDiputados/2026-07-Salario%20Diputados.xlsx",
+   "publicado": "2026-08-03",
+   "por_diputacion": {
+    "nogui-acosta-jaen": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "angela-aguilar-vargas": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "iztaru-alfaro-guerrero": {
+     "dieta": 2111856.1,
+     "representacion": 1044116.2,
+     "bruta": 3155972.3
+    },
+    "karen-alfaro-jimenez": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "edgardo-araya-sibaja": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "reynaldo-arias-mora": {
+     "dieta": 2882683.6,
+     "representacion": 1044116.2,
+     "bruta": 3926799.8
+    },
+    "osvaldo-artavia-carballo": {
+     "dieta": 2765850.27,
+     "representacion": 976753.88,
+     "bruta": 3742604.15
+    },
+    "grethel-maria-avila-vargas": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "marco-badilla-chavarria": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "robert-junior-barrantes-camacho": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "antonio-barzuna-thompson": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "cindy-maria-blanco-gonzalez": {
+     "dieta": 2861224.41,
+     "representacion": 1010435.04,
+     "bruta": 3871659.45
+    },
+    "gerald-bogantes-rivera": {
+     "dieta": 2897466.6,
+     "representacion": 1044116.2,
+     "bruta": 3941582.8
+    },
+    "esmeralda-britton-gonzalez": {
+     "dieta": 2882683.6,
+     "representacion": 1044116.2,
+     "bruta": 3926799.8
+    },
+    "stephan-brunner-neibig": {
+     "dieta": 2884486.4,
+     "representacion": 1044116.2,
+     "bruta": 3928602.5999999996
+    },
+    "jesus-calderon-calderon": {
+     "dieta": 2479727.85,
+     "representacion": 875710.4,
+     "bruta": 3355438.25
+    },
+    "kattia-calvo-cruz": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "maria-isabel-camareno-camareno": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "ronald-campos-villegas": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "claudia-dobles-camargo": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "ana-ruth-esquivel-medrano": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "marta-eugenia-esquivel-rodriguez": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "abril-gordienko-lopez": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "nayuribe-guadamuz-rosales": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "eder-hernandez-ulloa": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "victor-hidalgo-solis": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "wilson-alfredo-jimenez-cordero": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "yara-jimenez-fallas": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "norjelens-maria-lobo-vargas": {
+     "dieta": 2884486.4,
+     "representacion": 1044116.2,
+     "bruta": 3928602.5999999996
+    },
+    "karol-vanessa-matamoros-montoya": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "mangell-mc-lean-villalobos": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "ariel-mora-fallas": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "kattya-mora-montoya": {
+     "dieta": 2861224.41,
+     "representacion": 1010435.04,
+     "bruta": 3871659.45
+    },
+    "royner-g-mora-ruiz": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "vianey-mora-vega": {
+     "dieta": 2884486.4,
+     "representacion": 1044116.2,
+     "bruta": 3928602.5999999996
+    },
+    "anna-katharina-muller-castro": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "cindy-murillo-artavia": {
+     "dieta": 2893692.2,
+     "representacion": 1044116.2,
+     "bruta": 3937808.4000000004
+    },
+    "zaira-murillo-marin": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "diana-murillo-murillo": {
+     "dieta": 2889403.15,
+     "representacion": 1044116.2,
+     "bruta": 3933519.3499999996
+    },
+    "fernando-obaldia-alvarez": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "mayuli-ortega-guzman": {
+     "dieta": 2886203.35,
+     "representacion": 1044116.2,
+     "bruta": 3930319.55
+    },
+    "salvador-padilla-villanueva": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "juan-manuel-quesada-espinoza": {
+     "dieta": 2886203.35,
+     "representacion": 1044116.2,
+     "bruta": 3930319.55
+    },
+    "alvaro-ramirez-bogantes": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "gonzalo-ramirez-zamora": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "maria-eugenia-roman-mora": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "joselyn-saenz-nunez": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "janice-sandi-morales": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "sigrid-segura-artavia": {
+     "dieta": 2886203.35,
+     "representacion": 1044116.2,
+     "bruta": 3930319.55
+    },
+    "daniel-siezar-cardenas": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "antonio-trejos-mazariegos": {
+     "dieta": 2897466.6,
+     "representacion": 1044116.2,
+     "bruta": 3941582.8
+    },
+    "kattia-maria-ulate-alvarado": {
+     "dieta": 2892324.65,
+     "representacion": 1044116.2,
+     "bruta": 3936440.8499999996
+    },
+    "andrea-valverde-palavicini": {
+     "dieta": 2886203.35,
+     "representacion": 1044116.2,
+     "bruta": 3930319.55
+    },
+    "rafael-vargas-brenes": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "jose-miguel-villalobos-umana": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "jose-maria-villalta-florez-estrada": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "kristel-ward-hudson": {
+     "dieta": 0.0,
+     "representacion": 0.0,
+     "bruta": 0.0
+    }
+   },
+   "notas": [
+    "Nota:  no se incluyen los subsidios por Incapacidad, pues los mismos no son salario y están exentos de cargas sociales"
+   ]
+  },
+  "2026-08": {
+   "_fuente": "https://www.asamblea.go.cr/pa/datosabiertos/Documentos%20compartidos/SalarioDiputados/2026-08-Salario%20Diputados.xlsx",
+   "publicado": "2026-08-28",
+   "por_diputacion": {
+    "nogui-acosta-jaen": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "angela-aguilar-vargas": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "iztaru-alfaro-guerrero": {
+     "dieta": 2681566.1,
+     "representacion": 1044116.2,
+     "bruta": 3725682.3
+    },
+    "karen-alfaro-jimenez": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "edgardo-araya-sibaja": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "reynaldo-arias-mora": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "osvaldo-artavia-carballo": {
+     "dieta": 2765850.27,
+     "representacion": 976753.88,
+     "bruta": 3742604.15
+    },
+    "grethel-maria-avila-vargas": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "marco-badilla-chavarria": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "robert-junior-barrantes-camacho": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "antonio-barzuna-thompson": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "cindy-maria-blanco-gonzalez": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "gerald-bogantes-rivera": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "esmeralda-britton-gonzalez": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "stephan-brunner-neibig": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "jesus-calderon-calderon": {
+     "dieta": 2479727.85,
+     "representacion": 875710.4,
+     "bruta": 3355438.25
+    },
+    "kattia-calvo-cruz": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "maria-isabel-camareno-camareno": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "ronald-campos-villegas": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "claudia-dobles-camargo": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "ana-ruth-esquivel-medrano": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "marta-eugenia-esquivel-rodriguez": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "abril-gordienko-lopez": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "nayuribe-guadamuz-rosales": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "eder-hernandez-ulloa": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "victor-hidalgo-solis": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "wilson-alfredo-jimenez-cordero": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "yara-jimenez-fallas": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "norjelens-maria-lobo-vargas": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "karol-vanessa-matamoros-montoya": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "mangell-mc-lean-villalobos": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "ariel-mora-fallas": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "kattya-mora-montoya": {
+     "dieta": 2861224.41,
+     "representacion": 1010435.04,
+     "bruta": 3871659.45
+    },
+    "royner-g-mora-ruiz": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "vianey-mora-vega": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "anna-katharina-muller-castro": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "cindy-murillo-artavia": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "zaira-murillo-marin": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "diana-murillo-murillo": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "fernando-obaldia-alvarez": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "mayuli-ortega-guzman": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "salvador-padilla-villanueva": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "juan-manuel-quesada-espinoza": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "alvaro-ramirez-bogantes": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "gonzalo-ramirez-zamora": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "maria-eugenia-roman-mora": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "joselyn-saenz-nunez": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "janice-sandi-morales": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "sigrid-segura-artavia": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "daniel-siezar-cardenas": {
+     "dieta": 2796950.51,
+     "representacion": 1010435.04,
+     "bruta": 3807385.55
+    },
+    "antonio-trejos-mazariegos": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "kattia-maria-ulate-alvarado": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "andrea-valverde-palavicini": {
+     "dieta": 2670476.13,
+     "representacion": 943072.72,
+     "bruta": 3613548.8499999996
+    },
+    "rafael-vargas-brenes": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "jose-miguel-villalobos-umana": {
+     "dieta": 2886203.35,
+     "representacion": 1044116.2,
+     "bruta": 3930319.55
+    },
+    "jose-maria-villalta-florez-estrada": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "kristel-ward-hudson": {
+     "dieta": 0.0,
+     "representacion": 0.0,
+     "bruta": 0.0
+    }
+   },
+   "notas": [
+    "Nota:  no se incluyen los subsidios por Incapacidad, pues los mismos no son salario y están exentos de cargas sociales"
+   ]
+  },
+  "2026-09": {
+   "_fuente": "https://www.asamblea.go.cr/pa/datosabiertos/Documentos%20compartidos/SalarioDiputados/2026-09-Salario%20Diputados.xlsx",
+   "publicado": "2026-10-02",
+   "por_diputacion": {
+    "nogui-acosta-jaen": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "angela-aguilar-vargas": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "iztaru-alfaro-guerrero": {
+     "dieta": 2502046.68,
+     "representacion": 904900.72,
+     "bruta": 3406947.4000000004
+    },
+    "karen-alfaro-jimenez": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "edgardo-araya-sibaja": {
+     "dieta": 2506600.53,
+     "representacion": 904900.72,
+     "bruta": 3411501.25
+    },
+    "reynaldo-arias-mora": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "osvaldo-artavia-carballo": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "grethel-maria-avila-vargas": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "marco-badilla-chavarria": {
+     "dieta": 2838334.6,
+     "representacion": 1044116.2,
+     "bruta": 3882450.8
+    },
+    "robert-junior-barrantes-camacho": {
+     "dieta": 2759491.99,
+     "representacion": 974508.46,
+     "bruta": 3734000.45
+    },
+    "antonio-barzuna-thompson": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "cindy-maria-blanco-gonzalez": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "gerald-bogantes-rivera": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "esmeralda-britton-gonzalez": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "stephan-brunner-neibig": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "jesus-calderon-calderon": {
+     "dieta": 1773959.19,
+     "representacion": 626469.76,
+     "bruta": 2400428.95
+    },
+    "kattia-calvo-cruz": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "maria-isabel-camareno-camareno": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "ronald-campos-villegas": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "claudia-dobles-camargo": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "ana-ruth-esquivel-medrano": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "marta-eugenia-esquivel-rodriguez": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "abril-gordienko-lopez": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "nayuribe-guadamuz-rosales": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "eder-hernandez-ulloa": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "victor-hidalgo-solis": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "wilson-alfredo-jimenez-cordero": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "yara-jimenez-fallas": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "norjelens-maria-lobo-vargas": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "karol-vanessa-matamoros-montoya": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "mangell-mc-lean-villalobos": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "ariel-mora-fallas": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "kattya-mora-montoya": {
+     "dieta": 2365278.87,
+     "representacion": 835292.98,
+     "bruta": 3200571.85
+    },
+    "royner-g-mora-ruiz": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "vianey-mora-vega": {
+     "dieta": 2562385.43,
+     "representacion": 904900.72,
+     "bruta": 3467286.1500000004
+    },
+    "anna-katharina-muller-castro": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "cindy-murillo-artavia": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "zaira-murillo-marin": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "diana-murillo-murillo": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "fernando-obaldia-alvarez": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "mayuli-ortega-guzman": {
+     "dieta": 2660938.71,
+     "representacion": 939704.59,
+     "bruta": 3600643.3
+    },
+    "salvador-padilla-villanueva": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "juan-manuel-quesada-espinoza": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "alvaro-ramirez-bogantes": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "gonzalo-ramirez-zamora": {
+     "dieta": 2900813.65,
+     "representacion": 1044116.2,
+     "bruta": 3944929.8499999996
+    },
+    "maria-eugenia-roman-mora": {
+     "dieta": 2660938.71,
+     "representacion": 939704.59,
+     "bruta": 3600643.3
+    },
+    "joselyn-saenz-nunez": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "janice-sandi-morales": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "sigrid-segura-artavia": {
+     "dieta": 2898626.05,
+     "representacion": 1044116.2,
+     "bruta": 3942742.25
+    },
+    "daniel-siezar-cardenas": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "antonio-trejos-mazariegos": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "kattia-maria-ulate-alvarado": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "andrea-valverde-palavicini": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "rafael-vargas-brenes": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "jose-miguel-villalobos-umana": {
+     "dieta": 2660938.71,
+     "representacion": 939704.59,
+     "bruta": 3600643.3
+    },
+    "jose-maria-villalta-florez-estrada": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "kristel-ward-hudson": {
+     "dieta": 2266725.59,
+     "representacion": 800489.11,
+     "bruta": 3067214.6999999997
+    }
+   },
+   "notas": [
+    "Nota:  no se incluyen los subsidios por Incapacidad, pues los mismos no son salario y están exentos de cargas sociales"
+   ]
+  }
+ },
+ "combustible": {
+  "2026-05": {
+   "_fuente": "https://www.asamblea.go.cr/pa/datosabiertos/Documentos%20compartidos/ConsumoCombustible/2026-05-combustible.xlsx",
+   "publicado": "2026-08-20",
+   "por_diputacion": {
+    "nogui-acosta-jaen": {
+     "monto": 67437.0,
+     "renuncio": false
+    },
+    "angela-aguilar-vargas": {
+     "monto": 131922.0,
+     "renuncio": false
+    },
+    "iztaru-alfaro-guerrero": {
+     "monto": 0.0,
+     "renuncio": false
+    },
+    "karen-alfaro-jimenez": {
+     "monto": 134269.0,
+     "renuncio": false
+    },
+    "edgardo-araya-sibaja": {
+     "monto": 53144.0,
+     "renuncio": false
+    },
+    "reynaldo-arias-mora": {
+     "monto": 0.0,
+     "renuncio": false
+    },
+    "osvaldo-artavia-carballo": {
+     "monto": 82188.0,
+     "renuncio": false
+    },
+    "grethel-maria-avila-vargas": {
+     "monto": 173257.0,
+     "renuncio": false
+    },
+    "marco-badilla-chavarria": {
+     "monto": 81251.0,
+     "renuncio": false
+    },
+    "robert-junior-barrantes-camacho": {
+     "monto": 36012.0,
+     "renuncio": false
+    },
+    "antonio-barzuna-thompson": {
+     "monto": 0.0,
+     "renuncio": false
+    },
+    "cindy-maria-blanco-gonzalez": {
+     "monto": 147119.0,
+     "renuncio": false
+    },
+    "gerald-bogantes-rivera": {
+     "monto": 0.0,
+     "renuncio": false
+    },
+    "esmeralda-britton-gonzalez": {
+     "monto": 61259.0,
+     "renuncio": false
+    },
+    "stephan-brunner-neibig": {
+     "monto": 77000.0,
+     "renuncio": false
+    },
+    "jesus-calderon-calderon": {
+     "monto": 278360.0,
+     "renuncio": false
+    },
+    "kattia-calvo-cruz": {
+     "monto": 61439.0,
+     "renuncio": false
+    },
+    "maria-isabel-camareno-camareno": {
+     "monto": 104018.0,
+     "renuncio": false
+    },
+    "ronald-campos-villegas": {
+     "monto": 147543.0,
+     "renuncio": false
+    },
+    "claudia-dobles-camargo": {
+     "monto": 0.0,
+     "renuncio": false
+    },
+    "ana-ruth-esquivel-medrano": {
+     "monto": 181822.0,
+     "renuncio": false
+    },
+    "marta-eugenia-esquivel-rodriguez": {
+     "monto": 0.0,
+     "renuncio": true
+    },
+    "abril-gordienko-lopez": {
+     "monto": 0.0,
+     "renuncio": true
+    },
+    "nayuribe-guadamuz-rosales": {
+     "monto": 42959.0,
+     "renuncio": false
+    },
+    "eder-hernandez-ulloa": {
+     "monto": 229980.0,
+     "renuncio": false
+    },
+    "victor-hidalgo-solis": {
+     "monto": 133204.0,
+     "renuncio": false
+    },
+    "wilson-alfredo-jimenez-cordero": {
+     "monto": 178494.0,
+     "renuncio": false
+    },
+    "yara-jimenez-fallas": {
+     "monto": 0.0,
+     "renuncio": false
+    },
+    "norjelens-maria-lobo-vargas": {
+     "monto": 201383.0,
+     "renuncio": false
+    },
+    "karol-vanessa-matamoros-montoya": {
+     "monto": 220116.0,
+     "renuncio": false
+    },
+    "mangell-mc-lean-villalobos": {
+     "monto": 213296.0,
+     "renuncio": false
+    },
+    "ariel-mora-fallas": {
+     "monto": 160121.0,
+     "renuncio": false
+    },
+    "kattya-mora-montoya": {
+     "monto": 0.0,
+     "renuncio": false
+    },
+    "royner-g-mora-ruiz": {
+     "monto": 0.0,
+     "renuncio": false
+    },
+    "vianey-mora-vega": {
+     "monto": 0.0,
+     "renuncio": false
+    },
+    "anna-katharina-muller-castro": {
+     "monto": 23018.0,
+     "renuncio": false
+    },
+    "cindy-murillo-artavia": {
+     "monto": 134443.0,
+     "renuncio": false
+    },
+    "zaira-murillo-marin": {
+     "monto": 197770.0,
+     "renuncio": false
+    },
+    "diana-murillo-murillo": {
+     "monto": 0.0,
+     "renuncio": true
+    },
+    "fernando-obaldia-alvarez": {
+     "monto": 170662.0,
+     "renuncio": false
+    },
+    "mayuli-ortega-guzman": {
+     "monto": 0.0,
+     "renuncio": false
+    },
+    "salvador-padilla-villanueva": {
+     "monto": 47699.0,
+     "renuncio": false
+    },
+    "juan-manuel-quesada-espinoza": {
+     "monto": 89093.0,
+     "renuncio": false
+    },
+    "alvaro-ramirez-bogantes": {
+     "monto": 0.0,
+     "renuncio": true
+    },
+    "gonzalo-ramirez-zamora": {
+     "monto": 188011.0,
+     "renuncio": false
+    },
+    "maria-eugenia-roman-mora": {
+     "monto": 0.0,
+     "renuncio": true
+    },
+    "joselyn-saenz-nunez": {
+     "monto": 40000.0,
+     "renuncio": false
+    },
+    "janice-sandi-morales": {
+     "monto": 178474.0,
+     "renuncio": false
+    },
+    "sigrid-segura-artavia": {
+     "monto": 20000.0,
+     "renuncio": false
+    },
+    "daniel-siezar-cardenas": {
+     "monto": 25000.0,
+     "renuncio": false
+    },
+    "antonio-trejos-mazariegos": {
+     "monto": 40000.0,
+     "renuncio": false
+    },
+    "kattia-maria-ulate-alvarado": {
+     "monto": 156396.0,
+     "renuncio": false
+    },
+    "andrea-valverde-palavicini": {
+     "monto": 181299.0,
+     "renuncio": false
+    },
+    "rafael-vargas-brenes": {
+     "monto": 176049.0,
+     "renuncio": false
+    },
+    "jose-miguel-villalobos-umana": {
+     "monto": 39653.0,
+     "renuncio": false
+    },
+    "jose-maria-villalta-florez-estrada": {
+     "monto": 0.0,
+     "renuncio": false
+    },
+    "kristel-ward-hudson": {
+     "monto": 0.0,
+     "renuncio": true
+    }
+   },
+   "total_declarado": null,
+   "notas": [
+    "Fuente: Planillas de combustible, BCR compras, Departamento Financiero, Asamblea Legislativa.",
+    "Nota: Los (as) diputados (as) indentificacos con un asterisco (*) renunciaron a la ayuda técnica"
+   ]
+  },
+  "2026-06": {
+   "_fuente": "https://www.asamblea.go.cr/pa/datosabiertos/Documentos%20compartidos/ConsumoCombustible/2026-06-combustible.xlsx",
+   "publicado": "2026-08-20",
+   "por_diputacion": {
+    "nogui-acosta-jaen": {
+     "monto": 125508.0,
+     "renuncio": false
+    },
+    "angela-aguilar-vargas": {
+     "monto": 146685.0,
+     "renuncio": false
+    },
+    "iztaru-alfaro-guerrero": {
+     "monto": 0.0,
+     "renuncio": false
+    },
+    "karen-alfaro-jimenez": {
+     "monto": 210943.0,
+     "renuncio": false
+    },
+    "edgardo-araya-sibaja": {
+     "monto": 25166.0,
+     "renuncio": false
+    },
+    "reynaldo-arias-mora": {
+     "monto": 0.0,
+     "renuncio": false
+    },
+    "osvaldo-artavia-carballo": {
+     "monto": 297377.0,
+     "renuncio": false
+    },
+    "grethel-maria-avila-vargas": {
+     "monto": 256950.0,
+     "renuncio": false
+    },
+    "marco-badilla-chavarria": {
+     "monto": 80841.0,
+     "renuncio": false
+    },
+    "robert-junior-barrantes-camacho": {
+     "monto": 22002.0,
+     "renuncio": false
+    },
+    "antonio-barzuna-thompson": {
+     "monto": 0.0,
+     "renuncio": false
+    },
+    "cindy-maria-blanco-gonzalez": {
+     "monto": 167920.0,
+     "renuncio": false
+    },
+    "gerald-bogantes-rivera": {
+     "monto": 0.0,
+     "renuncio": false
+    },
+    "esmeralda-britton-gonzalez": {
+     "monto": 88265.0,
+     "renuncio": false
+    },
+    "stephan-brunner-neibig": {
+     "monto": 82000.0,
+     "renuncio": false
+    },
+    "jesus-calderon-calderon": {
+     "monto": 339297.0,
+     "renuncio": false
+    },
+    "kattia-calvo-cruz": {
+     "monto": 147215.0,
+     "renuncio": false
+    },
+    "maria-isabel-camareno-camareno": {
+     "monto": 126023.0,
+     "renuncio": false
+    },
+    "ronald-campos-villegas": {
+     "monto": 388799.0,
+     "renuncio": false
+    },
+    "claudia-dobles-camargo": {
+     "monto": 50298.0,
+     "renuncio": false
+    },
+    "ana-ruth-esquivel-medrano": {
+     "monto": 308743.0,
+     "renuncio": false
+    },
+    "marta-eugenia-esquivel-rodriguez": {
+     "monto": 0.0,
+     "renuncio": true
+    },
+    "abril-gordienko-lopez": {
+     "monto": 0.0,
+     "renuncio": true
+    },
+    "nayuribe-guadamuz-rosales": {
+     "monto": 52447.0,
+     "renuncio": false
+    },
+    "eder-hernandez-ulloa": {
+     "monto": 441256.0,
+     "renuncio": false
+    },
+    "victor-hidalgo-solis": {
+     "monto": 165168.0,
+     "renuncio": false
+    },
+    "wilson-alfredo-jimenez-cordero": {
+     "monto": 265775.0,
+     "renuncio": false
+    },
+    "yara-jimenez-fallas": {
+     "monto": 30000.0,
+     "renuncio": false
+    },
+    "norjelens-maria-lobo-vargas": {
+     "monto": 319335.0,
+     "renuncio": false
+    },
+    "karol-vanessa-matamoros-montoya": {
+     "monto": 294137.0,
+     "renuncio": false
+    },
+    "mangell-mc-lean-villalobos": {
+     "monto": 316585.0,
+     "renuncio": false
+    },
+    "ariel-mora-fallas": {
+     "monto": 130699.0,
+     "renuncio": false
+    },
+    "kattya-mora-montoya": {
+     "monto": 0.0,
+     "renuncio": false
+    },
+    "royner-g-mora-ruiz": {
+     "monto": 0.0,
+     "renuncio": false
+    },
+    "vianey-mora-vega": {
+     "monto": 63005.0,
+     "renuncio": false
+    },
+    "anna-katharina-muller-castro": {
+     "monto": 67829.0,
+     "renuncio": false
+    },
+    "cindy-murillo-artavia": {
+     "monto": 248819.0,
+     "renuncio": false
+    },
+    "zaira-murillo-marin": {
+     "monto": 241337.0,
+     "renuncio": false
+    },
+    "diana-murillo-murillo": {
+     "monto": 0.0,
+     "renuncio": true
+    },
+    "fernando-obaldia-alvarez": {
+     "monto": 157022.0,
+     "renuncio": false
+    },
+    "mayuli-ortega-guzman": {
+     "monto": 0.0,
+     "renuncio": false
+    },
+    "salvador-padilla-villanueva": {
+     "monto": 27913.0,
+     "renuncio": false
+    },
+    "juan-manuel-quesada-espinoza": {
+     "monto": 86992.0,
+     "renuncio": false
+    },
+    "alvaro-ramirez-bogantes": {
+     "monto": 0.0,
+     "renuncio": true
+    },
+    "gonzalo-ramirez-zamora": {
+     "monto": 235521.0,
+     "renuncio": false
+    },
+    "maria-eugenia-roman-mora": {
+     "monto": 0.0,
+     "renuncio": true
+    },
+    "joselyn-saenz-nunez": {
+     "monto": 70000.0,
+     "renuncio": false
+    },
+    "janice-sandi-morales": {
+     "monto": 430406.0,
+     "renuncio": false
+    },
+    "sigrid-segura-artavia": {
+     "monto": 45378.0,
+     "renuncio": false
+    },
+    "daniel-siezar-cardenas": {
+     "monto": 52007.0,
+     "renuncio": false
+    },
+    "antonio-trejos-mazariegos": {
+     "monto": 105169.0,
+     "renuncio": false
+    },
+    "kattia-maria-ulate-alvarado": {
+     "monto": 137715.0,
+     "renuncio": false
+    },
+    "andrea-valverde-palavicini": {
+     "monto": 216540.0,
+     "renuncio": false
+    },
+    "rafael-vargas-brenes": {
+     "monto": 230163.0,
+     "renuncio": false
+    },
+    "jose-miguel-villalobos-umana": {
+     "monto": 81014.0,
+     "renuncio": false
+    },
+    "jose-maria-villalta-florez-estrada": {
+     "monto": 0.0,
+     "renuncio": false
+    },
+    "kristel-ward-hudson": {
+     "monto": 0.0,
+     "renuncio": true
+    }
+   },
+   "total_declarado": null,
+   "notas": [
+    "Fuente: Planillas de combustible, BCR compras, Departamento Financiero, Asamblea Legislativa.",
+    "Nota: Los (as) diputados (as) indentificacos con un asterisco (*) renunciaron a la ayuda técnica"
+   ]
+  },
+  "2026-07": {
+   "_fuente": "https://www.asamblea.go.cr/pa/datosabiertos/Documentos%20compartidos/ConsumoCombustible/2026-07-combustible.xlsx",
+   "publicado": "2026-08-20",
+   "por_diputacion": {
+    "nogui-acosta-jaen": {
+     "monto": 307477.0,
+     "renuncio": false
+    },
+    "angela-aguilar-vargas": {
+     "monto": 118179.0,
+     "renuncio": false
+    },
+    "iztaru-alfaro-guerrero": {
+     "monto": 0.0,
+     "renuncio": false
+    },
+    "karen-alfaro-jimenez": {
+     "monto": 217030.0,
+     "renuncio": false
+    },
+    "edgardo-araya-sibaja": {
+     "monto": 141292.0,
+     "renuncio": false
+    },
+    "reynaldo-arias-mora": {
+     "monto": 0.0,
+     "renuncio": false
+    },
+    "osvaldo-artavia-carballo": {
+     "monto": 225498.0,
+     "renuncio": false
+    },
+    "grethel-maria-avila-vargas": {
+     "monto": 239875.0,
+     "renuncio": false
+    },
+    "marco-badilla-chavarria": {
+     "monto": 88666.0,
+     "renuncio": false
+    },
+    "robert-junior-barrantes-camacho": {
+     "monto": 48641.0,
+     "renuncio": false
+    },
+    "antonio-barzuna-thompson": {
+     "monto": 41132.0,
+     "renuncio": false
+    },
+    "cindy-maria-blanco-gonzalez": {
+     "monto": 161289.0,
+     "renuncio": false
+    },
+    "gerald-bogantes-rivera": {
+     "monto": 0.0,
+     "renuncio": false
+    },
+    "esmeralda-britton-gonzalez": {
+     "monto": 125923.0,
+     "renuncio": false
+    },
+    "stephan-brunner-neibig": {
+     "monto": 82351.0,
+     "renuncio": false
+    },
+    "jesus-calderon-calderon": {
+     "monto": 346153.0,
+     "renuncio": false
+    },
+    "kattia-calvo-cruz": {
+     "monto": 295361.0,
+     "renuncio": false
+    },
+    "maria-isabel-camareno-camareno": {
+     "monto": 148745.0,
+     "renuncio": false
+    },
+    "ronald-campos-villegas": {
+     "monto": 353190.0,
+     "renuncio": false
+    },
+    "claudia-dobles-camargo": {
+     "monto": 93308.0,
+     "renuncio": false
+    },
+    "ana-ruth-esquivel-medrano": {
+     "monto": 564102.0,
+     "renuncio": false
+    },
+    "marta-eugenia-esquivel-rodriguez": {
+     "monto": 0.0,
+     "renuncio": true
+    },
+    "abril-gordienko-lopez": {
+     "monto": 0.0,
+     "renuncio": true
+    },
+    "nayuribe-guadamuz-rosales": {
+     "monto": 122664.0,
+     "renuncio": false
+    },
+    "eder-hernandez-ulloa": {
+     "monto": 323097.0,
+     "renuncio": false
+    },
+    "victor-hidalgo-solis": {
+     "monto": 193346.0,
+     "renuncio": false
+    },
+    "wilson-alfredo-jimenez-cordero": {
+     "monto": 254151.0,
+     "renuncio": false
+    },
+    "yara-jimenez-fallas": {
+     "monto": 37501.0,
+     "renuncio": false
+    },
+    "norjelens-maria-lobo-vargas": {
+     "monto": 444782.0,
+     "renuncio": false
+    },
+    "karol-vanessa-matamoros-montoya": {
+     "monto": 269591.0,
+     "renuncio": false
+    },
+    "mangell-mc-lean-villalobos": {
+     "monto": 197739.0,
+     "renuncio": false
+    },
+    "ariel-mora-fallas": {
+     "monto": 119250.0,
+     "renuncio": false
+    },
+    "kattya-mora-montoya": {
+     "monto": 0.0,
+     "renuncio": false
+    },
+    "royner-g-mora-ruiz": {
+     "monto": 256289.0,
+     "renuncio": false
+    },
+    "vianey-mora-vega": {
+     "monto": 0.0,
+     "renuncio": false
+    },
+    "anna-katharina-muller-castro": {
+     "monto": 123991.0,
+     "renuncio": false
+    },
+    "cindy-murillo-artavia": {
+     "monto": 312363.0,
+     "renuncio": false
+    },
+    "zaira-murillo-marin": {
+     "monto": 197753.0,
+     "renuncio": false
+    },
+    "diana-murillo-murillo": {
+     "monto": 0.0,
+     "renuncio": true
+    },
+    "fernando-obaldia-alvarez": {
+     "monto": 271457.0,
+     "renuncio": false
+    },
+    "mayuli-ortega-guzman": {
+     "monto": 0.0,
+     "renuncio": false
+    },
+    "salvador-padilla-villanueva": {
+     "monto": 100513.0,
+     "renuncio": false
+    },
+    "juan-manuel-quesada-espinoza": {
+     "monto": 225694.0,
+     "renuncio": false
+    },
+    "alvaro-ramirez-bogantes": {
+     "monto": 0.0,
+     "renuncio": true
+    },
+    "gonzalo-ramirez-zamora": {
+     "monto": 200055.0,
+     "renuncio": false
+    },
+    "maria-eugenia-roman-mora": {
+     "monto": 0.0,
+     "renuncio": true
+    },
+    "joselyn-saenz-nunez": {
+     "monto": 87156.0,
+     "renuncio": false
+    },
+    "janice-sandi-morales": {
+     "monto": 273028.0,
+     "renuncio": false
+    },
+    "sigrid-segura-artavia": {
+     "monto": 28643.0,
+     "renuncio": false
+    },
+    "daniel-siezar-cardenas": {
+     "monto": 101912.0,
+     "renuncio": false
+    },
+    "antonio-trejos-mazariegos": {
+     "monto": 42443.0,
+     "renuncio": false
+    },
+    "kattia-maria-ulate-alvarado": {
+     "monto": 261505.0,
+     "renuncio": false
+    },
+    "andrea-valverde-palavicini": {
+     "monto": 325008.0,
+     "renuncio": false
+    },
+    "rafael-vargas-brenes": {
+     "monto": 255662.0,
+     "renuncio": false
+    },
+    "jose-miguel-villalobos-umana": {
+     "monto": 193197.0,
+     "renuncio": false
+    },
+    "jose-maria-villalta-florez-estrada": {
+     "monto": 35500.0,
+     "renuncio": false
+    },
+    "kristel-ward-hudson": {
+     "monto": 0.0,
+     "renuncio": true
+    }
+   },
+   "total_declarado": null,
+   "notas": [
+    "Fuente: Planillas de combustible, BCR compras, Departamento Financiero, Asamblea Legislativa.",
+    "Nota: Los (as) diputados (as) indentificacos con un asterisco (*) renunciaron a la ayuda técnica"
+   ]
+  },
+  "2026-08": {
+   "_fuente": "https://www.asamblea.go.cr/pa/datosabiertos/Documentos%20compartidos/ConsumoCombustible/2026-08-combustible.xlsx",
+   "publicado": "2026-09-07",
+   "por_diputacion": {
+    "nogui-acosta-jaen": {
+     "monto": 203793.0,
+     "renuncio": false
+    },
+    "angela-aguilar-vargas": {
+     "monto": 142441.0,
+     "renuncio": false
+    },
+    "iztaru-alfaro-guerrero": {
+     "monto": null,
+     "renuncio": true
+    },
+    "karen-alfaro-jimenez": {
+     "monto": 283843.0,
+     "renuncio": false
+    },
+    "edgardo-araya-sibaja": {
+     "monto": 66055.0,
+     "renuncio": false
+    },
+    "reynaldo-arias-mora": {
+     "monto": 0.0,
+     "renuncio": false
+    },
+    "osvaldo-artavia-carballo": {
+     "monto": 240277.0,
+     "renuncio": false
+    },
+    "grethel-maria-avila-vargas": {
+     "monto": 261596.0,
+     "renuncio": false
+    },
+    "marco-badilla-chavarria": {
+     "monto": 90002.0,
+     "renuncio": false
+    },
+    "robert-junior-barrantes-camacho": {
+     "monto": 14650.0,
+     "renuncio": false
+    },
+    "antonio-barzuna-thompson": {
+     "monto": 134489.0,
+     "renuncio": false
+    },
+    "cindy-maria-blanco-gonzalez": {
+     "monto": 247887.0,
+     "renuncio": false
+    },
+    "gerald-bogantes-rivera": {
+     "monto": 0.0,
+     "renuncio": false
+    },
+    "esmeralda-britton-gonzalez": {
+     "monto": 166859.0,
+     "renuncio": false
+    },
+    "stephan-brunner-neibig": {
+     "monto": 128662.0,
+     "renuncio": false
+    },
+    "jesus-calderon-calderon": {
+     "monto": 465012.0,
+     "renuncio": false
+    },
+    "kattia-calvo-cruz": {
+     "monto": 159008.0,
+     "renuncio": false
+    },
+    "maria-isabel-camareno-camareno": {
+     "monto": 153022.0,
+     "renuncio": false
+    },
+    "ronald-campos-villegas": {
+     "monto": 272524.0,
+     "renuncio": false
+    },
+    "claudia-dobles-camargo": {
+     "monto": 85083.0,
+     "renuncio": false
+    },
+    "ana-ruth-esquivel-medrano": {
+     "monto": 285811.0,
+     "renuncio": false
+    },
+    "marta-eugenia-esquivel-rodriguez": {
+     "monto": null,
+     "renuncio": true
+    },
+    "abril-gordienko-lopez": {
+     "monto": null,
+     "renuncio": true
+    },
+    "nayuribe-guadamuz-rosales": {
+     "monto": 61433.0,
+     "renuncio": false
+    },
+    "eder-hernandez-ulloa": {
+     "monto": 240654.0,
+     "renuncio": false
+    },
+    "victor-hidalgo-solis": {
+     "monto": 137661.0,
+     "renuncio": false
+    },
+    "wilson-alfredo-jimenez-cordero": {
+     "monto": 254759.0,
+     "renuncio": false
+    },
+    "yara-jimenez-fallas": {
+     "monto": 0.0,
+     "renuncio": false
+    },
+    "norjelens-maria-lobo-vargas": {
+     "monto": 334962.0,
+     "renuncio": false
+    },
+    "karol-vanessa-matamoros-montoya": {
+     "monto": 380345.0,
+     "renuncio": false
+    },
+    "mangell-mc-lean-villalobos": {
+     "monto": 381737.0,
+     "renuncio": false
+    },
+    "ariel-mora-fallas": {
+     "monto": 131455.0,
+     "renuncio": false
+    },
+    "kattya-mora-montoya": {
+     "monto": 0.0,
+     "renuncio": false
+    },
+    "royner-g-mora-ruiz": {
+     "monto": 199911.0,
+     "renuncio": false
+    },
+    "vianey-mora-vega": {
+     "monto": 130043.0,
+     "renuncio": false
+    },
+    "anna-katharina-muller-castro": {
+     "monto": 67107.0,
+     "renuncio": false
+    },
+    "cindy-murillo-artavia": {
+     "monto": 271782.0,
+     "renuncio": false
+    },
+    "zaira-murillo-marin": {
+     "monto": 323138.0,
+     "renuncio": false
+    },
+    "diana-murillo-murillo": {
+     "monto": null,
+     "renuncio": true
+    },
+    "fernando-obaldia-alvarez": {
+     "monto": 338732.0,
+     "renuncio": false
+    },
+    "mayuli-ortega-guzman": {
+     "monto": 0.0,
+     "renuncio": false
+    },
+    "salvador-padilla-villanueva": {
+     "monto": 54026.0,
+     "renuncio": false
+    },
+    "juan-manuel-quesada-espinoza": {
+     "monto": 131631.0,
+     "renuncio": false
+    },
+    "alvaro-ramirez-bogantes": {
+     "monto": null,
+     "renuncio": true
+    },
+    "gonzalo-ramirez-zamora": {
+     "monto": 381878.0,
+     "renuncio": false
+    },
+    "maria-eugenia-roman-mora": {
+     "monto": null,
+     "renuncio": true
+    },
+    "joselyn-saenz-nunez": {
+     "monto": 86460.0,
+     "renuncio": false
+    },
+    "janice-sandi-morales": {
+     "monto": 181123.0,
+     "renuncio": false
+    },
+    "sigrid-segura-artavia": {
+     "monto": 26713.0,
+     "renuncio": false
+    },
+    "daniel-siezar-cardenas": {
+     "monto": 131967.0,
+     "renuncio": false
+    },
+    "antonio-trejos-mazariegos": {
+     "monto": 28578.0,
+     "renuncio": false
+    },
+    "kattia-maria-ulate-alvarado": {
+     "monto": 151595.0,
+     "renuncio": false
+    },
+    "andrea-valverde-palavicini": {
+     "monto": 300035.0,
+     "renuncio": false
+    },
+    "rafael-vargas-brenes": {
+     "monto": 174111.0,
+     "renuncio": false
+    },
+    "jose-miguel-villalobos-umana": {
+     "monto": 87233.0,
+     "renuncio": false
+    },
+    "jose-maria-villalta-florez-estrada": {
+     "monto": 30000.0,
+     "renuncio": false
+    },
+    "kristel-ward-hudson": {
+     "monto": 0.0,
+     "renuncio": true
+    }
+   },
+   "total_declarado": null,
+   "notas": [
+    "Fuente: Planillas de combustible, BCR compras, Departamento Financiero, Asamblea Legislativa.\nNota: Los (as) diputados (as) indentificacos con un asterisco (*) renunciaron a la ayuda técnica de combustible.La señora diputada Kristel Ward Hudson (**) no recibe asignación de combustible durante los meses de junio, julio y agosto de 2026, debido a que se encuentra en licencia de maternidad durante la totalidad de los días comprendidos en dichos meses.\nElaborado por: Licda. Teresita Aleman Duran.Tesorería Institucional."
+   ]
+  },
+  "2026-09": {
+   "_fuente": "https://www.asamblea.go.cr/pa/datosabiertos/Documentos%20compartidos/ConsumoCombustible/2026-09-combustible.xlsx",
+   "publicado": "2026-10-07",
+   "por_diputacion": {
+    "nogui-acosta-jaen": {
+     "monto": 131927.0,
+     "renuncio": false
+    },
+    "angela-aguilar-vargas": {
+     "monto": 140416.0,
+     "renuncio": false
+    },
+    "iztaru-alfaro-guerrero": {
+     "monto": null,
+     "renuncio": true
+    },
+    "karen-alfaro-jimenez": {
+     "monto": 323346.0,
+     "renuncio": false
+    },
+    "edgardo-araya-sibaja": {
+     "monto": 66441.0,
+     "renuncio": false
+    },
+    "reynaldo-arias-mora": {
+     "monto": 0.0,
+     "renuncio": false
+    },
+    "osvaldo-artavia-carballo": {
+     "monto": 273577.0,
+     "renuncio": false
+    },
+    "grethel-maria-avila-vargas": {
+     "monto": 235093.0,
+     "renuncio": false
+    },
+    "marco-badilla-chavarria": {
+     "monto": 83090.0,
+     "renuncio": false
+    },
+    "robert-junior-barrantes-camacho": {
+     "monto": 49822.0,
+     "renuncio": false
+    },
+    "antonio-barzuna-thompson": {
+     "monto": 102448.0,
+     "renuncio": false
+    },
+    "cindy-maria-blanco-gonzalez": {
+     "monto": 221883.0,
+     "renuncio": false
+    },
+    "gerald-bogantes-rivera": {
+     "monto": 0.0,
+     "renuncio": false
+    },
+    "esmeralda-britton-gonzalez": {
+     "monto": 49309.0,
+     "renuncio": false
+    },
+    "stephan-brunner-neibig": {
+     "monto": 113405.0,
+     "renuncio": false
+    },
+    "jesus-calderon-calderon": {
+     "monto": 326586.0,
+     "renuncio": false
+    },
+    "kattia-calvo-cruz": {
+     "monto": 139568.0,
+     "renuncio": false
+    },
+    "maria-isabel-camareno-camareno": {
+     "monto": 101475.0,
+     "renuncio": false
+    },
+    "ronald-campos-villegas": {
+     "monto": 307613.0,
+     "renuncio": false
+    },
+    "claudia-dobles-camargo": {
+     "monto": 102099.0,
+     "renuncio": false
+    },
+    "ana-ruth-esquivel-medrano": {
+     "monto": 436357.0,
+     "renuncio": false
+    },
+    "marta-eugenia-esquivel-rodriguez": {
+     "monto": null,
+     "renuncio": true
+    },
+    "abril-gordienko-lopez": {
+     "monto": null,
+     "renuncio": true
+    },
+    "nayuribe-guadamuz-rosales": {
+     "monto": 45581.0,
+     "renuncio": false
+    },
+    "eder-hernandez-ulloa": {
+     "monto": 291740.0,
+     "renuncio": false
+    },
+    "victor-hidalgo-solis": {
+     "monto": 165402.0,
+     "renuncio": false
+    },
+    "wilson-alfredo-jimenez-cordero": {
+     "monto": 371663.0,
+     "renuncio": false
+    },
+    "yara-jimenez-fallas": {
+     "monto": 0.0,
+     "renuncio": false
+    },
+    "norjelens-maria-lobo-vargas": {
+     "monto": 449896.0,
+     "renuncio": false
+    },
+    "karol-vanessa-matamoros-montoya": {
+     "monto": 266445.0,
+     "renuncio": false
+    },
+    "mangell-mc-lean-villalobos": {
+     "monto": 282983.0,
+     "renuncio": false
+    },
+    "ariel-mora-fallas": {
+     "monto": 96260.0,
+     "renuncio": false
+    },
+    "kattya-mora-montoya": {
+     "monto": 0.0,
+     "renuncio": false
+    },
+    "royner-g-mora-ruiz": {
+     "monto": 241906.0,
+     "renuncio": false
+    },
+    "vianey-mora-vega": {
+     "monto": 0.0,
+     "renuncio": false
+    },
+    "anna-katharina-muller-castro": {
+     "monto": 61731.0,
+     "renuncio": false
+    },
+    "cindy-murillo-artavia": {
+     "monto": 412933.0,
+     "renuncio": false
+    },
+    "zaira-murillo-marin": {
+     "monto": 211245.0,
+     "renuncio": false
+    },
+    "diana-murillo-murillo": {
+     "monto": null,
+     "renuncio": true
+    },
+    "fernando-obaldia-alvarez": {
+     "monto": 328381.0,
+     "renuncio": false
+    },
+    "mayuli-ortega-guzman": {
+     "monto": 0.0,
+     "renuncio": false
+    },
+    "salvador-padilla-villanueva": {
+     "monto": 192544.0,
+     "renuncio": false
+    },
+    "juan-manuel-quesada-espinoza": {
+     "monto": 156787.0,
+     "renuncio": false
+    },
+    "alvaro-ramirez-bogantes": {
+     "monto": null,
+     "renuncio": true
+    },
+    "gonzalo-ramirez-zamora": {
+     "monto": 189012.0,
+     "renuncio": false
+    },
+    "maria-eugenia-roman-mora": {
+     "monto": null,
+     "renuncio": true
+    },
+    "joselyn-saenz-nunez": {
+     "monto": 108710.0,
+     "renuncio": false
+    },
+    "janice-sandi-morales": {
+     "monto": 328537.0,
+     "renuncio": false
+    },
+    "sigrid-segura-artavia": {
+     "monto": 0.0,
+     "renuncio": false
+    },
+    "daniel-siezar-cardenas": {
+     "monto": 88745.0,
+     "renuncio": false
+    },
+    "antonio-trejos-mazariegos": {
+     "monto": 26072.0,
+     "renuncio": false
+    },
+    "kattia-maria-ulate-alvarado": {
+     "monto": 110996.0,
+     "renuncio": false
+    },
+    "andrea-valverde-palavicini": {
+     "monto": 243857.0,
+     "renuncio": false
+    },
+    "rafael-vargas-brenes": {
+     "monto": 174520.0,
+     "renuncio": false
+    },
+    "jose-miguel-villalobos-umana": {
+     "monto": 173749.0,
+     "renuncio": false
+    },
+    "jose-maria-villalta-florez-estrada": {
+     "monto": 0.0,
+     "renuncio": false
+    },
+    "kristel-ward-hudson": {
+     "monto": 245216.0,
+     "renuncio": false
+    }
+   },
+   "total_declarado": null,
+   "notas": [
+    "Fuente: Planillas de combustible, BCR compras, Departamento Financiero, Asamblea Legislativa.\nNota: Los (as) diputados (as) indentificacos con un asterisco (*) renunciaron a la ayuda técnica de combustible.\nElaborado por: Licda. Teresita Aleman Duran.Tesorería Institucional."
+   ]
+  }
+ },
+ "avisos": [],
+ "variantes_sin_resolver": {}
+}

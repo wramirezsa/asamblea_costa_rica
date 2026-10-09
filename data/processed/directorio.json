@@ -1,0 +1,56 @@
+{
+  "generado": "2026-10-09T20:57:35+00:00",
+  "periodo": "2026-2030",
+  "_fuente": "https://www.asamblea.go.cr/Diputados/SitePages/Integraci%C3%B3n_Directorio_Legislativo.aspx",
+  "nota": "Integracion del Directorio Legislativo segun la pagina oficial de la Asamblea. Los nombres se validaron contra el padron: solo se acepta un cargo si el nombre coincide con una diputacion registrada.",
+  "en_la_mesa": [
+    "primera_secretaria",
+    "presidencia",
+    "segunda_secretaria"
+  ],
+  "advertencias": [],
+  "miembros": [
+    {
+      "cargo": "presidencia",
+      "etiqueta": "Presidencia",
+      "slug": "yara-jimenez-fallas",
+      "nombre": "Yara Jiménez Fallas",
+      "partido_codigo": "PPSO"
+    },
+    {
+      "cargo": "primera_secretaria",
+      "etiqueta": "Primera Secretaría",
+      "slug": "gerald-bogantes-rivera",
+      "nombre": "Gerald Bogantes Rivera",
+      "partido_codigo": "PPSO"
+    },
+    {
+      "cargo": "segunda_secretaria",
+      "etiqueta": "Segunda Secretaría",
+      "slug": "reynaldo-arias-mora",
+      "nombre": "Reynaldo Arias Mora",
+      "partido_codigo": "PPSO"
+    },
+    {
+      "cargo": "vicepresidencia",
+      "etiqueta": "Vicepresidencia",
+      "slug": "esmeralda-britton-gonzalez",
+      "nombre": "Esmeralda Britton González",
+      "partido_codigo": "PPSO"
+    },
+    {
+      "cargo": "primera_prosecretaria",
+      "etiqueta": "Primera Prosecretaría",
+      "slug": "kattya-mora-montoya",
+      "nombre": "Kattya Mora Montoya",
+      "partido_codigo": "PPSO"
+    },
+    {
+      "cargo": "segunda_prosecretaria",
+      "etiqueta": "Segunda Prosecretaría",
+      "slug": "nayuribe-guadamuz-rosales",
+      "nombre": "Nayuribe Guadamuz Rosales",
+      "partido_codigo": "PPSO"
+    }
+  ]
+}

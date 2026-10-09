@@ -1,0 +1,102 @@
+{
+  "generado": "2026-10-09T21:13:50+00:00",
+  "metodo": "Color dominante cromatico de la bandera oficial de cada fraccion, con luminosidad y saturacion acotadas para legibilidad sobre fondo oscuro. El tono no se altera.",
+  "colores": {
+    "CAC": {
+      "hex": "#fb930e",
+      "hex_derivado": "#fbbe0e",
+      "rgb": [
+        251,
+        147,
+        14
+      ],
+      "derivado_de": "data/assets/banderas/bandera_CAC.png",
+      "ajustado_para_contraste": false,
+      "separado_por_colision": true
+    },
+    "PFA": {
+      "hex": "#feef00",
+      "hex_derivado": "#feef00",
+      "rgb": [
+        254,
+        239,
+        0
+      ],
+      "derivado_de": "data/assets/banderas/bandera_PFA.png",
+      "ajustado_para_contraste": false,
+      "separado_por_colision": false
+    },
+    "PLN": {
+      "hex": "#5b9146",
+      "hex_derivado": "#5b9146",
+      "rgb": [
+        91,
+        145,
+        70
+      ],
+      "derivado_de": "data/assets/banderas/bandera_PLN.png",
+      "ajustado_para_contraste": true,
+      "separado_por_colision": false
+    },
+    "PLP": {
+      "hex": "#f16527",
+      "hex_derivado": "#f16527",
+      "rgb": [
+        241,
+        101,
+        39
+      ],
+      "derivado_de": "data/assets/banderas/bandera_PLP.jpg",
+      "ajustado_para_contraste": false,
+      "separado_por_colision": false
+    },
+    "PPSO": {
+      "hex": "#11b1c5",
+      "hex_derivado": "#11b1c5",
+      "rgb": [
+        17,
+        177,
+        197
+      ],
+      "derivado_de": "data/assets/banderas/bandera_PPSO.png",
+      "ajustado_para_contraste": true,
+      "separado_por_colision": false
+    },
+    "PRN": {
+      "hex": "#2068b6",
+      "hex_derivado": "#2068b6",
+      "rgb": [
+        32,
+        104,
+        182
+      ],
+      "derivado_de": "data/assets/banderas/bandera_PRN.jpg",
+      "ajustado_para_contraste": true,
+      "separado_por_colision": false
+    },
+    "PSD": {
+      "hex": "#303da6",
+      "hex_derivado": "#303da6",
+      "rgb": [
+        48,
+        61,
+        166
+      ],
+      "derivado_de": "data/assets/banderas/bandera_PSD.jpg",
+      "ajustado_para_contraste": true,
+      "separado_por_colision": false
+    },
+    "PUSC": {
+      "hex": "#ff0000",
+      "hex_derivado": "#ff0000",
+      "rgb": [
+        255,
+        0,
+        0
+      ],
+      "derivado_de": "data/assets/banderas/bandera_PUSC.png",
+      "ajustado_para_contraste": false,
+      "separado_por_colision": false
+    }
+  }
+}

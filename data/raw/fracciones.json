@@ -1,0 +1,223 @@
+[
+  {
+    "FileSystemObjectType": 0,
+    "Id": 1,
+    "ServerRedirectedEmbedUri": null,
+    "ServerRedirectedEmbedUrl": "",
+    "Bandera": {
+      "Description": "https://www.asamblea.go.cr/Diputados/SiteAssets/Banderas/PPSO.png",
+      "Url": "https://www.asamblea.go.cr/Diputados/SiteAssets/Banderas/PPSO.png"
+    },
+    "Fracci_x00f3_n": null,
+    "Descripci_x00f3_n": null,
+    "Sitio_x0020_Fracci_x00f3_n": null,
+    "Title": "1",
+    "ContentTypeId": "0x010008DDCB1CFBBD784FB349E6655D8DEDEB",
+    "ComplianceAssetId": null,
+    "Estado": "Activo",
+    "ID": 1,
+    "Modified": "2026-05-01T13:53:55Z",
+    "Created": "2026-04-27T17:17:31Z",
+    "AuthorId": 661,
+    "EditorId": 661,
+    "OData__UIVersionString": "1.0",
+    "Attachments": false,
+    "GUID": "25330b28-d5a6-4a3e-9a6a-ee53e538e758"
+  },
+  {
+    "FileSystemObjectType": 0,
+    "Id": 2,
+    "ServerRedirectedEmbedUri": null,
+    "ServerRedirectedEmbedUrl": "",
+    "Bandera": {
+      "Description": "PLN",
+      "Url": "https://www.asamblea.go.cr/Diputados/SiteAssets/Banderas/PLN.png"
+    },
+    "Fracci_x00f3_n": {
+      "Description": "Partido Liberación Nacional",
+      "Url": "https://www.asamblea.go.cr/Centro_de_Informacion/Consultas_SIL/Pginas/Detalle%20Fracciones.aspx?Codigo_Fraccion=LN++++"
+    },
+    "Descripci_x00f3_n": "<div class=\"ExternalClassB68ECA1DE9414FBEAA3A79F083AD471A\"><p style=\"text-align&#58;justify;\">​<span>El más antiguo de los partidos políticos actuales. Fue fundado en 1952 y un año después participa y gana sus primeros comicios electorales. Se ha mantenido como agrupación política permanente desde entonces, obteniendo en ocho oportunidades el triunfo electoral.</span></p><p style=\"text-align&#58;justify;\"><span>Su fundamento ideológico es la social democracia, que propugna la obtención de reformas sociales por medios parlamentarios. En su carta fundamental se propone construir una democracia basada en la justicia social y en la libertad política, consagra el derecho a la propiedad, educación, salud y seguridad social.</span></p><p style=\"text-align&#58;justify;\"><span>Liberación Nacional es un partido democrático, popular, independiente, doctrinario y permanente. Se fundamenta en el ejercicio efectivo de la soberanía popular y el respeto a la dignidad del ser humano.</span><br></p></div>",
+    "Sitio_x0020_Fracci_x00f3_n": {
+      "Description": "Sitio de la Fracción de Liberación Nacional",
+      "Url": "https://www.asamblea.go.cr/DYD/Fracción_Liberación/SitePages/Inicio.aspx"
+    },
+    "Title": "2",
+    "ContentTypeId": "0x010008DDCB1CFBBD784FB349E6655D8DEDEB",
+    "ComplianceAssetId": null,
+    "Estado": "Activo",
+    "ID": 2,
+    "Modified": "2026-05-01T13:53:29Z",
+    "Created": "2026-04-27T17:19:01Z",
+    "AuthorId": 661,
+    "EditorId": 661,
+    "OData__UIVersionString": "1.0",
+    "Attachments": false,
+    "GUID": "858bb6a3-d767-4691-a728-5fab309bc61e"
+  },
+  {
+    "FileSystemObjectType": 0,
+    "Id": 3,
+    "ServerRedirectedEmbedUri": null,
+    "ServerRedirectedEmbedUrl": "",
+    "Bandera": {
+      "Description": "PSD",
+      "Url": "https://www.asamblea.go.cr/Diputados/SiteAssets/Banderas/flag_psd.jpg"
+    },
+    "Fracci_x00f3_n": {
+      "Description": "Partido Progreso Social Democrático",
+      "Url": "https://www.asamblea.go.cr/Centro_de_Informacion/Consultas_SIL/Pginas/Detalle%20Fracciones.aspx?Codigo_Fraccion=PSD++++"
+    },
+    "Descripci_x00f3_n": "<div class=\"ExternalClassBF6D115DAC2B4678A9EC60B2DF144FD8\"><p style=\"text-align&#58;justify;\"><span>Comparten en general la propuesta ideológica de la socialdemocracia moderna, en la cual el concurso del sistema capitalista y las demandas de sociedades más justas conducen la forma de organización y el modo en que se toman las decisiones. Conciben que el estado debe abordar los retos que atañen a la justicia social, el crecimiento económico inclusivo, al bienestar de las personas, a la reducción de la desigualdad en el acceso y disfrute de los derechos. Un vigoroso sector empresarial, sector cooperativo y empresas asociativas como clave para la producción de bienes y servicios, para la generación de riqueza, la innovación, la sana competitividad y la democratización de la e​conomía. Resaltan como objetivos&#58; elevar las capacidades individuales, colectivas, institucionales y empresariales a favor de sumar a la productividad y eficiencia que generen calidad de vida de los costarricenses. Considerar la educación, la salud, el trabajo y la equidad como generadores de la paz social y motores del desarrollo económico sostenible. Abrir oportunidades de progreso a las comunidades y asociaciones por medio de una participación activa en el uso de los recursos políticos, económicos, sociales y culturales. Generar confianza en los liderazgos locales por medio de un constante acercamiento a los territorios, la idoneidad y el respeto a las personas que ​construyen las propuestas y conforman la estructura partidaria con el fin de dar lo mejor al país.</span><br></p></div>",
+    "Sitio_x0020_Fracci_x00f3_n": null,
+    "Title": "9",
+    "ContentTypeId": "0x010008DDCB1CFBBD784FB349E6655D8DEDEB",
+    "ComplianceAssetId": null,
+    "Estado": "Inactivo",
+    "ID": 3,
+    "Modified": "2026-05-01T13:56:04Z",
+    "Created": "2026-04-30T16:56:41Z",
+    "AuthorId": 1226,
+    "EditorId": 661,
+    "OData__UIVersionString": "1.0",
+    "Attachments": false,
+    "GUID": "802a0bc6-815d-4370-9429-701dc7ffff51"
+  },
+  {
+    "FileSystemObjectType": 0,
+    "Id": 4,
+    "ServerRedirectedEmbedUri": null,
+    "ServerRedirectedEmbedUrl": "",
+    "Bandera": {
+      "Description": "PUSC",
+      "Url": "https://www.asamblea.go.cr/Diputados/SiteAssets/Banderas/PUSC.png"
+    },
+    "Fracci_x00f3_n": {
+      "Description": "Partido Unidad Social Cristiana",
+      "Url": "https://www.asamblea.go.cr/Centro_de_Informacion/Consultas_SIL/Pginas/Detalle%20Fracciones.aspx?Codigo_Fraccion=USC+++"
+    },
+    "Descripci_x00f3_n": "<div class=\"ExternalClass4504E4158C1A437CAD57FED65C0CE450\"><p style=\"text-align&#58;justify;\">​<span style=\"background-color&#58;#ffffff;\">Ha participado en doce elecciones nacionales, obteniendo el triunfo cuatro veces. Como Coalición Unidad llevó a la Presidencia a Rodrigo Carazo Odio en 1978 y presentó a Rafael Ángel Calderón Fournier como candidato presidencial en 1982. Lograron la Presidencia de la República en 1990 con Calderón Fournier, en 1998 con Miguel Ángel Rodríguez Echeverría y en​ 2002 con Abel Pacheco de la Espriella. Sus principios ideológicos se basan en el socialcristianismo, que busca la transformación social y económica del país y el desarrollo del ser humano basado en las doctrinas sociales de la Iglesia Católica.</span>​<br></p></div>",
+    "Sitio_x0020_Fracci_x00f3_n": null,
+    "Title": "5",
+    "ContentTypeId": "0x010008DDCB1CFBBD784FB349E6655D8DEDEB",
+    "ComplianceAssetId": null,
+    "Estado": "Activo",
+    "ID": 4,
+    "Modified": "2026-05-01T13:55:19Z",
+    "Created": "2026-04-30T16:57:48Z",
+    "AuthorId": 1226,
+    "EditorId": 661,
+    "OData__UIVersionString": "1.0",
+    "Attachments": false,
+    "GUID": "84daaf52-64f2-4078-9be7-d21988e10b57"
+  },
+  {
+    "FileSystemObjectType": 0,
+    "Id": 5,
+    "ServerRedirectedEmbedUri": null,
+    "ServerRedirectedEmbedUrl": "",
+    "Bandera": {
+      "Description": "https://www.asamblea.go.cr/Diputados/SiteAssets/Banderas/flag_prn.jpg",
+      "Url": "https://www.asamblea.go.cr/Diputados/SiteAssets/Banderas/flag_prn.jpg"
+    },
+    "Fracci_x00f3_n": {
+      "Description": "Partido Nueva República",
+      "Url": "https://www.asamblea.go.cr/Centro_de_Informacion/Consultas_SIL/Pginas/Detalle%20Fracciones.aspx?Codigo_Fraccion=NR++++"
+    },
+    "Descripci_x00f3_n": "<div class=\"ExternalClass9F513F2ABC02423B86847FC680F8F20C\"><p style=\"text-align&#58;justify;\">​<span>El Partido se establece como una fuerza política de carácter ideológico, doctrinal y permanente. Su ideología fundamental es el pensamiento clásico republicano. Estima que la República es el sistema de gobierno idóneo para lograr el mayor desarrollo individual, político, económico y social de una nación. La finalidad esencial del Partido es dar expresión a los principios de la República como forma de gobierno, así como promoverlos en el debate político nacional e implementarlos desde el poder. Concibe el sistema republicano como aquel que se rige por el imperio de la ley, la división y limitación del poder político y el principio de igualdad ante la ley. Reconoce la dem​ocracia como elemento esencial para la legitimidad de la República y para la expresión de la voluntad popular. Proclama que la finalidad última de la República es satisfacer el interés general, y plantea que el uso del poder político para perjudicar o privilegiar sectores o individuos específicos es inaceptable. La doctrina política del Partido, así como sus medios de acción, se inspiran en los valores y principios más arraigados de la civilización judeocristiana, en el pensamiento republicano democrático, el nacionalismo cívico y el más profundo respeto por la vida y la dignidad humana.</span>​<br></p></div>",
+    "Sitio_x0020_Fracci_x00f3_n": null,
+    "Title": "8",
+    "ContentTypeId": "0x010008DDCB1CFBBD784FB349E6655D8DEDEB",
+    "ComplianceAssetId": null,
+    "Estado": "Inactivo",
+    "ID": 5,
+    "Modified": "2026-05-01T13:56:26Z",
+    "Created": "2026-04-30T17:00:34Z",
+    "AuthorId": 1226,
+    "EditorId": 661,
+    "OData__UIVersionString": "1.0",
+    "Attachments": false,
+    "GUID": "529b5722-0f5e-46a2-815c-2d4d9a52ce78"
+  },
+  {
+    "FileSystemObjectType": 0,
+    "Id": 6,
+    "ServerRedirectedEmbedUri": null,
+    "ServerRedirectedEmbedUrl": "",
+    "Bandera": {
+      "Description": "https://www.asamblea.go.cr/Diputados/SiteAssets/Banderas/flag_PLP.jpg",
+      "Url": "https://www.asamblea.go.cr/Diputados/SiteAssets/Banderas/flag_PLP.jpg"
+    },
+    "Fracci_x00f3_n": {
+      "Description": "Partido Liberal Progresista",
+      "Url": "https://www.asamblea.go.cr/Centro_de_Informacion/Consultas_SIL/Pginas/Detalle%20Fracciones.aspx?Codigo_Fraccion=LP++++"
+    },
+    "Descripci_x00f3_n": "<div class=\"ExternalClassE31A18A000E84F2C908FACDF1C098A18\"><div class=\"ExternalClassA7109D6C40A64DF49C17FB2F2AD13535\" style=\"text-align&#58;justify;\"><p>​<span>Los fundamentos de la libertad consisten en el respeto a la autonomía del individuo, a su libertad de elegir y asumir responsabilidades por sus decisiones, a la propiedad privada y al Estado de Derecho. La libertad, en todos sus ámbitos, es la clave para el progreso social y económico de Costa Rica y es la ruta a seguir para alcanzar un país abierto, moderno y tolerante. El libre mercado es el mejor mecanismo que existe para producir riqueza y fomentar el progreso material de una nación, para el beneficio de todos sus habitantes. La función primordial del Estado es garantizar el cumplimiento de las normas que permitan alcanzar fines, sin caer en regulación excesiva que restringe la libertad, asfixia el emprendimiento, distorsiona los incentivos y engrosa una burocracia paralizante. Otro principios fundamentales incluyen la dignidad y autonomía del individuo, la economía de me​rcado, un Estado pequeño y eficiente, una sociedad tolerante, libre de discriminación y de privilegios creados por ley, la separación entre religión y Estado, el respeto a la propiedad privada y al Estado de Derecho.</span>​<br></p></div></div>",
+    "Sitio_x0020_Fracci_x00f3_n": null,
+    "Title": "7",
+    "ContentTypeId": "0x010008DDCB1CFBBD784FB349E6655D8DEDEB",
+    "ComplianceAssetId": null,
+    "Estado": "Inactivo",
+    "ID": 6,
+    "Modified": "2026-05-01T13:56:48Z",
+    "Created": "2026-04-30T17:01:27Z",
+    "AuthorId": 1226,
+    "EditorId": 661,
+    "OData__UIVersionString": "1.0",
+    "Attachments": false,
+    "GUID": "c4ef0bed-d77a-4615-a85b-cce786d317b8"
+  },
+  {
+    "FileSystemObjectType": 0,
+    "Id": 7,
+    "ServerRedirectedEmbedUri": null,
+    "ServerRedirectedEmbedUrl": "",
+    "Bandera": {
+      "Description": "https://www.asamblea.go.cr/Diputados/SiteAssets/Banderas/PFA.png",
+      "Url": "https://www.asamblea.go.cr/Diputados/SiteAssets/Banderas/PFA.png"
+    },
+    "Fracci_x00f3_n": {
+      "Description": "Partido Frente Amplio",
+      "Url": "https://www.asamblea.go.cr/Centro_de_Informacion/Consultas_SIL/Pginas/Detalle%20Fracciones.aspx?Codigo_Fraccion=PFA+++"
+    },
+    "Descripci_x00f3_n": "<div class=\"ExternalClassC5B39AC2908F4998BD86CBF8335158B5\"><p style=\"text-align&#58;justify;\">​<span>​Un partido democrático que promete respetar el orden constitucional, de acuerdo con el sistema de democracia representativa y defiende las instituciones del Estado Social de Derecho. Se instala en la lucha por una democracia avanzada en todos los campos, incluyendo la democracia económica y cultural. Promueve formas de democracia más participativas y directas. Se declara también progresista, como una fuerza transformadora, una alternativa real al modelo neoliberal concentrador y excluyente. Patriótico, defiende el interés nacional frente a la globalización de signo neoliberal. Feminista, rechaza el sistema de dominación sexista y patriar​cal. Promueve la igualdad de género y la democracia paritaria.</span>​<br></p></div>",
+    "Sitio_x0020_Fracci_x00f3_n": null,
+    "Title": "3",
+    "ContentTypeId": "0x010008DDCB1CFBBD784FB349E6655D8DEDEB",
+    "ComplianceAssetId": null,
+    "Estado": "Activo",
+    "ID": 7,
+    "Modified": "2026-05-01T13:54:31Z",
+    "Created": "2026-04-30T17:02:09Z",
+    "AuthorId": 1226,
+    "EditorId": 661,
+    "OData__UIVersionString": "1.0",
+    "Attachments": false,
+    "GUID": "bbd1589f-c155-4fe2-8851-f019d99451dc"
+  },
+  {
+    "FileSystemObjectType": 0,
+    "Id": 8,
+    "ServerRedirectedEmbedUri": null,
+    "ServerRedirectedEmbedUrl": "",
+    "Bandera": {
+      "Description": "CAC",
+      "Url": "https://www.asamblea.go.cr/Diputados/SiteAssets/Banderas/CAC.png"
+    },
+    "Fracci_x00f3_n": null,
+    "Descripci_x00f3_n": "<div class=\"ExternalClass505A32F8E88F4C4EAD411B0EB8A84FCF\"><p style=\"text-align&#58;justify;\">​<span style=\"font-size&#58;11pt;font-family&#58;&quot;century gothic&quot;, sans-serif;color&#58;black;\">La Coalición Agenda Ciudadana&#160;es una alianza política costarricense\nconformada por los partidos Partido Acción Ciudadana&#160;y Agenda Democrática\nNacional, inscrita oficialmente ante el Tribunal Supremo de Elecciones para\nparticipar en las elecciones nacionales de 2026. La coalición surge como un\nespacio de articulación democrática y progresista orientado a promover\nacuerdos, fortalecer las instituciones públicas y construir soluciones a los\nprincipales desafíos del país en materia de seguridad, educación, salud,\nsostenibilidad, movilidad y desarrollo económico con enfoque social.&#160;</span><br></p></div>",
+    "Sitio_x0020_Fracci_x00f3_n": null,
+    "Title": "4",
+    "ContentTypeId": "0x010008DDCB1CFBBD784FB349E6655D8DEDEB",
+    "ComplianceAssetId": null,
+    "Estado": "Activo",
+    "ID": 8,
+    "Modified": "2026-05-01T13:57:40Z",
+    "Created": "2026-04-30T17:18:26Z",
+    "AuthorId": 661,
+    "EditorId": 661,
+    "OData__UIVersionString": "1.0",
+    "Attachments": false,
+    "GUID": "1e7be0dc-f7ae-4581-8525-0322a0c2dc58"
+  }
+]

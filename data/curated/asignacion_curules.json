@@ -1,0 +1,485 @@
+{
+  "_que_es_esto": "Registro manual de qué diputación ocupa cada curul. Se edita a mano y el ETL NUNCA lo sobreescribe. Es la única parte del proyecto que no viene de una fuente publicada: la Asamblea no publica el asiento de cada persona, así que esto se levanta por observación directa. Cada curul asignada aquí se marca 'curado' en el sitio; las que faltan se colocan por regla automática y se marcan 'derivado'.",
+  "_numeracion": {
+    "seccion": {
+      "1": "Bancada del oficialismo, a la izquierda de la mesa del Directorio",
+      "2": "Bancada de oposición, a la derecha de la mesa del Directorio",
+      "mesa": "Los tres puestos de la mesa del Directorio"
+    },
+    "fila": "1 = la fila pegada al pasillo central (la de adelante, más baja). 2 = la fila de atrás, contra la pared, en la grada alta.",
+    "asiento": "Se numera desde la mesa del Directorio hacia la entrada. El asiento 1 es el más cercano al Directorio.",
+    "id": "Formato S{sección}-F{fila}-A{asiento}. Ejemplo: S1-F1-A1"
+  },
+  "layout": {
+    "1": [
+      14,
+      14
+    ],
+    "2": [
+      14,
+      14
+    ]
+  },
+  "_layout_nota": "Las dos bancadas son iguales: 14 curules por fila, filas alineadas entre si. Total 56 curules para 54 diputaciones de bancada, o sea DOS quedan vacias, ambas en la seccion 2 (ver `curules_vacias`).",
+  "asignaciones": [
+    {
+      "id": "S1-F1-A1",
+      "slug": "nogui-acosta-jaen",
+      "nombre": "Nogui Acosta Jaén",
+      "fuente": "curaduria-manual",
+      "fecha": "2026-09-02"
+    },
+    {
+      "id": "S1-F1-A2",
+      "slug": "juan-manuel-quesada-espinoza",
+      "nombre": "Juan Manuel Quesada Espinoza",
+      "fuente": "curaduria-manual",
+      "fecha": "2026-09-02"
+    },
+    {
+      "id": "S1-F1-A3",
+      "slug": "kattya-mora-montoya",
+      "nombre": "Kattya Mora Montoya",
+      "fuente": "curaduria-manual",
+      "fecha": "2026-09-02"
+    },
+    {
+      "id": "S1-F1-A4",
+      "slug": "stephan-brunner-neibig",
+      "nombre": "Stephan Brunner Neibig",
+      "fuente": "curaduria-manual",
+      "fecha": "2026-09-02"
+    },
+    {
+      "id": "S1-F1-A5",
+      "slug": "mayuli-ortega-guzman",
+      "nombre": "Mayuli Ortega Guzmán",
+      "fuente": "curaduria-manual",
+      "fecha": "2026-09-02"
+    },
+    {
+      "id": "S1-F1-A6",
+      "slug": "gonzalo-ramirez-zamora",
+      "nombre": "Gonzalo Ramírez Zamora",
+      "fuente": "curaduria-manual",
+      "fecha": "2026-09-02"
+    },
+    {
+      "id": "S1-F1-A7",
+      "slug": "anna-katharina-muller-castro",
+      "nombre": "Anna Katharina Müller Castro",
+      "fuente": "curaduria-manual",
+      "fecha": "2026-09-02"
+    },
+    {
+      "id": "S1-F1-A8",
+      "slug": "antonio-barzuna-thompson",
+      "nombre": "Antonio Barzuna Thompson",
+      "fuente": "curaduria-manual",
+      "fecha": "2026-09-02"
+    },
+    {
+      "id": "S1-F1-A9",
+      "slug": "esmeralda-britton-gonzalez",
+      "nombre": "Esmeralda Britton González",
+      "fuente": "curaduria-manual",
+      "fecha": "2026-09-02"
+    },
+    {
+      "id": "S1-F1-A10",
+      "slug": "jose-miguel-villalobos-umana",
+      "nombre": "José Miguel Villalobos Umaña",
+      "fuente": "curaduria-manual",
+      "fecha": "2026-09-02"
+    },
+    {
+      "id": "S1-F1-A11",
+      "slug": "zaira-murillo-marin",
+      "nombre": "Zaira Murillo Marín",
+      "fuente": "curaduria-manual",
+      "fecha": "2026-09-02"
+    },
+    {
+      "id": "S1-F1-A12",
+      "slug": "grethel-maria-avila-vargas",
+      "nombre": "Gréthel María Ávila Vargas",
+      "fuente": "curaduria-manual",
+      "fecha": "2026-09-02"
+    },
+    {
+      "id": "S1-F1-A13",
+      "slug": "wilson-alfredo-jimenez-cordero",
+      "nombre": "Wilson Alfredo Jiménez Cordero",
+      "fuente": "curaduria-manual",
+      "fecha": "2026-09-02"
+    },
+    {
+      "id": "S1-F1-A14",
+      "slug": "kattia-maria-ulate-alvarado",
+      "nombre": "Kattia María Ulate Alvarado",
+      "fuente": "curaduria-manual",
+      "fecha": "2026-09-02"
+    },
+    {
+      "id": "S1-F2-A1",
+      "slug": "fernando-obaldia-alvarez",
+      "nombre": "Fernando Obaldía Álvarez",
+      "fuente": "curaduria-manual",
+      "fecha": "2026-09-02"
+    },
+    {
+      "id": "S1-F2-A2",
+      "slug": "cindy-maria-blanco-gonzalez",
+      "nombre": "Cindy María Blanco González",
+      "fuente": "curaduria-manual",
+      "fecha": "2026-09-02"
+    },
+    {
+      "id": "S1-F2-A3",
+      "slug": "robert-junior-barrantes-camacho",
+      "nombre": "Robert Junior Barrantes Camacho",
+      "fuente": "curaduria-manual",
+      "fecha": "2026-09-02"
+    },
+    {
+      "id": "S1-F2-A4",
+      "slug": "marta-eugenia-esquivel-rodriguez",
+      "nombre": "Marta Eugenia Esquivel Rodríguez",
+      "fuente": "curaduria-manual",
+      "fecha": "2026-09-02"
+    },
+    {
+      "id": "S1-F2-A5",
+      "slug": "nayuribe-guadamuz-rosales",
+      "nombre": "Nayuribe Guadamuz Rosales",
+      "fuente": "curaduria-manual",
+      "fecha": "2026-09-02"
+    },
+    {
+      "id": "S1-F2-A6",
+      "slug": "daniel-siezar-cardenas",
+      "nombre": "Daniel Siézar Cárdenas",
+      "fuente": "curaduria-manual",
+      "fecha": "2026-09-02"
+    },
+    {
+      "id": "S1-F2-A7",
+      "slug": "cindy-murillo-artavia",
+      "nombre": "Cindy Murillo Artavia",
+      "fuente": "curaduria-manual",
+      "fecha": "2026-09-02"
+    },
+    {
+      "id": "S1-F2-A8",
+      "slug": "royner-g-mora-ruiz",
+      "nombre": "Royner G. Mora Ruíz",
+      "fuente": "curaduria-manual",
+      "fecha": "2026-09-02"
+    },
+    {
+      "id": "S1-F2-A9",
+      "slug": "maria-isabel-camareno-camareno",
+      "nombre": "María Isabel Camareno Camareno",
+      "fuente": "curaduria-manual",
+      "fecha": "2026-09-02"
+    },
+    {
+      "id": "S1-F2-A10",
+      "slug": "ariel-mora-fallas",
+      "nombre": "Ariel Mora Fallas",
+      "fuente": "curaduria-manual",
+      "fecha": "2026-09-02"
+    },
+    {
+      "id": "S1-F2-A11",
+      "slug": "ana-ruth-esquivel-medrano",
+      "nombre": "Ana Ruth Esquivel Medrano",
+      "fuente": "curaduria-manual",
+      "fecha": "2026-09-02"
+    },
+    {
+      "id": "S1-F2-A12",
+      "slug": "osvaldo-artavia-carballo",
+      "nombre": "Osvaldo Artavia Carballo",
+      "fuente": "curaduria-manual",
+      "fecha": "2026-09-02"
+    },
+    {
+      "id": "S1-F2-A13",
+      "slug": "kristel-ward-hudson",
+      "nombre": "Kristel Ward Hudson",
+      "fuente": "curaduria-manual",
+      "fecha": "2026-09-02"
+    },
+    {
+      "id": "S1-F2-A14",
+      "slug": "kattia-calvo-cruz",
+      "nombre": "Kattia Calvo Cruz",
+      "fuente": "curaduria-manual",
+      "fecha": "2026-09-02"
+    },
+    {
+      "id": "S2-F1-A1",
+      "slug": "alvaro-ramirez-bogantes",
+      "nombre": "Álvaro Ramírez Bogantes",
+      "fuente": "curaduria-manual",
+      "fecha": "2026-09-02"
+    },
+    {
+      "id": "S2-F1-A2",
+      "slug": "iztaru-alfaro-guerrero",
+      "nombre": "Iztarú Alfaro Guerrero",
+      "fuente": "curaduria-manual",
+      "fecha": "2026-09-02"
+    },
+    {
+      "id": "S2-F1-A3",
+      "slug": "rafael-vargas-brenes",
+      "nombre": "Rafael Vargas Brenes",
+      "fuente": "curaduria-manual",
+      "fecha": "2026-09-02"
+    },
+    {
+      "id": "S2-F1-A4",
+      "slug": "andrea-valverde-palavicini",
+      "nombre": "Andrea Valverde Palavicini",
+      "fuente": "curaduria-manual",
+      "fecha": "2026-09-02"
+    },
+    {
+      "id": "S2-F1-A5",
+      "slug": "marco-badilla-chavarria",
+      "nombre": "Marco Badilla Chavarría",
+      "fuente": "curaduria-manual",
+      "fecha": "2026-09-02"
+    },
+    {
+      "id": "S2-F1-A6",
+      "slug": "diana-murillo-murillo",
+      "nombre": "Diana Murillo Murillo",
+      "fuente": "curaduria-manual",
+      "fecha": "2026-09-02"
+    },
+    {
+      "id": "S2-F1-A7",
+      "slug": "eder-hernandez-ulloa",
+      "nombre": "Eder Hernández Ulloa",
+      "fuente": "curaduria-manual",
+      "fecha": "2026-09-02"
+    },
+    {
+      "id": "S2-F1-A8",
+      "slug": "karen-alfaro-jimenez",
+      "nombre": "Karen Alfaro Jiménez",
+      "fuente": "curaduria-manual",
+      "fecha": "2026-09-02"
+    },
+    {
+      "id": "S2-F1-A9",
+      "slug": "janice-sandi-morales",
+      "nombre": "Janice Sandí Morales",
+      "fuente": "curaduria-manual",
+      "fecha": "2026-09-02"
+    },
+    {
+      "id": "S2-F1-A10",
+      "slug": "jose-maria-villalta-florez-estrada",
+      "nombre": "José María Villalta Flórez-Estrada",
+      "fuente": "curaduria-manual",
+      "fecha": "2026-09-02"
+    },
+    {
+      "id": "S2-F1-A11",
+      "slug": "maria-eugenia-roman-mora",
+      "nombre": "María Eugenia Román Mora",
+      "fuente": "curaduria-manual",
+      "fecha": "2026-09-02"
+    },
+    {
+      "id": "S2-F1-A12",
+      "slug": "sigrid-segura-artavia",
+      "nombre": "Sigrid Segura Artavia",
+      "fuente": "curaduria-manual",
+      "fecha": "2026-09-02"
+    },
+    {
+      "id": "S2-F1-A13",
+      "slug": "claudia-dobles-camargo",
+      "nombre": "Claudia Dobles Camargo",
+      "fuente": "curaduria-manual",
+      "fecha": "2026-09-02"
+    },
+    {
+      "id": "S2-F1-A14",
+      "slug": "abril-gordienko-lopez",
+      "nombre": "Abril Gordienko López",
+      "fuente": "curaduria-manual",
+      "fecha": "2026-09-02"
+    },
+    {
+      "id": "S2-F2-A1",
+      "slug": "salvador-padilla-villanueva",
+      "nombre": "Salvador Padilla Villanueva",
+      "fuente": "curaduria-manual",
+      "fecha": "2026-09-02"
+    },
+    {
+      "id": "S2-F2-A2",
+      "slug": "victor-hidalgo-solis",
+      "nombre": "Víctor Hidalgo Solís",
+      "fuente": "curaduria-manual",
+      "fecha": "2026-09-02"
+    },
+    {
+      "id": "S2-F2-A3",
+      "slug": "angela-aguilar-vargas",
+      "nombre": "Ángela Aguilar Vargas",
+      "fuente": "curaduria-manual",
+      "fecha": "2026-09-02"
+    },
+    {
+      "id": "S2-F2-A4",
+      "slug": "ronald-campos-villegas",
+      "nombre": "Ronald Campos Villegas",
+      "fuente": "curaduria-manual",
+      "fecha": "2026-09-02"
+    },
+    {
+      "id": "S2-F2-A5",
+      "slug": "karol-vanessa-matamoros-montoya",
+      "nombre": "Karol Vanessa Matamoros Montoya",
+      "fuente": "curaduria-manual",
+      "fecha": "2026-09-02"
+    },
+    {
+      "id": "S2-F2-A6",
+      "slug": "norjelens-maria-lobo-vargas",
+      "nombre": "Norjelens María Lobo Vargas",
+      "fuente": "curaduria-manual",
+      "fecha": "2026-09-02"
+    },
+    {
+      "id": "S2-F2-A7",
+      "slug": "jesus-calderon-calderon",
+      "nombre": "Jesús Calderón Calderón",
+      "fuente": "curaduria-manual",
+      "fecha": "2026-09-02"
+    },
+    {
+      "id": "S2-F2-A8",
+      "slug": "mangell-mc-lean-villalobos",
+      "nombre": "Mangell Mc Lean Villalobos",
+      "fuente": "curaduria-manual",
+      "fecha": "2026-09-02"
+    },
+    {
+      "id": "S2-F2-A10",
+      "slug": "antonio-trejos-mazariegos",
+      "nombre": "Antonio Trejos Mazariegos",
+      "fuente": "curaduria-manual",
+      "fecha": "2026-09-02"
+    },
+    {
+      "id": "S2-F2-A11",
+      "slug": "vianey-mora-vega",
+      "nombre": "Vianey Mora Vega",
+      "fuente": "curaduria-manual",
+      "fecha": "2026-09-02"
+    },
+    {
+      "id": "S2-F2-A12",
+      "slug": "edgardo-araya-sibaja",
+      "nombre": "Edgardo Araya Sibaja",
+      "fuente": "curaduria-manual",
+      "fecha": "2026-09-02"
+    },
+    {
+      "id": "S2-F2-A13",
+      "slug": "joselyn-saenz-nunez",
+      "nombre": "Joselyn Sáenz Núñez",
+      "fuente": "curaduria-manual",
+      "fecha": "2026-09-02"
+    }
+  ],
+  "_pistas_que_son": "Relaciones observadas que todavia no son curules concretas. 'delante_de': 'a' en la fila 1 y 'b' justo detras en la fila 2, resuelto por posicion fisica porque las filas estan corridas. 'al_lado_de': misma fila, curules contiguas. Se verifican solas a medida que se ubica a la gente.",
+  "pistas": [
+    {
+      "tipo": "delante_de",
+      "a": "iztaru-alfaro-guerrero",
+      "b": "victor-hidalgo-solis",
+      "fuente": "observacion en video",
+      "fecha": "2026-09-02"
+    },
+    {
+      "tipo": "delante_de",
+      "a": "claudia-dobles-camargo",
+      "b": "joselyn-saenz-nunez",
+      "fuente": "observacion en video",
+      "fecha": "2026-09-02"
+    },
+    {
+      "tipo": "al_lado_de",
+      "a": "janice-sandi-morales",
+      "b": "jose-maria-villalta-florez-estrada",
+      "fuente": "observacion en video",
+      "fecha": "2026-09-02"
+    },
+    {
+      "tipo": "delante_de",
+      "a": "sigrid-segura-artavia",
+      "b": "edgardo-araya-sibaja",
+      "nota": "Edgardo Araya esta detras de Sigrid Segura",
+      "fuente": "observacion en video",
+      "fecha": "2026-09-02"
+    }
+  ],
+  "desfase_fila": {
+    "1": [
+      0,
+      0
+    ],
+    "2": [
+      0,
+      0
+    ]
+  },
+  "_desfase_nota": "Filas alineadas en ambas secciones: F1-A{n} queda justo delante de F2-A{n}.",
+  "pistas_archivadas": [
+    {
+      "tipo": "delante_de",
+      "a": "wilson-alfredo-jimenez-cordero",
+      "b": "royner-g-mora-ruiz",
+      "fuente": "observacion en video",
+      "fecha": "2026-09-02",
+      "archivada": "2026-09-02",
+      "motivo_archivo": "Superada por verificacion directa: las tres personas quedaron ubicadas una por una en el video y sus curules no se corresponden con esta relacion. La observacion indirecta cede ante el dato verificado."
+    },
+    {
+      "tipo": "al_lado_de",
+      "a": "kattia-calvo-cruz",
+      "b": "royner-g-mora-ruiz",
+      "a_mas_al_fondo": true,
+      "nota": "Kattia Calvo esta contigua a Royner Mora, del lado de la entrada",
+      "fuente": "observacion en video",
+      "fecha": "2026-09-02",
+      "archivada": "2026-09-02",
+      "motivo_archivo": "Superada por verificacion directa: las tres personas quedaron ubicadas una por una en el video y sus curules no se corresponden con esta relacion. La observacion indirecta cede ante el dato verificado."
+    },
+    {
+      "tipo": "delante_de",
+      "a": "eder-hernandez-ulloa",
+      "b": "mangell-mc-lean-villalobos",
+      "fuente": "observacion en video",
+      "fecha": "2026-09-02",
+      "nota_correccion": "Primero se anoto a Jesus Calderon como quien esta detras. Al revisar el video resulto ser Mangell Mc Lean. Corregido el 2026-09-02.",
+      "archivada": "2026-09-02",
+      "motivo_archivo": "Se cumplia cuando se creia que las filas iban corridas entre si. Con el listado definitivo asiento por asiento las filas resultaron alineadas, y la relacion queda desfasada un lugar. Superada por dato verificado."
+    }
+  ],
+  "_pistas_archivadas_que_son": "Pistas que resultaron equivocadas al verificar las curules una por una. Se conservan con su motivo para dejar rastro de por que se descartaron.",
+  "curules_vacias": [
+    "S2-F2-A9",
+    "S2-F2-A14"
+  ],
+  "_curules_vacias_nota": "Curules sin ocupante, verificadas en video. La S2-F2-A9 separa a Liberacion Nacional del Frente Amplio en la fila de atras. Se declaran aqui para que el reparto automatico nunca las llene."
+}

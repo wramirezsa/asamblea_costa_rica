@@ -1,0 +1,275 @@
+{
+  "generado": "2026-09-03T05:40:37+00:00",
+  "nota": "Activos publicados por la Asamblea Legislativa de Costa Rica.",
+  "fotos": {
+    "nogui-acosta-jaen": {
+      "archivo": "fotos/nogui-acosta-jaen.jpg",
+      "origen": "https://www.asamblea.go.cr/Diputados/SiteAssets/2026-2030/ps_acosta_jaen.jpg"
+    },
+    "kattya-mora-montoya": {
+      "archivo": "fotos/kattya-mora-montoya.jpg",
+      "origen": "https://www.asamblea.go.cr/Diputados/SiteAssets/2026-2030/ps_mora_montoya.jpg"
+    },
+    "stephan-brunner-neibig": {
+      "archivo": "fotos/stephan-brunner-neibig.jpg",
+      "origen": "https://www.asamblea.go.cr/Diputados/SiteAssets/2026-2030/ps_brunner_neibig.jpg"
+    },
+    "mayuli-ortega-guzman": {
+      "archivo": "fotos/mayuli-ortega-guzman.jpg",
+      "origen": "https://www.asamblea.go.cr/Diputados/SiteAssets/2026-2030/ps_ortega_guzman.jpg"
+    },
+    "gonzalo-ramirez-zamora": {
+      "archivo": "fotos/gonzalo-ramirez-zamora.jpg",
+      "origen": "https://www.asamblea.go.cr/Diputados/SiteAssets/2026-2030/ps_ramirez_zamora.jpg"
+    },
+    "anna-katharina-muller-castro": {
+      "archivo": "fotos/anna-katharina-muller-castro.jpg",
+      "origen": "https://www.asamblea.go.cr/Diputados/SiteAssets/2026-2030/ps_katharine_muller.jpg"
+    },
+    "antonio-barzuna-thompson": {
+      "archivo": "fotos/antonio-barzuna-thompson.jpg",
+      "origen": "https://www.asamblea.go.cr/Diputados/SiteAssets/2026-2030/ps_barzuna_thompson.jpg"
+    },
+    "esmeralda-britton-gonzalez": {
+      "archivo": "fotos/esmeralda-britton-gonzalez.jpg",
+      "origen": "https://www.asamblea.go.cr/Diputados/SiteAssets/2026-2030/ps_britton_gonzalez.jpg"
+    },
+    "alvaro-ramirez-bogantes": {
+      "archivo": "fotos/alvaro-ramirez-bogantes.jpg",
+      "origen": "https://www.asamblea.go.cr/Diputados/SiteAssets/2026-2030/ln_ramirez_bogantes.jpg"
+    },
+    "iztaru-alfaro-guerrero": {
+      "archivo": "fotos/iztaru-alfaro-guerrero.jpg",
+      "origen": "https://www.asamblea.go.cr/Diputados/SiteAssets/2026-2030/ln_alfaro_guerrero.jpg"
+    },
+    "rafael-vargas-brenes": {
+      "archivo": "fotos/rafael-vargas-brenes.jpg",
+      "origen": "https://www.asamblea.go.cr/Diputados/SiteAssets/2026-2030/ln_vargas_brenes.jpg"
+    },
+    "andrea-valverde-palavicini": {
+      "archivo": "fotos/andrea-valverde-palavicini.jpg",
+      "origen": "https://www.asamblea.go.cr/Diputados/SiteAssets/2026-2030/ln_valverde_palavicini.jpg"
+    },
+    "marco-badilla-chavarria": {
+      "archivo": "fotos/marco-badilla-chavarria.jpg",
+      "origen": "https://www.asamblea.go.cr/Diputados/SiteAssets/2026-2030/ln_badilla_chavarria.jpg"
+    },
+    "jose-maria-villalta-florez-estrada": {
+      "archivo": "fotos/jose-maria-villalta-florez-estrada.jpg",
+      "origen": "https://www.asamblea.go.cr/Diputados/SiteAssets/2026-2030/fa_villalta_flores-estrada.jpg"
+    },
+    "vianey-mora-vega": {
+      "archivo": "fotos/vianey-mora-vega.jpg",
+      "origen": "https://www.asamblea.go.cr/Diputados/SiteAssets/2026-2030/fa_mora_vega.jpg"
+    },
+    "antonio-trejos-mazariegos": {
+      "archivo": "fotos/antonio-trejos-mazariegos.jpg",
+      "origen": "https://www.asamblea.go.cr/Diputados/SiteAssets/2026-2030/fa_trejos_mazarieros.jpg"
+    },
+    "claudia-dobles-camargo": {
+      "archivo": "fotos/claudia-dobles-camargo.jpg",
+      "origen": "https://www.asamblea.go.cr/Diputados/SiteAssets/2026-2030/cac_dobles_damargo.jpg"
+    },
+    "abril-gordienko-lopez": {
+      "archivo": "fotos/abril-gordienko-lopez.jpg",
+      "origen": "https://www.asamblea.go.cr/Diputados/SiteAssets/2026-2030/USC_gordienko_lopez.jpg"
+    },
+    "jose-miguel-villalobos-umana": {
+      "archivo": "fotos/jose-miguel-villalobos-umana.jpg",
+      "origen": "https://www.asamblea.go.cr/Diputados/SiteAssets/2026-2030/ps_villalobos_umana.jpg"
+    },
+    "zaira-murillo-marin": {
+      "archivo": "fotos/zaira-murillo-marin.jpg",
+      "origen": "https://www.asamblea.go.cr/Diputados/SiteAssets/2026-2030/ps_murillo_marin.jpg"
+    },
+    "gerald-bogantes-rivera": {
+      "archivo": "fotos/gerald-bogantes-rivera.jpg",
+      "origen": "https://www.asamblea.go.cr/Diputados/SiteAssets/2026-2030/ps_bogantes_rivera.jpg"
+    },
+    "grethel-maria-avila-vargas": {
+      "archivo": "fotos/grethel-maria-avila-vargas.jpg",
+      "origen": "https://www.asamblea.go.cr/Diputados/SiteAssets/2026-2030/ps_avila_vargas.jpg"
+    },
+    "wilson-alfredo-jimenez-cordero": {
+      "archivo": "fotos/wilson-alfredo-jimenez-cordero.jpg",
+      "origen": "https://www.asamblea.go.cr/Diputados/SiteAssets/2026-2030/ps_jimenez_cordero.jpg"
+    },
+    "kattia-maria-ulate-alvarado": {
+      "archivo": "fotos/kattia-maria-ulate-alvarado.jpg",
+      "origen": "https://www.asamblea.go.cr/Diputados/SiteAssets/2026-2030/ps_ulate_alvarado.jpg"
+    },
+    "fernando-obaldia-alvarez": {
+      "archivo": "fotos/fernando-obaldia-alvarez.jpg",
+      "origen": "https://www.asamblea.go.cr/Diputados/SiteAssets/2026-2030/ps_obaldia_alvarez.jpg"
+    },
+    "diana-murillo-murillo": {
+      "archivo": "fotos/diana-murillo-murillo.jpg",
+      "origen": "https://www.asamblea.go.cr/Diputados/SiteAssets/2026-2030/ln_murillo_murillo.jpg"
+    },
+    "eder-hernandez-ulloa": {
+      "archivo": "fotos/eder-hernandez-ulloa.jpg",
+      "origen": "https://www.asamblea.go.cr/Diputados/SiteAssets/2026-2030/ln_hernandez_ulloa.jpg"
+    },
+    "karen-alfaro-jimenez": {
+      "archivo": "fotos/karen-alfaro-jimenez.jpg",
+      "origen": "https://www.asamblea.go.cr/Diputados/SiteAssets/2026-2030/ln_alfaro_jimenez.jpg"
+    },
+    "edgardo-araya-sibaja": {
+      "archivo": "fotos/edgardo-araya-sibaja.jpg",
+      "origen": "https://www.asamblea.go.cr/Diputados/SiteAssets/2026-2030/fa_araya_sibaja.jpg"
+    },
+    "sigrid-segura-artavia": {
+      "archivo": "fotos/sigrid-segura-artavia.jpg",
+      "origen": "https://www.asamblea.go.cr/Diputados/SiteAssets/2026-2030/fa_segura_artavia.jpg"
+    },
+    "cindy-maria-blanco-gonzalez": {
+      "archivo": "fotos/cindy-maria-blanco-gonzalez.jpg",
+      "origen": "https://www.asamblea.go.cr/Diputados/SiteAssets/2026-2030/ps_blanco_gonzalez.jpg"
+    },
+    "robert-junior-barrantes-camacho": {
+      "archivo": "fotos/robert-junior-barrantes-camacho.jpg",
+      "origen": "https://www.asamblea.go.cr/Diputados/SiteAssets/2026-2030/ps_barrantes_camacho.jpg"
+    },
+    "yara-jimenez-fallas": {
+      "archivo": "fotos/yara-jimenez-fallas.jpg",
+      "origen": "https://www.asamblea.go.cr/Diputados/SiteAssets/2026-2030/ps_Jimenez_fallas.jpg"
+    },
+    "janice-sandi-morales": {
+      "archivo": "fotos/janice-sandi-morales.jpg",
+      "origen": "https://www.asamblea.go.cr/Diputados/SiteAssets/2026-2030/ln_sandi_morales.jpg"
+    },
+    "salvador-padilla-villanueva": {
+      "archivo": "fotos/salvador-padilla-villanueva.jpg",
+      "origen": "https://www.asamblea.go.cr/Diputados/SiteAssets/2026-2030/ln_padilla_villanueva.jpg"
+    },
+    "joselyn-saenz-nunez": {
+      "archivo": "fotos/joselyn-saenz-nunez.jpg",
+      "origen": "https://www.asamblea.go.cr/Diputados/SiteAssets/2026-2030/fa_saenz_nuñez.jpg"
+    },
+    "marta-eugenia-esquivel-rodriguez": {
+      "archivo": "fotos/marta-eugenia-esquivel-rodriguez.jpg",
+      "origen": "https://www.asamblea.go.cr/Diputados/SiteAssets/2026-2030/ps_esquivel_rodriguez.jpg"
+    },
+    "juan-manuel-quesada-espinoza": {
+      "archivo": "fotos/juan-manuel-quesada-espinoza.jpg",
+      "origen": "https://www.asamblea.go.cr/Diputados/SiteAssets/2026-2030/ps_quesada_espinoza.jpg"
+    },
+    "victor-hidalgo-solis": {
+      "archivo": "fotos/victor-hidalgo-solis.jpg",
+      "origen": "https://www.asamblea.go.cr/Diputados/SiteAssets/2026-2030/ln_hidalgo_sols.jpg"
+    },
+    "angela-aguilar-vargas": {
+      "archivo": "fotos/angela-aguilar-vargas.jpg",
+      "origen": "https://www.asamblea.go.cr/Diputados/SiteAssets/2026-2030/ln_aguilar_vargas.jpg"
+    },
+    "maria-eugenia-roman-mora": {
+      "archivo": "fotos/maria-eugenia-roman-mora.jpg",
+      "origen": "https://www.asamblea.go.cr/Diputados/SiteAssets/2026-2030/fa_roman_mora.jpg"
+    },
+    "nayuribe-guadamuz-rosales": {
+      "archivo": "fotos/nayuribe-guadamuz-rosales.jpg",
+      "origen": "https://www.asamblea.go.cr/Diputados/SiteAssets/2026-2030/ps_guadamuz_rosales%20.jpg"
+    },
+    "daniel-siezar-cardenas": {
+      "archivo": "fotos/daniel-siezar-cardenas.jpg",
+      "origen": "https://www.asamblea.go.cr/Diputados/SiteAssets/2026-2030/ps_siezar_cardenas.jpg"
+    },
+    "cindy-murillo-artavia": {
+      "archivo": "fotos/cindy-murillo-artavia.jpg",
+      "origen": "https://www.asamblea.go.cr/Diputados/SiteAssets/2026-2030/ps_murillo_artavia.jpg"
+    },
+    "ronald-campos-villegas": {
+      "archivo": "fotos/ronald-campos-villegas.jpg",
+      "origen": "https://www.asamblea.go.cr/Diputados/SiteAssets/2026-2030/ln_campos_villegas.jpg"
+    },
+    "karol-vanessa-matamoros-montoya": {
+      "archivo": "fotos/karol-vanessa-matamoros-montoya.jpg",
+      "origen": "https://www.asamblea.go.cr/Diputados/SiteAssets/2026-2030/ln_matamoros_montoya.jpg"
+    },
+    "royner-g-mora-ruiz": {
+      "archivo": "fotos/royner-g-mora-ruiz.jpg",
+      "origen": "https://www.asamblea.go.cr/Diputados/SiteAssets/2026-2030/ps_mora_ruíz.jpg"
+    },
+    "maria-isabel-camareno-camareno": {
+      "archivo": "fotos/maria-isabel-camareno-camareno.jpg",
+      "origen": "https://www.asamblea.go.cr/Diputados/SiteAssets/2026-2030/ps_camareno_camareno.jpg"
+    },
+    "ariel-mora-fallas": {
+      "archivo": "fotos/ariel-mora-fallas.jpg",
+      "origen": "https://www.asamblea.go.cr/Diputados/SiteAssets/2026-2030/ps_mora_fallas.jpg"
+    },
+    "ana-ruth-esquivel-medrano": {
+      "archivo": "fotos/ana-ruth-esquivel-medrano.jpg",
+      "origen": "https://www.asamblea.go.cr/Diputados/SiteAssets/2026-2030/ps_esquivel_medrano.jpg"
+    },
+    "norjelens-maria-lobo-vargas": {
+      "archivo": "fotos/norjelens-maria-lobo-vargas.jpg",
+      "origen": "https://www.asamblea.go.cr/Diputados/SiteAssets/2026-2030/ln_lobo_vargas.jpg"
+    },
+    "jesus-calderon-calderon": {
+      "archivo": "fotos/jesus-calderon-calderon.jpg",
+      "origen": "https://www.asamblea.go.cr/Diputados/SiteAssets/2026-2030/ln_calderon_calderon.jpg"
+    },
+    "osvaldo-artavia-carballo": {
+      "archivo": "fotos/osvaldo-artavia-carballo.jpg",
+      "origen": "https://www.asamblea.go.cr/Diputados/SiteAssets/2026-2030/ps_artavia_carballo.jpg"
+    },
+    "kristel-ward-hudson": {
+      "archivo": "fotos/kristel-ward-hudson.jpg",
+      "origen": "https://www.asamblea.go.cr/Diputados/SiteAssets/2026-2030/ps_ward_hudson.jpg"
+    },
+    "reynaldo-arias-mora": {
+      "archivo": "fotos/reynaldo-arias-mora.jpg",
+      "origen": "https://www.asamblea.go.cr/Diputados/SiteAssets/2026-2030/ps_arias_mora.jpg"
+    },
+    "kattia-calvo-cruz": {
+      "archivo": "fotos/kattia-calvo-cruz.jpg",
+      "origen": "https://www.asamblea.go.cr/Diputados/SiteAssets/2026-2030/ps_calvo_cruz.jpg"
+    },
+    "mangell-mc-lean-villalobos": {
+      "archivo": "fotos/mangell-mc-lean-villalobos.jpg",
+      "origen": "https://www.asamblea.go.cr/Diputados/SiteAssets/2026-2030/ln_mclean_villalobos.jpg"
+    }
+  },
+  "banderas": {
+    "PPSO": {
+      "archivo": "banderas/bandera_PPSO.png",
+      "origen": "https://www.asamblea.go.cr/Diputados/SiteAssets/Banderas/PPSO.png"
+    },
+    "PLN": {
+      "archivo": "banderas/bandera_PLN.png",
+      "origen": "https://www.asamblea.go.cr/Diputados/SiteAssets/Banderas/PLN.png"
+    },
+    "PSD": {
+      "archivo": "banderas/bandera_PSD.jpg",
+      "origen": "https://www.asamblea.go.cr/Diputados/SiteAssets/Banderas/flag_psd.jpg"
+    },
+    "PUSC": {
+      "archivo": "banderas/bandera_PUSC.png",
+      "origen": "https://www.asamblea.go.cr/Diputados/SiteAssets/Banderas/PUSC.png"
+    },
+    "PRN": {
+      "archivo": "banderas/bandera_PRN.jpg",
+      "origen": "https://www.asamblea.go.cr/Diputados/SiteAssets/Banderas/flag_prn.jpg"
+    },
+    "PLP": {
+      "archivo": "banderas/bandera_PLP.jpg",
+      "origen": "https://www.asamblea.go.cr/Diputados/SiteAssets/Banderas/flag_PLP.jpg"
+    },
+    "PFA": {
+      "archivo": "banderas/bandera_PFA.png",
+      "origen": "https://www.asamblea.go.cr/Diputados/SiteAssets/Banderas/PFA.png"
+    },
+    "CAC": {
+      "archivo": "banderas/bandera_CAC.png",
+      "origen": "https://www.asamblea.go.cr/Diputados/SiteAssets/Banderas/CAC.png"
+    }
+  },
+  "escudo": {
+    "oficial": "escudo/escudo-oficial.png",
+    "bronce": "escudo/escudo-bronce.png",
+    "origen": "https://www.asamblea.go.cr/SiteAssets/Asamblea Logo.png",
+    "nota": "Escudo nacional publicado por la Asamblea Legislativa como su logotipo. La version en bronce reproduce el acabado del relieve montado en el salon; el simbolo no se modifica."
+  },
+  "fallos": []
+}

@@ -1,0 +1,184 @@
+{
+  "_que_es_esto": "Variantes de nombre que usan las fuentes oficiales de la Asamblea (actas del Plenario, tablero de votación) y que no calzan letra por letra con el padrón oficial. Se edita a mano y el ETL NUNCA la sobreescribe: cuando aparece una variante nueva, el ETL la reporta con sus candidatos y no la resuelve. Una equivalencia solo se agrega si es inequívoca entre las 57 diputaciones.",
+  "_criterio": "Se acepta una equivalencia cuando los dos apellidos coinciden con los de UNA sola diputación del padrón y el nombre de pila es el mismo, salvo una diferencia de grafía documentada (Robert/Roberth) o un segundo nombre que el padrón omite o abrevia.",
+  "_comparacion": "La comparación ignora tildes y mayúsculas (Ruiz = Ruíz). Esas diferencias no necesitan entrada aquí.",
+  "equivalencias": [
+    {
+      "variante": "Roberth Junior Barrantes Camacho",
+      "slug": "robert-junior-barrantes-camacho",
+      "padron": "Robert Junior Barrantes Camacho",
+      "visto_en": "Acta ordinaria #58 (2026-08-27), listas de votación; también en el tablero de votación de la transmisión",
+      "motivo": "Mismos apellidos y segundo nombre; el acta y el tablero escriben «Roberth», el padrón «Robert». Única coincidencia entre las 57.",
+      "agregado": "2026-10-08"
+    },
+    {
+      "variante": "Roberth J. Barrantes Camacho",
+      "slug": "robert-junior-barrantes-camacho",
+      "padron": "Robert Junior Barrantes Camacho",
+      "visto_en": "Acta ordinaria #58 (2026-08-27), bloque «Diputados presentes»",
+      "motivo": "Mismos apellidos; «J.» es la inicial de Junior. Única coincidencia entre las 57.",
+      "agregado": "2026-10-08"
+    },
+    {
+      "variante": "Gréthel Ávila Vargas",
+      "slug": "grethel-maria-avila-vargas",
+      "padron": "Gréthel María Ávila Vargas",
+      "visto_en": "Acta ordinaria #58 (2026-08-27), bloque «Diputados presentes»",
+      "motivo": "Mismo nombre de pila y apellidos; omite el segundo nombre. Única coincidencia entre las 57.",
+      "agregado": "2026-10-08"
+    },
+    {
+      "variante": "Kattia Ulate Alvarado",
+      "slug": "kattia-maria-ulate-alvarado",
+      "padron": "Kattia María Ulate Alvarado",
+      "visto_en": "Acta ordinaria #58 (2026-08-27), bloque «Diputados presentes»",
+      "motivo": "Mismo nombre de pila y apellidos; omite el segundo nombre. Única coincidencia entre las 57.",
+      "agregado": "2026-10-08"
+    },
+    {
+      "variante": "Karol Matamoros Montoya",
+      "slug": "karol-vanessa-matamoros-montoya",
+      "padron": "Karol Vanessa Matamoros Montoya",
+      "visto_en": "Acta ordinaria #58 (2026-08-27), bloque «Diputados presentes»",
+      "motivo": "Mismo nombre de pila y apellidos; omite el segundo nombre. Única coincidencia entre las 57.",
+      "agregado": "2026-10-08"
+    },
+    {
+      "variante": "Norjelens Lobo Vargas",
+      "slug": "norjelens-maria-lobo-vargas",
+      "padron": "Norjelens María Lobo Vargas",
+      "visto_en": "Acta ordinaria #58 (2026-08-27), bloque «Diputados presentes»",
+      "motivo": "Mismo nombre de pila y apellidos; omite el segundo nombre. Única coincidencia entre las 57.",
+      "agregado": "2026-10-08"
+    },
+    {
+      "variante": "Edgardo Vinicio Araya Sibaja",
+      "slug": "edgardo-araya-sibaja",
+      "padron": "Edgardo Araya Sibaja",
+      "visto_en": "Acta ordinaria #58 (2026-08-27), bloque «Diputados presentes»; el SIL+ lo lista como «ARAYA SIBAJA EDGARDO VINICIO»",
+      "motivo": "Mismo nombre de pila y apellidos; el acta agrega el segundo nombre, que el padrón omite. Única coincidencia entre las 57.",
+      "agregado": "2026-10-08"
+    },
+    {
+      "variante": "Gerard Bogantes Rivera",
+      "slug": "gerald-bogantes-rivera",
+      "padron": "Gerald Bogantes Rivera",
+      "visto_en": "Acta ordinaria #1 (2026-05-01), bloque «Diputados presentes»",
+      "motivo": "Errata del acta: «Gerard» por «Gerald». Los dos apellidos coinciden con una sola diputación de las 57.",
+      "agregado": "2026-10-08"
+    },
+    {
+      "variante": "Kathia Calvo Cruz",
+      "slug": "kattia-calvo-cruz",
+      "padron": "Kattia Calvo Cruz",
+      "visto_en": "Actas ordinarias #1 a #3 (mayo de 2026), bloque «Diputados presentes»",
+      "motivo": "Grafía distinta del nombre de pila (Kathia/Kattia). Los dos apellidos coinciden con una sola diputación de las 57.",
+      "agregado": "2026-10-08"
+    },
+    {
+      "variante": "Robert J. Barrantes Camacho",
+      "slug": "robert-junior-barrantes-camacho",
+      "padron": "Robert Junior Barrantes Camacho",
+      "visto_en": "Actas ordinarias #5 a #7 (mayo de 2026), bloque «Diputados presentes»",
+      "motivo": "Mismo nombre y apellidos; «J.» es la inicial de Junior. Única coincidencia entre las 57.",
+      "agregado": "2026-10-08"
+    },
+    {
+      "variante": "María Isabel Camareno Camarenog",
+      "slug": "maria-isabel-camareno-camareno",
+      "padron": "María Isabel Camareno Camareno",
+      "visto_en": "Actas del Plenario del período 2026-2030, revisión completa del 2026-10-09",
+      "motivo": "Errata del acta («Camarenog»). Nombre y primer apellido coinciden con una sola diputación de las 57.",
+      "agregado": "2026-10-09"
+    },
+    {
+      "variante": "María Isabel Camareno",
+      "slug": "maria-isabel-camareno-camareno",
+      "padron": "María Isabel Camareno Camareno",
+      "visto_en": "Actas del Plenario del período 2026-2030, revisión completa del 2026-10-09",
+      "motivo": "Omite el segundo apellido. Nombre completo y primer apellido coinciden con una sola diputación de las 57.",
+      "agregado": "2026-10-09"
+    },
+    {
+      "variante": "Eder Francisco Hernández Ulloa",
+      "slug": "eder-hernandez-ulloa",
+      "padron": "Eder Hernández Ulloa",
+      "visto_en": "Actas del Plenario del período 2026-2030, revisión completa del 2026-10-09",
+      "motivo": "Mismo nombre de pila y apellidos; el acta agrega el segundo nombre, que el padrón omite. Única coincidencia entre las 57.",
+      "agregado": "2026-10-09"
+    },
+    {
+      "variante": "Kristel Ward Hudsun",
+      "slug": "kristel-ward-hudson",
+      "padron": "Kristel Ward Hudson",
+      "visto_en": "Actas del Plenario del período 2026-2030, revisión completa del 2026-10-09",
+      "motivo": "Errata del acta («Hudsun» por «Hudson»). Nombre y primer apellido coinciden con una sola diputación de las 57.",
+      "agregado": "2026-10-09"
+    },
+    {
+      "variante": "attya Mora Montoya",
+      "slug": "kattya-mora-montoya",
+      "padron": "Kattya Mora Montoya",
+      "visto_en": "Acta ordinaria #18 (2026-06-01), bloque «Diputados presentes»",
+      "motivo": "Errata del acta: falta la «K» inicial. Resto del nombre y apellidos idénticos; única coincidencia entre las 57.",
+      "agregado": "2026-10-09"
+    },
+    {
+      "variante": "osé Miguel Villalobos Umaña",
+      "slug": "jose-miguel-villalobos-umana",
+      "padron": "José Miguel Villalobos Umaña",
+      "visto_en": "Acta ordinaria #16 (2026-05-26), bloque «Diputados presentes»",
+      "motivo": "Errata del acta: falta la «J» inicial (mismo patrón que «attya» en la #18). Resto idéntico; única coincidencia entre las 57.",
+      "agregado": "2026-10-09"
+    },
+    {
+      "variante": "Marco Badilla Chavaría",
+      "slug": "marco-badilla-chavarria",
+      "padron": "Marco Badilla Chavarría",
+      "visto_en": "Datos abiertos: salarios y combustible de diputaciones, 2026-05 a 2026-09 (escrito «Apellidos Nombre»)",
+      "motivo": "Errata en el segundo apellido («Chavaría» por «Chavarría»). Nombre y primer apellido coinciden con una sola diputación de las 57.",
+      "agregado": "2026-10-09"
+    },
+    {
+      "variante": "Kattia Mora Montoya",
+      "slug": "kattya-mora-montoya",
+      "padron": "Kattya Mora Montoya",
+      "visto_en": "Datos abiertos: salarios y combustible de diputaciones, 2026-05 a 2026-09 (escrito «Apellidos Nombre»)",
+      "motivo": "Grafía distinta del nombre de pila (Kattia/Kattya). Los dos apellidos coinciden con una sola diputación de las 57.",
+      "agregado": "2026-10-09"
+    },
+    {
+      "variante": "Robert Barrantes Camacho",
+      "slug": "robert-junior-barrantes-camacho",
+      "padron": "Robert Junior Barrantes Camacho",
+      "visto_en": "Datos abiertos: salarios y combustible de diputaciones, 2026-05 a 2026-09 (escrito «Apellidos Nombre»)",
+      "motivo": "Omite el segundo nombre. Nombre y apellidos coinciden con una sola diputación de las 57.",
+      "agregado": "2026-10-09"
+    },
+    {
+      "variante": "Gerardo Bogantes Rivera",
+      "slug": "gerald-bogantes-rivera",
+      "padron": "Gerald Bogantes Rivera",
+      "visto_en": "Datos abiertos: salarios y combustible de diputaciones, 2026-05 a 2026-09 (escrito «Apellidos Nombre»)",
+      "motivo": "Otra forma del nombre de pila (Gerardo/Gerald). Los dos apellidos coinciden con una sola diputación de las 57.",
+      "agregado": "2026-10-09"
+    },
+    {
+      "variante": "Royner Mora Ruiz",
+      "slug": "royner-g-mora-ruiz",
+      "padron": "Royner G. Mora Ruíz",
+      "visto_en": "Datos abiertos: salarios y combustible de diputaciones, 2026-05 a 2026-09 (escrito «Apellidos Nombre»)",
+      "motivo": "Omite la inicial «G.». Nombre y apellidos coinciden con una sola diputación de las 57.",
+      "agregado": "2026-10-09"
+    },
+    {
+      "variante": "Joselyn Sáenz Blanco",
+      "slug": "joselyn-saenz-nunez",
+      "padron": "Joselyn Sáenz Núñez",
+      "visto_en": "Datos abiertos: remuneración y combustible de diputaciones, 2026-05 a 2026-09 (escrito «Sáenz Blanco Joselyn»)",
+      "motivo": "DECISIÓN HUMANA (2026-10-09): misma persona. Es la única Joselyn Sáenz entre las 57 y de la misma fracción (Frente Amplio). El segundo apellido difiere entre fuentes oficiales: «Blanco» en los Excel de remuneración y combustible, «Núñez» en el padrón y en las actas. Inconsistencia de la fuente, reportada y no corregida (ADR-023).",
+      "decidido_por": "persona responsable del proyecto",
+      "agregado": "2026-10-09"
+    }
+  ]
+}
