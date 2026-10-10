@@ -168,8 +168,8 @@ def main() -> int:
             {
                 "generado": ahora_iso(),
                 "metodo": (
-                    "Color dominante cromatico de la bandera oficial de cada "
-                    "fraccion, con luminosidad y saturacion acotadas para "
+                    "Color dominante cromático de la bandera oficial de cada "
+                    "fracción, con luminosidad y saturación acotadas para "
                     "legibilidad sobre fondo oscuro. El tono no se altera."
                 ),
                 "colores": colores,

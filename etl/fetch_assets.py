@@ -109,8 +109,8 @@ def descargar_escudo(fallos: list[str]) -> dict | None:
         "origen": ESCUDO_URL,
         "nota": (
             "Escudo nacional publicado por la Asamblea Legislativa como su "
-            "logotipo. La version en bronce reproduce el acabado del relieve "
-            "montado en el salon; el simbolo no se modifica."
+            "logotipo. La versión en bronce reproduce el acabado del relieve "
+            "montado en el salón; el símbolo no se modifica."
         ),
     }
 

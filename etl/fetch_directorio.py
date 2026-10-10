@@ -147,9 +147,9 @@ def main() -> int:
         "periodo": padron["periodo"],
         "_fuente": URL,
         "nota": (
-            "Integracion del Directorio Legislativo segun la pagina oficial de la "
-            "Asamblea. Los nombres se validaron contra el padron: solo se acepta "
-            "un cargo si el nombre coincide con una diputacion registrada."
+            "Integración del Directorio Legislativo según la página oficial de la "
+            "Asamblea. Los nombres se validaron contra el padrón: solo se acepta "
+            "un cargo si el nombre coincide con una diputación registrada."
         ),
         "en_la_mesa": EN_LA_MESA,
         "advertencias": problemas,

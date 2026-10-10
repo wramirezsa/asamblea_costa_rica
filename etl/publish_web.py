@@ -225,6 +225,10 @@ def main() -> int:
             "sesiones": len(sesiones),
             "sesiones_con_lista_de_presentes": sum(1 for s in sesiones if s["presentes"]),
             "votaciones": len(votaciones_web),
+            # Las que el acta trae pero no cuadran (totales contra nombres):
+            # no se publican, pero se cuentan para decirlo en pantalla.
+            "votaciones_no_publicables": (actas["resumen"]["votaciones"]
+                                          - actas["resumen"]["votaciones_publicables"]),
             "sin_documento": [x["sesion"] for x in actas.get("sin_documento", [])],
             "asistencia": asistencia,
         }
@@ -302,6 +306,7 @@ def main() -> int:
         "extraido": extraido,
         "periodo": d["periodo"],
         "fuente_oficial": d["fuentes"]["diputados"],
+        "fuente_fracciones": d["fuentes"].get("fracciones"),
         "licencia": d["licencia"],
         "total": len(ligeros),
         "conteo_por_partido": d["conteo_por_partido"],
@@ -331,10 +336,10 @@ def main() -> int:
             "confianza": "derivado",
             "nota": (
                 "La Asamblea Legislativa no publica la curul asignada a cada "
-                "diputacion. La ubicacion por bancada sigue el Reglamento del "
-                "Ceremonial Protocolar (art. 15): fraccion de Gobierno a la "
-                "izquierda del Directorio, oposicion mayoritaria a la derecha. "
-                "La posicion individual dentro de cada bancada es ilustrativa."
+                "diputación. La ubicación por bancada sigue el Reglamento del "
+                "Ceremonial Protocolar (art. 15): fracción de Gobierno a la "
+                "izquierda del Directorio, oposición mayoritaria a la derecha. "
+                "La posición individual dentro de cada bancada es ilustrativa."
             ),
             "filas": FILAS,
             "curules": curules,
@@ -342,11 +347,11 @@ def main() -> int:
         "sala": {
             "confianza": "reconstruido",
             "nota": (
-                "Reconstruccion de la disposicion fisica del salon de sesiones: "
+                "Reconstrucción de la disposición física del salón de sesiones: "
                 "sala rectangular con dos bancadas escalonadas enfrentadas y la "
                 "mesa del Directorio al fondo. Las proporciones y el conteo por "
-                "grada se leyeron de fotografias del plenario, no de un plano "
-                "oficial. La curul asignada a cada diputacion tampoco es publica."
+                "grada se leyeron de fotografías del plenario, no de un plano "
+                "oficial. La curul asignada a cada diputación tampoco es pública."
             ),
             "curules": curules_sala,
             "mesa": puestos_mesa,

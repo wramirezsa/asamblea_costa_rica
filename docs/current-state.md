@@ -166,12 +166,11 @@ período. **Estos datos NO están en el sitio y no deben publicarse todavía**
 
 ## Siguientes pasos
 
-1. **Ordenar la información del sitio** — pedido del usuario el 2026-10-09:
-   «me gusta lo que veo, pero a nivel de información no se hallan bien las
-   cosas». Reorganizar la arquitectura de información de la página y de la
-   ficha para que cada dato se encuentre fácil. **El salón 3D está perfecto:
-   no tocarlo**, solo reubicar la información a su alrededor. Plan en
-   `docs/arquitectura-informacion.md`.
+1. ~~Ordenar la información del sitio~~ — hecho el 2026-10-09: navegación
+   fija con secciones de ruta propia (Plenario · Votaciones · Actividad ·
+   Fuentes), controles agrupados, resumen en números y sección Fuentes. El
+   salón 3D no se tocó. Detalle en `docs/arquitectura-informacion.md`.
+   Siguiente: que el usuario lo recorra y diga qué sigue sin hallarse.
 2. **Enviar el acuse de recibo** a la Asamblea (texto listo en
    `docs/solicitud-transparencia.md`).
 3. Gasto: uso de vehículos y viajes al exterior (ADR-023).
@@ -183,7 +182,7 @@ período. **Estos datos NO están en el sitio y no deben publicarse todavía**
 solas todos los días a las 06:17 en GitHub Actions, y el sitio se publica en
 `https://wramirezsa.github.io/asamblea_costa_rica/` (ADR-024). La tarea
 «Asamblea Abierta - actualizar» del Programador de tareas de Windows (creada
-el 2026-10-09) corre `--fuentes sharepoint --subir` en la copia dedicada
+el 2026-10-09) corre `--fuentes sharepoint --completo --subir` en la copia dedicada
 `%USERPROFILE%\AsambleaAbierta\repo`: extrae el padrón, la actividad y el
 gasto, los sube y el push publica. Si la computadora pasa más de 7 días sin
 correrla, la corrida diaria de la nube abre un issue.

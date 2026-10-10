@@ -10,14 +10,23 @@
  *   /diputado/{slug}         con la ficha de esa persona abierta
  *   /provincia/{provincia}   filtrado por provincia
  *   /votacion/{clave}        el mapa con una votacion del acta ("ordinaria-58-12")
+ *   /votaciones              resumen y lista de votaciones del Plenario
+ *   /actividad               leyes, mociones e intervenciones
+ *   /fuentes                 de donde sale cada dato, fechas y lo que no mostramos
  *
- * Se usa la History API en vez de un router completo: son tres rutas y no
+ * Se usa la History API en vez de un router completo: son pocas rutas y no
  * justifica una dependencia. Vite y la mayoría de alojamientos estáticos
  * sirven index.html para rutas desconocidas, que es lo que esto necesita.
  */
 
+/** Las secciones de la navegacion. 'plenario' es la portada (el mapa). */
+export type Seccion = 'plenario' | 'votaciones' | 'actividad' | 'fuentes'
+
+const SECCIONES_CON_RUTA: Seccion[] = ['votaciones', 'actividad', 'fuentes']
+
 export type Ruta =
   | { tipo: 'inicio' }
+  | { tipo: 'seccion'; seccion: Seccion }
   | { tipo: 'diputado'; slug: string }
   | { tipo: 'provincia'; provincia: string }
   | { tipo: 'votacion'; clave: string }
@@ -54,6 +63,8 @@ export function leerRuta(): Ruta {
   if (partes[0] === 'votacion' && partes[1]) {
     return { tipo: 'votacion', clave: decodeURIComponent(partes[1]) }
   }
+  const seccion = SECCIONES_CON_RUTA.find((s) => s === partes[0])
+  if (seccion && !partes[1]) return { tipo: 'seccion', seccion }
   return { tipo: 'inicio' }
 }
 
@@ -61,6 +72,7 @@ export function rutaAUrl(r: Ruta): string {
   if (r.tipo === 'diputado') return `${BASE}/diputado/${encodeURIComponent(r.slug)}`
   if (r.tipo === 'provincia') return `${BASE}/provincia/${encodeURIComponent(r.provincia)}`
   if (r.tipo === 'votacion') return `${BASE}/votacion/${encodeURIComponent(r.clave)}`
+  if (r.tipo === 'seccion' && r.seccion !== 'plenario') return `${BASE}/${r.seccion}`
   return `${BASE}/`
 }
 

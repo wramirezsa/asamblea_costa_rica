@@ -5,8 +5,9 @@ import Actividad from './Actividad'
 import QuienTeRepresenta from './QuienTeRepresenta'
 import BarraVotacion from './BarraVotacion'
 import Votaciones from './Votaciones'
-import { FUENTES, extraccionMasVieja, fechaHora } from './frescura'
-import { aSlug, irA, leerRuta, ponerTitulo, recurso } from './rutas'
+import Fuentes from './Fuentes'
+import { extraccionMasVieja, FUENTES, fechaHora } from './frescura'
+import { aSlug, irA, leerRuta, ponerTitulo, recurso, rutaAUrl, type Seccion } from './rutas'
 import type { Asamblea, CodigoVoto, DatosVotaciones, Diputado } from './tipos'
 import { VOTO, buscarVotacion, cargarVotaciones, claveVotacion, nombreSesion, votoDe } from './votos'
 import './estilos.css'
@@ -28,6 +29,11 @@ export default function App() {
   const [seleccionado, setSeleccionado] = useState<string | null>(
     rutaInicial.tipo === 'diputado' ? rutaInicial.slug : null
   )
+  // Que seccion se ve. El plenario (el mapa) es la portada; las demas tienen
+  // ruta propia para que se puedan enlazar.
+  const [seccion, setSeccion] = useState<Seccion>(
+    rutaInicial.tipo === 'seccion' ? rutaInicial.seccion : 'plenario'
+  )
   const [globo, setGlobo] = useState<{ dip: Diputado; x: number; y: number } | null>(null)
   const [modo, setModo] = useState<'caras' | 'colores'>('caras')
   const [vista, setVista] = useState<'composicion' | 'salon'>('composicion')
@@ -35,15 +41,31 @@ export default function App() {
   const [votaciones, setVotaciones] = useState<DatosVotaciones | null>(null)
   const [votacionActiva, setVotacionActiva] = useState<number | null>(null)
   const refMapa = useRef<HTMLDivElement | null>(null)
+  const irAlMapa = useRef(false)
+
+  useEffect(() => {
+    if (!irAlMapa.current || seccion !== 'plenario' || !refMapa.current) return
+    irAlMapa.current = false
+    // La cabecera es fija y cambia de alto segun el ancho (en celular la
+    // navegacion baja a otra fila): se descuenta lo que mide de verdad.
+    // En celular solo la fila de navegacion queda fija (top negativo).
+    const cabecera = document.querySelector<HTMLElement>('.cabecera')
+    const fija = cabecera
+      ? cabecera.offsetHeight + (parseFloat(getComputedStyle(cabecera).top) || 0)
+      : 0
+    const y = refMapa.current.getBoundingClientRect().top + window.scrollY - fija - 12
+    window.scrollTo({ top: Math.max(0, y), behavior: 'smooth' })
+  }, [seccion, votacionActiva])
 
   const verVotacion = useCallback((indice: number) => {
     cargarVotaciones().then((d) => {
       setVotaciones(d)
       setVotacionActiva(indice)
       setSeleccionado(null)
-      requestAnimationFrame(() =>
-        refMapa.current?.scrollIntoView({ behavior: 'smooth', block: 'start' })
-      )
+      setSeccion('plenario')
+      // El mapa puede no estar montado todavia (se venia de Votaciones): el
+      // desplazamiento se hace en el efecto de abajo, ya con el mapa en pantalla.
+      irAlMapa.current = true
     })
   }, [])
 
@@ -151,17 +173,21 @@ export default function App() {
     // Se entro por un enlace a una votacion y todavia no carga: no tocar la
     // direccion, o se pierde el enlace antes de poder mostrarlo.
     if (rutaInicial.tipo === 'votacion' && !votaciones) return
-    if (seleccionado) irA({ tipo: 'diputado', slug: seleccionado })
+    if (seccion !== 'plenario') irA({ tipo: 'seccion', seccion })
+    else if (seleccionado) irA({ tipo: 'diputado', slug: seleccionado })
     else if (votaciones && votacionActiva !== null)
       irA({ tipo: 'votacion', clave: claveVotacion(votaciones, votaciones.votaciones[votacionActiva]) })
     else if (provincia) irA({ tipo: 'provincia', provincia: aSlug(provincia) })
     else irA({ tipo: 'inicio' })
-  }, [datos, seleccionado, provincia, votaciones, votacionActiva, rutaInicial])
+  }, [datos, seccion, seleccionado, provincia, votaciones, votacionActiva, rutaInicial])
 
   useEffect(() => {
     const alNavegar = () => {
       const r = leerRuta()
-      if (r.tipo === 'diputado') {
+      setSeccion(r.tipo === 'seccion' ? r.seccion : 'plenario')
+      if (r.tipo === 'seccion') {
+        setSeleccionado(null)
+      } else if (r.tipo === 'diputado') {
         setSeleccionado(r.slug)
       } else if (r.tipo === 'votacion') {
         setSeleccionado(null)
@@ -199,7 +225,22 @@ export default function App() {
   useEffect(() => {
     if (!datos) return
     const dip = seleccionado ? porSlug.get(seleccionado) : null
-    if (dip) {
+    if (seccion === 'votaciones') {
+      ponerTitulo(
+        'Votaciones del Plenario · Asamblea Abierta',
+        `Cómo votó cada diputación en ${datos.actas?.votaciones.toLocaleString('es-CR') ?? 'las'} votaciones nominales, según las actas oficiales del Plenario.`
+      )
+    } else if (seccion === 'actividad') {
+      ponerTitulo(
+        'Actividad legislativa · Asamblea Abierta',
+        'Leyes aprobadas, mociones e intervenciones de la Asamblea Legislativa de Costa Rica, con la fecha en que la fuente oficial se actualizó.'
+      )
+    } else if (seccion === 'fuentes') {
+      ponerTitulo(
+        'Fuentes · Asamblea Abierta',
+        'De dónde sale cada dato del sitio, cuándo se extrajo y qué no mostramos.'
+      )
+    } else if (dip) {
       ponerTitulo(
         `${dip.nombre} · Asamblea Abierta`,
         [dip.fraccion, dip.provincia, dip.profesion].filter(Boolean).join(' · ')
@@ -223,7 +264,14 @@ export default function App() {
         `Mapa interactivo del plenario ${datos.periodo}: las ${datos.total} diputaciones, dónde se sientan y qué han hecho.`
       )
     }
-  }, [datos, seleccionado, provincia, porSlug, votaciones, votacionActiva])
+  }, [datos, seccion, seleccionado, provincia, porSlug, votaciones, votacionActiva])
+
+  const irSeccion = (s: Seccion) => {
+    setSeccion(s)
+    setSeleccionado(null)
+    setGlobo(null)
+    window.scrollTo({ top: 0 })
+  }
 
   const alternarBancada = (codigo: string) => {
     setBancadas((prev) => {
@@ -289,6 +337,24 @@ export default function App() {
           </div>
         </div>
 
+        <nav className="nav-secciones" aria-label="Secciones">
+          {SECCIONES.map(([s, etiqueta]) => (
+            <a
+              key={s}
+              href={rutaAUrl({ tipo: 'seccion', seccion: s })}
+              aria-current={seccion === s ? 'page' : undefined}
+              className={seccion === s ? 'activa' : ''}
+              onClick={(e) => {
+                if (e.metaKey || e.ctrlKey || e.shiftKey || e.button !== 0) return
+                e.preventDefault()
+                irSeccion(s)
+              }}
+            >
+              {etiqueta}
+            </a>
+          ))}
+        </nav>
+
         <div className="cabecera-espacio" />
 
         <div
@@ -300,7 +366,7 @@ export default function App() {
           ].join('\n')}
         >
           <span className="punto-vivo" />
-          Datos oficiales ·{' '}
+          <span className="sello-etiqueta">Datos oficiales · </span>
           {masVieja
             ? new Date(masVieja).toLocaleDateString('es-CR', {
                 day: '2-digit',
@@ -311,200 +377,211 @@ export default function App() {
         </div>
       </header>
 
-      <QuienTeRepresenta
-        diputados={datos.diputados}
-        provinciaActiva={provincia}
-        onElegir={setProvincia}
-      />
-
-      <section className="composicion">
-        <div className="composicion-barra">
-          {activas.map((f) => (
-            <div
-              key={f.codigo}
-              className={`composicion-seg${
-                bancadas.size > 0 && !bancadas.has(f.codigo) ? ' apagado' : ''
-              }`}
-              style={{ flex: f.escanos, background: f.color ?? COLOR_SIN_BANCADA }}
-              title={`${f.nombre ?? f.codigo}: ${f.escanos} de ${datos.total}`}
-              onClick={() => alternarBancada(f.codigo)}
-            >
-              {f.escanos >= 4 ? f.escanos : ''}
-            </div>
-          ))}
-        </div>
-        <div className="composicion-pie">
-          <span className="mayoria">
-            Mayoría simple: <strong>{mayoriaSimple}</strong> · Mayoría calificada (⅔):{' '}
-            <strong>{Math.ceil((datos.total * 2) / 3)}</strong>
-            {bancadaMayor && bancadaMayor.escanos >= mayoriaSimple && (
-              <>
-                {' · '}
-                <strong style={{ color: bancadaMayor.color ?? undefined }}>
-                  {bancadaMayor.codigo}
-                </strong>{' '}
-                alcanza por sí sola la mayoría simple
-              </>
-            )}
-          </span>
-          <span>{datos.total} curules</span>
-        </div>
-      </section>
-
-      <section className="controles">
-        <div className="buscador">
-          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2">
-            <circle cx="11" cy="11" r="7" />
-            <path d="m21 21-4.3-4.3" />
-          </svg>
-          <input
-            value={busqueda}
-            onChange={(e) => setBusqueda(e.target.value)}
-            placeholder="Buscar por nombre, provincia o profesión…"
-            aria-label="Buscar diputación"
-          />
-        </div>
-
-        <div className="chips">
-          {activas.map((f) => {
-            const activo = bancadas.has(f.codigo)
-            return (
-              <button
-                key={f.codigo}
-                className={`chip${activo ? ' activo' : ''}`}
-                style={activo ? { color: f.color ?? undefined } : undefined}
-                onClick={() => alternarBancada(f.codigo)}
-                title={f.nombre ?? f.codigo}
-              >
-                <span className="chip-punto" style={{ background: f.color ?? COLOR_SIN_BANCADA }} />
-                {f.codigo}
-                <span className="chip-n">{f.escanos}</span>
-              </button>
-            )
-          })}
-        </div>
-
-        <select
-          className="selector"
-          value={provincia}
-          onChange={(e) => setProvincia(e.target.value)}
-          aria-label="Filtrar por provincia"
-        >
-          <option value="">Todas las provincias</option>
-          {provincias.map((p) => (
-            <option key={p} value={p}>
-              {p}
-            </option>
-          ))}
-        </select>
-
-        {filtrando && (
-          <button
-            className="chip"
-            onClick={() => {
-              setBusqueda('')
-              setBancadas(new Set())
-              setProvincia('')
-            }}
-          >
-            Limpiar · {visibles.size} de {datos.total}
-          </button>
-        )}
-
-        {vista === 'composicion' && (
-          <div className="conmutador" role="group" aria-label="Modo de visualización">
-            <button
-              className={modo === 'caras' ? 'activo' : ''}
-              onClick={() => setModo('caras')}
-              aria-pressed={modo === 'caras'}
-            >
-              Caras
-            </button>
-            <button
-              className={modo === 'colores' ? 'activo' : ''}
-              onClick={() => setModo('colores')}
-              aria-pressed={modo === 'colores'}
-            >
-              Bancadas
-            </button>
-          </div>
-        )}
-
-        <div className="conmutador conmutador-vista" role="group" aria-label="Vista">
-          <button
-            className={vista === 'composicion' ? 'activo' : ''}
-            onClick={() => setVista('composicion')}
-            aria-pressed={vista === 'composicion'}
-            title="Diagrama de composición: cómo se reparten las 57 curules"
-          >
-            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-              <path d="M3 18a9 9 0 0 1 18 0" />
-              <circle cx="12" cy="18" r="1.4" fill="currentColor" />
-            </svg>
-            Composición
-          </button>
-          <button
-            className={vista === 'salon' ? 'activo' : ''}
-            onClick={() => setVista('salon')}
-            aria-pressed={vista === 'salon'}
-            title="El salón de sesiones reconstruido en 3D"
-          >
-            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-              <path d="m12 2 9 5v10l-9 5-9-5V7l9-5Z" />
-              <path d="m12 12 9-5M12 12v10M12 12 3 7" />
-            </svg>
-            Salón 3D
-          </button>
-        </div>
-      </section>
-
-      <div ref={refMapa} className="ancla-mapa" />
-      {votaciones && votacionActiva !== null && (
-        <BarraVotacion
-          datos={votaciones}
-          indice={votacionActiva}
-          onCambiar={setVotacionActiva}
-          onCerrar={() => setVotacionActiva(null)}
+      {seccion === 'plenario' && (
+        <>
+        <QuienTeRepresenta
+          diputados={datos.diputados}
+          provinciaActiva={provincia}
+          onElegir={setProvincia}
         />
-      )}
-      <div className="lienzo-envoltura">
-        {vista === 'composicion' ? (
-          <Hemiciclo
-            datos={datos}
-            porSlug={porSlug}
-            colorDe={colorDe}
-            visibles={visibles}
-            seleccionado={seleccionado}
-            modo={modo}
-            votoDe={votoMapa}
-            onSeleccionar={setSeleccionado}
-            onSobrevolar={setGlobo}
-          />
-        ) : (
-          <Suspense
-            fallback={
-              <div className="lienzo lienzo-cargando">
-                <div>
-                  <div className="giro" />
-                  <p>Levantando el salón de sesiones…</p>
-                </div>
+
+        <section className="controles">
+          <div className="grupo-controles grupo-filtros" role="group" aria-label="Buscar y filtrar">
+            <span className="grupo-etiqueta">Buscar y filtrar</span>
+            <div className="buscador">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2">
+                <circle cx="11" cy="11" r="7" />
+                <path d="m21 21-4.3-4.3" />
+              </svg>
+              <input
+                value={busqueda}
+                onChange={(e) => setBusqueda(e.target.value)}
+                placeholder="Buscar por nombre, provincia o profesión…"
+                aria-label="Buscar diputación"
+              />
+            </div>
+
+            <div className="chips">
+              {activas.map((f) => {
+                const activo = bancadas.has(f.codigo)
+                return (
+                  <button
+                    key={f.codigo}
+                    className={`chip${activo ? ' activo' : ''}`}
+                    style={activo ? { color: f.color ?? undefined } : undefined}
+                    onClick={() => alternarBancada(f.codigo)}
+                    title={f.nombre ?? f.codigo}
+                  >
+                    <span className="chip-punto" style={{ background: f.color ?? COLOR_SIN_BANCADA }} />
+                    {f.codigo}
+                    <span className="chip-n">{f.escanos}</span>
+                  </button>
+                )
+              })}
+            </div>
+
+            <select
+              className="selector"
+              value={provincia}
+              onChange={(e) => setProvincia(e.target.value)}
+              aria-label="Filtrar por provincia"
+            >
+              <option value="">Todas las provincias</option>
+              {provincias.map((p) => (
+                <option key={p} value={p}>
+                  {p}
+                </option>
+              ))}
+            </select>
+
+            {filtrando && (
+              <button
+                className="chip"
+                onClick={() => {
+                  setBusqueda('')
+                  setBancadas(new Set())
+                  setProvincia('')
+                }}
+              >
+                Limpiar · {visibles.size} de {datos.total}
+              </button>
+            )}
+
+          </div>
+          <div className="grupo-controles grupo-vista" role="group" aria-label="Cómo ver">
+            <span className="grupo-etiqueta">Cómo ver</span>
+            {vista === 'composicion' && (
+              <div className="conmutador" role="group" aria-label="Modo de visualización">
+                <button
+                  className={modo === 'caras' ? 'activo' : ''}
+                  onClick={() => setModo('caras')}
+                  aria-pressed={modo === 'caras'}
+                >
+                  Caras
+                </button>
+                <button
+                  className={modo === 'colores' ? 'activo' : ''}
+                  onClick={() => setModo('colores')}
+                  aria-pressed={modo === 'colores'}
+                >
+                  Bancadas
+                </button>
               </div>
-            }
-          >
-            <Plenario3D
+            )}
+
+            <div className="conmutador conmutador-vista" role="group" aria-label="Vista">
+              <button
+                className={vista === 'composicion' ? 'activo' : ''}
+                onClick={() => setVista('composicion')}
+                aria-pressed={vista === 'composicion'}
+                title="Diagrama de composición: cómo se reparten las 57 curules"
+              >
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                  <path d="M3 18a9 9 0 0 1 18 0" />
+                  <circle cx="12" cy="18" r="1.4" fill="currentColor" />
+                </svg>
+                Composición
+              </button>
+              <button
+                className={vista === 'salon' ? 'activo' : ''}
+                onClick={() => setVista('salon')}
+                aria-pressed={vista === 'salon'}
+                title="El salón de sesiones reconstruido en 3D"
+              >
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                  <path d="m12 2 9 5v10l-9 5-9-5V7l9-5Z" />
+                  <path d="m12 12 9-5M12 12v10M12 12 3 7" />
+                </svg>
+                Salón 3D
+              </button>
+            </div>
+          </div>
+        </section>
+
+        <section className="composicion">
+          <div className="composicion-barra">
+            {activas.map((f) => (
+              <div
+                key={f.codigo}
+                className={`composicion-seg${
+                  bancadas.size > 0 && !bancadas.has(f.codigo) ? ' apagado' : ''
+                }`}
+                style={{ flex: f.escanos, background: f.color ?? COLOR_SIN_BANCADA }}
+                title={`${f.nombre ?? f.codigo}: ${f.escanos} de ${datos.total}`}
+                onClick={() => alternarBancada(f.codigo)}
+              >
+                {f.escanos >= 4 ? f.escanos : ''}
+              </div>
+            ))}
+          </div>
+          <div className="composicion-pie">
+            <span className="mayoria">
+              Mayoría simple: <strong>{mayoriaSimple}</strong> · Mayoría calificada (⅔):{' '}
+              <strong>{Math.ceil((datos.total * 2) / 3)}</strong>
+              {bancadaMayor && bancadaMayor.escanos >= mayoriaSimple && (
+                <>
+                  {' · '}
+                  <strong style={{ color: bancadaMayor.color ?? undefined }}>
+                    {bancadaMayor.codigo}
+                  </strong>{' '}
+                  alcanza por sí sola la mayoría simple
+                </>
+              )}
+            </span>
+            <span>{datos.total} curules</span>
+          </div>
+        </section>
+
+        <div ref={refMapa} className="ancla-mapa" />
+        {votaciones && votacionActiva !== null && (
+          <BarraVotacion
+            datos={votaciones}
+            indice={votacionActiva}
+            onCambiar={setVotacionActiva}
+            onCerrar={() => setVotacionActiva(null)}
+          />
+        )}
+        <div className="lienzo-envoltura">
+          {vista === 'composicion' ? (
+            <Hemiciclo
               datos={datos}
               porSlug={porSlug}
               colorDe={colorDe}
               visibles={visibles}
-                seleccionado={seleccionado}
-              enfocado={enfocado}
+              seleccionado={seleccionado}
+              modo={modo}
               votoDe={votoMapa}
               onSeleccionar={setSeleccionado}
               onSobrevolar={setGlobo}
             />
-          </Suspense>
-        )}
-      </div>
+          ) : (
+            <Suspense
+              fallback={
+                <div className="lienzo lienzo-cargando">
+                  <div>
+                    <div className="giro" />
+                    <p>Levantando el salón de sesiones…</p>
+                  </div>
+                </div>
+              }
+            >
+              <Plenario3D
+                datos={datos}
+                porSlug={porSlug}
+                colorDe={colorDe}
+                visibles={visibles}
+                  seleccionado={seleccionado}
+                enfocado={enfocado}
+                votoDe={votoMapa}
+                onSeleccionar={setSeleccionado}
+                onSobrevolar={setGlobo}
+              />
+            </Suspense>
+          )}
+        </div>
+
+        </>
+      )}
 
       {globo && !dipSeleccionado && (
         <div
@@ -572,33 +649,53 @@ export default function App() {
         />
       )}
 
-      {datos.actas && <Votaciones resumen={datos.actas} onVer={verVotacion} />}
+      {seccion === 'votaciones' &&
+        (datos.actas ? (
+          <Votaciones resumen={datos.actas} onVer={verVotacion} />
+        ) : (
+          <SinSeccion titulo="Votaciones del Plenario" />
+        ))}
 
-      {datos.actividad && <Actividad datos={datos.actividad} />}
+      {seccion === 'actividad' &&
+        (datos.actividad ? (
+          <Actividad datos={datos.actividad} onFuentes={() => irSeccion('fuentes')} />
+        ) : (
+          <SinSeccion titulo="Actividad legislativa" />
+        ))}
+
+      {seccion === 'fuentes' && <Fuentes datos={datos} />}
 
       <footer className="pie">
         <div className="pie-interno">
           <div>
             <h4>De dónde salen estos datos</h4>
             <p>
-              El padrón de las {datos.total} diputaciones, sus fotografías oficiales y las
-              banderas de las fracciones se leen directamente de la{' '}
+              Todo sale de fuentes oficiales de la{' '}
               <a href="https://www.asamblea.go.cr" target="_blank" rel="noopener noreferrer">
                 Asamblea Legislativa de Costa Rica
               </a>
-              . {datos.licencia}.
+              : el padrón y la actividad de su sitio, la remuneración y el combustible de su
+              portal de datos abiertos, y la asistencia y las votaciones de las actas del
+              Plenario. {datos.licencia}.
             </p>
             <p>
-              <strong style={{ color: 'var(--texto-2)' }}>Lo que todavía no mostramos:</strong>{' '}
-              asistencia diaria y votaciones nominales. La Asamblea dejó de publicar su
-              conjunto de asistencia en 2019 y no expone las votaciones del plenario en
-              formato estructurado. Preferimos dejar el vacío visible antes que llenarlo con
-              estimaciones.
+              <strong style={{ color: 'var(--texto-2)' }}>Lo que no mostramos:</strong>{' '}
+              comisiones, uso de vehículos, viajes al exterior y toda votación cuya acta no
+              cuadra. Preferimos dejar el vacío visible antes que llenarlo con estimaciones.{' '}
+              <a
+                href={rutaAUrl({ tipo: 'seccion', seccion: 'fuentes' })}
+                onClick={(e) => {
+                  if (e.metaKey || e.ctrlKey || e.shiftKey || e.button !== 0) return
+                  e.preventDefault()
+                  irSeccion('fuentes')
+                }}
+              >
+                Ver fuentes, fechas y detalles
+              </a>
+              .
             </p>
             <p style={{ fontSize: 11.5 }}>
-              Extracción por fuente:{' '}
-              {FUENTES.map(([k, n]) => `${n} ${fechaHora(datos.extraido[k])}`).join(' · ')}.
-              Sitio armado el {fechaHora(datos.generado)}. Proyecto ciudadano independiente,
+              Extracción más vieja: {fechaHora(masVieja)}. Proyecto ciudadano independiente,
               sin vínculo con la Asamblea Legislativa.
             </p>
           </div>
@@ -623,6 +720,25 @@ export default function App() {
         </div>
       </footer>
     </div>
+  )
+}
+
+const SECCIONES: [Seccion, string][] = [
+  ['plenario', 'Plenario'],
+  ['votaciones', 'Votaciones'],
+  ['actividad', 'Actividad'],
+  ['fuentes', 'Fuentes'],
+]
+
+/** Una seccion cuyo conjunto todavia no se extrajo: se dice, no se esconde. */
+function SinSeccion({ titulo }: { titulo: string }) {
+  return (
+    <section className="actividad">
+      <div className="actividad-cabecera">
+        <h2>{titulo}</h2>
+        <p className="vacio">Sin dato oficial: este conjunto todavía no se ha extraído.</p>
+      </div>
+    </section>
   )
 }
 

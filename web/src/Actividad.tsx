@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { rutaAUrl } from './rutas'
 import type { Actividad as DatosActividad } from './tipos'
 
 /**
@@ -37,7 +38,13 @@ function Sello({ iso }: { iso: string | null }) {
   )
 }
 
-export default function Actividad({ datos }: { datos: DatosActividad }) {
+export default function Actividad({
+  datos,
+  onFuentes,
+}: {
+  datos: DatosActividad
+  onFuentes?: () => void
+}) {
   const [abierto, setAbierto] = useState<'leyes' | 'mociones' | null>(null)
   const { leyes, mociones } = datos
 
@@ -140,9 +147,21 @@ export default function Actividad({ datos }: { datos: DatosActividad }) {
       )}
 
       <p className="actividad-pie">
-        Buena parte del catálogo de datos de la Asamblea dejó de alimentarse hace años
-        —asistencia desde 2019, uso de vehículos desde 2021, órdenes del día desde
-        2016—, así que aquí solo aparece lo que sigue vivo.
+        Algunos conjuntos viejos del catálogo de la Asamblea quedaron congelados hace años,
+        pero varios se mudaron: la asistencia y el uso de vehículos, por ejemplo, ahora se
+        publican en su portal de datos abiertos. Acá aparece lo que ya leemos de forma
+        verificable; lo que todavía no, y por qué, está en{' '}
+        <a
+          href={rutaAUrl({ tipo: 'seccion', seccion: 'fuentes' })}
+          onClick={(e) => {
+            if (!onFuentes || e.metaKey || e.ctrlKey || e.shiftKey || e.button !== 0) return
+            e.preventDefault()
+            onFuentes()
+          }}
+        >
+          Fuentes
+        </a>
+        .
       </p>
     </section>
   )

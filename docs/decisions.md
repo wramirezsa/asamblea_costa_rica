@@ -916,7 +916,7 @@ gratuitos y no hace falta ninguna cuenta ni servicio nuevo.
   compara el índice del SIL+ contra lo procesado.
 - **La tarea de Windows cambia de papel** (decidido por el responsable del
   proyecto el mismo día: «que suba sola»). Corre
-  `actualizar.py --fuentes sharepoint --subir` en una **copia del repo
+  `actualizar.py --fuentes sharepoint --completo --subir` en una **copia del repo
   dedicada** (`%USERPROFILE%\AsambleaAbierta\repo`), nunca en la copia de
   trabajo: así no toca lo que alguien esté editando. Antes de extraer se pone
   al día con GitHub; al terminar bien hace commit de `data/raw`,
@@ -924,7 +924,9 @@ gratuitos y no hace falta ninguna cuenta ni servicio nuevo.
   persona), se rebasa sobre los commits del bot y hace push, que publica el
   sitio. No sube nada si la copia no está en `main` o si tiene commits sin
   subir que no sean suyos (prefijo `Datos (SharePoint):`); lo avisa con
-  código 2. Corre a las 06:00 o, si la computadora estaba apagada, apenas
+  código 2. `--completo` suma fotos, banderas y colores: `fetch_assets.py`
+  salta lo que ya existe, así que cuesta casi nada y una diputación nueva
+  trae su foto sola. Corre a las 06:00 o, si la computadora estaba apagada, apenas
   se enciende y hay red. Si corriera todo, sus cambios en las actas
   chocarían con los commits del bot.
 - **La copia no va en `AppData`.** La primera se creó en `%LOCALAPPDATA%`
@@ -939,3 +941,32 @@ gratuitos y no hace falta ninguna cuenta ni servicio nuevo.
 - GitHub desactiva los flujos programados de los repositorios públicos tras
   60 días sin actividad. Si el sitio deja de actualizarse, revisar primero
   la pestaña Actions.
+
+## ADR-025 — Secciones con ruta propia y una página de Fuentes
+
+**2026-10-09**
+
+El sitio era una sola columna: votaciones, actividad y fuentes solo se
+encontraban bajando, y nada arriba decía que existían
+(`docs/arquitectura-informacion.md`). El responsable del proyecto aprobó el
+plan completo.
+
+- **Navegación fija** en la cabecera: Plenario · Votaciones · Actividad ·
+  Fuentes. Cada sección tiene ruta propia (`/votaciones`, `/actividad`,
+  `/fuentes`) y se enlaza; el Plenario sigue siendo la portada. Se eligieron
+  rutas y no anclas de una página larga: cada sección queda enfocada, se
+  puede compartir y atrás/adelante funciona como se espera.
+- **Fuentes no afirma nada por su cuenta.** Las URL y las notas de cada
+  conjunto vienen del payload, escritas por el ETL junto con los datos
+  (`fuente_fracciones` y `votaciones_no_publicables` se agregaron para eso).
+  Así la página no puede desalinearse de lo que de verdad se extrajo.
+- **Dos textos que ya no eran ciertos.** El pie decía que el sitio no muestra
+  asistencia ni votaciones nominales, y Actividad decía que la asistencia y
+  los vehículos «dejaron de alimentarse». Lo primero se muestra desde
+  ADR-021; lo segundo se mudó al portal de datos abiertos (ADR-020). Es la
+  misma trampa de ADR-015: un texto escrito con lo que se sabía un día queda
+  mintiendo cuando el proyecto avanza. Al cambiar lo que el sitio muestra, hay
+  que releer el pie y Fuentes.
+- **En celular** se mantuvo el mapa antes que los filtros, y solo la fila de
+  navegación queda fija (la cabecera completa ocupaba un quinto de la
+  pantalla).

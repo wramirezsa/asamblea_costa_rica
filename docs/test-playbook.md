@@ -54,6 +54,19 @@ rm -rf web/node_modules/.vite
 
 y reiniciando el servidor.
 
+**Secciones y rutas** (en el navegador, después de cada cambio de la
+interfaz):
+
+- `/`, `/votaciones`, `/actividad`, `/fuentes`, `/diputado/{slug}` y
+  `/votacion/{clave}` cargan directo, con su título.
+- La navegación marca la sección activa; atrás y adelante recorren las
+  secciones.
+- «Ver en el mapa» en Votaciones vuelve al Plenario con la barra de la
+  votación visible bajo la cabecera, también en celular.
+- En 360 px no hay desplazamiento horizontal y solo la fila de navegación
+  queda fija.
+- El salón 3D carga y se ve igual que antes.
+
 ## Comprobaciones manuales
 
 Con el sitio abierto:
@@ -204,7 +217,7 @@ corrida:
   resultado.
 
 En Windows, la tarea programada corre solo la parte del SharePoint y la sube
-(`--fuentes sharepoint --subir`; si corriera todo, sus cambios en las actas
+(`--fuentes sharepoint --completo --subir`; si corriera todo, sus cambios en las actas
 chocarían con los commits del bot). Corre en una copia del repo dedicada,
 no en la de trabajo, y fuera de `AppData` (ADR-024). Montarla, una sola
 vez (reemplazar la ruta de python, que sale de `where python`):
@@ -218,7 +231,7 @@ de GitHub) y `git config credential.helper manager`. Después, en
 PowerShell:
 
 ```
-$accion = New-ScheduledTaskAction -Execute "<ruta a python.exe>" -Argument '"<copia>\etl\actualizar.py" --fuentes sharepoint --subir'
+$accion = New-ScheduledTaskAction -Execute "<ruta a python.exe>" -Argument '"<copia>\etl\actualizar.py" --fuentes sharepoint --completo --subir'
 $ajustes = New-ScheduledTaskSettingsSet -StartWhenAvailable -RunOnlyIfNetworkAvailable -ExecutionTimeLimit (New-TimeSpan -Hours 2)
 Register-ScheduledTask -TaskName "Asamblea Abierta - actualizar" -Action $accion -Settings $ajustes -Trigger (New-ScheduledTaskTrigger -Daily -At 6am)
 ```

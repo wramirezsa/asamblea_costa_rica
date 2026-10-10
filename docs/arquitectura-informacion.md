@@ -74,10 +74,29 @@ visible. Cada pestaña cierra con su propia fuente y fecha de corte.
 - Los filtros atenúan, no ocultan.
 
 ## Estado
-- [ ] Validar la propuesta con el usuario (navegación y pestañas).
+- [x] Validar la propuesta con el usuario: «démosle de una con todo»
+  (2026-10-09).
 - [x] Ficha con pestañas (2026-10-09): Perfil · En el Plenario · Remuneración ·
   Intervenciones. Votaciones se cargan recién al abrir su pestaña.
-- [ ] Navegación fija y secciones con ruta propia.
-- [ ] Controles del mapa agrupados.
-- [ ] Sección Fuentes.
-- [ ] Resumen en números de Votaciones.
+- [x] Navegación fija y secciones con ruta propia (2026-10-09): `/` (Plenario),
+  `/votaciones`, `/actividad`, `/fuentes`. Los enlaces son `<a>` reales (se
+  pueden abrir en otra pestaña) y atrás/adelante funciona. «Ver en el mapa»
+  desde Votaciones vuelve al Plenario con la votación pintada.
+- [x] Controles del mapa agrupados: *Buscar y filtrar* y *Cómo ver*. La barra
+  de composición quedó como cabecera del mapa.
+- [x] Sección Fuentes: tabla con cada conjunto, su fuente oficial (las URL y
+  notas vienen del payload) y su última extracción; qué no mostramos y por
+  qué; qué es reconstrucción o cálculo propio.
+- [x] Resumen en números de Votaciones: sesiones con acta, votaciones
+  publicadas, excluidas por no cuadrar (y con resultado sin verificar) y
+  actas sin texto todavía. Todo conteo directo, nada estimado.
+
+En celular se mantuvo la decisión previa de mostrar el mapa antes que los
+filtros. La cabecera fija ocupaba 171 px; ahora solo queda pegada la fila de
+navegación (38 px) y la fecha se muestra sin la etiqueta, que sigue ahí para
+lectores de pantalla.
+
+De paso se corrigieron dos textos que ya no eran ciertos: el pie decía que el
+sitio no muestra asistencia ni votaciones nominales (se muestran desde
+ADR-021) y Actividad decía que la asistencia y los vehículos «dejaron de
+alimentarse» (se mudaron al portal de datos abiertos, ADR-020).

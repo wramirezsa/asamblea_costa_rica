@@ -184,12 +184,14 @@ export interface Intervencion {
  */
 export interface Actividad {
   leyes: {
+    _fuente: string
     total: number
     ultima_actualizacion: string | null
     por_anio: Record<string, number>
     recientes: LeyAprobada[]
   }
   mociones: {
+    _fuente: string
     total: number
     ultima_actualizacion: string | null
     por_resultado: Record<string, number>
@@ -198,6 +200,7 @@ export interface Actividad {
     recientes: MocionReciente[]
   }
   intervenciones: {
+    _fuente: string
     total: number
     ultima_actualizacion: string | null
     diputaciones_con_registro: number
@@ -222,6 +225,8 @@ export interface ResumenActas {
   sesiones: number
   sesiones_con_lista_de_presentes: number
   votaciones: number
+  /** Votaciones del acta que no cuadran (totales contra nombres): no se publican. */
+  votaciones_no_publicables: number
   /** Sesiones listadas en el SIL+ cuyo texto todavía no está publicado. */
   sin_documento: string[]
   asistencia: Record<string, AsistenciaActas>
@@ -314,6 +319,8 @@ export interface Asamblea {
   gasto: Gasto | null
   periodo: string
   fuente_oficial: string
+  /** Lista oficial de fracciones (nombres y banderas). */
+  fuente_fracciones: string | null
   licencia: string
   total: number
   conteo_por_partido: Record<string, number>

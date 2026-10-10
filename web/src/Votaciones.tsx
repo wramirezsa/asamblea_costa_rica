@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
+import { fechaHora } from './frescura'
 import type { DatosVotaciones, ResumenActas } from './tipos'
 import { URL_SIL, VOTO, cargarVotaciones, fechaCorta, fechaLarga, nombreSesion } from './votos'
 
@@ -78,7 +79,39 @@ export default function Votaciones({ resumen, onVer }: Props) {
         </p>
       </div>
 
-      {error && <p className="vt-aviso">No se pudieron cargar las votaciones: {error}</p>}
+      {/* Resumen en números: todo conteo directo de las actas, nada estimado. */}
+      <div className="cifras">
+        <div className="cifra">
+          <strong>{resumen.sesiones.toLocaleString('es-CR')}</strong>
+          <span>sesiones con acta</span>
+          {resumen.desde && resumen.hasta && (
+            <small>
+              del {fechaCorta(resumen.desde)} al {fechaCorta(resumen.hasta)}
+            </small>
+          )}
+        </div>
+        <div className="cifra">
+          <strong>{resumen.votaciones.toLocaleString('es-CR')}</strong>
+          <span>votaciones nominales</span>
+          <small>con el voto de cada diputación</small>
+        </div>
+        <div className="cifra">
+          <strong>{resumen.votaciones_no_publicables.toLocaleString('es-CR')}</strong>
+          <span>excluidas por no cuadrar</span>
+          <small>
+            {datos
+              ? `y ${sinResultado.toLocaleString('es-CR')} con resultado sin verificar`
+              : 'totales del acta contra nombres'}
+          </small>
+        </div>
+        <div className="cifra">
+          <strong>{resumen.sin_documento.length}</strong>
+          <span>{resumen.sin_documento.length === 1 ? 'acta sin texto' : 'actas sin texto'} todavía</span>
+          <small>revisado el {fechaHora(resumen._extraido)}</small>
+        </div>
+      </div>
+
+      {error &&<p className="vt-aviso">No se pudieron cargar las votaciones: {error}</p>}
       {!datos && !error && <p className="vt-aviso">Cargando las votaciones…</p>}
 
       {datos && sesion !== null && (

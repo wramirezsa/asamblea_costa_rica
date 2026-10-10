@@ -32,7 +32,7 @@ Uso:
     python etl/actualizar.py --completo
     python etl/actualizar.py --fuentes sil          # solo actas (asi corre la nube)
     python etl/actualizar.py --fuentes sharepoint   # todo lo demas
-    python etl/actualizar.py --fuentes sharepoint --subir
+    python etl/actualizar.py --fuentes sharepoint --completo --subir
         # asi corre la tarea programada en Costa Rica: al terminar bien hace
         # commit y push de data/ y el push publica el sitio. Corre en una
         # copia del repo dedicada a eso, no en la de trabajo (ADR-024).
