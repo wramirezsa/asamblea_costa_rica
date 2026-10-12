@@ -970,3 +970,35 @@ plan completo.
 - **En celular** se mantuvo el mapa antes que los filtros, y solo la fila de
   navegación queda fija (la cabecera completa ocupaba un quinto de la
   pantalla).
+
+## ADR-026 — Para que la gente llegue: salón 3D de portada, enlaces que se ven al compartir y la semana en el Plenario
+
+**2026-10-12**
+
+El contenido ya estaba; faltaba que circulara. La gente no visita bases de
+datos: comparte, sobre todo por WhatsApp.
+
+- **El salón 3D es la portada** del Plenario (vista inicial y primero en la
+  página; abajo, controles y «¿Quién te representa?»). Pesa 244 KB
+  comprimidos frente a 93 KB del resto, aceptable. El 3D no se modificó.
+- **Páginas estáticas para compartir** (`etl/paginas_estaticas.py`, después
+  de `npm run build`). WhatsApp, Facebook y X no ejecutan JavaScript: todos
+  los enlaces mostraban la misma vista previa. Ahora hay un HTML por
+  diputación, votación, provincia y sección, con su título, descripción e
+  imagen, más `sitemap.xml` y `robots.txt`. Las imágenes salen del mismo
+  payload que el sitio.
+  - La tarjeta de una diputación muestra asistencia y **participación**
+    («votó en X de Y»), no el reparto a favor/en contra: «4 478 en contra»
+    es un conteo exacto pero engaña sin saber que la mayoría son mociones de
+    trámite.
+  - Imagen propia solo para votaciones de los últimos 120 días
+    (`DIAS_IMAGEN_VOTACION`); las viejas usan la de portada. Sin ese tope,
+    en el período serían unas 40 000 imágenes.
+- **La última semana en el Plenario**, arriba de la lista de Votaciones:
+  sesiones, votaciones y resultados; quién no figura entre los presentes
+  (conteo directo de la lista del acta, que no dice si hubo permiso); quién
+  votó distinto a la mayoría de su bancada (cálculo propio, declarado en
+  pantalla: solo fracciones con 3 o más votos emitidos, los empates no
+  cuentan). Un botón arma el texto para compartir por WhatsApp. La semana
+  se cuenta desde la última sesión con acta, no desde hoy.
+- **La ficha abre en «En el Plenario»**: asistencia y votos primero.

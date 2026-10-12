@@ -1,10 +1,12 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { fechaHora } from './frescura'
-import type { DatosVotaciones, ResumenActas } from './tipos'
+import ResumenSemana from './ResumenSemana'
+import type { DatosVotaciones, Diputado, ResumenActas } from './tipos'
 import { URL_SIL, VOTO, cargarVotaciones, fechaCorta, fechaLarga, nombreSesion } from './votos'
 
 interface Props {
   resumen: ResumenActas
+  diputados: Diputado[]
   onVer: (indice: number) => void
 }
 
@@ -13,7 +15,7 @@ interface Props {
  * piden recien cuando la seccion entra en pantalla: quien solo mira el mapa
  * no los descarga.
  */
-export default function Votaciones({ resumen, onVer }: Props) {
+export default function Votaciones({ resumen, diputados, onVer }: Props) {
   const raiz = useRef<HTMLElement | null>(null)
   const [datos, setDatos] = useState<DatosVotaciones | null>(null)
   const [error, setError] = useState<string | null>(null)
@@ -111,7 +113,9 @@ export default function Votaciones({ resumen, onVer }: Props) {
         </div>
       </div>
 
-      {error &&<p className="vt-aviso">No se pudieron cargar las votaciones: {error}</p>}
+      {datos && <ResumenSemana datos={datos} diputados={diputados} onVer={onVer} />}
+
+      {error && <p className="vt-aviso">No se pudieron cargar las votaciones: {error}</p>}
       {!datos && !error && <p className="vt-aviso">Cargando las votaciones…</p>}
 
       {datos && sesion !== null && (

@@ -177,6 +177,16 @@ jobs:
           # sirve 404.html, que es el mismo sitio y resuelve la ruta.
           cp dist/index.html dist/404.html
 
+      # WhatsApp y las redes no ejecutan JavaScript: cada diputacion, votacion
+      # y seccion necesita su propio HTML con titulo, descripcion e imagen.
+      - name: Paginas para compartir (etl/paginas_estaticas.py)
+        env:
+          PYTHONIOENCODING: utf-8
+        run: |
+          sudo apt-get install -y -qq fonts-dejavu-core > /dev/null
+          pip install -q Pillow==10.4.0
+          python etl/paginas_estaticas.py web/dist "https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}"
+
       - uses: actions/upload-pages-artifact@v5
         with:
           path: web/dist

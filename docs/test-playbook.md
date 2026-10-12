@@ -66,6 +66,13 @@ interfaz):
 - En 360 px no hay desplazamiento horizontal y solo la fila de navegación
   queda fija.
 - El salón 3D carga y se ve igual que antes.
+- Páginas para compartir: después de `npm run build`,
+  `python etl/paginas_estaticas.py web/dist <url del sitio>` debe escribir
+  una página por diputación, votación, provincia y sección. Abrir dos o tres
+  imágenes de `web/dist/og/`: el hemiciclo abierto hacia abajo (∩), colores
+  fieles y textos sin cortar. En producción lo corre el flujo de GitHub.
+- La última semana (Votaciones): cotejar a mano una ausencia contra la
+  lista de presentes del acta.
 
 ## Comprobaciones manuales
 

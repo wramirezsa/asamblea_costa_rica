@@ -1137,7 +1137,7 @@ button { font: inherit; color: inherit; cursor: pointer; }
 @media (max-width: 760px) {
   .app { display: flex; flex-direction: column; }
   .cabecera { order: 0; }
-  .representa { order: 1; padding: 14px 16px 12px; }
+  .representa { order: 4; padding: 14px 16px 12px; }
   .composicion { order: 2; }
   .lienzo-envoltura { order: 3; }
   .controles { order: 4; }
@@ -1445,4 +1445,86 @@ button { font: inherit; color: inherit; cursor: pointer; }
   .fu-fila { grid-template-columns: 1fr; gap: 8px; }
   .fu-encabezado { display: none; }
   .fu-bloques { grid-template-columns: 1fr; }
+}
+
+/* ---------------- La ultima semana ---------------- */
+
+.semana {
+  margin: 0 0 20px;
+  padding: 16px 18px;
+  background: var(--superficie);
+  border: 1px solid var(--borde);
+  border-radius: var(--radio);
+}
+
+.semana-cabecera {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.semana h3 { margin: 0 0 4px; font-size: 15px; font-weight: 650; }
+.semana-cabecera p { margin: 0; font-size: 12.5px; line-height: 1.6; color: var(--texto-2); }
+
+.semana-compartir {
+  padding: 8px 14px;
+  font-size: 12.5px;
+  font-weight: 600;
+  color: #04210f;
+  text-decoration: none;
+  white-space: nowrap;
+  background: #22c55e;
+  border-radius: 9px;
+}
+
+.semana-compartir:hover { filter: brightness(1.08); }
+
+.semana-columnas {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 22px;
+  margin-top: 14px;
+}
+
+.semana h4 {
+  margin: 0 0 8px;
+  font-size: 11px;
+  font-weight: 650;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  color: var(--texto-3);
+}
+
+.semana ul { margin: 0; padding: 0; list-style: none; max-height: 260px; overflow-y: auto; }
+
+.semana li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding: 6px 0;
+  font-size: 12.5px;
+  border-top: 1px solid var(--borde);
+}
+
+.semana li small { color: var(--texto-3); }
+.semana li strong { font-variant-numeric: tabular-nums; color: var(--texto-2); }
+
+.semana li button {
+  padding: 3px 9px;
+  font-size: 11.5px;
+  color: var(--texto-2);
+  background: transparent;
+  border: 1px solid var(--borde-fuerte);
+  border-radius: 7px;
+}
+
+.semana li button:hover { color: var(--texto); border-color: var(--acento); }
+.semana .vacio { margin: 0; font-size: 12.5px; color: var(--texto-3); font-style: italic; }
+.semana-nota { margin: 8px 0 0; font-size: 11px; line-height: 1.55; color: var(--texto-3); }
+
+@media (max-width: 760px) {
+  .semana-columnas { grid-template-columns: 1fr; }
 }

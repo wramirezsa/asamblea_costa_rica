@@ -36,7 +36,8 @@ export default function App() {
   )
   const [globo, setGlobo] = useState<{ dip: Diputado; x: number; y: number } | null>(null)
   const [modo, setModo] = useState<'caras' | 'colores'>('caras')
-  const [vista, setVista] = useState<'composicion' | 'salon'>('composicion')
+  // El salon 3D es la portada: es lo que engancha al entrar.
+  const [vista, setVista] = useState<'composicion' | 'salon'>('salon')
   // Votacion del acta que se ve en el mapa (indice en votaciones.json).
   const [votaciones, setVotaciones] = useState<DatosVotaciones | null>(null)
   const [votacionActiva, setVotacionActiva] = useState<number | null>(null)
@@ -379,11 +380,87 @@ export default function App() {
 
       {seccion === 'plenario' && (
         <>
-        <QuienTeRepresenta
-          diputados={datos.diputados}
-          provinciaActiva={provincia}
-          onElegir={setProvincia}
-        />
+        <section className="composicion">
+          <div className="composicion-barra">
+            {activas.map((f) => (
+              <div
+                key={f.codigo}
+                className={`composicion-seg${
+                  bancadas.size > 0 && !bancadas.has(f.codigo) ? ' apagado' : ''
+                }`}
+                style={{ flex: f.escanos, background: f.color ?? COLOR_SIN_BANCADA }}
+                title={`${f.nombre ?? f.codigo}: ${f.escanos} de ${datos.total}`}
+                onClick={() => alternarBancada(f.codigo)}
+              >
+                {f.escanos >= 4 ? f.escanos : ''}
+              </div>
+            ))}
+          </div>
+          <div className="composicion-pie">
+            <span className="mayoria">
+              Mayoría simple: <strong>{mayoriaSimple}</strong> · Mayoría calificada (⅔):{' '}
+              <strong>{Math.ceil((datos.total * 2) / 3)}</strong>
+              {bancadaMayor && bancadaMayor.escanos >= mayoriaSimple && (
+                <>
+                  {' · '}
+                  <strong style={{ color: bancadaMayor.color ?? undefined }}>
+                    {bancadaMayor.codigo}
+                  </strong>{' '}
+                  alcanza por sí sola la mayoría simple
+                </>
+              )}
+            </span>
+            <span>{datos.total} curules</span>
+          </div>
+        </section>
+
+        <div ref={refMapa} className="ancla-mapa" />
+        {votaciones && votacionActiva !== null && (
+          <BarraVotacion
+            datos={votaciones}
+            indice={votacionActiva}
+            onCambiar={setVotacionActiva}
+            onCerrar={() => setVotacionActiva(null)}
+          />
+        )}
+        <div className="lienzo-envoltura">
+          {vista === 'composicion' ? (
+            <Hemiciclo
+              datos={datos}
+              porSlug={porSlug}
+              colorDe={colorDe}
+              visibles={visibles}
+              seleccionado={seleccionado}
+              modo={modo}
+              votoDe={votoMapa}
+              onSeleccionar={setSeleccionado}
+              onSobrevolar={setGlobo}
+            />
+          ) : (
+            <Suspense
+              fallback={
+                <div className="lienzo lienzo-cargando">
+                  <div>
+                    <div className="giro" />
+                    <p>Levantando el salón de sesiones…</p>
+                  </div>
+                </div>
+              }
+            >
+              <Plenario3D
+                datos={datos}
+                porSlug={porSlug}
+                colorDe={colorDe}
+                visibles={visibles}
+                  seleccionado={seleccionado}
+                enfocado={enfocado}
+                votoDe={votoMapa}
+                onSeleccionar={setSeleccionado}
+                onSobrevolar={setGlobo}
+              />
+            </Suspense>
+          )}
+        </div>
 
         <section className="controles">
           <div className="grupo-controles grupo-filtros" role="group" aria-label="Buscar y filtrar">
@@ -498,88 +575,11 @@ export default function App() {
           </div>
         </section>
 
-        <section className="composicion">
-          <div className="composicion-barra">
-            {activas.map((f) => (
-              <div
-                key={f.codigo}
-                className={`composicion-seg${
-                  bancadas.size > 0 && !bancadas.has(f.codigo) ? ' apagado' : ''
-                }`}
-                style={{ flex: f.escanos, background: f.color ?? COLOR_SIN_BANCADA }}
-                title={`${f.nombre ?? f.codigo}: ${f.escanos} de ${datos.total}`}
-                onClick={() => alternarBancada(f.codigo)}
-              >
-                {f.escanos >= 4 ? f.escanos : ''}
-              </div>
-            ))}
-          </div>
-          <div className="composicion-pie">
-            <span className="mayoria">
-              Mayoría simple: <strong>{mayoriaSimple}</strong> · Mayoría calificada (⅔):{' '}
-              <strong>{Math.ceil((datos.total * 2) / 3)}</strong>
-              {bancadaMayor && bancadaMayor.escanos >= mayoriaSimple && (
-                <>
-                  {' · '}
-                  <strong style={{ color: bancadaMayor.color ?? undefined }}>
-                    {bancadaMayor.codigo}
-                  </strong>{' '}
-                  alcanza por sí sola la mayoría simple
-                </>
-              )}
-            </span>
-            <span>{datos.total} curules</span>
-          </div>
-        </section>
-
-        <div ref={refMapa} className="ancla-mapa" />
-        {votaciones && votacionActiva !== null && (
-          <BarraVotacion
-            datos={votaciones}
-            indice={votacionActiva}
-            onCambiar={setVotacionActiva}
-            onCerrar={() => setVotacionActiva(null)}
-          />
-        )}
-        <div className="lienzo-envoltura">
-          {vista === 'composicion' ? (
-            <Hemiciclo
-              datos={datos}
-              porSlug={porSlug}
-              colorDe={colorDe}
-              visibles={visibles}
-              seleccionado={seleccionado}
-              modo={modo}
-              votoDe={votoMapa}
-              onSeleccionar={setSeleccionado}
-              onSobrevolar={setGlobo}
-            />
-          ) : (
-            <Suspense
-              fallback={
-                <div className="lienzo lienzo-cargando">
-                  <div>
-                    <div className="giro" />
-                    <p>Levantando el salón de sesiones…</p>
-                  </div>
-                </div>
-              }
-            >
-              <Plenario3D
-                datos={datos}
-                porSlug={porSlug}
-                colorDe={colorDe}
-                visibles={visibles}
-                  seleccionado={seleccionado}
-                enfocado={enfocado}
-                votoDe={votoMapa}
-                onSeleccionar={setSeleccionado}
-                onSobrevolar={setGlobo}
-              />
-            </Suspense>
-          )}
-        </div>
-
+        <QuienTeRepresenta
+          diputados={datos.diputados}
+          provinciaActiva={provincia}
+          onElegir={setProvincia}
+        />
         </>
       )}
 
@@ -651,7 +651,7 @@ export default function App() {
 
       {seccion === 'votaciones' &&
         (datos.actas ? (
-          <Votaciones resumen={datos.actas} onVer={verVotacion} />
+          <Votaciones resumen={datos.actas} diputados={datos.diputados} onVer={verVotacion} />
         ) : (
           <SinSeccion titulo="Votaciones del Plenario" />
         ))}
