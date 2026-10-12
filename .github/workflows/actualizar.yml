@@ -28,6 +28,7 @@ on:
       - "web/**"
       - "data/processed/**"
       - "data/assets/**"
+      - "data/curated/glosario.json"
       - "etl/publish_web.py"
       - "etl/paginas_estaticas.py"
       - ".github/workflows/actualizar.yml"
