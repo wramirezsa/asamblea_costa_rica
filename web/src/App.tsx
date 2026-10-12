@@ -137,12 +137,6 @@ export default function App() {
     return m
   }, [datos])
 
-  const provincias = useMemo(() => {
-    const s = new Set<string>()
-    datos?.diputados.forEach((d) => d.provincia && s.add(d.provincia))
-    return [...s].sort((a, b) => a.localeCompare(b, 'es'))
-  }, [datos])
-
   // Un solo conjunto de slugs visibles alimenta el atenuado del mapa; asi el
   // filtro nunca esconde curules, solo baja su prominencia.
   const visibles = useMemo(() => {
@@ -380,6 +374,12 @@ export default function App() {
 
       {seccion === 'plenario' && (
         <>
+        <QuienTeRepresenta
+          diputados={datos.diputados}
+          provinciaActiva={provincia}
+          onElegir={setProvincia}
+        />
+
         <section className="composicion">
           <div className="composicion-barra">
             {activas.map((f) => (
@@ -395,6 +395,26 @@ export default function App() {
                 {f.escanos >= 4 ? f.escanos : ''}
               </div>
             ))}
+          </div>
+          <div className="leyenda" role="group" aria-label="Bancadas: tocá una para resaltarla">
+            {activas.map((f) => {
+              const activo = bancadas.has(f.codigo)
+              return (
+                <button
+                  key={f.codigo}
+                  className={`chip${activo ? ' activo' : ''}`}
+                  style={activo ? { color: f.color ?? undefined } : undefined}
+                  onClick={() => alternarBancada(f.codigo)}
+                  aria-pressed={activo}
+                  title={`${f.nombre ?? f.codigo}: ${f.escanos} de ${datos.total} curules`}
+                >
+                  <span className="chip-punto" style={{ background: f.color ?? COLOR_SIN_BANCADA }} />
+                  <span className="chip-nombre">{f.nombre ?? f.codigo}</span>
+                  <span className="chip-codigo">{f.codigo}</span>
+                  <span className="chip-n">{f.escanos}</span>
+                </button>
+              )
+            })}
           </div>
           <div className="composicion-pie">
             <span className="mayoria">
@@ -478,39 +498,6 @@ export default function App() {
               />
             </div>
 
-            <div className="chips">
-              {activas.map((f) => {
-                const activo = bancadas.has(f.codigo)
-                return (
-                  <button
-                    key={f.codigo}
-                    className={`chip${activo ? ' activo' : ''}`}
-                    style={activo ? { color: f.color ?? undefined } : undefined}
-                    onClick={() => alternarBancada(f.codigo)}
-                    title={f.nombre ?? f.codigo}
-                  >
-                    <span className="chip-punto" style={{ background: f.color ?? COLOR_SIN_BANCADA }} />
-                    {f.codigo}
-                    <span className="chip-n">{f.escanos}</span>
-                  </button>
-                )
-              })}
-            </div>
-
-            <select
-              className="selector"
-              value={provincia}
-              onChange={(e) => setProvincia(e.target.value)}
-              aria-label="Filtrar por provincia"
-            >
-              <option value="">Todas las provincias</option>
-              {provincias.map((p) => (
-                <option key={p} value={p}>
-                  {p}
-                </option>
-              ))}
-            </select>
-
             {filtrando && (
               <button
                 className="chip"
@@ -575,11 +562,6 @@ export default function App() {
           </div>
         </section>
 
-        <QuienTeRepresenta
-          diputados={datos.diputados}
-          provinciaActiva={provincia}
-          onElegir={setProvincia}
-        />
         </>
       )}
 

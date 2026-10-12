@@ -48,10 +48,11 @@ export default function QuienTeRepresenta({
   return (
     <section className="representa">
       <div className="representa-fila">
-        <h2>¿Quién te representa?</h2>
+        <h2>¿Quién te representa y cómo vota?</h2>
         <p>
-          Las diputaciones se eligen por provincia. Elegí la tuya y vas a ver
-          quiénes te representan, dónde se sientan y qué han hecho.
+          Las {diputados.length} diputaciones de Costa Rica, en su salón: cómo votan y si
+          asisten, según las actas oficiales. Elegí tu provincia o tocá a cualquiera para ver
+          su ficha.
         </p>
       </div>
 
@@ -76,8 +77,8 @@ export default function QuienTeRepresenta({
             <strong>{provinciaActiva}</strong>
           </p>
           <p className="representa-pista">
-            Están resaltadas en el plenario, aquí abajo. Tocá a cualquiera para
-            ver su ficha.
+            Están resaltadas en el plenario. Tocá a cualquiera para ver su ficha, o tocá
+            de nuevo la provincia para ver a todas.
           </p>
         </div>
       )}

@@ -1002,3 +1002,29 @@ datos: comparte, sobre todo por WhatsApp.
   cuentan). Un botón arma el texto para compartir por WhatsApp. La semana
   se cuenta desde la última sesión con acta, no desde hoy.
 - **La ficha abre en «En el Plenario»**: asistencia y votos primero.
+
+## ADR-027 — Revisión de diseño: que se entienda en dos segundos
+
+**2026-10-12**
+
+Revisión con la skill de crítica de diseño. Al entrar no había titular ni
+instrucción, la barra de composición solo tenía números y colores, y
+«¿Quién te representa?» había quedado al fondo de la página. Cambios (el
+salón 3D no se tocó):
+
+- **Titular con provincias arriba:** «¿Quién te representa y cómo vota?»,
+  una línea que dice qué hacer y las provincias. Debajo, la barra y el
+  salón. En celular las provincias van en una fila deslizable para que el
+  salón entre en la primera pantalla.
+- **Leyenda de bancadas pegada a la barra**, con el nombre de cada partido
+  (la sigla en celular). Es también el filtro: el color deja de ser el único
+  portador de significado, en la barra y en el salón. Se quitaron los chips
+  duplicados de los controles y el selector de provincia, que repetía las
+  provincias de arriba.
+- **Contraste:** `--texto-3` pasa de `#6b7e9e` (3,86:1 sobre las tarjetas,
+  no llegaba a AA) a `#8396b5` (5,29:1).
+- **El salón ya no arranca como caja vacía:** un aviso detrás del lienzo que
+  el primer cuadro de WebGL tapa. Es CSS sobre `.lienzo-3d`; `Plenario3D.tsx`
+  no cambió.
+- Texto corregido: «resaltadas aquí abajo» ya no era cierto con el mapa
+  arriba.
