@@ -1,42 +1,39 @@
-import { useEffect, useMemo, useRef, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import { fechaHora } from './frescura'
 import ResumenSemana from './ResumenSemana'
-import type { DatosVotaciones, Diputado, ResumenActas } from './tipos'
+import { ChipsTerminos, GlosarioCompleto } from './Glosario'
+import type { DatosVotaciones, Diputado, Glosario, ResumenActas } from './tipos'
 import { URL_SIL, VOTO, cargarVotaciones, fechaCorta, fechaLarga, nombreSesion } from './votos'
+
+/** Opciones del selector que no son una sesión. */
+const SEMANA = -1
+const TODAS = -2
+/** Filas que se pintan a la vez: miles de botones traban un celular. */
+const TOPE_FILAS = 200
 
 interface Props {
   resumen: ResumenActas
+  glosario: Glosario | null
   diputados: Diputado[]
   onVer: (indice: number) => void
 }
 
 /**
  * Las votaciones nominales del Plenario, sesion por sesion. Los datos se
- * piden recien cuando la seccion entra en pantalla: quien solo mira el mapa
- * no los descarga.
+ * piden al abrir la seccion: quien solo mira el mapa no los descarga.
  */
-export default function Votaciones({ resumen, diputados, onVer }: Props) {
-  const raiz = useRef<HTMLElement | null>(null)
+export default function Votaciones({ resumen, glosario, diputados, onVer }: Props) {
   const [datos, setDatos] = useState<DatosVotaciones | null>(null)
   const [error, setError] = useState<string | null>(null)
   const [sesion, setSesion] = useState<number | null>(null)
   const [filtro, setFiltro] = useState('')
 
+  // Votaciones es una sección propia: si se abrió, se quieren los datos.
+  // (Antes se pedían al entrar en pantalla, cuando todo era una sola página.)
   useEffect(() => {
-    if (!raiz.current) return
-    const obs = new IntersectionObserver(
-      (entradas) => {
-        if (entradas.some((e) => e.isIntersecting)) {
-          obs.disconnect()
-          cargarVotaciones()
-            .then(setDatos)
-            .catch((e) => setError(String(e.message ?? e)))
-        }
-      },
-      { rootMargin: '300px' }
-    )
-    obs.observe(raiz.current)
-    return () => obs.disconnect()
+    cargarVotaciones()
+      .then(setDatos)
+      .catch((e) => setError(String(e.message ?? e)))
   }, [])
 
   // Sesiones con al menos una votacion, de la mas reciente a la mas vieja.
@@ -49,18 +46,42 @@ export default function Votaciones({ resumen, diputados, onVer }: Props) {
       .map((i) => ({ i, n: cuenta.get(i) ?? 0 }))
   }, [datos])
 
+  // La última semana con actas: la última sesión sola a veces trae una
+  // votación y la lista parecía vacía. Mismo corte que el resumen semanal.
+  const semana = useMemo(() => {
+    if (!datos || !sesiones.length) return new Set<number>()
+    const ultima = datos.sesiones[sesiones[0].i].fecha
+    const d = new Date(`${ultima}T12:00:00`)
+    d.setDate(d.getDate() - 6)
+    const inicio = d.toISOString().slice(0, 10)
+    return new Set(sesiones.filter(({ i }) => datos.sesiones[i].fecha >= inicio).map(({ i }) => i))
+  }, [datos, sesiones])
+
   useEffect(() => {
-    if (sesion === null && sesiones.length) setSesion(sesiones[0].i)
+    if (sesion === null && sesiones.length) setSesion(SEMANA)
   }, [sesiones, sesion])
 
+  const q = normalizar(filtro.trim())
   const filas = useMemo(() => {
     if (!datos || sesion === null) return []
-    const q = normalizar(filtro.trim())
-    return datos.votaciones
+    if (sesion === TODAS && !q) return []
+    const elegidas = datos.votaciones
       .map((v, i) => ({ v, i }))
-      .filter(({ v }) => v.s === sesion)
+      .filter(({ v }) => (sesion === SEMANA ? semana.has(v.s) : sesion === TODAS || v.s === sesion))
       .filter(({ v }) => !q || normalizar(`${v.p ?? ''} ${v.e ?? ''}`).includes(q))
-  }, [datos, sesion, filtro])
+    // Varias sesiones: de la más reciente a la más vieja.
+    if (sesion === SEMANA || sesion === TODAS) {
+      elegidas.sort(
+        (a, b) =>
+          datos.sesiones[b.v.s].fecha.localeCompare(datos.sesiones[a.v.s].fecha) ||
+          b.v.s - a.v.s ||
+          a.v.n - b.v.n
+      )
+    }
+    return elegidas
+  }, [datos, sesion, semana, q])
+  const variasSesiones = sesion === SEMANA || sesion === TODAS
+  const nSemana = datos ? datos.votaciones.filter((v) => semana.has(v.s)).length : 0
 
   const sinResultado = useMemo(
     () => (datos ? datos.votaciones.filter((v) => !v.r).length : 0),
@@ -68,7 +89,7 @@ export default function Votaciones({ resumen, diputados, onVer }: Props) {
   )
 
   return (
-    <section className="actividad votaciones" ref={raiz} id="votaciones">
+    <section className="actividad votaciones" id="votaciones">
       <div className="actividad-cabecera">
         <h2>Votaciones del Plenario</h2>
         <p>
@@ -115,6 +136,8 @@ export default function Votaciones({ resumen, diputados, onVer }: Props) {
 
       {datos && <ResumenSemana datos={datos} diputados={diputados} onVer={onVer} />}
 
+      <GlosarioCompleto glosario={glosario} />
+
       {error && <p className="vt-aviso">No se pudieron cargar las votaciones: {error}</p>}
       {!datos && !error && <p className="vt-aviso">Cargando las votaciones…</p>}
 
@@ -124,6 +147,12 @@ export default function Votaciones({ resumen, diputados, onVer }: Props) {
             <label>
               <span>Sesión</span>
               <select value={sesion} onChange={(e) => setSesion(Number(e.target.value))}>
+                <option value={SEMANA}>
+                  Última semana · {nSemana} {nSemana === 1 ? 'votación' : 'votaciones'}
+                </option>
+                <option value={TODAS}>
+                  Todas las sesiones · {datos.votaciones.length.toLocaleString('es-CR')} votaciones
+                </option>
                 {sesiones.map(({ i, n }) => (
                   <option key={i} value={i}>
                     {fechaCorta(datos.sesiones[i].fecha)} · {nombreSesion(datos.sesiones[i])} ·{' '}
@@ -133,23 +162,29 @@ export default function Votaciones({ resumen, diputados, onVer }: Props) {
               </select>
             </label>
             <label>
-              <span>Buscar en esta sesión</span>
+              <span>Buscar</span>
               <input
                 type="search"
                 value={filtro}
                 onChange={(e) => setFiltro(e.target.value)}
-                placeholder="Propuesta o expediente"
+                placeholder="Propuesta o número de expediente"
               />
             </label>
           </div>
 
           <ol className="vt-lista">
-            {filas.map(({ v, i }) => (
+            {filas.slice(0, TOPE_FILAS).map(({ v, i }) => (
               <li key={i}>
                 <button className="vt-fila" onClick={() => onVer(i)}>
                   <span className="vt-n">{v.n}</span>
                   <span className="vt-propuesta">
+                    {variasSesiones && (
+                      <span className="vt-sesion">
+                        {fechaCorta(datos.sesiones[v.s].fecha)} · {nombreSesion(datos.sesiones[v.s])}
+                      </span>
+                    )}
                     {v.p ?? 'Propuesta sin nombre en el acta'}
+                    <ChipsTerminos titulo={v.p} glosario={glosario} />
                   </span>
                   <span className="vt-totales">
                     {(['F', 'C', 'N'] as const).map((c, k) => (
@@ -166,7 +201,19 @@ export default function Votaciones({ resumen, diputados, onVer }: Props) {
                 </button>
               </li>
             ))}
-            {filas.length === 0 && <li className="vt-vacio">Ninguna votación coincide.</li>}
+            {filas.length > TOPE_FILAS && (
+              <li className="vt-vacio">
+                Se muestran las {TOPE_FILAS} más recientes de {filas.length.toLocaleString('es-CR')}{' '}
+                votaciones. Escribí algo más específico para acotar.
+              </li>
+            )}
+            {filas.length === 0 && (
+              <li className="vt-vacio">
+                {sesion === TODAS && !q
+                  ? `Escribí una propuesta o un número de expediente para buscar entre las ${datos.votaciones.length.toLocaleString('es-CR')} votaciones.`
+                  : 'Ninguna votación coincide.'}
+              </li>
+            )}
           </ol>
         </div>
       )}

@@ -31,6 +31,7 @@ RAIZ = Path(__file__).resolve().parent.parent
 PROCESADO = RAIZ / "data" / "processed"
 ASSETS = RAIZ / "data" / "assets"
 PUBLICO = RAIZ / "web" / "public"
+GLOSARIO = RAIZ / "data" / "curated" / "glosario.json"
 
 # Orden de bancadas de izquierda a derecha del Directorio.
 # Fundamento: Reglamento del Ceremonial Protocolar, art. 15 (fraccion de
@@ -332,6 +333,9 @@ def main() -> int:
         "actas": actas_resumen,
         "gasto": gasto_web,
         "escudo": manifiesto.get("escudo"),
+        # Glosario curado a mano del Reglamento (cita literal y articulo).
+        "glosario": (json.loads(GLOSARIO.read_text(encoding="utf-8"))
+                     if GLOSARIO.exists() else None),
         "hemiciclo": {
             "confianza": "derivado",
             "nota": (

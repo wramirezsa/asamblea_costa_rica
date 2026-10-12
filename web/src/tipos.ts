@@ -313,8 +313,30 @@ export interface Extraido {
   actas: string | null
 }
 
+/** Término del Reglamento que aparece en los títulos de las votaciones. */
+export interface TerminoGlosario {
+  clave: string
+  nombre: string
+  /** Se busca en el título tal como lo escribe el acta (mayúsculas, sin tildes). */
+  patron: string
+  articulo: string
+  /** Resumen propio en lenguaje llano. */
+  explicacion: string
+  /** Texto literal del artículo. */
+  cita: string
+}
+
+/** Glosario curado a mano (data/curated/glosario.json). */
+export interface Glosario {
+  _fuente: string
+  _norma: string
+  _consultado: string
+  terminos: TerminoGlosario[]
+}
+
 export interface Asamblea {
   generado: string
+  glosario: Glosario | null
   extraido: Extraido
   gasto: Gasto | null
   periodo: string

@@ -438,6 +438,7 @@ export default function App() {
         {votaciones && votacionActiva !== null && (
           <BarraVotacion
             datos={votaciones}
+            glosario={datos.glosario}
             indice={votacionActiva}
             onCambiar={setVotacionActiva}
             onCerrar={() => setVotacionActiva(null)}
@@ -633,7 +634,12 @@ export default function App() {
 
       {seccion === 'votaciones' &&
         (datos.actas ? (
-          <Votaciones resumen={datos.actas} diputados={datos.diputados} onVer={verVotacion} />
+          <Votaciones
+            resumen={datos.actas}
+            glosario={datos.glosario}
+            diputados={datos.diputados}
+            onVer={verVotacion}
+          />
         ) : (
           <SinSeccion titulo="Votaciones del Plenario" />
         ))}

@@ -1,0 +1,96 @@
+{
+  "_fuente": "https://sinalevi.go.cr/ResultadosNormativa/Informacion?param1=46479&param2=145323&param3=1",
+  "_norma": "Reglamento de la Asamblea Legislativa, texto vigente (versión 52 de 52) en SINALEVI, Procuraduría General de la República",
+  "_consultado": "2026-10-12",
+  "_nota": "Curado a mano. La explicación es un resumen propio en lenguaje llano; la cita es literal del artículo y se verificó contra el texto vigente. «patron» se busca en el título de la votación tal como lo escribe el acta (mayúsculas, sin tildes). No se definieron «dispensa de lectura» ni «moción de consulta»: el Reglamento no usa esas palabras o caben en más de un artículo, y adivinar sería inventar.",
+  "terminos": [
+    {
+      "clave": "revision",
+      "nombre": "Revisión",
+      "patron": "REVISION|REVISIONES",
+      "articulo": "155",
+      "explicacion": "Pedido para volver a votar algo que la Asamblea acaba de decidir. Cabe una sola vez. Si la revisión se rechaza, lo decidido queda firme. Por eso en las actas muchas votaciones aparecen seguidas de su revisión.",
+      "cita": "Cuando un asunto sea revisado y la moción sea rechazada se considerará firme"
+    },
+    {
+      "clave": "mocion-fondo",
+      "nombre": "Moción de fondo",
+      "patron": "FONDO",
+      "articulo": "137",
+      "explicacion": "Propuesta para cambiar el contenido de un proyecto de ley: modificar, agregar o quitar texto.",
+      "cita": "Las mociones destinadas a modificar un proyecto de ley en cuanto al fondo"
+    },
+    {
+      "clave": "reiteracion",
+      "nombre": "Moción de reiteración",
+      "patron": "REITERACION|REINTERACION",
+      "articulo": "138",
+      "explicacion": "Si una comisión rechaza una moción de fondo, quien la propuso puede llevarla de nuevo al Plenario. Si el Plenario aprueba la reiteración, vota ahí mismo la moción de fondo.",
+      "cita": "el diputado o la diputada proponente podrá reiterarla ante el Plenario"
+    },
+    {
+      "clave": "primer-debate",
+      "nombre": "Primer debate",
+      "patron": "PRIMER DEBATE",
+      "articulo": "134",
+      "explicacion": "Discusión del proyecto de ley completo en el Plenario, que termina con la votación para aprobarlo o rechazarlo.",
+      "cita": "se procederá a aprobar o a improbar el proyecto de ley"
+    },
+    {
+      "clave": "segundo-debate",
+      "nombre": "Segundo debate",
+      "patron": "SEGUNDO DEBATE",
+      "articulo": "148",
+      "explicacion": "Nueva discusión y votación de un proyecto que ya fue aprobado en primer debate. Tiene prioridad sobre casi cualquier otro asunto.",
+      "cita": "Un proyecto de ley aprobado en Primer Debate por la Asamblea, entrará como base de discusión para segundo debate"
+    },
+    {
+      "clave": "orden",
+      "nombre": "Moción de orden",
+      "patron": "MOCION ORDEN|MOCIONES ORDEN",
+      "articulo": "153",
+      "explicacion": "Propuesta que se puede presentar en cualquier momento del debate y que se vota de inmediato, una vez que la Presidencia la acepta como tal.",
+      "cita": "En cualquier estado del debate podrán presentarse mociones de orden"
+    },
+    {
+      "clave": "posposicion",
+      "nombre": "Moción de posposición",
+      "patron": "POSPOSICION",
+      "articulo": "39 bis",
+      "explicacion": "Moción para dejar para después asuntos pendientes del orden del día. Necesita dos tercios del total de diputaciones y vale solo para esa sesión.",
+      "cita": "se podrá posponer el conocimiento de los asuntos pendientes en el orden del día"
+    },
+    {
+      "clave": "plazo-cuatrienal",
+      "nombre": "Plazo cuatrienal",
+      "patron": "CUATRIENAL",
+      "articulo": "119",
+      "explicacion": "Un proyecto de ley se archiva a los cuatro años de presentado. La Asamblea puede darle un plazo nuevo con mayoría absoluta del total de diputaciones, si lo vota antes de que venza.",
+      "cita": "Pasados cuatro años calendario a partir de su iniciación, se tendrán como no presentados"
+    },
+    {
+      "clave": "dispensa-tramite",
+      "nombre": "Dispensa de trámite",
+      "patron": "DISPENSA TRAMITE|DISPENSA DE TRAMITE",
+      "articulo": "177",
+      "explicacion": "El Plenario decide conocer un proyecto en primer debate sin el informe previo de una comisión, y actúa él mismo como comisión.",
+      "cita": "mediante la expresa dispensa de trámites previos"
+    },
+    {
+      "clave": "retrotraccion",
+      "nombre": "Retrotracción",
+      "patron": "RETROTRACCION|RETROTRAER",
+      "articulo": "148 bis",
+      "explicacion": "Devolver a primer debate un proyecto que está en segundo debate, para cambiarle el fondo o corregir un error de procedimiento. Se puede una sola vez y necesita dos tercios del total.",
+      "cita": "el Plenario podrá determinar, por una sola vez, que el asunto se retrotraiga a primer debate"
+    },
+    {
+      "clave": "apelacion",
+      "nombre": "Apelación",
+      "patron": "APELACION",
+      "articulo": "156",
+      "explicacion": "Las diputaciones pueden apelar una resolución de la Presidencia de la Asamblea. La apelación gana con la mayoría de los presentes.",
+      "cita": "tienen derecho a apelar las resoluciones del Presidente o la Presidenta de la Asamblea Legislativa"
+    }
+  ]
+}

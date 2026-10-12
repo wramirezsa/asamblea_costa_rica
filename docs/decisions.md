@@ -1028,3 +1028,36 @@ salón 3D no se tocó):
   no cambió.
 - Texto corregido: «resaltadas aquí abajo» ya no era cierto con el mapa
   arriba.
+
+## ADR-028 — Glosario de votaciones con cita literal del Reglamento
+
+**2026-10-12**
+
+Los títulos de las votaciones vienen del acta tal cual («REVISION MOCION
+FONDO #2531 EXP 24290»): jerga que la gente no entiende. Mociones de fondo
+y sus revisiones son 4 271 de 4 790 votaciones.
+
+- **Fuente:** Reglamento de la Asamblea Legislativa, texto vigente
+  (versión 52 de 52) en SINALEVI, de la Procuraduría (el SCIJ ahora
+  redirige ahí). `data/curated/glosario.json`, curado a mano: 11 términos,
+  cada uno con su artículo (39 bis, 119, 134, 137, 138, 148, 148 bis, 153,
+  155, 156, 177), una explicación propia en lenguaje llano y una **cita
+  literal**. Las 11 citas se verificaron carácter por carácter contra el
+  texto vigente, dentro del artículo atribuido.
+- **No se definió** «dispensa de lectura» (el Reglamento no usa esas
+  palabras) ni «moción de consulta» (cabe en más de un artículo). Adivinar
+  sería inventar; la página lo dice.
+- **Solo GET:** SINALEVI carga el texto con un POST, así que no se automatizó
+  la descarga. Si el Reglamento se reforma, hay que releer y volver a
+  verificar las citas a mano.
+- **En el sitio:** etiquetas en cada fila de la lista (con la explicación al
+  pasar el mouse), explicación completa en la barra de la votación que se ve
+  en el mapa y el glosario entero, plegado, en Votaciones. Fuentes lo
+  declara como resumen propio.
+- **Votaciones abre en «Última semana»** (todas las sesiones de los últimos
+  siete días con acta) en vez de la última sesión, que a veces tenía una
+  sola votación. Se agregó «Todas las sesiones» para buscar por propuesta o
+  expediente; se pintan hasta 200 filas a la vez.
+- Los datos de Votaciones se piden al abrir la sección. El detector de
+  visibilidad de cuando todo era una sola página a veces no se disparaba y
+  la lista se quedaba en «Cargando».

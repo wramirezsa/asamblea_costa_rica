@@ -1,8 +1,10 @@
-import type { DatosVotaciones } from './tipos'
+import { ExplicacionTerminos } from './Glosario'
+import type { DatosVotaciones, Glosario } from './tipos'
 import { URL_SIL, VOTO, fechaLarga, nombreSesion } from './votos'
 
 interface Props {
   datos: DatosVotaciones
+  glosario: Glosario | null
   indice: number
   onCambiar: (indice: number) => void
   onCerrar: () => void
@@ -13,7 +15,7 @@ interface Props {
  * sale del acta: nombre de la propuesta, totales y, solo si esta verificado,
  * el resultado.
  */
-export default function BarraVotacion({ datos, indice, onCambiar, onCerrar }: Props) {
+export default function BarraVotacion({ datos, glosario, indice, onCambiar, onCerrar }: Props) {
   const v = datos.votaciones[indice]
   const s = datos.sesiones[v.s]
   const [favor, contra, noVoto] = v.d
@@ -35,6 +37,7 @@ export default function BarraVotacion({ datos, indice, onCambiar, onCerrar }: Pr
             {nombreSesion(s)} · {fechaLarga(s.fecha)} · votación {v.n} de {total}
           </div>
           <h2 className="bv-titulo">{v.p ?? 'El acta no indica el nombre de la propuesta'}</h2>
+          <ExplicacionTerminos titulo={v.p} glosario={glosario} />
         </div>
         <div className="bv-acciones">
           <button

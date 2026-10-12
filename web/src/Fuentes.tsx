@@ -122,6 +122,10 @@ export default function Fuentes({ datos }: { datos: Asamblea }) {
       'Nombres en las actas',
       'Las actas a veces escriben distinto a una misma persona («Roberth» y «Robert»). Se resuelve solo por coincidencia exacta o con una tabla de equivalencias revisada a mano, una por una y con su motivo; nunca por parecido.',
     ],
+    [
+      'Qué significa cada tipo de votación',
+      'Las explicaciones («moción de fondo», «revisión», etc.) son resúmenes propios del Reglamento de la Asamblea Legislativa vigente. Cada una lleva su artículo y una cita literal verificada contra el texto oficial; los términos que no corresponden con claridad a un solo artículo no se explican.',
+    ],
     ...(datos.escudo ? [['Escudo', datos.escudo.nota] as [string, string]] : []),
   ]
 
