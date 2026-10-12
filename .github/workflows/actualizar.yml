@@ -29,6 +29,7 @@ on:
       - "data/processed/**"
       - "data/assets/**"
       - "etl/publish_web.py"
+      - "etl/paginas_estaticas.py"
       - ".github/workflows/actualizar.yml"
 
 permissions:
