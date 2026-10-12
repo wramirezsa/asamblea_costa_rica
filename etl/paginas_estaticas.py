@@ -232,7 +232,9 @@ def main() -> int:
 
     def escribir(ruta: str, titulo: str, descripcion: str, imagen: str) -> None:
         url = f"{sitio}/{ruta}" if ruta else f"{sitio}/"
-        destino = dist / ruta / "index.html" if ruta else dist / "index.html"
+        # ruta.html y no ruta/index.html: GitHub Pages sirve /votaciones desde
+        # votaciones.html directo, y la carpeta obligaria a redirigir (301).
+        destino = dist / f"{ruta}.html" if ruta else dist / "index.html"
         destino.parent.mkdir(parents=True, exist_ok=True)
         destino.write_text(pagina(plantilla, titulo, descripcion, url, f"{sitio}/{imagen}"),
                            encoding="utf-8")
