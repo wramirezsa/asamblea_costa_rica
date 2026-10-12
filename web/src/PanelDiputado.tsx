@@ -19,8 +19,8 @@ interface Props {
 // tira larga donde lo mas consultado quedaba en medio.
 type Pestana = 'perfil' | 'plenario' | 'remuneracion' | 'intervenciones'
 const PESTANAS: Array<[Pestana, string]> = [
-  ['perfil', 'Perfil'],
   ['plenario', 'En el Plenario'],
+  ['perfil', 'Perfil'],
   ['remuneracion', 'Remuneración'],
   ['intervenciones', 'Intervenciones'],
 ]
@@ -61,7 +61,8 @@ export default function PanelDiputado({
     return () => window.removeEventListener('keydown', alTeclear)
   }, [onCerrar])
 
-  const [pestana, setPestana] = useState<Pestana>('perfil')
+  // Se abre en lo que más se consulta: cómo vota y si asiste.
+  const [pestana, setPestana] = useState<Pestana>('plenario')
   const edad = calcularEdad(dip.fecha_nacimiento)
   const redes = REDES.filter(([k]) => dip.redes[k])
 

@@ -91,6 +91,9 @@ visible. Cada pestaña cierra con su propia fuente y fecha de corte.
   publicadas, excluidas por no cuadrar (y con resultado sin verificar) y
   actas sin texto todavía. Todo conteo directo, nada estimado.
 
+La ficha abre en **En el Plenario** (asistencia y votos), que va primera;
+Perfil queda segunda. Pedido del usuario el 2026-10-12.
+
 En celular se mantuvo la decisión previa de mostrar el mapa antes que los
 filtros. La cabecera fija ocupaba 171 px; ahora solo queda pegada la fila de
 navegación (38 px) y la fecha se muestra sin la etiqueta, que sigue ahí para
