@@ -1609,3 +1609,49 @@ button { font: inherit; color: inherit; cursor: pointer; }
 @media (max-width: 760px) {
   .gl-completo dl { grid-template-columns: 1fr; }
 }
+
+/* ---------------- Los proyectos con mas votaciones ---------------- */
+
+.proyectos {
+  margin: 0 0 18px;
+  padding: 16px 18px;
+  background: var(--superficie);
+  border: 1px solid var(--borde);
+  border-radius: var(--radio);
+}
+
+.proyectos h3 { margin: 0 0 4px; font-size: 15px; font-weight: 650; }
+.proyectos-nota { margin: 0 0 10px; font-size: 11.5px; line-height: 1.55; color: var(--texto-3); }
+.proyectos-nota:last-child { margin: 10px 0 0; }
+.proyectos ol { margin: 0; padding: 0; list-style: none; }
+
+.proyectos li {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 10px 0;
+  border-top: 1px solid var(--borde);
+}
+
+.proyecto-texto { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 4px; }
+.proyecto-nombre { font-size: 12.5px; font-weight: 600; line-height: 1.45; }
+.proyecto-meta { font-size: 11.5px; color: var(--texto-2); font-variant-numeric: tabular-nums; }
+
+.proyecto-barra { height: 5px; background: rgba(255, 255, 255, 0.05); border-radius: 3px; overflow: hidden; }
+.proyecto-barra span { display: block; height: 100%; background: var(--acento); border-radius: 3px; }
+
+.proyectos li button {
+  flex: 0 0 auto;
+  padding: 6px 11px;
+  font-size: 12px;
+  color: var(--texto-2);
+  background: transparent;
+  border: 1px solid var(--borde-fuerte);
+  border-radius: 8px;
+}
+
+.proyectos li button:hover { color: var(--texto); border-color: var(--acento); }
+
+@media (max-width: 760px) {
+  .proyectos li { flex-direction: column; align-items: stretch; }
+}

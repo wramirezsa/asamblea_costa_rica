@@ -82,6 +82,35 @@ CARGOS = re.compile(
     r"primer[ao]?\s+prosecretari[oa]|segund[oa]\s+prosecretari[oa]|directorio)$", re.I)
 
 
+# Encabezado con que el acta presenta un proyecto: «EXPEDIENTE N.º 24.290,
+# NOMBRE DEL PROYECTO; ANTES CONOCIDO COMO: ...». Puede traer pegado el
+# numero de pagina al final.
+EXPEDIENTE_NOMBRE = re.compile(
+    r"^EXPEDIENTE\s+N\.?\s*[º°o]?\s*(\d{1,2}\.?\d{3})\s*,\s*(.+)$", re.I)
+
+
+def expedientes_nombrados(lineas: list[str]) -> dict[str, str]:
+    """Nombre de cada proyecto tal como lo escribe el acta (primera mencion).
+
+    Se queda con el nombre vigente: corta en «ANTES CONOCIDO COMO» o «ANTERIORMENTE DENOMINADO» y quita el
+    numero de pagina que a veces queda al final de la linea.
+    """
+    nombres: dict[str, str] = {}
+    for linea in lineas:
+        if "http" in linea:
+            continue
+        m = EXPEDIENTE_NOMBRE.match(linea.strip())
+        if not m:
+            continue
+        numero = m.group(1).replace(".", "")
+        nombre = re.split(r"[;,.]?\s*\(?\s*(?:ANTES\s+CONOCIDO\s+COMO|ANTERIORMENTE\s+DENOMINAD[OA])",
+                          m.group(2), flags=re.I)[0]
+        nombre = re.sub(r"\s+\d{1,3}$", "", nombre).strip(" .;:,")
+        if numero not in nombres and len(nombre) > 10:
+            nombres[numero] = nombre
+    return nombres
+
+
 def plano(s: str) -> str:
     """Forma de comparacion: sin tildes, minusculas, espacios simples."""
     s = unicodedata.normalize("NFD", s or "")

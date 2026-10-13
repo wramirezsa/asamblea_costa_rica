@@ -1061,3 +1061,34 @@ y sus revisiones son 4 271 de 4 790 votaciones.
 - Los datos de Votaciones se piden al abrir la sección. El detector de
   visibilidad de cuando todo era una sola página a veces no se disparaba y
   la lista se quedaba en «Cargando».
+
+## ADR-029 — Los proyectos con más votaciones
+
+**2026-10-12**
+
+Un solo expediente, el 24.290 («Establecimiento de jornadas laborales
+excepcionales para casos determinados que sean excepcionales y muy
+calificados»), suma 4 237 de las 4 790 votaciones nominales del período,
+casi todas mociones de fondo y sus revisiones. Eso es información y no se
+veía.
+
+- **El nombre sale del acta.** `lib/acta.expedientes_nombrados()` lee los
+  encabezados «EXPEDIENTE N.º 24.290, NOMBRE…» de cada acta y corta en
+  «ANTES CONOCIDO COMO» o «ANTERIORMENTE DENOMINADO». `fetch_actas.py` lo
+  guarda por sesión (`expedientes`). Se reprocesaron las 111 actas desde los
+  `.docx` locales: solo se agregó ese campo, nada más cambió.
+- **Qué nombre se muestra:** el del acta más reciente **en que se votó**. Un
+  acta puede traer un número equivocado (el 23.216, en
+  `docs/fuentes-de-datos.md`, «Trampas conocidas»); tomar el nombre de
+  cualquier acta lo arrastraría. Cuando un proyecto cambia de nombre, queda
+  el de la sesión de la votación más reciente.
+- **El número**, del campo de la votación o, si falta, del título
+  («… EXP 24290»). Así la tarjeta y la búsqueda dan el mismo conteo.
+- **En el sitio:** «Los proyectos con más votaciones» (los 5 primeros) en
+  Votaciones, con votaciones, sesiones, fechas y un botón que filtra la
+  lista. Explica por qué un proyecto disputado acumula miles: cada moción y
+  su revisión se votan aparte.
+- **Lección:** al escribir código con `` dentro de un heredoc del shell,
+  la barra se perdió y quedó un carácter de control invisible (0x08) en la
+  expresión regular, que nunca coincidía. Se revisó todo el código: no hay
+  otros. Para código con barras invertidas, usar Write o Edit.

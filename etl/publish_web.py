@@ -18,6 +18,7 @@ Uso:
 from __future__ import annotations
 
 import json
+import re
 import math
 import shutil
 import sys
@@ -83,6 +84,50 @@ def geometria_hemiciclo(total: int, filas: int) -> list[dict]:
     # De izquierda (angulo mayor) a derecha (angulo menor), y de atras a adelante.
     posiciones.sort(key=lambda p: (-p["angulo"], p["fila"]))
     return posiciones
+
+
+EXP_EN_TITULO = re.compile(r"\bEXP\.?\s*([\d\.]{4,7})", re.I)
+
+
+def proyectos_mas_votados(sesiones: list[dict], votaciones_web: list[dict],
+                          cuantos: int = 8) -> list[dict]:
+    """Los expedientes con mas votaciones nominales publicadas.
+
+    El numero sale del campo de la votacion o, si falta, del titulo que
+    escribe el acta («... EXP 24290»). El nombre, del acta mas reciente EN
+    QUE SE VOTO: un acta puede traer un numero de expediente equivocado (el
+    23.216 aparece una vez con el nombre de otro proyecto) y tomar el nombre
+    de cualquier acta lo arrastraria. Son conteos directos.
+    """
+    conteo: dict[str, dict] = {}
+    for v in votaciones_web:
+        numero = v["e"]
+        if not numero and v["p"]:
+            m = EXP_EN_TITULO.search(v["p"])
+            numero = m.group(1) if m else None
+        if not numero:
+            continue
+        numero = numero.replace(".", "")
+        fecha = sesiones[v["s"]]["fecha"]
+        c = conteo.setdefault(numero, {"votaciones": 0, "sesiones": set(), "fechas": []})
+        c["votaciones"] += 1
+        c["sesiones"].add(v["s"])
+        c["fechas"].append(fecha)
+    salida = []
+    for numero, c in sorted(conteo.items(), key=lambda x: -x[1]["votaciones"])[:cuantos]:
+        con_nombre = [sesiones[i] for i in c["sesiones"]
+                      if numero in (sesiones[i].get("expedientes") or {})]
+        nombre = (max(con_nombre, key=lambda s: s["fecha"])["expedientes"][numero]
+                  if con_nombre else None)
+        salida.append({
+            "numero": numero,
+            "nombre": nombre,
+            "votaciones": c["votaciones"],
+            "sesiones": len(c["sesiones"]),
+            "desde": min(c["fechas"]),
+            "hasta": max(c["fechas"]),
+        })
+    return salida
 
 
 def main() -> int:
@@ -232,6 +277,7 @@ def main() -> int:
                                           - actas["resumen"]["votaciones_publicables"]),
             "sin_documento": [x["sesion"] for x in actas.get("sin_documento", [])],
             "asistencia": asistencia,
+            "proyectos": proyectos_mas_votados(sesiones, votaciones_web),
         }
     else:
         print("  ! Sin actas del Plenario. Corre: python etl/fetch_actas.py")

@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import { fechaHora } from './frescura'
 import ResumenSemana from './ResumenSemana'
 import { ChipsTerminos, GlosarioCompleto } from './Glosario'
@@ -60,6 +60,13 @@ export default function Votaciones({ resumen, glosario, diputados, onVer }: Prop
   useEffect(() => {
     if (sesion === null && sesiones.length) setSesion(SEMANA)
   }, [sesiones, sesion])
+
+  const refLista = useRef<HTMLDivElement | null>(null)
+  const verProyecto = (numero: string) => {
+    setSesion(TODAS)
+    setFiltro(numero)
+    requestAnimationFrame(() => refLista.current?.scrollIntoView({ behavior: 'smooth', block: 'start' }))
+  }
 
   const q = normalizar(filtro.trim())
   const filas = useMemo(() => {
@@ -136,13 +143,55 @@ export default function Votaciones({ resumen, glosario, diputados, onVer }: Prop
 
       {datos && <ResumenSemana datos={datos} diputados={diputados} onVer={onVer} />}
 
+      {resumen.proyectos.length > 0 && (
+        <div className="proyectos">
+          <h3>Los proyectos con más votaciones</h3>
+          <p className="proyectos-nota">
+            Desde el {fechaCorta(resumen.desde ?? '')}. Cada moción y su revisión es una votación
+            aparte, por eso un proyecto muy disputado acumula miles.
+          </p>
+          <ol>
+            {resumen.proyectos.slice(0, 5).map((p) => {
+              const ancho = Math.max(2, (p.votaciones / resumen.proyectos[0].votaciones) * 100)
+              return (
+                <li key={p.numero}>
+                  <div className="proyecto-texto">
+                    <span className="proyecto-nombre">
+                      {p.nombre ?? <span className="vacio">Sin nombre en las actas</span>}
+                    </span>
+                    <span className="proyecto-meta">
+                      Exp. {Number(p.numero).toLocaleString('es-CR')} · {p.votaciones.toLocaleString('es-CR')}{' '}
+                      {p.votaciones === 1 ? 'votación' : 'votaciones'} en {p.sesiones}{' '}
+                      {p.sesiones === 1 ? 'sesión' : 'sesiones'}
+                      {p.desde !== p.hasta
+                        ? ` · del ${fechaCorta(p.desde)} al ${fechaCorta(p.hasta)}`
+                        : ` · ${fechaCorta(p.desde)}`}
+                    </span>
+                    <span className="proyecto-barra" aria-hidden="true">
+                      <span style={{ width: `${ancho}%` }} />
+                    </span>
+                  </div>
+                  <button onClick={() => verProyecto(p.numero)} disabled={!datos}>
+                    Ver sus votaciones
+                  </button>
+                </li>
+              )
+            })}
+          </ol>
+          <p className="proyectos-nota">
+            Conteo directo de las votaciones publicadas. El número de expediente sale del título de
+            cada votación; el nombre, del acta de la sesión en que se votó.
+          </p>
+        </div>
+      )}
+
       <GlosarioCompleto glosario={glosario} />
 
       {error && <p className="vt-aviso">No se pudieron cargar las votaciones: {error}</p>}
       {!datos && !error && <p className="vt-aviso">Cargando las votaciones…</p>}
 
       {datos && sesion !== null && (
-        <div className="vt-cuerpo">
+        <div className="vt-cuerpo" ref={refLista}>
           <div className="vt-controles">
             <label>
               <span>Sesión</span>

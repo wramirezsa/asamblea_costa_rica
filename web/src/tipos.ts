@@ -216,6 +216,17 @@ export interface AsistenciaActas {
   voto_sin_figurar: number
 }
 
+/** Un expediente y cuántas votaciones nominales tuvo en el Plenario. */
+export interface ProyectoVotado {
+  numero: string
+  /** Como lo escribe el acta más reciente que lo menciona; null si ninguna. */
+  nombre: string | null
+  votaciones: number
+  sesiones: number
+  desde: string
+  hasta: string
+}
+
 /** Resumen de las actas del Plenario (SIL+, ADR-021). */
 export interface ResumenActas {
   _fuente: string
@@ -230,6 +241,8 @@ export interface ResumenActas {
   /** Sesiones listadas en el SIL+ cuyo texto todavía no está publicado. */
   sin_documento: string[]
   asistencia: Record<string, AsistenciaActas>
+  /** Los expedientes con más votaciones (conteo directo). */
+  proyectos: ProyectoVotado[]
 }
 
 /**

@@ -39,7 +39,7 @@ from datetime import date, datetime
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
-from lib.acta import Resolutor, leer_acta  # noqa: E402
+from lib.acta import Resolutor, expedientes_nombrados, leer_acta, lineas_docx  # noqa: E402
 from lib.sharepoint import FuenteError, ahora_iso  # noqa: E402
 from lib.sil import BASE, ClienteSIL  # noqa: E402
 
@@ -175,6 +175,8 @@ def procesar(fila: dict, docx: bytes, resolutor: Resolutor, orden: list[str],
         "votaciones_publicables": sum(1 for v in votaciones if v["publicable"]),
         "contraste_subtitulo": contraste,
         "sin_resolver": acta["sin_resolver"],
+        # Nombre de cada proyecto que el acta menciona, tal como lo escribe.
+        "expedientes": expedientes_nombrados(lineas_docx(docx)),
         "avisos": avisos,
     }
 

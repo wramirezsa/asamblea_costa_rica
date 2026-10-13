@@ -407,6 +407,15 @@ Subsitio `Diputados`: `UsoVehiculosYCombustiblesXDiputado` (639),
 
 ## Trampas conocidas
 
+- **Un acta con número de expediente equivocado (encontrado 2026-10-12).** Las
+  actas de las sesiones ordinarias 21 y 22 (4 y 8 de junio de 2026) llaman al
+  expediente **23.216** «Ley para el impulso y fortalecimiento del deporte
+  nacional». El acta de la sesión extraordinaria 5 (1.º de julio de 2026)
+  usa el mismo número para «Ley de protección de los derechos de las
+  personas usuarias de los servicios de transporte público…». Las 22
+  votaciones del 23.216 son del 4 de junio. El sitio toma el nombre del acta
+  de la sesión en que se votó; la fuente no se corrige.
+
 - **Certificado TLS**: cadena incompleta (falta el intermedio). Los
   navegadores lo resuelven con AIA fetching; Python no. Ver ADR-002. El SIL+
   tiene el mismo certificado y el mismo problema; en Windows no se nota
