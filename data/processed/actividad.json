@@ -1,10 +1,10 @@
 {
-  "generado": "2026-10-12T12:00:35+00:00",
+  "generado": "2026-10-13T12:00:49+00:00",
   "nota": "Solo se incluyen conjuntos que la Asamblea mantiene al día. Cada uno trae su propia fecha de última actualización, tomada de la fuente.",
   "leyes": {
     "_fuente": "https://www.asamblea.go.cr/glcp/_api/web/lists/getbytitle('res_de_leyes')/items?%24top=2000&%24orderby=Modified%20desc",
     "total": 1625,
-    "ultima_actualizacion": "2026-10-07T22:46:30Z",
+    "ultima_actualizacion": "2026-10-12T15:59:23Z",
     "por_anio": {
       "2017": 7,
       "2018": 253,
@@ -18,6 +18,12 @@
       "2026": 142
     },
     "recientes": [
+      {
+        "numero": "10971",
+        "titulo": "REFORMA DEL INCISO F) DEL ARTÍCULO 14, SE REFORMA EL INCISO R), SE CORRE LA NUMERACIÓN DE LOS INCISOS SUBSIGUIENTES DEL ARTÍCULO 119 Y SE REFORMA EL PÁRRAFO FINAL DEL ARTÍCULO 119 DE LA LEY 9986, LEY GENERAL DE CONTRATACIÓN PÚBLICA, DEL 27 DE MAYO DE 2021",
+        "resumen": "La reforma exige que los oferentes y contratistas del Estado cumplan con sus obligaciones laborales, aportes a la seguridad social, pago de impuestos y póliza de riesgos del trabajo. Además, el incumplimiento de estas obligaciones podrá ser sancionado con la exclusión del proceso de contratación o la resolución del contrato. Las instituciones tendrán seis meses para adecuar sus sistemas de verificación.\n\nLa presente ",
+        "publicada": "2026-08-27T19:06:00Z"
+      },
       {
         "numero": "10981",
         "titulo": "LEY DE CREACIÓN DEL MINISTERIO DE VIVIENDA Y ASENTAMIENTOS HUMANOS",
@@ -89,12 +95,6 @@
         "titulo": "ADICIÓN DE UN ARTÍCULO 31 BIS A LA LEY 7554, LEY ORGÁNICA DEL AMBIENTE, DEL 04 DE OCTUBRE DE 1995; LEY PARA GARANTIZAR PASOS DE FAUNA EN INFRAESTRUCTURAS",
         "resumen": "La reforma propone obligar a que toda infraestructura vial nueva o existente que afecte el desplazamiento de la fauna silvestre incorpore pasos de fauna y otras medidas de mitigación, según estudios técnicos avalados por el SINAC. Además, establece la coordinación entre instituciones públicas, la inclusión de estas medidas desde la planificación de los proyectos, la supervisión de SETENA y la identificación de puntos",
         "publicada": "2026-08-05T16:03:46Z"
-      },
-      {
-        "numero": "10971",
-        "titulo": "REFORMA DEL INCISO F) DEL ARTÍCULO 14, SE REFORMA EL INCISO R), SE CORRE LA NUMERACIÓN DE LOS INCISOS SUBSIGUIENTES DEL ARTÍCULO 119 Y SE REFORMA EL PÁRRAFO FINAL DEL ARTÍCULO 119 DE LA LEY 9986, LEY GENERAL DE CONTRATACIÓN PÚBLICA, DEL 27 DE MAYO DE 2021",
-        "resumen": "La reforma exige que los oferentes y contratistas del Estado cumplan con sus obligaciones laborales, aportes a la seguridad social, pago de impuestos y póliza de riesgos del trabajo. Además, el incumplimiento de estas obligaciones podrá ser sancionado con la exclusión del proceso de contratación o la resolución del contrato. Las instituciones tendrán seis meses para adecuar sus sistemas de verificación.\n\nLa presente ",
-        "publicada": "2026-08-27T19:06:00Z"
       },
       {
         "numero": "10969",
@@ -382,14 +382,14 @@
   },
   "mociones": {
     "_fuente": "https://www.asamblea.go.cr/glcp/_api/web/lists/getbytitle('mociones_total')/items?%24top=5000&%24orderby=Id%20desc",
-    "total": 27222,
-    "nota_alcance": "Agregados calculados sobre las 27222 mociones que devuelve la lista completa, no sobre una muestra.",
-    "ultima_actualizacion": "2026-10-09T20:08:52Z",
+    "total": 27230,
+    "nota_alcance": "Agregados calculados sobre las 27230 mociones que devuelve la lista completa, no sobre una muestra.",
+    "ultima_actualizacion": "2026-10-12T17:07:40Z",
     "por_resultado": {
-      "Rechazada": 23128,
-      "Aprobada": 3552,
+      "Rechazada": 23129,
+      "Aprobada": 3558,
       "Retirada": 392,
-      "Pendiente": 149,
+      "Pendiente": 150,
       "Revisión": 1
     },
     "por_anio": {
@@ -397,10 +397,74 @@
       "2023": 3827,
       "2024": 4729,
       "2025": 9087,
-      "2026": 6329
+      "2026": 6337
     },
-    "expedientes_distintos": 1230,
+    "expedientes_distintos": 1231,
     "recientes": [
+      {
+        "numero": null,
+        "expediente": "25656",
+        "resultado": "Rechazada",
+        "asunto": "LEY PARA EL FORTALECIMIENTO Y EL ACCESO AL DEPORTE Y LA RECREACIÓN NACIONAL Y CANTONAL",
+        "tramite": "INFORME DE SUBCOMISION NEGATIVO",
+        "fecha": "2026-10-12T17:06:46Z"
+      },
+      {
+        "numero": null,
+        "expediente": "25656",
+        "resultado": "Aprobada",
+        "asunto": "LEY PARA EL FORTALECIMIENTO Y EL ACCESO AL DEPORTE Y LA RECREACIÓN NACIONAL Y CANTONAL",
+        "tramite": "INFORME DE SUBCOMISION AFIRMATIVO",
+        "fecha": "2026-10-12T17:04:40Z"
+      },
+      {
+        "numero": null,
+        "expediente": "25656",
+        "resultado": "Aprobada",
+        "asunto": "LEY PARA EL FORTALECIMIENTO Y EL ACCESO AL DEPORTE Y LA RECREACIÓN NACIONAL Y CANTONAL",
+        "tramite": "124",
+        "fecha": "2026-10-12T17:02:40Z"
+      },
+      {
+        "numero": null,
+        "expediente": "25656",
+        "resultado": "Aprobada",
+        "asunto": "LEY PARA EL FORTALECIMIENTO Y EL ACCESO AL DEPORTE Y LA RECREACIÓN NACIONAL Y CANTONAL",
+        "tramite": "124",
+        "fecha": "2026-10-12T17:01:56Z"
+      },
+      {
+        "numero": null,
+        "expediente": "25656",
+        "resultado": "Aprobada",
+        "asunto": "LEY PARA EL FORTALECIMIENTO Y EL ACCESO AL DEPORTE Y LA RECREACIÓN NACIONAL Y CANTONAL",
+        "tramite": "124",
+        "fecha": "2026-10-12T17:01:08Z"
+      },
+      {
+        "numero": null,
+        "expediente": "25656",
+        "resultado": "Aprobada",
+        "asunto": "LEY PARA EL FORTALECIMIENTO Y EL ACCESO AL DEPORTE Y LA RECREACIÓN NACIONAL Y CANTONAL",
+        "tramite": "124",
+        "fecha": "2026-10-12T17:00:20Z"
+      },
+      {
+        "numero": null,
+        "expediente": "25656",
+        "resultado": "Aprobada",
+        "asunto": "LEY PARA EL FORTALECIMIENTO Y EL ACCESO AL DEPORTE Y LA RECREACIÓN NACIONAL Y CANTONAL",
+        "tramite": "124",
+        "fecha": "2026-10-12T16:58:36Z"
+      },
+      {
+        "numero": "Moción N.° 19",
+        "expediente": "25754",
+        "resultado": "Pendiente",
+        "asunto": "LEY DE PRESUPUESTO ORDINARIO Y EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2027",
+        "tramite": "I día",
+        "fecha": "2026-10-12T16:34:19Z"
+      },
       {
         "numero": "Moción N.° 18",
         "expediente": "25754",
@@ -656,70 +720,6 @@
         "asunto": "LEY PARA EL NO COBRO DE SERVICIOS SANITARIOS EN TERMINALES DE AUTOBUSES",
         "tramite": "II día",
         "fecha": "2026-10-07T00:52:13Z"
-      },
-      {
-        "numero": "0014",
-        "expediente": "24643",
-        "resultado": "Rechazada",
-        "asunto": "LEY PARA EL NO COBRO DE SERVICIOS SANITARIOS EN TERMINALES DE AUTOBUSES",
-        "tramite": "II día",
-        "fecha": "2026-10-07T00:51:50Z"
-      },
-      {
-        "numero": "0013",
-        "expediente": "24643",
-        "resultado": "Rechazada",
-        "asunto": "LEY PARA EL NO COBRO DE SERVICIOS SANITARIOS EN TERMINALES DE AUTOBUSES",
-        "tramite": "II día",
-        "fecha": "2026-10-07T00:51:26Z"
-      },
-      {
-        "numero": "0012",
-        "expediente": "24643",
-        "resultado": "Rechazada",
-        "asunto": "LEY PARA EL NO COBRO DE SERVICIOS SANITARIOS EN TERMINALES DE AUTOBUSES",
-        "tramite": "II día",
-        "fecha": "2026-10-07T00:50:58Z"
-      },
-      {
-        "numero": "0011",
-        "expediente": "24643",
-        "resultado": "Rechazada",
-        "asunto": "LEY PARA EL NO COBRO DE SERVICIOS SANITARIOS EN TERMINALES DE AUTOBUSES",
-        "tramite": "II día",
-        "fecha": "2026-10-07T00:50:35Z"
-      },
-      {
-        "numero": "0010",
-        "expediente": "24643",
-        "resultado": "Rechazada",
-        "asunto": "LEY PARA EL NO COBRO DE SERVICIOS SANITARIOS EN TERMINALES DE AUTOBUSES",
-        "tramite": "II día",
-        "fecha": "2026-10-07T00:50:13Z"
-      },
-      {
-        "numero": "0009",
-        "expediente": "24643",
-        "resultado": "Rechazada",
-        "asunto": "LEY PARA EL NO COBRO DE SERVICIOS SANITARIOS EN TERMINALES DE AUTOBUSES",
-        "tramite": "II día",
-        "fecha": "2026-10-07T00:49:41Z"
-      },
-      {
-        "numero": "0008",
-        "expediente": "24643",
-        "resultado": "Rechazada",
-        "asunto": "LEY PARA EL NO COBRO DE SERVICIOS SANITARIOS EN TERMINALES DE AUTOBUSES",
-        "tramite": "II día",
-        "fecha": "2026-10-07T00:49:13Z"
-      },
-      {
-        "numero": "0007",
-        "expediente": "24643",
-        "resultado": "Rechazada",
-        "asunto": "LEY PARA EL NO COBRO DE SERVICIOS SANITARIOS EN TERMINALES DE AUTOBUSES",
-        "tramite": "II día",
-        "fecha": "2026-10-07T00:48:47Z"
       }
     ]
   },
