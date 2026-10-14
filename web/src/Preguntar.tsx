@@ -52,11 +52,19 @@ export default function Preguntar() {
     setTurnos((t) => [...t, { pregunta: q }])
     let turno: Turno
     try {
-      const r = await fetch(`${URL_ASISTENTE.replace(/\/$/, '')}/preguntar`, {
-        method: 'POST',
-        headers: { 'content-type': 'application/json' },
-        body: JSON.stringify({ pregunta: q }),
-      })
+      const pedir = () =>
+        fetch(`${URL_ASISTENTE.replace(/\/$/, '')}/preguntar`, {
+          method: 'POST',
+          headers: { 'content-type': 'application/json' },
+          body: JSON.stringify({ pregunta: q }),
+        })
+      let r = await pedir()
+      // Un tropiezo pasajero de la IA (502) se reintenta una vez; los límites
+      // (429, 503) no, porque reintentar no los resuelve.
+      if (r.status === 502) {
+        await new Promise((ok) => setTimeout(ok, 1200))
+        r = await pedir()
+      }
       const j = await r.json()
       turno = r.ok ? { pregunta: q, ...j } : { pregunta: q, error: j.error ?? 'No se pudo responder.' }
     } catch {
