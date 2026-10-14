@@ -36,6 +36,7 @@ interface Turno {
   error?: string
   consultas?: { herramienta: string; argumentos: Record<string, unknown> }[]
   enlaces?: { texto: string; url: string }[]
+  modelo?: string
 }
 
 export default function Preguntar() {
@@ -119,6 +120,9 @@ export default function Preguntar() {
                     {t.respuesta.replace(/\*\*([^*\n]+)\*\*/g, '$1').replace(/(^|\s)_([^_\n]+)_/g, '$1$2').split('\n').filter(Boolean).map((l, k) => (
                       <p key={k}>{l}</p>
                     ))}
+                    {t.modelo === 'directo' && (
+                      <p className="pq-consultas">Respuesta directa de los datos, sin IA.</p>
+                    )}
                     {!!t.consultas?.length && (
                       <p className="pq-consultas">
                         Consultó:{' '}

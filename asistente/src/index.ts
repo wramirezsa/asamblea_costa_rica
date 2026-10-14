@@ -9,6 +9,7 @@
  */
 
 import { DEFINICIONES, ejecutar, type Contexto, type Datos, type Enlace, type FilaVotacion } from './herramientas'
+import { respuestaDirecta } from './directas'
 import { groq, MODELOS_GROQ, SinCupo, workersAI, type Mensaje, type Respuesta } from './modelo'
 
 interface Env {
@@ -30,7 +31,7 @@ const VIGENCIA_MS = 10 * 60 * 1000
 // devolver la copia vieja que guardó la caché de Cloudflare.
 const VERSION_DATOS = '3'
 /** Se sube en cada cambio de comportamiento: invalida la caché de respuestas. */
-const VERSION_WORKER = '2026-10-14c'
+const VERSION_WORKER = '2026-10-14e'
 
 // Corto a propósito: viaja en cada paso y el cupo gratis se mide en tokens.
 const SISTEMA_BASE = `Sos el asistente de Asamblea Abierta, sitio ciudadano independiente sobre el Plenario de la Asamblea Legislativa de Costa Rica (2026-2030). Respondé en español de Costa Rica, con voseo, breve y en texto plano (sin asteriscos ni markdown).
@@ -220,6 +221,14 @@ export default {
         }
         return cacheVotaciones.filas
       },
+    }
+
+    // Preguntas comunes e inequívocas: plantilla sobre los datos, sin IA.
+    // No gastan cupo y no pueden inventar. Solo sin conversación previa: una
+    // repregunta necesita entender el contexto.
+    if (!historial.length) {
+      const directa = await respuestaDirecta(pregunta, ctx)
+      if (directa) return json({ ...directa, modelo: 'directo' }, 200, c)
     }
 
     const mensajes: Mensaje[] = [

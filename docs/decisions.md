@@ -1177,3 +1177,25 @@ cifras, que es justo lo que este sitio no puede hacer.
   respaldo. **Cuidado:** una corrida completa gasta cerca de un tercio del
   cupo diario; tres corridas el 2026-10-14 lo agotaron. Correrla con
   `--rapido` salvo antes de un cambio importante.
+
+### ADR-030, actualización 2026-10-14 (b) — respuestas directas, sin IA
+
+`asistente/src/directas.ts`: las preguntas comunes e inequívocas se responden
+con plantillas sobre los mismos datos, antes de llamar a cualquier modelo. Son
+las 6 sugeridas de la página y patrones claros: curules de un partido o de
+todos, mayorías, total de diputaciones, quién preside, el Directorio (en orden
+de cargos), «¿qué es / qué significa…?» de un término del glosario, el
+proyecto con más votaciones, quién no figura entre los presentes en la semana,
+quién recibió más o menos combustible o remuneración, y «¿cómo vota…?» o la
+asistencia de una persona cuando el nombre identifica a una sola (si hay
+varias, como «Mora», decide la IA).
+
+- No gastan cupo, no pueden inventar y responden al instante, incluso con el
+  cupo de IA agotado. La página lo dice: «Respuesta directa de los datos, sin
+  IA».
+- Solo sin conversación previa: una repregunta necesita contexto y va a la IA.
+- Ante la duda, `null`: la pregunta sigue a la IA como siempre.
+- Probadas con datos reales (`prueba/directas.test.ts`, se corre empaquetando
+  con esbuild). **Al probar desde la terminal de Windows con `curl`, las
+  tildes llegan deformadas** y los patrones con «cuántas» o «quiénes» no
+  calzan: probar desde Python (`evaluar.py`) o el navegador.
