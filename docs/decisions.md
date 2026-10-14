@@ -1231,3 +1231,20 @@ pregunta por minuto.
 - Para probar un modelo sin tocar código:
   `npx wrangler deploy --var MODELOS_GROQ:<modelo>` (y luego un `deploy`
   normal para volver a la cadena del código).
+
+### ADR-030, actualización 2026-10-14 (d) — el aviso de límite dice la verdad
+
+Un caso real: «¿De dónde es José Miguel Villalobos?» recibió «llegó a su
+límite gratuito de hoy», y un minuto después la misma pregunta se respondió
+bien. `gpt-oss-120b` había agotado su cupo del día, Qwen el de ese minuto y
+Workers AI el del día.
+
+- Si el primer modelo de Groq en liberarse vuelve en 20 s o menos, el Worker
+  espera y reintenta (esperar no gasta CPU del plan gratis).
+- El aviso dice cuánto esperar: «Hay muchas preguntas en este momento… Probá
+  de nuevo en un minuto» si algún modelo vuelve en 15 minutos o menos; «de
+  hoy» solo si no.
+- Si un modelo falló por cupo y el siguiente por otra causa, se informa el
+  cupo, no un error genérico.
+- Saludos y agradecimientos («hola», «gracias») se responden sin IA, también
+  a media conversación (`respuestaSaludo`, `prueba/saludos.test.ts`).

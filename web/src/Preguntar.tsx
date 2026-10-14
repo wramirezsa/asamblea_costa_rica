@@ -131,7 +131,7 @@ export default function Preguntar() {
                         )}
                       </p>
                     )}
-                    {!t.consultas?.length && (
+                    {!t.consultas?.length && t.modelo !== 'directo' && (
                       <p className="pq-consultas">No consultó ningún dato: tomalo como orientación, no como cifra.</p>
                     )}
                     {!!t.enlaces?.length && (

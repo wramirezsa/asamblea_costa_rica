@@ -9,7 +9,7 @@
  */
 
 import { DEFINICIONES, ejecutar, type Contexto, type Datos, type Enlace, type FilaVotacion } from './herramientas'
-import { respuestaDirecta } from './directas'
+import { respuestaDirecta, respuestaSaludo } from './directas'
 import { groq, MODELOS_GROQ, SinCupo, workersAI, type Mensaje, type Respuesta } from './modelo'
 
 interface Env {
@@ -33,7 +33,7 @@ const VIGENCIA_MS = 10 * 60 * 1000
 // devolver la copia vieja que guardó la caché de Cloudflare.
 const VERSION_DATOS = '3'
 /** Se sube en cada cambio de comportamiento: invalida la caché de respuestas. */
-const VERSION_WORKER = '2026-10-14h'
+const VERSION_WORKER = '2026-10-14i'
 
 // Corto a propósito: viaja en cada paso y el cupo gratis se mide en tokens.
 const SISTEMA_BASE = `Sos el asistente de Asamblea Abierta, sitio ciudadano independiente sobre el Plenario de la Asamblea Legislativa de Costa Rica (2026-2030). Respondé en español de Costa Rica, con voseo, breve y en texto plano (sin asteriscos ni markdown).
@@ -230,6 +230,8 @@ export default {
     // Preguntas comunes e inequívocas: plantilla sobre los datos, sin IA.
     // No gastan cupo y no pueden inventar. Solo sin conversación previa: una
     // repregunta necesita entender el contexto.
+    const saludo = respuestaSaludo(pregunta)
+    if (saludo) return json({ ...saludo, modelo: 'directo' }, 200, c)
     if (!historial.length) {
       const directa = await respuestaDirecta(pregunta, ctx)
       if (directa) return json({ ...directa, modelo: 'directo' }, 200, c)
@@ -251,15 +253,13 @@ export default {
 
     // Cada proveedor gratuito en orden. Un modelo que dijo "sin cupo" no se
     // vuelve a intentar hasta que pase la espera que pidió.
-    const pedir = async (): Promise<Respuesta> => {
-      const candidatos = [
-        ...(env.GROQ_API_KEY ? (env.MODELOS_GROQ ? env.MODELOS_GROQ.split(',').map((s) => s.trim()) : MODELOS_GROQ) : []).filter(
-          (m) => (agotados.get(m) ?? 0) < Date.now()
-        ),
-        'workers-ai',
-        'workers-ai',
-      ]
+    const modelosGroq = env.GROQ_API_KEY ? (env.MODELOS_GROQ ? env.MODELOS_GROQ.split(',').map((s) => s.trim()) : MODELOS_GROQ) : []
+    /** Milisegundos hasta que el primer modelo de Groq vuelva a tener cupo. */
+    const esperaGroq = () => Math.min(...modelosGroq.map((m) => (agotados.get(m) ?? 0) - Date.now()))
+    const pedirUnaVez = async (): Promise<Respuesta> => {
+      const candidatos = [...modelosGroq.filter((m) => (agotados.get(m) ?? 0) < Date.now()), 'workers-ai', 'workers-ai']
       let ultimo: unknown = null
+      let sinCupo: SinCupo | null = null
       for (const m of candidatos) {
         try {
           modelo = m
@@ -269,13 +269,29 @@ export default {
         } catch (e) {
           ultimo = e
           if (e instanceof SinCupo) {
+            sinCupo = e
             agotados.set(m, Date.now() + e.segundos * 1000)
             if (m === 'workers-ai') break
           }
           console.log(`${m} falló: ${String(e).slice(0, 160)}`)
         }
       }
-      throw ultimo
+      // Si alguno estaba sin cupo, eso es lo que hay que decirle a la persona.
+      throw sinCupo ?? ultimo
+    }
+    // El cupo de Groq se mide por minuto: si el primero en liberarse está a
+    // pocos segundos, se espera aquí (no gasta CPU del Worker) antes que
+    // devolver un error.
+    const pedir = async (): Promise<Respuesta> => {
+      try {
+        return await pedirUnaVez()
+      } catch (e) {
+        const espera = esperaGroq()
+        if (!(e instanceof SinCupo) || espera > 20_000) throw e
+        console.log(`Esperando ${Math.ceil(espera / 1000)} s al cupo de Groq`)
+        await new Promise((ok) => setTimeout(ok, Math.max(espera, 0) + 500))
+        return await pedirUnaVez()
+      }
     }
 
     const resultados: unknown[] = []
@@ -351,7 +367,19 @@ export default {
       return json({ error: 'La pregunta necesitó demasiados pasos. Probá hacerla más concreta.' }, 422, c)
     } catch (e) {
       if (e instanceof SinCupo) {
-        return json({ error: 'El asistente llegó a su límite gratuito de hoy. Probá de nuevo mañana.' }, 503, c)
+        // Groq devuelve cupo de a poco: si algún modelo vuelve en minutos, es
+        // demanda del momento, no el límite del día.
+        const minutos = Math.ceil(esperaGroq() / 60_000)
+        return json(
+          {
+            error:
+              minutos <= 15
+                ? `Hay muchas preguntas en este momento y el cupo gratuito está lleno. Probá de nuevo en ${minutos <= 1 ? 'un minuto' : `${minutos} minutos`}.`
+                : 'El asistente llegó a su límite gratuito de hoy. Probá de nuevo más tarde o mañana.',
+          },
+          503,
+          c
+        )
       }
       console.log(`Error: ${String(e).slice(0, 300)}`)
       return json({ error: 'El asistente no pudo responder ahora. Probá de nuevo en un rato.' }, 502, c)

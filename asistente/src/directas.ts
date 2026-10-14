@@ -98,6 +98,26 @@ function fichaPersona(d: Diputacion): string {
   return texto + notas(d)
 }
 
+/**
+ * Saludos y agradecimientos: no hace falta gastar cupo de IA en eso. A
+ * diferencia de las demás, vale también a media conversación («gracias»).
+ */
+export function respuestaSaludo(pregunta: string): Directa | null {
+  const q = plano(pregunta)
+  if (/^((hola|hoa|ola|holi|holis|buenas|buenos dias|buenas tardes|buenas noches|hey|saludos|pura vida|que tal|como estas|como esta) ?)+$/.test(q)) {
+    return {
+      respuesta:
+        '¡Hola! Preguntame lo que quieras sobre el Plenario: asistencia, votaciones, proyectos, gasto o curules. Por ejemplo: «¿Cómo vota José María Villalta?» o «¿Quiénes son los diputados de Limón?».',
+      consultas: [],
+      enlaces: [],
+    }
+  }
+  if (/^(ok |listo |perfecto |excelente |muy bien )?((muchas |mil )?gracias)( pura vida)?$/.test(q)) {
+    return { respuesta: '¡Con gusto! Si tenés otra pregunta sobre el Plenario, aquí estoy.', consultas: [], enlaces: [] }
+  }
+  return null
+}
+
 export async function respuestaDirecta(pregunta: string, ctx: Contexto): Promise<Directa | null> {
   const q = plano(pregunta)
   const d = ctx.datos
