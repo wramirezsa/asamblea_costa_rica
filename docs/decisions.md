@@ -1142,3 +1142,38 @@ cifras, que es justo lo que este sitio no puede hacer.
   (no está en el flujo de GitHub, que no tiene credenciales de Cloudflare).
   Los datos sí se actualizan solos: el Worker los lee del sitio publicado y
   los guarda 10 minutos.
+
+### ADR-030, actualización 2026-10-14 — memoria, verificador de cifras y evaluación
+
+- **Memoria de conversación:** la guarda el navegador (últimos 4 turnos) y se
+  borra con «Nueva conversación» o al recargar. El Worker no guarda nada. El
+  historial sirve solo para entender repreguntas; las cifras salen siempre de
+  las herramientas.
+- **Verificador de cifras (código, no instrucción):** toda cifra de la
+  respuesta debe aparecer en lo que devolvieron las herramientas, la pregunta
+  o la fecha. Si no, se pide una corrección; si insiste, no se publica y se
+  responde «No pude verificar esa respuesta». Nació de un caso real: el modelo
+  chico de Groq respondió «Hay 6 diputados en total».
+- **Lo que no se deja a la obediencia del modelo:** las notas oficiales de la
+  Asamblea sobre una persona (la licencia de maternidad de Kristel Ward
+  Hudson) y el artículo del Reglamento en el glosario se agregan en código si
+  el modelo los omite.
+- **Cadena de modelos:** solo `gpt-oss-120b` (Groq y, de respaldo, Workers AI).
+  Se probó sumar `gpt-oss-20b` de Groq por su cupo propio: inventó cifras y
+  respondió fuera de tema (6 de 33 mal). Menos respuestas antes que falsas.
+  Un modelo que dijo «sin cupo» no se reintenta hasta la espera que pidió.
+- **Cupo gratuito real:** cada pregunta gasta unos 3 500 tokens tras la dieta
+  (instrucciones y herramientas pasaron de ~1 800 a ~1 200 tokens por paso).
+  Groq gratis tiene un tope diario de tokens que no informa en sus cabeceras
+  (8 000 por minuto y 1 000 pedidos por día sí): en la práctica da unas
+  decenas de preguntas al día, y Workers AI otras tantas. Las preguntas
+  idénticas sin conversación previa se responden de caché 10 minutos.
+- **Evaluación** (`asistente/prueba/evaluar.py`): 30 preguntas y 4
+  conversaciones contra el Worker publicado, con la verdad calculada de los
+  datos. Mejor corrida: **33 de 39, ninguna cifra equivocada**. Los fallos
+  restantes fueron cifras bloqueadas por un error del propio verificador (ya
+  corregido: leía «2026-09» como 202609), una respuesta sin la última fecha
+  con acta (la herramienta ahora trae la frase exacta) y tropiezos del
+  respaldo. **Cuidado:** una corrida completa gasta cerca de un tercio del
+  cupo diario; tres corridas el 2026-10-14 lo agotaron. Correrla con
+  `--rapido` salvo antes de un cambio importante.

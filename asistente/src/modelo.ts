@@ -23,26 +23,41 @@ export interface Respuesta {
   llamadas: LlamadaHerramienta[]
 }
 
-export class SinCupo extends Error {}
+export class SinCupo extends Error {
+  /** Segundos que pide esperar el proveedor, si los dice. */
+  constructor(mensaje: string, public segundos = 60) {
+    super(mensaje)
+  }
+}
 
-const MODELO_GROQ = 'openai/gpt-oss-120b'
+/**
+ * Solo el modelo grande. El chico (gpt-oss-20b) tiene cupo propio, pero en la
+ * evaluación del 2026-10-14 inventó cifras ("Hay 6 diputados") y respondió
+ * fuera de tema: menos respuestas antes que respuestas falsas (ADR-030).
+ */
+export const MODELOS_GROQ = ['openai/gpt-oss-120b']
 const MODELO_CF = '@cf/openai/gpt-oss-120b'
 
-export async function groq(clave: string, mensajes: Mensaje[], herramientas: readonly unknown[]): Promise<Respuesta> {
+export async function groq(clave: string, modelo: string, mensajes: Mensaje[], herramientas: readonly unknown[]): Promise<Respuesta> {
   const r = await fetch('https://api.groq.com/openai/v1/chat/completions', {
     method: 'POST',
     headers: { authorization: `Bearer ${clave}`, 'content-type': 'application/json' },
     body: JSON.stringify({
-      model: MODELO_GROQ,
+      model: modelo,
       messages: mensajes,
       tools: herramientas,
       tool_choice: 'auto',
       temperature: 0.2,
-      max_completion_tokens: 900,
+      max_completion_tokens: 700,
       reasoning_effort: 'low',
     }),
   })
-  if (r.status === 429) throw new SinCupo('Groq: límite del plan gratuito')
+  // Cuánto cupo queda (por minuto y por día), para saber qué límite se toca.
+  const cupo = ['limit-requests', 'remaining-requests', 'limit-tokens', 'remaining-tokens', 'reset-tokens']
+    .map((k) => `${k}=${r.headers.get(`x-ratelimit-${k}`)}`)
+    .join(' ')
+  console.log(`Groq ${modelo} ${r.status} ${cupo} retry-after=${r.headers.get('retry-after')}`)
+  if (r.status === 429) throw new SinCupo(`Groq ${modelo}: límite del plan gratuito`, Number(r.headers.get('retry-after')) || 60)
   if (!r.ok) throw new Error(`Groq respondió ${r.status}: ${(await r.text()).slice(0, 200)}`)
   const j = (await r.json()) as {
     choices: { message: { content: string | null; tool_calls?: { id: string; function: { name: string; arguments: string } }[] } }[]
@@ -75,7 +90,7 @@ export async function workersAI(ai: Ai, mensajes: Mensaje[], herramientas: reado
       messages: mensajes.map((m) => (m.role === 'assistant' && m.content === null ? { ...m, content: '' } : m)),
       tools: herramientas,
       reasoning_effort: 'low',
-      max_tokens: 900,
+      max_tokens: 700,
     })) as Salida
   } catch (e) {
     const texto = String(e)

@@ -116,7 +116,7 @@ export default function Preguntar() {
                 {t.error && <p className="pq-error">{t.error}</p>}
                 {t.respuesta && (
                   <div className="pq-respuesta">
-                    {t.respuesta.replace(/[*_]+/g, '').split('\n').filter(Boolean).map((l, k) => (
+                    {t.respuesta.replace(/\*\*([^*\n]+)\*\*/g, '$1').replace(/(^|\s)_([^_\n]+)_/g, '$1$2').split('\n').filter(Boolean).map((l, k) => (
                       <p key={k}>{l}</p>
                     ))}
                     {!!t.consultas?.length && (

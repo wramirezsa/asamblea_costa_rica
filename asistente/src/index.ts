@@ -4,11 +4,12 @@
  * Recibe una pregunta, deja que el modelo elija herramientas (herramientas.ts)
  * y devuelve la respuesta con lo que se consultó y enlaces para verificar.
  * El modelo no calcula ni recuerda cifras: solo redacta con lo que devuelven
- * las herramientas, que leen los datos publicados del sitio.
+ * las herramientas, que leen los datos publicados del sitio. Lo que no puede
+ * fallar (notas oficiales, artículo del Reglamento) lo agrega el código.
  */
 
 import { DEFINICIONES, ejecutar, type Contexto, type Datos, type Enlace, type FilaVotacion } from './herramientas'
-import { groq, SinCupo, workersAI, type Mensaje, type Respuesta } from './modelo'
+import { groq, MODELOS_GROQ, SinCupo, workersAI, type Mensaje, type Respuesta } from './modelo'
 
 interface Env {
   AI: Ai
@@ -22,32 +23,35 @@ interface Env {
 const MAX_PREGUNTA = 400
 /** Turnos previos de la conversación que se tienen en cuenta, y cuánto de cada respuesta. */
 const MAX_TURNOS = 4
-const MAX_RESPUESTA_PREVIA = 900
+const MAX_RESPUESTA_PREVIA = 700
 const MAX_PASOS = 4
 const VIGENCIA_MS = 10 * 60 * 1000
 // Se sube cuando cambia la forma de los datos: la URL nueva no puede
 // devolver la copia vieja que guardó la caché de Cloudflare.
 const VERSION_DATOS = '3'
+/** Se sube en cada cambio de comportamiento: invalida la caché de respuestas. */
+const VERSION_WORKER = '2026-10-14c'
 
-const SISTEMA_BASE = `Sos el asistente de Asamblea Abierta, un sitio ciudadano independiente sobre el Plenario de la Asamblea Legislativa de Costa Rica (periodo 2026-2030). Respondés en español de Costa Rica, con voseo, breve: hasta cinco oraciones o una lista corta.
+// Corto a propósito: viaja en cada paso y el cupo gratis se mide en tokens.
+const SISTEMA_BASE = `Sos el asistente de Asamblea Abierta, sitio ciudadano independiente sobre el Plenario de la Asamblea Legislativa de Costa Rica (2026-2030). Respondé en español de Costa Rica, con voseo, breve y en texto plano (sin asteriscos ni markdown).
 
-Reglas que no se rompen:
-0. Antes de decir que no tenés un dato, probá las herramientas: el sitio tiene de cada diputación su fracción, provincia, profesión, cargo, asistencia, votos y gasto; de cada sesión con acta, quién no figura entre los presentes. Nunca afirmes qué registra o no registra la Asamblea u otra fuente: solo lo que devolvieron las herramientas.
-1. Toda cifra, nombre o fecha sale de una herramienta. Nunca atribuyas a un día datos de otro periodo: si preguntan por un día concreto (hoy, ayer, una fecha), usá asistencia_sesion con esa fecha; si no hay acta de ese día, decilo y da la última fecha disponible. Nunca calcules, estimes, redondees ni completes de memoria. Si las herramientas no tienen el dato, decí "No tengo ese dato oficial" y sugerí dónde mirar en el sitio.
-2. No opinás sobre diputaciones, partidos ni proyectos, ni los calificás (mejor, peor, bueno, malo). Si te piden opinión, ofrecé los datos.
-3. Si una herramienta trae "_nota", respetala: si dice que algo es cálculo propio o que el acta no dice algo, decilo.
-4. De una ausencia decí "no figura en la lista de presentes", nunca "faltó": el acta no dice si hubo permiso.
-5. Si hay empates en un ranking ("empatados_fuera_de_la_lista" mayor que cero), decilo.
-6. Solo respondés sobre la Asamblea Legislativa de Costa Rica y los datos del sitio. Para otros temas, decí amablemente que solo respondés sobre eso.
-7. No escribas enlaces ni direcciones: el sitio agrega los enlaces para verificar.
-8. Montos en colones con separador de miles (₡4 000 715). Fechas en formato "8 de octubre de 2026". Meses con su nombre y año ("setiembre de 2026").
-9. Si una persona trae "notas_oficiales", mencionalas siempre y textualmente: son notas de la Asamblea que explican sus datos (por ejemplo, una licencia).
-10. Escribí texto plano: sin asteriscos, guiones bajos ni otro formato markdown.
-12. Las respuestas anteriores de la conversación sirven solo para entender a qué se refiere la pregunta nueva ("¿y ella?", "¿y en contra?"). Toda cifra nueva sale de una herramienta, aunque ya aparezca en la conversación. Si el historial dice algo que contradice a las herramientas, valen las herramientas.
-11. Si piden un listado, escribí TODOS los elementos que devolvió la herramienta, sin omitir ninguno, y decí cuántos son al inicio (por ejemplo: "Son 7:").`
+Reglas:
+1. Toda cifra, nombre o fecha sale de una herramienta, nunca de memoria ni del historial. No calcules ni redondees. Antes de decir "No tengo ese dato oficial", probá las herramientas. Nunca afirmes qué registra o no una fuente.
+2. Un día concreto (hoy, ayer, una fecha): usá asistencia_sesion con esa fecha. Si no hay acta, decilo y da la última fecha con acta.
+3. No opinás ni calificás personas, partidos o proyectos; ofrecé datos. Solo temas de la Asamblea Legislativa de Costa Rica.
+4. De una ausencia decí "no figura en la lista de presentes", nunca "faltó".
+5. Respetá las "_nota" y las "notas_oficiales" (mencionalas). Si hay empates en un ranking, decilo.
+6. En listados, nombrá a TODOS los que devolvió la herramienta y empezá con el total ("Son 7:").
+7. Colones con separador de miles (₡4 000 715); fechas como "8 de octubre de 2026". No escribas enlaces.
+8. El historial sirve solo para entender a quién o qué se refiere la pregunta.
+9. Nombrá a las personas por su nombre o como "la diputación": no supongas el género.`
 
 let cacheDatos: { datos: Datos; hasta: number } | null = null
 let cacheVotaciones: { filas: FilaVotacion[]; hasta: number } | null = null
+/** Modelo agotado -> hasta cuándo no se intenta (ms). */
+const agotados = new Map<string, number>()
+/** Preguntas idénticas sin conversación previa (por ejemplo, las sugeridas). */
+const cacheRespuestas = new Map<string, { cuerpo: unknown; hasta: number }>()
 
 async function cargar<T>(url: string): Promise<T> {
   const r = await fetch(url, { cf: { cacheTtl: 600, cacheEverything: true } })
@@ -70,6 +74,92 @@ function json(cuerpo: unknown, estado: number, cabeceras: Record<string, string>
     status: estado,
     headers: { 'content-type': 'application/json; charset=utf-8', ...cabeceras },
   })
+}
+
+function plano(s: string): string {
+  return s
+    .normalize('NFD')
+    .replace(/[̀-ͯ]/g, '')
+    .toLowerCase()
+}
+
+/** Notas oficiales que vienen en los resultados de las herramientas, por persona. */
+function notasEn(datos: unknown, salida: Map<string, string[]>): void {
+  if (Array.isArray(datos)) {
+    for (const x of datos) notasEn(x, salida)
+  } else if (datos && typeof datos === 'object') {
+    const o = datos as Record<string, unknown>
+    if (typeof o.nombre === 'string' && Array.isArray(o.notas_oficiales) && o.notas_oficiales.length) {
+      salida.set(o.nombre, o.notas_oficiales as string[])
+    }
+    for (const v of Object.values(o)) notasEn(v, salida)
+  }
+}
+
+/**
+ * Lo que no se deja a la obediencia del modelo:
+ * - si nombra a una persona que tiene notas oficiales y no las menciona, se
+ *   agregan textuales (por ejemplo, la licencia que explica su asistencia);
+ * - si explicó un término del glosario sin citar el artículo, se cita.
+ */
+function completar(texto: string, notas: Map<string, string[]>, articulos: string[]): string {
+  let t = texto.trim()
+  const p = plano(t)
+  for (const [nombre, lista] of notas) {
+    const partes = nombre.split(' ')
+    const apellido = plano(partes.length >= 3 ? partes[partes.length - 2] : partes[partes.length - 1])
+    if (!p.includes(apellido)) continue
+    for (const nota of lista) {
+      const claves = plano(nota)
+        .split(/[^a-zñ]+/)
+        .filter((w) => w.length >= 8)
+      const yaEsta = claves.filter((w) => p.includes(w)).length >= 2
+      if (!yaEsta) t += `\n\nNota oficial de la Asamblea: ${nota}`
+    }
+  }
+  if (articulos.length && !/\bart(\.|ículo|iculo)/i.test(t)) {
+    t += `\n\n(Reglamento de la Asamblea Legislativa, art. ${articulos.join(', ')}.)`
+  }
+  return t
+}
+
+/** Cifras de un texto, sin separadores de miles ni decimales: "₡4 000 714,75" -> "4000714". */
+function cifras(texto: string): string[] {
+  const salida: string[] = []
+  for (const m of texto.matchAll(/\d[\d\s  .,]*\d|\d/g)) {
+    const limpio = m[0].replace(/[\s  ]/g, '')
+    // "4.237" o "4,237" con grupos de 3 son miles; ",75" final son decimales.
+    const entero = limpio.replace(/[.,](?=\d{3}(\D|$))/g, '').split(/[.,]/)[0]
+    if (entero) salida.push(String(Number(entero)))
+  }
+  return salida
+}
+
+/** Cifras que la respuesta puede usar: las de los datos consultados, la pregunta y la fecha. */
+function cifrasPermitidas(resultados: unknown[], pregunta: string, hoy: string): Set<string> {
+  // En los datos (fechas "2026-09", textos) cada grupo de dígitos cuenta solo:
+  // "2026-09" son 2026 y 9, no 202609. Además se aceptan como cifras normales.
+  const grupos = (s: string) =>
+    s
+      .split(/\D+/)
+      .filter(Boolean)
+      .map((n) => String(Number(n)))
+  const permitidas = new Set<string>([...cifras(pregunta), ...grupos(pregunta), ...grupos(hoy)])
+  const recorrer = (x: unknown) => {
+    if (Array.isArray(x)) {
+      permitidas.add(String(x.length))
+      x.forEach(recorrer)
+    } else if (x && typeof x === 'object') {
+      Object.values(x).forEach(recorrer)
+    } else if (typeof x === 'number') {
+      permitidas.add(String(Math.trunc(x)))
+      permitidas.add(String(Math.round(x)))
+    } else if (typeof x === 'string') {
+      for (const c of [...grupos(x), ...cifras(x)]) permitidas.add(c)
+    }
+  }
+  resultados.forEach(recorrer)
+  return permitidas
 }
 
 export default {
@@ -111,6 +201,15 @@ export default {
     if (!cacheDatos || cacheDatos.hasta < Date.now()) {
       cacheDatos = { datos: await cargar<Datos>(`${env.DATOS_URL}asistente.json?v=${VERSION_DATOS}`), hasta: Date.now() + VIGENCIA_MS }
     }
+    const hoy = new Intl.DateTimeFormat('en-CA', { timeZone: 'America/Costa_Rica' }).format(new Date())
+    // La versión del Worker va en la clave: un despliegue nuevo no reusa
+    // respuestas guardadas por el anterior.
+    const claveCache = historial.length
+      ? null
+      : `${VERSION_WORKER}|${hoy}|${plano(pregunta).replace(/[^a-z0-9ñ]+/g, ' ').trim()}`
+    const guardada = claveCache ? cacheRespuestas.get(claveCache) : undefined
+    if (guardada && guardada.hasta > Date.now()) return json(guardada.cuerpo, 200, c)
+
     const ctx: Contexto = {
       datos: cacheDatos.datos,
       sitio: env.SITIO_URL.replace(/\/$/, ''),
@@ -123,42 +222,93 @@ export default {
       },
     }
 
-    // La fecha de hoy en Costa Rica, para entender "hoy", "ayer", "esta semana".
-    const hoy = new Intl.DateTimeFormat('en-CA', { timeZone: 'America/Costa_Rica' }).format(new Date())
     const mensajes: Mensaje[] = [
-      { role: 'system', content: `${SISTEMA_BASE}
-
-Hoy es ${hoy} (hora de Costa Rica). Las actas se publican días después de cada sesión.` },
+      {
+        role: 'system',
+        content: `${SISTEMA_BASE}\n\nHoy es ${hoy} (hora de Costa Rica). Las actas se publican días después de cada sesión.`,
+      },
       ...historial,
       { role: 'user', content: pregunta },
     ]
     const consultas: { herramienta: string; argumentos: unknown }[] = []
     const enlaces: Enlace[] = []
-    let proveedor: 'groq' | 'workers-ai' = env.GROQ_API_KEY ? 'groq' : 'workers-ai'
+    const notas = new Map<string, string[]>()
+    const articulos: string[] = []
+    let modelo = ''
 
+    // Cada proveedor gratuito en orden. Un modelo que dijo "sin cupo" no se
+    // vuelve a intentar hasta que pase la espera que pidió.
     const pedir = async (): Promise<Respuesta> => {
-      if (proveedor === 'groq') {
+      const candidatos = [
+        ...(env.GROQ_API_KEY ? MODELOS_GROQ : []).filter((m) => (agotados.get(m) ?? 0) < Date.now()),
+        'workers-ai',
+        'workers-ai',
+      ]
+      let ultimo: unknown = null
+      for (const m of candidatos) {
         try {
-          return await groq(env.GROQ_API_KEY!, mensajes, DEFINICIONES)
+          modelo = m
+          return m === 'workers-ai'
+            ? await workersAI(env.AI, mensajes, DEFINICIONES)
+            : await groq(env.GROQ_API_KEY!, m, mensajes, DEFINICIONES)
         } catch (e) {
-          // Groq saturado o caído: el resto de la pregunta va por el respaldo.
-          console.log(`Groq falló, paso a Workers AI: ${String(e).slice(0, 160)}`)
-          proveedor = 'workers-ai'
+          ultimo = e
+          if (e instanceof SinCupo) {
+            agotados.set(m, Date.now() + e.segundos * 1000)
+            if (m === 'workers-ai') break
+          }
+          console.log(`${m} falló: ${String(e).slice(0, 160)}`)
         }
       }
-      return workersAI(env.AI, mensajes, DEFINICIONES)
+      throw ultimo
     }
 
+    const resultados: unknown[] = []
+    let corregida = false
     try {
-      for (let paso = 0; paso < MAX_PASOS; paso++) {
+      for (let paso = 0; paso < MAX_PASOS + 1; paso++) {
         const r = await pedir()
         if (!r.llamadas.length) {
+          // Verificador de cifras: toda cifra de la respuesta tiene que estar
+          // en lo que devolvieron las herramientas (o en la pregunta o la
+          // fecha). Si no, una corrección; si insiste, no se publica.
+          const permitidas = cifrasPermitidas(resultados, pregunta, hoy)
+          const sueltas = [...new Set(cifras(r.texto ?? '').filter((n) => !permitidas.has(n)))]
+          if (sueltas.length) {
+            console.log(`Cifras sin respaldo (${modelo}): ${sueltas.join(', ')}`)
+            if (!corregida) {
+              corregida = true
+              mensajes.push({ role: 'assistant', content: r.texto ?? '' })
+              mensajes.push({
+                role: 'user',
+                content: `Revisión automática: tu respuesta tiene cifras que no aparecen en los datos consultados (${sueltas.join(', ')}). Reescribila usando solo cifras de los datos que devolvieron las herramientas, o consultá la herramienta que corresponde. Si no tenés el dato, decí "No tengo ese dato oficial".`,
+              })
+              continue
+            }
+            return json(
+              {
+                respuesta:
+                  'No pude verificar esa respuesta con los datos oficiales del sitio, así que prefiero no darla. Probá preguntarlo de otra forma o revisá la sección correspondiente.',
+                consultas,
+                enlaces: [],
+                modelo,
+              },
+              200,
+              c
+            )
+          }
           const unicos = enlaces.filter((e, i) => enlaces.findIndex((x) => x.url === e.url) === i).slice(0, 4)
-          return json(
-            { respuesta: r.texto?.trim() || 'No tengo ese dato oficial.', consultas, enlaces: unicos, modelo: proveedor },
-            200,
-            c
-          )
+          const cuerpo = {
+            respuesta: completar(r.texto?.trim() || 'No tengo ese dato oficial.', notas, articulos),
+            consultas,
+            enlaces: unicos,
+            modelo,
+          }
+          if (claveCache && consultas.length) {
+            if (cacheRespuestas.size > 200) cacheRespuestas.clear()
+            cacheRespuestas.set(claveCache, { cuerpo, hasta: Date.now() + VIGENCIA_MS })
+          }
+          return json(cuerpo, 200, c)
         }
         mensajes.push({
           role: 'assistant',
@@ -175,6 +325,11 @@ Hoy es ${hoy} (hora de Costa Rica). Las actas se publican días después de cada
           const res = await ejecutar(ctx, l.nombre, args)
           consultas.push({ herramienta: l.nombre, argumentos: args })
           enlaces.push(...res.enlaces)
+          notasEn(res.datos, notas)
+          resultados.push(res.datos)
+          if (l.nombre === 'glosario') {
+            for (const g of ((res.datos as { terminos?: { articulo: string }[] }).terminos ?? [])) articulos.push(g.articulo)
+          }
           mensajes.push({ role: 'tool', tool_call_id: l.id, content: JSON.stringify(res.datos) })
         }
       }

@@ -95,11 +95,10 @@ export const DEFINICIONES = [
     type: 'function',
     function: {
       name: 'buscar_diputacion',
-      description:
-        'Datos de una diputación por nombre o apellido: fracción, provincia, cargo, asistencia al Plenario, cuántas veces votó a favor o en contra, y remuneración y combustible del último mes publicado.',
+      description: 'Una diputación por nombre o apellido: fracción, provincia, cargo, asistencia, votos y gasto del último mes.',
       parameters: {
         type: 'object',
-        properties: { nombre: { type: 'string', description: 'Nombre o apellidos, por ejemplo "Villalta" o "Nogui Acosta".' } },
+        properties: { nombre: { type: 'string',  } },
         required: ['nombre'],
       },
     },
@@ -108,8 +107,7 @@ export const DEFINICIONES = [
     type: 'function',
     function: {
       name: 'ranking',
-      description:
-        'Ordena las diputaciones por un criterio. Úsala para preguntas como quién asistió más o menos, quién votó en más votaciones, o quién recibió más combustible.',
+      description: 'Ordena diputaciones por asistencia, votos emitidos, remuneración bruta o combustible.',
       parameters: {
         type: 'object',
         properties: {
@@ -130,8 +128,7 @@ export const DEFINICIONES = [
     type: 'function',
     function: {
       name: 'listar_diputaciones',
-      description:
-        'Lista las diputaciones con su fracción, provincia, profesión y cargo en el Directorio. Filtrable por fracción (sigla o nombre, por ejemplo "PFA" o "Frente Amplio"), provincia o solo quienes integran el Directorio. Úsala para preguntas como quiénes son los de una provincia o partido, o a qué se dedican.',
+      description: 'Lista diputaciones (fracción, provincia, profesión, cargo). Filtros: fraccion (sigla o nombre), provincia, solo_directorio.',
       parameters: {
         type: 'object',
         properties: {
@@ -146,8 +143,7 @@ export const DEFINICIONES = [
     type: 'function',
     function: {
       name: 'asistencia_sesion',
-      description:
-        'Quién no figura en la lista de presentes de una sesión concreta, por fecha (AAAA-MM-DD). Sin fecha, la última sesión con acta. Si no hay acta de esa fecha, lo dice y da la última disponible.',
+      description: 'Quién no figura en la lista de presentes de una sesión, por fecha AAAA-MM-DD; sin fecha, la última sesión con acta.',
       parameters: {
         type: 'object',
         properties: { fecha: { type: 'string', description: 'AAAA-MM-DD' } },
@@ -158,7 +154,7 @@ export const DEFINICIONES = [
     type: 'function',
     function: {
       name: 'composicion',
-      description: 'Cuántas curules tiene cada fracción y cuántos votos hacen falta para mayoría simple y calificada.',
+      description: 'Curules por fracción y votos para mayoría simple y calificada.',
       parameters: { type: 'object', properties: {} },
     },
   },
@@ -166,8 +162,7 @@ export const DEFINICIONES = [
     type: 'function',
     function: {
       name: 'semana',
-      description:
-        'La última semana con actas: sesiones, votaciones, aprobadas y rechazadas, quién no figura entre los presentes y quién votó distinto a su bancada.',
+      description: 'Última semana con actas: sesiones, votaciones, resultados, quién no figura entre los presentes y quién votó distinto a su bancada.',
       parameters: { type: 'object', properties: {} },
     },
   },
@@ -175,7 +170,7 @@ export const DEFINICIONES = [
     type: 'function',
     function: {
       name: 'proyectos_mas_votados',
-      description: 'Los expedientes (proyectos de ley) con más votaciones en el Plenario, con su nombre según el acta.',
+      description: 'Expedientes con más votaciones en el Plenario, con su nombre según el acta.',
       parameters: { type: 'object', properties: {} },
     },
   },
@@ -183,8 +178,7 @@ export const DEFINICIONES = [
     type: 'function',
     function: {
       name: 'buscar_votaciones',
-      description:
-        'Busca votaciones del Plenario por palabras del título o por número de expediente, opcionalmente entre fechas. Devuelve cuántas hay, cuántas se aprobaron o rechazaron y las más recientes.',
+      description: 'Busca votaciones por palabras del tema o título, o por número de expediente, entre fechas opcionales.',
       parameters: {
         type: 'object',
         properties: {
@@ -200,7 +194,7 @@ export const DEFINICIONES = [
     type: 'function',
     function: {
       name: 'glosario',
-      description: 'Qué significa un término del trámite legislativo (moción de fondo, revisión, primer debate, etc.), según el Reglamento.',
+      description: 'Qué significa un término del trámite legislativo según el Reglamento.',
       parameters: {
         type: 'object',
         properties: { termino: { type: 'string' } },
@@ -212,7 +206,7 @@ export const DEFINICIONES = [
     type: 'function',
     function: {
       name: 'sobre_los_datos',
-      description: 'De qué fechas son los datos, qué periodo cubren las actas y qué no muestra el sitio.',
+      description: 'Fechas de los datos, periodo de las actas y qué no muestra el sitio.',
       parameters: { type: 'object', properties: {} },
     },
   },
@@ -415,14 +409,12 @@ function listarDiputaciones(
   return {
     datos: {
       cantidad: lista.length,
-      diputaciones: lista.map((d) => ({
-        nombre: d.nombre,
-        fraccion: nombreFraccion(ctx, d),
-        sigla: d.partido,
-        provincia: d.provincia,
-        profesion: d.profesion ?? 'Sin dato oficial',
-        cargo_directorio: d.cargo_directorio,
-      })),
+      // Filas compactas: "Nombre | sigla | provincia | profesión | cargo".
+      // Como objetos, las 57 pesaban unos 3 300 tokens del cupo gratis.
+      formato: 'nombre | fraccion | provincia | profesion | cargo en el Directorio',
+      diputaciones: lista.map((d) =>
+        [d.nombre, d.partido, d.provincia, d.profesion ?? 'Sin dato oficial', d.cargo_directorio ?? '-'].join(' | ')
+      ),
       _nota: 'Datos del padrón oficial de la Asamblea Legislativa. La profesión es la que declara la Asamblea en cada ficha.',
     },
     enlaces: lista.length <= 3 ? lista.map((d) => ficha(ctx, d)) : [{ texto: 'El Plenario', url: `${ctx.sitio}/` }],
@@ -441,6 +433,9 @@ function asistenciaSesion(ctx: Contexto, args: { fecha?: string }): Resultado {
         ultima_sesion_con_acta: ultima ? { fecha: ultima.fecha, tipo: ultima.tipo, numero: ultima.numero } : null,
         actas_listadas_sin_texto: ctx.datos.actas?.sin_documento ?? [],
         _nota: 'No hay acta publicada de esa fecha: puede que no hubo sesión o que el acta todavía no está publicada. No se puede saber quién asistió.',
+        respuesta_sugerida: ultima
+          ? `No hay acta publicada del ${args.fecha ?? 'día pedido'}, así que no se puede saber quién asistió. La última sesión con acta es la ${ultima.tipo} N.º ${ultima.numero} del ${ultima.fecha}.`
+          : 'No hay actas publicadas todavía.',
       },
       enlaces: [{ texto: 'Votaciones', url: `${ctx.sitio}/votaciones` }],
     }
