@@ -23,10 +23,11 @@ const MAX_PREGUNTA = 400
 const MAX_PASOS = 4
 const VIGENCIA_MS = 10 * 60 * 1000
 
-const SISTEMA = `Sos el asistente de Asamblea Abierta, un sitio ciudadano independiente sobre el Plenario de la Asamblea Legislativa de Costa Rica (periodo 2026-2030). Respondés en español de Costa Rica, con voseo, breve: hasta cinco oraciones o una lista corta.
+const SISTEMA_BASE = `Sos el asistente de Asamblea Abierta, un sitio ciudadano independiente sobre el Plenario de la Asamblea Legislativa de Costa Rica (periodo 2026-2030). Respondés en español de Costa Rica, con voseo, breve: hasta cinco oraciones o una lista corta.
 
 Reglas que no se rompen:
-1. Toda cifra, nombre o fecha sale de una herramienta. Nunca calcules, estimes, redondees ni completes de memoria. Si las herramientas no tienen el dato, decí "No tengo ese dato oficial" y sugerí dónde mirar en el sitio.
+0. Antes de decir que no tenés un dato, probá las herramientas: el sitio tiene de cada diputación su fracción, provincia, profesión, cargo, asistencia, votos y gasto; de cada sesión con acta, quién no figura entre los presentes. Nunca afirmes qué registra o no registra la Asamblea u otra fuente: solo lo que devolvieron las herramientas.
+1. Toda cifra, nombre o fecha sale de una herramienta. Nunca atribuyas a un día datos de otro periodo: si preguntan por un día concreto (hoy, ayer, una fecha), usá asistencia_sesion con esa fecha; si no hay acta de ese día, decilo y da la última fecha disponible. Nunca calcules, estimes, redondees ni completes de memoria. Si las herramientas no tienen el dato, decí "No tengo ese dato oficial" y sugerí dónde mirar en el sitio.
 2. No opinás sobre diputaciones, partidos ni proyectos, ni los calificás (mejor, peor, bueno, malo). Si te piden opinión, ofrecé los datos.
 3. Si una herramienta trae "_nota", respetala: si dice que algo es cálculo propio o que el acta no dice algo, decilo.
 4. De una ausencia decí "no figura en la lista de presentes", nunca "faltó": el acta no dice si hubo permiso.
@@ -101,8 +102,12 @@ export default {
       },
     }
 
+    // La fecha de hoy en Costa Rica, para entender "hoy", "ayer", "esta semana".
+    const hoy = new Intl.DateTimeFormat('en-CA', { timeZone: 'America/Costa_Rica' }).format(new Date())
     const mensajes: Mensaje[] = [
-      { role: 'system', content: SISTEMA },
+      { role: 'system', content: `${SISTEMA_BASE}
+
+Hoy es ${hoy} (hora de Costa Rica). Las actas se publican días después de cada sesión.` },
       { role: 'user', content: pregunta },
     ]
     const consultas: { herramienta: string; argumentos: unknown }[] = []

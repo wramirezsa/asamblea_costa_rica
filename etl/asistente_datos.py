@@ -189,6 +189,16 @@ def datos_asistente(asamblea: dict, vot: dict | None,
                                             "votaciones_no_publicables", "sin_documento")},
         "proyectos": actas.get("proyectos") or [],
         "semana": _semana(vot, partido, nombre) if vot else None,
+        # Cada sesion con acta y quien no figura en su lista de presentes.
+        "sesiones": [
+            {"fecha": s["fecha"], "tipo": s["tipo"], "numero": s["numero"],
+             "con_lista_de_presentes": len(s["presentes"]) == len(vot["orden"]),
+             "presentes": s["presentes"].count("1"),
+             "no_figuran": [{"nombre": nombre[slug], "fraccion": partido[slug]}
+                            for k, slug in enumerate(vot["orden"])
+                            if len(s["presentes"]) == len(vot["orden"]) and s["presentes"][k] != "1"]}
+            for s in sorted(vot["sesiones"], key=lambda s: (s["fecha"], s["tipo"], s["numero"]))
+        ] if vot else [],
         "diputaciones": diputaciones,
         "expedientes": nombres_expedientes or {},
         "glosario": [{"nombre": t["nombre"], "articulo": t["articulo"],

@@ -35,6 +35,14 @@ export interface Datos {
   }[]
   semana: Record<string, unknown> | null
   diputaciones: Diputacion[]
+  sesiones: {
+    fecha: string
+    tipo: string
+    numero: number
+    con_lista_de_presentes: boolean
+    presentes: number
+    no_figuran: { nombre: string; fraccion: string | null }[]
+  }[]
   /** Nombre(s) de cada expediente según las actas. */
   expedientes: Record<string, string[]>
   glosario: { nombre: string; articulo: string; explicacion: string }[]
@@ -115,6 +123,34 @@ export const DEFINICIONES = [
           cantidad: { type: 'integer', description: 'Cuántas mostrar, de 1 a 10. Por defecto 5.' },
         },
         required: ['criterio', 'orden'],
+      },
+    },
+  },
+  {
+    type: 'function',
+    function: {
+      name: 'listar_diputaciones',
+      description:
+        'Lista las diputaciones con su fracción, provincia, profesión y cargo en el Directorio. Filtrable por fracción (sigla o nombre, por ejemplo "PFA" o "Frente Amplio"), provincia o solo quienes integran el Directorio. Úsala para preguntas como quiénes son los de una provincia o partido, o a qué se dedican.',
+      parameters: {
+        type: 'object',
+        properties: {
+          fraccion: { type: 'string' },
+          provincia: { type: 'string' },
+          solo_directorio: { type: 'boolean' },
+        },
+      },
+    },
+  },
+  {
+    type: 'function',
+    function: {
+      name: 'asistencia_sesion',
+      description:
+        'Quién no figura en la lista de presentes de una sesión concreta, por fecha (AAAA-MM-DD). Sin fecha, la última sesión con acta. Si no hay acta de esa fecha, lo dice y da la última disponible.',
+      parameters: {
+        type: 'object',
+        properties: { fecha: { type: 'string', description: 'AAAA-MM-DD' } },
       },
     },
   },
@@ -240,7 +276,7 @@ function ranking(
     }
   }
   let lista = ctx.datos.diputaciones
-  if (args.fraccion) lista = lista.filter((d) => plano(d.partido ?? '') === plano(args.fraccion!))
+  if (args.fraccion) lista = lista.filter((d) => coincideFraccion(d, args.fraccion!))
   if (args.provincia) lista = lista.filter((d) => plano(d.provincia ?? '') === plano(args.provincia!))
   const con = lista.map((d) => ({ d, v: valor(d) })).filter((x) => x.v !== null) as { d: Diputacion; v: number }[]
   const sinDato = lista.length - con.length
@@ -333,6 +369,66 @@ function glosario(ctx: Contexto, args: { termino?: string }): Resultado {
   }
 }
 
+function coincideFraccion(d: Diputacion, f: string): boolean {
+  const q = plano(f)
+  return plano(d.partido ?? '') === q || plano(d.fraccion ?? '').includes(q)
+}
+
+function listarDiputaciones(
+  ctx: Contexto,
+  args: { fraccion?: string; provincia?: string; solo_directorio?: boolean }
+): Resultado {
+  let lista = ctx.datos.diputaciones
+  if (args.fraccion) lista = lista.filter((d) => coincideFraccion(d, args.fraccion!))
+  if (args.provincia) lista = lista.filter((d) => plano(d.provincia ?? '') === plano(args.provincia!))
+  if (args.solo_directorio) lista = lista.filter((d) => d.cargo_directorio)
+  return {
+    datos: {
+      cantidad: lista.length,
+      diputaciones: lista.map((d) => ({
+        nombre: d.nombre,
+        fraccion: d.fraccion,
+        sigla: d.partido,
+        provincia: d.provincia,
+        profesion: d.profesion ?? 'Sin dato oficial',
+        cargo_directorio: d.cargo_directorio,
+      })),
+      _nota: 'Datos del padrón oficial de la Asamblea Legislativa. La profesión es la que declara la Asamblea en cada ficha.',
+    },
+    enlaces: lista.length <= 3 ? lista.map((d) => ficha(ctx, d)) : [{ texto: 'El Plenario', url: `${ctx.sitio}/` }],
+  }
+}
+
+function asistenciaSesion(ctx: Contexto, args: { fecha?: string }): Resultado {
+  const ses = ctx.datos.sesiones
+  const ultima = ses[ses.length - 1]
+  const elegidas = args.fecha ? ses.filter((s) => s.fecha === args.fecha) : ultima ? [ultima] : []
+  if (!elegidas.length) {
+    return {
+      datos: {
+        fecha_pedida: args.fecha,
+        hay_acta: false,
+        ultima_sesion_con_acta: ultima ? { fecha: ultima.fecha, tipo: ultima.tipo, numero: ultima.numero } : null,
+        actas_listadas_sin_texto: ctx.datos.actas.sin_documento,
+        _nota: 'No hay acta publicada de esa fecha: puede que no hubo sesión o que el acta todavía no está publicada. No se puede saber quién asistió.',
+      },
+      enlaces: [{ texto: 'Votaciones', url: `${ctx.sitio}/votaciones` }],
+    }
+  }
+  return {
+    datos: {
+      sesiones: elegidas.map((s) => ({
+        fecha: s.fecha,
+        sesion: `${s.tipo} N.º ${s.numero}`,
+        figuran_presentes: s.con_lista_de_presentes ? s.presentes : 'Sin dato oficial',
+        no_figuran_en_la_lista_de_presentes: s.con_lista_de_presentes ? s.no_figuran : 'Sin dato oficial',
+      })),
+      _nota: 'Lista de presentes del acta oficial de la sesión. El acta no dice si una ausencia tuvo permiso.',
+    },
+    enlaces: [{ texto: 'Votaciones', url: `${ctx.sitio}/votaciones` }],
+  }
+}
+
 export async function ejecutar(ctx: Contexto, nombre: string, args: Record<string, unknown>): Promise<Resultado> {
   const d = ctx.datos
   switch (nombre) {
@@ -340,6 +436,10 @@ export async function ejecutar(ctx: Contexto, nombre: string, args: Record<strin
       return buscarDiputacion(ctx, args)
     case 'ranking':
       return ranking(ctx, args)
+    case 'listar_diputaciones':
+      return listarDiputaciones(ctx, args)
+    case 'asistencia_sesion':
+      return asistenciaSesion(ctx, args)
     case 'composicion':
       return { datos: d.composicion, enlaces: [{ texto: 'El Plenario', url: `${ctx.sitio}/` }] }
     case 'semana':
