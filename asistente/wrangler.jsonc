@@ -1,0 +1,23 @@
+// Asistente de preguntas de Asamblea Abierta (ADR-030). Plan gratuito de
+// Cloudflare Workers: sin tarjeta no hay cobro posible.
+{
+  "name": "asamblea-abierta-asistente",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-10-01",
+  "workers_dev": true,
+  "ai": { "binding": "AI" },
+  "ratelimits": [
+    {
+      // 6 preguntas por minuto por persona (por IP).
+      "name": "LIMITE",
+      "namespace_id": "3001",
+      "simple": { "limit": 6, "period": 60 }
+    }
+  ],
+  "vars": {
+    "DATOS_URL": "https://wramirezsa.github.io/asamblea_costa_rica/datos/",
+    "SITIO_URL": "https://wramirezsa.github.io/asamblea_costa_rica",
+    "ORIGENES": "https://wramirezsa.github.io,http://localhost:5173"
+  },
+  "observability": { "enabled": true }
+}

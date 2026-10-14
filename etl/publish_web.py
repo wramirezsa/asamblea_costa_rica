@@ -25,6 +25,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
+from asistente_datos import datos_asistente, votaciones_asistente  # noqa: E402
 from curules import repartir  # noqa: E402
 from lib.sharepoint import ahora_iso  # noqa: E402
 
@@ -225,12 +226,19 @@ def main() -> int:
     # asistencia viaja en el payload principal porque es chico; las votaciones
     # van en un archivo aparte que el sitio pide solo cuando hace falta.
     actas_resumen = None
+    # Nombre(s) de cada expediente segun las actas, para que el asistente
+    # pueda buscar votaciones por tema (ADR-030).
+    nombres_expedientes: dict[str, list[str]] = {}
     archivo_actas = PROCESADO / "actas_plenario.json"
     if archivo_actas.exists():
         actas = json.loads(archivo_actas.read_text(encoding="utf-8"))
         orden = actas["orden_diputaciones"]
         sesiones = actas["sesiones"]
         asistencia = {s: {"presente": 0, "voto_sin_figurar": 0} for s in orden}
+        for s in sesiones:
+            for num, nom in (s.get("expedientes") or {}).items():
+                if nom not in nombres_expedientes.setdefault(num, []):
+                    nombres_expedientes[num].append(nom)
         for s in sesiones:
             for slug in s["presentes"]:
                 asistencia[slug]["presente"] += 1
@@ -427,6 +435,19 @@ def main() -> int:
     )
     kb = (destino / "asamblea.json").stat().st_size // 1024
     print(f"      datos/asamblea.json ({kb} KB)")
+
+    # Datos precalculados para el asistente de preguntas (ADR-030).
+    archivo_vot = destino / "votaciones.json"
+    vot = json.loads(archivo_vot.read_text(encoding="utf-8")) if archivo_vot.exists() else None
+    (destino / "asistente.json").write_text(
+        json.dumps(datos_asistente(salida, vot, nombres_expedientes), ensure_ascii=False, separators=(",", ":")),
+        encoding="utf-8")
+    (destino / "asistente-votaciones.json").write_text(
+        json.dumps(votaciones_asistente(vot), ensure_ascii=False, separators=(",", ":")),
+        encoding="utf-8")
+    kb = (destino / "asistente.json").stat().st_size // 1024
+    kb2 = (destino / "asistente-votaciones.json").stat().st_size // 1024
+    print(f"      datos/asistente.json ({kb} KB) y asistente-votaciones.json ({kb2} KB)")
 
     print("[3/3] Copiando activos...")
     dst = PUBLICO / "assets"
