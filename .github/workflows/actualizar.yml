@@ -31,6 +31,7 @@ on:
       - "data/curated/glosario.json"
       - "etl/publish_web.py"
       - "etl/paginas_estaticas.py"
+      - "etl/asistente_datos.py"
       - ".github/workflows/actualizar.yml"
 
 permissions:
