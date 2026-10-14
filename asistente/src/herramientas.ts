@@ -254,6 +254,8 @@ function ranking(
         fraccion: d.partido,
         provincia: d.provincia,
         valor: v,
+        ...(args.criterio === 'remuneracion_bruta' && d.remuneracion ? { mes: d.remuneracion.mes } : {}),
+        ...(args.criterio === 'combustible' && d.combustible ? { mes: d.combustible.mes } : {}),
         ...(d.notas_oficiales.length ? { notas_oficiales: d.notas_oficiales } : {}),
       })),
       empatados_fuera_de_la_lista: empatados,

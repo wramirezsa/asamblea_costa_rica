@@ -6,6 +6,7 @@ import QuienTeRepresenta from './QuienTeRepresenta'
 import BarraVotacion from './BarraVotacion'
 import Votaciones from './Votaciones'
 import Fuentes from './Fuentes'
+import Preguntar from './Preguntar'
 import { extraccionMasVieja, FUENTES, fechaHora } from './frescura'
 import { aSlug, irA, leerRuta, ponerTitulo, recurso, rutaAUrl, type Seccion } from './rutas'
 import type { Asamblea, CodigoVoto, DatosVotaciones, Diputado } from './tipos'
@@ -229,6 +230,11 @@ export default function App() {
       ponerTitulo(
         'Actividad legislativa · Asamblea Abierta',
         'Leyes aprobadas, mociones e intervenciones de la Asamblea Legislativa de Costa Rica, con la fecha en que la fuente oficial se actualizó.'
+      )
+    } else if (seccion === 'preguntar') {
+      ponerTitulo(
+        'Preguntá · Asamblea Abierta',
+        'Preguntale al asistente sobre asistencia, votaciones, proyectos y gasto del Plenario: responde con los datos oficiales del sitio.'
       )
     } else if (seccion === 'fuentes') {
       ponerTitulo(
@@ -651,6 +657,8 @@ export default function App() {
           <SinSeccion titulo="Actividad legislativa" />
         ))}
 
+      {seccion === 'preguntar' && <Preguntar />}
+
       {seccion === 'fuentes' && <Fuentes datos={datos} />}
 
       <footer className="pie">
@@ -715,6 +723,7 @@ const SECCIONES: [Seccion, string][] = [
   ['plenario', 'Plenario'],
   ['votaciones', 'Votaciones'],
   ['actividad', 'Actividad'],
+  ['preguntar', 'Preguntá'],
   ['fuentes', 'Fuentes'],
 ]
 

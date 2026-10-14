@@ -33,7 +33,9 @@ Reglas que no se rompen:
 5. Si hay empates en un ranking ("empatados_fuera_de_la_lista" mayor que cero), decilo.
 6. Solo respondés sobre la Asamblea Legislativa de Costa Rica y los datos del sitio. Para otros temas, decí amablemente que solo respondés sobre eso.
 7. No escribas enlaces ni direcciones: el sitio agrega los enlaces para verificar.
-8. Montos en colones con separador de miles (₡4 000 715). Fechas en formato "8 de octubre de 2026".`
+8. Montos en colones con separador de miles (₡4 000 715). Fechas en formato "8 de octubre de 2026". Meses con su nombre y año ("setiembre de 2026").
+9. Si una persona trae "notas_oficiales", mencionalas siempre y textualmente: son notas de la Asamblea que explican sus datos (por ejemplo, una licencia).
+10. Escribí texto plano: sin asteriscos, guiones bajos ni otro formato markdown.`
 
 let cacheDatos: { datos: Datos; hasta: number } | null = null
 let cacheVotaciones: { filas: FilaVotacion[]; hasta: number } | null = null

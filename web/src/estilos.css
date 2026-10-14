@@ -1655,3 +1655,81 @@ button { font: inherit; color: inherit; cursor: pointer; }
 @media (max-width: 760px) {
   .proyectos li { flex-direction: column; align-items: stretch; }
 }
+
+/* ---------------- Preguntá ---------------- */
+
+.pq-conversacion { display: flex; flex-direction: column; gap: 14px; margin-bottom: 14px; }
+.pq-sugerencias { display: flex; flex-wrap: wrap; gap: 8px; }
+
+.pq-sugerencias button {
+  padding: 8px 13px;
+  font-size: 12.5px;
+  color: var(--texto-2);
+  text-align: left;
+  background: var(--superficie);
+  border: 1px solid var(--borde);
+  border-radius: 999px;
+}
+
+.pq-sugerencias button:hover { color: var(--texto); border-color: var(--acento); }
+
+.pq-turno { display: flex; flex-direction: column; gap: 6px; }
+
+.pq-pregunta {
+  align-self: flex-end;
+  max-width: 80%;
+  margin: 0;
+  padding: 9px 13px;
+  font-size: 13px;
+  background: rgba(56, 189, 248, 0.14);
+  border: 1px solid rgba(56, 189, 248, 0.3);
+  border-radius: 14px 14px 4px 14px;
+}
+
+.pq-respuesta, .pq-esperando, .pq-error {
+  align-self: flex-start;
+  max-width: 88%;
+  margin: 0;
+  padding: 11px 14px;
+  font-size: 13px;
+  line-height: 1.6;
+  background: var(--superficie);
+  border: 1px solid var(--borde);
+  border-radius: 14px 14px 14px 4px;
+}
+
+.pq-respuesta p { margin: 0 0 6px; }
+.pq-esperando { color: var(--texto-3); font-style: italic; }
+.pq-error { color: #fca5a5; border-color: rgba(239, 68, 68, 0.35); }
+.pq-consultas { font-size: 11.5px; color: var(--texto-3); }
+.pq-enlaces { display: flex; flex-wrap: wrap; gap: 6px 10px; font-size: 12px; color: var(--texto-3); }
+.pq-enlaces a { color: var(--acento); text-decoration: none; }
+.pq-enlaces a:hover { text-decoration: underline; }
+
+.pq-formulario { display: flex; gap: 8px; }
+
+.pq-formulario input {
+  flex: 1;
+  min-width: 0;
+  padding: 11px 14px;
+  font-size: 13.5px;
+  color: var(--texto);
+  background: var(--superficie);
+  border: 1px solid var(--borde);
+  border-radius: 11px;
+  outline: none;
+}
+
+.pq-formulario input:focus { border-color: var(--acento); box-shadow: 0 0 0 3px rgba(56, 189, 248, 0.14); }
+
+.pq-formulario button {
+  padding: 0 18px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #04121f;
+  background: var(--acento);
+  border: none;
+  border-radius: 11px;
+}
+
+.pq-formulario button:disabled { opacity: 0.5; cursor: not-allowed; }

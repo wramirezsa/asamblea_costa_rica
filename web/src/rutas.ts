@@ -12,6 +12,7 @@
  *   /votacion/{clave}        el mapa con una votacion del acta ("ordinaria-58-12")
  *   /votaciones              resumen y lista de votaciones del Plenario
  *   /actividad               leyes, mociones e intervenciones
+ *   /preguntar               asistente que responde con los datos del sitio
  *   /fuentes                 de donde sale cada dato, fechas y lo que no mostramos
  *
  * Se usa la History API en vez de un router completo: son pocas rutas y no
@@ -20,9 +21,9 @@
  */
 
 /** Las secciones de la navegacion. 'plenario' es la portada (el mapa). */
-export type Seccion = 'plenario' | 'votaciones' | 'actividad' | 'fuentes'
+export type Seccion = 'plenario' | 'votaciones' | 'actividad' | 'preguntar' | 'fuentes'
 
-const SECCIONES_CON_RUTA: Seccion[] = ['votaciones', 'actividad', 'fuentes']
+const SECCIONES_CON_RUTA: Seccion[] = ['votaciones', 'actividad', 'preguntar', 'fuentes']
 
 export type Ruta =
   | { tipo: 'inicio' }

@@ -254,6 +254,9 @@ def main() -> int:
         "actividad": ("Actividad legislativa · Asamblea Abierta",
                       "Leyes aprobadas, mociones e intervenciones de la Asamblea Legislativa de "
                       "Costa Rica, con la fecha en que la fuente oficial se actualizó."),
+        "preguntar": ("Preguntá · Asamblea Abierta",
+                      "Preguntale al asistente sobre asistencia, votaciones, proyectos y gasto del "
+                      "Plenario: responde con los datos oficiales del sitio."),
         "fuentes": ("Fuentes · Asamblea Abierta",
                     "De dónde sale cada dato del sitio, cuándo se extrajo y qué no mostramos."),
     }

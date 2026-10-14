@@ -1092,3 +1092,53 @@ veía.
   la barra se perdió y quedó un carácter de control invisible (0x08) en la
   expresión regular, que nunca coincidía. Se revisó todo el código: no hay
   otros. Para código con barras invertidas, usar Write o Edit.
+
+## ADR-030 — Asistente de preguntas («Preguntá»): la IA elige, el código calcula
+
+**2026-10-13**
+
+El responsable del proyecto pidió un espacio donde la gente pregunte y reciba
+estadísticas del sitio, **gratis**. Riesgo principal: que una IA invente
+cifras, que es justo lo que este sitio no puede hacer.
+
+- **La IA no calcula ni recuerda datos.** Entiende la pregunta, elige una de 8
+  herramientas (`asistente/src/herramientas.ts`) y redacta con lo que
+  devuelven. Las herramientas son código determinista sobre los mismos datos
+  publicados. Cada respuesta dice qué consultó y enlaza a la ficha, votación
+  o sección donde verificarlo. Si no consultó nada, el sitio lo advierte.
+- **Reglas en el prompt:** ninguna cifra fuera de una herramienta; sin
+  opiniones ni calificaciones de personas, partidos o proyectos; «no figura
+  en la lista de presentes» y no «faltó»; mencionar siempre las notas
+  oficiales que explican un dato; solo temas del Plenario.
+- **Notas oficiales por persona.** Las oraciones de las notas de los Excel de
+  gasto que nombran a una diputación viajan con sus datos. Así, el ranking
+  de asistencia explica la licencia de maternidad de Kristel Ward Hudson en
+  vez de dejar un 34 de 112 sin contexto.
+- **Datos precalculados** por el ETL (`etl/asistente_datos.py`):
+  `datos/asistente.json` (70 KB) y `datos/asistente-votaciones.json` (421 KB,
+  se pide solo para buscar votaciones). El Worker gratuito tiene 10 ms de
+  CPU por pedido: no le alcanza para recorrer todo en cada pregunta. La
+  búsqueda por tema usa el nombre del expediente que trae el acta («presupuesto»
+  encuentra 23 votaciones aunque sus títulos sean códigos).
+- **Dónde corre:** Worker de Cloudflare `asamblea-abierta-asistente`
+  (`https://asamblea-abierta-asistente.wramirezsa.workers.dev`), cuenta del
+  responsable del proyecto, plan gratuito. IA: Groq (`openai/gpt-oss-120b`,
+  plan gratis, el mismo modelo que usa RC Tech, ver su
+  `docs/agente-ia-plan.md`) y, de respaldo, Workers AI (mismo modelo, 10 000
+  neuronas diarias gratis). **Nada puede cobrar:** el plan gratis de Workers
+  no admite cobro por exceso y la cuenta de Groq no tiene tarjeta. Al pasar
+  el límite, el asistente dice que volvió al tope del día.
+- **Abuso:** 6 preguntas por minuto por IP (limitador de Workers, gratis),
+  preguntas de hasta 400 caracteres, hasta 4 pasos de herramientas.
+- **Privacidad:** la pregunta se envía a Groq o a Cloudflare para
+  interpretarla; el sitio pide no escribir datos personales. El Worker no
+  guarda las preguntas.
+- **ADR-005 (cero llamadas externas desde el navegador)** se mantiene para las
+  fuentes: el navegador solo llama al Worker propio, nunca a la Asamblea.
+- **La clave de Groq** la pega el responsable en Cloudflare
+  (`wrangler secret put GROQ_API_KEY`); nunca pasa por el repositorio ni por
+  el chat. Sin clave, el asistente funciona solo con Workers AI.
+- **Despliegue del Worker:** a mano, `cd asistente && npx wrangler deploy`
+  (no está en el flujo de GitHub, que no tiene credenciales de Cloudflare).
+  Los datos sí se actualizan solos: el Worker los lee del sitio publicado y
+  los guarda 10 minutos.

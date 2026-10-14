@@ -172,6 +172,8 @@ jobs:
         working-directory: web
         env:
           BASE_PATH: /${{ github.event.repository.name }}/
+          # Direccion publica del asistente (ADR-030); la clave vive en Cloudflare.
+          VITE_ASISTENTE_URL: https://asamblea-abierta-asistente.wramirezsa.workers.dev
         run: |
           npm ci
           npm run build
