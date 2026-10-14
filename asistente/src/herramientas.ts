@@ -249,7 +249,7 @@ function buscarDiputacion(ctx: Contexto, args: { nombre?: string }): Resultado {
   return {
     datos: {
       encontradas: coinciden.length,
-      diputaciones: coinciden.map(({ slug: _s, ...resto }) => resto),
+      diputaciones: coinciden.map(({ slug: _s, ...resto }) => ({ ...resto, fraccion: nombreFraccion(ctx, resto as Diputacion) })),
       _nota:
         'Asistencia: sesiones en que figura en la lista de presentes del acta. Votos: votaciones nominales publicadas del periodo. «fuera_de_la_lista_de_la_votacion» NO es ausencia a la sesión: en esas votaciones su nombre no aparece en la lista (no estaba en el salón al votar o no se registró); la asistencia es solo el dato de asistencia. «en_la_lista_sin_votar»: figura en la lista de la votación pero no votó. Montos en colones, tal como los publica la Asamblea.',
     },
@@ -276,7 +276,7 @@ function ranking(
     }
   }
   let lista = ctx.datos.diputaciones
-  if (args.fraccion) lista = lista.filter((d) => coincideFraccion(d, args.fraccion!))
+  if (args.fraccion) lista = lista.filter((d) => coincideFraccion(ctx, d, args.fraccion!))
   if (args.provincia) lista = lista.filter((d) => plano(d.provincia ?? '') === plano(args.provincia!))
   const con = lista.map((d) => ({ d, v: valor(d) })).filter((x) => x.v !== null) as { d: Diputacion; v: number }[]
   const sinDato = lista.length - con.length
@@ -369,9 +369,28 @@ function glosario(ctx: Contexto, args: { termino?: string }): Resultado {
   }
 }
 
-function coincideFraccion(d: Diputacion, f: string): boolean {
+/**
+ * Siglas de fracción que coinciden con lo pedido ("PFA", "FA" o "Frente
+ * Amplio"). Se resuelve contra la lista de fracciones y se filtra por el
+ * código de partido: en el padrón oficial algunas diputaciones traen vacío el
+ * campo de fracción y por nombre quedarían fuera.
+ */
+function siglasDe(ctx: Contexto, f: string): Set<string> {
   const q = plano(f)
-  return plano(d.partido ?? '') === q || plano(d.fraccion ?? '').includes(q)
+  if (!q) return new Set()
+  return new Set(
+    ctx.datos.composicion.fracciones
+      .filter((x) => plano(x.codigo).includes(q) || plano(x.nombre ?? '').includes(q))
+      .map((x) => x.codigo)
+  )
+}
+
+function coincideFraccion(ctx: Contexto, d: Diputacion, f: string): boolean {
+  return siglasDe(ctx, f).has(d.partido ?? '')
+}
+
+function nombreFraccion(ctx: Contexto, d: Diputacion): string | null {
+  return d.fraccion ?? ctx.datos.composicion.fracciones.find((x) => x.codigo === d.partido)?.nombre ?? null
 }
 
 function listarDiputaciones(
@@ -379,15 +398,26 @@ function listarDiputaciones(
   args: { fraccion?: string; provincia?: string; solo_directorio?: boolean }
 ): Resultado {
   let lista = ctx.datos.diputaciones
-  if (args.fraccion) lista = lista.filter((d) => coincideFraccion(d, args.fraccion!))
+  if (args.fraccion) lista = lista.filter((d) => coincideFraccion(ctx, d, args.fraccion!))
   if (args.provincia) lista = lista.filter((d) => plano(d.provincia ?? '') === plano(args.provincia!))
   if (args.solo_directorio) lista = lista.filter((d) => d.cargo_directorio)
+  if (!lista.length) {
+    return {
+      datos: {
+        cantidad: 0,
+        nota: 'Ningún resultado con ese filtro. Probá de nuevo con una de estas fracciones o provincias.',
+        fracciones: ctx.datos.composicion.fracciones.map((f) => `${f.codigo} (${f.nombre})`),
+        provincias: [...new Set(ctx.datos.diputaciones.map((d) => d.provincia).filter(Boolean))],
+      },
+      enlaces: [],
+    }
+  }
   return {
     datos: {
       cantidad: lista.length,
       diputaciones: lista.map((d) => ({
         nombre: d.nombre,
-        fraccion: d.fraccion,
+        fraccion: nombreFraccion(ctx, d),
         sigla: d.partido,
         provincia: d.provincia,
         profesion: d.profesion ?? 'Sin dato oficial',
@@ -400,7 +430,7 @@ function listarDiputaciones(
 }
 
 function asistenciaSesion(ctx: Contexto, args: { fecha?: string }): Resultado {
-  const ses = ctx.datos.sesiones
+  const ses = ctx.datos.sesiones ?? []
   const ultima = ses[ses.length - 1]
   const elegidas = args.fecha ? ses.filter((s) => s.fecha === args.fecha) : ultima ? [ultima] : []
   if (!elegidas.length) {
@@ -409,7 +439,7 @@ function asistenciaSesion(ctx: Contexto, args: { fecha?: string }): Resultado {
         fecha_pedida: args.fecha,
         hay_acta: false,
         ultima_sesion_con_acta: ultima ? { fecha: ultima.fecha, tipo: ultima.tipo, numero: ultima.numero } : null,
-        actas_listadas_sin_texto: ctx.datos.actas.sin_documento,
+        actas_listadas_sin_texto: ctx.datos.actas?.sin_documento ?? [],
         _nota: 'No hay acta publicada de esa fecha: puede que no hubo sesión o que el acta todavía no está publicada. No se puede saber quién asistió.',
       },
       enlaces: [{ texto: 'Votaciones', url: `${ctx.sitio}/votaciones` }],

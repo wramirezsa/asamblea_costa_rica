@@ -22,6 +22,9 @@ interface Env {
 const MAX_PREGUNTA = 400
 const MAX_PASOS = 4
 const VIGENCIA_MS = 10 * 60 * 1000
+// Se sube cuando cambia la forma de los datos: la URL nueva no puede
+// devolver la copia vieja que guardó la caché de Cloudflare.
+const VERSION_DATOS = '3'
 
 const SISTEMA_BASE = `Sos el asistente de Asamblea Abierta, un sitio ciudadano independiente sobre el Plenario de la Asamblea Legislativa de Costa Rica (periodo 2026-2030). Respondés en español de Costa Rica, con voseo, breve: hasta cinco oraciones o una lista corta.
 
@@ -36,7 +39,8 @@ Reglas que no se rompen:
 7. No escribas enlaces ni direcciones: el sitio agrega los enlaces para verificar.
 8. Montos en colones con separador de miles (₡4 000 715). Fechas en formato "8 de octubre de 2026". Meses con su nombre y año ("setiembre de 2026").
 9. Si una persona trae "notas_oficiales", mencionalas siempre y textualmente: son notas de la Asamblea que explican sus datos (por ejemplo, una licencia).
-10. Escribí texto plano: sin asteriscos, guiones bajos ni otro formato markdown.`
+10. Escribí texto plano: sin asteriscos, guiones bajos ni otro formato markdown.
+11. Si piden un listado, escribí TODOS los elementos que devolvió la herramienta, sin omitir ninguno, y decí cuántos son al inicio (por ejemplo: "Son 7:").`
 
 let cacheDatos: { datos: Datos; hasta: number } | null = null
 let cacheVotaciones: { filas: FilaVotacion[]; hasta: number } | null = null
@@ -88,14 +92,14 @@ export default {
     if (pregunta.length > MAX_PREGUNTA) return json({ error: `La pregunta pasa de ${MAX_PREGUNTA} caracteres.` }, 400, c)
 
     if (!cacheDatos || cacheDatos.hasta < Date.now()) {
-      cacheDatos = { datos: await cargar<Datos>(`${env.DATOS_URL}asistente.json`), hasta: Date.now() + VIGENCIA_MS }
+      cacheDatos = { datos: await cargar<Datos>(`${env.DATOS_URL}asistente.json?v=${VERSION_DATOS}`), hasta: Date.now() + VIGENCIA_MS }
     }
     const ctx: Contexto = {
       datos: cacheDatos.datos,
       sitio: env.SITIO_URL.replace(/\/$/, ''),
       votaciones: async () => {
         if (!cacheVotaciones || cacheVotaciones.hasta < Date.now()) {
-          const v = await cargar<{ filas: FilaVotacion[] }>(`${env.DATOS_URL}asistente-votaciones.json`)
+          const v = await cargar<{ filas: FilaVotacion[] }>(`${env.DATOS_URL}asistente-votaciones.json?v=${VERSION_DATOS}`)
           cacheVotaciones = { filas: v.filas, hasta: Date.now() + VIGENCIA_MS }
         }
         return cacheVotaciones.filas
