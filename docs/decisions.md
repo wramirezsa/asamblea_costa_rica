@@ -1199,3 +1199,35 @@ varias, como «Mora», decide la IA).
   con esbuild). **Al probar desde la terminal de Windows con `curl`, las
   tildes llegan deformadas** y los patrones con «cuántas» o «quiénes» no
   calzan: probar desde Python (`evaluar.py`) o el navegador.
+
+### ADR-030, actualización 2026-10-14 (c) — segundo modelo gratis: Qwen
+
+El límite que se toca primero no es el diario sino el **por minuto**: Groq da
+8 000 tokens por minuto *por modelo*, y una pregunta con corrección del
+verificador gasta hasta 6 000. Con un solo modelo cabía más o menos una
+pregunta por minuto.
+
+- **Cadena:** `openai/gpt-oss-120b` → `qwen/qwen3.8-27b` (Groq, misma clave,
+  cupo propio de 8 000 tokens/minuto y 200 000/día, gratis) → Workers AI.
+  Qwen se evaluó solo antes de entrar: listas por fracción y provincia,
+  votos de Villalta (3 423 + 320 + 259 + 793 = 4 795, cuadra), no califica
+  diputaciones («¿quién es el peor?») y entiende repreguntas. Ninguna cifra
+  falsa. Se le pide `reasoning_format: hidden` para que su razonamiento no
+  se cuele en la respuesta.
+- **Descartados:** Cerebras dejó de tener plan gratuito permanente (pide
+  tarjeta; los créditos vencen). Gemini es gratis pero en ese plan Google usa
+  los datos para entrenar: decisión del dueño del proyecto, no se activó.
+  Más claves de Groq no suman: el cupo es por organización.
+- **Ahorro de cupo:** el verificador ya no toma como cifras los números de
+  una lista numerada («1.», «2)»): cada falso positivo costaba una llamada
+  extra. Y `listar_diputaciones` entrega hechos los subtotales por fracción
+  y provincia, porque el modelo los contaba de cabeza y el verificador
+  (con razón) los bloqueaba. Probados contra los cuadres oficiales
+  (`prueba/subtotales.test.ts`: 57, 31/17/7/1/1, 18/12/6/6/5/5/5).
+- **Respaldo de Workers AI a media conversación:** fallaba porque Qwen omite
+  `content` al llamar herramientas (gpt-oss manda `null`) y Workers AI exige
+  el campo. Se normaliza. No se pudo probar en vivo el mismo día: el cupo de
+  Workers AI estaba agotado.
+- Para probar un modelo sin tocar código:
+  `npx wrangler deploy --var MODELOS_GROQ:<modelo>` (y luego un `deploy`
+  normal para volver a la cadena del código).

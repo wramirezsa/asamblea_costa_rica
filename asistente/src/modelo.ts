@@ -2,8 +2,9 @@
  * Los modelos de IA, detrás de un mismo formato (mensajes de chat completions).
  *
  * Principal: Groq, plan gratuito, modelo openai/gpt-oss-120b (el mismo que usa
- * RC Tech). Respaldo: Workers AI de Cloudflare con el mismo modelo, plan
- * gratuito de 10 000 neuronas al día. Ninguno puede cobrar: el plan gratis de
+ * RC Tech) y, cuando se le acaba el cupo, qwen/qwen3.8-27b. Respaldo final:
+ * Workers AI de Cloudflare con gpt-oss-120b, plan gratuito de 10 000 neuronas
+ * al día. Ninguno puede cobrar: el plan gratis de
  * Workers no admite cobro por exceso y la cuenta de Groq no tiene tarjeta.
  */
 
@@ -31,11 +32,13 @@ export class SinCupo extends Error {
 }
 
 /**
- * Solo el modelo grande. El chico (gpt-oss-20b) tiene cupo propio, pero en la
- * evaluación del 2026-10-14 inventó cifras ("Hay 6 diputados") y respondió
- * fuera de tema: menos respuestas antes que respuestas falsas (ADR-030).
+ * En orden. Cada modelo de Groq tiene su propio cupo gratuito (8 000 tokens
+ * por minuto, 200 000 por día), así que el segundo entra cuando el primero se
+ * llena. Qwen pasó la evaluación del 2026-10-14 sin cifras falsas. El chico
+ * (gpt-oss-20b) no entra: inventó cifras ("Hay 6 diputados") y respondió
+ * fuera de tema; menos respuestas antes que respuestas falsas (ADR-030).
  */
-export const MODELOS_GROQ = ['openai/gpt-oss-120b']
+export const MODELOS_GROQ = ['openai/gpt-oss-120b', 'qwen/qwen3.8-27b']
 const MODELO_CF = '@cf/openai/gpt-oss-120b'
 
 export async function groq(clave: string, modelo: string, mensajes: Mensaje[], herramientas: readonly unknown[]): Promise<Respuesta> {
@@ -50,6 +53,8 @@ export async function groq(clave: string, modelo: string, mensajes: Mensaje[], h
       temperature: 0.2,
       max_completion_tokens: 700,
       reasoning_effort: 'low',
+      // Qwen mezclaria su razonamiento (<think>) con la respuesta si no se le pide ocultarlo.
+      ...(modelo.startsWith('qwen/') ? { reasoning_format: 'hidden' } : {}),
     }),
   })
   // Cuánto cupo queda (por minuto y por día), para saber qué límite se toca.
@@ -64,7 +69,8 @@ export async function groq(clave: string, modelo: string, mensajes: Mensaje[], h
   }
   const m = j.choices[0].message
   return {
-    texto: m.content,
+    // Qwen omite content cuando llama herramientas (gpt-oss manda null).
+    texto: m.content ?? null,
     llamadas: (m.tool_calls ?? []).map((t) => ({ id: t.id, nombre: t.function.name, argumentos: t.function.arguments })),
   }
 }
@@ -87,7 +93,7 @@ export async function workersAI(ai: Ai, mensajes: Mensaje[], herramientas: reado
     salida = (await (ai.run as unknown as (m: string, o: unknown) => Promise<unknown>)(MODELO_CF, {
       // Workers AI exige texto en content (no acepta null en el mensaje que
       // llama a una herramienta).
-      messages: mensajes.map((m) => (m.role === 'assistant' && m.content === null ? { ...m, content: '' } : m)),
+      messages: mensajes.map((m) => (m.role === 'assistant' && m.content == null ? { ...m, content: '' } : m)),
       tools: herramientas,
       reasoning_effort: 'low',
       max_tokens: 700,

@@ -406,9 +406,23 @@ function listarDiputaciones(
       enlaces: [],
     }
   }
+  // Los subtotales van hechos: la IA no cuenta (el verificador rechaza cifras
+  // que no estén en los datos).
+  const contar = (clave: (d: (typeof lista)[number]) => string | null | undefined) =>
+    Object.fromEntries(
+      Object.entries(
+        lista.reduce<Record<string, number>>((a, d) => {
+          const k = clave(d) || 'Sin dato oficial'
+          a[k] = (a[k] ?? 0) + 1
+          return a
+        }, {})
+      ).sort((x, y) => y[1] - x[1])
+    )
   return {
     datos: {
       cantidad: lista.length,
+      por_fraccion: contar((d) => d.partido),
+      por_provincia: contar((d) => d.provincia),
       // Filas compactas: "Nombre | sigla | provincia | profesión | cargo".
       // Como objetos, las 57 pesaban unos 3 300 tokens del cupo gratis.
       formato: 'nombre | fraccion | provincia | profesion | cargo en el Directorio',

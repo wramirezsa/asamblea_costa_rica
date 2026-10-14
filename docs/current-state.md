@@ -2,7 +2,7 @@
 
 > Actualizar al cerrar cada sesión. Es lo primero que se relee al retomar.
 
-**Última actualización:** 2026-10-09
+**Última actualización:** 2026-10-14
 
 ## Objetivo actual
 
@@ -59,6 +59,17 @@ En producción, GitHub Actions actualiza `data/` y publica el sitio cada día
   mayo de 2026, en la ficha de cada diputación, con enlace al Excel oficial.
 - Pendiente: los conjuntos de vehículos y viajes. El caso de Joselyn Sáenz
   (segundo apellido distinto entre fuentes) se resolvió por decisión humana.
+
+**Preguntá: asistente con IA** *(nuevo, ADR-030)*
+- Sección `/preguntar`. Un Worker de Cloudflare (plan gratis) recibe la
+  pregunta; la IA solo elige herramientas y las cifras las calculan funciones
+  sobre los datos publicados. Un verificador en código bloquea toda cifra que
+  no venga de los datos.
+- Preguntas comunes: respuesta directa sin IA (`directas.ts`), sin gastar cupo.
+- Cadena gratuita: Groq `gpt-oss-120b` → Groq `qwen/qwen3.8-27b` (cupo propio)
+  → Workers AI. La clave de Groq es un secreto de Cloudflare: nunca en el repo.
+- Memoria de conversación en el navegador (4 turnos), «Nueva conversación».
+- Evaluación: `asistente/prueba/evaluar.py --rapido` (gasta cupo diario).
 
 **Gestión de transparencia**
 - Solicitud formal **enviada** el 2026-09-02, fundada en la Ley 10554. Ver

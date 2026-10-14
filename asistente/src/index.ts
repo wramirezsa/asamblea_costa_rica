@@ -19,6 +19,8 @@ interface Env {
   DATOS_URL: string
   SITIO_URL: string
   ORIGENES: string
+  /** Opcional: cadena de modelos de Groq separada por comas (para probar uno sin tocar código). */
+  MODELOS_GROQ?: string
 }
 
 const MAX_PREGUNTA = 400
@@ -31,7 +33,7 @@ const VIGENCIA_MS = 10 * 60 * 1000
 // devolver la copia vieja que guardó la caché de Cloudflare.
 const VERSION_DATOS = '3'
 /** Se sube en cada cambio de comportamiento: invalida la caché de respuestas. */
-const VERSION_WORKER = '2026-10-14e'
+const VERSION_WORKER = '2026-10-14h'
 
 // Corto a propósito: viaja en cada paso y el cupo gratis se mide en tokens.
 const SISTEMA_BASE = `Sos el asistente de Asamblea Abierta, sitio ciudadano independiente sobre el Plenario de la Asamblea Legislativa de Costa Rica (2026-2030). Respondé en español de Costa Rica, con voseo, breve y en texto plano (sin asteriscos ni markdown).
@@ -127,6 +129,8 @@ function completar(texto: string, notas: Map<string, string[]>, articulos: strin
 /** Cifras de un texto, sin separadores de miles ni decimales: "₡4 000 714,75" -> "4000714". */
 function cifras(texto: string): string[] {
   const salida: string[] = []
+  // Los números de una lista numerada ("1. ", "2) ") ordenan, no afirman.
+  texto = texto.replace(/^(\s*)\d{1,2}[.)](?=\s)/gm, '$1')
   for (const m of texto.matchAll(/\d[\d\s  .,]*\d|\d/g)) {
     const limpio = m[0].replace(/[\s  ]/g, '')
     // "4.237" o "4,237" con grupos de 3 son miles; ",75" final son decimales.
@@ -249,7 +253,9 @@ export default {
     // vuelve a intentar hasta que pase la espera que pidió.
     const pedir = async (): Promise<Respuesta> => {
       const candidatos = [
-        ...(env.GROQ_API_KEY ? MODELOS_GROQ : []).filter((m) => (agotados.get(m) ?? 0) < Date.now()),
+        ...(env.GROQ_API_KEY ? (env.MODELOS_GROQ ? env.MODELOS_GROQ.split(',').map((s) => s.trim()) : MODELOS_GROQ) : []).filter(
+          (m) => (agotados.get(m) ?? 0) < Date.now()
+        ),
         'workers-ai',
         'workers-ai',
       ]
