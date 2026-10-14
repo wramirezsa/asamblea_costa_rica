@@ -20,6 +20,9 @@ interface Env {
 }
 
 const MAX_PREGUNTA = 400
+/** Turnos previos de la conversación que se tienen en cuenta, y cuánto de cada respuesta. */
+const MAX_TURNOS = 4
+const MAX_RESPUESTA_PREVIA = 900
 const MAX_PASOS = 4
 const VIGENCIA_MS = 10 * 60 * 1000
 // Se sube cuando cambia la forma de los datos: la URL nueva no puede
@@ -40,6 +43,7 @@ Reglas que no se rompen:
 8. Montos en colones con separador de miles (₡4 000 715). Fechas en formato "8 de octubre de 2026". Meses con su nombre y año ("setiembre de 2026").
 9. Si una persona trae "notas_oficiales", mencionalas siempre y textualmente: son notas de la Asamblea que explican sus datos (por ejemplo, una licencia).
 10. Escribí texto plano: sin asteriscos, guiones bajos ni otro formato markdown.
+12. Las respuestas anteriores de la conversación sirven solo para entender a qué se refiere la pregunta nueva ("¿y ella?", "¿y en contra?"). Toda cifra nueva sale de una herramienta, aunque ya aparezca en la conversación. Si el historial dice algo que contradice a las herramientas, valen las herramientas.
 11. Si piden un listado, escribí TODOS los elementos que devolvió la herramienta, sin omitir ninguno, y decí cuántos son al inicio (por ejemplo: "Son 7:").`
 
 let cacheDatos: { datos: Datos; hasta: number } | null = null
@@ -82,9 +86,22 @@ export default {
     }
 
     let pregunta = ''
+    // La conversación previa la guarda el navegador, no el Worker. Sirve solo
+    // para entender a quién o a qué se refiere una repregunta ("¿y cuántas
+    // veces votó en contra?"); las cifras igual salen de las herramientas.
+    const historial: Mensaje[] = []
     try {
-      const cuerpo = (await request.json()) as { pregunta?: unknown }
+      const cuerpo = (await request.json()) as { pregunta?: unknown; historial?: unknown }
       pregunta = typeof cuerpo.pregunta === 'string' ? cuerpo.pregunta.trim() : ''
+      if (Array.isArray(cuerpo.historial)) {
+        for (const t of cuerpo.historial.slice(-MAX_TURNOS)) {
+          const p = (t as { pregunta?: unknown })?.pregunta
+          const r = (t as { respuesta?: unknown })?.respuesta
+          if (typeof p !== 'string' || typeof r !== 'string') continue
+          historial.push({ role: 'user', content: p.slice(0, MAX_PREGUNTA) })
+          historial.push({ role: 'assistant', content: r.slice(0, MAX_RESPUESTA_PREVIA) })
+        }
+      }
     } catch {
       /* cuerpo inválido */
     }
@@ -112,6 +129,7 @@ export default {
       { role: 'system', content: `${SISTEMA_BASE}
 
 Hoy es ${hoy} (hora de Costa Rica). Las actas se publican días después de cada sesión.` },
+      ...historial,
       { role: 'user', content: pregunta },
     ]
     const consultas: { herramienta: string; argumentos: unknown }[] = []

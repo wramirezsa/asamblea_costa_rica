@@ -56,7 +56,15 @@ export default function Preguntar() {
         fetch(`${URL_ASISTENTE.replace(/\/$/, '')}/preguntar`, {
           method: 'POST',
           headers: { 'content-type': 'application/json' },
-          body: JSON.stringify({ pregunta: q }),
+          // La memoria de la conversación vive aquí, en el navegador: se
+          // mandan los últimos turnos para que se entiendan las repreguntas.
+          body: JSON.stringify({
+            pregunta: q,
+            historial: turnos
+              .filter((x) => x.respuesta)
+              .slice(-4)
+              .map((x) => ({ pregunta: x.pregunta, respuesta: x.respuesta })),
+          }),
         })
       let r = await pedir()
       // Un tropiezo pasajero de la IA (502) se reintenta una vez; los límites
@@ -81,7 +89,8 @@ export default function Preguntar() {
         <h2>Preguntá</h2>
         <p>
           Hacé una pregunta concreta sobre el Plenario: asistencia, votaciones, proyectos, gasto o
-          cómo se reparten las curules. Las cifras salen de los mismos datos oficiales del sitio, y
+          cómo se reparten las curules. Podés repreguntar («¿y cuántas veces votó en contra?»): el
+          asistente recuerda la conversación hasta que la borrés o recargués la página. Las cifras salen de los mismos datos oficiales del sitio, y
           cada respuesta dice qué consultó y dónde verificarlo.
         </p>
       </div>
@@ -137,6 +146,17 @@ export default function Preguntar() {
             ))}
             <div ref={fin} />
           </div>
+
+          {turnos.length > 0 && (
+            <button
+              className="pq-nueva"
+              onClick={() => setTurnos([])}
+              disabled={esperando}
+              title="Borra la memoria de esta conversación"
+            >
+              Nueva conversación
+            </button>
+          )}
 
           <form
             className="pq-formulario"
