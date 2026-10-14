@@ -49,7 +49,13 @@ interface Diputacion {
   cargo_directorio: string | null
   profesion: string | null
   asistencia: { presente: number; sesiones: number } | null
-  votos: { a_favor: number; en_contra: number; no_voto: number; no_figura: number; votaciones: number } | null
+  votos: {
+    a_favor: number
+    en_contra: number
+    en_la_lista_sin_votar: number
+    fuera_de_la_lista_de_la_votacion: number
+    votaciones_del_periodo: number
+  } | null
   remuneracion: { mes: string; dieta: number | null; representacion: number | null; bruta: number | null } | null
   combustible: { mes: string; monto: number | null; renuncio: boolean } | null
   /** Oraciones de las notas oficiales de la Asamblea que la mencionan por nombre. */
@@ -209,7 +215,7 @@ function buscarDiputacion(ctx: Contexto, args: { nombre?: string }): Resultado {
       encontradas: coinciden.length,
       diputaciones: coinciden.map(({ slug: _s, ...resto }) => resto),
       _nota:
-        'Asistencia: veces que figura en la lista de presentes de las actas del Plenario. Votos: votaciones nominales publicadas. Montos en colones, tal como los publica la Asamblea.',
+        'Asistencia: sesiones en que figura en la lista de presentes del acta. Votos: votaciones nominales publicadas del periodo. «fuera_de_la_lista_de_la_votacion» NO es ausencia a la sesión: en esas votaciones su nombre no aparece en la lista (no estaba en el salón al votar o no se registró); la asistencia es solo el dato de asistencia. «en_la_lista_sin_votar»: figura en la lista de la votación pero no votó. Montos en colones, tal como los publica la Asamblea.',
     },
     enlaces: coinciden.map((d) => ficha(ctx, d)),
   }
