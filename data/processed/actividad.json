@@ -1,10 +1,10 @@
 {
-  "generado": "2026-10-14T14:15:03+00:00",
+  "generado": "2026-10-17T15:47:49+00:00",
   "nota": "Solo se incluyen conjuntos que la Asamblea mantiene al día. Cada uno trae su propia fecha de última actualización, tomada de la fuente.",
   "leyes": {
     "_fuente": "https://www.asamblea.go.cr/glcp/_api/web/lists/getbytitle('res_de_leyes')/items?%24top=2000&%24orderby=Modified%20desc",
-    "total": 1627,
-    "ultima_actualizacion": "2026-10-13T20:51:25Z",
+    "total": 1632,
+    "ultima_actualizacion": "2026-10-16T17:18:58Z",
     "por_anio": {
       "2017": 7,
       "2018": 253,
@@ -15,9 +15,57 @@
       "2023": 97,
       "2024": 189,
       "2025": 214,
-      "2026": 144
+      "2026": 149
     },
     "recientes": [
+      {
+        "numero": "10988",
+        "titulo": "AUTORIZACIÓN AL INSTITUTO COSTARRICENSE DE ACUEDUCTOS Y ALCANTARILLADOS PARA QUE CONDONE LA DEUDA POR SERVICIOS PRESTADOS DE AGUA POTABLE, CARGOS VARIOS Y MULTAS, FACTURADOS CON LOS SERVICIOS NIS 3276895 Y NIS 3276897, A NOMBRE DE CONSORCIO COOPERATIVO DE",
+        "resumen": "Se autoriza al AYA a condonar la totalidad de la deuda (principal, intereses, multas, honorarios y otros cargos) de los servicios NIS 3276895 y 3276897, utilizados por el Consorcio Cooperativo de Vivienda FEDECRÉDITO R.L. para abastecer la escuela y colegio de Rincón Grande de Pavas, por un monto de ₡32.461.830,18 al 20 de noviembre de 2024. Si la deuda hubiera variado al momento de aplicar la ley, se condonará el sa",
+        "publicada": "2026-10-16T17:18:58Z"
+      },
+      {
+        "numero": "10987",
+        "titulo": "ADICIÓN DE UN INCISO K) AL ARTÍCULO 79 DE LA LEY 7410, LEY GENERAL DE POLICÍA, DEL 26 DE MAYO DE 1994, PARA REGULAR LA SUSCRIPCIÓN DE UNA PÓLIZA DE RESPONSABILIDAD PATRIMONIAL Y REPRESENTACIÓN LEGAL DE LOS FUNCIONARIOS POLICIALES DEMANDADOS O DENUNCIADOS",
+        "resumen": "Se agrega un nuevo derecho para los miembros de las fuerzas de policía: que el Estado contrate una póliza de seguro que cubra la responsabilidad patrimonial y los gastos de defensa legal cuando sean demandados o procesados por actuaciones realizadas en el ejercicio de sus funciones policiales. La cobertura tiene límites específicos, excluye conductas ilegales graves o contrarias a protocolos, y sustituye la represent",
+        "publicada": "2026-10-16T17:16:15Z"
+      },
+      {
+        "numero": "10986",
+        "titulo": "ADICIÓN DE UN INCISO K) AL ARTÍCULO 79 DE LA LEY 7410, LEY GENERAL DE POLICÍA, DEL 26 DE MAYO DE 1994, PARA REGULAR LA SUSCRIPCIÓN DE UNA PÓLIZA DE RESPONSABILIDAD PATRIMONIAL Y REPRESENTACIÓN LEGAL DE LOS FUNCIONARIOS POLICIALES DEMANDADOS O DENUNCIADOS",
+        "resumen": "Se aprueba en todas sus partes el Protocolo de 2014 que modifica el Convenio sobre las Infracciones y Ciertos Otros Actos Cometidos a Bordo de las Aeronaves (Ley N.° 5067 de 1972), con el fin de actualizar y fortalecer las normas internacionales para atender infracciones y actos ilícitos cometidos en aeronaves.\n\nLa presente ley surge del expediente N.° 25.207.",
+        "publicada": "2026-10-16T17:12:43Z"
+      },
+      {
+        "numero": "10977",
+        "titulo": "APROBACIÓN DE LA ENMIENDA AL ARTÍCULO 50 A) Y APROBACIÓN DE LA ENMIENDA AL ARTÍCULO 56, AMBAS DEL CONVENIO DE AVIACIÓN CIVIL INTERNACIONAL, LEY 877, DEL 4 DE JULIO DE 1947",
+        "resumen": "Se aprueban las enmiendas de 2016 a los artículos 50(a) y 56 del Convenio de Aviación Civil Internacional adoptadas por la OACI.\n\nLa presente ley surge del expediente N.° 25.243.",
+        "publicada": "2026-09-23T20:32:30Z"
+      },
+      {
+        "numero": "10976",
+        "titulo": "APROBACIÓN DE LA ADHESIÓN DE COSTA RICA AL CONVENIO SOBRE LA PROTECCIÓN Y UTILIZACIÓN DE LOS CURSOS DE AGUAS TRANSFRONTERIZAS Y DE LOS LAGOS INTERNACIONALES",
+        "resumen": "Ese artículo significa que el órgano legislativo está aprobando íntegramente el Convenio sobre la Protección y Utilización de los Cursos de Aguas Transfronterizas y de los Lagos Internacionales, incorporando oficialmente su texto al instrumento jurídico que se está tramitando.\n\nLa presente ley surge del expediente N.° 25.024.",
+        "publicada": "2026-09-23T20:29:48Z"
+      },
+      {
+        "numero": "10974",
+        "titulo": "MODIFICACIÓN DEL INCISO A) DEL ARTÍCULO 13 DE LA LEY 7794, CÓDIGO MUNICIPAL, DEL 30 DE ABRIL DE 1998",
+        "resumen": "El concejo municipal deberá definir las políticas de desarrollo del cantón con participación ciudadana, garantizando los derechos humanos y la igualdad de género, y podrá crear una oficina especializada para estos temas con presupuesto propio.\n\nLa presente ley surge del expediente N.° 24.880.",
+        "publicada": "2026-09-18T17:06:00Z"
+      },
+      {
+        "numero": "10985",
+        "titulo": "APROBACIÓN DEL ACUERDO SOBRE TRANSPORTE AÉREO ENTRE EL GOBIERNO DE LA REPÚBLICA DE COSTA RICA Y EL GOBIERNO DE LA REPÚBLICA DE EL SALVADOR",
+        "resumen": "Se aprueba en su totalidad el Acuerdo sobre Transporte Aéreo suscrito entre el Gobierno de la República de Costa Rica y el Gobierno de la República de El Salvador, firmado en San José, Costa Rica, el 11 de noviembre de 2024. El acuerdo regula las condiciones de cooperación y operación del transporte aéreo entre ambos países.\n\nLa presente ley surge del expediente N.° 25.080.",
+        "publicada": "2026-10-14T23:23:55Z"
+      },
+      {
+        "numero": "10984",
+        "titulo": "ACUERDO DE SERVICIOS AÉREOS ENTRE EL GOBIERNO DE LA REPÚBLICA DE COSTA RICA Y LA REPÚBLICA ORIENTAL DEL URUGUAY",
+        "resumen": "Se aprueba en su totalidad el Acuerdo de Servicios Aéreos entre Costa Rica y Uruguay, firmado en San José, Costa Rica, el 10 de junio de 2024. El acuerdo regula la cooperación y los servicios de transporte aéreo entre ambos países.\n\nLa presente ley surge del expediente N.° 25.302.",
+        "publicada": "2026-10-14T23:21:59Z"
+      },
       {
         "numero": "10983",
         "titulo": "CIERRE DEL MINISTERIO DE GOBERNACIÓN Y POLICÍA DE COSTA RICA Y REORDENAMIENTO DE SUS COMPETENCIAS DESCONCENTRADAS",
@@ -71,24 +119,6 @@
         "titulo": "REFORMA DEL ARTÍCULO 17 BIS DE LA LEY N.º 7818, LEY ORGÁNICA DE LA AGRICULTURA E INDUSTRIA DE LA CAÑA DE AZÚCAR, DEL 2 DE SETIEMBRE DE 1998",
         "resumen": "Se crea un fondo financiado con el 0,7% de la liquidación de azúcar en cuota para compensar a pequeños y medianos productores independientes (hasta 1.500 toneladas) por la diferencia entre el precio de cuota y el de excedentes. También regula reservas, pagos, sanciones y la distribución de eventuales remanentes.\n\nLa presente ley surge del expediente N.° 25.647.",
         "publicada": "2026-09-28T16:13:51Z"
-      },
-      {
-        "numero": "10977",
-        "titulo": "APROBACIÓN DE LA ENMIENDA AL ARTÍCULO 50 A) Y APROBACIÓN DE LA ENMIENDA AL ARTÍCULO 56, AMBAS DEL CONVENIO DE AVIACIÓN CIVIL INTERNACIONAL, LEY 877, DEL 4 DE JULIO DE 1947",
-        "resumen": "Se aprueban las enmiendas de 2016 a los artículos 50(a) y 56 del Convenio de Aviación Civil Internacional adoptadas por la OACI.\n\nLa presente ley surge del expediente N.° 25.243.",
-        "publicada": "2026-09-23T20:32:30Z"
-      },
-      {
-        "numero": "10976",
-        "titulo": "APROBACIÓN DE LA ADHESIÓN DE COSTA RICA AL CONVENIO SOBRE LA PROTECCIÓN Y UTILIZACIÓN DE LOS CURSOS DE AGUAS TRANSFRONTERIZAS Y DE LOS LAGOS INTERNACIONALES",
-        "resumen": "Ese artículo significa que el órgano legislativo está aprobando íntegramente el Convenio sobre la Protección y Utilización de los Cursos de Aguas Transfronterizas y de los Lagos Internacionales, incorporando oficialmente su texto al instrumento jurídico que se está tramitando.\n\nLa presente ley surge del expediente N.° 25.024.",
-        "publicada": "2026-09-23T20:29:48Z"
-      },
-      {
-        "numero": "10974",
-        "titulo": "MODIFICACIÓN DEL INCISO A) DEL ARTÍCULO 13 DE LA LEY 7794, CÓDIGO MUNICIPAL, DEL 30 DE ABRIL DE 1998",
-        "resumen": "El concejo municipal deberá definir las políticas de desarrollo del cantón con participación ciudadana, garantizando los derechos humanos y la igualdad de género, y podrá crear una oficina especializada para estos temas con presupuesto propio.\n\nLa presente ley surge del expediente N.° 24.880.",
-        "publicada": "2026-09-18T17:06:00Z"
       },
       {
         "numero": "10973",
@@ -347,49 +377,19 @@
         "titulo": "LEY DE CREACIÓN DEL ÁREA SILVESTRE PROTEGIDA PAISAJE NACIONAL ESPEJO DE AGUA EMBALSE ARENAL Y FOMENTO DE ACTIVIDADES ASOCIADAS AL USO SOSTENIBLE EN SU ZONA DE AMORTIGUAMIENTO",
         "resumen": "El texto permite que las sociedades registren o modifiquen su correo electrónico como medio oficial de notificación mediante una declaración jurada digital, sin necesidad de escritura pública. Además, fija plazos para que las sociedades inscriban este correo (hasta diciembre de 2026) y ordena al Registro Nacional crear un sistema electrónico para este trámite, el cual será gratuito durante un periodo determinado.\n\nLa",
         "publicada": "2026-06-03T20:38:26Z"
-      },
-      {
-        "numero": "10956",
-        "titulo": "APROBACIÓN DE LOS CONTRATOS DE PRÉSTAMO SUSCRITOS ENTRE LA REPÚBLICA DE COSTA RICA, EL BANCO CENTROAMERICANO DE INTEGRACIÓN ECONÓMICA Y EL BANCO EUROPEO DE INVERSIONES, PARA EL PROYECTO DE CONSTRUCCIÓN, EQUIPAMIENTO Y PUESTA EN OPERACIÓN DE LAS LÍNEAS 1 Y",
-        "resumen": "Se aprueba un contrato de financiamiento entre el Banco Europeo de Inversiones y Costa Rica para desarrollar las Líneas 1 y 2 del tren rápido en la Gran Área Metropolitana, incluyendo sus anexos como parte de la ley.\n\nLa presente ley surge del expediente N.° 25.291.",
-        "publicada": "2026-05-13T22:19:14Z"
-      },
-      {
-        "numero": "10955",
-        "titulo": "APROBACIÓN DE LOS CONTRATOS DE PRÉSTAMO SUSCRITOS ENTRE LA REPÚBLICA DE COSTA RICA Y EL BANCO INTERNACIONAL DE RECONSTRUCCIÓN Y FOMENTO Y EL FONDO INTERNACIONAL DE DESARROLLO AGRÍCOLA PARA FINANCIAR EL PROGRAMA PARA UNA AGRICULTURA SOSTENIBLE Y COMPETITIV",
-        "resumen": "Se aprueba un préstamo de hasta 115,5 millones de euros del BIRF a Costa Rica para financiar un programa de agricultura sostenible y competitiva, incluyendo el contrato y sus anexos como parte de la ley.\n\nLa presente ley surge del expediente N.° 25.228.",
-        "publicada": "2026-05-13T22:10:47Z"
-      },
-      {
-        "numero": "10954",
-        "titulo": "APROBACIÓN DEL CONTRATO DE FINANCIAMIENTO N.° 9653-CR SUSCRITO ENTRE LA REPÚBLICA DE COSTA RICA Y EL BANCO INTERNACIONAL DE RECONSTRUCCIÓN Y FOMENTO (BIRF) PARA FINANCIAR EL PROGRAMA DE RECONSTRUCCIÓN Y DESARROLLO TERRITORIAL RESILIENTE AL CLIMA",
-        "resumen": "Se aprueba un préstamo con el Banco Mundial por hasta US$350 millones para financiar un programa de reconstrucción y desarrollo resiliente al clima en Costa Rica, incluyendo el contrato y sus anexos como parte de la ley.\n\nLa presente ley surge del expediente N.° 24.761.",
-        "publicada": "2026-05-13T22:08:40Z"
-      },
-      {
-        "numero": "10953",
-        "titulo": "LEY PARA FORTALECER EL APOYO AL SECTOR CULTURAL MEDIANTE EL ESTABLECIMIENTO DE HABILITACIONES LEGALES PARA EL MINISTERIO DE CULTURA Y JUVENTUD Y SUS ÓRGANOS DESCONCENTRADOS (REFORMA PARCIAL DE LA LEY 4788, CREA EL MINISTERIO DE CULTURA, JUVENTUD Y DEPORTE",
-        "resumen": "El nuevo artículo 2 bis de la Ley 4788 otorga al Ministerio de Cultura y Juventud la facultad de arrendar y facilitar espacios, reconocer compensaciones especiales a funcionarios, cobrar entradas y matrículas (gratuitas si son sociales), realizar coproducciones culturales, crear fondos concursables y participar en iniciativas internacionales, todo bajo reglamentos que deberán emitirse en un plazo de seis meses.\n\nLa p",
-        "publicada": "2026-05-08T01:05:34Z"
-      },
-      {
-        "numero": "10939",
-        "titulo": "LEY DE ARBOLADO URBANO",
-        "resumen": "La ley establece el fomento y gestión del arbolado urbano en áreas públicas y privadas, declarando su conservación de interés público, asignando responsabilidades a municipalidades, instituciones y empresas, y creando planes técnicos, sanciones y financiamiento para garantizar ciudades más sostenibles y resilientes.\n\nLa presente ley surge del expediente N.° 24.818.",
-        "publicada": "2026-04-22T17:55:23Z"
       }
     ]
   },
   "mociones": {
     "_fuente": "https://www.asamblea.go.cr/glcp/_api/web/lists/getbytitle('mociones_total')/items?%24top=5000&%24orderby=Id%20desc",
-    "total": 27249,
-    "nota_alcance": "Agregados calculados sobre las 27249 mociones que devuelve la lista completa, no sobre una muestra.",
-    "ultima_actualizacion": "2026-10-14T01:16:17Z",
+    "total": 27382,
+    "nota_alcance": "Agregados calculados sobre las 27382 mociones que devuelve la lista completa, no sobre una muestra.",
+    "ultima_actualizacion": "2026-10-17T00:30:49Z",
     "por_resultado": {
-      "Rechazada": 23136,
-      "Aprobada": 3562,
-      "Retirada": 392,
-      "Pendiente": 158,
+      "Rechazada": 23152,
+      "Aprobada": 3574,
+      "Retirada": 394,
+      "Pendiente": 261,
       "Revisión": 1
     },
     "por_anio": {
@@ -397,343 +397,381 @@
       "2023": 3827,
       "2024": 4729,
       "2025": 9087,
-      "2026": 6356
+      "2026": 6489
     },
-    "expedientes_distintos": 1235,
+    "expedientes_distintos": 1237,
     "recientes": [
-      {
-        "numero": "Moción N.° 26",
-        "expediente": "25754",
-        "resultado": "Pendiente",
-        "asunto": "LEY DE PRESUPUESTO ORDINARIO Y EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2027",
-        "tramite": null,
-        "fecha": "2026-10-14T01:15:17Z"
-      },
-      {
-        "numero": "N.°02-53",
-        "expediente": "25649",
-        "resultado": "Aprobada",
-        "asunto": "LEY CONTRA LA PARTICIPACIÓN DE SERVIDORES PÚBLICOS EN PARAÍSOS FISCALES",
-        "tramite": null,
-        "fecha": "2026-10-13T23:49:42Z"
-      },
-      {
-        "numero": "N.°01-53",
-        "expediente": "25557",
-        "resultado": "Aprobada",
-        "asunto": "DEROGATORIA DE LOS CAPÍTULOS I, II, III, IV Y V DEL TÍTULO IV DE LA LEY DE FORTALECIMIENTO DE LAS FINANZAS PUBLICAS LEY NUMERO 9635 DEL 3 DE DICIEMBRE DE 2018 Y SUS REFORMAS",
-        "tramite": null,
-        "fecha": "2026-10-13T23:47:16Z"
-      },
-      {
-        "numero": "Moción N.° 25",
-        "expediente": "25754",
-        "resultado": "Pendiente",
-        "asunto": "LEY DE PRESUPUESTO ORDINARIO Y EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2027",
-        "tramite": "I día",
-        "fecha": "2026-10-13T22:50:38Z"
-      },
-      {
-        "numero": "Moción N.° 24",
-        "expediente": "25754",
-        "resultado": "Pendiente",
-        "asunto": "LEY DE PRESUPUESTO ORDINARIO Y EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2027",
-        "tramite": "I día",
-        "fecha": "2026-10-13T22:49:54Z"
-      },
-      {
-        "numero": "Moción N.° 23",
-        "expediente": "25754",
-        "resultado": "Pendiente",
-        "asunto": "LEY DE PRESUPUESTO ORDINARIO Y EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2027",
-        "tramite": "I día",
-        "fecha": "2026-10-13T22:49:13Z"
-      },
-      {
-        "numero": "Moción N.° 22",
-        "expediente": "25754",
-        "resultado": "Pendiente",
-        "asunto": "LEY DE PRESUPUESTO ORDINARIO Y EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2027",
-        "tramite": "I día",
-        "fecha": "2026-10-13T22:48:36Z"
-      },
-      {
-        "numero": "Moción N.° 21",
-        "expediente": "25754",
-        "resultado": "Pendiente",
-        "asunto": "LEY DE PRESUPUESTO ORDINARIO Y EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2027",
-        "tramite": "I día",
-        "fecha": "2026-10-13T22:47:42Z"
-      },
-      {
-        "numero": "0005",
-        "expediente": "24517",
-        "resultado": "Rechazada",
-        "asunto": "PRESCRIPCIÓN DE OFICIO PARA DEUDAS FINANCIERAS EN COBRO JUDICIAL",
-        "tramite": "II día",
-        "fecha": "2026-10-13T22:40:26Z"
-      },
-      {
-        "numero": "0004",
-        "expediente": "24517",
-        "resultado": "Rechazada",
-        "asunto": "PRESCRIPCIÓN DE OFICIO PARA DEUDAS FINANCIERAS EN COBRO JUDICIAL",
-        "tramite": "II día",
-        "fecha": "2026-10-13T22:40:10Z"
-      },
-      {
-        "numero": "0003",
-        "expediente": "24517",
-        "resultado": "Rechazada",
-        "asunto": "PRESCRIPCIÓN DE OFICIO PARA DEUDAS FINANCIERAS EN COBRO JUDICIAL",
-        "tramite": "II día",
-        "fecha": "2026-10-13T22:39:54Z"
-      },
-      {
-        "numero": "0002",
-        "expediente": "24517",
-        "resultado": "Rechazada",
-        "asunto": "PRESCRIPCIÓN DE OFICIO PARA DEUDAS FINANCIERAS EN COBRO JUDICIAL",
-        "tramite": "II día",
-        "fecha": "2026-10-13T22:39:04Z"
-      },
-      {
-        "numero": "0001",
-        "expediente": "24517",
-        "resultado": "Rechazada",
-        "asunto": "PRESCRIPCIÓN DE OFICIO PARA DEUDAS FINANCIERAS EN COBRO JUDICIAL",
-        "tramite": "II día",
-        "fecha": "2026-10-13T22:38:23Z"
-      },
-      {
-        "numero": null,
-        "expediente": "25659",
-        "resultado": "Rechazada",
-        "asunto": "REFORMA DEL SUBINCISO 11 DEL INCISO 1 ARTÍCULO 72 Y ADICIÓN DE UN PARRAFO AL INCISO 2 DEL ARTÍCULO 72 DE LA LEY N.º 9342 DEL 3 DE FEBRERO DE 2016 \u001aCÓDIGO PROCESAL CIVIL\u001a, PARA GARANTIZAR LA EFECTIVIDAD DE LA DEMANDA EXTRAORDINARIA DE REVISIÓN EN CASOS DE",
-        "tramite": null,
-        "fecha": "2026-10-13T21:08:47Z"
-      },
-      {
-        "numero": null,
-        "expediente": "25659",
-        "resultado": "Aprobada",
-        "asunto": "REFORMA DEL SUBINCISO 11 DEL INCISO 1 ARTÍCULO 72 Y ADICIÓN DE UN PARRAFO AL INCISO 2 DEL ARTÍCULO 72 DE LA LEY N.º 9342 DEL 3 DE FEBRERO DE 2016 \u001aCÓDIGO PROCESAL CIVIL\u001a, PARA GARANTIZAR LA EFECTIVIDAD DE LA DEMANDA EXTRAORDINARIA DE REVISIÓN EN CASOS DE",
-        "tramite": null,
-        "fecha": "2026-10-13T21:06:30Z"
-      },
-      {
-        "numero": "Moción N.° 4",
-        "expediente": "25803",
-        "resultado": "Pendiente",
-        "asunto": "SEGUNDO PRESUPUESTO EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2026 Y SEGUNDA MODIFICACIÓN LEGISLATIVA DE LA LEY N° 10.836.",
-        "tramite": "I día",
-        "fecha": "2026-10-13T19:51:30Z"
-      },
-      {
-        "numero": "Moción N.° 20",
-        "expediente": "25754",
-        "resultado": "Pendiente",
-        "asunto": "LEY DE PRESUPUESTO ORDINARIO Y EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2027",
-        "tramite": "I día",
-        "fecha": "2026-10-13T19:48:32Z"
-      },
-      {
-        "numero": null,
-        "expediente": "24965",
-        "resultado": "Aprobada",
-        "asunto": "REFORMA DE LOS ARTÍCULOS 105, 136, 138, 140, 143, 145, 177, 284, 301, 310 Y ADICIÓN DE UN ARTÍCULO 136 BIS AL CÓDIGO DE TRABAJO, LEY N°2 DEL 27 DE AGOSTO DE 1943, Y REFORMA DEL INCISO D) DEL ARTÍCULO 2, ADICIÓN DE UN INCISO F) Y REFORMA DEL ARTÍCULO 15 DE",
-        "tramite": "I día",
-        "fecha": "2026-10-13T16:13:15Z"
-      },
-      {
-        "numero": "05-29",
-        "expediente": "24965",
-        "resultado": "Rechazada",
-        "asunto": "REFORMA DE LOS ARTÍCULOS 105, 136, 138, 140, 143, 145, 177, 284, 301, 310 Y ADICIÓN DE UN ARTÍCULO 136 BIS AL CÓDIGO DE TRABAJO, LEY N°2 DEL 27 DE AGOSTO DE 1943, Y REFORMA DEL INCISO D) DEL ARTÍCULO 2, ADICIÓN DE UN INCISO F) Y REFORMA DEL ARTÍCULO 15 DE",
-        "tramite": null,
-        "fecha": "2026-10-13T16:03:33Z"
-      },
-      {
-        "numero": null,
-        "expediente": "25656",
-        "resultado": "Rechazada",
-        "asunto": "LEY PARA EL FORTALECIMIENTO Y EL ACCESO AL DEPORTE Y LA RECREACIÓN NACIONAL Y CANTONAL",
-        "tramite": "INFORME DE SUBCOMISION NEGATIVO",
-        "fecha": "2026-10-12T17:06:46Z"
-      },
-      {
-        "numero": null,
-        "expediente": "25656",
-        "resultado": "Aprobada",
-        "asunto": "LEY PARA EL FORTALECIMIENTO Y EL ACCESO AL DEPORTE Y LA RECREACIÓN NACIONAL Y CANTONAL",
-        "tramite": "INFORME DE SUBCOMISION AFIRMATIVO",
-        "fecha": "2026-10-12T17:04:40Z"
-      },
-      {
-        "numero": null,
-        "expediente": "25656",
-        "resultado": "Aprobada",
-        "asunto": "LEY PARA EL FORTALECIMIENTO Y EL ACCESO AL DEPORTE Y LA RECREACIÓN NACIONAL Y CANTONAL",
-        "tramite": "124",
-        "fecha": "2026-10-12T17:02:40Z"
-      },
-      {
-        "numero": null,
-        "expediente": "25656",
-        "resultado": "Aprobada",
-        "asunto": "LEY PARA EL FORTALECIMIENTO Y EL ACCESO AL DEPORTE Y LA RECREACIÓN NACIONAL Y CANTONAL",
-        "tramite": "124",
-        "fecha": "2026-10-12T17:01:56Z"
-      },
-      {
-        "numero": null,
-        "expediente": "25656",
-        "resultado": "Aprobada",
-        "asunto": "LEY PARA EL FORTALECIMIENTO Y EL ACCESO AL DEPORTE Y LA RECREACIÓN NACIONAL Y CANTONAL",
-        "tramite": "124",
-        "fecha": "2026-10-12T17:01:08Z"
-      },
-      {
-        "numero": null,
-        "expediente": "25656",
-        "resultado": "Aprobada",
-        "asunto": "LEY PARA EL FORTALECIMIENTO Y EL ACCESO AL DEPORTE Y LA RECREACIÓN NACIONAL Y CANTONAL",
-        "tramite": "124",
-        "fecha": "2026-10-12T17:00:20Z"
-      },
-      {
-        "numero": null,
-        "expediente": "25656",
-        "resultado": "Aprobada",
-        "asunto": "LEY PARA EL FORTALECIMIENTO Y EL ACCESO AL DEPORTE Y LA RECREACIÓN NACIONAL Y CANTONAL",
-        "tramite": "124",
-        "fecha": "2026-10-12T16:58:36Z"
-      },
-      {
-        "numero": "Moción N.° 19",
-        "expediente": "25754",
-        "resultado": "Pendiente",
-        "asunto": "LEY DE PRESUPUESTO ORDINARIO Y EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2027",
-        "tramite": "I día",
-        "fecha": "2026-10-12T16:34:19Z"
-      },
-      {
-        "numero": "Moción N.° 18",
-        "expediente": "25754",
-        "resultado": "Pendiente",
-        "asunto": "LEY DE PRESUPUESTO ORDINARIO Y EXTRAORDI0NARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2027",
-        "tramite": null,
-        "fecha": "2026-10-09T20:08:33Z"
-      },
-      {
-        "numero": "Moción N.° 3",
-        "expediente": "25803",
-        "resultado": "Pendiente",
-        "asunto": "SEGUNDO PRESUPUESTO EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2026 Y SEGUNDA MODIFICACIÓN LEGISLATIVA DE LA LEY N° 10.836.",
-        "tramite": null,
-        "fecha": "2026-10-09T17:52:48Z"
-      },
-      {
-        "numero": "Moción N.° 17",
-        "expediente": "25754",
-        "resultado": "Pendiente",
-        "asunto": "LEY DE PRESUPUESTO ORDINARIO Y EXTRAORDI0NARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2027",
-        "tramite": null,
-        "fecha": "2026-10-09T17:49:13Z"
-      },
-      {
-        "numero": "Moción N.° 16",
-        "expediente": "25754",
-        "resultado": "Pendiente",
-        "asunto": "LEY DE PRESUPUESTO ORDINARIO Y EXTRAORDI0NARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2027",
-        "tramite": null,
-        "fecha": "2026-10-09T17:42:33Z"
-      },
-      {
-        "numero": "Texto Base 25.803",
-        "expediente": "25803",
-        "resultado": "Pendiente",
-        "asunto": "SEGUNDO PRESUPUESTO EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2026 Y SEGUNDA MODIFICACIÓN LEGISLATIVA DE LA LEY N° 10.836",
-        "tramite": null,
-        "fecha": "2026-10-09T15:29:55Z"
-      },
-      {
-        "numero": "Moción N.° 15",
-        "expediente": "25754",
-        "resultado": "Pendiente",
-        "asunto": "LEY DE PRESUPUESTO ORDINARIO Y EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2027",
-        "tramite": null,
-        "fecha": "2026-10-08T22:56:37Z"
-      },
       {
         "numero": "Moción N.° 14",
         "expediente": "25754",
-        "resultado": "Pendiente",
+        "resultado": "Rechazada",
         "asunto": "LEY DE PRESUPUESTO ORDINARIO Y EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2027",
         "tramite": null,
-        "fecha": "2026-10-08T22:56:16Z"
+        "fecha": "2026-10-17T00:30:29Z"
+      },
+      {
+        "numero": "Moción N.° 13",
+        "expediente": "25754",
+        "resultado": "Aprobada",
+        "asunto": "LEY DE PRESUPUESTO ORDINARIO Y EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2027",
+        "tramite": null,
+        "fecha": "2026-10-17T00:29:51Z"
+      },
+      {
+        "numero": "Moción N.° 12",
+        "expediente": "25754",
+        "resultado": "Aprobada",
+        "asunto": "LEY DE PRESUPUESTO ORDINARIO Y EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2027",
+        "tramite": null,
+        "fecha": "2026-10-17T00:29:15Z"
+      },
+      {
+        "numero": "Moción N.° 11",
+        "expediente": "25754",
+        "resultado": "Aprobada",
+        "asunto": "LEY DE PRESUPUESTO ORDINARIO Y EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2027",
+        "tramite": null,
+        "fecha": "2026-10-17T00:28:01Z"
+      },
+      {
+        "numero": "Moción N.° 10",
+        "expediente": "25754",
+        "resultado": "Aprobada",
+        "asunto": "LEY DE PRESUPUESTO ORDINARIO Y EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2027",
+        "tramite": null,
+        "fecha": "2026-10-17T00:27:05Z"
+      },
+      {
+        "numero": "Moción N.° 09",
+        "expediente": "25754",
+        "resultado": "Retirada",
+        "asunto": "LEY DE PRESUPUESTO ORDINARIO Y EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2027",
+        "tramite": null,
+        "fecha": "2026-10-17T00:26:20Z"
+      },
+      {
+        "numero": "Moción N.° 08",
+        "expediente": "25754",
+        "resultado": "Aprobada",
+        "asunto": "LEY DE PRESUPUESTO ORDINARIO Y EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2027",
+        "tramite": null,
+        "fecha": "2026-10-17T00:24:55Z"
+      },
+      {
+        "numero": "Moción N.° 07",
+        "expediente": "25754",
+        "resultado": "Rechazada",
+        "asunto": "LEY DE PRESUPUESTO ORDINARIO Y EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2027",
+        "tramite": null,
+        "fecha": "2026-10-17T00:20:15Z"
+      },
+      {
+        "numero": "Moción N.° 06",
+        "expediente": "25754",
+        "resultado": "Retirada",
+        "asunto": "LEY DE PRESUPUESTO ORDINARIO Y EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2027",
+        "tramite": null,
+        "fecha": "2026-10-17T00:19:45Z"
+      },
+      {
+        "numero": "Moción N.° 05",
+        "expediente": "25754",
+        "resultado": "Rechazada",
+        "asunto": "LEY DE PRESUPUESTO ORDINARIO Y EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2027",
+        "tramite": null,
+        "fecha": "2026-10-17T00:19:17Z"
+      },
+      {
+        "numero": "Moción N.° 04",
+        "expediente": "25754",
+        "resultado": "Rechazada",
+        "asunto": "LEY DE PRESUPUESTO ORDINARIO Y EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2027",
+        "tramite": null,
+        "fecha": "2026-10-17T00:18:46Z"
+      },
+      {
+        "numero": "Moción N.° 03",
+        "expediente": "25754",
+        "resultado": "Rechazada",
+        "asunto": "LEY DE PRESUPUESTO ORDINARIO Y EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2027",
+        "tramite": null,
+        "fecha": "2026-10-17T00:13:53Z"
       },
       {
         "numero": "Moción N.° 02",
-        "expediente": "25803",
-        "resultado": "Pendiente",
-        "asunto": "SEGUNDO PRESUPUESTO EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2026 Y SEGUNDA MODIFICACIÓN LEGISLATIVA DE LA LEY N° 10.836",
+        "expediente": "25754",
+        "resultado": "Rechazada",
+        "asunto": "LEY DE PRESUPUESTO ORDINARIO Y EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2027",
         "tramite": null,
-        "fecha": "2026-10-08T15:56:06Z"
+        "fecha": "2026-10-17T00:12:59Z"
       },
       {
-        "numero": "24099-I-0036",
-        "expediente": "24099",
+        "numero": "Moción N.° 01",
+        "expediente": "25754",
         "resultado": "Rechazada",
-        "asunto": "REFORMA DE LOS ARTÍCULOS 67 Y 77 DE LA LEY 9986, LEY GENERAL DE CONTRATACIÓN PÚBLICA, DEL 27 DE MAYO DE 2021",
-        "tramite": "I día",
-        "fecha": "2026-10-07T20:56:00Z"
+        "asunto": "LEY DE PRESUPUESTO ORDINARIO Y EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2027",
+        "tramite": null,
+        "fecha": "2026-10-17T00:07:53Z"
       },
       {
-        "numero": "24099-I-0035",
-        "expediente": "24099",
-        "resultado": "Rechazada",
-        "asunto": "REFORMA DE LOS ARTÍCULOS 67 Y 77 DE LA LEY 9986, LEY GENERAL DE CONTRATACIÓN PÚBLICA, DEL 27 DE MAYO DE 2021",
-        "tramite": "I día",
-        "fecha": "2026-10-07T20:55:44Z"
+        "numero": "0003",
+        "expediente": "24510",
+        "resultado": "Aprobada",
+        "asunto": "LEY DE IMPUESTOS A LAS ACTIVIDADES ECONOMICAS DE LA MUNICIPALIDAD DE GOLFITO",
+        "tramite": "II día",
+        "fecha": "2026-10-16T15:27:06Z"
       },
       {
-        "numero": "24099-I-0034",
-        "expediente": "24099",
+        "numero": "3-137",
+        "expediente": "24490",
         "resultado": "Rechazada",
-        "asunto": "REFORMA DE LOS ARTÍCULOS 67 Y 77 DE LA LEY 9986, LEY GENERAL DE CONTRATACIÓN PÚBLICA, DEL 27 DE MAYO DE 2021",
+        "asunto": "AUTORIZACIÓN EL INSTITUTO COSTARRICENSE DE ACUEDUCTOS Y ALCANTARILLADOS PARA CONDONAR LA DEUDA POR SERVICIOS PRESTADOS DE AGUA POTABLE, CARGOS VARIOS Y MULTAS, FACTURADOS A POBLACIÓN NGÄBE- BUGLÉ DEL CANTÓN DE SIXAOLA, EN LA PROVINCIA DE LIMÓN",
         "tramite": "I día",
-        "fecha": "2026-10-07T20:55:27Z"
+        "fecha": "2026-10-16T15:13:10Z"
       },
       {
-        "numero": "24099-I-0033",
-        "expediente": "24099",
+        "numero": "2-137",
+        "expediente": "24490",
         "resultado": "Rechazada",
-        "asunto": "REFORMA DE LOS ARTÍCULOS 67 Y 77 DE LA LEY 9986, LEY GENERAL DE CONTRATACIÓN PÚBLICA, DEL 27 DE MAYO DE 2021",
+        "asunto": "AUTORIZACIÓN EL INSTITUTO COSTARRICENSE DE ACUEDUCTOS Y ALCANTARILLADOS PARA CONDONAR LA DEUDA POR SERVICIOS PRESTADOS DE AGUA POTABLE, CARGOS VARIOS Y MULTAS, FACTURADOS A POBLACIÓN NGÄBE- BUGLÉ DEL CANTÓN DE SIXAOLA, EN LA PROVINCIA DE LIMÓN",
         "tramite": "I día",
-        "fecha": "2026-10-07T20:55:12Z"
+        "fecha": "2026-10-16T15:12:35Z"
       },
       {
-        "numero": "24099-I-0032",
-        "expediente": "24099",
+        "numero": "1-137",
+        "expediente": "24490",
         "resultado": "Rechazada",
-        "asunto": "REFORMA DE LOS ARTÍCULOS 67 Y 77 DE LA LEY 9986, LEY GENERAL DE CONTRATACIÓN PÚBLICA, DEL 27 DE MAYO DE 2021",
+        "asunto": "AUTORIZACIÓN EL INSTITUTO COSTARRICENSE DE ACUEDUCTOS Y ALCANTARILLADOS PARA CONDONAR LA DEUDA POR SERVICIOS PRESTADOS DE AGUA POTABLE, CARGOS VARIOS Y MULTAS, FACTURADOS A POBLACIÓN NGÄBE- BUGLÉ DEL CANTÓN DE SIXAOLA, EN LA PROVINCIA DE LIMÓN",
         "tramite": "I día",
-        "fecha": "2026-10-07T20:54:56Z"
+        "fecha": "2026-10-16T15:09:02Z"
+      },
+      {
+        "numero": "Moción N.° 137",
+        "expediente": "25754",
+        "resultado": "Pendiente",
+        "asunto": "LEY DE PRESUPUESTO ORDINARIO Y EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2027",
+        "tramite": null,
+        "fecha": "2026-10-16T13:18:13Z"
+      },
+      {
+        "numero": "Moción N.° 136",
+        "expediente": "25754",
+        "resultado": "Pendiente",
+        "asunto": "LEY DE PRESUPUESTO ORDINARIO Y EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2027",
+        "tramite": null,
+        "fecha": "2026-10-16T13:15:47Z"
+      },
+      {
+        "numero": "Moción N.° 135",
+        "expediente": "25754",
+        "resultado": "Pendiente",
+        "asunto": "LEY DE PRESUPUESTO ORDINARIO Y EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2027",
+        "tramite": null,
+        "fecha": "2026-10-16T02:48:08Z"
+      },
+      {
+        "numero": "Moción N.° 134",
+        "expediente": "25754",
+        "resultado": "Pendiente",
+        "asunto": "LEY DE PRESUPUESTO ORDINARIO Y EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2027",
+        "tramite": null,
+        "fecha": "2026-10-16T02:47:38Z"
+      },
+      {
+        "numero": "Moción N.° 133",
+        "expediente": "25754",
+        "resultado": "Pendiente",
+        "asunto": "LEY DE PRESUPUESTO ORDINARIO Y EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2027",
+        "tramite": null,
+        "fecha": "2026-10-16T02:47:07Z"
+      },
+      {
+        "numero": "Moción N.° 132",
+        "expediente": "25754",
+        "resultado": "Pendiente",
+        "asunto": "LEY DE PRESUPUESTO ORDINARIO Y EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2027",
+        "tramite": null,
+        "fecha": "2026-10-16T02:46:40Z"
+      },
+      {
+        "numero": "Moción N.° 131",
+        "expediente": "25754",
+        "resultado": "Pendiente",
+        "asunto": "LEY DE PRESUPUESTO ORDINARIO Y EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2027",
+        "tramite": null,
+        "fecha": "2026-10-16T01:08:51Z"
+      },
+      {
+        "numero": "Moción N.° 130",
+        "expediente": "25754",
+        "resultado": "Pendiente",
+        "asunto": "LEY DE PRESUPUESTO ORDINARIO Y EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2027",
+        "tramite": null,
+        "fecha": "2026-10-16T01:08:28Z"
+      },
+      {
+        "numero": "Moción N.° 129",
+        "expediente": "25754",
+        "resultado": "Pendiente",
+        "asunto": "LEY DE PRESUPUESTO ORDINARIO Y EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2027",
+        "tramite": null,
+        "fecha": "2026-10-16T01:07:59Z"
+      },
+      {
+        "numero": "Moción N.° 128",
+        "expediente": "25754",
+        "resultado": "Pendiente",
+        "asunto": "LEY DE PRESUPUESTO ORDINARIO Y EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2027",
+        "tramite": null,
+        "fecha": "2026-10-16T01:07:35Z"
+      },
+      {
+        "numero": "Moción N.° 127",
+        "expediente": "25754",
+        "resultado": "Pendiente",
+        "asunto": "LEY DE PRESUPUESTO ORDINARIO Y EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2027",
+        "tramite": null,
+        "fecha": "2026-10-16T01:02:17Z"
+      },
+      {
+        "numero": "Moción N.° 126",
+        "expediente": "25754",
+        "resultado": "Pendiente",
+        "asunto": "LEY DE PRESUPUESTO ORDINARIO Y EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2027",
+        "tramite": null,
+        "fecha": "2026-10-16T01:01:51Z"
+      },
+      {
+        "numero": "Moción N.° 125",
+        "expediente": "25754",
+        "resultado": "Pendiente",
+        "asunto": "LEY DE PRESUPUESTO ORDINARIO Y EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2027",
+        "tramite": null,
+        "fecha": "2026-10-16T01:01:28Z"
+      },
+      {
+        "numero": "Moción N.° 124",
+        "expediente": "25754",
+        "resultado": "Pendiente",
+        "asunto": "LEY DE PRESUPUESTO ORDINARIO Y EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2027",
+        "tramite": null,
+        "fecha": "2026-10-16T00:49:31Z"
+      },
+      {
+        "numero": "Moción N.° 123",
+        "expediente": "25754",
+        "resultado": "Pendiente",
+        "asunto": "LEY DE PRESUPUESTO ORDINARIO Y EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2027",
+        "tramite": null,
+        "fecha": "2026-10-16T00:48:56Z"
+      },
+      {
+        "numero": "Moción N.° 122",
+        "expediente": "25754",
+        "resultado": "Pendiente",
+        "asunto": "LEY DE PRESUPUESTO ORDINARIO Y EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2027",
+        "tramite": null,
+        "fecha": "2026-10-16T00:48:30Z"
+      },
+      {
+        "numero": "Moción N.° 121",
+        "expediente": "25754",
+        "resultado": "Pendiente",
+        "asunto": "LEY DE PRESUPUESTO ORDINARIO Y EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2027",
+        "tramite": null,
+        "fecha": "2026-10-16T00:44:59Z"
+      },
+      {
+        "numero": "Moción N.° 120",
+        "expediente": "25754",
+        "resultado": "Pendiente",
+        "asunto": "LEY DE PRESUPUESTO ORDINARIO Y EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2027",
+        "tramite": null,
+        "fecha": "2026-10-16T00:44:34Z"
+      },
+      {
+        "numero": "Moción N.° 119",
+        "expediente": "25754",
+        "resultado": "Pendiente",
+        "asunto": "LEY DE PRESUPUESTO ORDINARIO Y EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2027",
+        "tramite": null,
+        "fecha": "2026-10-16T00:36:10Z"
+      },
+      {
+        "numero": "Moción N.° 118",
+        "expediente": "25754",
+        "resultado": "Pendiente",
+        "asunto": "LEY DE PRESUPUESTO ORDINARIO Y EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2027",
+        "tramite": null,
+        "fecha": "2026-10-16T00:35:46Z"
+      },
+      {
+        "numero": "Moción N.° 117",
+        "expediente": "25754",
+        "resultado": "Pendiente",
+        "asunto": "LEY DE PRESUPUESTO ORDINARIO Y EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2027",
+        "tramite": null,
+        "fecha": "2026-10-16T00:35:16Z"
+      },
+      {
+        "numero": "Moción N.° 116",
+        "expediente": "25754",
+        "resultado": "Pendiente",
+        "asunto": "LEY DE PRESUPUESTO ORDINARIO Y EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2027",
+        "tramite": null,
+        "fecha": "2026-10-16T00:34:50Z"
       }
     ]
   },
   "intervenciones": {
     "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('intervenciones_2026_2030')/items?%24top=5000&%24select=Id%2CDiputadoId%2CFileLeafRef%2CFileRef%2CModified%2CCreated&%24orderby=Modified%20desc",
-    "total": 268,
-    "ultima_actualizacion": "2026-10-14T13:58:13Z",
+    "total": 271,
+    "ultima_actualizacion": "2026-10-15T17:02:34Z",
     "diputaciones_con_registro": 56,
     "sin_registro": [
       "juan-manuel-quesada-espinoza"
     ],
     "avisos": [],
     "por_diputacion": {
+      "eder-hernandez-ulloa": [
+        {
+          "archivo": "Eder Hernández Ulloa, Setiembre 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Eder Hernández Ulloa, Setiembre 2026.docx",
+          "modificado": "2026-10-15T17:02:34Z"
+        },
+        {
+          "archivo": "Eder Hernández Ulloa, Agosto 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Eder Hernández Ulloa, Agosto 2026.docx",
+          "modificado": "2026-09-24T20:14:10Z"
+        },
+        {
+          "archivo": "Hernández Ulloa, julio 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Hernández Ulloa, julio 2026.docx",
+          "modificado": "2026-08-12T21:38:33Z"
+        },
+        {
+          "archivo": "Hernández Ulloa, junio 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Hernández Ulloa, junio 2026.docx",
+          "modificado": "2026-07-15T17:30:57Z"
+        },
+        {
+          "archivo": "Hernández Ulloa, mayo 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Hernández Ulloa, mayo 2026.docx",
+          "modificado": "2026-06-10T15:58:09Z"
+        }
+      ],
       "cindy-murillo-artavia": [
+        {
+          "archivo": "Cindy Murillo Artavia, Setiembre 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Cindy Murillo Artavia, Setiembre 2026.docx",
+          "modificado": "2026-10-14T17:30:28Z"
+        },
         {
           "archivo": "Cindy Murillo Artavia, Agosto 2026.docx",
           "periodo": null,
@@ -757,6 +795,38 @@
           "periodo": null,
           "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Murillo Artavia, mayo 2026.docx",
           "modificado": "2026-06-10T15:59:16Z"
+        }
+      ],
+      "cindy-maria-blanco-gonzalez": [
+        {
+          "archivo": "Cindy Blanco González, Setiembre 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Cindy Blanco González, Setiembre 2026.docx",
+          "modificado": "2026-10-14T14:37:44Z"
+        },
+        {
+          "archivo": "Cindy Blanco González, Agosto 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Cindy Blanco González, Agosto 2026.docx",
+          "modificado": "2026-09-23T17:42:09Z"
+        },
+        {
+          "archivo": "Blanco González, julio 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Blanco González, julio 2026.docx",
+          "modificado": "2026-08-12T21:37:12Z"
+        },
+        {
+          "archivo": "Blanco González, junio 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Blanco González, junio 2026.docx",
+          "modificado": "2026-07-15T17:30:05Z"
+        },
+        {
+          "archivo": "Blanco González, mayo 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Blanco González, mayo 2026.docx",
+          "modificado": "2026-06-10T15:57:39Z"
         }
       ],
       "daniel-siezar-cardenas": [
@@ -2399,58 +2469,6 @@
           "periodo": null,
           "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Mora Vega, mayo 2026.docx",
           "modificado": "2026-06-10T15:29:24Z"
-        }
-      ],
-      "eder-hernandez-ulloa": [
-        {
-          "archivo": "Eder Hernández Ulloa, Agosto 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Eder Hernández Ulloa, Agosto 2026.docx",
-          "modificado": "2026-09-24T20:14:10Z"
-        },
-        {
-          "archivo": "Hernández Ulloa, julio 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Hernández Ulloa, julio 2026.docx",
-          "modificado": "2026-08-12T21:38:33Z"
-        },
-        {
-          "archivo": "Hernández Ulloa, junio 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Hernández Ulloa, junio 2026.docx",
-          "modificado": "2026-07-15T17:30:57Z"
-        },
-        {
-          "archivo": "Hernández Ulloa, mayo 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Hernández Ulloa, mayo 2026.docx",
-          "modificado": "2026-06-10T15:58:09Z"
-        }
-      ],
-      "cindy-maria-blanco-gonzalez": [
-        {
-          "archivo": "Cindy Blanco González, Agosto 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Cindy Blanco González, Agosto 2026.docx",
-          "modificado": "2026-09-23T17:42:09Z"
-        },
-        {
-          "archivo": "Blanco González, julio 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Blanco González, julio 2026.docx",
-          "modificado": "2026-08-12T21:37:12Z"
-        },
-        {
-          "archivo": "Blanco González, junio 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Blanco González, junio 2026.docx",
-          "modificado": "2026-07-15T17:30:05Z"
-        },
-        {
-          "archivo": "Blanco González, mayo 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Blanco González, mayo 2026.docx",
-          "modificado": "2026-06-10T15:57:39Z"
         }
       ]
     }
