@@ -1,10 +1,10 @@
 {
-  "generado": "2026-10-21T14:10:50+00:00",
+  "generado": "2026-10-21T22:34:42+00:00",
   "nota": "Solo se incluyen conjuntos que la Asamblea mantiene al día. Cada uno trae su propia fecha de última actualización, tomada de la fuente.",
   "leyes": {
     "_fuente": "https://www.asamblea.go.cr/glcp/_api/web/lists/getbytitle('res_de_leyes')/items?%24top=2000&%24orderby=Modified%20desc",
-    "total": 1632,
-    "ultima_actualizacion": "2026-10-16T17:18:58Z",
+    "total": 1635,
+    "ultima_actualizacion": "2026-10-21T17:12:24Z",
     "por_anio": {
       "2017": 7,
       "2018": 253,
@@ -15,9 +15,27 @@
       "2023": 97,
       "2024": 189,
       "2025": 214,
-      "2026": 149
+      "2026": 152
     },
     "recientes": [
+      {
+        "numero": "10989",
+        "titulo": "LEY PARA HABILITAR EL TRASLADO DE DOMICILIO ELECTORAL POR MEDIOS DIGITALES",
+        "resumen": "El proyecto de ley reforma la Ley Orgánica del Tribunal Supremo de Elecciones para permitir que los ciudadanos realicen el cambio de domicilio electoral mediante formularios físicos o digitales. El TSE deberá garantizar la autenticación de identidad, la seguridad de la información y la protección de los datos personales. Además, emitirá un comprobante del trámite realizado. La iniciativa obliga al TSE a desarrollar l",
+        "publicada": "2026-10-21T17:12:24Z"
+      },
+      {
+        "numero": "10991",
+        "titulo": "APROBACIÓN DE LA ADHESIÓN DE LA REPÚBLICA DE COSTA RICA AL PROTOCOLO AL TRATADO ANTÁRTICO SOBRE PROTECCIÓN DEL MEDIO AMBIENTE (PTAPMA)",
+        "resumen": "Se aprueba la adhesión de Costa Rica al Protocolo al Tratado Antártico sobre Protección del Medio Ambiente, firmado en Madrid el 4 de abril de 1991, comprometiéndose con las normas internacionales para la protección y conservación del medio ambiente en la Antártida.\n\nLa presente ley surge del expediente N.° 25.303.",
+        "publicada": "2026-10-21T17:06:23Z"
+      },
+      {
+        "numero": "10990",
+        "titulo": "APROBACIÓN DEL ACUERDO INTERNACIONAL DEL CAFÉ DE 2022",
+        "resumen": "Se aprueba en su totalidad el Acuerdo Internacional del Café de 2022, suscrito en Londres, Reino Unido, el 9 de junio de 2022, incorporándolo formalmente al ordenamiento jurídico nacional.\n\nLa presente ley surge del expediente N.° 25.278.",
+        "publicada": "2026-10-21T17:01:21Z"
+      },
       {
         "numero": "10988",
         "titulo": "AUTORIZACIÓN AL INSTITUTO COSTARRICENSE DE ACUEDUCTOS Y ALCANTARILLADOS PARA QUE CONDONE LA DEUDA POR SERVICIOS PRESTADOS DE AGUA POTABLE, CARGOS VARIOS Y MULTAS, FACTURADOS CON LOS SERVICIOS NIS 3276895 Y NIS 3276897, A NOMBRE DE CONSORCIO COOPERATIVO DE",
@@ -359,35 +377,17 @@
         "titulo": "FOMENTO A LA INFRAESTRUCTURA DE RECARGA ELÉCTRICA Y ESTRATEGIAS PARA LA MOVILIDAD SOSTENIBLE",
         "resumen": "Se reforman los artículos 31 y 32 para autorizar la instalación y operación de centros de recarga eléctrica, declarar la recarga como servicio de interés general y establecer tarifas reguladas y fiscalización por la Aresep\n\nLa presente ley surge del expediente N.° 24.171.",
         "publicada": "2026-04-22T17:43:24Z"
-      },
-      {
-        "numero": "10941",
-        "titulo": "ADICIÓN DE LOS INCISOS 14) Y 15) AL ARTÍCULO 4 DE LA LEY 5524, LEY ORGÁNICA DEL ORGANISMO DE INVESTIGACIÓN JUDICIAL (OIJ), DE 7 DE MAYO DE 1974. ESTABLECIMIENTO DEL SEGUIMIENTO, BASE DE DATOS Y BANCO DE DATOS GENÉTICOS DE PERSONAS CONDENADAS EN FIRME POR",
-        "resumen": "Se adicionan atribuciones al OIJ para crear una base y banco genético de condenados por delitos sexuales y darles seguimiento tras cumplir la pena, bajo estricta confidencialidad y protección de datos.\n\nLa presente ley surge del expediente N.° 24.327.",
-        "publicada": "2026-04-22T18:04:12Z"
-      },
-      {
-        "numero": "10964",
-        "titulo": "PROTECCIÓN DEL DESARROLLO ECONÓMICO Y SOCIAL DE LA ZONA SUR DE LA PROVINCIA DE PUNTARENAS",
-        "resumen": "La reforma permite que los locales del Depósito Libre Comercial de Golfito se otorguen por concurso público o mediante extensión directa de contratos por 10 años, con canon ajustado por avalúo. El transitorio autoriza a Judesur a extender de inmediato los contratos vigentes, aplicando un aumento del 25% en el canon durante los primeros 5 años y luego ajustes según avalúo.\n\nLa presente ley surge del expediente N.° 25.",
-        "publicada": "2026-06-05T15:29:19Z"
-      },
-      {
-        "numero": "10962",
-        "titulo": "LEY DE CREACIÓN DEL ÁREA SILVESTRE PROTEGIDA PAISAJE NACIONAL ESPEJO DE AGUA EMBALSE ARENAL Y FOMENTO DE ACTIVIDADES ASOCIADAS AL USO SOSTENIBLE EN SU ZONA DE AMORTIGUAMIENTO",
-        "resumen": "El texto permite que las sociedades registren o modifiquen su correo electrónico como medio oficial de notificación mediante una declaración jurada digital, sin necesidad de escritura pública. Además, fija plazos para que las sociedades inscriban este correo (hasta diciembre de 2026) y ordena al Registro Nacional crear un sistema electrónico para este trámite, el cual será gratuito durante un periodo determinado.\n\nLa",
-        "publicada": "2026-06-03T20:38:26Z"
       }
     ]
   },
   "mociones": {
     "_fuente": "https://www.asamblea.go.cr/glcp/_api/web/lists/getbytitle('mociones_total')/items?%24top=5000&%24orderby=Id%20desc",
-    "total": 27412,
-    "nota_alcance": "Agregados calculados sobre las 27412 mociones que devuelve la lista completa, no sobre una muestra.",
-    "ultima_actualizacion": "2026-10-21T13:45:18Z",
+    "total": 27479,
+    "nota_alcance": "Agregados calculados sobre las 27479 mociones que devuelve la lista completa, no sobre una muestra.",
+    "ultima_actualizacion": "2026-10-21T22:19:28Z",
     "por_resultado": {
-      "Rechazada": 23178,
-      "Aprobada": 3584,
+      "Rechazada": 23235,
+      "Aprobada": 3594,
       "Retirada": 394,
       "Pendiente": 255,
       "Revisión": 1
@@ -397,329 +397,329 @@
       "2023": 3827,
       "2024": 4729,
       "2025": 9087,
-      "2026": 6519
+      "2026": 6586
     },
-    "expedientes_distintos": 1239,
+    "expedientes_distintos": 1243,
     "recientes": [
       {
-        "numero": "0052-137",
-        "expediente": "24786",
+        "numero": "137-II-014",
+        "expediente": "23633",
         "resultado": "Rechazada",
-        "asunto": "LUCHANDO POR LA JUSTICIA DEL SISTEMA DE PENSIONES DEL SECTOR PÚBLICO",
+        "asunto": "Ley para la Institucionalización Legal del Protocolo de las 72 Horas y los Equipos de Respuesta Rápida para la Atención Integral a Víctimas de Delitos Sexuales (ERRVV)",
         "tramite": "II día",
-        "fecha": "2026-10-21T13:44:58Z"
+        "fecha": "2026-10-21T21:54:45Z"
       },
       {
-        "numero": "0051-137",
-        "expediente": "24786",
+        "numero": "137-II-013",
+        "expediente": "23633",
         "resultado": "Rechazada",
-        "asunto": "LUCHANDO POR LA JUSTICIA DEL SISTEMA DE PENSIONES DEL SECTOR PÚBLICO",
+        "asunto": "Ley para la Institucionalización Legal del Protocolo de las 72 Horas y los Equipos de Respuesta Rápida para la Atención Integral a Víctimas de Delitos Sexuales (ERRVV)",
         "tramite": "II día",
-        "fecha": "2026-10-21T13:43:58Z"
+        "fecha": "2026-10-21T21:54:19Z"
       },
       {
-        "numero": "0049-137",
-        "expediente": "24786",
+        "numero": "137-II-012",
+        "expediente": "23633",
         "resultado": "Rechazada",
-        "asunto": "LUCHANDO POR LA JUSTICIA DEL SISTEMA DE PENSIONES DEL SECTOR PÚBLICO",
+        "asunto": "Ley para la Institucionalización Legal del Protocolo de las 72 Horas y los Equipos de Respuesta Rápida para la Atención Integral a Víctimas de Delitos Sexuales (ERRVV)",
         "tramite": "II día",
-        "fecha": "2026-10-21T13:43:07Z"
+        "fecha": "2026-10-21T21:53:24Z"
       },
       {
-        "numero": "0048-137",
-        "expediente": "24786",
+        "numero": "137-II-011",
+        "expediente": "23633",
         "resultado": "Rechazada",
-        "asunto": "LUCHANDO POR LA JUSTICIA DEL SISTEMA DE PENSIONES DEL SECTOR PÚBLICO",
+        "asunto": "Ley para la Institucionalización Legal del Protocolo de las 72 Horas y los Equipos de Respuesta Rápida para la Atención Integral a Víctimas de Delitos Sexuales (ERRVV)",
         "tramite": "II día",
-        "fecha": "2026-10-21T13:42:28Z"
+        "fecha": "2026-10-21T21:52:18Z"
       },
       {
-        "numero": "0047-137",
-        "expediente": "24786",
+        "numero": "137-II-010",
+        "expediente": "23633",
         "resultado": "Rechazada",
-        "asunto": "LUCHANDO POR LA JUSTICIA DEL SISTEMA DE PENSIONES DEL SECTOR PÚBLICO",
-        "tramite": "II día",
-        "fecha": "2026-10-21T13:41:48Z"
-      },
-      {
-        "numero": "0046-137",
-        "expediente": "24786",
-        "resultado": "Rechazada",
-        "asunto": "LUCHANDO POR LA JUSTICIA DEL SISTEMA DE PENSIONES DEL SECTOR PÚBLICO",
-        "tramite": "II día",
-        "fecha": "2026-10-21T13:41:06Z"
-      },
-      {
-        "numero": "25635-TEXTO SUSTITUTIVO INFORME AFIRMATIVO",
-        "expediente": "25635",
-        "resultado": "Aprobada",
-        "asunto": "REFORMA DEL ARTÍCULO 1 Y ADICIÓN DE UN ARTÍCULO 5 A LA LEY N° 10812, DEL 13 DE NOVIEMBRE DE 2025, LEY PARA FORTALECER LAS ASOCIACIONES Y ORGANIZACIONES DE BIENESTAR SOCIAL",
+        "asunto": "Ley para la Institucionalización Legal del Protocolo de las 72 Horas y los Equipos de Respuesta Rápida para la Atención Integral a Víctimas de Delitos Sexuales (ERRVV)",
         "tramite": "I día",
-        "fecha": "2026-10-21T13:24:24Z"
+        "fecha": "2026-10-21T21:51:56Z"
       },
       {
-        "numero": "25635-INFORME AFIRMATIVO MAYORIA",
-        "expediente": "25635",
-        "resultado": "Aprobada",
-        "asunto": "REFORMA DEL ARTÍCULO 1 Y ADICIÓN DE UN ARTÍCULO 5 A LA LEY N° 10812, DEL 13 DE NOVIEMBRE DE 2025, LEY PARA FORTALECER LAS ASOCIACIONES Y ORGANIZACIONES DE BIENESTAR SOCIAL",
+        "numero": "137-II-009",
+        "expediente": "23633",
+        "resultado": "Rechazada",
+        "asunto": "Ley para la Institucionalización Legal del Protocolo de las 72 Horas y los Equipos de Respuesta Rápida para la Atención Integral a Víctimas de Delitos Sexuales (ERRVV)",
+        "tramite": "II día",
+        "fecha": "2026-10-21T21:51:29Z"
+      },
+      {
+        "numero": "137-II-008",
+        "expediente": "23633",
+        "resultado": "Rechazada",
+        "asunto": "Ley para la Institucionalización Legal del Protocolo de las 72 Horas y los Equipos de Respuesta Rápida para la Atención Integral a Víctimas de Delitos Sexuales (ERRVV)",
         "tramite": "I día",
-        "fecha": "2026-10-21T13:18:24Z"
+        "fecha": "2026-10-21T21:50:58Z"
       },
       {
-        "numero": "Moción N.° 26",
-        "expediente": "25754",
+        "numero": "137-II-007",
+        "expediente": "23633",
         "resultado": "Rechazada",
-        "asunto": "LEY DE PRESUPUESTO ORDINARIO Y EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2027",
-        "tramite": null,
-        "fecha": "2026-10-21T05:58:16Z"
-      },
-      {
-        "numero": "Moción N.° 25",
-        "expediente": "25754",
-        "resultado": "Rechazada",
-        "asunto": "LEY DE PRESUPUESTO ORDINARIO Y EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2027",
-        "tramite": null,
-        "fecha": "2026-10-21T05:56:34Z"
-      },
-      {
-        "numero": "Moción N.° 24",
-        "expediente": "25754",
-        "resultado": "Rechazada",
-        "asunto": "LEY DE PRESUPUESTO ORDINARIO Y EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2027",
-        "tramite": null,
-        "fecha": "2026-10-21T04:41:25Z"
-      },
-      {
-        "numero": "Moción N.° 23",
-        "expediente": "25754",
-        "resultado": "Rechazada",
-        "asunto": "LEY DE PRESUPUESTO ORDINARIO Y EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2027",
-        "tramite": null,
-        "fecha": "2026-10-21T03:16:37Z"
-      },
-      {
-        "numero": "Moción N.° 22",
-        "expediente": "25754",
-        "resultado": "Rechazada",
-        "asunto": "LEY DE PRESUPUESTO ORDINARIO Y EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2027",
-        "tramite": null,
-        "fecha": "2026-10-21T03:15:53Z"
-      },
-      {
-        "numero": "Moción N.° 21",
-        "expediente": "25754",
-        "resultado": "Rechazada",
-        "asunto": "LEY DE PRESUPUESTO ORDINARIO Y EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2027",
-        "tramite": null,
-        "fecha": "2026-10-21T03:14:32Z"
-      },
-      {
-        "numero": "Moción N.° 17",
-        "expediente": "25803",
-        "resultado": "Pendiente",
-        "asunto": "SEGUNDO PRESUPUESTO EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2026 Y SEGUNDA MODIFICACIÓN LEGISLATIVA DE LA LEY N° 10.836.",
-        "tramite": null,
-        "fecha": "2026-10-21T00:27:05Z"
-      },
-      {
-        "numero": "Moción N.° 20",
-        "expediente": "25754",
-        "resultado": "Aprobada",
-        "asunto": "LEY DE PRESUPUESTO ORDINARIO Y EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2027",
-        "tramite": null,
-        "fecha": "2026-10-20T23:30:40Z"
-      },
-      {
-        "numero": "Moción N.° 19",
-        "expediente": "25754",
-        "resultado": "Aprobada",
-        "asunto": "LEY DE PRESUPUESTO ORDINARIO Y EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2027",
-        "tramite": null,
-        "fecha": "2026-10-20T23:30:08Z"
-      },
-      {
-        "numero": "Moción N.° 16 Revisada",
-        "expediente": "25754",
-        "resultado": "Aprobada",
-        "asunto": "LEY DE PRESUPUESTO ORDINARIO Y EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2027",
-        "tramite": null,
-        "fecha": "2026-10-20T23:27:40Z"
-      },
-      {
-        "numero": "4-137",
-        "expediente": "24658",
-        "resultado": "Rechazada",
-        "asunto": "MODIFICACIÓN A LA LEY N°.313 “LEY DE PENSIONES PARA EXPRESIDENTES” Y A LA LEY N°.7302 “CREACION DEL REGIMEN GENERAL DE PENSIONES CON CARGO AL PRESUPUESTO NACIONAL, DE OTROS REGIMENES ESPECIALES Y REFORMA A LA LEY NO. 7092 DEL 21 DE ABRIL DE 1988 Y SUS REF",
-        "tramite": null,
-        "fecha": "2026-10-20T21:37:01Z"
-      },
-      {
-        "numero": "7-137",
-        "expediente": "24658",
-        "resultado": "Rechazada",
-        "asunto": "MODIFICACIÓN A LA LEY N°.313 “LEY DE PENSIONES PARA EXPRESIDENTES” Y A LA LEY N°.7302 “CREACION DEL REGIMEN GENERAL DE PENSIONES CON CARGO AL PRESUPUESTO NACIONAL, DE OTROS REGIMENES ESPECIALES Y REFORMA A LA LEY NO. 7092 DEL 21 DE ABRIL DE 1988 Y SUS REF",
-        "tramite": null,
-        "fecha": "2026-10-20T21:35:55Z"
-      },
-      {
-        "numero": "6-137",
-        "expediente": "24658",
-        "resultado": "Aprobada",
-        "asunto": "MODIFICACIÓN A LA LEY N°.313 “LEY DE PENSIONES PARA EXPRESIDENTES” Y A LA LEY N°.7302 “CREACION DEL REGIMEN GENERAL DE PENSIONES CON CARGO AL PRESUPUESTO NACIONAL, DE OTROS REGIMENES ESPECIALES Y REFORMA A LA LEY NO. 7092 DEL 21 DE ABRIL DE 1988 Y SUS REF",
-        "tramite": null,
-        "fecha": "2026-10-20T21:33:36Z"
-      },
-      {
-        "numero": "5-137",
-        "expediente": "24658",
-        "resultado": "Rechazada",
-        "asunto": "MODIFICACIÓN A LA LEY N°.313 “LEY DE PENSIONES PARA EXPRESIDENTES” Y A LA LEY N°.7302 “CREACION DEL REGIMEN GENERAL DE PENSIONES CON CARGO AL PRESUPUESTO NACIONAL, DE OTROS REGIMENES ESPECIALES Y REFORMA A LA LEY NO. 7092 DEL 21 DE ABRIL DE 1988 Y SUS REF",
-        "tramite": null,
-        "fecha": "2026-10-20T21:33:03Z"
-      },
-      {
-        "numero": "3-137",
-        "expediente": "24658",
-        "resultado": "Aprobada",
-        "asunto": "MODIFICACIÓN A LA LEY N°.313 “LEY DE PENSIONES PARA EXPRESIDENTES” Y A LA LEY N°.7302 “CREACION DEL REGIMEN GENERAL DE PENSIONES CON CARGO AL PRESUPUESTO NACIONAL, DE OTROS REGIMENES ESPECIALES Y REFORMA A LA LEY NO. 7092 DEL 21 DE ABRIL DE 1988 Y SUS REF",
-        "tramite": null,
-        "fecha": "2026-10-20T21:31:47Z"
-      },
-      {
-        "numero": "2-137",
-        "expediente": "24658",
-        "resultado": "Rechazada",
-        "asunto": "MODIFICACIÓN A LA LEY N°.313 “LEY DE PENSIONES PARA EXPRESIDENTES” Y A LA LEY N°.7302 “CREACION DEL REGIMEN GENERAL DE PENSIONES CON CARGO AL PRESUPUESTO NACIONAL, DE OTROS REGIMENES ESPECIALES Y REFORMA A LA LEY NO. 7092 DEL 21 DE ABRIL DE 1988 Y SUS REF",
-        "tramite": null,
-        "fecha": "2026-10-20T21:30:33Z"
-      },
-      {
-        "numero": "1-137",
-        "expediente": "24658",
-        "resultado": "Aprobada",
-        "asunto": "MODIFICACIÓN A LA LEY N°.313 “LEY DE PENSIONES PARA EXPRESIDENTES” Y A LA LEY N°.7302 “CREACION DEL REGIMEN GENERAL DE PENSIONES CON CARGO AL PRESUPUESTO NACIONAL, DE OTROS REGIMENES ESPECIALES Y REFORMA A LA LEY NO. 7092 DEL 21 DE ABRIL DE 1988 Y SUS REF",
-        "tramite": "I día",
-        "fecha": "2026-10-20T21:29:26Z"
-      },
-      {
-        "numero": "0013",
-        "expediente": "24517",
-        "resultado": "Rechazada",
-        "asunto": "PRESCRIPCIÓN DE OFICIO PARA DEUDAS FINANCIERAS EN COBRO JUDICIAL",
+        "asunto": "Ley para la Institucionalización Legal del Protocolo de las 72 Horas y los Equipos de Respuesta Rápida para la Atención Integral a Víctimas de Delitos Sexuales (ERRVV)",
         "tramite": "II día",
-        "fecha": "2026-10-20T21:00:48Z"
+        "fecha": "2026-10-21T21:50:20Z"
       },
       {
-        "numero": "0012",
-        "expediente": "24517",
+        "numero": "137-II-006",
+        "expediente": "23633",
         "resultado": "Rechazada",
-        "asunto": "PRESCRIPCIÓN DE OFICIO PARA DEUDAS FINANCIERAS EN COBRO JUDICIAL",
+        "asunto": "Ley para la Institucionalización Legal del Protocolo de las 72 Horas y los Equipos de Respuesta Rápida para la Atención Integral a Víctimas de Delitos Sexuales (ERRVV)",
         "tramite": "II día",
-        "fecha": "2026-10-20T21:00:32Z"
+        "fecha": "2026-10-21T21:49:49Z"
       },
       {
-        "numero": "0011",
-        "expediente": "24517",
+        "numero": "137-II-005",
+        "expediente": "23633",
         "resultado": "Rechazada",
-        "asunto": "PRESCRIPCIÓN DE OFICIO PARA DEUDAS FINANCIERAS EN COBRO JUDICIAL",
+        "asunto": "Ley para la Institucionalización Legal del Protocolo de las 72 Horas y los Equipos de Respuesta Rápida para la Atención Integral a Víctimas de Delitos Sexuales (ERRVV)",
         "tramite": "II día",
-        "fecha": "2026-10-20T21:00:19Z"
-      },
-      {
-        "numero": "0010",
-        "expediente": "24517",
-        "resultado": "Rechazada",
-        "asunto": "PRESCRIPCIÓN DE OFICIO PARA DEUDAS FINANCIERAS EN COBRO JUDICIAL",
-        "tramite": "II día",
-        "fecha": "2026-10-20T21:00:03Z"
+        "fecha": "2026-10-21T21:49:13Z"
       },
       {
         "numero": "0009",
-        "expediente": "24517",
+        "expediente": "25147",
         "resultado": "Rechazada",
-        "asunto": "PRESCRIPCIÓN DE OFICIO PARA DEUDAS FINANCIERAS EN COBRO JUDICIAL",
-        "tramite": "II día",
-        "fecha": "2026-10-20T20:59:45Z"
+        "asunto": "MODIFICACION de los artículos 208, 209, 212, 213 Y 366 Y ADICIÓN DE LOS ARTÍCULOS 213 BIS Y 331 BIS AL CÓDIGO PENAL, LEY N.\" 4573, DEL 4 DE MAYO DE 1970, Y SUS REFORMAS; LEY PARA SANCIONAR EL HURTO, ROBO Y RECEPTACIÓN DE VEHÍCULOS Y MOTOCICLETAS",
+        "tramite": "I día",
+        "fecha": "2026-10-21T21:24:04Z"
       },
       {
         "numero": "0008",
-        "expediente": "24517",
+        "expediente": "25147",
         "resultado": "Rechazada",
-        "asunto": "PRESCRIPCIÓN DE OFICIO PARA DEUDAS FINANCIERAS EN COBRO JUDICIAL",
-        "tramite": "II día",
-        "fecha": "2026-10-20T20:58:38Z"
+        "asunto": "MODIFICACION de los artículos 208, 209, 212, 213 Y 366 Y ADICIÓN DE LOS ARTÍCULOS 213 BIS Y 331 BIS AL CÓDIGO PENAL, LEY N.\" 4573, DEL 4 DE MAYO DE 1970, Y SUS REFORMAS; LEY PARA SANCIONAR EL HURTO, ROBO Y RECEPTACIÓN DE VEHÍCULOS Y MOTOCICLETAS",
+        "tramite": "I día",
+        "fecha": "2026-10-21T21:23:51Z"
       },
       {
         "numero": "0007",
-        "expediente": "24517",
+        "expediente": "25147",
         "resultado": "Rechazada",
-        "asunto": "PRESCRIPCIÓN DE OFICIO PARA DEUDAS FINANCIERAS EN COBRO JUDICIAL",
+        "asunto": "MODIFICACION de los artículos 208, 209, 212, 213 Y 366 Y ADICIÓN DE LOS ARTÍCULOS 213 BIS Y 331 BIS AL CÓDIGO PENAL, LEY N.\" 4573, DEL 4 DE MAYO DE 1970, Y SUS REFORMAS; LEY PARA SANCIONAR EL HURTO, ROBO Y RECEPTACIÓN DE VEHÍCULOS Y MOTOCICLETAS",
+        "tramite": "I día",
+        "fecha": "2026-10-21T21:23:36Z"
+      },
+      {
+        "numero": "137-II-004",
+        "expediente": "23633",
+        "resultado": "Aprobada",
+        "asunto": "Ley para la Institucionalización Legal del Protocolo de las 72 Horas y los Equipos de Respuesta Rápida para la Atención Integral a Víctimas de Delitos Sexuales (ERRVV)",
         "tramite": "II día",
-        "fecha": "2026-10-20T20:58:15Z"
+        "fecha": "2026-10-21T21:23:28Z"
       },
       {
         "numero": "0006",
-        "expediente": "24517",
+        "expediente": "25147",
+        "resultado": "Aprobada",
+        "asunto": "MODIFICACION de los artículos 208, 209, 212, 213 Y 366 Y ADICIÓN DE LOS ARTÍCULOS 213 BIS Y 331 BIS AL CÓDIGO PENAL, LEY N.\" 4573, DEL 4 DE MAYO DE 1970, Y SUS REFORMAS; LEY PARA SANCIONAR EL HURTO, ROBO Y RECEPTACIÓN DE VEHÍCULOS Y MOTOCICLETAS",
+        "tramite": "I día",
+        "fecha": "2026-10-21T21:23:23Z"
+      },
+      {
+        "numero": "0005",
+        "expediente": "25147",
         "resultado": "Rechazada",
-        "asunto": "PRESCRIPCIÓN DE OFICIO PARA DEUDAS FINANCIERAS EN COBRO JUDICIAL",
+        "asunto": "MODIFICACION de los artículos 208, 209, 212, 213 Y 366 Y ADICIÓN DE LOS ARTÍCULOS 213 BIS Y 331 BIS AL CÓDIGO PENAL, LEY N.\" 4573, DEL 4 DE MAYO DE 1970, Y SUS REFORMAS; LEY PARA SANCIONAR EL HURTO, ROBO Y RECEPTACIÓN DE VEHÍCULOS Y MOTOCICLETAS",
+        "tramite": "I día",
+        "fecha": "2026-10-21T21:23:06Z"
+      },
+      {
+        "numero": "0004",
+        "expediente": "25147",
+        "resultado": "Rechazada",
+        "asunto": "MODIFICACION de los artículos 208, 209, 212, 213 Y 366 Y ADICIÓN DE LOS ARTÍCULOS 213 BIS Y 331 BIS AL CÓDIGO PENAL, LEY N.\" 4573, DEL 4 DE MAYO DE 1970, Y SUS REFORMAS; LEY PARA SANCIONAR EL HURTO, ROBO Y RECEPTACIÓN DE VEHÍCULOS Y MOTOCICLETAS",
+        "tramite": "I día",
+        "fecha": "2026-10-21T21:22:51Z"
+      },
+      {
+        "numero": "137-II-003",
+        "expediente": "23633",
+        "resultado": "Rechazada",
+        "asunto": "Ley para la Institucionalización Legal del Protocolo de las 72 Horas y los Equipos de Respuesta Rápida para la Atención Integral a Víctimas de Delitos Sexuales (ERRVV)",
         "tramite": "II día",
-        "fecha": "2026-10-20T20:57:32Z"
+        "fecha": "2026-10-21T21:22:47Z"
       },
       {
-        "numero": "Moción N.° 18",
-        "expediente": "25754",
-        "resultado": "Aprobada",
-        "asunto": "LEY DE PRESUPUESTO ORDINARIO Y EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2027",
-        "tramite": null,
-        "fecha": "2026-10-20T17:51:14Z"
-      },
-      {
-        "numero": "Moción N.° 16",
-        "expediente": "25803",
-        "resultado": "Pendiente",
-        "asunto": "SEGUNDO PRESUPUESTO EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2026 Y SEGUNDA MODIFICACIÓN LEGISLATIVA DE LA LEY N° 10.836.",
-        "tramite": null,
-        "fecha": "2026-10-20T16:08:47Z"
-      },
-      {
-        "numero": "Moción N.° 15",
-        "expediente": "25803",
-        "resultado": "Pendiente",
-        "asunto": "SEGUNDO PRESUPUESTO EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2026 Y SEGUNDA MODIFICACIÓN LEGISLATIVA DE LA LEY N° 10.836.",
-        "tramite": null,
-        "fecha": "2026-10-20T16:05:28Z"
-      },
-      {
-        "numero": "Moción N.° 14",
-        "expediente": "25803",
-        "resultado": "Pendiente",
-        "asunto": "SEGUNDO PRESUPUESTO EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2026 Y SEGUNDA MODIFICACIÓN LEGISLATIVA DE LA LEY N° 10.836.",
-        "tramite": null,
-        "fecha": "2026-10-19T23:30:49Z"
-      },
-      {
-        "numero": "Moción N.° 13",
-        "expediente": "25803",
-        "resultado": "Pendiente",
-        "asunto": "SEGUNDO PRESUPUESTO EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2026 Y SEGUNDA MODIFICACIÓN LEGISLATIVA DE LA LEY N° 10.836.",
-        "tramite": null,
-        "fecha": "2026-10-19T23:30:25Z"
-      },
-      {
-        "numero": "Moción N.° 17",
-        "expediente": "25754",
-        "resultado": "Aprobada",
-        "asunto": "LEY DE PRESUPUESTO ORDINARIO Y EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2027",
-        "tramite": null,
-        "fecha": "2026-10-19T20:04:15Z"
-      },
-      {
-        "numero": "Moción N.° 16",
-        "expediente": "25754",
+        "numero": "0003",
+        "expediente": "25147",
         "resultado": "Rechazada",
-        "asunto": "LEY DE PRESUPUESTO ORDINARIO Y EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2027",
-        "tramite": null,
-        "fecha": "2026-10-19T20:01:51Z"
+        "asunto": "MODIFICACION de los artículos 208, 209, 212, 213 Y 366 Y ADICIÓN DE LOS ARTÍCULOS 213 BIS Y 331 BIS AL CÓDIGO PENAL, LEY N.\" 4573, DEL 4 DE MAYO DE 1970, Y SUS REFORMAS; LEY PARA SANCIONAR EL HURTO, ROBO Y RECEPTACIÓN DE VEHÍCULOS Y MOTOCICLETAS",
+        "tramite": "I día",
+        "fecha": "2026-10-21T21:22:38Z"
+      },
+      {
+        "numero": "0002",
+        "expediente": "25147",
+        "resultado": "Rechazada",
+        "asunto": "MODIFICACION de los artículos 208, 209, 212, 213 Y 366 Y ADICIÓN DE LOS ARTÍCULOS 213 BIS Y 331 BIS AL CÓDIGO PENAL, LEY N.\" 4573, DEL 4 DE MAYO DE 1970, Y SUS REFORMAS; LEY PARA SANCIONAR EL HURTO, ROBO Y RECEPTACIÓN DE VEHÍCULOS Y MOTOCICLETAS",
+        "tramite": "I día",
+        "fecha": "2026-10-21T21:22:24Z"
+      },
+      {
+        "numero": "0001",
+        "expediente": "25147",
+        "resultado": "Rechazada",
+        "asunto": "MODIFICACION de los artículos 208, 209, 212, 213 Y 366 Y ADICIÓN DE LOS ARTÍCULOS 213 BIS Y 331 BIS AL CÓDIGO PENAL, LEY N.\" 4573, DEL 4 DE MAYO DE 1970, Y SUS REFORMAS; LEY PARA SANCIONAR EL HURTO, ROBO Y RECEPTACIÓN DE VEHÍCULOS Y MOTOCICLETAS",
+        "tramite": "I día",
+        "fecha": "2026-10-21T21:22:03Z"
+      },
+      {
+        "numero": "137-II-002",
+        "expediente": "23633",
+        "resultado": "Rechazada",
+        "asunto": "Ley para la Institucionalización Legal del Protocolo de las 72 Horas y los Equipos de Respuesta Rápida para la Atención Integral a Víctimas de Delitos Sexuales (ERRVV)",
+        "tramite": "II día",
+        "fecha": "2026-10-21T21:21:15Z"
+      },
+      {
+        "numero": "137-II-001",
+        "expediente": "23633",
+        "resultado": "Rechazada",
+        "asunto": "Ley para la Institucionalización Legal del Protocolo de las 72 Horas y los Equipos de Respuesta Rápida para la Atención Integral a Víctimas de Delitos Sexuales (ERRVV)",
+        "tramite": "II día",
+        "fecha": "2026-10-21T21:20:41Z"
+      },
+      {
+        "numero": "0010",
+        "expediente": "25027",
+        "resultado": "Rechazada",
+        "asunto": "AMNISTÍA PARA EL ORDENAMIENTO DE POZOS NO INSCRITOS Y OTORGAMIENTO DE CONCESIONES PARA EL APROVECHAMIENTO DEL RECURSO HÍDRICO PARA CONSUMO HUMANO",
+        "tramite": "II día",
+        "fecha": "2026-10-21T21:16:39Z"
+      },
+      {
+        "numero": "0009",
+        "expediente": "25027",
+        "resultado": "Rechazada",
+        "asunto": "AMNISTÍA PARA EL ORDENAMIENTO DE POZOS NO INSCRITOS Y OTORGAMIENTO DE CONCESIONES PARA EL APROVECHAMIENTO DEL RECURSO HÍDRICO PARA CONSUMO HUMANO",
+        "tramite": "II día",
+        "fecha": "2026-10-21T21:16:26Z"
+      },
+      {
+        "numero": "0008",
+        "expediente": "25027",
+        "resultado": "Rechazada",
+        "asunto": "AMNISTÍA PARA EL ORDENAMIENTO DE POZOS NO INSCRITOS Y OTORGAMIENTO DE CONCESIONES PARA EL APROVECHAMIENTO DEL RECURSO HÍDRICO PARA CONSUMO HUMANO",
+        "tramite": "II día",
+        "fecha": "2026-10-21T21:16:11Z"
+      },
+      {
+        "numero": "0007",
+        "expediente": "25027",
+        "resultado": "Rechazada",
+        "asunto": "AMNISTÍA PARA EL ORDENAMIENTO DE POZOS NO INSCRITOS Y OTORGAMIENTO DE CONCESIONES PARA EL APROVECHAMIENTO DEL RECURSO HÍDRICO PARA CONSUMO HUMANO",
+        "tramite": "II día",
+        "fecha": "2026-10-21T21:15:57Z"
+      },
+      {
+        "numero": "0006",
+        "expediente": "25027",
+        "resultado": "Rechazada",
+        "asunto": "AMNISTÍA PARA EL ORDENAMIENTO DE POZOS NO INSCRITOS Y OTORGAMIENTO DE CONCESIONES PARA EL APROVECHAMIENTO DEL RECURSO HÍDRICO PARA CONSUMO HUMANO",
+        "tramite": "II día",
+        "fecha": "2026-10-21T21:15:42Z"
+      },
+      {
+        "numero": "0005",
+        "expediente": "25027",
+        "resultado": "Rechazada",
+        "asunto": "AMNISTÍA PARA EL ORDENAMIENTO DE POZOS NO INSCRITOS Y OTORGAMIENTO DE CONCESIONES PARA EL APROVECHAMIENTO DEL RECURSO HÍDRICO PARA CONSUMO HUMANO",
+        "tramite": "II día",
+        "fecha": "2026-10-21T21:15:24Z"
+      },
+      {
+        "numero": "0004",
+        "expediente": "25027",
+        "resultado": "Rechazada",
+        "asunto": "AMNISTÍA PARA EL ORDENAMIENTO DE POZOS NO INSCRITOS Y OTORGAMIENTO DE CONCESIONES PARA EL APROVECHAMIENTO DEL RECURSO HÍDRICO PARA CONSUMO HUMANO",
+        "tramite": "II día",
+        "fecha": "2026-10-21T21:15:11Z"
+      },
+      {
+        "numero": "0003",
+        "expediente": "25027",
+        "resultado": "Rechazada",
+        "asunto": "AMNISTÍA PARA EL ORDENAMIENTO DE POZOS NO INSCRITOS Y OTORGAMIENTO DE CONCESIONES PARA EL APROVECHAMIENTO DEL RECURSO HÍDRICO PARA CONSUMO HUMANO",
+        "tramite": "II día",
+        "fecha": "2026-10-21T21:14:57Z"
+      },
+      {
+        "numero": "0002",
+        "expediente": "25027",
+        "resultado": "Rechazada",
+        "asunto": "AMNISTÍA PARA EL ORDENAMIENTO DE POZOS NO INSCRITOS Y OTORGAMIENTO DE CONCESIONES PARA EL APROVECHAMIENTO DEL RECURSO HÍDRICO PARA CONSUMO HUMANO",
+        "tramite": "II día",
+        "fecha": "2026-10-21T21:14:44Z"
+      },
+      {
+        "numero": "0001",
+        "expediente": "25027",
+        "resultado": "Rechazada",
+        "asunto": "AMNISTÍA PARA EL ORDENAMIENTO DE POZOS NO INSCRITOS Y OTORGAMIENTO DE CONCESIONES PARA EL APROVECHAMIENTO DEL RECURSO HÍDRICO PARA CONSUMO HUMANO",
+        "tramite": "II día",
+        "fecha": "2026-10-21T21:14:23Z"
+      },
+      {
+        "numero": "0004",
+        "expediente": "24913",
+        "resultado": "Aprobada",
+        "asunto": "REFORMA A LOS ARTÍCULOS 30, 71, 90, 92, 104, 277, 316, 317, 318, 319 Y 373 DE LA LEY N° 7594, CÓDIGO PROCESAL PENAL DEL 10 DE ABRIL DE 1996 Y 96, 96 BIS Y 96 TER DE LA LEY N° 8, LEY ORGÁNICA DEL PODER JUDICIAL",
+        "tramite": "II día",
+        "fecha": "2026-10-21T21:07:44Z"
+      },
+      {
+        "numero": "0003",
+        "expediente": "24913",
+        "resultado": "Rechazada",
+        "asunto": "REFORMA A LOS ARTÍCULOS 30, 71, 90, 92, 104, 277, 316, 317, 318, 319 Y 373 DE LA LEY N° 7594, CÓDIGO PROCESAL PENAL DEL 10 DE ABRIL DE 1996 Y 96, 96 BIS Y 96 TER DE LA LEY N° 8, LEY ORGÁNICA DEL PODER JUDICIAL",
+        "tramite": "II día",
+        "fecha": "2026-10-21T21:07:28Z"
+      },
+      {
+        "numero": "0002",
+        "expediente": "24913",
+        "resultado": "Rechazada",
+        "asunto": "REFORMA A LOS ARTÍCULOS 30, 71, 90, 92, 104, 277, 316, 317, 318, 319 Y 373 DE LA LEY N° 7594, CÓDIGO PROCESAL PENAL DEL 10 DE ABRIL DE 1996 Y 96, 96 BIS Y 96 TER DE LA LEY N° 8, LEY ORGÁNICA DEL PODER JUDICIAL",
+        "tramite": "II día",
+        "fecha": "2026-10-21T21:07:10Z"
+      },
+      {
+        "numero": "0001",
+        "expediente": "24913",
+        "resultado": "Aprobada",
+        "asunto": "REFORMA A LOS ARTÍCULOS 30, 71, 90, 92, 104, 277, 316, 317, 318, 319 Y 373 DE LA LEY N° 7594, CÓDIGO PROCESAL PENAL DEL 10 DE ABRIL DE 1996 Y 96, 96 BIS Y 96 TER DE LA LEY N° 8, LEY ORGÁNICA DEL PODER JUDICIAL",
+        "tramite": "II día",
+        "fecha": "2026-10-21T21:06:48Z"
+      },
+      {
+        "numero": "0009",
+        "expediente": "23712",
+        "resultado": "Aprobada",
+        "asunto": "REFORMA DE LOS ARTÍCULOS 30, INCISO D) Y 37 DEL CÓDIGO DE TRABAJO, LEY N.º 2 DE 27 DE AGOSTO DE 1943 Y SUS REFORMAS.LEY PARA GARANTIZAR EL RESPETO DE LOS DERECHOS LABORALES DERIVADOS DE LA ANTIGÜEDAD",
+        "tramite": "II día",
+        "fecha": "2026-10-21T21:01:14Z"
+      },
+      {
+        "numero": "0008",
+        "expediente": "23712",
+        "resultado": "Rechazada",
+        "asunto": "REFORMA DE LOS ARTÍCULOS 30, INCISO D) Y 37 DEL CÓDIGO DE TRABAJO, LEY N.º 2 DE 27 DE AGOSTO DE 1943 Y SUS REFORMAS.LEY PARA GARANTIZAR EL RESPETO DE LOS DERECHOS LABORALES DERIVADOS DE LA ANTIGÜEDAD",
+        "tramite": "II día",
+        "fecha": "2026-10-21T21:01:00Z"
+      },
+      {
+        "numero": "0007",
+        "expediente": "23712",
+        "resultado": "Rechazada",
+        "asunto": "REFORMA DE LOS ARTÍCULOS 30, INCISO D) Y 37 DEL CÓDIGO DE TRABAJO, LEY N.º 2 DE 27 DE AGOSTO DE 1943 Y SUS REFORMAS.LEY PARA GARANTIZAR EL RESPETO DE LOS DERECHOS LABORALES DERIVADOS DE LA ANTIGÜEDAD",
+        "tramite": "II día",
+        "fecha": "2026-10-21T21:00:46Z"
       }
     ]
   },
