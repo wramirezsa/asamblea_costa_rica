@@ -948,9 +948,14 @@ gratuitos y no hace falta ninguna cuenta ni servicio nuevo.
   SIL+, de control, `200` en ~1 s. Es el mismo bloqueo que ve GitHub. El
   Worker se borró. La computadora en Costa Rica sigue siendo la única vía
   gratuita; si no corre, el sitio sigue en pie con esa parte fechada.
-  En la semana del 14 al 21 de octubre corrió 5 de 8 días: los otros la
-  computadora no tuvo sesión iniciada (la tarea es de tipo «solo con sesión
-  iniciada»).
+  En la semana del 14 al 21 de octubre subió datos 5 de 8 días. El historial
+  del Programador de tareas muestra por qué: a las 06:00 la computadora
+  estaba **suspendida** y la tarea no la despierta (`WakeToRun` apagado); se
+  pone al día al encenderla, si ese día se enciende. El 2026-10-20 sí
+  arrancó (12:41) pero terminó a los 36 s con `0xC000013A` (proceso cerrado
+  a la fuerza, como Ctrl+C): la tarea abre una ventana de consola y esa
+  ventana se cerró antes de terminar. No dejó bitácora ni subió nada; el
+  sitio siguió con el dato del día anterior, fechado.
 
 ## ADR-025 — Secciones con ruta propia y una página de Fuentes
 
