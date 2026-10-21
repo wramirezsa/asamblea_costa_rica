@@ -941,6 +941,16 @@ gratuitos y no hace falta ninguna cuenta ni servicio nuevo.
 - GitHub desactiva los flujos programados de los repositorios públicos tras
   60 días sin actividad. Si el sitio deja de actualizarse, revisar primero
   la pestaña Actions.
+- **Cloudflare tampoco sirve para el SharePoint (probado el 2026-10-21).**
+  Un Worker temporal, llamado desde Costa Rica, corrió en Vancouver (YVR) y
+  Miami (MIA): el plan gratuito no garantiza el centro de datos de San José.
+  El SharePoint respondió `522` (la conexión no se estableció en ~20 s) y el
+  SIL+, de control, `200` en ~1 s. Es el mismo bloqueo que ve GitHub. El
+  Worker se borró. La computadora en Costa Rica sigue siendo la única vía
+  gratuita; si no corre, el sitio sigue en pie con esa parte fechada.
+  En la semana del 14 al 21 de octubre corrió 5 de 8 días: los otros la
+  computadora no tuvo sesión iniciada (la tarea es de tipo «solo con sesión
+  iniciada»).
 
 ## ADR-025 — Secciones con ruta propia y una página de Fuentes
 
