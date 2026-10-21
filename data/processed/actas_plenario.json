@@ -1,6 +1,6 @@
 {
  "_fuente": "https://produccion.asamblea.go.cr/SILConsulta/Monitor/Principal — Consulta de actas → Actas - Plenario → Texto acta",
- "_extraido": "2026-10-20T17:16:57+00:00",
+ "_extraido": "2026-10-21T17:19:29+00:00",
  "_nota": "Actas oficiales del Plenario, redactadas por el Area de Actas, Sonido y Grabacion. Presentes y voto nominal leidos del texto del acta. Los nombres se resuelven contra el padron oficial; las variantes, con una tabla curada a mano. Solo las votaciones con publicable=true pasan al sitio.",
  "orden_diputaciones": [
   "abril-gordienko-lopez",
@@ -82,7 +82,12 @@
   "votaciones_publicables": 4818,
   "sesiones_sin_votaciones": 20
  },
- "sin_documento": [],
+ "sin_documento": [
+  {
+   "sesion": "ordinaria #83 (2026-10-20)",
+   "motivo": "SIL+: TextoActaSQL no devolvio archivo para la sesion 83 (20/10/2026 00:00:00). Mensajes: [{'despliegue': 2, 'tipo': 1, 'campo': None, 'texto': '[30016] No existe un texto asociado para el registro seleccionado.'}]"
+  }
+ ],
  "variantes_sin_resolver": {},
  "sesiones": [
   {"tipo":"ordinaria","numero":1,"fecha":"2026-05-01","legislatura":"2026-2027","hora_inicio":"9:00","hora_fin":"18:00","sil":{"IdSESION":"49967","Id_Sesion":55002,"Id_Orden_Dia":1031738},"archivo":"TextoActa_1031738.docx","sha256":"b992e44c504b211dc43fdad4f41db770a41a1bd1eaea65b64827342fc9880c24","bytes":950919,"directorio":["ronald-campos-villegas","jose-miguel-villalobos-umana","maria-eugenia-roman-mora"],"presentes":["nogui-acosta-jaen","alvaro-ramirez-bogantes","juan-manuel-quesada-espinoza","iztaru-alfaro-guerrero","kattya-mora-montoya","rafael-vargas-brenes","stephan-brunner-neibig","andrea-valverde-palavicini","mayuli-ortega-guzman","marco-badilla-chavarria","gonzalo-ramirez-zamora","diana-murillo-murillo","anna-katharina-muller-castro","eder-hernandez-ulloa","antonio-barzuna-thompson","karen-alfaro-jimenez","esmeralda-britton-gonzalez","janice-sandi-morales","jose-miguel-villalobos-umana","salvador-padilla-villanueva","zaira-murillo-marin","victor-hidalgo-solis","gerald-bogantes-rivera","angela-aguilar-vargas","grethel-maria-avila-vargas","ronald-campos-villegas","wilson-alfredo-jimenez-cordero","karol-vanessa-matamoros-montoya","kattia-maria-ulate-alvarado","norjelens-maria-lobo-vargas","fernando-obaldia-alvarez","jesus-calderon-calderon","cindy-maria-blanco-gonzalez","mangell-mc-lean-villalobos","robert-junior-barrantes-camacho","claudia-dobles-camargo","yara-jimenez-fallas","abril-gordienko-lopez","marta-eugenia-esquivel-rodriguez","jose-maria-villalta-florez-estrada","nayuribe-guadamuz-rosales","maria-eugenia-roman-mora","daniel-siezar-cardenas","sigrid-segura-artavia","cindy-murillo-artavia","antonio-trejos-mazariegos","royner-g-mora-ruiz","vianey-mora-vega","maria-isabel-camareno-camareno","edgardo-araya-sibaja","ariel-mora-fallas","joselyn-saenz-nunez","ana-ruth-esquivel-medrano","osvaldo-artavia-carballo","kristel-ward-hudson","reynaldo-arias-mora","kattia-calvo-cruz"],"presentes_en_texto":57,"votaron_sin_figurar_en_presentes":[],"votaciones":[],"total_votaciones":0,"votaciones_publicables":0,"contraste_subtitulo":null,"sin_resolver":{},"expedientes":{},"avisos":["El acta no tiene ninguna 'Lista de nombres' (puede ser correcto: sesion sin votaciones nominales)."]},
