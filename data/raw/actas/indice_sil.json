@@ -1414,5 +1414,17 @@
   "Hora_Final": "17:00",
   "Nombre_Tipo": "ORDINARIA",
   "Nombre_Corto": "PLENARIO"
+ },
+ {
+  "IdSESION": "50000000000050527",
+  "Id_Sesion": 55563,
+  "Id_Orden_Dia": 1032264,
+  "Legislatura": "2026-2027",
+  "Numero_Sesion_1": 85,
+  "Fecha_Sesion": "22/10/2026 00:00:00",
+  "Hora_Inicial": "14:45",
+  "Hora_Final": "18:00",
+  "Nombre_Tipo": "ORDINARIA",
+  "Nombre_Corto": "PLENARIO"
  }
 ]
