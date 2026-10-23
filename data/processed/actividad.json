@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-22T12:01:06+00:00",
+  "generado": "2026-10-23T12:01:11+00:00",
   "nota": "Solo se incluyen conjuntos que la Asamblea mantiene al día. Cada uno trae su propia fecha de última actualización, tomada de la fuente.",
   "leyes": {
     "_fuente": "https://www.asamblea.go.cr/glcp/_api/web/lists/getbytitle('res_de_leyes')/items?%24top=2000&%24orderby=Modified%20desc",
@@ -382,12 +382,12 @@
   },
   "mociones": {
     "_fuente": "https://www.asamblea.go.cr/glcp/_api/web/lists/getbytitle('mociones_total')/items?%24top=5000&%24orderby=Id%20desc",
-    "total": 27511,
-    "nota_alcance": "Agregados calculados sobre las 27511 mociones que devuelve la lista completa, no sobre una muestra.",
-    "ultima_actualizacion": "2026-10-22T02:59:35Z",
+    "total": 27559,
+    "nota_alcance": "Agregados calculados sobre las 27559 mociones que devuelve la lista completa, no sobre una muestra.",
+    "ultima_actualizacion": "2026-10-23T02:41:57Z",
     "por_resultado": {
-      "Rechazada": 23282,
-      "Aprobada": 3596,
+      "Rechazada": 23323,
+      "Aprobada": 3603,
       "Retirada": 394,
       "Pendiente": 238,
       "Revisión": 1
@@ -397,329 +397,329 @@
       "2023": 3827,
       "2024": 4729,
       "2025": 9086,
-      "2026": 6619
+      "2026": 6667
     },
-    "expedientes_distintos": 1244,
+    "expedientes_distintos": 1245,
     "recientes": [
       {
-        "numero": "Moción N.° 313-137",
-        "expediente": "24945",
+        "numero": "137-0003",
+        "expediente": "24605",
         "resultado": "Rechazada",
-        "asunto": "APROBACIÓN DEL CONTRATO DE FINANCIAMIENTO N° 9745-CR \"PRÉSTAMO DE POLÍTICA DE DESARROLLO PARA LA GESTIÓN DEL RIESGO SOCIAL EN COSTA RICA CON UNA OPCIÓN DE DESEMBOLSO DIFERIDO” SUSCRITO ENTRE EL BANCO INTERNACIONAL DE RECONSTRUCCIÓN Y FOMENTO Y LA REPÚBLI",
-        "tramite": "II día",
-        "fecha": "2026-10-22T02:59:13Z"
+        "asunto": "LEY PARA LA INCLUSIÓN TECNOLÓGICA Y DIGITAL DE LAS PERSONAS ADULTAS MAYORES",
+        "tramite": "I día",
+        "fecha": "2026-10-23T02:41:12Z"
       },
       {
-        "numero": "Moción N.° 312-137",
-        "expediente": "25945",
-        "resultado": "Rechazada",
-        "asunto": "APROBACIÓN DEL CONTRATO DE FINANCIAMIENTO N° 9745-CR \"PRÉSTAMO DE POLÍTICA DE DESARROLLO PARA LA GESTIÓN DEL RIESGO SOCIAL EN COSTA RICA CON UNA OPCIÓN DE DESEMBOLSO DIFERIDO” SUSCRITO ENTRE EL BANCO INTERNACIONAL DE RECONSTRUCCIÓN Y FOMENTO Y LA REPÚBLI",
-        "tramite": "II día",
-        "fecha": "2026-10-22T02:58:43Z"
+        "numero": "137-0002",
+        "expediente": "24605",
+        "resultado": "Aprobada",
+        "asunto": "LEY PARA LA INCLUSIÓN TECNOLÓGICA Y DIGITAL DE LAS PERSONAS ADULTAS MAYORES",
+        "tramite": "I día",
+        "fecha": "2026-10-23T02:40:07Z"
       },
       {
-        "numero": "Moción N.° 311-137",
-        "expediente": "24945",
-        "resultado": "Rechazada",
-        "asunto": "APROBACIÓN DEL CONTRATO DE FINANCIAMIENTO N° 9745-CR \"PRÉSTAMO DE POLÍTICA DE DESARROLLO PARA LA GESTIÓN DEL RIESGO SOCIAL EN COSTA RICA CON UNA OPCIÓN DE DESEMBOLSO DIFERIDO” SUSCRITO ENTRE EL BANCO INTERNACIONAL DE RECONSTRUCCIÓN Y FOMENTO Y LA REPÚBLI",
-        "tramite": "II día",
-        "fecha": "2026-10-22T02:58:14Z"
-      },
-      {
-        "numero": "Moción N.° 310-137",
-        "expediente": "24945",
-        "resultado": "Rechazada",
-        "asunto": "APROBACIÓN DEL CONTRATO DE FINANCIAMIENTO N° 9745-CR \"PRÉSTAMO DE POLÍTICA DE DESARROLLO PARA LA GESTIÓN DEL RIESGO SOCIAL EN COSTA RICA CON UNA OPCIÓN DE DESEMBOLSO DIFERIDO” SUSCRITO ENTRE EL BANCO INTERNACIONAL DE RECONSTRUCCIÓN Y FOMENTO Y LA REPÚBLI",
-        "tramite": "II día",
-        "fecha": "2026-10-22T02:57:44Z"
-      },
-      {
-        "numero": "Moción N.° 309-137",
-        "expediente": "24945",
-        "resultado": "Rechazada",
-        "asunto": "APROBACIÓN DEL CONTRATO DE FINANCIAMIENTO N° 9745-CR \"PRÉSTAMO DE POLÍTICA DE DESARROLLO PARA LA GESTIÓN DEL RIESGO SOCIAL EN COSTA RICA CON UNA OPCIÓN DE DESEMBOLSO DIFERIDO” SUSCRITO ENTRE EL BANCO INTERNACIONAL DE RECONSTRUCCIÓN Y FOMENTO Y LA REPÚBLI",
-        "tramite": "II día",
-        "fecha": "2026-10-22T02:57:02Z"
-      },
-      {
-        "numero": "Moción N.° 308-137",
-        "expediente": "24945",
-        "resultado": "Rechazada",
-        "asunto": "APROBACIÓN DEL CONTRATO DE FINANCIAMIENTO N° 9745-CR \"PRÉSTAMO DE POLÍTICA DE DESARROLLO PARA LA GESTIÓN DEL RIESGO SOCIAL EN COSTA RICA CON UNA OPCIÓN DE DESEMBOLSO DIFERIDO” SUSCRITO ENTRE EL BANCO INTERNACIONAL DE RECONSTRUCCIÓN Y FOMENTO Y LA REPÚBLI",
-        "tramite": "II día",
-        "fecha": "2026-10-22T02:56:28Z"
-      },
-      {
-        "numero": "Moción N.° 307-137",
-        "expediente": "24945",
-        "resultado": "Rechazada",
-        "asunto": "APROBACIÓN DEL CONTRATO DE FINANCIAMIENTO N° 9745-CR \"PRÉSTAMO DE POLÍTICA DE DESARROLLO PARA LA GESTIÓN DEL RIESGO SOCIAL EN COSTA RICA CON UNA OPCIÓN DE DESEMBOLSO DIFERIDO” SUSCRITO ENTRE EL BANCO INTERNACIONAL DE RECONSTRUCCIÓN Y FOMENTO Y LA REPÚBLI",
-        "tramite": "II día",
-        "fecha": "2026-10-22T02:55:59Z"
-      },
-      {
-        "numero": "Moción N.° 306-137",
-        "expediente": "24945",
-        "resultado": "Rechazada",
-        "asunto": "APROBACIÓN DEL CONTRATO DE FINANCIAMIENTO N° 9745-CR \"PRÉSTAMO DE POLÍTICA DE DESARROLLO PARA LA GESTIÓN DEL RIESGO SOCIAL EN COSTA RICA CON UNA OPCIÓN DE DESEMBOLSO DIFERIDO” SUSCRITO ENTRE EL BANCO INTERNACIONAL DE RECONSTRUCCIÓN Y FOMENTO Y LA REPÚBLI",
-        "tramite": "II día",
-        "fecha": "2026-10-22T02:55:27Z"
-      },
-      {
-        "numero": "Moción N.° 305-137",
-        "expediente": "24945",
-        "resultado": "Rechazada",
-        "asunto": "APROBACIÓN DEL CONTRATO DE FINANCIAMIENTO N° 9745-CR \"PRÉSTAMO DE POLÍTICA DE DESARROLLO PARA LA GESTIÓN DEL RIESGO SOCIAL EN COSTA RICA CON UNA OPCIÓN DE DESEMBOLSO DIFERIDO” SUSCRITO ENTRE EL BANCO INTERNACIONAL DE RECONSTRUCCIÓN Y FOMENTO Y LA REPÚBLI",
-        "tramite": "II día",
-        "fecha": "2026-10-22T02:55:00Z"
-      },
-      {
-        "numero": "Moción N.° 304-137",
-        "expediente": "24945",
-        "resultado": "Rechazada",
-        "asunto": "APROBACIÓN DEL CONTRATO DE FINANCIAMIENTO N° 9745-CR \"PRÉSTAMO DE POLÍTICA DE DESARROLLO PARA LA GESTIÓN DEL RIESGO SOCIAL EN COSTA RICA CON UNA OPCIÓN DE DESEMBOLSO DIFERIDO” SUSCRITO ENTRE EL BANCO INTERNACIONAL DE RECONSTRUCCIÓN Y FOMENTO Y LA REPÚBLI",
-        "tramite": "II día",
-        "fecha": "2026-10-22T02:54:33Z"
-      },
-      {
-        "numero": "Moción N.° 303-137",
-        "expediente": "24945",
-        "resultado": "Rechazada",
-        "asunto": "APROBACIÓN DEL CONTRATO DE FINANCIAMIENTO N° 9745-CR \"PRÉSTAMO DE POLÍTICA DE DESARROLLO PARA LA GESTIÓN DEL RIESGO SOCIAL EN COSTA RICA CON UNA OPCIÓN DE DESEMBOLSO DIFERIDO” SUSCRITO ENTRE EL BANCO INTERNACIONAL DE RECONSTRUCCIÓN Y FOMENTO Y LA REPÚBLI",
-        "tramite": "II día",
-        "fecha": "2026-10-22T02:54:01Z"
-      },
-      {
-        "numero": "Moción N.° 302-137",
-        "expediente": "24945",
-        "resultado": "Rechazada",
-        "asunto": "APROBACIÓN DEL CONTRATO DE FINANCIAMIENTO N° 9745-CR \"PRÉSTAMO DE POLÍTICA DE DESARROLLO PARA LA GESTIÓN DEL RIESGO SOCIAL EN COSTA RICA CON UNA OPCIÓN DE DESEMBOLSO DIFERIDO” SUSCRITO ENTRE EL BANCO INTERNACIONAL DE RECONSTRUCCIÓN Y FOMENTO Y LA REPÚBLI",
-        "tramite": "II día",
-        "fecha": "2026-10-22T02:53:26Z"
-      },
-      {
-        "numero": "Moción N.° 301-137",
-        "expediente": "24945",
-        "resultado": "Rechazada",
-        "asunto": "APROBACIÓN DEL CONTRATO DE FINANCIAMIENTO N° 9745-CR \"PRÉSTAMO DE POLÍTICA DE DESARROLLO PARA LA GESTIÓN DEL RIESGO SOCIAL EN COSTA RICA CON UNA OPCIÓN DE DESEMBOLSO DIFERIDO” SUSCRITO ENTRE EL BANCO INTERNACIONAL DE RECONSTRUCCIÓN Y FOMENTO Y LA REPÚBLI",
-        "tramite": "II día",
-        "fecha": "2026-10-22T02:52:11Z"
-      },
-      {
-        "numero": "0002",
+        "numero": "24251-II-0033",
         "expediente": "24251",
         "resultado": "Aprobada",
         "asunto": "LEY PARA EL FORTALECIMIENTO DE LA RECTORÍA DEL MINISTERIO DE SALUD EN LA GESTIÓN Y DISPOSICIÓN FINAL DE RESIDUOS SÓLIDOS.",
         "tramite": "II día",
-        "fecha": "2026-10-22T02:21:02Z"
+        "fecha": "2026-10-23T01:35:26Z"
       },
       {
-        "numero": "0020",
+        "numero": "24251-II-0032",
         "expediente": "24251",
         "resultado": "Rechazada",
         "asunto": "LEY PARA EL FORTALECIMIENTO DE LA RECTORÍA DEL MINISTERIO DE SALUD EN LA GESTIÓN Y DISPOSICIÓN FINAL DE RESIDUOS SÓLIDOS.",
         "tramite": "II día",
-        "fecha": "2026-10-22T01:59:55Z"
+        "fecha": "2026-10-23T01:34:38Z"
       },
       {
-        "numero": "0001",
+        "numero": "24251-II-0031",
         "expediente": "24251",
         "resultado": "Rechazada",
         "asunto": "LEY PARA EL FORTALECIMIENTO DE LA RECTORÍA DEL MINISTERIO DE SALUD EN LA GESTIÓN Y DISPOSICIÓN FINAL DE RESIDUOS SÓLIDOS.",
         "tramite": "II día",
-        "fecha": "2026-10-22T01:55:35Z"
+        "fecha": "2026-10-23T01:33:47Z"
       },
       {
-        "numero": "0006",
+        "numero": "24251-II-0030",
         "expediente": "24251",
+        "resultado": "Rechazada",
+        "asunto": "LEY PARA EL FORTALECIMIENTO DE LA RECTORÍA DEL MINISTERIO DE SALUD EN LA GESTIÓN Y DISPOSICIÓN FINAL DE RESIDUOS SÓLIDOS.",
+        "tramite": "II día",
+        "fecha": "2026-10-23T01:32:19Z"
+      },
+      {
+        "numero": "24251-II-0029",
+        "expediente": "24251",
+        "resultado": "Rechazada",
+        "asunto": "LEY PARA EL FORTALECIMIENTO DE LA RECTORÍA DEL MINISTERIO DE SALUD EN LA GESTIÓN Y DISPOSICIÓN FINAL DE RESIDUOS SÓLIDOS.",
+        "tramite": "II día",
+        "fecha": "2026-10-23T01:31:43Z"
+      },
+      {
+        "numero": "24251-II-0028",
+        "expediente": "24251",
+        "resultado": "Rechazada",
+        "asunto": "LEY PARA EL FORTALECIMIENTO DE LA RECTORÍA DEL MINISTERIO DE SALUD EN LA GESTIÓN Y DISPOSICIÓN FINAL DE RESIDUOS SÓLIDOS.",
+        "tramite": "II día",
+        "fecha": "2026-10-23T01:30:59Z"
+      },
+      {
+        "numero": "24251-II-0027",
+        "expediente": "24251",
+        "resultado": "Rechazada",
+        "asunto": "LEY PARA EL FORTALECIMIENTO DE LA RECTORÍA DEL MINISTERIO DE SALUD EN LA GESTIÓN Y DISPOSICIÓN FINAL DE RESIDUOS SÓLIDOS.",
+        "tramite": "II día",
+        "fecha": "2026-10-23T01:30:20Z"
+      },
+      {
+        "numero": "24251-II-0026",
+        "expediente": "24251",
+        "resultado": "Rechazada",
+        "asunto": "LEY PARA EL FORTALECIMIENTO DE LA RECTORÍA DEL MINISTERIO DE SALUD EN LA GESTIÓN Y DISPOSICIÓN FINAL DE RESIDUOS SÓLIDOS.",
+        "tramite": "II día",
+        "fecha": "2026-10-23T01:29:32Z"
+      },
+      {
+        "numero": "24251-II-0025",
+        "expediente": "24251",
+        "resultado": "Rechazada",
+        "asunto": "LEY PARA EL FORTALECIMIENTO DE LA RECTORÍA DEL MINISTERIO DE SALUD EN LA GESTIÓN Y DISPOSICIÓN FINAL DE RESIDUOS SÓLIDOS.",
+        "tramite": "II día",
+        "fecha": "2026-10-23T01:28:46Z"
+      },
+      {
+        "numero": "24251-II-0024",
+        "expediente": "24251",
+        "resultado": "Rechazada",
+        "asunto": "LEY PARA EL FORTALECIMIENTO DE LA RECTORÍA DEL MINISTERIO DE SALUD EN LA GESTIÓN Y DISPOSICIÓN FINAL DE RESIDUOS SÓLIDOS.",
+        "tramite": "II día",
+        "fecha": "2026-10-23T01:28:04Z"
+      },
+      {
+        "numero": "24251-II-0023",
+        "expediente": "24251",
+        "resultado": "Rechazada",
+        "asunto": "LEY PARA EL FORTALECIMIENTO DE LA RECTORÍA DEL MINISTERIO DE SALUD EN LA GESTIÓN Y DISPOSICIÓN FINAL DE RESIDUOS SÓLIDOS.",
+        "tramite": "II día",
+        "fecha": "2026-10-23T01:27:27Z"
+      },
+      {
+        "numero": "24251-II-0022",
+        "expediente": "24251",
+        "resultado": "Rechazada",
+        "asunto": "LEY PARA EL FORTALECIMIENTO DE LA RECTORÍA DEL MINISTERIO DE SALUD EN LA GESTIÓN Y DISPOSICIÓN FINAL DE RESIDUOS SÓLIDOS.",
+        "tramite": "II día",
+        "fecha": "2026-10-23T01:25:50Z"
+      },
+      {
+        "numero": "137-0001",
+        "expediente": "24605",
+        "resultado": "Rechazada",
+        "asunto": "LEY PARA LA INCLUSIÓN TECNOLÓGICA Y DIGITAL DE LAS PERSONAS ADULTAS MAYORES",
+        "tramite": "I día",
+        "fecha": "2026-10-22T23:54:43Z"
+      },
+      {
+        "numero": "137-0004",
+        "expediente": "24359",
         "resultado": "Aprobada",
-        "asunto": "LEY PARA EL FORTALECIMIENTO DE LA RECTORÍA DEL MINISTERIO DE SALUD EN LA GESTIÓN Y DISPOSICIÓN FINAL DE RESIDUOS SÓLIDOS.",
-        "tramite": "II día",
-        "fecha": "2026-10-22T01:10:13Z"
+        "asunto": "REFORMA DE LOS ARTÍCULOS 216 Y 217 BIS DEL CÓDIGO PENAL, LEY N.° 4573, DEL 04 DE MAYO DE 1970. AUMENTO DE LA PENA ASIGNADA A LOS DELITOS DE ESTAFA, CUANDO LA VÍCTIMA SEA UNA PERSONA ADULTA MAYOR O PERSONA CON DISCAPACIDAD COGNITIVA ANTES MODIFICACIÓN DE L",
+        "tramite": "I día",
+        "fecha": "2026-10-22T23:44:48Z"
       },
       {
-        "numero": "0019",
-        "expediente": "24251",
+        "numero": "137-0003",
+        "expediente": "24359",
         "resultado": "Rechazada",
-        "asunto": "LEY PARA EL FORTALECIMIENTO DE LA RECTORÍA DEL MINISTERIO DE SALUD EN LA GESTIÓN Y DISPOSICIÓN FINAL DE RESIDUOS SÓLIDOS.",
-        "tramite": "II día",
-        "fecha": "2026-10-22T01:07:30Z"
+        "asunto": "REFORMA DE LOS ARTÍCULOS 216 Y 217 BIS DEL CÓDIGO PENAL, LEY N.° 4573, DEL 04 DE MAYO DE 1970. AUMENTO DE LA PENA ASIGNADA A LOS DELITOS DE ESTAFA, CUANDO LA VÍCTIMA SEA UNA PERSONA ADULTA MAYOR O PERSONA CON DISCAPACIDAD COGNITIVA ANTES MODIFICACIÓN DE L",
+        "tramite": "I día",
+        "fecha": "2026-10-22T23:43:27Z"
       },
       {
-        "numero": "0018",
-        "expediente": "24251",
+        "numero": "137-0002",
+        "expediente": "24359",
         "resultado": "Rechazada",
-        "asunto": "LEY PARA EL FORTALECIMIENTO DE LA RECTORÍA DEL MINISTERIO DE SALUD EN LA GESTIÓN Y DISPOSICIÓN FINAL DE RESIDUOS SÓLIDOS.",
-        "tramite": "II día",
-        "fecha": "2026-10-22T01:07:00Z"
+        "asunto": "REFORMA DE LOS ARTÍCULOS 216 Y 217 BIS DEL CÓDIGO PENAL, LEY N.° 4573, DEL 04 DE MAYO DE 1970. AUMENTO DE LA PENA ASIGNADA A LOS DELITOS DE ESTAFA, CUANDO LA VÍCTIMA SEA UNA PERSONA ADULTA MAYOR O PERSONA CON DISCAPACIDAD COGNITIVA ANTES MODIFICACIÓN DE L",
+        "tramite": "I día",
+        "fecha": "2026-10-22T23:41:44Z"
       },
       {
-        "numero": "0017",
-        "expediente": "24251",
+        "numero": "137-0001",
+        "expediente": "24359",
         "resultado": "Rechazada",
-        "asunto": "LEY PARA EL FORTALECIMIENTO DE LA RECTORÍA DEL MINISTERIO DE SALUD EN LA GESTIÓN Y DISPOSICIÓN FINAL DE RESIDUOS SÓLIDOS.",
-        "tramite": "II día",
-        "fecha": "2026-10-22T01:06:26Z"
+        "asunto": "REFORMA DE LOS ARTÍCULOS 216 Y 217 BIS DEL CÓDIGO PENAL, LEY N.° 4573, DEL 04 DE MAYO DE 1970. AUMENTO DE LA PENA ASIGNADA A LOS DELITOS DE ESTAFA, CUANDO LA VÍCTIMA SEA UNA PERSONA ADULTA MAYOR O PERSONA CON DISCAPACIDAD COGNITIVA ANTES MODIFICACIÓN DE L",
+        "tramite": "I día",
+        "fecha": "2026-10-22T23:37:55Z"
       },
       {
-        "numero": "0016",
-        "expediente": "24251",
-        "resultado": "Rechazada",
-        "asunto": "LEY PARA EL FORTALECIMIENTO DE LA RECTORÍA DEL MINISTERIO DE SALUD EN LA GESTIÓN Y DISPOSICIÓN FINAL DE RESIDUOS SÓLIDOS.",
-        "tramite": "II día",
-        "fecha": "2026-10-22T01:05:57Z"
+        "numero": "04-32",
+        "expediente": "25401",
+        "resultado": "Aprobada",
+        "asunto": "REFORMA PARCIAL A LA LEY 9211, LEY SOBRE PREMIOS NACIONALES DE CULTURA.",
+        "tramite": null,
+        "fecha": "2026-10-22T23:19:39Z"
       },
       {
-        "numero": "0015",
-        "expediente": "24251",
-        "resultado": "Rechazada",
-        "asunto": "LEY PARA EL FORTALECIMIENTO DE LA RECTORÍA DEL MINISTERIO DE SALUD EN LA GESTIÓN Y DISPOSICIÓN FINAL DE RESIDUOS SÓLIDOS.",
-        "tramite": "II día",
-        "fecha": "2026-10-22T01:05:32Z"
+        "numero": null,
+        "expediente": "25401",
+        "resultado": "Aprobada",
+        "asunto": "REFORMA PARCIAL A LA LEY 9211, LEY SOBRE PREMIOS NACIONALES DE CULTURA",
+        "tramite": null,
+        "fecha": "2026-10-22T23:04:26Z"
       },
       {
-        "numero": "0014",
-        "expediente": "24251",
+        "numero": "Moción N.° 330-137",
+        "expediente": "24945",
         "resultado": "Rechazada",
-        "asunto": "LEY PARA EL FORTALECIMIENTO DE LA RECTORÍA DEL MINISTERIO DE SALUD EN LA GESTIÓN Y DISPOSICIÓN FINAL DE RESIDUOS SÓLIDOS.",
+        "asunto": "APROBACIÓN DEL CONTRATO DE FINANCIAMIENTO N° 9745-CR \"PRÉSTAMO DE POLÍTICA DE DESARROLLO PARA LA GESTIÓN DEL RIESGO SOCIAL EN COSTA RICA CON UNA OPCIÓN DE DESEMBOLSO DIFERIDO” SUSCRITO ENTRE EL BANCO INTERNACIONAL DE RECONSTRUCCIÓN Y FOMENTO Y LA REPÚBLIC",
         "tramite": "II día",
-        "fecha": "2026-10-22T01:05:06Z"
+        "fecha": "2026-10-22T22:52:12Z"
       },
       {
-        "numero": "0013",
-        "expediente": "24251",
+        "numero": "Moción N.° 329-137",
+        "expediente": "24945",
         "resultado": "Rechazada",
-        "asunto": "LEY PARA EL FORTALECIMIENTO DE LA RECTORÍA DEL MINISTERIO DE SALUD EN LA GESTIÓN Y DISPOSICIÓN FINAL DE RESIDUOS SÓLIDOS.",
+        "asunto": "APROBACIÓN DEL CONTRATO DE FINANCIAMIENTO N° 9745-CR \"PRÉSTAMO DE POLÍTICA DE DESARROLLO PARA LA GESTIÓN DEL RIESGO SOCIAL EN COSTA RICA CON UNA OPCIÓN DE DESEMBOLSO DIFERIDO” SUSCRITO ENTRE EL BANCO INTERNACIONAL DE RECONSTRUCCIÓN Y FOMENTO Y LA REPÚBLIC",
         "tramite": "II día",
-        "fecha": "2026-10-22T01:04:39Z"
+        "fecha": "2026-10-22T22:49:20Z"
       },
       {
-        "numero": "0012",
-        "expediente": "24251",
+        "numero": "Moción N.° 328-137",
+        "expediente": "24945",
         "resultado": "Rechazada",
-        "asunto": "LEY PARA EL FORTALECIMIENTO DE LA RECTORÍA DEL MINISTERIO DE SALUD EN LA GESTIÓN Y DISPOSICIÓN FINAL DE RESIDUOS SÓLIDOS.",
+        "asunto": "APROBACIÓN DEL CONTRATO DE FINANCIAMIENTO N° 9745-CR \"PRÉSTAMO DE POLÍTICA DE DESARROLLO PARA LA GESTIÓN DEL RIESGO SOCIAL EN COSTA RICA CON UNA OPCIÓN DE DESEMBOLSO DIFERIDO” SUSCRITO ENTRE EL BANCO INTERNACIONAL DE RECONSTRUCCIÓN Y FOMENTO Y LA REPÚBLIC",
         "tramite": "II día",
-        "fecha": "2026-10-22T01:04:05Z"
+        "fecha": "2026-10-22T21:39:35Z"
       },
       {
-        "numero": "0011",
-        "expediente": "24251",
+        "numero": "Moción N.° 327",
+        "expediente": "24945",
         "resultado": "Rechazada",
-        "asunto": "LEY PARA EL FORTALECIMIENTO DE LA RECTORÍA DEL MINISTERIO DE SALUD EN LA GESTIÓN Y DISPOSICIÓN FINAL DE RESIDUOS SÓLIDOS.",
+        "asunto": "APROBACIÓN DEL CONTRATO DE FINANCIAMIENTO N° 9745-CR \"PRÉSTAMO DE POLÍTICA DE DESARROLLO PARA LA GESTIÓN DEL RIESGO SOCIAL EN COSTA RICA CON UNA OPCIÓN DE DESEMBOLSO DIFERIDO” SUSCRITO ENTRE EL BANCO INTERNACIONAL DE RECONSTRUCCIÓN Y FOMENTO Y LA REPÚBLIC",
         "tramite": "II día",
-        "fecha": "2026-10-22T01:02:42Z"
+        "fecha": "2026-10-22T21:37:03Z"
       },
       {
-        "numero": "0010",
-        "expediente": "24251",
+        "numero": "Moción N.° 326",
+        "expediente": "24945",
         "resultado": "Rechazada",
-        "asunto": "LEY PARA EL FORTALECIMIENTO DE LA RECTORÍA DEL MINISTERIO DE SALUD EN LA GESTIÓN Y DISPOSICIÓN FINAL DE RESIDUOS SÓLIDOS.",
+        "asunto": "APROBACIÓN DEL CONTRATO DE FINANCIAMIENTO N° 9745-CR \"PRÉSTAMO DE POLÍTICA DE DESARROLLO PARA LA GESTIÓN DEL RIESGO SOCIAL EN COSTA RICA CON UNA OPCIÓN DE DESEMBOLSO DIFERIDO” SUSCRITO ENTRE EL BANCO INTERNACIONAL DE RECONSTRUCCIÓN Y FOMENTO Y LA REPÚBLIC",
         "tramite": "II día",
-        "fecha": "2026-10-22T01:01:56Z"
+        "fecha": "2026-10-22T21:34:04Z"
       },
       {
-        "numero": "0009",
-        "expediente": "24251",
+        "numero": "Moción N.° 325-137",
+        "expediente": "24945",
         "resultado": "Rechazada",
-        "asunto": "LEY PARA EL FORTALECIMIENTO DE LA RECTORÍA DEL MINISTERIO DE SALUD EN LA GESTIÓN Y DISPOSICIÓN FINAL DE RESIDUOS SÓLIDOS.",
+        "asunto": "APROBACIÓN DEL CONTRATO DE FINANCIAMIENTO N° 9745-CR \"PRÉSTAMO DE POLÍTICA DE DESARROLLO PARA LA GESTIÓN DEL RIESGO SOCIAL EN COSTA RICA CON UNA OPCIÓN DE DESEMBOLSO DIFERIDO” SUSCRITO ENTRE EL BANCO INTERNACIONAL DE RECONSTRUCCIÓN Y FOMENTO Y LA REPÚBLIC",
         "tramite": "II día",
-        "fecha": "2026-10-22T01:01:20Z"
+        "fecha": "2026-10-22T21:32:45Z"
       },
       {
-        "numero": "0008",
-        "expediente": "24251",
+        "numero": "Moción N.° 324-137",
+        "expediente": "24945",
         "resultado": "Rechazada",
-        "asunto": "LEY PARA EL FORTALECIMIENTO DE LA RECTORÍA DEL MINISTERIO DE SALUD EN LA GESTIÓN Y DISPOSICIÓN FINAL DE RESIDUOS SÓLIDOS.",
+        "asunto": "APROBACIÓN DEL CONTRATO DE FINANCIAMIENTO N° 9745-CR \"PRÉSTAMO DE POLÍTICA DE DESARROLLO PARA LA GESTIÓN DEL RIESGO SOCIAL EN COSTA RICA CON UNA OPCIÓN DE DESEMBOLSO DIFERIDO” SUSCRITO ENTRE EL BANCO INTERNACIONAL DE RECONSTRUCCIÓN Y FOMENTO Y LA REPÚBLIC",
         "tramite": "II día",
-        "fecha": "2026-10-22T01:00:50Z"
+        "fecha": "2026-10-22T21:31:07Z"
       },
       {
-        "numero": "0007",
-        "expediente": "24251",
+        "numero": "Moción N.° 323-137",
+        "expediente": "24945",
         "resultado": "Rechazada",
-        "asunto": "LEY PARA EL FORTALECIMIENTO DE LA RECTORÍA DEL MINISTERIO DE SALUD EN LA GESTIÓN Y DISPOSICIÓN FINAL DE RESIDUOS SÓLIDOS.",
+        "asunto": "APROBACIÓN DEL CONTRATO DE FINANCIAMIENTO N° 9745-CR \"PRÉSTAMO DE POLÍTICA DE DESARROLLO PARA LA GESTIÓN DEL RIESGO SOCIAL EN COSTA RICA CON UNA OPCIÓN DE DESEMBOLSO DIFERIDO” SUSCRITO ENTRE EL BANCO INTERNACIONAL DE RECONSTRUCCIÓN Y FOMENTO Y LA REPÚBLIC",
         "tramite": "II día",
-        "fecha": "2026-10-22T01:00:23Z"
+        "fecha": "2026-10-22T21:26:52Z"
       },
       {
-        "numero": "0005",
-        "expediente": "24251",
+        "numero": "Moción N.° 322-137",
+        "expediente": "24945",
         "resultado": "Rechazada",
-        "asunto": "LEY PARA EL FORTALECIMIENTO DE LA RECTORÍA DEL MINISTERIO DE SALUD EN LA GESTIÓN Y DISPOSICIÓN FINAL DE RESIDUOS SÓLIDOS.",
+        "asunto": "APROBACIÓN DEL CONTRATO DE FINANCIAMIENTO N° 9745-CR \"PRÉSTAMO DE POLÍTICA DE DESARROLLO PARA LA GESTIÓN DEL RIESGO SOCIAL EN COSTA RICA CON UNA OPCIÓN DE DESEMBOLSO DIFERIDO” SUSCRITO ENTRE EL BANCO INTERNACIONAL DE RECONSTRUCCIÓN Y FOMENTO Y LA REPÚBLIC",
         "tramite": "II día",
-        "fecha": "2026-10-22T00:59:55Z"
+        "fecha": "2026-10-22T21:12:01Z"
+      },
+      {
+        "numero": "Moción N.° 321-137",
+        "expediente": "24945",
+        "resultado": "Rechazada",
+        "asunto": "APROBACIÓN DEL CONTRATO DE FINANCIAMIENTO N° 9745-CR \"PRÉSTAMO DE POLÍTICA DE DESARROLLO PARA LA GESTIÓN DEL RIESGO SOCIAL EN COSTA RICA CON UNA OPCIÓN DE DESEMBOLSO DIFERIDO” SUSCRITO ENTRE EL BANCO INTERNACIONAL DE RECONSTRUCCIÓN Y FOMENTO Y LA REPÚBLIC",
+        "tramite": "II día",
+        "fecha": "2026-10-22T21:05:10Z"
+      },
+      {
+        "numero": "Moción N.° 320-137",
+        "expediente": "24945",
+        "resultado": "Rechazada",
+        "asunto": "APROBACIÓN DEL CONTRATO DE FINANCIAMIENTO N° 9745-CR \"PRÉSTAMO DE POLÍTICA DE DESARROLLO PARA LA GESTIÓN DEL RIESGO SOCIAL EN COSTA RICA CON UNA OPCIÓN DE DESEMBOLSO DIFERIDO” SUSCRITO ENTRE EL BANCO INTERNACIONAL DE RECONSTRUCCIÓN Y FOMENTO Y LA REPÚBLIC",
+        "tramite": "II día",
+        "fecha": "2026-10-22T21:02:39Z"
+      },
+      {
+        "numero": "Moción N.° 319-137",
+        "expediente": "24945",
+        "resultado": "Rechazada",
+        "asunto": "APROBACIÓN DEL CONTRATO DE FINANCIAMIENTO N° 9745-CR \"PRÉSTAMO DE POLÍTICA DE DESARROLLO PARA LA GESTIÓN DEL RIESGO SOCIAL EN COSTA RICA CON UNA OPCIÓN DE DESEMBOLSO DIFERIDO” SUSCRITO ENTRE EL BANCO INTERNACIONAL DE RECONSTRUCCIÓN Y FOMENTO Y LA REPÚBLIC",
+        "tramite": "II día",
+        "fecha": "2026-10-22T21:00:01Z"
+      },
+      {
+        "numero": "Moción N.° 318-137",
+        "expediente": "24945",
+        "resultado": "Rechazada",
+        "asunto": "APROBACIÓN DEL CONTRATO DE FINANCIAMIENTO N° 9745-CR \"PRÉSTAMO DE POLÍTICA DE DESARROLLO PARA LA GESTIÓN DEL RIESGO SOCIAL EN COSTA RICA CON UNA OPCIÓN DE DESEMBOLSO DIFERIDO” SUSCRITO ENTRE EL BANCO INTERNACIONAL DE RECONSTRUCCIÓN Y FOMENTO Y LA REPÚBLIC",
+        "tramite": "II día",
+        "fecha": "2026-10-22T20:46:03Z"
+      },
+      {
+        "numero": "Moción N.° 317-137",
+        "expediente": "24945",
+        "resultado": "Rechazada",
+        "asunto": "APROBACIÓN DEL CONTRATO DE FINANCIAMIENTO N° 9745-CR \"PRÉSTAMO DE POLÍTICA DE DESARROLLO PARA LA GESTIÓN DEL RIESGO SOCIAL EN COSTA RICA CON UNA OPCIÓN DE DESEMBOLSO DIFERIDO” SUSCRITO ENTRE EL BANCO INTERNACIONAL DE RECONSTRUCCIÓN Y FOMENTO Y LA REPÚBLIC",
+        "tramite": "II día",
+        "fecha": "2026-10-22T20:41:23Z"
+      },
+      {
+        "numero": "Moción N.° 316-137",
+        "expediente": "24945",
+        "resultado": "Rechazada",
+        "asunto": "APROBACIÓN DEL CONTRATO DE FINANCIAMIENTO N° 9745-CR \"PRÉSTAMO DE POLÍTICA DE DESARROLLO PARA LA GESTIÓN DEL RIESGO SOCIAL EN COSTA RICA CON UNA OPCIÓN DE DESEMBOLSO DIFERIDO” SUSCRITO ENTRE EL BANCO INTERNACIONAL DE RECONSTRUCCIÓN Y FOMENTO Y LA REPÚBLIC",
+        "tramite": "II día",
+        "fecha": "2026-10-22T20:37:21Z"
+      },
+      {
+        "numero": "Moción N.° 315-137",
+        "expediente": "24945",
+        "resultado": "Rechazada",
+        "asunto": "APROBACIÓN DEL CONTRATO DE FINANCIAMIENTO N° 9745-CR \"PRÉSTAMO DE POLÍTICA DE DESARROLLO PARA LA GESTIÓN DEL RIESGO SOCIAL EN COSTA RICA CON UNA OPCIÓN DE DESEMBOLSO DIFERIDO” SUSCRITO ENTRE EL BANCO INTERNACIONAL DE RECONSTRUCCIÓN Y FOMENTO Y LA REPÚBLIC",
+        "tramite": "II día",
+        "fecha": "2026-10-22T18:16:27Z"
       },
       {
         "numero": "0004",
-        "expediente": "24251",
+        "expediente": "24371",
         "resultado": "Rechazada",
-        "asunto": "LEY PARA EL FORTALECIMIENTO DE LA RECTORÍA DEL MINISTERIO DE SALUD EN LA GESTIÓN Y DISPOSICIÓN FINAL DE RESIDUOS SÓLIDOS.",
-        "tramite": "II día",
-        "fecha": "2026-10-22T00:59:26Z"
+        "asunto": "MODIFICACIÓN DEL ARTÍCULO 52 DE LA LEY CONTRA LA CORRUPCIÓN Y EL ENRIQUECIMIENTO ILÍCITO EN LA FUNCIÓN PÚBLICA, LEY NÚMERO 8422, DEL 06 DE OCTUBRE DE 2010 Y SUS REFORMAS. LEY PARA PENALIZARA LA PERSONA FUNCIONARIA PÚBLICA QUE BENEFICIE EL NARCOTRÁFICO Y C",
+        "tramite": "I día",
+        "fecha": "2026-10-22T18:10:02Z"
       },
       {
         "numero": "0003",
-        "expediente": "24251",
+        "expediente": "24371",
         "resultado": "Rechazada",
-        "asunto": "LEY PARA EL FORTALECIMIENTO DE LA RECTORÍA DEL MINISTERIO DE SALUD EN LA GESTIÓN Y DISPOSICIÓN FINAL DE RESIDUOS SÓLIDOS.",
-        "tramite": "II día",
-        "fecha": "2026-10-22T00:58:47Z"
-      },
-      {
-        "numero": "137-II-014",
-        "expediente": "23633",
-        "resultado": "Rechazada",
-        "asunto": "Ley para la Institucionalización Legal del Protocolo de las 72 Horas y los Equipos de Respuesta Rápida para la Atención Integral a Víctimas de Delitos Sexuales (ERRVV)",
-        "tramite": "II día",
-        "fecha": "2026-10-21T21:54:45Z"
-      },
-      {
-        "numero": "137-II-013",
-        "expediente": "23633",
-        "resultado": "Rechazada",
-        "asunto": "Ley para la Institucionalización Legal del Protocolo de las 72 Horas y los Equipos de Respuesta Rápida para la Atención Integral a Víctimas de Delitos Sexuales (ERRVV)",
-        "tramite": "II día",
-        "fecha": "2026-10-21T21:54:19Z"
-      },
-      {
-        "numero": "137-II-012",
-        "expediente": "23633",
-        "resultado": "Rechazada",
-        "asunto": "Ley para la Institucionalización Legal del Protocolo de las 72 Horas y los Equipos de Respuesta Rápida para la Atención Integral a Víctimas de Delitos Sexuales (ERRVV)",
-        "tramite": "II día",
-        "fecha": "2026-10-21T21:53:24Z"
-      },
-      {
-        "numero": "137-II-011",
-        "expediente": "23633",
-        "resultado": "Rechazada",
-        "asunto": "Ley para la Institucionalización Legal del Protocolo de las 72 Horas y los Equipos de Respuesta Rápida para la Atención Integral a Víctimas de Delitos Sexuales (ERRVV)",
-        "tramite": "II día",
-        "fecha": "2026-10-21T21:52:18Z"
-      },
-      {
-        "numero": "137-II-010",
-        "expediente": "23633",
-        "resultado": "Rechazada",
-        "asunto": "Ley para la Institucionalización Legal del Protocolo de las 72 Horas y los Equipos de Respuesta Rápida para la Atención Integral a Víctimas de Delitos Sexuales (ERRVV)",
+        "asunto": "MODIFICACIÓN DEL ARTÍCULO 52 DE LA LEY CONTRA LA CORRUPCIÓN Y EL ENRIQUECIMIENTO ILÍCITO EN LA FUNCIÓN PÚBLICA, LEY NÚMERO 8422, DEL 06 DE OCTUBRE DE 2010 Y SUS REFORMAS. LEY PARA PENALIZARA LA PERSONA FUNCIONARIA PÚBLICA QUE BENEFICIE EL NARCOTRÁFICO Y C",
         "tramite": "I día",
-        "fecha": "2026-10-21T21:51:56Z"
+        "fecha": "2026-10-22T18:09:46Z"
       },
       {
-        "numero": "137-II-009",
-        "expediente": "23633",
+        "numero": "0002",
+        "expediente": "24371",
         "resultado": "Rechazada",
-        "asunto": "Ley para la Institucionalización Legal del Protocolo de las 72 Horas y los Equipos de Respuesta Rápida para la Atención Integral a Víctimas de Delitos Sexuales (ERRVV)",
-        "tramite": "II día",
-        "fecha": "2026-10-21T21:51:29Z"
-      },
-      {
-        "numero": "137-II-008",
-        "expediente": "23633",
-        "resultado": "Rechazada",
-        "asunto": "Ley para la Institucionalización Legal del Protocolo de las 72 Horas y los Equipos de Respuesta Rápida para la Atención Integral a Víctimas de Delitos Sexuales (ERRVV)",
+        "asunto": "MODIFICACIÓN DEL ARTÍCULO 52 DE LA LEY CONTRA LA CORRUPCIÓN Y EL ENRIQUECIMIENTO ILÍCITO EN LA FUNCIÓN PÚBLICA, LEY NÚMERO 8422, DEL 06 DE OCTUBRE DE 2010 Y SUS REFORMAS. LEY PARA PENALIZARA LA PERSONA FUNCIONARIA PÚBLICA QUE BENEFICIE EL NARCOTRÁFICO Y C",
         "tramite": "I día",
-        "fecha": "2026-10-21T21:50:58Z"
+        "fecha": "2026-10-22T18:09:33Z"
       }
     ]
   },
