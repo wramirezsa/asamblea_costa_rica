@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-24T12:00:34+00:00",
+  "generado": "2026-10-25T12:00:35+00:00",
   "nota": "Solo se incluyen conjuntos que la Asamblea mantiene al día. Cada uno trae su propia fecha de última actualización, tomada de la fuente.",
   "leyes": {
     "_fuente": "https://www.asamblea.go.cr/glcp/_api/web/lists/getbytitle('res_de_leyes')/items?%24top=2000&%24orderby=Modified%20desc",
@@ -384,12 +384,12 @@
     "_fuente": "https://www.asamblea.go.cr/glcp/_api/web/lists/getbytitle('mociones_total')/items?%24top=5000&%24orderby=Id%20desc",
     "total": 27633,
     "nota_alcance": "Agregados calculados sobre las 27633 mociones que devuelve la lista completa, no sobre una muestra.",
-    "ultima_actualizacion": "2026-10-23T18:17:44Z",
+    "ultima_actualizacion": "2026-10-24T23:15:38Z",
     "por_resultado": {
-      "Rechazada": 23397,
+      "Rechazada": 23496,
       "Aprobada": 3603,
       "Retirada": 394,
-      "Pendiente": 238,
+      "Pendiente": 139,
       "Revisión": 1
     },
     "por_anio": {
