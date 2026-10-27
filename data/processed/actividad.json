@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-25T12:00:35+00:00",
+  "generado": "2026-10-27T12:00:59+00:00",
   "nota": "Solo se incluyen conjuntos que la Asamblea mantiene al día. Cada uno trae su propia fecha de última actualización, tomada de la fuente.",
   "leyes": {
     "_fuente": "https://www.asamblea.go.cr/glcp/_api/web/lists/getbytitle('res_de_leyes')/items?%24top=2000&%24orderby=Modified%20desc",
@@ -382,14 +382,14 @@
   },
   "mociones": {
     "_fuente": "https://www.asamblea.go.cr/glcp/_api/web/lists/getbytitle('mociones_total')/items?%24top=5000&%24orderby=Id%20desc",
-    "total": 27633,
-    "nota_alcance": "Agregados calculados sobre las 27633 mociones que devuelve la lista completa, no sobre una muestra.",
-    "ultima_actualizacion": "2026-10-24T23:15:38Z",
+    "total": 27640,
+    "nota_alcance": "Agregados calculados sobre las 27640 mociones que devuelve la lista completa, no sobre una muestra.",
+    "ultima_actualizacion": "2026-10-27T01:57:07Z",
     "por_resultado": {
-      "Rechazada": 23496,
-      "Aprobada": 3603,
+      "Rechazada": 23497,
+      "Aprobada": 3606,
       "Retirada": 394,
-      "Pendiente": 139,
+      "Pendiente": 142,
       "Revisión": 1
     },
     "por_anio": {
@@ -397,10 +397,66 @@
       "2023": 3827,
       "2024": 4729,
       "2025": 9086,
-      "2026": 6741
+      "2026": 6748
     },
-    "expedientes_distintos": 1245,
+    "expedientes_distintos": 1249,
     "recientes": [
+      {
+        "numero": "Moción de Fondo 25721",
+        "expediente": "25721",
+        "resultado": "Aprobada",
+        "asunto": "REFORMA DEL ARTÍCULO 6 DE LA LEY ORGÁNICA DEL BANCO POPULAR Y DE DESARROLLO COMUNAL, LEY N°4351 DE 19 DE JULIO DE 1969, LEY PARA EL FORTALECIMIENTO DEL RÉGIMEN NO CONTRIBUTIVO DE PENSIONES",
+        "tramite": "Moción de Fondo",
+        "fecha": "2026-10-27T01:55:46Z"
+      },
+      {
+        "numero": "Informe Subcomisión 25721",
+        "expediente": "25721",
+        "resultado": "Aprobada",
+        "asunto": "REFORMA DEL ARTÍCULO 6 DE LA LEY ORGÁNICA DEL BANCO POPULAR Y DE DESARROLLO COMUNAL, LEY N°4351 DE 19 DE JULIO DE 1969, LEY PARA EL FORTALECIMIENTO DEL RÉGIMEN NO CONTRIBUTIVO DE PENSIONES",
+        "tramite": "Informe Subcomisión",
+        "fecha": "2026-10-27T01:53:56Z"
+      },
+      {
+        "numero": "INFORME DE SUBCOMISIÓN",
+        "expediente": "25171",
+        "resultado": "Rechazada",
+        "asunto": "LEY DE PROTECCIÓN DE RASGOS PERSONALES Y CREACIONES ARTÍSTICAS EN ENTORNOS DIGITALES",
+        "tramite": "INFORME DE SUBCOMISION",
+        "fecha": "2026-10-26T23:24:20Z"
+      },
+      {
+        "numero": null,
+        "expediente": "18",
+        "resultado": "Pendiente",
+        "asunto": "Certificación de expediente 25.634",
+        "tramite": null,
+        "fecha": "2026-10-26T21:10:02Z"
+      },
+      {
+        "numero": "20260901-ac-14",
+        "expediente": "20260901",
+        "resultado": "Pendiente",
+        "asunto": "aCTA 14",
+        "tramite": "I día",
+        "fecha": "2026-10-26T16:32:22Z"
+      },
+      {
+        "numero": "20260923-ac-19",
+        "expediente": "23092026",
+        "resultado": "Pendiente",
+        "asunto": "Acta 19",
+        "tramite": "I día",
+        "fecha": "2026-10-26T16:14:54Z"
+      },
+      {
+        "numero": "25449-Informe Unánime Negativo",
+        "expediente": "25449",
+        "resultado": "Aprobada",
+        "asunto": "REFORMA INTEGRAL A LA LEY N.°4461, SEGURO INTEGRAL DE COSECHAS DE 10 DE NOVIEMBRE DE 1969",
+        "tramite": "I día",
+        "fecha": "2026-10-26T14:24:44Z"
+      },
       {
         "numero": "Moción N.° 404-137",
         "expediente": "24945",
@@ -664,62 +720,6 @@
         "asunto": "APROBACIÓN DEL CONTRATO DE FINANCIAMIENTO N° 9745-CR \"PRÉSTAMO DE POLÍTICA DE DESARROLLO PARA LA GESTIÓN DEL RIESGO SOCIAL EN COSTA RICA CON UNA OPCIÓN DE DESEMBOLSO DIFERIDO” SUSCRITO ENTRE EL BANCO INTERNACIONAL DE RECONSTRUCCIÓN Y FOMENTO Y LA REPÚBLIC",
         "tramite": "II día",
         "fecha": "2026-10-23T17:36:03Z"
-      },
-      {
-        "numero": "Moción N.° 371-137",
-        "expediente": "24945",
-        "resultado": "Rechazada",
-        "asunto": "APROBACIÓN DEL CONTRATO DE FINANCIAMIENTO N° 9745-CR \"PRÉSTAMO DE POLÍTICA DE DESARROLLO PARA LA GESTIÓN DEL RIESGO SOCIAL EN COSTA RICA CON UNA OPCIÓN DE DESEMBOLSO DIFERIDO” SUSCRITO ENTRE EL BANCO INTERNACIONAL DE RECONSTRUCCIÓN Y FOMENTO Y LA REPÚBLIC",
-        "tramite": "II día",
-        "fecha": "2026-10-23T17:35:23Z"
-      },
-      {
-        "numero": "Moción N.° 370-137",
-        "expediente": "24945",
-        "resultado": "Rechazada",
-        "asunto": "APROBACIÓN DEL CONTRATO DE FINANCIAMIENTO N° 9745-CR \"PRÉSTAMO DE POLÍTICA DE DESARROLLO PARA LA GESTIÓN DEL RIESGO SOCIAL EN COSTA RICA CON UNA OPCIÓN DE DESEMBOLSO DIFERIDO” SUSCRITO ENTRE EL BANCO INTERNACIONAL DE RECONSTRUCCIÓN Y FOMENTO Y LA REPÚBLIC",
-        "tramite": "II día",
-        "fecha": "2026-10-23T17:34:37Z"
-      },
-      {
-        "numero": "Moción N.° 369-137",
-        "expediente": "24945",
-        "resultado": "Rechazada",
-        "asunto": "APROBACIÓN DEL CONTRATO DE FINANCIAMIENTO N° 9745-CR \"PRÉSTAMO DE POLÍTICA DE DESARROLLO PARA LA GESTIÓN DEL RIESGO SOCIAL EN COSTA RICA CON UNA OPCIÓN DE DESEMBOLSO DIFERIDO” SUSCRITO ENTRE EL BANCO INTERNACIONAL DE RECONSTRUCCIÓN Y FOMENTO Y LA REPÚBLIC",
-        "tramite": "II día",
-        "fecha": "2026-10-23T17:33:50Z"
-      },
-      {
-        "numero": "Moción N.° 368-137",
-        "expediente": "24945",
-        "resultado": "Rechazada",
-        "asunto": "APROBACIÓN DEL CONTRATO DE FINANCIAMIENTO N° 9745-CR \"PRÉSTAMO DE POLÍTICA DE DESARROLLO PARA LA GESTIÓN DEL RIESGO SOCIAL EN COSTA RICA CON UNA OPCIÓN DE DESEMBOLSO DIFERIDO” SUSCRITO ENTRE EL BANCO INTERNACIONAL DE RECONSTRUCCIÓN Y FOMENTO Y LA REPÚBLIC",
-        "tramite": "II día",
-        "fecha": "2026-10-23T17:32:50Z"
-      },
-      {
-        "numero": "Moción N.° 367-137",
-        "expediente": "24945",
-        "resultado": "Rechazada",
-        "asunto": "APROBACIÓN DEL CONTRATO DE FINANCIAMIENTO N° 9745-CR \"PRÉSTAMO DE POLÍTICA DE DESARROLLO PARA LA GESTIÓN DEL RIESGO SOCIAL EN COSTA RICA CON UNA OPCIÓN DE DESEMBOLSO DIFERIDO” SUSCRITO ENTRE EL BANCO INTERNACIONAL DE RECONSTRUCCIÓN Y FOMENTO Y LA REPÚBLIC",
-        "tramite": "II día",
-        "fecha": "2026-10-23T17:32:04Z"
-      },
-      {
-        "numero": "Moción N.° 366-137",
-        "expediente": "24945",
-        "resultado": "Rechazada",
-        "asunto": "APROBACIÓN DEL CONTRATO DE FINANCIAMIENTO N° 9745-CR \"PRÉSTAMO DE POLÍTICA DE DESARROLLO PARA LA GESTIÓN DEL RIESGO SOCIAL EN COSTA RICA CON UNA OPCIÓN DE DESEMBOLSO DIFERIDO” SUSCRITO ENTRE EL BANCO INTERNACIONAL DE RECONSTRUCCIÓN Y FOMENTO Y LA REPÚBLIC",
-        "tramite": "II día",
-        "fecha": "2026-10-23T17:31:14Z"
-      },
-      {
-        "numero": "Moción N.° 365-137",
-        "expediente": "24945",
-        "resultado": "Rechazada",
-        "asunto": "APROBACIÓN DEL CONTRATO DE FINANCIAMIENTO N° 9745-CR \"PRÉSTAMO DE POLÍTICA DE DESARROLLO PARA LA GESTIÓN DEL RIESGO SOCIAL EN COSTA RICA CON UNA OPCIÓN DE DESEMBOLSO DIFERIDO” SUSCRITO ENTRE EL BANCO INTERNACIONAL DE RECONSTRUCCIÓN Y FOMENTO Y LA REPÚBLIC",
-        "tramite": "II día",
-        "fecha": "2026-10-23T17:29:26Z"
       }
     ]
   },
