@@ -1,6 +1,6 @@
 {
   "periodo": "2026-2030",
-  "generado": "2026-10-27T12:00:05+00:00",
+  "generado": "2026-10-29T12:00:05+00:00",
   "fuentes": {
     "diputados": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
     "fracciones": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Fracciones_2026-2030')/items?%24top=5000"
@@ -24,7 +24,7 @@
       "bandera_url": "https://www.asamblea.go.cr/Diputados/SiteAssets/Banderas/PPSO.png",
       "estado": "Activo",
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Fracciones_2026-2030')/items?%24top=5000",
-      "_extraido": "2026-10-27T12:00:05+00:00"
+      "_extraido": "2026-10-29T12:00:05+00:00"
     },
     {
       "orden": "2",
@@ -34,7 +34,7 @@
       "bandera_url": "https://www.asamblea.go.cr/Diputados/SiteAssets/Banderas/PLN.png",
       "estado": "Activo",
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Fracciones_2026-2030')/items?%24top=5000",
-      "_extraido": "2026-10-27T12:00:05+00:00"
+      "_extraido": "2026-10-29T12:00:05+00:00"
     },
     {
       "orden": "9",
@@ -44,7 +44,7 @@
       "bandera_url": "https://www.asamblea.go.cr/Diputados/SiteAssets/Banderas/flag_psd.jpg",
       "estado": "Inactivo",
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Fracciones_2026-2030')/items?%24top=5000",
-      "_extraido": "2026-10-27T12:00:05+00:00"
+      "_extraido": "2026-10-29T12:00:05+00:00"
     },
     {
       "orden": "5",
@@ -54,7 +54,7 @@
       "bandera_url": "https://www.asamblea.go.cr/Diputados/SiteAssets/Banderas/PUSC.png",
       "estado": "Activo",
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Fracciones_2026-2030')/items?%24top=5000",
-      "_extraido": "2026-10-27T12:00:05+00:00"
+      "_extraido": "2026-10-29T12:00:05+00:00"
     },
     {
       "orden": "8",
@@ -64,7 +64,7 @@
       "bandera_url": "https://www.asamblea.go.cr/Diputados/SiteAssets/Banderas/flag_prn.jpg",
       "estado": "Inactivo",
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Fracciones_2026-2030')/items?%24top=5000",
-      "_extraido": "2026-10-27T12:00:05+00:00"
+      "_extraido": "2026-10-29T12:00:05+00:00"
     },
     {
       "orden": "7",
@@ -74,7 +74,7 @@
       "bandera_url": "https://www.asamblea.go.cr/Diputados/SiteAssets/Banderas/flag_PLP.jpg",
       "estado": "Inactivo",
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Fracciones_2026-2030')/items?%24top=5000",
-      "_extraido": "2026-10-27T12:00:05+00:00"
+      "_extraido": "2026-10-29T12:00:05+00:00"
     },
     {
       "orden": "3",
@@ -84,7 +84,7 @@
       "bandera_url": "https://www.asamblea.go.cr/Diputados/SiteAssets/Banderas/PFA.png",
       "estado": "Activo",
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Fracciones_2026-2030')/items?%24top=5000",
-      "_extraido": "2026-10-27T12:00:05+00:00"
+      "_extraido": "2026-10-29T12:00:05+00:00"
     },
     {
       "orden": "4",
@@ -94,7 +94,7 @@
       "bandera_url": "https://www.asamblea.go.cr/Diputados/SiteAssets/Banderas/CAC.png",
       "estado": "Activo",
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Fracciones_2026-2030')/items?%24top=5000",
-      "_extraido": "2026-10-27T12:00:05+00:00"
+      "_extraido": "2026-10-29T12:00:05+00:00"
     }
   ],
   "diputados": [
@@ -145,7 +145,7 @@
       },
       "equipo_trabajo_html": "<div class=\"ExternalClassB719F54764E444BAACD149BFAECAA428\"><p>​</p><table cellspacing=\"0\" width=\"100%\" class=\"ms-rteTable-default\"><tbody><tr><td class=\"ms-rteTable-default\" style=\"width&#58;33.3333%;\"><strong>Puesto</strong></td><td class=\"ms-rteTable-default\" style=\"width&#58;33.3333%;\"><strong>Clase</strong></td><td class=\"ms-rteTable-default\" style=\"width&#58;33.3333%;\"><strong>Nombre</strong></td></tr><tr><td class=\"ms-rteTable-default\">&#160;<br></td><td class=\"ms-rteTable-default\">&#160;</td><td class=\"ms-rteTable-default\">&#160;<span style=\"font-weight&#58;bolder;\">Jefe de despacho</span>​<br></td></tr><tr><td class=\"ms-rteTable-default\">​</td><td class=\"ms-rteTable-default\">​</td><td class=\"ms-rteTable-default\"><br></td></tr><tr><td class=\"ms-rteTable-default\">&#160;</td><td class=\"ms-rteTable-default\">&#160;</td><td class=\"ms-rteTable-default\">&#160;</td></tr><tr><td class=\"ms-rteTable-default\">&#160;</td><td class=\"ms-rteTable-default\">&#160;</td><td class=\"ms-rteTable-default\">&#160;</td></tr><tr><td class=\"ms-rteTable-default\">&#160;</td><td class=\"ms-rteTable-default\">&#160;<br></td><td class=\"ms-rteTable-default\">&#160;</td></tr><tr><td class=\"ms-rteTable-default\">&#160;</td><td class=\"ms-rteTable-default\">&#160;</td><td class=\"ms-rteTable-default\">&#160;<br></td></tr></tbody></table><p><br></p></div>",
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-27T12:00:05+00:00",
+      "_extraido": "2026-10-29T12:00:05+00:00",
       "_modificado_en_fuente": "2026-06-18T16:37:41Z"
     },
     {
@@ -195,7 +195,7 @@
       },
       "equipo_trabajo_html": null,
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-27T12:00:05+00:00",
+      "_extraido": "2026-10-29T12:00:05+00:00",
       "_modificado_en_fuente": "2026-04-27T21:25:22Z"
     },
     {
@@ -245,7 +245,7 @@
       },
       "equipo_trabajo_html": "<div class=\"ExternalClassED855ED9F68B4964B7920302BF4DCC5B\"><p>​</p><table cellspacing=\"0\" width=\"100%\" class=\"ms-rteTable-default\"><tbody><tr class=\"ms-rteTableEvenRow-default\"><td class=\"ms-rteTableEvenCol-default\" style=\"width&#58;15%;\"><span style=\"font-weight&#58;bolder;\">Puesto​</span></td><td class=\"ms-rteTableOddCol-default\" style=\"width&#58;15%;\"><span style=\"font-weight&#58;bolder;\">Clase​</span></td><td class=\"ms-rteTableEvenCol-default\" style=\"width&#58;33%;\"><span style=\"font-weight&#58;bolder;\">Nombre​</span></td></tr><tr class=\"ms-rteTableOddRow-default\"><td class=\"ms-rteTableEvenCol-default\" style=\"width&#58;15%;\">&#160;<br></td><td class=\"ms-rteTableOddCol-default\" style=\"width&#58;15%;\">Asesora<br></td><td class=\"ms-rteTableEvenCol-default\" style=\"width&#58;33%;\"><p>María José Castro Martínez -<span style=\"font-weight&#58;bolder;font-size&#58;1rem;\">Jefa de despacho</span></p></td></tr><tr class=\"ms-rteTableEvenRow-default\"><td class=\"ms-rteTableEvenCol-default\" style=\"width&#58;15%;\">​</td><td class=\"ms-rteTableOddCol-default\" style=\"width&#58;15%;\">Asesor</td><td class=\"ms-rteTableEvenCol-default\" style=\"width&#58;33%;\">Jorge Andrés Fallas Acuña<br></td></tr><tr class=\"ms-rteTableOddRow-default\"><td class=\"ms-rteTableEvenCol-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTableOddCol-default\" style=\"width&#58;15%;\">Asesor</td><td class=\"ms-rteTableEvenCol-default\" style=\"width&#58;33%;\">Elías Mesén Jiménez<br></td></tr><tr class=\"ms-rteTableEvenRow-default\"><td class=\"ms-rteTableEvenCol-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTableOddCol-default\" style=\"width&#58;15%;\">Asesor</td><td class=\"ms-rteTableEvenCol-default\" style=\"width&#58;33%;\">José Luis Campos Villegas<br></td></tr><tr class=\"ms-rteTableOddRow-default\"><td class=\"ms-rteTableEvenCol-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTableOddCol-default\" style=\"width&#58;15%;\">Asistente<br></td><td class=\"ms-rteTableEvenCol-default\" style=\"width&#58;33%;\">Samantha Cristina Blanco Rojas​​<br></td></tr></tbody></table><p><br></p></div>",
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-27T12:00:05+00:00",
+      "_extraido": "2026-10-29T12:00:05+00:00",
       "_modificado_en_fuente": "2026-07-23T18:19:53Z"
     },
     {
@@ -295,7 +295,7 @@
       },
       "equipo_trabajo_html": null,
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-27T12:00:05+00:00",
+      "_extraido": "2026-10-29T12:00:05+00:00",
       "_modificado_en_fuente": "2026-04-22T16:07:53Z"
     },
     {
@@ -345,7 +345,7 @@
       },
       "equipo_trabajo_html": null,
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-27T12:00:05+00:00",
+      "_extraido": "2026-10-29T12:00:05+00:00",
       "_modificado_en_fuente": "2026-04-22T16:11:43Z"
     },
     {
@@ -395,7 +395,7 @@
       },
       "equipo_trabajo_html": null,
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-27T12:00:05+00:00",
+      "_extraido": "2026-10-29T12:00:05+00:00",
       "_modificado_en_fuente": "2026-05-14T22:02:01Z"
     },
     {
@@ -445,7 +445,7 @@
       },
       "equipo_trabajo_html": null,
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-27T12:00:05+00:00",
+      "_extraido": "2026-10-29T12:00:05+00:00",
       "_modificado_en_fuente": "2026-04-22T16:14:22Z"
     },
     {
@@ -495,7 +495,7 @@
       },
       "equipo_trabajo_html": null,
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-27T12:00:05+00:00",
+      "_extraido": "2026-10-29T12:00:05+00:00",
       "_modificado_en_fuente": "2026-04-27T21:35:25Z"
     },
     {
@@ -511,7 +511,7 @@
       "foto_url": "https://www.asamblea.go.cr/Diputados/SiteAssets/2026-2030/ln_ramirez_bogantes.jpg",
       "fecha_nacimiento": "1971-02-15T06:00:00Z",
       "lugar_nacimiento": "Heredia",
-      "profesion": "Economista con Maestría en desarrollo",
+      "profesion": "Egresado de economía de la Universidad de Costa Rica.",
       "estado_civil": "Casado",
       "email_oficial": "alvaro.ramirez@asamblea.go.cr",
       "redes": {
@@ -524,9 +524,9 @@
       },
       "orden_web": 9.0,
       "biografia": {
-        "educacion": "• Maestría en Economía (1990)\nIndiana University, Bloomington, Estados Unidos.\n\n• Doctorado en Economía Agrícola (1998)\nUniversidad de Kiel, Alemania.\n\n• Egresado de economía\nUniversidad de Costa Rica\n\n• Maestría en Desarrollo\nLondon School of Economics and Political Sciences, Inglaterra\n\n• Cursos de actualización profesional\nHarvard Kennedy School (EEUU)\nCollege of Europe (Bélgica)\nCentro Internacional de Formación de OIT (Italia).",
-        "experiencia_laboral": "Su carrera profesional abarca roles enfocados en la economía, la regulación financiera y la administración pública. Participó en proyectos internacionales y estudios económicos sobre: Política de Precios del Algodón en la República Árabe de Egipto (1997); un estudio de Impacto Económico del Proyecto de Cooperación en el Sector Forestal y Madera para el proyecto MINAE-GTZ-COSEFORMA en Ciudad Quesada (2000); y valoración del esquema de generación de normativa en la Superintendencia General de Valores SUGEVAL (2007-2009). Fungió como consultor independiente en temas financieros para la empresa Energía, Medio Ambiente y Desarrollo (2017-2018) en proyectos bioenergéticos solicitados por el Ministerio de Ambiente y Energía (MINAE).\n\nEn el ámbito estatal, ha ocupado diversos cargos en la administración pública. Se desempeñó como asesor económico en el ministro y viceministro de Economía, Industria y Comercio (MEIC) y dirigió la unidad de Estudios Económicos del MEIC (2000-2002), de la presidencia del Consejo Nacional de Supervisión del Sistema Financiero CONASSIF (2003-2004) y del Superintendente General de Entidades Financieras SUGEF (2004-2006). Además, fue director de la División de Investigación y Normativa en la SUGEVAL (2009-\n2015), miembro y presidente de la Comisión para Promover la Competencia (2004- 2013), gerente del Proyecto de la Carretera San José - Caldera en el Consejo Nacional de Concesiones del MOPT (2006-2007) y director de Ciencia y Desarrollo Tecnológico en el Ministerio de Ciencia, Tecnología y Telecomunicaciones (2020-2021).",
-        "experiencia_politica": "Participó en la campaña política nacional 2022-2024 y desempeñó el cargo de primer vicepresidente de la República de Costa Rica desde mayo de 2022 hasta julio de 2025. Bajo este cargo impulsó, entre otros temas, reformas legales para la introducción del biometano en la matriz energética en sustitución del diésel (reforma a Ley de Recope y de la Aresep), avance en la electrificación de los vehículos livianos y los buses urbanos (reforma a la Ley de Movilidad Eléctrica No. 9518 y de Transporte de Personas No. 3503), cambio en el paradigma en la gestión de residuos sólidos (nueva iniciativa legislativa), unificación de los servicios de cuido de niños estatales en una sola institución (ley nueva y reformas a otras), unificación de las ayudas estatales para la eliminación de la pobreza (creación del Ministerio de Desarrollo Humano e Inclusión Social-Midhis), cambio del paradigma en el fomento del deporte (nueva ley), reducción de las presas ocasionadas por choques leves (reforma la Ley de Tránsito No. 9078) y facilitar el remate de los vehículos abandonados en los predios de la Policía de Tránsito o del COSEVI (reforma a ley de tránsito No. 9078).",
+        "educacion": "Egresado de economía de la Universidad de Costa Rica.\nMaestría en Desarrollo de la London School of Economics and Political Sciences, Inglaterra.\nCursos de actualización profesional en Harvard Kennedy School (EEUU), College of Europe (Bélgica) y el Centro Internacional de Formación de OIT (Italia).",
+        "experiencia_laboral": "Consultor internacional Principales áreas de trabajo: fortalecimiento de sistemas e instituciones de formación profesional, desarrollo de empresas y clústeres, políticas de empleo, y alianzas público-privadas.\n\nOIT Especialista en Formación Profesional y Desarrollo de Empresas Responsable de los países de Centroamérica, Panamá, Rep. Dominicana y Haití. También asistiendo a México y Cuba.\n\nLogros: fortalecidos 7 institutos de formación profesional de la región por medio del Proyecto FOIL y la red de IFPs (REDIFP); establecido primer programa de formación gerencial de alto nivel para IFPs en alianza con INCAE; participación en diseño y gestión de proyecto de $50 millones para modernización de INADEH mediante crédito CAF; apoyó la ejecución de proyectos de cooperación técnica por valor de más de $20 millones; contribución a la movilización de $6 millones para nuevos proyectos; y alianza con BID para impulso de formación dual en Rep. Dominicana. Fungió como punto focal de empleos verdes y transición justa en Centro América.\n\nOIT Coordinador de Proyecto de Diálogo Social A cargo de la dirección del Proyecto de Diálogo Social en los países DR-CAFTA ($3 millones), basado en San José. Logros: acuerdos bipartitos y tripartitos, incluyendo un exitoso proceso de diálogo sobre mejora de la productividad y condiciones de trabajo en el sector azucarero de El Salvador (programa SIMAPRO).\n\nOIT Especialista en desarrollo de empresas Basado en Ginebra, Suiza. Logros: Co-autor de las Conclusiones sobre desarrollo empresarial sostenible adoptadas en la Conferencia Internacional del Trabajo en 2007; apoyo al establecimiento del programa Better Work en Haití y Nicaragua; alianza con la fundación Schwab para lanzar el concurso Emprendedor Social del Año en Centroamérica bajo la coordinación de la OIT; punto focal para América Latina en el Sector Empleo.\n\nOIT Especialista en actividades con empleadores Basado en Ginebra, Suiza. Responsable de las carteras de empleo, protección social y empresas. Logros: contribuyó a la adopción de la Recomendación 195 sobre el desarrollo de recursos humanos, adoptada por la Conferencia Internacional del Trabajo; desarrolló las Guías de Organizaciones de Empleadores Eficaces, una de las herramientas más utilizadas por los gremios empresariales en el mundo. Realizó capacitación a empleadores en 4 continentes diferentes.\n\nAsesor de la Presidencia en la UCCAEP. Responsable de asesorar a la junta directiva en temas de política pública, así como de representar a los empleadores en foros tripartitos y otros. Logros: acuerdos bipartitos con sindicatos en varias áreas; miembro de la Comisión Parlamentaria Especial de Reforma Fiscal; participó en el proceso de negociación del DRCAFTA.",
+        "experiencia_politica": "Asambleísta nacional por el sector profesional del Partido Liberación Nacional.",
         "premios": "• 1987 Entre los 10 mejores promedios de admisión UCR\n\n• 1998 Uno de los 40 líderes más influyentes de CR menor de 40 años (El Financiero)\n\n• 1998 Beca British Chevening\n\n• 2011 Miembro de Central American Leadership Initiative (CALI), Instituto Aspen, EEUU.",
         "participacion_comunal": "Miembro de la junta administrativa del Hospicio de Huérfanos de Cartago (HHC/COVAO) y del Consejo Municipal de Competitividad de Cartago.",
         "ponencias": null,
@@ -534,19 +534,19 @@
         "areas_interes": "• Democracia eficaz. Que suelte nudos y resuelva problemas. Por medio del ialogo respetuoso y el codiseño de soluciones viables.\n\n• Sociedad protagonista. Más participación del sector privado y de las organizaciones de la sociedad en la atención de las demandas ciudadanas por medio de alianzas público-privadas a nivel nacional y local.\n\n• Economía para la gente. Que estimule la inversión y el emprendimiento para la creación de empleo digno, especialmente en las regiones donde escasean las oportunidades.\n\n• Educación para la vida. Que permita a nuestra niñez y juventud adquirir los valores y competencias necesarias para cumplir con Éxito su proyecto de felicidad en la era de la inteligencia artificial y del trabajo sin fronteras."
       },
       "biografia_html": {
-        "educacion": "<div class=\"ExternalClass7D931B38B1BD4D9AAC62319711D6D4A3\"><p></p><p><br></p><ul><li>Maestría en Economía (1990)<br>Indiana University, Bloomington, Estados Unidos.<br><br></li><li>Doctorado en Economía Agrícola (1998)<br>Universidad de Kiel, Alemania.&#160;<br><br></li><li>Egresado de economía<br><span style=\"font-size&#58;1rem;\">Universidad de Costa Rica​<br><br></span></li><li><span style=\"font-size&#58;1rem;\">​Maestría en Desarrollo<br></span><span style=\"font-size&#58;1rem;\">London School of Economics and Political Sciences, Inglaterra<br></span></li></ul><ul><li><span style=\"font-size&#58;1rem;\">Cursos de actualización profesional<br></span><span style=\"font-size&#58;1rem;\">Harvard Kennedy School (EEUU)<br></span><span style=\"font-size&#58;1rem;\">College of Europe (Bélgica)<br></span><span style=\"font-size&#58;1rem;\">Centro Internacional de Formación de OIT (Italia).</span><span style=\"font-size&#58;1rem;\">​</span></li></ul><p><br><br></p></div>",
-        "experiencia_laboral": "<div class=\"ExternalClass3E6B880B4D1B4A6A8FD2769A7AF6089E\"><p style=\"text-align&#58;justify;\"><br></p><p style=\"text-align&#58;justify;\">Su carrera profesional abarca roles enfocados en la economía, la regulación financiera y la administración pública. Participó en proyectos internacionales y estudios económicos sobre&#58; Política de Precios del Algodón en la República Árabe de Egipto (1997); un estudio de Impacto Económico del Proyecto de Cooperación en el Sector Forestal y Madera para el proyecto MINAE-GTZ-COSEFORMA en Ciudad Quesada (2000); y valoración del esquema de generación de normativa en la Superintendencia General de Valores SUGEVAL (2007-2009). Fungió como consultor independiente en temas financieros para la empresa Energía, Medio Ambiente y Desarrollo (2017-2018) en proyectos bioenergéticos solicitados por el Ministerio de Ambiente y Energía (MINAE).<br></p><p style=\"text-align&#58;justify;\">En el ámbito estatal, ha ocupado diversos cargos en la administración pública. Se desempeñó como asesor económico en el ministro y viceministro de Economía, Industria y Comercio (MEIC) y dirigió la unidad de Estudios Económicos del MEIC (2000-2002), de la presidencia del Consejo Nacional de Supervisión del Sistema Financiero CONASSIF (2003-2004) y del Superintendente General de Entidades Financieras SUGEF (2004-2006). Además, fue director de la División de Investigación y Normativa en la SUGEVAL (2009-</p><p style=\"text-align&#58;justify;\">2015), miembro y presidente de la Comisión para Promover la Competencia (2004- 2013), gerente del Proyecto de la Carretera San José - Caldera en el Consejo Nacional de Concesiones del MOPT (2006-2007) y director de Ciencia y Desarrollo Tecnológico en el Ministerio de Ciencia, Tecnología y Telecomunicaciones (2020-2021).<br></p><p style=\"text-align&#58;justify;\"><br></p><p><br></p></div>",
-        "experiencia_politica": "<div class=\"ExternalClass4EB5D39446DB4D5B9C696A41A7FA46FE\"><p></p><p style=\"text-align&#58;justify;\"><br></p><p style=\"text-align&#58;justify;\">Participó en la campaña política nacional 2022-2024 y desempeñó el cargo de primer vicepresidente de la República de Costa Rica desde mayo de 2022 hasta julio de 2025. Bajo este cargo impulsó, e​​ntre otros temas, reformas legales para la introducción del biometano en la matriz energética en sustitución del diésel (reforma a Ley de Recope y de la Aresep), avance en la electrificación de los vehículos livianos y los buses urbanos (reforma a la Ley de Movilidad Eléctrica No. 9518 y de Transporte de Personas No. 3503), cambio en el paradigma en la gestión de residuos sólidos (nueva iniciativa legislativa), unificación de los servicios de cuido de niños estatales en una sola institución (ley nueva y reformas a otras), unificación de las ayudas estatales para la eliminación de la pobreza (creación del Ministerio de Desarrollo Humano e Inclusión Social-Midhis), cambio del paradigma en el fomento del deporte (nueva ley), reducción de las presas ocasionadas por choques leves (reforma la Ley de Tránsito No. 9078) y facilitar el remate de los vehículos abandonados en los predios de la Policía de Tránsito o del COSEVI (reforma a ley de tránsito No. 9078).&#160;​&#160;<br></p></div>",
-        "premios": "<div class=\"ExternalClass202BE3980B68432E8AEBD2BD82CB808F\"><p>​</p><ul><li>1987 Entre los 10 mejores promedios de admisión UCR<br><br></li><li>1998 Uno de los 40 líderes más influyentes de CR menor de 40 años (El Financiero)<br><br></li><li><span style=\"font-size&#58;1rem;\">1998 Beca British Chevening<br><br></span></li><li><span style=\"font-size&#58;1rem;\">2011 Miembro de Central American Leadership Initiative (CALI), Instituto Aspen, EEUU.</span></li></ul><p><br></p></div>",
-        "participacion_comunal": "<div class=\"ExternalClass1C1CAC082CA24D36BA904821192769AD\"><p><br></p><p>Miembro de la junta administrativa del Hospicio de Huérfanos de Cartago (HHC/COVAO) y del Consejo Municipal de Competitividad de Cartago.​<br></p></div>",
+        "educacion": "<div class=\"ExternalClass7D931B38B1BD4D9AAC62319711D6D4A3\"><p></p><p></p><p style=\"text-align&#58;justify;\">Egresado de economía de la Universidad de Costa Rica.</p><p style=\"text-align&#58;justify;\">Maestría en Desarrollo de la London School of Economics and Political Sciences, Inglaterra.</p><p style=\"text-align&#58;justify;\">Cursos de actualización profesional en Harvard Kennedy School (EEUU), College of Europe (Bélgica) y el Centro Internacional de Formación de OIT (Italia).<span style=\"font-size&#58;1rem;\">​</span></p><p><br><br></p></div>",
+        "experiencia_laboral": "<div class=\"ExternalClass3E6B880B4D1B4A6A8FD2769A7AF6089E\"><p></p><div style=\"text-align&#58;justify;\">Consultor internacional Principales áreas de trabajo&#58; fortalecimiento de sistemas e instituciones de formación profesional, desarrollo de empresas y clústeres, políticas de empleo, y alianzas público-privadas.<br></div><div style=\"text-align&#58;justify;\"><br></div><div style=\"text-align&#58;justify;\">OIT Especialista en Formación Profesional y Desarrollo de Empresas Responsable de los países de Centroamérica, Panamá, Rep. Dominicana y Haití. También asistiendo a México y Cuba.<br></div><div style=\"text-align&#58;justify;\"><br></div><div style=\"text-align&#58;justify;\">Logros&#58; fortalecidos 7 institutos de formación profesional de la región por medio del Proyecto FOIL y la red de IFPs (REDIFP); establecido primer programa de formación gerencial de alto nivel para IFPs en alianza con INCAE; participación en diseño y gestión de proyecto de $50 millones para modernización de INADEH mediante crédito CAF; apoyó la ejecución de proyectos de cooperación técnica por valor de más de $20 millones; contribución a la movilización de $6 millones para nuevos proyectos; y alianza con BID para impulso de formación dual en Rep. Dominicana. Fungió como punto focal de empleos verdes y transición justa en Centro América.<br></div><div style=\"text-align&#58;justify;\"><br></div><div style=\"text-align&#58;justify;\">OIT Coordinador de Proyecto de Diálogo Social A cargo de la dirección del Proyecto de Diálogo Social en los países DR-CAFTA ($3 millones), basado en San José. Logros&#58; acuerdos bipartitos y tripartitos, incluyendo un exitoso proceso de diálogo sobre mejora de la productividad y condiciones de trabajo en el sector azucarero de El Salvador (programa SIMAPRO).<br></div><div style=\"text-align&#58;justify;\"><br></div><div style=\"text-align&#58;justify;\">OIT Especialista en desarrollo de empresas Basado en Ginebra, Suiza. Logros&#58; Co-autor de las Conclusiones sobre desarrollo empresarial sostenible adoptadas en la Conferencia Internacional del Trabajo en 2007; apoyo al establecimiento del programa Better Work en Haití y Nicaragua; alianza con la fundación Schwab para lanzar el concurso Emprendedor Social del Año en Centroamérica bajo la coordinación de la OIT; punto focal para América Latina en el Sector Empleo.<br></div><div style=\"text-align&#58;justify;\"><br></div><div style=\"text-align&#58;justify;\">OIT Especialista en actividades con empleadores Basado en Ginebra, Suiza. Responsable de las carteras de empleo, protección social y empresas. Logros&#58; contribuyó a la adopción de la Recomendación 195 sobre el desarrollo de recursos humanos, adoptada por la Conferencia Internacional del Trabajo; desarrolló las Guías de Organizaciones de Empleadores Eficaces, una de las herramientas más utilizadas por los gremios empresariales en el mundo. Realizó capacitación a empleadores en 4 continentes diferentes.<br></div><div style=\"text-align&#58;justify;\"><br></div><div style=\"text-align&#58;justify;\">Asesor de la Presidencia en la UCCAEP. Responsable de asesorar a la junta directiva en temas de política pública, así como de representar a los empleadores en foros tripartitos y otros. Logros&#58; acuerdos bipartitos con sindicatos en varias áreas; miembro de la Comisión Parlamentaria Especial de Reforma Fiscal; participó en el proceso de negociación del DRCAFTA.<br></div><p><br><br></p></div>",
+        "experiencia_politica": "<div class=\"ExternalClass4EB5D39446DB4D5B9C696A41A7FA46FE\"><p></p><div style=\"text-align&#58;justify;\">Asambleísta nacional por el sector profesional del Partido Liberación Nacional.​​<br></div><br></div>",
+        "premios": "<div class=\"ExternalClass202BE3980B68432E8AEBD2BD82CB808F\"><p style=\"text-align&#58;justify;\">​</p><ul><li><div style=\"text-align&#58;justify;\">1987 Entre los 10 mejores promedios de admisión UCR<br></div><br></li><li><div style=\"text-align&#58;justify;\">1998 Uno de los 40 líderes más influyentes de CR menor de 40 años (El Financiero)</div><br></li><li style=\"text-align&#58;justify;\"><span style=\"font-size&#58;1rem;\">1998 Beca British Chevening<br><br></span></li><li style=\"text-align&#58;justify;\"><span style=\"font-size&#58;1rem;\">2011 Miembro de Central American Leadership Initiative (CALI), Instituto Aspen, EEUU.</span></li></ul><p><br></p></div>",
+        "participacion_comunal": "<div class=\"ExternalClass1C1CAC082CA24D36BA904821192769AD\"><p style=\"text-align&#58;justify;\">​Miembro de la junta administrativa del Hospicio de Huérfanos de Cartago (HHC/COVAO) y del Consejo Municipal de Competitividad de Cartago.​<br></p></div>",
         "ponencias": null,
         "publicaciones": null,
-        "areas_interes": "<div class=\"ExternalClass3B30B704D9564FE0A604874F321DAFA4\"><div><b><br></b></div><ul style=\"list-style-type&#58;disc;\"><li><strong>Democracia eficaz</strong>. Que suelte nudos y resuelva problemas. Por medio del ialogo respetuoso y el codiseño de soluciones viables.<br><br></li><li><strong>Sociedad protagonista</strong>. Más participación del sector privado y de las organizaciones de la sociedad en la atención de las demandas ciudadanas por medio de alianzas público-privadas a nivel nacional y local.<br><br></li><li><strong>Economía para la gente</strong>. Que estimule la inversión y el emprendimiento para la creación de empleo digno, especialmente en las regiones donde escasean las oportunidades.<br><br></li><li><strong style=\"font-size&#58;1rem;\">Educación para la vida</strong><span style=\"font-size&#58;1rem;\">. Que permita a nuestra niñez y juventud adquirir los valores y competencias necesarias para cumplir con Éxito su proyecto de felicidad en la era de la inteligencia artificial y del trabajo sin fronteras.</span><span style=\"font-size&#58;1rem;\">​</span></li></ul><br></div>"
+        "areas_interes": "<div class=\"ExternalClass3B30B704D9564FE0A604874F321DAFA4\"><div style=\"text-align&#58;justify;\"><b><br></b></div><ul style=\"list-style-type&#58;disc;\"><li><div style=\"text-align&#58;justify;\"><strong>Democracia eficaz</strong>. Que suelte nudos y resuelva problemas. Por medio del ialogo respetuoso y el codiseño de soluciones viables.</div><br></li><li><div style=\"text-align&#58;justify;\"><strong>Sociedad protagonista</strong>. Más participación del sector privado y de las organizaciones de la sociedad en la atención de las demandas ciudadanas por medio de alianzas público-privadas a nivel nacional y local.</div><br></li><li><div style=\"text-align&#58;justify;\"><strong>Economía para la gente</strong>. Que estimule la inversión y el emprendimiento para la creación de empleo digno, especialmente en las regiones donde escasean las oportunidades.</div><br></li><li style=\"text-align&#58;justify;\"><strong style=\"font-size&#58;1rem;\">Educación para la vida</strong><span style=\"font-size&#58;1rem;\">. Que permita a nuestra niñez y juventud adquirir los valores y competencias necesarias para cumplir con Éxito su proyecto de felicidad en la era de la inteligencia artificial y del trabajo sin fronteras.</span><span style=\"font-size&#58;1rem;\">​</span></li></ul><br></div>"
       },
-      "equipo_trabajo_html": "<div class=\"ExternalClass24B9E55418A04563945847CC1E52D193\"><p></p><table cellspacing=\"0\" width=\"100%\" class=\"ms-rteTable-default\"><tbody><tr class=\"ms-rteTableEvenRow-default\"><td class=\"ms-rteTableEvenCol-default\" style=\"width&#58;15%;\"><strong>Puesto​</strong></td><td class=\"ms-rteTableOddCol-default\" style=\"width&#58;15%;\"><strong>Clase​</strong></td><td class=\"ms-rteTableEvenCol-default\" style=\"width&#58;33.3333%;\"><strong>Nombre</strong></td></tr><tr class=\"ms-rteTableOddRow-default\"><td class=\"ms-rteTableEvenCol-default\" style=\"width&#58;15%;\">&#160;<br></td><td class=\"ms-rteTableOddCol-default\" style=\"width&#58;15%;\">Asesora<br></td><td class=\"ms-rteTableEvenCol-default\"><p>María José Castro Martínez -<strong style=\"font-size&#58;1rem;\">Jefa&#160;de despacho</strong></p></td></tr><tr class=\"ms-rteTableEvenRow-default\"><td class=\"ms-rteTableEvenCol-default\" style=\"width&#58;15%;\">​</td><td class=\"ms-rteTableOddCol-default\" style=\"width&#58;15%;\">Asesor</td><td class=\"ms-rteTableEvenCol-default\">Jorge Andrés Fallas Acuña<br></td></tr><tr class=\"ms-rteTableOddRow-default\"><td class=\"ms-rteTableEvenCol-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTableOddCol-default\" style=\"width&#58;15%;\">Asesor</td><td class=\"ms-rteTableEvenCol-default\">Elías Mesén Jiménez<br></td></tr><tr class=\"ms-rteTableEvenRow-default\"><td class=\"ms-rteTableEvenCol-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTableOddCol-default\" style=\"width&#58;15%;\">Asesor</td><td class=\"ms-rteTableEvenCol-default\">José Luis Campos Villegas<br></td></tr><tr class=\"ms-rteTableOddRow-default\"><td class=\"ms-rteTableEvenCol-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTableOddCol-default\" style=\"width&#58;15%;\">Asistente<br></td><td class=\"ms-rteTableEvenCol-default\">Samantha Cristina Blanco Rojas<br></td></tr></tbody></table><p><br><br></p></div>",
+      "equipo_trabajo_html": "<div class=\"ExternalClass24B9E55418A04563945847CC1E52D193\"><p></p><table cellspacing=\"0\" width=\"100%\" class=\"ms-rteTable-default\"><tbody><tr class=\"ms-rteTableEvenRow-default\"><td class=\"ms-rteTableEvenCol-default\" style=\"width&#58;15%;\"><strong>Puesto​</strong></td><td class=\"ms-rteTableOddCol-default\" style=\"width&#58;15%;\"><strong>Clase​</strong></td><td class=\"ms-rteTableEvenCol-default\" style=\"width&#58;33.3333%;\"><strong>Nombre</strong></td></tr><tr class=\"ms-rteTableOddRow-default\"><td class=\"ms-rteTableEvenCol-default\" style=\"width&#58;15%;\">&#160;<br></td><td class=\"ms-rteTableOddCol-default\" style=\"width&#58;15%;\">Asesora<br></td><td class=\"ms-rteTableEvenCol-default\"><p>Margarita Azofeifa Barrantes&#160;-<strong style=\"font-size&#58;1rem;\">Jefa&#160;de despacho</strong></p></td></tr><tr class=\"ms-rteTableEvenRow-default\"><td class=\"ms-rteTableEvenCol-default\" style=\"width&#58;15%;\">​</td><td class=\"ms-rteTableOddCol-default\" style=\"width&#58;15%;\">Asesor</td><td class=\"ms-rteTableEvenCol-default\">Sebastián Gonzalez Rojas<br></td></tr><tr class=\"ms-rteTableOddRow-default\"><td class=\"ms-rteTableEvenCol-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTableOddCol-default\" style=\"width&#58;15%;\">Asesor<br></td><td class=\"ms-rteTableEvenCol-default\">Jostin Andrés Nuñez Carvajal<br></td></tr><tr class=\"ms-rteTableEvenRow-default\"><td class=\"ms-rteTableEvenCol-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTableOddCol-default\" style=\"width&#58;15%;\">Asesor<br></td><td class=\"ms-rteTableEvenCol-default\">Esteban Vargas Orozco<br></td></tr><tr class=\"ms-rteTableOddRow-default\"><td class=\"ms-rteTableEvenCol-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTableOddCol-default\" style=\"width&#58;15%;\">Asesora<br></td><td class=\"ms-rteTableEvenCol-default\">Veracruz Barrantes Sibaja<br></td></tr><tr class=\"ms-rteTableFooterRow-default\"><td class=\"ms-rteTableFooterEvenCol-default\" rowspan=\"1\" style=\"width&#58;15%;\">​​<br></td><td class=\"ms-rteTableFooterOddCol-default\" rowspan=\"1\" style=\"width&#58;15%;\"><span style=\"color&#58;#444444;\">​Asesora&#160;<br></span></td><td class=\"ms-rteTableFooterEvenCol-default\" rowspan=\"1\"><span style=\"color&#58;#444444;\">​Grenz Calvo Camacho</span><br></td></tr></tbody></table><p><br><br></p></div>",
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-27T12:00:05+00:00",
-      "_modificado_en_fuente": "2026-07-23T20:07:47Z"
+      "_extraido": "2026-10-29T12:00:05+00:00",
+      "_modificado_en_fuente": "2026-10-28T23:59:22Z"
     },
     {
       "id": 15,
@@ -593,10 +593,10 @@
         "publicaciones": null,
         "areas_interes": "<div class=\"ExternalClass1E9807BC46824A22895A60F1BD839D2E\"><p></p><div></div><div><div>​<br></div><ul><li><div style=\"text-align&#58;justify;\">Como amante de los animales, la diputada se siente conmovida por su vulnerabilidad y el impacto que su abandono tiene en nuestras vidas. Esto la ha movido a dedicar tiempo y esfuerzo en su defensa y en general uno de sus ejes de trabajo durante su diputación es el bienestar animal.<br><br></div></li><li style=\"text-align&#58;justify;\">El interés en temas sociales la ha llevado a cuestionar los recursos económicos insuficientes que se asignan a los comedor​es escolares, a los cen cinai y a la red de cuido Cecudi.<br><br></li><li style=\"text-align&#58;justify;\"><span style=\"font-size&#58;1rem;\">Otra preocupación de la diputación es la calidad de la educación y la infraestructura en malas condiciones en la cual se imparten lecciones, por lo cual legislará para mejorarla.<br><br></span></li><li style=\"text-align&#58;justify;\">Quiere apoyar &#160;al sector cultura a través de mejoras de las condiciones en las que desarrollan sus funciones, así como luchar para que no disminuyan el presupuesto asignado al sector.<br><br> </li><li style=\"text-align&#58;justify;\">La Seguridad del país es una de sus preocupaciones y por las cuales quiere legislar, con el fin de que las nuevas generaciones puedan vivir en un país seguro, libre y en el cual se pueda caminar por las calles sin temor.<br><br></li><li style=\"text-align&#58;justify;\">La transparencia en la función pública es un tema prioritario que debe fortalecerse con el fin de devolverle la confianza en los funcionarios públicos a los costarricenses y es uno de los temas prioritarios para la diputada.<br><br></li><li style=\"text-align&#58;justify;\">Desde hace muchos años, uno de los temas por los que ha luchado la diputada e​s la crisis ambiental de gestión de residuos y espera poder legislar para buscar una solución a un problema que afecta la salud de todo s los costarricenses.<br></li></ul><p></p></div></div>"
       },
-      "equipo_trabajo_html": "<div class=\"ExternalClassF32AFFE8BED54795995159DEC60147A8\"><p></p><table cellspacing=\"0\" width=\"100%\" class=\"ms-rteTable-default\"><tbody><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\"><strong>Puesto</strong></td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\"><strong>Clase</strong></td><td class=\"ms-rteTable-default\" style=\"width&#58;33.3333%;\"><strong>Nombre</strong></td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\"><strong>&#160;​</strong></td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesora</td><td class=\"ms-rteTable-default\">Grenz Sileny Calvo Camacho – <strong>Jefa de despacho</strong></td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesor</td><td class=\"ms-rteTable-default\">Gerardo Ruíz Ramón</td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">​</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesora</td><td class=\"ms-rteTable-default\">Génesis Sánchez Arias</td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesora</td><td class=\"ms-rteTable-default\">Santiago Vargas Camacho</td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesor</td><td class=\"ms-rteTable-default\">Marino Lóéz Chaves</td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesora</td><td class=\"ms-rteTable-default\">Dioni Nicole Cespedes Bolañoz</td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesor Ad Honorem</td><td class=\"ms-rteTable-default\">Mario Álvarez González<br></td></tr></tbody></table><p><br></p></div>",
+      "equipo_trabajo_html": "<div class=\"ExternalClassF32AFFE8BED54795995159DEC60147A8\"><p></p><table cellspacing=\"0\" width=\"100%\" class=\"ms-rteTable-default\"><tbody><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\"><strong>Puesto</strong></td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\"><strong>Clase</strong></td><td class=\"ms-rteTable-default\" style=\"width&#58;33.3333%;\"><strong>Nombre</strong></td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\"><strong>&#160;​</strong></td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesora</td><td class=\"ms-rteTable-default\">Génesis Sánchez Arias​ – <strong>Jefa de despacho</strong></td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesor</td><td class=\"ms-rteTable-default\">Gerardo Ruíz Ramón</td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">​</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesora</td><td class=\"ms-rteTable-default\">Karina Garay Gutierrez<br></td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesora</td><td class=\"ms-rteTable-default\">Santiago Vargas Camacho</td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesor</td><td class=\"ms-rteTable-default\">Marino Lóéz Chaves</td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asistente Administrativa<br></td><td class=\"ms-rteTable-default\">Nora Quesada Ureña<br></td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesor Ad Honorem</td><td class=\"ms-rteTable-default\">Mario Álvarez González<br></td></tr></tbody></table><p><br></p></div>",
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-27T12:00:05+00:00",
-      "_modificado_en_fuente": "2026-06-22T18:11:08Z"
+      "_extraido": "2026-10-29T12:00:05+00:00",
+      "_modificado_en_fuente": "2026-10-28T17:06:48Z"
     },
     {
       "id": 16,
@@ -645,7 +645,7 @@
       },
       "equipo_trabajo_html": null,
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-27T12:00:05+00:00",
+      "_extraido": "2026-10-29T12:00:05+00:00",
       "_modificado_en_fuente": "2026-05-07T21:40:30Z"
     },
     {
@@ -695,7 +695,7 @@
       },
       "equipo_trabajo_html": "<div class=\"ExternalClass8FBE5051EA3A48B3A41E42457AD95ADF\"><p>​</p><table cellspacing=\"0\" width=\"100%\" class=\"ms-rteTable-default\"><tbody><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\"><strong>Puesto</strong></td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\"><strong>Clase</strong></td><td class=\"ms-rteTable-default\" style=\"width&#58;33.3333%;\"><strong>Nombre</strong></td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\"><strong>&#160;</strong></td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesora</td><td class=\"ms-rteTable-default\">Sidney Alejandro Elizondo Ross</td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesora</td><td class=\"ms-rteTable-default\">Damaris Chacón Jiménez</td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">​</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesor</td><td class=\"ms-rteTable-default\">Carlos Pantoja Carlderón</td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesora</td><td class=\"ms-rteTable-default\">Silvia Garro Badilla</td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asistente</td><td class=\"ms-rteTable-default\">Adriana Castillo Brenes<br></td></tr></tbody></table><p><br></p></div>",
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-27T12:00:05+00:00",
+      "_extraido": "2026-10-29T12:00:05+00:00",
       "_modificado_en_fuente": "2026-06-12T15:03:04Z"
     },
     {
@@ -745,7 +745,7 @@
       },
       "equipo_trabajo_html": null,
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-27T12:00:05+00:00",
+      "_extraido": "2026-10-29T12:00:05+00:00",
       "_modificado_en_fuente": "2026-04-22T16:27:50Z"
     },
     {
@@ -795,7 +795,7 @@
       },
       "equipo_trabajo_html": null,
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-27T12:00:05+00:00",
+      "_extraido": "2026-10-29T12:00:05+00:00",
       "_modificado_en_fuente": "2026-04-22T16:34:15Z"
     },
     {
@@ -845,7 +845,7 @@
       },
       "equipo_trabajo_html": null,
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-27T12:00:05+00:00",
+      "_extraido": "2026-10-29T12:00:05+00:00",
       "_modificado_en_fuente": "2026-04-22T16:35:45Z"
     },
     {
@@ -895,7 +895,7 @@
       },
       "equipo_trabajo_html": null,
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-27T12:00:05+00:00",
+      "_extraido": "2026-10-29T12:00:05+00:00",
       "_modificado_en_fuente": "2026-04-22T16:36:33Z"
     },
     {
@@ -945,7 +945,7 @@
       },
       "equipo_trabajo_html": null,
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-27T12:00:05+00:00",
+      "_extraido": "2026-10-29T12:00:05+00:00",
       "_modificado_en_fuente": "2026-04-22T16:32:22Z"
     },
     {
@@ -995,7 +995,7 @@
       },
       "equipo_trabajo_html": "<div class=\"ExternalClassD3B69010D75B45F185D03A2175CE3DB8\"><p>​</p><table cellspacing=\"0\" width=\"100%\" class=\"ms-rteTable-default\"><tbody><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\"><strong>Puesto</strong></td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\"><strong>Clase</strong></td><td class=\"ms-rteTable-default\" style=\"width&#58;33.3333%;\"><strong>Nombre</strong></td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesora</td><td class=\"ms-rteTable-default\">Natalia Rudín Castro - <strong>Jefa&#160;de despacho</strong> </td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">​</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesor</td><td class=\"ms-rteTable-default\">Luis Diego Alvarado Castillo</td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesora</td><td class=\"ms-rteTable-default\">María Gabriela Morales Guzmán</td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesor</td><td class=\"ms-rteTable-default\">Sebastián Jiménez Granados</td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesor</td><td class=\"ms-rteTable-default\">Óscar José Espinal Hernández</td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesor</td><td class=\"ms-rteTable-default\">Erick Chaves Salas</td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesora</td><td class=\"ms-rteTable-default\">Sofía Álvarez Kim​<br></td></tr></tbody></table><p><br></p></div>",
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-27T12:00:05+00:00",
+      "_extraido": "2026-10-29T12:00:05+00:00",
       "_modificado_en_fuente": "2026-06-10T18:32:09Z"
     },
     {
@@ -1045,7 +1045,7 @@
       },
       "equipo_trabajo_html": "<div class=\"ExternalClass41DB82F02DDC44119FEC9362883E8F2E\"><p>​</p><table cellspacing=\"0\" width=\"100%\" class=\"ms-rteTable-default\"><tbody><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\"><strong>Puesto</strong></td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\"><strong>Clase</strong></td><td class=\"ms-rteTable-default\" style=\"width&#58;33.3333%;\"><strong>Nombre</strong></td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">&#160;<br></td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesora<br></td><td class=\"ms-rteTable-default\"><p>Maria Paula Montano Chavarría -&#160;<strong style=\"font-size&#58;1rem;\">Jefa de despacho</strong></p></td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">​</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesora</td><td class=\"ms-rteTable-default\">Tamara Valerio Guevara</td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesor</td><td class=\"ms-rteTable-default\">Jorge Gamboa Monge</td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesor</td><td class=\"ms-rteTable-default\">Julio Rodríguez Saborio</td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesora</td><td class=\"ms-rteTable-default\">Vivian Alvarado Sandí<br></td></tr></tbody></table><p><br></p></div>",
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-27T12:00:05+00:00",
+      "_extraido": "2026-10-29T12:00:05+00:00",
       "_modificado_en_fuente": "2026-06-09T22:47:20Z"
     },
     {
@@ -1095,7 +1095,7 @@
       },
       "equipo_trabajo_html": null,
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-27T12:00:05+00:00",
+      "_extraido": "2026-10-29T12:00:05+00:00",
       "_modificado_en_fuente": "2026-04-23T22:35:31Z"
     },
     {
@@ -1145,7 +1145,7 @@
       },
       "equipo_trabajo_html": null,
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-27T12:00:05+00:00",
+      "_extraido": "2026-10-29T12:00:05+00:00",
       "_modificado_en_fuente": "2026-04-22T16:40:30Z"
     },
     {
@@ -1195,7 +1195,7 @@
       },
       "equipo_trabajo_html": null,
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-27T12:00:05+00:00",
+      "_extraido": "2026-10-29T12:00:05+00:00",
       "_modificado_en_fuente": "2026-04-22T16:41:31Z"
     },
     {
@@ -1245,7 +1245,7 @@
       },
       "equipo_trabajo_html": null,
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-27T12:00:05+00:00",
+      "_extraido": "2026-10-29T12:00:05+00:00",
       "_modificado_en_fuente": "2026-10-21T22:12:51Z"
     },
     {
@@ -1295,7 +1295,7 @@
       },
       "equipo_trabajo_html": null,
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-27T12:00:05+00:00",
+      "_extraido": "2026-10-29T12:00:05+00:00",
       "_modificado_en_fuente": "2026-04-22T16:45:03Z"
     },
     {
@@ -1345,7 +1345,7 @@
       },
       "equipo_trabajo_html": null,
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-27T12:00:05+00:00",
+      "_extraido": "2026-10-29T12:00:05+00:00",
       "_modificado_en_fuente": "2026-06-24T15:55:29Z"
     },
     {
@@ -1395,7 +1395,7 @@
       },
       "equipo_trabajo_html": null,
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-27T12:00:05+00:00",
+      "_extraido": "2026-10-29T12:00:05+00:00",
       "_modificado_en_fuente": "2026-04-22T16:50:16Z"
     },
     {
@@ -1445,7 +1445,7 @@
       },
       "equipo_trabajo_html": null,
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-27T12:00:05+00:00",
+      "_extraido": "2026-10-29T12:00:05+00:00",
       "_modificado_en_fuente": "2026-04-22T16:51:05Z"
     },
     {
@@ -1495,7 +1495,7 @@
       },
       "equipo_trabajo_html": null,
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-27T12:00:05+00:00",
+      "_extraido": "2026-10-29T12:00:05+00:00",
       "_modificado_en_fuente": "2026-04-22T16:52:15Z"
     },
     {
@@ -1545,7 +1545,7 @@
       },
       "equipo_trabajo_html": null,
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-27T12:00:05+00:00",
+      "_extraido": "2026-10-29T12:00:05+00:00",
       "_modificado_en_fuente": "2026-04-27T21:40:39Z"
     },
     {
@@ -1595,7 +1595,7 @@
       },
       "equipo_trabajo_html": null,
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-27T12:00:05+00:00",
+      "_extraido": "2026-10-29T12:00:05+00:00",
       "_modificado_en_fuente": "2026-05-01T05:09:48Z"
     },
     {
@@ -1645,8 +1645,8 @@
       },
       "equipo_trabajo_html": null,
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-27T12:00:05+00:00",
-      "_modificado_en_fuente": "2026-05-01T05:14:11Z"
+      "_extraido": "2026-10-29T12:00:05+00:00",
+      "_modificado_en_fuente": "2026-10-28T17:51:13Z"
     },
     {
       "id": 38,
@@ -1695,7 +1695,7 @@
       },
       "equipo_trabajo_html": null,
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-27T12:00:05+00:00",
+      "_extraido": "2026-10-29T12:00:05+00:00",
       "_modificado_en_fuente": "2026-04-27T21:45:47Z"
     },
     {
@@ -1745,7 +1745,7 @@
       },
       "equipo_trabajo_html": null,
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-27T12:00:05+00:00",
+      "_extraido": "2026-10-29T12:00:05+00:00",
       "_modificado_en_fuente": "2026-04-22T17:06:34Z"
     },
     {
@@ -1795,7 +1795,7 @@
       },
       "equipo_trabajo_html": null,
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-27T12:00:05+00:00",
+      "_extraido": "2026-10-29T12:00:05+00:00",
       "_modificado_en_fuente": "2026-04-22T17:10:09Z"
     },
     {
@@ -1845,7 +1845,7 @@
       },
       "equipo_trabajo_html": "<div class=\"ExternalClassA2440DE10F9C4F2387523EF7D7FED549\"><p>​</p><table cellspacing=\"0\" width=\"100%\" class=\"ms-rteTable-default\"><tbody><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\"><strong>Puesto​</strong></td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\"><strong>Clase</strong></td><td class=\"ms-rteTable-default\" style=\"width&#58;33.3333%;\"><strong>Nombre</strong></td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesor</td><td class=\"ms-rteTable-default\"><p>Alejandro García Mora -&#160;<strong style=\"font-size&#58;1rem;\">Jefe de despacho</strong></p></td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">​</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesora</td><td class=\"ms-rteTable-default\">Graciela Pérez Jiménez</td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesora</td><td class=\"ms-rteTable-default\">Susana Umaña Leandro </td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesor</td><td class=\"ms-rteTable-default\">Diego Cardona Fuentes</td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesora</td><td class=\"ms-rteTable-default\">Stephanie Meneses Quirós</td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesor</td><td class=\"ms-rteTable-default\">Oldemar Ruiz Ruiz</td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asistente</td><td class=\"ms-rteTable-default\">Charline Wong Murillo</td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesor</td><td class=\"ms-rteTable-default\">Wagner Jiménez Barboza<br></td></tr></tbody></table><p><br></p></div>",
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-27T12:00:05+00:00",
+      "_extraido": "2026-10-29T12:00:05+00:00",
       "_modificado_en_fuente": "2026-06-09T22:49:00Z"
     },
     {
@@ -1895,7 +1895,7 @@
       },
       "equipo_trabajo_html": null,
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-27T12:00:05+00:00",
+      "_extraido": "2026-10-29T12:00:05+00:00",
       "_modificado_en_fuente": "2026-06-05T14:53:31Z"
     },
     {
@@ -1945,7 +1945,7 @@
       },
       "equipo_trabajo_html": null,
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-27T12:00:05+00:00",
+      "_extraido": "2026-10-29T12:00:05+00:00",
       "_modificado_en_fuente": "2026-06-16T16:45:05Z"
     },
     {
@@ -1995,7 +1995,7 @@
       },
       "equipo_trabajo_html": null,
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-27T12:00:05+00:00",
+      "_extraido": "2026-10-29T12:00:05+00:00",
       "_modificado_en_fuente": "2026-04-22T17:17:26Z"
     },
     {
@@ -2045,7 +2045,7 @@
       },
       "equipo_trabajo_html": null,
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-27T12:00:05+00:00",
+      "_extraido": "2026-10-29T12:00:05+00:00",
       "_modificado_en_fuente": "2026-04-22T17:18:19Z"
     },
     {
@@ -2095,7 +2095,7 @@
       },
       "equipo_trabajo_html": null,
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-27T12:00:05+00:00",
+      "_extraido": "2026-10-29T12:00:05+00:00",
       "_modificado_en_fuente": "2026-05-13T21:12:59Z"
     },
     {
@@ -2145,7 +2145,7 @@
       },
       "equipo_trabajo_html": "<div class=\"ExternalClass1DA41DAAECA14662B2FC79944AB7BCCE\"><table cellspacing=\"0\" width=\"100%\" class=\"ms-rteTable-default\"><tbody><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\"><strong>Puesto​</strong></td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\"><strong>Clase</strong></td><td class=\"ms-rteTable-default\" style=\"width&#58;33.3333%;\"><strong>Nombre</strong></td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\"><strong>&#160;</strong></td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesora</td><td class=\"ms-rteTable-default\">Keylin Jiménez Elizondo - <strong>Jefa de despacho</strong></td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesor</td><td class=\"ms-rteTable-default\">Joshua Arguedas González </td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">​</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesor</td><td class=\"ms-rteTable-default\">Mario Madrigal Cordero</td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesor</td><td class=\"ms-rteTable-default\">Paulino Madrigal Rodríguez</td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesora</td><td class=\"ms-rteTable-default\">Paz Vargas Herrera<br></td></tr></tbody></table><p><br></p><br></div>",
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-27T12:00:05+00:00",
+      "_extraido": "2026-10-29T12:00:05+00:00",
       "_modificado_en_fuente": "2026-06-10T16:39:36Z"
     },
     {
@@ -2195,7 +2195,7 @@
       },
       "equipo_trabajo_html": "<div class=\"ExternalClass9D29C77F82974BAB90BA327C8FB69081\"><p>​</p><table cellspacing=\"0\" width=\"100%\" class=\"ms-rteTable-default\"><tbody><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\"><strong>Puesto</strong></td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\"><strong>Clase</strong></td><td class=\"ms-rteTable-default\" style=\"width&#58;33.3333%;\"><strong>Nombre</strong></td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\"><strong>&#160;</strong></td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesor</td><td class=\"ms-rteTable-default\">Juan Carlos Melendez Torres – <strong>Jefe de despacho</strong></td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesora</td><td class=\"ms-rteTable-default\">María Jose Moreno Prendas</td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">​</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesora</td><td class=\"ms-rteTable-default\">Patricia Cantillo Pérez</td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesora</td><td class=\"ms-rteTable-default\">Ana Lucrecia Cubillo Gonzalez</td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asistente</td><td class=\"ms-rteTable-default\">Wendy Gómez Arias<br></td></tr></tbody></table><p><br></p></div>",
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-27T12:00:05+00:00",
+      "_extraido": "2026-10-29T12:00:05+00:00",
       "_modificado_en_fuente": "2026-06-22T22:54:16Z"
     },
     {
@@ -2245,7 +2245,7 @@
       },
       "equipo_trabajo_html": null,
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-27T12:00:05+00:00",
+      "_extraido": "2026-10-29T12:00:05+00:00",
       "_modificado_en_fuente": "2026-04-22T17:23:24Z"
     },
     {
@@ -2260,12 +2260,12 @@
       "activo": true,
       "foto_url": "https://www.asamblea.go.cr/Diputados/SiteAssets/2026-2030/ps_murillo_artavia.jpg",
       "fecha_nacimiento": "1986-10-19T06:00:00Z",
-      "lugar_nacimiento": null,
-      "profesion": "Abogada y Notaria Pública",
-      "estado_civil": null,
+      "lugar_nacimiento": "Ciudad Quesada, San Carlos, Alajuela",
+      "profesion": "Abogada y Notaria",
+      "estado_civil": "Casada",
       "email_oficial": "cindy.murillo@asamblea.go.cr",
       "redes": {
-        "facebook": null,
+        "facebook": "https://www.facebook.com/cindy.murillo.710/",
         "twitter": null,
         "instagram": null,
         "youtube": null,
@@ -2274,29 +2274,29 @@
       },
       "orden_web": 44.0,
       "biografia": {
-        "educacion": null,
-        "experiencia_laboral": null,
-        "experiencia_politica": null,
+        "educacion": "Formación profesional en Derecho y Notariado.",
+        "experiencia_laboral": "• Asesora legislativa en la Asamblea Legislativa de Costa Rica: se desempeñó en el despacho del diputado Daniel Vargas Quirós desde mayo de 2022 hasta el final del período legislativo 2022-2024.\n\n• Asesoría legislativa y técnica: participación en la preparación de proyectos de ley y mociones, así como en labores relacionadas con asuntos legislativos y coordinación institucional.\n\n• Gestión territorial: Articulación con instituciones públicas y representantes comunales para promover soluciones en materia de infraestructura, vivienda, agua potable, electrificación y educación en la provincia de Guanacaste.",
+        "experiencia_politica": "Fundadora y coordinadora provincial del Movimiento Jaguares Guanacaste, con trabajo de organización territorial en los 11 cantones de la provincia, e intendencia Colorado.\n\nDiputada de la República por la provincia de Guanacaste para el período constitucional 2026-2030, por el Partido Pueblo Soberano.",
         "premios": null,
-        "participacion_comunal": null,
+        "participacion_comunal": "Su trayectoria pública registra trabajo territorial en Guanacaste y coordinación con líderes comunales e instituciones públicas. Entre los ámbitos de gestión documentados se encuentran:\n\n• Promoción de proyectos de infraestructura y vivienda.\n\n• Gestión de soluciones para el abastecimiento de agua potable y el fortalecimiento de las ASADAS.\n\n• Impulso a proyectos de electrificación y mejoramiento de centros educativos.\n\n• Coordinación con instituciones como el MOPT, el INDER, el AyA, la DIE y el MEP, DINADECO y SENARA.\n\n• Organización y articulación de liderazgos comunales en los distintos cantones de Guanacaste.",
         "ponencias": null,
         "publicaciones": null,
-        "areas_interes": "Impulso a proyectos de infraestructura, electrificación, agua, vivienda,\neducación y fortalecimiento de las ASADAS."
+        "areas_interes": "• Desarrollo económico y social de Guanacaste y del país.\n\n• Infraestructura pública y comunal.\n\n• Agua potable y fortalecimiento de las ASADAS.\n\n• Vivienda, electrificación y educación.\n\n• Turismo y desarrollo productivo.\n\n• Gestión territorial y articulación entre comunidades e instituciones públicas.\n\n• Relaciones internacionales y comercio exterior.\n• Asuntos hacendarios y fortalecimiento de la actividad económica.\n• Estos ejes se presentan como una síntesis de su trayectoria pública y de las áreas legislativas relacionadas con su labor."
       },
       "biografia_html": {
-        "educacion": null,
-        "experiencia_laboral": null,
-        "experiencia_politica": null,
+        "educacion": "<div class=\"ExternalClassC451B5A7E99949718D90270851C49244\"><p>​Formación profesional en Derecho y Notariado.<br></p></div>",
+        "experiencia_laboral": "<div class=\"ExternalClass4B640E6F0B3A4C929100CFE22334B745\"><div style=\"text-align&#58;justify;\"><ul><li>Asesora legislativa en la Asamblea Legislativa de Costa Rica&#58; se desempeñó en el despacho del diputado Daniel Vargas Quirós desde mayo de 2022 hasta el final del período legislativo 2022-2024.<br></li><li>Asesoría legislativa y técnica&#58; participación en la preparación de proyectos de ley y mociones, así como en labores relacionadas con asuntos legislativos y coordinación institucional.<br></li><li>Gestión territorial&#58; Articulación con instituciones públicas y representantes comunales para promover soluciones en materia de infraestructura, vivienda, agua potable, electrificación y educación en la provincia de Guanacaste.<br></li></ul></div></div>",
+        "experiencia_politica": "<div class=\"ExternalClass01867027BC8F4197BDB88B520ED1516D\"><div style=\"text-align&#58;justify;\">Fundadora y coordinadora provincial del Movimiento Jaguares Guanacaste, con trabajo de organización territorial en los 11 cantones de la provincia, e intendencia Colorado.<br></div><div style=\"text-align&#58;justify;\"><br></div><div style=\"text-align&#58;justify;\">Diputada de la República por la provincia de Guanacaste para el período constitucional 2026-2030, por el Partido Pueblo Soberano.<br></div><p><br></p></div>",
         "premios": null,
-        "participacion_comunal": null,
+        "participacion_comunal": "<div class=\"ExternalClassEBF8174C2C5B4EA3927C9A108AAC86FE\"><div style=\"text-align&#58;justify;\">Su trayectoria pública registra trabajo territorial en Guanacaste y coordinación con líderes comunales e instituciones públicas. Entre los ámbitos de gestión documentados se encuentran&#58;<br></div><div style=\"text-align&#58;justify;\"><br></div><div style=\"text-align&#58;justify;\"><ul><li>Promoción de proyectos de infraestructura y vivienda.<br></li><li>Gestión de soluciones para el abastecimiento de agua potable y el fortalecimiento de las ASADAS.<br></li><li>Impulso a proyectos de electrificación y mejoramiento de centros educativos.<br></li><li>Coordinación con instituciones como el MOPT, el INDER, el AyA, la DIE y el MEP, DINADECO y SENARA.<br></li><li>Organización y articulación de liderazgos comunales en los distintos cantones de Guanacaste.</li></ul></div><p><br></p></div>",
         "ponencias": null,
         "publicaciones": null,
-        "areas_interes": "<div class=\"ExternalClassA3B10E3217834D248B93D372F3DDD87A\"><div class=\"ExternalClassA069B960A25447199A32D05A8C79B0D0\" style=\"text-align&#58;justify;\"><p><span style=\"font-family&#58;&quot;century gothic&quot;, &quot;segoe ui&quot;, segoe, tahoma, helvetica, arial, sans-serif;font-size&#58;14.6667px;\">​</span><span style=\"line-height&#58;115%;font-family&#58;&quot;century gothic&quot;, &quot;segoe ui&quot;, segoe, tahoma, helvetica, arial, sans-serif;font-size&#58;14.6667px;\">Impulso a proyectos de infraestructura, electrificación, agua, vivienda,\neducación y fortalecimiento de las ASADAS.</span>​<br></p></div></div>"
+        "areas_interes": "<div class=\"ExternalClassA3B10E3217834D248B93D372F3DDD87A\"><div class=\"ExternalClassA069B960A25447199A32D05A8C79B0D0\" style=\"text-align&#58;justify;\"><p><span style=\"font-family&#58;&quot;century gothic&quot;, &quot;segoe ui&quot;, segoe, tahoma, helvetica, arial, sans-serif;font-size&#58;14.6667px;\"></span></p><div style=\"text-align&#58;justify;\"><ul><li>Desarrollo económico y social de Guanacaste y del país.<br></li><li>Infraestructura pública y comunal.<br></li><li>Agua potable y fortalecimiento de las ASADAS.<br></li><li>Vivienda, electrificación y educación.<br></li><li>Turismo y desarrollo productivo.<br></li><li>Gestión territorial y articulación entre comunidades e instituciones públicas.<br></li><li>Relaciones internacionales y comercio exterior.</li><li><span style=\"font-size&#58;1rem;\">Asuntos hacendarios y fortalecimiento de la actividad económica.</span></li><li style=\"text-align&#58;left;\">​Estos ejes se presentan como una síntesis de su trayectoria pública y de las áreas legislativas relacionadas con su labor.​<span style=\"text-align&#58;center;font-size&#58;1rem;\">​</span></li></ul></div></div></div>"
       },
-      "equipo_trabajo_html": null,
+      "equipo_trabajo_html": "<div class=\"ExternalClass8650EBF588454BE8B76621A4BCF5DC87\"><p>​</p><table cellspacing=\"0\" width=\"100%\" class=\"ms-rteTable-default\"><tbody><tr class=\"ms-rteTableEvenRow-default\"><td class=\"ms-rteTableEvenCol-default\" style=\"width&#58;88.3789px;\"><span style=\"font-weight&#58;bolder;\">Puesto</span></td><td class=\"ms-rteTableOddCol-default\" style=\"width&#58;144.941px;\"><span style=\"font-weight&#58;bolder;\">Clase</span></td><td class=\"ms-rteTableEvenCol-default\" style=\"width&#58;196.445px;\"><span style=\"font-weight&#58;bolder;\">Nombre</span></td></tr><tr class=\"ms-rteTableOddRow-default\"><td class=\"ms-rteTableEvenCol-default\" style=\"width&#58;88.3789px;\"><span style=\"font-weight&#58;bolder;\">&#160;​</span></td><td class=\"ms-rteTableOddCol-default\" style=\"width&#58;144.941px;\">Asesora</td><td class=\"ms-rteTableEvenCol-default\">Lucy Jiménez Espinoza​ – <span style=\"font-weight&#58;bolder;\">Jefa de despacho</span></td></tr><tr class=\"ms-rteTableEvenRow-default\"><td class=\"ms-rteTableEvenCol-default\" style=\"width&#58;88.3789px;\">&#160;</td><td class=\"ms-rteTableOddCol-default\" style=\"width&#58;144.941px;\">Asesor Legislativo<br></td><td class=\"ms-rteTableEvenCol-default\">Mauricio Sequeira Pacheco<br></td></tr><tr class=\"ms-rteTableOddRow-default\"><td class=\"ms-rteTableEvenCol-default\" style=\"width&#58;88.3789px;\"></td><td class=\"ms-rteTableOddCol-default\" style=\"width&#58;144.941px;\">Asesor Legislativo<br></td><td class=\"ms-rteTableEvenCol-default\">Rigoberto Guzman Vega<br></td></tr><tr class=\"ms-rteTableEvenRow-default\"><td class=\"ms-rteTableEvenCol-default\" style=\"width&#58;88.3789px;\">&#160;</td><td class=\"ms-rteTableOddCol-default\" style=\"width&#58;144.941px;\">Asesora Legislativa<br></td><td class=\"ms-rteTableEvenCol-default\">Cinthia Bonilla Romero<br></td></tr><tr class=\"ms-rteTableOddRow-default\"><td class=\"ms-rteTableEvenCol-default\" style=\"width&#58;88.3789px;\">&#160;</td><td class=\"ms-rteTableOddCol-default\" style=\"width&#58;144.941px;\">Asesora Legislativa<br></td><td class=\"ms-rteTableEvenCol-default\">Alejandra Chaves Alvarez<br></td></tr></tbody></table><p>​​<br><br></p></div>",
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-27T12:00:05+00:00",
-      "_modificado_en_fuente": "2026-05-01T05:15:14Z"
+      "_extraido": "2026-10-29T12:00:05+00:00",
+      "_modificado_en_fuente": "2026-10-28T17:52:06Z"
     },
     {
       "id": 50,
@@ -2345,7 +2345,7 @@
       },
       "equipo_trabajo_html": null,
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-27T12:00:05+00:00",
+      "_extraido": "2026-10-29T12:00:05+00:00",
       "_modificado_en_fuente": "2026-04-22T17:43:24Z"
     },
     {
@@ -2395,7 +2395,7 @@
       },
       "equipo_trabajo_html": "<div class=\"ExternalClassCD0E30333F014E1EA26C3F41D3EC8898\"><p>​</p><table cellspacing=\"0\" width=\"100%\" class=\"ms-rteTable-default\"><tbody><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\"><strong>Puesto​​</strong></td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\"><strong>Clase</strong></td><td class=\"ms-rteTable-default\" style=\"width&#58;33%;\"><strong>Nombre​</strong></td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\"><strong>&#160;</strong></td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesora</td><td class=\"ms-rteTable-default\" style=\"width&#58;33%;\">Edith Montero Matarrita – <strong>Jefa de despacho</strong></td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asistente</td><td class=\"ms-rteTable-default\" style=\"width&#58;33%;\">Anette Da Costa Matamoros</td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">​</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesor</td><td class=\"ms-rteTable-default\" style=\"width&#58;33%;\">Elbin Calvo Herra</td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesora</td><td class=\"ms-rteTable-default\" style=\"width&#58;33%;\">Ingrid Morales López</td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesor</td><td class=\"ms-rteTable-default\" style=\"width&#58;33%;\">Jeff Chaji del Silencio</td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesora</td><td class=\"ms-rteTable-default\" style=\"width&#58;33%;\">Alexandra Campos Durán</td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesora</td><td class=\"ms-rteTable-default\" style=\"width&#58;33%;\">Nicole Andrea Muñoz Morales<br></td></tr></tbody></table><p><br></p></div>",
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-27T12:00:05+00:00",
+      "_extraido": "2026-10-29T12:00:05+00:00",
       "_modificado_en_fuente": "2026-08-13T18:01:45Z"
     },
     {
@@ -2445,7 +2445,7 @@
       },
       "equipo_trabajo_html": "<div class=\"ExternalClass386340EC2D1B4CBCAD821333299E400E\"><p>​</p><table cellspacing=\"0\" width=\"100%\" class=\"ms-rteTable-default\"><tbody><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\"><strong>Puesto</strong></td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\"><strong>Clase</strong></td><td class=\"ms-rteTable-default\" style=\"width&#58;33.3333%;\"><strong>Nombre</strong></td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\"><strong>&#160;</strong></td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesora</td><td class=\"ms-rteTable-default\">Edwin Solano Molina – <strong>Jefe de despacho</strong></td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesor</td><td class=\"ms-rteTable-default\">Francisco J. Gamboa Bermúdez</td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">​</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesora</td><td class=\"ms-rteTable-default\">Inti Daniela Alvarado Lizano</td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesora</td><td class=\"ms-rteTable-default\">Geiner Mora Castro</td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asistente</td><td class=\"ms-rteTable-default\">Lucía Vasquez Rojas</td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesora</td><td class=\"ms-rteTable-default\">Mauren Pereira Guzmán​<br></td></tr></tbody></table><p><br></p></div>",
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-27T12:00:05+00:00",
+      "_extraido": "2026-10-29T12:00:05+00:00",
       "_modificado_en_fuente": "2026-06-22T22:09:35Z"
     },
     {
@@ -2460,23 +2460,23 @@
       "activo": true,
       "foto_url": "https://www.asamblea.go.cr/Diputados/SiteAssets/2026-2030/ps_camareno_camareno.jpg",
       "fecha_nacimiento": "1960-08-22T06:00:00Z",
-      "lugar_nacimiento": null,
+      "lugar_nacimiento": "San José",
       "profesion": "Licenciada en Contaduría y en Administración en empresas con énfasis en cooperativismo y gestión portuaria",
-      "estado_civil": null,
+      "estado_civil": "Casada",
       "email_oficial": "mariaisabel.camareno@asamblea.go.cr",
       "redes": {
-        "facebook": null,
+        "facebook": "https://www.facebook.com/share/1DwyejYHoa/?mibextid=wwXIfr",
         "twitter": null,
-        "instagram": null,
+        "instagram": "https://www.instagram.com/camarenomariaisabel?dlrf=eTdocW5udzB5NHZj",
         "youtube": null,
         "tiktok": null,
         "blog": null
       },
       "orden_web": 48.0,
       "biografia": {
-        "educacion": null,
-        "experiencia_laboral": null,
-        "experiencia_politica": null,
+        "educacion": "Licenciada en Contaduria.\n\nDiplomado en Alta Gerencia.\nLicenciada en Administracion de Empresas con enfasis en lo Portuario.\nLicenciada en Administracion de Empresas con enfasis en Cooperativismo.\nCapacitaciones y certificados en Legislacion Tributaria,\nUso de la tecnologico actual todos las aplicaciones.",
+        "experiencia_laboral": "1979 Asistente en Bufete del Licenciado Edgar Álvarez (1 año y medio).\n\n1981 Asistente en Bufete del Licenciado Juan Carlos Brenes (1 año y medio).\n1982 - 1983 Auxiliar de Contabilidad en Coonaprosal (empresa de los ferries a Playa Naranjo).\n1983 - 1985 Auxiliar de Contabilidad en Codesa, Tempisque Ferry Boat (empresa de ferries a Playa Naranjo).\n1985 – 1987 En la Administración del MOPT, Unidad Ejecutora (empresa de ferries a Playa Naranjo).\n1987 – 2010 Coonatramar R.L. Contadora General (empresa Cooperativa Autogestionaria de Tansporte Maritimo, ferries a Playa Naranjo).\n2010 - 2020 Coonatramar R.L. Gerente Financiera Administrativa (empresa Cooperativa Autogestionaria de Tansporte Maritimo, ferries a Playa Naranjo).",
+        "experiencia_politica": "Ocupé la presidencia en el Consejo Nacional de Cooperativas (CONACOOP).\n\nOcupé la presidencia en el Comité Nacional de Mujeres Cooperativistas (C.N.M.C).\nActualmente ocupo cargos en las juntas directivas del movimiento cooperativo.\nHe puesto mis servicios y conocimientos en juntas directivas ad honorem como; Cruz Rojas Costarricense (Comité de Puntarenas).\nHe puesto mis servicios y conocimientos en juntas directivas ad honorem como; Union Cantonal de Asociaciones de Desarrollo de Miramar de Montes de Oro (U.C.A.).\nHe puesto mis servicios y conocimientos en juntas directivas ad honorem como; Asociación Integral de Desarrollo de Miramar de Montes de Oro. (AID)",
         "premios": null,
         "participacion_comunal": null,
         "ponencias": null,
@@ -2484,19 +2484,19 @@
         "areas_interes": "Fortalecimiento del modelo cooperativo, mejora de la conectividad\nmarítima y eficiencia en la gestión de puertos y ferrys en el Golfo de Nicoya."
       },
       "biografia_html": {
-        "educacion": null,
-        "experiencia_laboral": null,
-        "experiencia_politica": null,
+        "educacion": "<div class=\"ExternalClass129F5FD0CB2F4CA6AC7454B389E94DF2\"><p style=\"text-align&#58;justify;\">Licenciada en Contaduria. <br></p><p style=\"text-align&#58;justify;\">Diplomado en Alta Gerencia. </p><p style=\"text-align&#58;justify;\">Licenciada en Administracion de Empresas con enfasis en lo Portuario. </p><p style=\"text-align&#58;justify;\">Licenciada en Administracion de Empresas con enfasis en Cooperativismo. </p><p style=\"text-align&#58;justify;\">Capacitaciones y certificados en Legislacion Tributaria, </p><p style=\"text-align&#58;justify;\">Uso de la tecnologico actual todos las aplicaciones.<br></p><p><br></p></div>",
+        "experiencia_laboral": "<div class=\"ExternalClass5670B4D6F46C43EDBE72D2A17E0FF4C0\"><p style=\"text-align&#58;justify;\">1979 Asistente en Bufete del Licenciado Edgar Álvarez (1 año y medio). <br></p><p style=\"text-align&#58;justify;\">1981 Asistente en Bufete del Licenciado Juan Carlos Brenes (1 año y medio). </p><p style=\"text-align&#58;justify;\">1982 - 1983 Auxiliar de Contabilidad en Coonaprosal (empresa de los ferries a Playa Naranjo). </p><p style=\"text-align&#58;justify;\">1983 - 1985 Auxiliar de Contabilidad en Codesa, Tempisque Ferry Boat (empresa de ferries a Playa Naranjo). </p><p style=\"text-align&#58;justify;\">1985 – 1987 En la Administración del MOPT, Unidad Ejecutora (empresa de ferries a Playa Naranjo). </p><p style=\"text-align&#58;justify;\">1987 – 2010 Coonatramar R.L. Contadora General (empresa Cooperativa Autogestionaria de Tansporte Maritimo, ferries a Playa Naranjo). </p><p style=\"text-align&#58;justify;\">2010 - 2020 Coonatramar R.L. Gerente Financiera Administrativa (empresa Cooperativa Autogestionaria de Tansporte Maritimo, ferries a Playa Naranjo).<br></p></div>",
+        "experiencia_politica": "<div class=\"ExternalClassCFFD7066F7D346F3A309C3D0E40ADE4F\"><p style=\"text-align&#58;justify;\">​Ocupé la presidencia en el Consejo Nacional de Cooperativas (CONACOOP). <br></p><p style=\"text-align&#58;justify;\">Ocupé la presidencia en el Comité Nacional de Mujeres Cooperativistas (C.N.M.C). </p><p style=\"text-align&#58;justify;\">Actualmente ocupo cargos en las juntas directivas del movimiento cooperativo. </p><p style=\"text-align&#58;justify;\">He puesto mis servicios y conocimientos en juntas directivas ad honorem como; Cruz Rojas Costarricense (Comité de Puntarenas). </p><p style=\"text-align&#58;justify;\">He puesto mis servicios y conocimientos en juntas directivas ad honorem como; Union Cantonal de Asociaciones de Desarrollo de Miramar de Montes de Oro (U.C.A.). </p><p style=\"text-align&#58;justify;\">He puesto mis servicios y conocimientos en juntas directivas ad honorem como; Asociación Integral de Desarrollo de Miramar de Montes de Oro. (AID)</p></div>",
         "premios": null,
         "participacion_comunal": null,
         "ponencias": null,
         "publicaciones": null,
-        "areas_interes": "<div class=\"ExternalClass7EF7C2887E274CEFAD0DB793C494F49A\"><div class=\"ExternalClass07E2343FB68646D592681A0CC943BE61\" style=\"text-align&#58;justify;\"><p><span style=\"font-size&#58;14.6667px;\">​</span><span style=\"line-height&#58;115%;font-family&#58;arial, sans-serif;font-size&#58;14.6667px;\">Fortalecimiento del modelo cooperativo, mejora de la conectividad\nmarítima y eficiencia en la gestión de puertos y ferrys en el Golfo de Nicoya.</span>​<br></p></div></div>"
+        "areas_interes": "<div class=\"ExternalClass7EF7C2887E274CEFAD0DB793C494F49A\"><div class=\"ExternalClass07E2343FB68646D592681A0CC943BE61\" style=\"text-align&#58;justify;\"><p><span style=\"font-family&#58;&quot;century gothic&quot;, &quot;segoe ui&quot;, segoe, tahoma, helvetica, arial, sans-serif;font-size&#58;12pt;\">​</span><span style=\"line-height&#58;115%;font-family&#58;&quot;century gothic&quot;, &quot;segoe ui&quot;, segoe, tahoma, helvetica, arial, sans-serif;font-size&#58;12pt;\">Fortalecimiento del modelo cooperativo, mejora de la conectividad\nmarítima y eficiencia en la gestión de puertos y ferrys en el Golfo de Nicoya.</span>​<br></p></div></div>"
       },
       "equipo_trabajo_html": null,
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-27T12:00:05+00:00",
-      "_modificado_en_fuente": "2026-04-27T21:51:15Z"
+      "_extraido": "2026-10-29T12:00:05+00:00",
+      "_modificado_en_fuente": "2026-10-28T22:22:54Z"
     },
     {
       "id": 54,
@@ -2545,7 +2545,7 @@
       },
       "equipo_trabajo_html": null,
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-27T12:00:05+00:00",
+      "_extraido": "2026-10-29T12:00:05+00:00",
       "_modificado_en_fuente": "2026-04-27T21:53:05Z"
     },
     {
@@ -2595,7 +2595,7 @@
       },
       "equipo_trabajo_html": "<div class=\"ExternalClassBE907DC8A1894E1DA4D4A9F76AB52E39\"><p></p><table cellspacing=\"0\" width=\"100%\" class=\"ms-rteTable-default\"><tbody><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\"><strong>Puesto</strong></td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\"><strong>Clase</strong></td><td class=\"ms-rteTable-default\" style=\"width&#58;33.3333%;\"><strong>Nombre</strong></td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\"><strong>&#160;</strong></td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesora</td><td class=\"ms-rteTable-default\">Diego Fernández Solano – <strong>Jefe de despacho</strong></td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesora</td><td class=\"ms-rteTable-default\">Judith Mora Reyes</td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">​</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesora</td><td class=\"ms-rteTable-default\">Mariana Barrios Martínez</td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesora</td><td class=\"ms-rteTable-default\">Kimberly Madrigal Salas</td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesor</td><td class=\"ms-rteTable-default\">Carlos Monge Artvia<br></td></tr></tbody></table><p><br><br></p></div>",
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-27T12:00:05+00:00",
+      "_extraido": "2026-10-29T12:00:05+00:00",
       "_modificado_en_fuente": "2026-06-22T17:55:15Z"
     },
     {
@@ -2645,7 +2645,7 @@
       },
       "equipo_trabajo_html": null,
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-27T12:00:05+00:00",
+      "_extraido": "2026-10-29T12:00:05+00:00",
       "_modificado_en_fuente": "2026-04-22T18:07:22Z"
     },
     {
@@ -2695,7 +2695,7 @@
       },
       "equipo_trabajo_html": null,
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-27T12:00:05+00:00",
+      "_extraido": "2026-10-29T12:00:05+00:00",
       "_modificado_en_fuente": "2026-04-22T18:05:18Z"
     },
     {
@@ -2745,7 +2745,7 @@
       },
       "equipo_trabajo_html": null,
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-27T12:00:05+00:00",
+      "_extraido": "2026-10-29T12:00:05+00:00",
       "_modificado_en_fuente": "2026-04-22T18:08:03Z"
     },
     {
@@ -2795,7 +2795,7 @@
       },
       "equipo_trabajo_html": null,
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-27T12:00:05+00:00",
+      "_extraido": "2026-10-29T12:00:05+00:00",
       "_modificado_en_fuente": "2026-04-22T18:08:47Z"
     },
     {
@@ -2845,7 +2845,7 @@
       },
       "equipo_trabajo_html": null,
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-27T12:00:05+00:00",
+      "_extraido": "2026-10-29T12:00:05+00:00",
       "_modificado_en_fuente": "2026-04-22T18:09:42Z"
     },
     {
@@ -2895,7 +2895,7 @@
       },
       "equipo_trabajo_html": null,
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-27T12:00:05+00:00",
+      "_extraido": "2026-10-29T12:00:05+00:00",
       "_modificado_en_fuente": "2026-05-07T15:28:45Z"
     },
     {
@@ -2945,7 +2945,7 @@
       },
       "equipo_trabajo_html": null,
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-27T12:00:05+00:00",
+      "_extraido": "2026-10-29T12:00:05+00:00",
       "_modificado_en_fuente": "2026-04-22T18:25:10Z"
     }
   ]
