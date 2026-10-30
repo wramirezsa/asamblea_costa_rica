@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-29T12:00:26+00:00",
+  "generado": "2026-10-30T12:00:30+00:00",
   "nota": "Solo se incluyen conjuntos que la Asamblea mantiene al día. Cada uno trae su propia fecha de última actualización, tomada de la fuente.",
   "leyes": {
     "_fuente": "https://www.asamblea.go.cr/glcp/_api/web/lists/getbytitle('res_de_leyes')/items?%24top=2000&%24orderby=Modified%20desc",
@@ -382,14 +382,14 @@
   },
   "mociones": {
     "_fuente": "https://www.asamblea.go.cr/glcp/_api/web/lists/getbytitle('mociones_total')/items?%24top=5000&%24orderby=Id%20desc",
-    "total": 27755,
-    "nota_alcance": "Agregados calculados sobre las 27755 mociones que devuelve la lista completa, no sobre una muestra.",
-    "ultima_actualizacion": "2026-10-28T23:48:48Z",
+    "total": 27804,
+    "nota_alcance": "Agregados calculados sobre las 27804 mociones que devuelve la lista completa, no sobre una muestra.",
+    "ultima_actualizacion": "2026-10-29T23:30:39Z",
     "por_resultado": {
-      "Rechazada": 23600,
-      "Aprobada": 3618,
+      "Rechazada": 23601,
+      "Aprobada": 3625,
       "Retirada": 394,
-      "Pendiente": 142,
+      "Pendiente": 183,
       "Revisión": 1
     },
     "por_anio": {
@@ -397,329 +397,329 @@
       "2023": 3827,
       "2024": 4729,
       "2025": 9086,
-      "2026": 6863
+      "2026": 6912
     },
-    "expedientes_distintos": 1252,
+    "expedientes_distintos": 1255,
     "recientes": [
       {
-        "numero": "137-0045",
-        "expediente": "23633",
-        "resultado": "Rechazada",
-        "asunto": "LEY PARA LA INSTITUCIONALIZACIÓN LEGAL DEL PROTOCOLO DE LAS 72 HORAS Y LOS EQUIPOS DE RESPUESTA RÁPIDA PARA LA ATENCIÓN INTEGRAL A VÍCTIMAS DE DELITOS SEXUALES (ERRVV)",
-        "tramite": "II día",
-        "fecha": "2026-10-28T23:48:21Z"
-      },
-      {
-        "numero": "137-0044",
-        "expediente": "23633",
-        "resultado": "Rechazada",
-        "asunto": "LEY PARA LA INSTITUCIONALIZACIÓN LEGAL DEL PROTOCOLO DE LAS 72 HORAS Y LOS EQUIPOS DE RESPUESTA RÁPIDA PARA LA ATENCIÓN INTEGRAL A VÍCTIMAS DE DELITOS SEXUALES (ERRVV)",
-        "tramite": "II día",
-        "fecha": "2026-10-28T23:47:29Z"
-      },
-      {
-        "numero": "137-0043",
-        "expediente": "23633",
-        "resultado": "Rechazada",
-        "asunto": "LEY PARA LA INSTITUCIONALIZACIÓN LEGAL DEL PROTOCOLO DE LAS 72 HORAS Y LOS EQUIPOS DE RESPUESTA RÁPIDA PARA LA ATENCIÓN INTEGRAL A VÍCTIMAS DE DELITOS SEXUALES (ERRVV)",
-        "tramite": "II día",
-        "fecha": "2026-10-28T23:46:23Z"
-      },
-      {
-        "numero": "137-0042",
-        "expediente": "23633",
-        "resultado": "Rechazada",
-        "asunto": "LEY PARA LA INSTITUCIONALIZACIÓN LEGAL DEL PROTOCOLO DE LAS 72 HORAS Y LOS EQUIPOS DE RESPUESTA RÁPIDA PARA LA ATENCIÓN INTEGRAL A VÍCTIMAS DE DELITOS SEXUALES (ERRVV)",
-        "tramite": "II día",
-        "fecha": "2026-10-28T23:45:38Z"
-      },
-      {
-        "numero": "137-0041",
-        "expediente": "23633",
-        "resultado": "Rechazada",
-        "asunto": "LEY PARA LA INSTITUCIONALIZACIÓN LEGAL DEL PROTOCOLO DE LAS 72 HORAS Y LOS EQUIPOS DE RESPUESTA RÁPIDA PARA LA ATENCIÓN INTEGRAL A VÍCTIMAS DE DELITOS SEXUALES (ERRVV)",
-        "tramite": "II día",
-        "fecha": "2026-10-28T23:43:34Z"
-      },
-      {
-        "numero": "137-0033",
-        "expediente": "23633",
-        "resultado": "Rechazada",
-        "asunto": "LEY PARA LA INSTITUCIONALIZACIÓN LEGAL DEL PROTOCOLO DE LAS 72 HORAS Y LOS EQUIPOS DE RESPUESTA RÁPIDA PARA LA ATENCIÓN INTEGRAL A VÍCTIMAS DE DELITOS SEXUALES (ERRVV)",
-        "tramite": "II día",
-        "fecha": "2026-10-28T23:42:50Z"
-      },
-      {
-        "numero": "137-0040",
-        "expediente": "23633",
-        "resultado": "Rechazada",
-        "asunto": "LEY PARA LA INSTITUCIONALIZACIÓN LEGAL DEL PROTOCOLO DE LAS 72 HORAS Y LOS EQUIPOS DE RESPUESTA RÁPIDA PARA LA ATENCIÓN INTEGRAL A VÍCTIMAS DE DELITOS SEXUALES (ERRVV)",
-        "tramite": "II día",
-        "fecha": "2026-10-28T23:39:13Z"
-      },
-      {
-        "numero": "137-0039",
-        "expediente": "23633",
-        "resultado": "Rechazada",
-        "asunto": "LEY PARA LA INSTITUCIONALIZACIÓN LEGAL DEL PROTOCOLO DE LAS 72 HORAS Y LOS EQUIPOS DE RESPUESTA RÁPIDA PARA LA ATENCIÓN INTEGRAL A VÍCTIMAS DE DELITOS SEXUALES (ERRVV)",
-        "tramite": "II día",
-        "fecha": "2026-10-28T23:38:32Z"
-      },
-      {
-        "numero": "137-0038",
-        "expediente": "23633",
-        "resultado": "Rechazada",
-        "asunto": "LEY PARA LA INSTITUCIONALIZACIÓN LEGAL DEL PROTOCOLO DE LAS 72 HORAS Y LOS EQUIPOS DE RESPUESTA RÁPIDA PARA LA ATENCIÓN INTEGRAL A VÍCTIMAS DE DELITOS SEXUALES (ERRVV)",
-        "tramite": "II día",
-        "fecha": "2026-10-28T23:37:45Z"
-      },
-      {
-        "numero": "137-0037",
-        "expediente": "23633",
-        "resultado": "Rechazada",
-        "asunto": "LEY PARA LA INSTITUCIONALIZACIÓN LEGAL DEL PROTOCOLO DE LAS 72 HORAS Y LOS EQUIPOS DE RESPUESTA RÁPIDA PARA LA ATENCIÓN INTEGRAL A VÍCTIMAS DE DELITOS SEXUALES (ERRVV)",
-        "tramite": "II día",
-        "fecha": "2026-10-28T23:37:06Z"
-      },
-      {
-        "numero": "137-0036",
-        "expediente": "23633",
-        "resultado": "Rechazada",
-        "asunto": "LEY PARA LA INSTITUCIONALIZACIÓN LEGAL DEL PROTOCOLO DE LAS 72 HORAS Y LOS EQUIPOS DE RESPUESTA RÁPIDA PARA LA ATENCIÓN INTEGRAL A VÍCTIMAS DE DELITOS SEXUALES (ERRVV)",
-        "tramite": "II día",
-        "fecha": "2026-10-28T23:36:15Z"
-      },
-      {
-        "numero": "137-0035",
-        "expediente": "23633",
-        "resultado": "Rechazada",
-        "asunto": "LEY PARA LA INSTITUCIONALIZACIÓN LEGAL DEL PROTOCOLO DE LAS 72 HORAS Y LOS EQUIPOS DE RESPUESTA RÁPIDA PARA LA ATENCIÓN INTEGRAL A VÍCTIMAS DE DELITOS SEXUALES (ERRVV)",
-        "tramite": "II día",
-        "fecha": "2026-10-28T23:35:33Z"
-      },
-      {
-        "numero": "137-0034",
-        "expediente": "23633",
-        "resultado": "Rechazada",
-        "asunto": "LEY PARA LA INSTITUCIONALIZACIÓN LEGAL DEL PROTOCOLO DE LAS 72 HORAS Y LOS EQUIPOS DE RESPUESTA RÁPIDA PARA LA ATENCIÓN INTEGRAL A VÍCTIMAS DE DELITOS SEXUALES (ERRVV)",
-        "tramite": "II día",
-        "fecha": "2026-10-28T23:34:49Z"
-      },
-      {
-        "numero": "137-0032",
-        "expediente": "23633",
-        "resultado": "Rechazada",
-        "asunto": "LEY PARA LA INSTITUCIONALIZACIÓN LEGAL DEL PROTOCOLO DE LAS 72 HORAS Y LOS EQUIPOS DE RESPUESTA RÁPIDA PARA LA ATENCIÓN INTEGRAL A VÍCTIMAS DE DELITOS SEXUALES (ERRVV)",
-        "tramite": "II día",
-        "fecha": "2026-10-28T23:34:09Z"
-      },
-      {
-        "numero": "137-0031",
-        "expediente": "23633",
-        "resultado": "Rechazada",
-        "asunto": "LEY PARA LA INSTITUCIONALIZACIÓN LEGAL DEL PROTOCOLO DE LAS 72 HORAS Y LOS EQUIPOS DE RESPUESTA RÁPIDA PARA LA ATENCIÓN INTEGRAL A VÍCTIMAS DE DELITOS SEXUALES (ERRVV)",
-        "tramite": "II día",
-        "fecha": "2026-10-28T23:33:07Z"
-      },
-      {
-        "numero": "137-0030",
-        "expediente": "23633",
-        "resultado": "Rechazada",
-        "asunto": "LEY PARA LA INSTITUCIONALIZACIÓN LEGAL DEL PROTOCOLO DE LAS 72 HORAS Y LOS EQUIPOS DE RESPUESTA RÁPIDA PARA LA ATENCIÓN INTEGRAL A VÍCTIMAS DE DELITOS SEXUALES (ERRVV)",
-        "tramite": "II día",
-        "fecha": "2026-10-28T23:32:31Z"
-      },
-      {
-        "numero": "137-0029",
-        "expediente": "23633",
-        "resultado": "Rechazada",
-        "asunto": "LEY PARA LA INSTITUCIONALIZACIÓN LEGAL DEL PROTOCOLO DE LAS 72 HORAS Y LOS EQUIPOS DE RESPUESTA RÁPIDA PARA LA ATENCIÓN INTEGRAL A VÍCTIMAS DE DELITOS SEXUALES (ERRVV)",
-        "tramite": "II día",
-        "fecha": "2026-10-28T23:31:42Z"
-      },
-      {
-        "numero": "137-0028",
-        "expediente": "23633",
-        "resultado": "Rechazada",
-        "asunto": "LEY PARA LA INSTITUCIONALIZACIÓN LEGAL DEL PROTOCOLO DE LAS 72 HORAS Y LOS EQUIPOS DE RESPUESTA RÁPIDA PARA LA ATENCIÓN INTEGRAL A VÍCTIMAS DE DELITOS SEXUALES (ERRVV)",
-        "tramite": "II día",
-        "fecha": "2026-10-28T23:31:04Z"
-      },
-      {
-        "numero": "137-0027",
-        "expediente": "23633",
-        "resultado": "Rechazada",
-        "asunto": "LEY PARA LA INSTITUCIONALIZACIÓN LEGAL DEL PROTOCOLO DE LAS 72 HORAS Y LOS EQUIPOS DE RESPUESTA RÁPIDA PARA LA ATENCIÓN INTEGRAL A VÍCTIMAS DE DELITOS SEXUALES (ERRVV)",
-        "tramite": "II día",
-        "fecha": "2026-10-28T23:30:12Z"
-      },
-      {
-        "numero": "137-0026",
-        "expediente": "23633",
-        "resultado": "Rechazada",
-        "asunto": "LEY PARA LA INSTITUCIONALIZACIÓN LEGAL DEL PROTOCOLO DE LAS 72 HORAS Y LOS EQUIPOS DE RESPUESTA RÁPIDA PARA LA ATENCIÓN INTEGRAL A VÍCTIMAS DE DELITOS SEXUALES (ERRVV)",
-        "tramite": "II día",
-        "fecha": "2026-10-28T23:29:32Z"
-      },
-      {
-        "numero": "137-0025",
-        "expediente": "23633",
-        "resultado": "Rechazada",
-        "asunto": "LEY PARA LA INSTITUCIONALIZACIÓN LEGAL DEL PROTOCOLO DE LAS 72 HORAS Y LOS EQUIPOS DE RESPUESTA RÁPIDA PARA LA ATENCIÓN INTEGRAL A VÍCTIMAS DE DELITOS SEXUALES (ERRVV)",
-        "tramite": "II día",
-        "fecha": "2026-10-28T23:28:32Z"
-      },
-      {
-        "numero": "0024",
-        "expediente": "23633",
-        "resultado": "Rechazada",
-        "asunto": "LEY PARA LA INSTITUCIONALIZACIÓN LEGAL DEL PROTOCOLO DE LAS 72 HORAS Y LOS EQUIPOS DE RESPUESTA RÁPIDA PARA LA ATENCIÓN INTEGRAL A VÍCTIMAS DE DELITOS SEXUALES (ERRVV)",
-        "tramite": "II día",
-        "fecha": "2026-10-28T23:26:51Z"
-      },
-      {
-        "numero": "0023",
-        "expediente": "23633",
-        "resultado": "Rechazada",
-        "asunto": "LEY PARA LA INSTITUCIONALIZACIÓN LEGAL DEL PROTOCOLO DE LAS 72 HORAS Y LOS EQUIPOS DE RESPUESTA RÁPIDA PARA LA ATENCIÓN INTEGRAL A VÍCTIMAS DE DELITOS SEXUALES (ERRVV)",
-        "tramite": "II día",
-        "fecha": "2026-10-28T23:26:05Z"
-      },
-      {
-        "numero": "0022",
-        "expediente": "23633",
-        "resultado": "Rechazada",
-        "asunto": "LEY PARA LA INSTITUCIONALIZACIÓN LEGAL DEL PROTOCOLO DE LAS 72 HORAS Y LOS EQUIPOS DE RESPUESTA RÁPIDA PARA LA ATENCIÓN INTEGRAL A VÍCTIMAS DE DELITOS SEXUALES (ERRVV)",
-        "tramite": "II día",
-        "fecha": "2026-10-28T23:25:26Z"
-      },
-      {
-        "numero": "0021",
-        "expediente": "23633",
-        "resultado": "Rechazada",
-        "asunto": "LEY PARA LA INSTITUCIONALIZACIÓN LEGAL DEL PROTOCOLO DE LAS 72 HORAS Y LOS EQUIPOS DE RESPUESTA RÁPIDA PARA LA ATENCIÓN INTEGRAL A VÍCTIMAS DE DELITOS SEXUALES (ERRVV)",
-        "tramite": "II día",
-        "fecha": "2026-10-28T23:24:37Z"
-      },
-      {
-        "numero": "0020",
-        "expediente": "23633",
-        "resultado": "Rechazada",
-        "asunto": "LEY PARA LA INSTITUCIONALIZACIÓN LEGAL DEL PROTOCOLO DE LAS 72 HORAS Y LOS EQUIPOS DE RESPUESTA RÁPIDA PARA LA ATENCIÓN INTEGRAL A VÍCTIMAS DE DELITOS SEXUALES (ERRVV)",
-        "tramite": "II día",
-        "fecha": "2026-10-28T23:24:00Z"
-      },
-      {
-        "numero": "0019",
-        "expediente": "23633",
-        "resultado": "Rechazada",
-        "asunto": "LEY PARA LA INSTITUCIONALIZACIÓN LEGAL DEL PROTOCOLO DE LAS 72 HORAS Y LOS EQUIPOS DE RESPUESTA RÁPIDA PARA LA ATENCIÓN INTEGRAL A VÍCTIMAS DE DELITOS SEXUALES (ERRVV)",
-        "tramite": "II día",
-        "fecha": "2026-10-28T23:23:07Z"
-      },
-      {
-        "numero": "0018",
-        "expediente": "23633",
-        "resultado": "Rechazada",
-        "asunto": "LEY PARA LA INSTITUCIONALIZACIÓN LEGAL DEL PROTOCOLO DE LAS 72 HORAS Y LOS EQUIPOS DE RESPUESTA RÁPIDA PARA LA ATENCIÓN INTEGRAL A VÍCTIMAS DE DELITOS SEXUALES (ERRVV)",
-        "tramite": "II día",
-        "fecha": "2026-10-28T23:22:23Z"
-      },
-      {
-        "numero": "0017",
-        "expediente": "23633",
-        "resultado": "Rechazada",
-        "asunto": "LEY PARA LA INSTITUCIONALIZACIÓN LEGAL DEL PROTOCOLO DE LAS 72 HORAS Y LOS EQUIPOS DE RESPUESTA RÁPIDA PARA LA ATENCIÓN INTEGRAL A VÍCTIMAS DE DELITOS SEXUALES (ERRVV)",
-        "tramite": "II día",
-        "fecha": "2026-10-28T23:20:06Z"
-      },
-      {
-        "numero": "0016",
-        "expediente": "23633",
-        "resultado": "Rechazada",
-        "asunto": "LEY PARA LA INSTITUCIONALIZACIÓN LEGAL DEL PROTOCOLO DE LAS 72 HORAS Y LOS EQUIPOS DE RESPUESTA RÁPIDA PARA LA ATENCIÓN INTEGRAL A VÍCTIMAS DE DELITOS SEXUALES (ERRVV)",
-        "tramite": "II día",
-        "fecha": "2026-10-28T23:19:09Z"
-      },
-      {
-        "numero": "0015",
-        "expediente": "23633",
-        "resultado": "Rechazada",
-        "asunto": "LEY PARA LA INSTITUCIONALIZACIÓN LEGAL DEL PROTOCOLO DE LAS 72 HORAS Y LOS EQUIPOS DE RESPUESTA RÁPIDA PARA LA ATENCIÓN INTEGRAL A VÍCTIMAS DE DELITOS SEXUALES (ERRVV)",
-        "tramite": "II día",
-        "fecha": "2026-10-28T23:15:02Z"
-      },
-      {
-        "numero": "0012",
-        "expediente": "25106",
-        "resultado": "Rechazada",
-        "asunto": "PENAS ADECUADAS EN DELITOS Y CONTRAVENCIONES CONTRA LA SALUD",
+        "numero": null,
+        "expediente": "25581",
+        "resultado": "Aprobada",
+        "asunto": "MODIFICACIÓN DE LOS LÍMITES CANTONALES ENTRE SAN RAMÓN Y SAN CARLOS PARA LA INTEGRACIÓN DE LOS POBLADOS DE EL CASTILLO, CASTILLO NUEVO, CAIRO Y MILLÓN AL DISTRITO DE LA FORTUNA",
         "tramite": null,
-        "fecha": "2026-10-28T22:59:50Z"
+        "fecha": "2026-10-29T23:28:32Z"
       },
       {
-        "numero": "0011",
-        "expediente": "25106",
-        "resultado": "Rechazada",
-        "asunto": "PENAS ADECUADAS EN DELITOS Y CONTRAVENCIONES CONTRA LA SALUD",
+        "numero": null,
+        "expediente": "25581",
+        "resultado": "Aprobada",
+        "asunto": "MODIFICACIÓN DE LOS LÍMITES CANTONALES ENTRE SAN RAMÓN Y SAN CARLOS PARA LA INTEGRACIÓN DE LOS POBLADOS DE EL CASTILLO, CASTILLO NUEVO, CAIRO Y MILLÓN AL DISTRITO DE LA FORTUNA",
         "tramite": null,
-        "fecha": "2026-10-28T22:59:28Z"
+        "fecha": "2026-10-29T23:25:38Z"
       },
       {
-        "numero": "0010",
-        "expediente": "25106",
-        "resultado": "Rechazada",
-        "asunto": "PENAS ADECUADAS EN DELITOS Y CONTRAVENCIONES CONTRA LA SALUD",
+        "numero": null,
+        "expediente": "25581",
+        "resultado": "Aprobada",
+        "asunto": "MODIFICACIÓN DE LOS LÍMITES CANTONALES ENTRE SAN RAMÓN Y SAN CARLOS PARA LA INTEGRACIÓN DE LOS POBLADOS DE EL CASTILLO, CASTILLO NUEVO, CAIRO Y MILLÓN AL DISTRITO DE LA FORTUNA",
         "tramite": null,
-        "fecha": "2026-10-28T22:58:57Z"
+        "fecha": "2026-10-29T23:04:31Z"
       },
       {
-        "numero": "0009",
-        "expediente": "25106",
-        "resultado": "Rechazada",
-        "asunto": "PENAS ADECUADAS EN DELITOS Y CONTRAVENCIONES CONTRA LA SALUD",
-        "tramite": null,
-        "fecha": "2026-10-28T22:58:41Z"
+        "numero": null,
+        "expediente": "25128",
+        "resultado": "Aprobada",
+        "asunto": "DESAFECTACIÓN DEL USO PÚBLICO Y AUTORIZACIÓN PARA LA DONACIÓN DE UN BIEN INMUEBLE PROPIEDAD DEL MINISTERIO DE EDUCACIÓN PÚBLICA A LA ASOCIACIÓN DE DESARROLLO INTEGRAL DE LA HERMOSA DE PÉREZ ZELEDÓN, SAN JOSÉ",
+        "tramite": "I día",
+        "fecha": "2026-10-29T22:30:17Z"
       },
       {
-        "numero": "0008",
-        "expediente": "25106",
+        "numero": "Moción N.° 04-137",
+        "expediente": "25803",
         "resultado": "Rechazada",
-        "asunto": "PENAS ADECUADAS EN DELITOS Y CONTRAVENCIONES CONTRA LA SALUD",
-        "tramite": null,
-        "fecha": "2026-10-28T22:58:27Z"
+        "asunto": "SEGUNDO PRESUPUESTO EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2026 Y SEGUNDA MODIFICACIÓN LEGISLATIVA DE LA LEY N° 10.836.",
+        "tramite": "I día",
+        "fecha": "2026-10-29T21:49:39Z"
       },
       {
-        "numero": "0007",
-        "expediente": "25106",
-        "resultado": "Rechazada",
-        "asunto": "PENAS ADECUADAS EN DELITOS Y CONTRAVENCIONES CONTRA LA SALUD",
-        "tramite": null,
-        "fecha": "2026-10-28T22:58:12Z"
+        "numero": "Moción N.° 03-137",
+        "expediente": "25803",
+        "resultado": "Aprobada",
+        "asunto": "SEGUNDO PRESUPUESTO EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2026 Y SEGUNDA MODIFICACIÓN LEGISLATIVA DE LA LEY N° 10.836.",
+        "tramite": "I día",
+        "fecha": "2026-10-29T21:49:02Z"
       },
       {
-        "numero": "0006",
-        "expediente": "25106",
-        "resultado": "Rechazada",
-        "asunto": "PENAS ADECUADAS EN DELITOS Y CONTRAVENCIONES CONTRA LA SALUD",
-        "tramite": null,
-        "fecha": "2026-10-28T22:57:58Z"
+        "numero": "Moción N.° 02-137",
+        "expediente": "25803",
+        "resultado": "Aprobada",
+        "asunto": "SEGUNDO PRESUPUESTO EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2026 Y SEGUNDA MODIFICACIÓN LEGISLATIVA DE LA LEY N° 10.836.",
+        "tramite": "I día",
+        "fecha": "2026-10-29T21:48:27Z"
       },
       {
-        "numero": "0005",
-        "expediente": "25106",
-        "resultado": "Rechazada",
-        "asunto": "PENAS ADECUADAS EN DELITOS Y CONTRAVENCIONES CONTRA LA SALUD",
-        "tramite": null,
-        "fecha": "2026-10-28T22:57:45Z"
+        "numero": "Moción N.° 01-137",
+        "expediente": "25803",
+        "resultado": "Aprobada",
+        "asunto": "SEGUNDO PRESUPUESTO EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2026 Y SEGUNDA MODIFICACIÓN LEGISLATIVA DE LA LEY N° 10.836.",
+        "tramite": "I día",
+        "fecha": "2026-10-29T21:47:10Z"
       },
       {
-        "numero": "0004",
-        "expediente": "25106",
-        "resultado": "Rechazada",
-        "asunto": "PENAS ADECUADAS EN DELITOS Y CONTRAVENCIONES CONTRA LA SALUD",
+        "numero": "020",
+        "expediente": "23144",
+        "resultado": "Pendiente",
+        "asunto": "Sesión N.° 71 Infraestructura",
+        "tramite": "124",
+        "fecha": "2026-10-29T19:45:58Z"
+      },
+      {
+        "numero": "019",
+        "expediente": "23144",
+        "resultado": "Pendiente",
+        "asunto": "Sesión N.° 71 Infraestructura",
+        "tramite": "124",
+        "fecha": "2026-10-29T19:45:20Z"
+      },
+      {
+        "numero": "018",
+        "expediente": "23144",
+        "resultado": "Pendiente",
+        "asunto": "Sesión N.° 71 Infraestructura",
+        "tramite": "124",
+        "fecha": "2026-10-29T19:44:33Z"
+      },
+      {
+        "numero": "017",
+        "expediente": "23144",
+        "resultado": "Pendiente",
+        "asunto": "Sesión N.° 71 Infraestructura",
+        "tramite": "124",
+        "fecha": "2026-10-29T19:44:00Z"
+      },
+      {
+        "numero": "016",
+        "expediente": "23144",
+        "resultado": "Pendiente",
+        "asunto": "Sesión N.° 71 Infraestructura",
+        "tramite": "124",
+        "fecha": "2026-10-29T19:43:20Z"
+      },
+      {
+        "numero": "021",
+        "expediente": "23144",
+        "resultado": "Pendiente",
+        "asunto": "Sesión N.°71 Infraestructura",
         "tramite": null,
-        "fecha": "2026-10-28T22:57:21Z"
+        "fecha": "2026-10-29T19:43:18Z"
+      },
+      {
+        "numero": "022",
+        "expediente": "23144",
+        "resultado": "Pendiente",
+        "asunto": "Sesión N.° 71 Infraestructura",
+        "tramite": null,
+        "fecha": "2026-10-29T19:42:43Z"
+      },
+      {
+        "numero": "015",
+        "expediente": "23144",
+        "resultado": "Pendiente",
+        "asunto": "Sesión N.° 71 Infraestructura",
+        "tramite": "124",
+        "fecha": "2026-10-29T19:42:43Z"
+      },
+      {
+        "numero": "014",
+        "expediente": "23144",
+        "resultado": "Pendiente",
+        "asunto": "Sesión N.° 71 Infraestructura",
+        "tramite": "124",
+        "fecha": "2026-10-29T19:42:06Z"
+      },
+      {
+        "numero": "023",
+        "expediente": "23144",
+        "resultado": "Pendiente",
+        "asunto": "Sesión N.°71 Infraestructura",
+        "tramite": null,
+        "fecha": "2026-10-29T19:41:58Z"
+      },
+      {
+        "numero": "013",
+        "expediente": "23144",
+        "resultado": "Pendiente",
+        "asunto": "Sesión N.° 71 Infraestructura",
+        "tramite": "124",
+        "fecha": "2026-10-29T19:41:13Z"
+      },
+      {
+        "numero": "024",
+        "expediente": "23144",
+        "resultado": "Pendiente",
+        "asunto": "Sesión N.°71 Infraestructura",
+        "tramite": null,
+        "fecha": "2026-10-29T19:40:49Z"
+      },
+      {
+        "numero": "012",
+        "expediente": "23144",
+        "resultado": "Pendiente",
+        "asunto": "Sesión N.° 71 Infraestructura",
+        "tramite": "124",
+        "fecha": "2026-10-29T19:40:32Z"
+      },
+      {
+        "numero": "025",
+        "expediente": "23144",
+        "resultado": "Pendiente",
+        "asunto": "Sesión N.° 71 Infraestructura",
+        "tramite": null,
+        "fecha": "2026-10-29T19:40:13Z"
+      },
+      {
+        "numero": "011",
+        "expediente": "23144",
+        "resultado": "Pendiente",
+        "asunto": "Sesión N.° 71 Infraestructura",
+        "tramite": "124",
+        "fecha": "2026-10-29T19:39:57Z"
+      },
+      {
+        "numero": "026",
+        "expediente": "23144",
+        "resultado": "Pendiente",
+        "asunto": "Sesión N.°71 Infraestructura",
+        "tramite": null,
+        "fecha": "2026-10-29T19:39:31Z"
+      },
+      {
+        "numero": "010",
+        "expediente": "23144",
+        "resultado": "Pendiente",
+        "asunto": "Sesión N.° 71 Infraestructura",
+        "tramite": "124",
+        "fecha": "2026-10-29T19:39:16Z"
+      },
+      {
+        "numero": "027",
+        "expediente": "23144",
+        "resultado": "Pendiente",
+        "asunto": "Sesión N.°71 Infraestructura",
+        "tramite": null,
+        "fecha": "2026-10-29T19:38:53Z"
+      },
+      {
+        "numero": "009",
+        "expediente": "23144",
+        "resultado": "Pendiente",
+        "asunto": "Sesión N.° 71 Infraestructura",
+        "tramite": "124",
+        "fecha": "2026-10-29T19:38:33Z"
+      },
+      {
+        "numero": "028",
+        "expediente": "23144",
+        "resultado": "Pendiente",
+        "asunto": "Sesión N.°71 Infraestructura",
+        "tramite": null,
+        "fecha": "2026-10-29T19:37:59Z"
+      },
+      {
+        "numero": "008",
+        "expediente": "23144",
+        "resultado": "Pendiente",
+        "asunto": "Sesión N.° 71 Infraestructura",
+        "tramite": "124",
+        "fecha": "2026-10-29T19:37:47Z"
+      },
+      {
+        "numero": "029",
+        "expediente": "23144",
+        "resultado": "Pendiente",
+        "asunto": "Sesión N.°71 Infraestructura",
+        "tramite": null,
+        "fecha": "2026-10-29T19:37:22Z"
+      },
+      {
+        "numero": "007",
+        "expediente": "23144",
+        "resultado": "Pendiente",
+        "asunto": "Sesión N.° 71 Infraestructura",
+        "tramite": "124",
+        "fecha": "2026-10-29T19:37:05Z"
+      },
+      {
+        "numero": "030",
+        "expediente": "23144",
+        "resultado": "Pendiente",
+        "asunto": "Sesión N.°71 Infraestructura",
+        "tramite": null,
+        "fecha": "2026-10-29T19:36:47Z"
+      },
+      {
+        "numero": "031",
+        "expediente": "23144",
+        "resultado": "Pendiente",
+        "asunto": "Sesión N.°71 Infraestructura",
+        "tramite": null,
+        "fecha": "2026-10-29T19:35:52Z"
+      },
+      {
+        "numero": "006",
+        "expediente": "23144",
+        "resultado": "Pendiente",
+        "asunto": "Sesión N.° 71 Infraestructura",
+        "tramite": "124",
+        "fecha": "2026-10-29T19:35:48Z"
+      },
+      {
+        "numero": "032",
+        "expediente": "23144",
+        "resultado": "Pendiente",
+        "asunto": "Sesión N.°71 Infraestructura",
+        "tramite": null,
+        "fecha": "2026-10-29T19:35:09Z"
+      },
+      {
+        "numero": "033",
+        "expediente": "23144",
+        "resultado": "Pendiente",
+        "asunto": "Sesión N.°71 Infraestructura",
+        "tramite": null,
+        "fecha": "2026-10-29T19:34:36Z"
+      },
+      {
+        "numero": "005",
+        "expediente": "23144",
+        "resultado": "Pendiente",
+        "asunto": "Sesión N.° 71 Infraestructura",
+        "tramite": "124",
+        "fecha": "2026-10-29T19:33:15Z"
+      },
+      {
+        "numero": "034",
+        "expediente": "23144",
+        "resultado": "Pendiente",
+        "asunto": "Sesión N.° 71 Infraestructura",
+        "tramite": null,
+        "fecha": "2026-10-29T19:33:00Z"
+      },
+      {
+        "numero": "035",
+        "expediente": "23144",
+        "resultado": "Pendiente",
+        "asunto": "Sesión N.° 71 Infraestructura",
+        "tramite": null,
+        "fecha": "2026-10-29T19:32:15Z"
+      },
+      {
+        "numero": "004",
+        "expediente": "23144",
+        "resultado": "Pendiente",
+        "asunto": "Sesión N.° 71 Infraestructura",
+        "tramite": "124",
+        "fecha": "2026-10-29T19:31:10Z"
       }
     ]
   },

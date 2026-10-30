@@ -1,6 +1,6 @@
 {
   "periodo": "2026-2030",
-  "generado": "2026-10-29T12:00:05+00:00",
+  "generado": "2026-10-30T12:00:05+00:00",
   "fuentes": {
     "diputados": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
     "fracciones": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Fracciones_2026-2030')/items?%24top=5000"
@@ -24,7 +24,7 @@
       "bandera_url": "https://www.asamblea.go.cr/Diputados/SiteAssets/Banderas/PPSO.png",
       "estado": "Activo",
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Fracciones_2026-2030')/items?%24top=5000",
-      "_extraido": "2026-10-29T12:00:05+00:00"
+      "_extraido": "2026-10-30T12:00:05+00:00"
     },
     {
       "orden": "2",
@@ -34,7 +34,7 @@
       "bandera_url": "https://www.asamblea.go.cr/Diputados/SiteAssets/Banderas/PLN.png",
       "estado": "Activo",
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Fracciones_2026-2030')/items?%24top=5000",
-      "_extraido": "2026-10-29T12:00:05+00:00"
+      "_extraido": "2026-10-30T12:00:05+00:00"
     },
     {
       "orden": "9",
@@ -44,7 +44,7 @@
       "bandera_url": "https://www.asamblea.go.cr/Diputados/SiteAssets/Banderas/flag_psd.jpg",
       "estado": "Inactivo",
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Fracciones_2026-2030')/items?%24top=5000",
-      "_extraido": "2026-10-29T12:00:05+00:00"
+      "_extraido": "2026-10-30T12:00:05+00:00"
     },
     {
       "orden": "5",
@@ -54,7 +54,7 @@
       "bandera_url": "https://www.asamblea.go.cr/Diputados/SiteAssets/Banderas/PUSC.png",
       "estado": "Activo",
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Fracciones_2026-2030')/items?%24top=5000",
-      "_extraido": "2026-10-29T12:00:05+00:00"
+      "_extraido": "2026-10-30T12:00:05+00:00"
     },
     {
       "orden": "8",
@@ -64,7 +64,7 @@
       "bandera_url": "https://www.asamblea.go.cr/Diputados/SiteAssets/Banderas/flag_prn.jpg",
       "estado": "Inactivo",
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Fracciones_2026-2030')/items?%24top=5000",
-      "_extraido": "2026-10-29T12:00:05+00:00"
+      "_extraido": "2026-10-30T12:00:05+00:00"
     },
     {
       "orden": "7",
@@ -74,7 +74,7 @@
       "bandera_url": "https://www.asamblea.go.cr/Diputados/SiteAssets/Banderas/flag_PLP.jpg",
       "estado": "Inactivo",
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Fracciones_2026-2030')/items?%24top=5000",
-      "_extraido": "2026-10-29T12:00:05+00:00"
+      "_extraido": "2026-10-30T12:00:05+00:00"
     },
     {
       "orden": "3",
@@ -84,7 +84,7 @@
       "bandera_url": "https://www.asamblea.go.cr/Diputados/SiteAssets/Banderas/PFA.png",
       "estado": "Activo",
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Fracciones_2026-2030')/items?%24top=5000",
-      "_extraido": "2026-10-29T12:00:05+00:00"
+      "_extraido": "2026-10-30T12:00:05+00:00"
     },
     {
       "orden": "4",
@@ -94,7 +94,7 @@
       "bandera_url": "https://www.asamblea.go.cr/Diputados/SiteAssets/Banderas/CAC.png",
       "estado": "Activo",
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Fracciones_2026-2030')/items?%24top=5000",
-      "_extraido": "2026-10-29T12:00:05+00:00"
+      "_extraido": "2026-10-30T12:00:05+00:00"
     }
   ],
   "diputados": [
@@ -145,7 +145,7 @@
       },
       "equipo_trabajo_html": "<div class=\"ExternalClassB719F54764E444BAACD149BFAECAA428\"><p>​</p><table cellspacing=\"0\" width=\"100%\" class=\"ms-rteTable-default\"><tbody><tr><td class=\"ms-rteTable-default\" style=\"width&#58;33.3333%;\"><strong>Puesto</strong></td><td class=\"ms-rteTable-default\" style=\"width&#58;33.3333%;\"><strong>Clase</strong></td><td class=\"ms-rteTable-default\" style=\"width&#58;33.3333%;\"><strong>Nombre</strong></td></tr><tr><td class=\"ms-rteTable-default\">&#160;<br></td><td class=\"ms-rteTable-default\">&#160;</td><td class=\"ms-rteTable-default\">&#160;<span style=\"font-weight&#58;bolder;\">Jefe de despacho</span>​<br></td></tr><tr><td class=\"ms-rteTable-default\">​</td><td class=\"ms-rteTable-default\">​</td><td class=\"ms-rteTable-default\"><br></td></tr><tr><td class=\"ms-rteTable-default\">&#160;</td><td class=\"ms-rteTable-default\">&#160;</td><td class=\"ms-rteTable-default\">&#160;</td></tr><tr><td class=\"ms-rteTable-default\">&#160;</td><td class=\"ms-rteTable-default\">&#160;</td><td class=\"ms-rteTable-default\">&#160;</td></tr><tr><td class=\"ms-rteTable-default\">&#160;</td><td class=\"ms-rteTable-default\">&#160;<br></td><td class=\"ms-rteTable-default\">&#160;</td></tr><tr><td class=\"ms-rteTable-default\">&#160;</td><td class=\"ms-rteTable-default\">&#160;</td><td class=\"ms-rteTable-default\">&#160;<br></td></tr></tbody></table><p><br></p></div>",
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-29T12:00:05+00:00",
+      "_extraido": "2026-10-30T12:00:05+00:00",
       "_modificado_en_fuente": "2026-06-18T16:37:41Z"
     },
     {
@@ -195,7 +195,7 @@
       },
       "equipo_trabajo_html": null,
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-29T12:00:05+00:00",
+      "_extraido": "2026-10-30T12:00:05+00:00",
       "_modificado_en_fuente": "2026-04-27T21:25:22Z"
     },
     {
@@ -245,7 +245,7 @@
       },
       "equipo_trabajo_html": "<div class=\"ExternalClassED855ED9F68B4964B7920302BF4DCC5B\"><p>​</p><table cellspacing=\"0\" width=\"100%\" class=\"ms-rteTable-default\"><tbody><tr class=\"ms-rteTableEvenRow-default\"><td class=\"ms-rteTableEvenCol-default\" style=\"width&#58;15%;\"><span style=\"font-weight&#58;bolder;\">Puesto​</span></td><td class=\"ms-rteTableOddCol-default\" style=\"width&#58;15%;\"><span style=\"font-weight&#58;bolder;\">Clase​</span></td><td class=\"ms-rteTableEvenCol-default\" style=\"width&#58;33%;\"><span style=\"font-weight&#58;bolder;\">Nombre​</span></td></tr><tr class=\"ms-rteTableOddRow-default\"><td class=\"ms-rteTableEvenCol-default\" style=\"width&#58;15%;\">&#160;<br></td><td class=\"ms-rteTableOddCol-default\" style=\"width&#58;15%;\">Asesora<br></td><td class=\"ms-rteTableEvenCol-default\" style=\"width&#58;33%;\"><p>María José Castro Martínez -<span style=\"font-weight&#58;bolder;font-size&#58;1rem;\">Jefa de despacho</span></p></td></tr><tr class=\"ms-rteTableEvenRow-default\"><td class=\"ms-rteTableEvenCol-default\" style=\"width&#58;15%;\">​</td><td class=\"ms-rteTableOddCol-default\" style=\"width&#58;15%;\">Asesor</td><td class=\"ms-rteTableEvenCol-default\" style=\"width&#58;33%;\">Jorge Andrés Fallas Acuña<br></td></tr><tr class=\"ms-rteTableOddRow-default\"><td class=\"ms-rteTableEvenCol-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTableOddCol-default\" style=\"width&#58;15%;\">Asesor</td><td class=\"ms-rteTableEvenCol-default\" style=\"width&#58;33%;\">Elías Mesén Jiménez<br></td></tr><tr class=\"ms-rteTableEvenRow-default\"><td class=\"ms-rteTableEvenCol-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTableOddCol-default\" style=\"width&#58;15%;\">Asesor</td><td class=\"ms-rteTableEvenCol-default\" style=\"width&#58;33%;\">José Luis Campos Villegas<br></td></tr><tr class=\"ms-rteTableOddRow-default\"><td class=\"ms-rteTableEvenCol-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTableOddCol-default\" style=\"width&#58;15%;\">Asistente<br></td><td class=\"ms-rteTableEvenCol-default\" style=\"width&#58;33%;\">Samantha Cristina Blanco Rojas​​<br></td></tr></tbody></table><p><br></p></div>",
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-29T12:00:05+00:00",
+      "_extraido": "2026-10-30T12:00:05+00:00",
       "_modificado_en_fuente": "2026-07-23T18:19:53Z"
     },
     {
@@ -295,7 +295,7 @@
       },
       "equipo_trabajo_html": null,
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-29T12:00:05+00:00",
+      "_extraido": "2026-10-30T12:00:05+00:00",
       "_modificado_en_fuente": "2026-04-22T16:07:53Z"
     },
     {
@@ -345,7 +345,7 @@
       },
       "equipo_trabajo_html": null,
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-29T12:00:05+00:00",
+      "_extraido": "2026-10-30T12:00:05+00:00",
       "_modificado_en_fuente": "2026-04-22T16:11:43Z"
     },
     {
@@ -395,7 +395,7 @@
       },
       "equipo_trabajo_html": null,
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-29T12:00:05+00:00",
+      "_extraido": "2026-10-30T12:00:05+00:00",
       "_modificado_en_fuente": "2026-05-14T22:02:01Z"
     },
     {
@@ -445,7 +445,7 @@
       },
       "equipo_trabajo_html": null,
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-29T12:00:05+00:00",
+      "_extraido": "2026-10-30T12:00:05+00:00",
       "_modificado_en_fuente": "2026-04-22T16:14:22Z"
     },
     {
@@ -495,7 +495,7 @@
       },
       "equipo_trabajo_html": null,
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-29T12:00:05+00:00",
+      "_extraido": "2026-10-30T12:00:05+00:00",
       "_modificado_en_fuente": "2026-04-27T21:35:25Z"
     },
     {
@@ -545,7 +545,7 @@
       },
       "equipo_trabajo_html": "<div class=\"ExternalClass24B9E55418A04563945847CC1E52D193\"><p></p><table cellspacing=\"0\" width=\"100%\" class=\"ms-rteTable-default\"><tbody><tr class=\"ms-rteTableEvenRow-default\"><td class=\"ms-rteTableEvenCol-default\" style=\"width&#58;15%;\"><strong>Puesto​</strong></td><td class=\"ms-rteTableOddCol-default\" style=\"width&#58;15%;\"><strong>Clase​</strong></td><td class=\"ms-rteTableEvenCol-default\" style=\"width&#58;33.3333%;\"><strong>Nombre</strong></td></tr><tr class=\"ms-rteTableOddRow-default\"><td class=\"ms-rteTableEvenCol-default\" style=\"width&#58;15%;\">&#160;<br></td><td class=\"ms-rteTableOddCol-default\" style=\"width&#58;15%;\">Asesora<br></td><td class=\"ms-rteTableEvenCol-default\"><p>Margarita Azofeifa Barrantes&#160;-<strong style=\"font-size&#58;1rem;\">Jefa&#160;de despacho</strong></p></td></tr><tr class=\"ms-rteTableEvenRow-default\"><td class=\"ms-rteTableEvenCol-default\" style=\"width&#58;15%;\">​</td><td class=\"ms-rteTableOddCol-default\" style=\"width&#58;15%;\">Asesor</td><td class=\"ms-rteTableEvenCol-default\">Sebastián Gonzalez Rojas<br></td></tr><tr class=\"ms-rteTableOddRow-default\"><td class=\"ms-rteTableEvenCol-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTableOddCol-default\" style=\"width&#58;15%;\">Asesor<br></td><td class=\"ms-rteTableEvenCol-default\">Jostin Andrés Nuñez Carvajal<br></td></tr><tr class=\"ms-rteTableEvenRow-default\"><td class=\"ms-rteTableEvenCol-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTableOddCol-default\" style=\"width&#58;15%;\">Asesor<br></td><td class=\"ms-rteTableEvenCol-default\">Esteban Vargas Orozco<br></td></tr><tr class=\"ms-rteTableOddRow-default\"><td class=\"ms-rteTableEvenCol-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTableOddCol-default\" style=\"width&#58;15%;\">Asesora<br></td><td class=\"ms-rteTableEvenCol-default\">Veracruz Barrantes Sibaja<br></td></tr><tr class=\"ms-rteTableFooterRow-default\"><td class=\"ms-rteTableFooterEvenCol-default\" rowspan=\"1\" style=\"width&#58;15%;\">​​<br></td><td class=\"ms-rteTableFooterOddCol-default\" rowspan=\"1\" style=\"width&#58;15%;\"><span style=\"color&#58;#444444;\">​Asesora&#160;<br></span></td><td class=\"ms-rteTableFooterEvenCol-default\" rowspan=\"1\"><span style=\"color&#58;#444444;\">​Grenz Calvo Camacho</span><br></td></tr></tbody></table><p><br><br></p></div>",
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-29T12:00:05+00:00",
+      "_extraido": "2026-10-30T12:00:05+00:00",
       "_modificado_en_fuente": "2026-10-28T23:59:22Z"
     },
     {
@@ -595,7 +595,7 @@
       },
       "equipo_trabajo_html": "<div class=\"ExternalClassF32AFFE8BED54795995159DEC60147A8\"><p></p><table cellspacing=\"0\" width=\"100%\" class=\"ms-rteTable-default\"><tbody><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\"><strong>Puesto</strong></td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\"><strong>Clase</strong></td><td class=\"ms-rteTable-default\" style=\"width&#58;33.3333%;\"><strong>Nombre</strong></td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\"><strong>&#160;​</strong></td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesora</td><td class=\"ms-rteTable-default\">Génesis Sánchez Arias​ – <strong>Jefa de despacho</strong></td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesor</td><td class=\"ms-rteTable-default\">Gerardo Ruíz Ramón</td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">​</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesora</td><td class=\"ms-rteTable-default\">Karina Garay Gutierrez<br></td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesora</td><td class=\"ms-rteTable-default\">Santiago Vargas Camacho</td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesor</td><td class=\"ms-rteTable-default\">Marino Lóéz Chaves</td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asistente Administrativa<br></td><td class=\"ms-rteTable-default\">Nora Quesada Ureña<br></td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesor Ad Honorem</td><td class=\"ms-rteTable-default\">Mario Álvarez González<br></td></tr></tbody></table><p><br></p></div>",
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-29T12:00:05+00:00",
+      "_extraido": "2026-10-30T12:00:05+00:00",
       "_modificado_en_fuente": "2026-10-28T17:06:48Z"
     },
     {
@@ -645,7 +645,7 @@
       },
       "equipo_trabajo_html": null,
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-29T12:00:05+00:00",
+      "_extraido": "2026-10-30T12:00:05+00:00",
       "_modificado_en_fuente": "2026-05-07T21:40:30Z"
     },
     {
@@ -695,7 +695,7 @@
       },
       "equipo_trabajo_html": "<div class=\"ExternalClass8FBE5051EA3A48B3A41E42457AD95ADF\"><p>​</p><table cellspacing=\"0\" width=\"100%\" class=\"ms-rteTable-default\"><tbody><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\"><strong>Puesto</strong></td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\"><strong>Clase</strong></td><td class=\"ms-rteTable-default\" style=\"width&#58;33.3333%;\"><strong>Nombre</strong></td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\"><strong>&#160;</strong></td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesora</td><td class=\"ms-rteTable-default\">Sidney Alejandro Elizondo Ross</td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesora</td><td class=\"ms-rteTable-default\">Damaris Chacón Jiménez</td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">​</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesor</td><td class=\"ms-rteTable-default\">Carlos Pantoja Carlderón</td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesora</td><td class=\"ms-rteTable-default\">Silvia Garro Badilla</td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asistente</td><td class=\"ms-rteTable-default\">Adriana Castillo Brenes<br></td></tr></tbody></table><p><br></p></div>",
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-29T12:00:05+00:00",
+      "_extraido": "2026-10-30T12:00:05+00:00",
       "_modificado_en_fuente": "2026-06-12T15:03:04Z"
     },
     {
@@ -745,7 +745,7 @@
       },
       "equipo_trabajo_html": null,
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-29T12:00:05+00:00",
+      "_extraido": "2026-10-30T12:00:05+00:00",
       "_modificado_en_fuente": "2026-04-22T16:27:50Z"
     },
     {
@@ -795,7 +795,7 @@
       },
       "equipo_trabajo_html": null,
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-29T12:00:05+00:00",
+      "_extraido": "2026-10-30T12:00:05+00:00",
       "_modificado_en_fuente": "2026-04-22T16:34:15Z"
     },
     {
@@ -845,7 +845,7 @@
       },
       "equipo_trabajo_html": null,
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-29T12:00:05+00:00",
+      "_extraido": "2026-10-30T12:00:05+00:00",
       "_modificado_en_fuente": "2026-04-22T16:35:45Z"
     },
     {
@@ -895,7 +895,7 @@
       },
       "equipo_trabajo_html": null,
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-29T12:00:05+00:00",
+      "_extraido": "2026-10-30T12:00:05+00:00",
       "_modificado_en_fuente": "2026-04-22T16:36:33Z"
     },
     {
@@ -945,7 +945,7 @@
       },
       "equipo_trabajo_html": null,
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-29T12:00:05+00:00",
+      "_extraido": "2026-10-30T12:00:05+00:00",
       "_modificado_en_fuente": "2026-04-22T16:32:22Z"
     },
     {
@@ -995,7 +995,7 @@
       },
       "equipo_trabajo_html": "<div class=\"ExternalClassD3B69010D75B45F185D03A2175CE3DB8\"><p>​</p><table cellspacing=\"0\" width=\"100%\" class=\"ms-rteTable-default\"><tbody><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\"><strong>Puesto</strong></td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\"><strong>Clase</strong></td><td class=\"ms-rteTable-default\" style=\"width&#58;33.3333%;\"><strong>Nombre</strong></td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesora</td><td class=\"ms-rteTable-default\">Natalia Rudín Castro - <strong>Jefa&#160;de despacho</strong> </td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">​</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesor</td><td class=\"ms-rteTable-default\">Luis Diego Alvarado Castillo</td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesora</td><td class=\"ms-rteTable-default\">María Gabriela Morales Guzmán</td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesor</td><td class=\"ms-rteTable-default\">Sebastián Jiménez Granados</td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesor</td><td class=\"ms-rteTable-default\">Óscar José Espinal Hernández</td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesor</td><td class=\"ms-rteTable-default\">Erick Chaves Salas</td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesora</td><td class=\"ms-rteTable-default\">Sofía Álvarez Kim​<br></td></tr></tbody></table><p><br></p></div>",
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-29T12:00:05+00:00",
+      "_extraido": "2026-10-30T12:00:05+00:00",
       "_modificado_en_fuente": "2026-06-10T18:32:09Z"
     },
     {
@@ -1045,7 +1045,7 @@
       },
       "equipo_trabajo_html": "<div class=\"ExternalClass41DB82F02DDC44119FEC9362883E8F2E\"><p>​</p><table cellspacing=\"0\" width=\"100%\" class=\"ms-rteTable-default\"><tbody><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\"><strong>Puesto</strong></td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\"><strong>Clase</strong></td><td class=\"ms-rteTable-default\" style=\"width&#58;33.3333%;\"><strong>Nombre</strong></td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">&#160;<br></td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesora<br></td><td class=\"ms-rteTable-default\"><p>Maria Paula Montano Chavarría -&#160;<strong style=\"font-size&#58;1rem;\">Jefa de despacho</strong></p></td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">​</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesora</td><td class=\"ms-rteTable-default\">Tamara Valerio Guevara</td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesor</td><td class=\"ms-rteTable-default\">Jorge Gamboa Monge</td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesor</td><td class=\"ms-rteTable-default\">Julio Rodríguez Saborio</td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesora</td><td class=\"ms-rteTable-default\">Vivian Alvarado Sandí<br></td></tr></tbody></table><p><br></p></div>",
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-29T12:00:05+00:00",
+      "_extraido": "2026-10-30T12:00:05+00:00",
       "_modificado_en_fuente": "2026-06-09T22:47:20Z"
     },
     {
@@ -1095,7 +1095,7 @@
       },
       "equipo_trabajo_html": null,
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-29T12:00:05+00:00",
+      "_extraido": "2026-10-30T12:00:05+00:00",
       "_modificado_en_fuente": "2026-04-23T22:35:31Z"
     },
     {
@@ -1145,7 +1145,7 @@
       },
       "equipo_trabajo_html": null,
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-29T12:00:05+00:00",
+      "_extraido": "2026-10-30T12:00:05+00:00",
       "_modificado_en_fuente": "2026-04-22T16:40:30Z"
     },
     {
@@ -1195,7 +1195,7 @@
       },
       "equipo_trabajo_html": null,
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-29T12:00:05+00:00",
+      "_extraido": "2026-10-30T12:00:05+00:00",
       "_modificado_en_fuente": "2026-04-22T16:41:31Z"
     },
     {
@@ -1245,7 +1245,7 @@
       },
       "equipo_trabajo_html": null,
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-29T12:00:05+00:00",
+      "_extraido": "2026-10-30T12:00:05+00:00",
       "_modificado_en_fuente": "2026-10-21T22:12:51Z"
     },
     {
@@ -1295,7 +1295,7 @@
       },
       "equipo_trabajo_html": null,
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-29T12:00:05+00:00",
+      "_extraido": "2026-10-30T12:00:05+00:00",
       "_modificado_en_fuente": "2026-04-22T16:45:03Z"
     },
     {
@@ -1345,7 +1345,7 @@
       },
       "equipo_trabajo_html": null,
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-29T12:00:05+00:00",
+      "_extraido": "2026-10-30T12:00:05+00:00",
       "_modificado_en_fuente": "2026-06-24T15:55:29Z"
     },
     {
@@ -1395,7 +1395,7 @@
       },
       "equipo_trabajo_html": null,
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-29T12:00:05+00:00",
+      "_extraido": "2026-10-30T12:00:05+00:00",
       "_modificado_en_fuente": "2026-04-22T16:50:16Z"
     },
     {
@@ -1445,7 +1445,7 @@
       },
       "equipo_trabajo_html": null,
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-29T12:00:05+00:00",
+      "_extraido": "2026-10-30T12:00:05+00:00",
       "_modificado_en_fuente": "2026-04-22T16:51:05Z"
     },
     {
@@ -1495,7 +1495,7 @@
       },
       "equipo_trabajo_html": null,
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-29T12:00:05+00:00",
+      "_extraido": "2026-10-30T12:00:05+00:00",
       "_modificado_en_fuente": "2026-04-22T16:52:15Z"
     },
     {
@@ -1545,7 +1545,7 @@
       },
       "equipo_trabajo_html": null,
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-29T12:00:05+00:00",
+      "_extraido": "2026-10-30T12:00:05+00:00",
       "_modificado_en_fuente": "2026-04-27T21:40:39Z"
     },
     {
@@ -1595,7 +1595,7 @@
       },
       "equipo_trabajo_html": null,
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-29T12:00:05+00:00",
+      "_extraido": "2026-10-30T12:00:05+00:00",
       "_modificado_en_fuente": "2026-05-01T05:09:48Z"
     },
     {
@@ -1610,22 +1610,22 @@
       "activo": true,
       "foto_url": "https://www.asamblea.go.cr/Diputados/SiteAssets/2026-2030/ps_blanco_gonzalez.jpg",
       "fecha_nacimiento": "1982-11-05T06:00:00Z",
-      "lugar_nacimiento": null,
-      "profesion": "Abogada y Notaria Pública",
-      "estado_civil": null,
+      "lugar_nacimiento": "Cartago",
+      "profesion": "Abogada y Notaria",
+      "estado_civil": "Soltera",
       "email_oficial": "cindy.blanco@asamblea.go.cr",
       "redes": {
-        "facebook": null,
+        "facebook": "https://www.facebook.com/profile.php?id=61581788091989",
         "twitter": null,
-        "instagram": null,
+        "instagram": "https://www.instagram.com/diputada_cindyblanco/",
         "youtube": null,
         "tiktok": null,
         "blog": null
       },
       "orden_web": 31.0,
       "biografia": {
-        "educacion": null,
-        "experiencia_laboral": null,
+        "educacion": "Abogada y notaria pública, graduada en Derecho por la Universidad Escuela Libre de Derecho y doctoranda en Derecho Administrativo y Derecho Público. Cuenta con especializaciones en Derecho Laboral y Derecho Registral y Notarial, así como formación en conciliación y mediación.",
+        "experiencia_laboral": "Posee 19 años de experiencia en el ejercicio del Derecho en los sectores público y privado. Se ha desempeñado como abogada litigante, asesora legal y directora de procedimientos administrativos, y es fundadora de una firma jurídica.\nSu experiencia comprende áreas como el Derecho Administrativo, el Derecho Laboral y la contratación pública. También ha ejercido la docencia universitaria en Derecho Administrativo.",
         "experiencia_politica": null,
         "premios": null,
         "participacion_comunal": null,
@@ -1634,19 +1634,19 @@
         "areas_interes": "Equidad social, desarrollo local, participación ciudadana y rendición de cuentas."
       },
       "biografia_html": {
-        "educacion": null,
-        "experiencia_laboral": null,
+        "educacion": "<div class=\"ExternalClass7DB9AEA905C24D97A0A939CB73AF7BC5\"><p style=\"text-align&#58;justify;\">Abogada y notaria pública, graduada en Derecho por la Universidad Escuela Libre de Derecho y doctoranda en Derecho Administrativo y Derecho Público. Cuenta con especializaciones en Derecho Laboral y Derecho Registral y Notarial, así como formación en conciliación y mediación.<br></p></div>",
+        "experiencia_laboral": "<div class=\"ExternalClass2DA25925CAFB4D0E9235EC668C7EAE78\"><p style=\"text-align&#58;justify;\">Posee 19 años de experiencia en el ejercicio del Derecho en los sectores público y privado. Se ha desempeñado como abogada litigante, asesora legal y directora de procedimientos administrativos, y es fundadora de una firma jurídica.<span style=\"font-size&#58;1rem;\">&#160;</span></p><p style=\"text-align&#58;justify;\">Su experiencia comprende áreas como el Derecho Administrativo, el Derecho Laboral y la contratación pública. También ha ejercido la docencia universitaria en Derecho Administrativo.<br></p></div>",
         "experiencia_politica": null,
         "premios": null,
         "participacion_comunal": null,
         "ponencias": null,
         "publicaciones": null,
-        "areas_interes": "<div class=\"ExternalClass5DCFB6854BEA4F94BC319117F2A76792\"><p style=\"text-align&#58;justify;\"><span style=\"font-size&#58;14.6667px;\">​Equidad social, desarrollo local, participación ciudadana y rendición de cuentas​.</span>​<br></p></div>"
+        "areas_interes": "<div class=\"ExternalClass5DCFB6854BEA4F94BC319117F2A76792\"><p style=\"text-align&#58;justify;\"><span style=\"font-size&#58;12pt;\">​Equidad social, desarrollo local, participación ciudadana y rendición de cuentas​.</span>​<br></p></div>"
       },
-      "equipo_trabajo_html": null,
+      "equipo_trabajo_html": "<div class=\"ExternalClass4A7F5C00356F40A4B50E003E4E868AA0\"><p>​</p><table cellspacing=\"0\" width=\"100%\" class=\"ms-rteTable-default\"><tbody><tr class=\"ms-rteTableEvenRow-default\"><td class=\"ms-rteTableEvenCol-default\" style=\"width&#58;99px;\"><span style=\"font-weight&#58;bolder;\">Puesto​</span></td><td class=\"ms-rteTableOddCol-default\" style=\"width&#58;110.875px;\"><span style=\"font-weight&#58;bolder;\">Clase​</span></td><td class=\"ms-rteTableEvenCol-default\" style=\"width&#58;220.031px;\"><span style=\"font-weight&#58;bolder;\">Nombre</span></td></tr><tr class=\"ms-rteTableOddRow-default\"><td class=\"ms-rteTableEvenCol-default\" style=\"width&#58;99px;\">&#160;<br></td><td class=\"ms-rteTableOddCol-default\" style=\"width&#58;110.875px;\">Asesor<br></td><td class=\"ms-rteTableEvenCol-default\"><p>Yordan Ulate Dondi&#160;-<span style=\"font-weight&#58;bolder;font-size&#58;1rem;\">Jefe&#160;de despacho</span></p></td></tr><tr class=\"ms-rteTableEvenRow-default\"><td class=\"ms-rteTableEvenCol-default\" style=\"width&#58;99px;\">​</td><td class=\"ms-rteTableOddCol-default\" style=\"width&#58;110.875px;\">Asesora<br></td><td class=\"ms-rteTableEvenCol-default\">Ivonne María Gómez Rodriguez&#160;<br></td></tr><tr class=\"ms-rteTableOddRow-default\"><td class=\"ms-rteTableEvenCol-default\" style=\"width&#58;99px;\">&#160;</td><td class=\"ms-rteTableOddCol-default\" style=\"width&#58;110.875px;\">Asesor<br></td><td class=\"ms-rteTableEvenCol-default\">Johel Rodriguez Carpio&#160;<br></td></tr><tr class=\"ms-rteTableEvenRow-default\"><td class=\"ms-rteTableEvenCol-default\" style=\"width&#58;99px;\">&#160;</td><td class=\"ms-rteTableOddCol-default\" style=\"width&#58;110.875px;\">Asesor<br></td><td class=\"ms-rteTableEvenCol-default\">Jonnathan Campos Molina&#160;<br></td></tr><tr class=\"ms-rteTableOddRow-default\"><td class=\"ms-rteTableEvenCol-default\" style=\"width&#58;99px;\">&#160;</td><td class=\"ms-rteTableOddCol-default\" style=\"width&#58;110.875px;\">Asesor<br></td><td class=\"ms-rteTableEvenCol-default\">Mario Rivera Lizano&#160;<br></td></tr><tr class=\"ms-rteTableFooterRow-default\"><td class=\"ms-rteTableFooterEvenCol-default\" rowspan=\"1\" style=\"width&#58;99px;\">​​<br></td><td class=\"ms-rteTableFooterOddCol-default\" rowspan=\"1\" style=\"width&#58;110.875px;\"><span style=\"color&#58;#444444;\">​Asesora&#160;<br></span></td><td class=\"ms-rteTableFooterEvenCol-default\" rowspan=\"1\"><span style=\"color&#58;#444444;\">​Valeria Salas Burgos&#160;​</span><br></td></tr></tbody></table><p><br></p></div>",
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-29T12:00:05+00:00",
-      "_modificado_en_fuente": "2026-10-28T17:51:13Z"
+      "_extraido": "2026-10-30T12:00:05+00:00",
+      "_modificado_en_fuente": "2026-10-29T14:23:46Z"
     },
     {
       "id": 38,
@@ -1695,7 +1695,7 @@
       },
       "equipo_trabajo_html": null,
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-29T12:00:05+00:00",
+      "_extraido": "2026-10-30T12:00:05+00:00",
       "_modificado_en_fuente": "2026-04-27T21:45:47Z"
     },
     {
@@ -1745,7 +1745,7 @@
       },
       "equipo_trabajo_html": null,
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-29T12:00:05+00:00",
+      "_extraido": "2026-10-30T12:00:05+00:00",
       "_modificado_en_fuente": "2026-04-22T17:06:34Z"
     },
     {
@@ -1795,7 +1795,7 @@
       },
       "equipo_trabajo_html": null,
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-29T12:00:05+00:00",
+      "_extraido": "2026-10-30T12:00:05+00:00",
       "_modificado_en_fuente": "2026-04-22T17:10:09Z"
     },
     {
@@ -1845,7 +1845,7 @@
       },
       "equipo_trabajo_html": "<div class=\"ExternalClassA2440DE10F9C4F2387523EF7D7FED549\"><p>​</p><table cellspacing=\"0\" width=\"100%\" class=\"ms-rteTable-default\"><tbody><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\"><strong>Puesto​</strong></td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\"><strong>Clase</strong></td><td class=\"ms-rteTable-default\" style=\"width&#58;33.3333%;\"><strong>Nombre</strong></td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesor</td><td class=\"ms-rteTable-default\"><p>Alejandro García Mora -&#160;<strong style=\"font-size&#58;1rem;\">Jefe de despacho</strong></p></td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">​</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesora</td><td class=\"ms-rteTable-default\">Graciela Pérez Jiménez</td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesora</td><td class=\"ms-rteTable-default\">Susana Umaña Leandro </td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesor</td><td class=\"ms-rteTable-default\">Diego Cardona Fuentes</td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesora</td><td class=\"ms-rteTable-default\">Stephanie Meneses Quirós</td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesor</td><td class=\"ms-rteTable-default\">Oldemar Ruiz Ruiz</td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asistente</td><td class=\"ms-rteTable-default\">Charline Wong Murillo</td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesor</td><td class=\"ms-rteTable-default\">Wagner Jiménez Barboza<br></td></tr></tbody></table><p><br></p></div>",
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-29T12:00:05+00:00",
+      "_extraido": "2026-10-30T12:00:05+00:00",
       "_modificado_en_fuente": "2026-06-09T22:49:00Z"
     },
     {
@@ -1895,7 +1895,7 @@
       },
       "equipo_trabajo_html": null,
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-29T12:00:05+00:00",
+      "_extraido": "2026-10-30T12:00:05+00:00",
       "_modificado_en_fuente": "2026-06-05T14:53:31Z"
     },
     {
@@ -1945,7 +1945,7 @@
       },
       "equipo_trabajo_html": null,
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-29T12:00:05+00:00",
+      "_extraido": "2026-10-30T12:00:05+00:00",
       "_modificado_en_fuente": "2026-06-16T16:45:05Z"
     },
     {
@@ -1995,7 +1995,7 @@
       },
       "equipo_trabajo_html": null,
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-29T12:00:05+00:00",
+      "_extraido": "2026-10-30T12:00:05+00:00",
       "_modificado_en_fuente": "2026-04-22T17:17:26Z"
     },
     {
@@ -2045,7 +2045,7 @@
       },
       "equipo_trabajo_html": null,
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-29T12:00:05+00:00",
+      "_extraido": "2026-10-30T12:00:05+00:00",
       "_modificado_en_fuente": "2026-04-22T17:18:19Z"
     },
     {
@@ -2095,7 +2095,7 @@
       },
       "equipo_trabajo_html": null,
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-29T12:00:05+00:00",
+      "_extraido": "2026-10-30T12:00:05+00:00",
       "_modificado_en_fuente": "2026-05-13T21:12:59Z"
     },
     {
@@ -2145,7 +2145,7 @@
       },
       "equipo_trabajo_html": "<div class=\"ExternalClass1DA41DAAECA14662B2FC79944AB7BCCE\"><table cellspacing=\"0\" width=\"100%\" class=\"ms-rteTable-default\"><tbody><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\"><strong>Puesto​</strong></td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\"><strong>Clase</strong></td><td class=\"ms-rteTable-default\" style=\"width&#58;33.3333%;\"><strong>Nombre</strong></td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\"><strong>&#160;</strong></td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesora</td><td class=\"ms-rteTable-default\">Keylin Jiménez Elizondo - <strong>Jefa de despacho</strong></td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesor</td><td class=\"ms-rteTable-default\">Joshua Arguedas González </td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">​</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesor</td><td class=\"ms-rteTable-default\">Mario Madrigal Cordero</td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesor</td><td class=\"ms-rteTable-default\">Paulino Madrigal Rodríguez</td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesora</td><td class=\"ms-rteTable-default\">Paz Vargas Herrera<br></td></tr></tbody></table><p><br></p><br></div>",
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-29T12:00:05+00:00",
+      "_extraido": "2026-10-30T12:00:05+00:00",
       "_modificado_en_fuente": "2026-06-10T16:39:36Z"
     },
     {
@@ -2195,7 +2195,7 @@
       },
       "equipo_trabajo_html": "<div class=\"ExternalClass9D29C77F82974BAB90BA327C8FB69081\"><p>​</p><table cellspacing=\"0\" width=\"100%\" class=\"ms-rteTable-default\"><tbody><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\"><strong>Puesto</strong></td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\"><strong>Clase</strong></td><td class=\"ms-rteTable-default\" style=\"width&#58;33.3333%;\"><strong>Nombre</strong></td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\"><strong>&#160;</strong></td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesor</td><td class=\"ms-rteTable-default\">Juan Carlos Melendez Torres – <strong>Jefe de despacho</strong></td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesora</td><td class=\"ms-rteTable-default\">María Jose Moreno Prendas</td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">​</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesora</td><td class=\"ms-rteTable-default\">Patricia Cantillo Pérez</td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesora</td><td class=\"ms-rteTable-default\">Ana Lucrecia Cubillo Gonzalez</td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asistente</td><td class=\"ms-rteTable-default\">Wendy Gómez Arias<br></td></tr></tbody></table><p><br></p></div>",
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-29T12:00:05+00:00",
+      "_extraido": "2026-10-30T12:00:05+00:00",
       "_modificado_en_fuente": "2026-06-22T22:54:16Z"
     },
     {
@@ -2245,7 +2245,7 @@
       },
       "equipo_trabajo_html": null,
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-29T12:00:05+00:00",
+      "_extraido": "2026-10-30T12:00:05+00:00",
       "_modificado_en_fuente": "2026-04-22T17:23:24Z"
     },
     {
@@ -2295,7 +2295,7 @@
       },
       "equipo_trabajo_html": "<div class=\"ExternalClass8650EBF588454BE8B76621A4BCF5DC87\"><p>​</p><table cellspacing=\"0\" width=\"100%\" class=\"ms-rteTable-default\"><tbody><tr class=\"ms-rteTableEvenRow-default\"><td class=\"ms-rteTableEvenCol-default\" style=\"width&#58;88.3789px;\"><span style=\"font-weight&#58;bolder;\">Puesto</span></td><td class=\"ms-rteTableOddCol-default\" style=\"width&#58;144.941px;\"><span style=\"font-weight&#58;bolder;\">Clase</span></td><td class=\"ms-rteTableEvenCol-default\" style=\"width&#58;196.445px;\"><span style=\"font-weight&#58;bolder;\">Nombre</span></td></tr><tr class=\"ms-rteTableOddRow-default\"><td class=\"ms-rteTableEvenCol-default\" style=\"width&#58;88.3789px;\"><span style=\"font-weight&#58;bolder;\">&#160;​</span></td><td class=\"ms-rteTableOddCol-default\" style=\"width&#58;144.941px;\">Asesora</td><td class=\"ms-rteTableEvenCol-default\">Lucy Jiménez Espinoza​ – <span style=\"font-weight&#58;bolder;\">Jefa de despacho</span></td></tr><tr class=\"ms-rteTableEvenRow-default\"><td class=\"ms-rteTableEvenCol-default\" style=\"width&#58;88.3789px;\">&#160;</td><td class=\"ms-rteTableOddCol-default\" style=\"width&#58;144.941px;\">Asesor Legislativo<br></td><td class=\"ms-rteTableEvenCol-default\">Mauricio Sequeira Pacheco<br></td></tr><tr class=\"ms-rteTableOddRow-default\"><td class=\"ms-rteTableEvenCol-default\" style=\"width&#58;88.3789px;\"></td><td class=\"ms-rteTableOddCol-default\" style=\"width&#58;144.941px;\">Asesor Legislativo<br></td><td class=\"ms-rteTableEvenCol-default\">Rigoberto Guzman Vega<br></td></tr><tr class=\"ms-rteTableEvenRow-default\"><td class=\"ms-rteTableEvenCol-default\" style=\"width&#58;88.3789px;\">&#160;</td><td class=\"ms-rteTableOddCol-default\" style=\"width&#58;144.941px;\">Asesora Legislativa<br></td><td class=\"ms-rteTableEvenCol-default\">Cinthia Bonilla Romero<br></td></tr><tr class=\"ms-rteTableOddRow-default\"><td class=\"ms-rteTableEvenCol-default\" style=\"width&#58;88.3789px;\">&#160;</td><td class=\"ms-rteTableOddCol-default\" style=\"width&#58;144.941px;\">Asesora Legislativa<br></td><td class=\"ms-rteTableEvenCol-default\">Alejandra Chaves Alvarez<br></td></tr></tbody></table><p>​​<br><br></p></div>",
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-29T12:00:05+00:00",
+      "_extraido": "2026-10-30T12:00:05+00:00",
       "_modificado_en_fuente": "2026-10-28T17:52:06Z"
     },
     {
@@ -2345,7 +2345,7 @@
       },
       "equipo_trabajo_html": null,
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-29T12:00:05+00:00",
+      "_extraido": "2026-10-30T12:00:05+00:00",
       "_modificado_en_fuente": "2026-04-22T17:43:24Z"
     },
     {
@@ -2395,7 +2395,7 @@
       },
       "equipo_trabajo_html": "<div class=\"ExternalClassCD0E30333F014E1EA26C3F41D3EC8898\"><p>​</p><table cellspacing=\"0\" width=\"100%\" class=\"ms-rteTable-default\"><tbody><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\"><strong>Puesto​​</strong></td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\"><strong>Clase</strong></td><td class=\"ms-rteTable-default\" style=\"width&#58;33%;\"><strong>Nombre​</strong></td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\"><strong>&#160;</strong></td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesora</td><td class=\"ms-rteTable-default\" style=\"width&#58;33%;\">Edith Montero Matarrita – <strong>Jefa de despacho</strong></td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asistente</td><td class=\"ms-rteTable-default\" style=\"width&#58;33%;\">Anette Da Costa Matamoros</td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">​</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesor</td><td class=\"ms-rteTable-default\" style=\"width&#58;33%;\">Elbin Calvo Herra</td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesora</td><td class=\"ms-rteTable-default\" style=\"width&#58;33%;\">Ingrid Morales López</td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesor</td><td class=\"ms-rteTable-default\" style=\"width&#58;33%;\">Jeff Chaji del Silencio</td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesora</td><td class=\"ms-rteTable-default\" style=\"width&#58;33%;\">Alexandra Campos Durán</td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesora</td><td class=\"ms-rteTable-default\" style=\"width&#58;33%;\">Nicole Andrea Muñoz Morales<br></td></tr></tbody></table><p><br></p></div>",
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-29T12:00:05+00:00",
+      "_extraido": "2026-10-30T12:00:05+00:00",
       "_modificado_en_fuente": "2026-08-13T18:01:45Z"
     },
     {
@@ -2445,7 +2445,7 @@
       },
       "equipo_trabajo_html": "<div class=\"ExternalClass386340EC2D1B4CBCAD821333299E400E\"><p>​</p><table cellspacing=\"0\" width=\"100%\" class=\"ms-rteTable-default\"><tbody><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\"><strong>Puesto</strong></td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\"><strong>Clase</strong></td><td class=\"ms-rteTable-default\" style=\"width&#58;33.3333%;\"><strong>Nombre</strong></td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\"><strong>&#160;</strong></td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesora</td><td class=\"ms-rteTable-default\">Edwin Solano Molina – <strong>Jefe de despacho</strong></td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesor</td><td class=\"ms-rteTable-default\">Francisco J. Gamboa Bermúdez</td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">​</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesora</td><td class=\"ms-rteTable-default\">Inti Daniela Alvarado Lizano</td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesora</td><td class=\"ms-rteTable-default\">Geiner Mora Castro</td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asistente</td><td class=\"ms-rteTable-default\">Lucía Vasquez Rojas</td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesora</td><td class=\"ms-rteTable-default\">Mauren Pereira Guzmán​<br></td></tr></tbody></table><p><br></p></div>",
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-29T12:00:05+00:00",
+      "_extraido": "2026-10-30T12:00:05+00:00",
       "_modificado_en_fuente": "2026-06-22T22:09:35Z"
     },
     {
@@ -2495,7 +2495,7 @@
       },
       "equipo_trabajo_html": null,
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-29T12:00:05+00:00",
+      "_extraido": "2026-10-30T12:00:05+00:00",
       "_modificado_en_fuente": "2026-10-28T22:22:54Z"
     },
     {
@@ -2545,7 +2545,7 @@
       },
       "equipo_trabajo_html": null,
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-29T12:00:05+00:00",
+      "_extraido": "2026-10-30T12:00:05+00:00",
       "_modificado_en_fuente": "2026-04-27T21:53:05Z"
     },
     {
@@ -2595,7 +2595,7 @@
       },
       "equipo_trabajo_html": "<div class=\"ExternalClassBE907DC8A1894E1DA4D4A9F76AB52E39\"><p></p><table cellspacing=\"0\" width=\"100%\" class=\"ms-rteTable-default\"><tbody><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\"><strong>Puesto</strong></td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\"><strong>Clase</strong></td><td class=\"ms-rteTable-default\" style=\"width&#58;33.3333%;\"><strong>Nombre</strong></td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\"><strong>&#160;</strong></td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesora</td><td class=\"ms-rteTable-default\">Diego Fernández Solano – <strong>Jefe de despacho</strong></td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesora</td><td class=\"ms-rteTable-default\">Judith Mora Reyes</td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">​</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesora</td><td class=\"ms-rteTable-default\">Mariana Barrios Martínez</td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesora</td><td class=\"ms-rteTable-default\">Kimberly Madrigal Salas</td></tr><tr><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">&#160;</td><td class=\"ms-rteTable-default\" style=\"width&#58;15%;\">Asesor</td><td class=\"ms-rteTable-default\">Carlos Monge Artvia<br></td></tr></tbody></table><p><br><br></p></div>",
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-29T12:00:05+00:00",
+      "_extraido": "2026-10-30T12:00:05+00:00",
       "_modificado_en_fuente": "2026-06-22T17:55:15Z"
     },
     {
@@ -2645,7 +2645,7 @@
       },
       "equipo_trabajo_html": null,
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-29T12:00:05+00:00",
+      "_extraido": "2026-10-30T12:00:05+00:00",
       "_modificado_en_fuente": "2026-04-22T18:07:22Z"
     },
     {
@@ -2695,7 +2695,7 @@
       },
       "equipo_trabajo_html": null,
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-29T12:00:05+00:00",
+      "_extraido": "2026-10-30T12:00:05+00:00",
       "_modificado_en_fuente": "2026-04-22T18:05:18Z"
     },
     {
@@ -2745,7 +2745,7 @@
       },
       "equipo_trabajo_html": null,
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-29T12:00:05+00:00",
+      "_extraido": "2026-10-30T12:00:05+00:00",
       "_modificado_en_fuente": "2026-04-22T18:08:03Z"
     },
     {
@@ -2795,7 +2795,7 @@
       },
       "equipo_trabajo_html": null,
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-29T12:00:05+00:00",
+      "_extraido": "2026-10-30T12:00:05+00:00",
       "_modificado_en_fuente": "2026-04-22T18:08:47Z"
     },
     {
@@ -2845,7 +2845,7 @@
       },
       "equipo_trabajo_html": null,
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-29T12:00:05+00:00",
+      "_extraido": "2026-10-30T12:00:05+00:00",
       "_modificado_en_fuente": "2026-04-22T18:09:42Z"
     },
     {
@@ -2895,7 +2895,7 @@
       },
       "equipo_trabajo_html": null,
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-29T12:00:05+00:00",
+      "_extraido": "2026-10-30T12:00:05+00:00",
       "_modificado_en_fuente": "2026-05-07T15:28:45Z"
     },
     {
@@ -2945,7 +2945,7 @@
       },
       "equipo_trabajo_html": null,
       "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('Diputados_y_Diputadas_2026_2030')/items?%24top=5000&%24orderby=PosicionPantalla",
-      "_extraido": "2026-10-29T12:00:05+00:00",
+      "_extraido": "2026-10-30T12:00:05+00:00",
       "_modificado_en_fuente": "2026-04-22T18:25:10Z"
     }
   ]
