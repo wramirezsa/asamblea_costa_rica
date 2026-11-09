@@ -1,6 +1,6 @@
 {
  "_fuente": "https://www.asamblea.go.cr/pa/datosabiertos/SitePages/Inicio.aspx",
- "_extraido": "2026-10-30T12:00:31+00:00",
+ "_extraido": "2026-11-09T19:21:45+00:00",
  "periodo_desde": "2026-05",
  "salarios": {
   "2026-05": {
@@ -126,11 +126,6 @@
      "dieta": 2956598.55,
      "representacion": 1044116.2,
      "bruta": 4000714.75
-    },
-    "eder-hernandez-ulloa": {
-     "dieta": 2861224.41,
-     "representacion": 1010435.04,
-     "bruta": 3871659.45
     },
     "victor-hidalgo-solis": {
      "dieta": 2956598.55,
@@ -417,11 +412,6 @@
      "bruta": 3734000.45
     },
     "nayuribe-guadamuz-rosales": {
-     "dieta": 2956598.55,
-     "representacion": 1044116.2,
-     "bruta": 4000714.75
-    },
-    "eder-hernandez-ulloa": {
      "dieta": 2956598.55,
      "representacion": 1044116.2,
      "bruta": 4000714.75
@@ -715,11 +705,6 @@
      "representacion": 1044116.2,
      "bruta": 4000714.75
     },
-    "eder-hernandez-ulloa": {
-     "dieta": 2956598.55,
-     "representacion": 1044116.2,
-     "bruta": 4000714.75
-    },
     "victor-hidalgo-solis": {
      "dieta": 2956598.55,
      "representacion": 1044116.2,
@@ -1005,11 +990,6 @@
      "bruta": 4000714.75
     },
     "nayuribe-guadamuz-rosales": {
-     "dieta": 2956598.55,
-     "representacion": 1044116.2,
-     "bruta": 4000714.75
-    },
-    "eder-hernandez-ulloa": {
      "dieta": 2956598.55,
      "representacion": 1044116.2,
      "bruta": 4000714.75
@@ -1303,11 +1283,6 @@
      "representacion": 1044116.2,
      "bruta": 4000714.75
     },
-    "eder-hernandez-ulloa": {
-     "dieta": 2956598.55,
-     "representacion": 1044116.2,
-     "bruta": 4000714.75
-    },
     "victor-hidalgo-solis": {
      "dieta": 2956598.55,
      "representacion": 1044116.2,
@@ -1472,6 +1447,295 @@
    "notas": [
     "Nota:  no se incluyen los subsidios por Incapacidad, pues los mismos no son salario y están exentos de cargas sociales"
    ]
+  },
+  "2026-10": {
+   "_fuente": "https://www.asamblea.go.cr/pa/datosabiertos/Documentos%20compartidos/SalarioDiputados/2026-10-Salario%20Diputados.xlsx",
+   "publicado": "2026-11-03",
+   "por_diputacion": {
+    "nogui-acosta-jaen": {
+     "dieta": 2906486.7,
+     "representacion": 1044116.2,
+     "bruta": 3950602.9000000004
+    },
+    "angela-aguilar-vargas": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "iztaru-alfaro-guerrero": {
+     "dieta": 2905622.7,
+     "representacion": 1044116.2,
+     "bruta": 3949738.9000000004
+    },
+    "karen-alfaro-jimenez": {
+     "dieta": 2803671.05,
+     "representacion": 1044116.2,
+     "bruta": 3847787.25
+    },
+    "edgardo-araya-sibaja": {
+     "dieta": 2479727.85,
+     "representacion": 875710.4,
+     "bruta": 3355438.25
+    },
+    "reynaldo-arias-mora": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "osvaldo-artavia-carballo": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "grethel-maria-avila-vargas": {
+     "dieta": 2907321.9,
+     "representacion": 1044116.2,
+     "bruta": 3951438.0999999996
+    },
+    "marco-badilla-chavarria": {
+     "dieta": 2905622.7,
+     "representacion": 1044116.2,
+     "bruta": 3949738.9000000004
+    },
+    "robert-junior-barrantes-camacho": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "antonio-barzuna-thompson": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "cindy-maria-blanco-gonzalez": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "gerald-bogantes-rivera": {
+     "dieta": 2618605.98,
+     "representacion": 943072.72,
+     "bruta": 3561678.7
+    },
+    "esmeralda-britton-gonzalez": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "stephan-brunner-neibig": {
+     "dieta": 2905622.7,
+     "representacion": 1044116.2,
+     "bruta": 3949738.9000000004
+    },
+    "jesus-calderon-calderon": {
+     "dieta": 858367.47,
+     "representacion": 303130.68,
+     "bruta": 1161498.15
+    },
+    "kattia-calvo-cruz": {
+     "dieta": 2901846.75,
+     "representacion": 1044116.2,
+     "bruta": 3945962.95
+    },
+    "maria-isabel-camareno-camareno": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "ronald-campos-villegas": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "claudia-dobles-camargo": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "ana-ruth-esquivel-medrano": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "marta-eugenia-esquivel-rodriguez": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "abril-gordienko-lopez": {
+     "dieta": 2900813.65,
+     "representacion": 1044116.2,
+     "bruta": 3944929.8499999996
+    },
+    "nayuribe-guadamuz-rosales": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "victor-hidalgo-solis": {
+     "dieta": 2845028.8,
+     "representacion": 1044116.2,
+     "bruta": 3889145.0
+    },
+    "wilson-alfredo-jimenez-cordero": {
+     "dieta": 2901846.75,
+     "representacion": 1044116.2,
+     "bruta": 3945962.95
+    },
+    "yara-jimenez-fallas": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "norjelens-maria-lobo-vargas": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "karol-vanessa-matamoros-montoya": {
+     "dieta": 2904728.4,
+     "representacion": 1044116.2,
+     "bruta": 3948844.5999999996
+    },
+    "mangell-mc-lean-villalobos": {
+     "dieta": 2575101.99,
+     "representacion": 909391.56,
+     "bruta": 3484493.5500000003
+    },
+    "ariel-mora-fallas": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "kattya-mora-montoya": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "royner-g-mora-ruiz": {
+     "dieta": 2900813.65,
+     "representacion": 1044116.2,
+     "bruta": 3944929.8499999996
+    },
+    "vianey-mora-vega": {
+     "dieta": 2900813.65,
+     "representacion": 1044116.2,
+     "bruta": 3944929.8499999996
+    },
+    "anna-katharina-muller-castro": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "cindy-murillo-artavia": {
+     "dieta": 2907321.9,
+     "representacion": 1044116.2,
+     "bruta": 3951438.0999999996
+    },
+    "zaira-murillo-marin": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "diana-murillo-murillo": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "fernando-obaldia-alvarez": {
+     "dieta": 2849085.9,
+     "representacion": 1044116.2,
+     "bruta": 3893202.0999999996
+    },
+    "mayuli-ortega-guzman": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "salvador-padilla-villanueva": {
+     "dieta": 2517548.63,
+     "representacion": 943072.72,
+     "bruta": 3460621.3499999996
+    },
+    "juan-manuel-quesada-espinoza": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "alvaro-ramirez-bogantes": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "gonzalo-ramirez-zamora": {
+     "dieta": 2701719.35,
+     "representacion": 1044116.2,
+     "bruta": 3745835.55
+    },
+    "maria-eugenia-roman-mora": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "joselyn-saenz-nunez": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "janice-sandi-morales": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "sigrid-segura-artavia": {
+     "dieta": 2903802.15,
+     "representacion": 1044116.2,
+     "bruta": 3947918.3499999996
+    },
+    "daniel-siezar-cardenas": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "antonio-trejos-mazariegos": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "kattia-maria-ulate-alvarado": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "andrea-valverde-palavicini": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "rafael-vargas-brenes": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "jose-miguel-villalobos-umana": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "jose-maria-villalta-florez-estrada": {
+     "dieta": 2904728.4,
+     "representacion": 1044116.2,
+     "bruta": 3948844.5999999996
+    },
+    "kristel-ward-hudson": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    }
+   },
+   "notas": [
+    "Nota:  no se incluyen los subsidios por Incapacidad, pues los mismos no son salario y están exentos de cargas sociales"
+   ]
   }
  },
  "combustible": {
@@ -1573,10 +1837,6 @@
     },
     "nayuribe-guadamuz-rosales": {
      "monto": 42959.0,
-     "renuncio": false
-    },
-    "eder-hernandez-ulloa": {
-     "monto": 229980.0,
      "renuncio": false
     },
     "victor-hidalgo-solis": {
@@ -1814,10 +2074,6 @@
      "monto": 52447.0,
      "renuncio": false
     },
-    "eder-hernandez-ulloa": {
-     "monto": 441256.0,
-     "renuncio": false
-    },
     "victor-hidalgo-solis": {
      "monto": 165168.0,
      "renuncio": false
@@ -2051,10 +2307,6 @@
     },
     "nayuribe-guadamuz-rosales": {
      "monto": 122664.0,
-     "renuncio": false
-    },
-    "eder-hernandez-ulloa": {
-     "monto": 323097.0,
      "renuncio": false
     },
     "victor-hidalgo-solis": {
@@ -2292,10 +2544,6 @@
      "monto": 61433.0,
      "renuncio": false
     },
-    "eder-hernandez-ulloa": {
-     "monto": 240654.0,
-     "renuncio": false
-    },
     "victor-hidalgo-solis": {
      "monto": 137661.0,
      "renuncio": false
@@ -2530,10 +2778,6 @@
      "monto": 45581.0,
      "renuncio": false
     },
-    "eder-hernandez-ulloa": {
-     "monto": 291740.0,
-     "renuncio": false
-    },
     "victor-hidalgo-solis": {
      "monto": 165402.0,
      "renuncio": false
@@ -2669,6 +2913,20 @@
    ]
   }
  },
- "avisos": [],
- "variantes_sin_resolver": {}
+ "avisos": [
+  "Salarios 2026-05: 56 diputaciones resueltas, no 57.",
+  "Salarios 2026-06: 56 diputaciones resueltas, no 57.",
+  "Salarios 2026-07: 56 diputaciones resueltas, no 57.",
+  "Salarios 2026-08: 56 diputaciones resueltas, no 57.",
+  "Salarios 2026-09: 56 diputaciones resueltas, no 57.",
+  "Salarios 2026-10: 56 diputaciones resueltas, no 57.",
+  "Combustible 2026-05: 56 diputaciones resueltas, no 57.",
+  "Combustible 2026-06: 56 diputaciones resueltas, no 57.",
+  "Combustible 2026-07: 56 diputaciones resueltas, no 57.",
+  "Combustible 2026-08: 56 diputaciones resueltas, no 57.",
+  "Combustible 2026-09: 56 diputaciones resueltas, no 57."
+ ],
+ "variantes_sin_resolver": {
+  "Hernández Ulloa Eder": 11
+ }
 }

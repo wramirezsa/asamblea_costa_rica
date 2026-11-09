@@ -1,10 +1,10 @@
 {
-  "generado": "2026-10-30T12:00:30+00:00",
+  "generado": "2026-11-09T19:21:43+00:00",
   "nota": "Solo se incluyen conjuntos que la Asamblea mantiene al día. Cada uno trae su propia fecha de última actualización, tomada de la fuente.",
   "leyes": {
     "_fuente": "https://www.asamblea.go.cr/glcp/_api/web/lists/getbytitle('res_de_leyes')/items?%24top=2000&%24orderby=Modified%20desc",
     "total": 1634,
-    "ultima_actualizacion": "2026-10-21T17:12:24Z",
+    "ultima_actualizacion": "2026-11-02T15:41:39Z",
     "por_anio": {
       "2017": 7,
       "2018": 253,
@@ -18,6 +18,24 @@
       "2026": 151
     },
     "recientes": [
+      {
+        "numero": "10978",
+        "titulo": "REFORMA DEL ARTÍCULO 17 BIS DE LA LEY N.º 7818, LEY ORGÁNICA DE LA AGRICULTURA E INDUSTRIA DE LA CAÑA DE AZÚCAR, DEL 2 DE SETIEMBRE DE 1998",
+        "resumen": "Se crea un fondo financiado con el 0,7% de la liquidación de azúcar en cuota para compensar a pequeños y medianos productores independientes (hasta 1.500 toneladas) por la diferencia entre el precio de cuota y el de excedentes. También regula reservas, pagos, sanciones y la distribución de eventuales remanentes.\n\nLa presente ley surge del expediente N.° 25.647.",
+        "publicada": "2026-09-28T16:13:51Z"
+      },
+      {
+        "numero": "10979",
+        "titulo": "REFORMA DE VARIAS LEYES PARA FORTALECER LA LUCHA CONTRA EL CRIMEN ORGANIZADO EN MATERIA DE DELITOS AMBIENTALES",
+        "resumen": "El proyecto endurece las penas por delitos ambientales, aumentando las sanciones por tráfico de vida silvestre, delitos forestales, pesca ilegal, afectación de tortugas marinas y minería ilegal, especialmente cuando interviene la delincuencia organizada o se trata de especies protegidas y áreas protegidas.\n\nLa presente ley surge del expediente N.° 23.952.",
+        "publicada": "2026-10-06T17:06:55Z"
+      },
+      {
+        "numero": "10980",
+        "titulo": "ADICIÓN DE UN TRANSITORIO XI A LA LEY 8904, REFORMA DEL SEGUNDO PÁRRAFO Y ADICIÓN DE VARIOS PÁRRAFOS AL ARTÍCULO 8; ADICIÓN DEL ARTÍCULO 8 BIS; ADICIÓN DEL INCISO F) AL ARTÍCULO 65, Y REFORMA DEL INCISO K) DEL ARTÍCULO 103 DEL CÓDIGO DE MINERÍA, LEY N.º 6",
+        "resumen": "Se autoriza por hasta 24 meses a las cooperativas mineras de Abangares con solicitudes de concesión en trámite a extraer, procesar y exportar oro, siempre que informen el origen del material, cantidad, destino, transporte y valor comercial. Además, el Minae deberá resolver las concesiones pendientes antes de que venza ese plazo, y estas actividades quedarán excluidas de ciertas sanciones del Código de Minería.\n\nLa pr",
+        "publicada": "2026-10-06T17:09:46Z"
+      },
       {
         "numero": "10989",
         "titulo": "LEY PARA HABILITAR EL TRASLADO DE DOMICILIO ELECTORAL POR MEDIOS DIGITALES",
@@ -109,18 +127,6 @@
         "publicada": "2026-10-07T22:46:30Z"
       },
       {
-        "numero": "10979",
-        "titulo": "REFORMA DE VARIAS LEYES PARA FORTALECER LA LUCHA CONTRA EL CRIMEN ORGANIZADO EN MATERIA DE DELITOS AMBIENTALES",
-        "resumen": "El proyecto endurece las penas por delitos ambientales, aumentando las sanciones por tráfico de vida silvestre, delitos forestales, pesca ilegal, afectación de tortugas marinas y minería ilegal, especialmente cuando interviene la delincuencia organizada o se trata de especies protegidas y áreas protegidas.\n\nLa presente ley surge del expediente N.° 23.952.",
-        "publicada": "2026-10-06T17:06:55Z"
-      },
-      {
-        "numero": "10980",
-        "titulo": "ADICIÓN DE UN TRANSITORIO XI A LA LEY 8904, REFORMA DEL SEGUNDO PÁRRAFO Y ADICIÓN DE VARIOS PÁRRAFOS AL ARTÍCULO 8; ADICIÓN DEL ARTÍCULO 8 BIS; ADICIÓN DEL INCISO F) AL ARTÍCULO 65, Y REFORMA DEL INCISO K) DEL ARTÍCULO 103 DEL CÓDIGO DE MINERÍA, LEY N.º 6",
-        "resumen": "Se autoriza por hasta 24 meses a las cooperativas mineras de Abangares con solicitudes de concesión en trámite a extraer, procesar y exportar oro, siempre que informen el origen del material, cantidad, destino, transporte y valor comercial. Además, el Minae deberá resolver las concesiones pendientes antes de que venza ese plazo, y estas actividades quedarán excluidas de ciertas sanciones del Código de Minería.\n\nLa pr",
-        "publicada": "2026-10-06T17:09:46Z"
-      },
-      {
         "numero": "10972",
         "titulo": "APROBACIÓN DEL ACUERDO ENTRE EL GOBIERNO DE LA REPÚBLICA DE COSTA RICA Y EL GOBIERNO DE LA REPÚBLICA FRANCESA RELATIVO AL ESTABLECIMIENTO Y A LAS ACTIVIDADES DE LA AGENCIA FRANCESA DE DESARROLLO, DE PROPARCO Y DE EXPERTISE FRANCE EN COSTA RICA",
         "resumen": "Se aprueba el Acuerdo entre Costa Rica y Francia que regula el establecimiento y funcionamiento en el país de la Agencia Francesa de Desarrollo (AFD), Proparco y Expertise France, firmado en San José el 6 de junio de 2024.\n\nLa presente ley surge del expediente N.° 24.915.",
@@ -131,12 +137,6 @@
         "titulo": "LEY DE PROTECCIÓN MARÍTIMA",
         "resumen": "La ley establece el marco de protección marítima y portuaria en Costa Rica, definiendo obligaciones de puertos y buques, creando órganos de coordinación, regulando auditorías, certificaciones, controles y sanciones para garantizar la seguridad marítima conforme al Código PBIP y el Convenio SOLAS.\n\nLa presente ley surge del expediente N.° 25.420.",
         "publicada": "2026-09-18T17:09:57Z"
-      },
-      {
-        "numero": "10978",
-        "titulo": "REFORMA DEL ARTÍCULO 17 BIS DE LA LEY N.º 7818, LEY ORGÁNICA DE LA AGRICULTURA E INDUSTRIA DE LA CAÑA DE AZÚCAR, DEL 2 DE SETIEMBRE DE 1998",
-        "resumen": "Se crea un fondo financiado con el 0,7% de la liquidación de azúcar en cuota para compensar a pequeños y medianos productores independientes (hasta 1.500 toneladas) por la diferencia entre el precio de cuota y el de excedentes. También regula reservas, pagos, sanciones y la distribución de eventuales remanentes.\n\nLa presente ley surge del expediente N.° 25.647.",
-        "publicada": "2026-09-28T16:13:51Z"
       },
       {
         "numero": "10973",
@@ -382,14 +382,14 @@
   },
   "mociones": {
     "_fuente": "https://www.asamblea.go.cr/glcp/_api/web/lists/getbytitle('mociones_total')/items?%24top=5000&%24orderby=Id%20desc",
-    "total": 27804,
-    "nota_alcance": "Agregados calculados sobre las 27804 mociones que devuelve la lista completa, no sobre una muestra.",
-    "ultima_actualizacion": "2026-10-29T23:30:39Z",
+    "total": 27902,
+    "nota_alcance": "Agregados calculados sobre las 27902 mociones que devuelve la lista completa, no sobre una muestra.",
+    "ultima_actualizacion": "2026-11-06T19:31:47Z",
     "por_resultado": {
-      "Rechazada": 23601,
-      "Aprobada": 3625,
-      "Retirada": 394,
-      "Pendiente": 183,
+      "Rechazada": 23667,
+      "Aprobada": 3645,
+      "Retirada": 399,
+      "Pendiente": 190,
       "Revisión": 1
     },
     "por_anio": {
@@ -397,329 +397,329 @@
       "2023": 3827,
       "2024": 4729,
       "2025": 9086,
-      "2026": 6912
+      "2026": 7010
     },
-    "expedientes_distintos": 1255,
+    "expedientes_distintos": 1269,
     "recientes": [
       {
-        "numero": null,
-        "expediente": "25581",
+        "numero": "01-16",
+        "expediente": "25698",
         "resultado": "Aprobada",
-        "asunto": "MODIFICACIÓN DE LOS LÍMITES CANTONALES ENTRE SAN RAMÓN Y SAN CARLOS PARA LA INTEGRACIÓN DE LOS POBLADOS DE EL CASTILLO, CASTILLO NUEVO, CAIRO Y MILLÓN AL DISTRITO DE LA FORTUNA",
+        "asunto": "INVESTIGACIÓN SOBRE LA CONCESIÓN DE LA RUTA N° 27, SAN JOSE-CALDERA, Y LAS ACTUACIONES RELACIONADAS CON SU  ADMINISTRACIÓN, OPERACIÓN, MANTENIMIENTO, EJECUCIÓN CONTRACTUAL, FISCALIZACIÓN Y EVENTUALES PROCESOS DE MODIFICACIÓN,  AMPLIACIÓN, RENEGOCIACIÓN O",
+        "tramite": "124",
+        "fecha": "2026-11-06T19:27:47Z"
+      },
+      {
+        "numero": null,
+        "expediente": "25746",
+        "resultado": "Aprobada",
+        "asunto": "Convenio Regional de Reconocimiento de Estudios, Títulos y Diplomas de Educación Superior en América Latina y el Caribe",
         "tramite": null,
-        "fecha": "2026-10-29T23:28:32Z"
+        "fecha": "2026-11-05T22:00:53Z"
       },
       {
         "numero": null,
-        "expediente": "25581",
+        "expediente": "25543",
         "resultado": "Aprobada",
-        "asunto": "MODIFICACIÓN DE LOS LÍMITES CANTONALES ENTRE SAN RAMÓN Y SAN CARLOS PARA LA INTEGRACIÓN DE LOS POBLADOS DE EL CASTILLO, CASTILLO NUEVO, CAIRO Y MILLÓN AL DISTRITO DE LA FORTUNA",
+        "asunto": "Aprobación del Convenio Marco para el Establecimiento de la Alianza Solar Internacional (ISA En Inglés)",
         "tramite": null,
-        "fecha": "2026-10-29T23:25:38Z"
+        "fecha": "2026-11-05T21:38:08Z"
       },
       {
-        "numero": null,
-        "expediente": "25581",
-        "resultado": "Aprobada",
-        "asunto": "MODIFICACIÓN DE LOS LÍMITES CANTONALES ENTRE SAN RAMÓN Y SAN CARLOS PARA LA INTEGRACIÓN DE LOS POBLADOS DE EL CASTILLO, CASTILLO NUEVO, CAIRO Y MILLÓN AL DISTRITO DE LA FORTUNA",
+        "numero": "0014",
+        "expediente": "25619",
+        "resultado": "Pendiente",
+        "asunto": "LEY PARA LA SEGURIDAD NACIONAL, REGISTRAL Y DE ARCHIVOS JUDICIALES",
         "tramite": null,
-        "fecha": "2026-10-29T23:04:31Z"
+        "fecha": "2026-11-05T18:23:34Z"
       },
       {
-        "numero": null,
-        "expediente": "25128",
+        "numero": "0013",
+        "expediente": "25619",
+        "resultado": "Retirada",
+        "asunto": "LEY PARA LA SEGURIDAD NACIONAL, REGISTRAL Y DE ARCHIVOS JUDICIALES",
+        "tramite": null,
+        "fecha": "2026-11-05T18:23:09Z"
+      },
+      {
+        "numero": "0012",
+        "expediente": "25619",
+        "resultado": "Retirada",
+        "asunto": "LEY PARA LA SEGURIDAD NACIONAL, REGISTRAL Y DE ARCHIVOS JUDICIALES",
+        "tramite": null,
+        "fecha": "2026-11-05T18:22:50Z"
+      },
+      {
+        "numero": "0011",
+        "expediente": "25619",
+        "resultado": "Pendiente",
+        "asunto": "LEY PARA LA SEGURIDAD NACIONAL, REGISTRAL Y DE ARCHIVOS JUDICIALES",
+        "tramite": null,
+        "fecha": "2026-11-05T18:21:00Z"
+      },
+      {
+        "numero": "0010",
+        "expediente": "25619",
+        "resultado": "Retirada",
+        "asunto": "LEY PARA LA SEGURIDAD NACIONAL, REGISTRAL Y DE ARCHIVOS JUDICIALES",
+        "tramite": null,
+        "fecha": "2026-11-05T18:20:32Z"
+      },
+      {
+        "numero": "0009",
+        "expediente": "25619",
+        "resultado": "Retirada",
+        "asunto": "LEY PARA LA SEGURIDAD NACIONAL, REGISTRAL Y DE ARCHIVOS JUDICIALES",
+        "tramite": null,
+        "fecha": "2026-11-05T18:20:10Z"
+      },
+      {
+        "numero": "0008",
+        "expediente": "25619",
+        "resultado": "Pendiente",
+        "asunto": "LEY PARA LA SEGURIDAD NACIONAL, REGISTRAL Y DE ARCHIVOS JUDICIALES",
+        "tramite": null,
+        "fecha": "2026-11-05T18:19:51Z"
+      },
+      {
+        "numero": "0007",
+        "expediente": "25619",
+        "resultado": "Pendiente",
+        "asunto": "LEY PARA LA SEGURIDAD NACIONAL, REGISTRAL Y DE ARCHIVOS JUDICIALES",
+        "tramite": null,
+        "fecha": "2026-11-05T18:19:27Z"
+      },
+      {
+        "numero": "0006",
+        "expediente": "25619",
+        "resultado": "Pendiente",
+        "asunto": "LEY PARA LA SEGURIDAD NACIONAL, REGISTRAL Y DE ARCHIVOS JUDICIALES",
+        "tramite": null,
+        "fecha": "2026-11-05T18:18:40Z"
+      },
+      {
+        "numero": "0005",
+        "expediente": "25619",
         "resultado": "Aprobada",
-        "asunto": "DESAFECTACIÓN DEL USO PÚBLICO Y AUTORIZACIÓN PARA LA DONACIÓN DE UN BIEN INMUEBLE PROPIEDAD DEL MINISTERIO DE EDUCACIÓN PÚBLICA A LA ASOCIACIÓN DE DESARROLLO INTEGRAL DE LA HERMOSA DE PÉREZ ZELEDÓN, SAN JOSÉ",
-        "tramite": "I día",
-        "fecha": "2026-10-29T22:30:17Z"
+        "asunto": "LEY PARA LA SEGURIDAD NACIONAL, REGISTRAL Y DE ARCHIVOS JUDICIALES",
+        "tramite": null,
+        "fecha": "2026-11-05T18:18:21Z"
       },
       {
-        "numero": "Moción N.° 04-137",
-        "expediente": "25803",
+        "numero": "0004",
+        "expediente": "25619",
         "resultado": "Rechazada",
-        "asunto": "SEGUNDO PRESUPUESTO EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2026 Y SEGUNDA MODIFICACIÓN LEGISLATIVA DE LA LEY N° 10.836.",
-        "tramite": "I día",
-        "fecha": "2026-10-29T21:49:39Z"
+        "asunto": "LEY PARA LA SEGURIDAD NACIONAL, REGISTRAL Y DE ARCHIVOS JUDICIALES",
+        "tramite": null,
+        "fecha": "2026-11-05T18:17:53Z"
       },
       {
-        "numero": "Moción N.° 03-137",
+        "numero": "0003",
+        "expediente": "25619",
+        "resultado": "Aprobada",
+        "asunto": "LEY PARA LA SEGURIDAD NACIONAL, REGISTRAL Y DE ARCHIVOS JUDICIALES",
+        "tramite": null,
+        "fecha": "2026-11-05T18:16:58Z"
+      },
+      {
+        "numero": "0002",
+        "expediente": "25619",
+        "resultado": "Retirada",
+        "asunto": "LEY PARA LA SEGURIDAD NACIONAL, REGISTRAL Y DE ARCHIVOS JUDICIALES",
+        "tramite": null,
+        "fecha": "2026-11-05T18:16:30Z"
+      },
+      {
+        "numero": "0001",
+        "expediente": "25619",
+        "resultado": "Rechazada",
+        "asunto": "LEY PARA LA SEGURIDAD NACIONAL, REGISTRAL Y DE ARCHIVOS JUDICIALES",
+        "tramite": null,
+        "fecha": "2026-11-05T18:15:28Z"
+      },
+      {
+        "numero": "Moción N.° 08-137",
         "expediente": "25803",
         "resultado": "Aprobada",
         "asunto": "SEGUNDO PRESUPUESTO EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2026 Y SEGUNDA MODIFICACIÓN LEGISLATIVA DE LA LEY N° 10.836.",
         "tramite": "I día",
-        "fecha": "2026-10-29T21:49:02Z"
+        "fecha": "2026-11-05T14:59:05Z"
       },
       {
-        "numero": "Moción N.° 02-137",
-        "expediente": "25803",
+        "numero": null,
+        "expediente": "25330",
         "resultado": "Aprobada",
-        "asunto": "SEGUNDO PRESUPUESTO EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2026 Y SEGUNDA MODIFICACIÓN LEGISLATIVA DE LA LEY N° 10.836.",
+        "asunto": "Investigación sobre el Informe de Auditoria Inamu-JD-AI-074-2025 del Programa \"Puntos Violeta\", incluyendo aspectos relacionados con su ejecución, resultados, gestión administrativa, uso de recursos, planificación institucional y competencias asignadas a",
+        "tramite": null,
+        "fecha": "2026-11-04T22:48:17Z"
+      },
+      {
+        "numero": "41",
+        "expediente": "25157",
+        "resultado": "Rechazada",
+        "asunto": "ADICIÓN DE UN ARTÍCULO 8 A LA LEY PARA LA REGULARIZACIÓN DE LAS CONSTRUCCIONES EXISTENTES EN LA ZONA RESTRINGIDA DE LA ZONA MARÍTIMO TERRESTRE, LEY N.°9242 DE 6 DE MAYO DE 2014",
         "tramite": "I día",
-        "fecha": "2026-10-29T21:48:27Z"
+        "fecha": "2026-11-04T21:00:42Z"
       },
       {
-        "numero": "Moción N.° 01-137",
-        "expediente": "25803",
-        "resultado": "Aprobada",
-        "asunto": "SEGUNDO PRESUPUESTO EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2026 Y SEGUNDA MODIFICACIÓN LEGISLATIVA DE LA LEY N° 10.836.",
+        "numero": "40",
+        "expediente": "25157",
+        "resultado": "Rechazada",
+        "asunto": "ADICIÓN DE UN ARTÍCULO 8 A LA LEY PARA LA REGULARIZACIÓN DE LAS CONSTRUCCIONES EXISTENTES EN LA ZONA RESTRINGIDA DE LA ZONA MARÍTIMO TERRESTRE, LEY N.°9242 DE 6 DE MAYO DE 2014",
         "tramite": "I día",
-        "fecha": "2026-10-29T21:47:10Z"
+        "fecha": "2026-11-04T20:59:58Z"
       },
       {
-        "numero": "020",
-        "expediente": "23144",
-        "resultado": "Pendiente",
-        "asunto": "Sesión N.° 71 Infraestructura",
-        "tramite": "124",
-        "fecha": "2026-10-29T19:45:58Z"
+        "numero": "39",
+        "expediente": "25157",
+        "resultado": "Rechazada",
+        "asunto": "ADICIÓN DE UN ARTÍCULO 8 A LA LEY PARA LA REGULARIZACIÓN DE LAS CONSTRUCCIONES EXISTENTES EN LA ZONA RESTRINGIDA DE LA ZONA MARÍTIMO TERRESTRE, LEY N.°9242 DE 6 DE MAYO DE 2014",
+        "tramite": "I día",
+        "fecha": "2026-11-04T20:59:09Z"
       },
       {
-        "numero": "019",
-        "expediente": "23144",
-        "resultado": "Pendiente",
-        "asunto": "Sesión N.° 71 Infraestructura",
-        "tramite": "124",
-        "fecha": "2026-10-29T19:45:20Z"
-      },
-      {
-        "numero": "018",
-        "expediente": "23144",
-        "resultado": "Pendiente",
-        "asunto": "Sesión N.° 71 Infraestructura",
-        "tramite": "124",
-        "fecha": "2026-10-29T19:44:33Z"
-      },
-      {
-        "numero": "017",
-        "expediente": "23144",
-        "resultado": "Pendiente",
-        "asunto": "Sesión N.° 71 Infraestructura",
-        "tramite": "124",
-        "fecha": "2026-10-29T19:44:00Z"
-      },
-      {
-        "numero": "016",
-        "expediente": "23144",
-        "resultado": "Pendiente",
-        "asunto": "Sesión N.° 71 Infraestructura",
-        "tramite": "124",
-        "fecha": "2026-10-29T19:43:20Z"
-      },
-      {
-        "numero": "021",
-        "expediente": "23144",
-        "resultado": "Pendiente",
-        "asunto": "Sesión N.°71 Infraestructura",
+        "numero": null,
+        "expediente": "25330",
+        "resultado": "Rechazada",
+        "asunto": "Investigación sobre el Informe de Auditoria Inamu-JD-AI-074-2025 del Programa \"Puntos Violeta\", incluyendo aspectos relacionados con su ejecución, resultados, gestión administrativa, uso de recursos, planificación institucional y competencias asignadas a",
         "tramite": null,
-        "fecha": "2026-10-29T19:43:18Z"
+        "fecha": "2026-11-04T20:58:02Z"
       },
       {
-        "numero": "022",
-        "expediente": "23144",
-        "resultado": "Pendiente",
-        "asunto": "Sesión N.° 71 Infraestructura",
-        "tramite": null,
-        "fecha": "2026-10-29T19:42:43Z"
+        "numero": "38",
+        "expediente": "25157",
+        "resultado": "Rechazada",
+        "asunto": "ADICIÓN DE UN ARTÍCULO 8 A LA LEY PARA LA REGULARIZACIÓN DE LAS CONSTRUCCIONES EXISTENTES EN LA ZONA RESTRINGIDA DE LA ZONA MARÍTIMO TERRESTRE, LEY N.°9242 DE 6 DE MAYO DE 2014",
+        "tramite": "I día",
+        "fecha": "2026-11-04T20:57:52Z"
       },
       {
-        "numero": "015",
-        "expediente": "23144",
-        "resultado": "Pendiente",
-        "asunto": "Sesión N.° 71 Infraestructura",
-        "tramite": "124",
-        "fecha": "2026-10-29T19:42:43Z"
+        "numero": "37",
+        "expediente": "25157",
+        "resultado": "Rechazada",
+        "asunto": "ADICIÓN DE UN ARTÍCULO 8 A LA LEY PARA LA REGULARIZACIÓN DE LAS CONSTRUCCIONES EXISTENTES EN LA ZONA RESTRINGIDA DE LA ZONA MARÍTIMO TERRESTRE, LEY N.°9242 DE 6 DE MAYO DE 2014",
+        "tramite": "I día",
+        "fecha": "2026-11-04T20:57:04Z"
       },
       {
-        "numero": "014",
-        "expediente": "23144",
-        "resultado": "Pendiente",
-        "asunto": "Sesión N.° 71 Infraestructura",
-        "tramite": "124",
-        "fecha": "2026-10-29T19:42:06Z"
+        "numero": "36",
+        "expediente": "25157",
+        "resultado": "Rechazada",
+        "asunto": "ADICIÓN DE UN ARTÍCULO 8 A LA LEY PARA LA REGULARIZACIÓN DE LAS CONSTRUCCIONES EXISTENTES EN LA ZONA RESTRINGIDA DE LA ZONA MARÍTIMO TERRESTRE, LEY N.°9242 DE 6 DE MAYO DE 2014",
+        "tramite": "I día",
+        "fecha": "2026-11-04T20:53:18Z"
       },
       {
-        "numero": "023",
-        "expediente": "23144",
-        "resultado": "Pendiente",
-        "asunto": "Sesión N.°71 Infraestructura",
-        "tramite": null,
-        "fecha": "2026-10-29T19:41:58Z"
+        "numero": "35",
+        "expediente": "25157",
+        "resultado": "Rechazada",
+        "asunto": "ADICIÓN DE UN ARTÍCULO 8 A LA LEY PARA LA REGULARIZACIÓN DE LAS CONSTRUCCIONES EXISTENTES EN LA ZONA RESTRINGIDA DE LA ZONA MARÍTIMO TERRESTRE, LEY N.°9242 DE 6 DE MAYO DE 2014",
+        "tramite": "I día",
+        "fecha": "2026-11-04T20:52:41Z"
       },
       {
-        "numero": "013",
-        "expediente": "23144",
-        "resultado": "Pendiente",
-        "asunto": "Sesión N.° 71 Infraestructura",
-        "tramite": "124",
-        "fecha": "2026-10-29T19:41:13Z"
+        "numero": "34",
+        "expediente": "25157",
+        "resultado": "Rechazada",
+        "asunto": "ADICIÓN DE UN ARTÍCULO 8 A LA LEY PARA LA REGULARIZACIÓN DE LAS CONSTRUCCIONES EXISTENTES EN LA ZONA RESTRINGIDA DE LA ZONA MARÍTIMO TERRESTRE, LEY N.°9242 DE 6 DE MAYO DE 2014",
+        "tramite": "I día",
+        "fecha": "2026-11-04T20:51:37Z"
       },
       {
-        "numero": "024",
-        "expediente": "23144",
-        "resultado": "Pendiente",
-        "asunto": "Sesión N.°71 Infraestructura",
-        "tramite": null,
-        "fecha": "2026-10-29T19:40:49Z"
+        "numero": "33",
+        "expediente": "25157",
+        "resultado": "Rechazada",
+        "asunto": "ADICIÓN DE UN ARTÍCULO 8 A LA LEY PARA LA REGULARIZACIÓN DE LAS CONSTRUCCIONES EXISTENTES EN LA ZONA RESTRINGIDA DE LA ZONA MARÍTIMO TERRESTRE, LEY N.°9242 DE 6 DE MAYO DE 2014",
+        "tramite": "I día",
+        "fecha": "2026-11-04T20:48:48Z"
       },
       {
-        "numero": "012",
-        "expediente": "23144",
-        "resultado": "Pendiente",
-        "asunto": "Sesión N.° 71 Infraestructura",
-        "tramite": "124",
-        "fecha": "2026-10-29T19:40:32Z"
+        "numero": "32",
+        "expediente": "25157",
+        "resultado": "Rechazada",
+        "asunto": "ADICIÓN DE UN ARTÍCULO 8 A LA LEY PARA LA REGULARIZACIÓN DE LAS CONSTRUCCIONES EXISTENTES EN LA ZONA RESTRINGIDA DE LA ZONA MARÍTIMO TERRESTRE, LEY N.°9242 DE 6 DE MAYO DE 2014",
+        "tramite": "I día",
+        "fecha": "2026-11-04T20:48:02Z"
       },
       {
-        "numero": "025",
-        "expediente": "23144",
-        "resultado": "Pendiente",
-        "asunto": "Sesión N.° 71 Infraestructura",
-        "tramite": null,
-        "fecha": "2026-10-29T19:40:13Z"
+        "numero": "31",
+        "expediente": "25157",
+        "resultado": "Rechazada",
+        "asunto": "ADICIÓN DE UN ARTÍCULO 8 A LA LEY PARA LA REGULARIZACIÓN DE LAS CONSTRUCCIONES EXISTENTES EN LA ZONA RESTRINGIDA DE LA ZONA MARÍTIMO TERRESTRE, LEY N.°9242 DE 6 DE MAYO DE 2014",
+        "tramite": "I día",
+        "fecha": "2026-11-04T20:47:25Z"
       },
       {
-        "numero": "011",
-        "expediente": "23144",
-        "resultado": "Pendiente",
-        "asunto": "Sesión N.° 71 Infraestructura",
-        "tramite": "124",
-        "fecha": "2026-10-29T19:39:57Z"
+        "numero": "30",
+        "expediente": "25157",
+        "resultado": "Rechazada",
+        "asunto": "ADICIÓN DE UN ARTÍCULO 8 A LA LEY PARA LA REGULARIZACIÓN DE LAS CONSTRUCCIONES EXISTENTES EN LA ZONA RESTRINGIDA DE LA ZONA MARÍTIMO TERRESTRE, LEY N.°9242 DE 6 DE MAYO DE 2014",
+        "tramite": "I día",
+        "fecha": "2026-11-04T20:46:42Z"
       },
       {
-        "numero": "026",
-        "expediente": "23144",
-        "resultado": "Pendiente",
-        "asunto": "Sesión N.°71 Infraestructura",
-        "tramite": null,
-        "fecha": "2026-10-29T19:39:31Z"
+        "numero": "29",
+        "expediente": "25157",
+        "resultado": "Rechazada",
+        "asunto": "ADICIÓN DE UN ARTÍCULO 8 A LA LEY PARA LA REGULARIZACIÓN DE LAS CONSTRUCCIONES EXISTENTES EN LA ZONA RESTRINGIDA DE LA ZONA MARÍTIMO TERRESTRE, LEY N.°9242 DE 6 DE MAYO DE 2014",
+        "tramite": "I día",
+        "fecha": "2026-11-04T20:45:43Z"
       },
       {
-        "numero": "010",
-        "expediente": "23144",
-        "resultado": "Pendiente",
-        "asunto": "Sesión N.° 71 Infraestructura",
-        "tramite": "124",
-        "fecha": "2026-10-29T19:39:16Z"
+        "numero": "28",
+        "expediente": "25157",
+        "resultado": "Rechazada",
+        "asunto": "ADICIÓN DE UN ARTÍCULO 8 A LA LEY PARA LA REGULARIZACIÓN DE LAS CONSTRUCCIONES EXISTENTES EN LA ZONA RESTRINGIDA DE LA ZONA MARÍTIMO TERRESTRE, LEY N.°9242 DE 6 DE MAYO DE 2014",
+        "tramite": "I día",
+        "fecha": "2026-11-04T20:42:49Z"
       },
       {
-        "numero": "027",
-        "expediente": "23144",
-        "resultado": "Pendiente",
-        "asunto": "Sesión N.°71 Infraestructura",
-        "tramite": null,
-        "fecha": "2026-10-29T19:38:53Z"
+        "numero": "27",
+        "expediente": "25157",
+        "resultado": "Rechazada",
+        "asunto": "ADICIÓN DE UN ARTÍCULO 8 A LA LEY PARA LA REGULARIZACIÓN DE LAS CONSTRUCCIONES EXISTENTES EN LA ZONA RESTRINGIDA DE LA ZONA MARÍTIMO TERRESTRE, LEY N.°9242 DE 6 DE MAYO DE 2014",
+        "tramite": "I día",
+        "fecha": "2026-11-04T20:40:06Z"
       },
       {
-        "numero": "009",
-        "expediente": "23144",
-        "resultado": "Pendiente",
-        "asunto": "Sesión N.° 71 Infraestructura",
-        "tramite": "124",
-        "fecha": "2026-10-29T19:38:33Z"
+        "numero": "26",
+        "expediente": "25157",
+        "resultado": "Rechazada",
+        "asunto": "ADICIÓN DE UN ARTÍCULO 8 A LA LEY PARA LA REGULARIZACIÓN DE LAS CONSTRUCCIONES EXISTENTES EN LA ZONA RESTRINGIDA DE LA ZONA MARÍTIMO TERRESTRE, LEY N.°9242 DE 6 DE MAYO DE 2014",
+        "tramite": "I día",
+        "fecha": "2026-11-04T20:39:24Z"
       },
       {
-        "numero": "028",
-        "expediente": "23144",
-        "resultado": "Pendiente",
-        "asunto": "Sesión N.°71 Infraestructura",
-        "tramite": null,
-        "fecha": "2026-10-29T19:37:59Z"
+        "numero": "25",
+        "expediente": "25157",
+        "resultado": "Rechazada",
+        "asunto": "ADICIÓN DE UN ARTÍCULO 8 A LA LEY PARA LA REGULARIZACIÓN DE LAS CONSTRUCCIONES EXISTENTES EN LA ZONA RESTRINGIDA DE LA ZONA MARÍTIMO TERRESTRE, LEY N.°9242 DE 6 DE MAYO DE 2014",
+        "tramite": "I día",
+        "fecha": "2026-11-04T20:37:44Z"
       },
       {
-        "numero": "008",
-        "expediente": "23144",
-        "resultado": "Pendiente",
-        "asunto": "Sesión N.° 71 Infraestructura",
-        "tramite": "124",
-        "fecha": "2026-10-29T19:37:47Z"
+        "numero": "24",
+        "expediente": "25157",
+        "resultado": "Rechazada",
+        "asunto": "ADICIÓN DE UN ARTÍCULO 8 A LA LEY PARA LA REGULARIZACIÓN DE LAS CONSTRUCCIONES EXISTENTES EN LA ZONA RESTRINGIDA DE LA ZONA MARÍTIMO TERRESTRE, LEY N.°9242 DE 6 DE MAYO DE 2014",
+        "tramite": "I día",
+        "fecha": "2026-11-04T20:37:03Z"
       },
       {
-        "numero": "029",
-        "expediente": "23144",
-        "resultado": "Pendiente",
-        "asunto": "Sesión N.°71 Infraestructura",
-        "tramite": null,
-        "fecha": "2026-10-29T19:37:22Z"
+        "numero": "23",
+        "expediente": "25157",
+        "resultado": "Rechazada",
+        "asunto": "ADICIÓN DE UN ARTÍCULO 8 A LA LEY PARA LA REGULARIZACIÓN DE LAS CONSTRUCCIONES EXISTENTES EN LA ZONA RESTRINGIDA DE LA ZONA MARÍTIMO TERRESTRE, LEY N.°9242 DE 6 DE MAYO DE 2014",
+        "tramite": "I día",
+        "fecha": "2026-11-04T20:35:52Z"
       },
       {
-        "numero": "007",
-        "expediente": "23144",
-        "resultado": "Pendiente",
-        "asunto": "Sesión N.° 71 Infraestructura",
-        "tramite": "124",
-        "fecha": "2026-10-29T19:37:05Z"
-      },
-      {
-        "numero": "030",
-        "expediente": "23144",
-        "resultado": "Pendiente",
-        "asunto": "Sesión N.°71 Infraestructura",
-        "tramite": null,
-        "fecha": "2026-10-29T19:36:47Z"
-      },
-      {
-        "numero": "031",
-        "expediente": "23144",
-        "resultado": "Pendiente",
-        "asunto": "Sesión N.°71 Infraestructura",
-        "tramite": null,
-        "fecha": "2026-10-29T19:35:52Z"
-      },
-      {
-        "numero": "006",
-        "expediente": "23144",
-        "resultado": "Pendiente",
-        "asunto": "Sesión N.° 71 Infraestructura",
-        "tramite": "124",
-        "fecha": "2026-10-29T19:35:48Z"
-      },
-      {
-        "numero": "032",
-        "expediente": "23144",
-        "resultado": "Pendiente",
-        "asunto": "Sesión N.°71 Infraestructura",
-        "tramite": null,
-        "fecha": "2026-10-29T19:35:09Z"
-      },
-      {
-        "numero": "033",
-        "expediente": "23144",
-        "resultado": "Pendiente",
-        "asunto": "Sesión N.°71 Infraestructura",
-        "tramite": null,
-        "fecha": "2026-10-29T19:34:36Z"
-      },
-      {
-        "numero": "005",
-        "expediente": "23144",
-        "resultado": "Pendiente",
-        "asunto": "Sesión N.° 71 Infraestructura",
-        "tramite": "124",
-        "fecha": "2026-10-29T19:33:15Z"
-      },
-      {
-        "numero": "034",
-        "expediente": "23144",
-        "resultado": "Pendiente",
-        "asunto": "Sesión N.° 71 Infraestructura",
-        "tramite": null,
-        "fecha": "2026-10-29T19:33:00Z"
-      },
-      {
-        "numero": "035",
-        "expediente": "23144",
-        "resultado": "Pendiente",
-        "asunto": "Sesión N.° 71 Infraestructura",
-        "tramite": null,
-        "fecha": "2026-10-29T19:32:15Z"
-      },
-      {
-        "numero": "004",
-        "expediente": "23144",
-        "resultado": "Pendiente",
-        "asunto": "Sesión N.° 71 Infraestructura",
-        "tramite": "124",
-        "fecha": "2026-10-29T19:31:10Z"
+        "numero": "22",
+        "expediente": "25157",
+        "resultado": "Rechazada",
+        "asunto": "ADICIÓN DE UN ARTÍCULO 8 A LA LEY PARA LA REGULARIZACIÓN DE LAS CONSTRUCCIONES EXISTENTES EN LA ZONA RESTRINGIDA DE LA ZONA MARÍTIMO TERRESTRE, LEY N.°9242 DE 6 DE MAYO DE 2014",
+        "tramite": "I día",
+        "fecha": "2026-11-04T20:35:09Z"
       }
     ]
   },
@@ -727,44 +727,19 @@
     "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('intervenciones_2026_2030')/items?%24top=5000&%24select=Id%2CDiputadoId%2CFileLeafRef%2CFileRef%2CModified%2CCreated&%24orderby=Modified%20desc",
     "total": 271,
     "ultima_actualizacion": "2026-10-15T17:02:34Z",
-    "diputaciones_con_registro": 56,
+    "diputaciones_con_registro": 55,
     "sin_registro": [
+      "eder-hernandez-ulloa",
       "juan-manuel-quesada-espinoza"
     ],
-    "avisos": [],
+    "avisos": [
+      "archivo sin diputacion conocida: Eder Hernández Ulloa, Setiembre 2026.docx",
+      "archivo sin diputacion conocida: Eder Hernández Ulloa, Agosto 2026.docx",
+      "archivo sin diputacion conocida: Hernández Ulloa, julio 2026.docx",
+      "archivo sin diputacion conocida: Hernández Ulloa, junio 2026.docx",
+      "archivo sin diputacion conocida: Hernández Ulloa, mayo 2026.docx"
+    ],
     "por_diputacion": {
-      "eder-hernandez-ulloa": [
-        {
-          "archivo": "Eder Hernández Ulloa, Setiembre 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Eder Hernández Ulloa, Setiembre 2026.docx",
-          "modificado": "2026-10-15T17:02:34Z"
-        },
-        {
-          "archivo": "Eder Hernández Ulloa, Agosto 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Eder Hernández Ulloa, Agosto 2026.docx",
-          "modificado": "2026-09-24T20:14:10Z"
-        },
-        {
-          "archivo": "Hernández Ulloa, julio 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Hernández Ulloa, julio 2026.docx",
-          "modificado": "2026-08-12T21:38:33Z"
-        },
-        {
-          "archivo": "Hernández Ulloa, junio 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Hernández Ulloa, junio 2026.docx",
-          "modificado": "2026-07-15T17:30:57Z"
-        },
-        {
-          "archivo": "Hernández Ulloa, mayo 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Hernández Ulloa, mayo 2026.docx",
-          "modificado": "2026-06-10T15:58:09Z"
-        }
-      ],
       "cindy-murillo-artavia": [
         {
           "archivo": "Cindy Murillo Artavia, Setiembre 2026.docx",
