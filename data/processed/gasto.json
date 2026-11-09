@@ -1,6 +1,6 @@
 {
  "_fuente": "https://www.asamblea.go.cr/pa/datosabiertos/SitePages/Inicio.aspx",
- "_extraido": "2026-11-09T19:21:45+00:00",
+ "_extraido": "2026-11-09T19:23:52+00:00",
  "periodo_desde": "2026-05",
  "salarios": {
   "2026-05": {
@@ -126,6 +126,11 @@
      "dieta": 2956598.55,
      "representacion": 1044116.2,
      "bruta": 4000714.75
+    },
+    "eder-hernandez-ulloa": {
+     "dieta": 2861224.41,
+     "representacion": 1010435.04,
+     "bruta": 3871659.45
     },
     "victor-hidalgo-solis": {
      "dieta": 2956598.55,
@@ -412,6 +417,11 @@
      "bruta": 3734000.45
     },
     "nayuribe-guadamuz-rosales": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "eder-hernandez-ulloa": {
      "dieta": 2956598.55,
      "representacion": 1044116.2,
      "bruta": 4000714.75
@@ -705,6 +715,11 @@
      "representacion": 1044116.2,
      "bruta": 4000714.75
     },
+    "eder-hernandez-ulloa": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
     "victor-hidalgo-solis": {
      "dieta": 2956598.55,
      "representacion": 1044116.2,
@@ -990,6 +1005,11 @@
      "bruta": 4000714.75
     },
     "nayuribe-guadamuz-rosales": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
+    "eder-hernandez-ulloa": {
      "dieta": 2956598.55,
      "representacion": 1044116.2,
      "bruta": 4000714.75
@@ -1283,6 +1303,11 @@
      "representacion": 1044116.2,
      "bruta": 4000714.75
     },
+    "eder-hernandez-ulloa": {
+     "dieta": 2956598.55,
+     "representacion": 1044116.2,
+     "bruta": 4000714.75
+    },
     "victor-hidalgo-solis": {
      "dieta": 2956598.55,
      "representacion": 1044116.2,
@@ -1572,6 +1597,11 @@
      "representacion": 1044116.2,
      "bruta": 4000714.75
     },
+    "eder-hernandez-ulloa": {
+     "dieta": 2903802.15,
+     "representacion": 1044116.2,
+     "bruta": 3947918.3499999996
+    },
     "victor-hidalgo-solis": {
      "dieta": 2845028.8,
      "representacion": 1044116.2,
@@ -1839,6 +1869,10 @@
      "monto": 42959.0,
      "renuncio": false
     },
+    "eder-hernandez-ulloa": {
+     "monto": 229980.0,
+     "renuncio": false
+    },
     "victor-hidalgo-solis": {
      "monto": 133204.0,
      "renuncio": false
@@ -2072,6 +2106,10 @@
     },
     "nayuribe-guadamuz-rosales": {
      "monto": 52447.0,
+     "renuncio": false
+    },
+    "eder-hernandez-ulloa": {
+     "monto": 441256.0,
      "renuncio": false
     },
     "victor-hidalgo-solis": {
@@ -2309,6 +2347,10 @@
      "monto": 122664.0,
      "renuncio": false
     },
+    "eder-hernandez-ulloa": {
+     "monto": 323097.0,
+     "renuncio": false
+    },
     "victor-hidalgo-solis": {
      "monto": 193346.0,
      "renuncio": false
@@ -2542,6 +2584,10 @@
     },
     "nayuribe-guadamuz-rosales": {
      "monto": 61433.0,
+     "renuncio": false
+    },
+    "eder-hernandez-ulloa": {
+     "monto": 240654.0,
      "renuncio": false
     },
     "victor-hidalgo-solis": {
@@ -2778,6 +2824,10 @@
      "monto": 45581.0,
      "renuncio": false
     },
+    "eder-hernandez-ulloa": {
+     "monto": 291740.0,
+     "renuncio": false
+    },
     "victor-hidalgo-solis": {
      "monto": 165402.0,
      "renuncio": false
@@ -2913,20 +2963,6 @@
    ]
   }
  },
- "avisos": [
-  "Salarios 2026-05: 56 diputaciones resueltas, no 57.",
-  "Salarios 2026-06: 56 diputaciones resueltas, no 57.",
-  "Salarios 2026-07: 56 diputaciones resueltas, no 57.",
-  "Salarios 2026-08: 56 diputaciones resueltas, no 57.",
-  "Salarios 2026-09: 56 diputaciones resueltas, no 57.",
-  "Salarios 2026-10: 56 diputaciones resueltas, no 57.",
-  "Combustible 2026-05: 56 diputaciones resueltas, no 57.",
-  "Combustible 2026-06: 56 diputaciones resueltas, no 57.",
-  "Combustible 2026-07: 56 diputaciones resueltas, no 57.",
-  "Combustible 2026-08: 56 diputaciones resueltas, no 57.",
-  "Combustible 2026-09: 56 diputaciones resueltas, no 57."
- ],
- "variantes_sin_resolver": {
-  "Hernández Ulloa Eder": 11
- }
+ "avisos": [],
+ "variantes_sin_resolver": {}
 }
