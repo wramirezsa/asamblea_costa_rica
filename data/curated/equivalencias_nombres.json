@@ -108,6 +108,14 @@
       "agregado": "2026-10-09"
     },
     {
+      "variante": "Eder Hernández Ulloa",
+      "slug": "eder-hernandez-ulloa",
+      "padron": "Éder Francisco Hernández Ulloa",
+      "visto_en": "Actas del Plenario (8 veces) y Excel de salarios y combustible del portal de datos abiertos («Hernández Ulloa Eder», 11 archivos), 2026-11-09",
+      "motivo": "Es el nombre con que el propio padrón oficial lo registraba hasta octubre de 2026 (Id 32), con la misma cédula 2-0670-0138 que el registro nuevo (Id 66). No es un cruce por parecido: es su nombre oficial anterior. Ver ADR-031.",
+      "agregado": "2026-11-09"
+    },
+    {
       "variante": "Kristel Ward Hudsun",
       "slug": "kristel-ward-hudson",
       "padron": "Kristel Ward Hudson",
