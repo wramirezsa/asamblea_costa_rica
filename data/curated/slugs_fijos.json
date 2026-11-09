@@ -1,0 +1,13 @@
+{
+  "descripcion": "Identificadores (slug) fijados a mano por cédula. El slug se deriva del nombre; si la Asamblea corrige el nombre en el padrón, aquí se conserva el anterior para que no se rompan la URL de la ficha, la curul (asignacion_curules.json) ni las equivalencias de nombres. El nombre que se muestra es siempre el oficial vigente. Se edita a mano; el ETL nunca lo sobreescribe. Ver ADR-031.",
+  "fijos": [
+    {
+      "cedula": "2-0670-0138",
+      "slug": "eder-hernandez-ulloa",
+      "nombre_anterior": "Eder Hernández Ulloa",
+      "nombre_nuevo": "Éder Francisco Hernández Ulloa",
+      "motivo": "El padrón oficial reemplazó el registro (Id 32 -> 66) y completó el nombre. Misma cédula: misma persona.",
+      "detectado": "2026-11-09"
+    }
+  ]
+}

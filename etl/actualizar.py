@@ -183,6 +183,22 @@ def preparar_subida(registro) -> list[str]:
         return _fallo_git(registro, "rev-parse", r)
     if r.stdout.strip() != "main":
         return [f"No se subieron los datos: la copia esta en «{r.stdout.strip()}», no en main."]
+    # Restos de una corrida cortada (ventana cerrada, suspensión): si solo son
+    # salidas del ETL, se descartan, porque esta corrida las regenera. El
+    # 2026-10-31 una corrida cortada frenó las siguientes nueve (ADR-031).
+    # Cualquier otro cambio local sí detiene todo: nunca se toca trabajo ajeno.
+    sucios = [linea[3:].strip().strip('"') for linea in git("status", "--porcelain").stdout.splitlines()]
+    if sucios:
+        ajenos_locales = [s for s in sucios if not any(s.startswith(p + "/") or s == p for p in RUTAS_DATOS)]
+        if ajenos_locales:
+            return [f"No se subieron los datos: hay {len(sucios)} archivo(s) modificados en la copia, "
+                    f"no todos del ETL («{ajenos_locales[0]}»). Revisarlos a mano."]
+        git("checkout", "--", *RUTAS_DATOS)
+        git("clean", "-fdq", "--", *RUTAS_DATOS)
+        aviso = (f"Se descartaron {len(sucios)} archivo(s) que dejo a medias una corrida "
+                 f"anterior cortada (solo salidas del ETL); esta corrida los regenera.")
+        registro.write(f"\n{aviso}\n")
+        print(f"  {aviso}")
     r = git("fetch", "-q", "origin", "main")
     if r.returncode != 0:
         return _fallo_git(registro, "fetch", r)

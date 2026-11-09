@@ -1263,3 +1263,38 @@ Workers AI el del día.
   cupo, no un error genérico.
 - Saludos y agradecimientos («hola», «gracias») se responden sin IA, también
   a media conversación (`respuestaSaludo`, `prueba/saludos.test.ts`).
+
+## ADR-031 — Identificador fijo por cédula y corridas cortadas que no frenan las siguientes
+
+**Fecha:** 2026-11-09
+
+**Qué pasó.** Del 31 de octubre al 9 de noviembre el padrón, la actividad y
+el gasto no se actualizaron, aunque la tarea programada corrió cada día. El
+31, la corrida se cortó en medio de `fetch_actividad` (`0xC000013A`: ventana
+cerrada o suspensión) y dejó salidas del ETL a medias en la copia. Desde
+entonces `preparar_subida` encontraba la copia con cambios, el `pull
+--rebase` fallaba y la tarea terminaba con código 2 sin extraer nada. El
+sitio siguió en pie con esos datos fechados, y las actas siguieron llegando
+desde la nube.
+
+Al destrabarlo apareció un segundo hallazgo: **el padrón oficial cambió un
+nombre**. «Eder Hernández Ulloa» pasó a «Éder Francisco Hernández Ulloa»; el
+registro de SharePoint es nuevo (Id 32 → 66), pero la cédula es la misma
+(2-0670-0138): es la misma persona. Como el slug se deriva del nombre,
+cambiaba de `eder-hernandez-ulloa` a `eder-francisco-hernandez-ulloa`, y eso
+rompía la curul, la equivalencia de nombres y las URL compartidas de su
+ficha. `fetch_gasto` lo detectó y se detuvo, como debe: no adivinó.
+
+**Decisiones.**
+- `data/curated/slugs_fijos.json`: slugs fijados a mano **por cédula**, con
+  su motivo. `fetch_diputados.py` los aplica y lo declara en el registro
+  (`slug_fijado_por`, `slug_derivado_del_nombre`). El nombre que se muestra
+  es siempre el oficial vigente; solo el identificador se conserva. Se
+  cruza por cédula, nunca por parecido del nombre. El ETL nunca lo
+  sobreescribe.
+- `actualizar.py --subir`: si la copia tiene cambios y **todos** son salidas
+  del ETL (`data/raw`, `data/processed`, `data/assets`), se descartan y se
+  avisa en la bitácora; la corrida los regenera. Cualquier otro cambio
+  sigue deteniendo todo.
+- Pendiente, a decisión del dueño de la computadora: correr la tarea con
+  `pythonw.exe` (sin ventana que se pueda cerrar) y con `WakeToRun`.

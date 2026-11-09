@@ -32,6 +32,9 @@ from lib.sharepoint import (  # noqa: E402
 RAIZ = Path(__file__).resolve().parent.parent
 CRUDO = RAIZ / "data" / "raw"
 PROCESADO = RAIZ / "data" / "processed"
+# Identificadores fijados a mano por cédula (ADR-031): si la Asamblea corrige
+# un nombre, la URL de la ficha, la curul y las equivalencias no se rompen.
+SLUGS_FIJOS = RAIZ / "data" / "curated" / "slugs_fijos.json"
 
 SITIO = "Diputados"
 LISTA_DIPUTADOS = "Diputados_y_Diputadas_2026_2030"
@@ -153,6 +156,16 @@ def main() -> int:
         json.dumps(dips_crudo, ensure_ascii=False, indent=2), encoding="utf-8"
     )
     diputados = [normalizar_diputado(it, url_dips, extraido) for it in dips_crudo]
+    fijos = {}
+    if SLUGS_FIJOS.exists():
+        fijos = {f["cedula"]: f for f in json.loads(SLUGS_FIJOS.read_text(encoding="utf-8"))["fijos"]}
+    for d in diputados:
+        f = fijos.get(d["cedula"])
+        if f and d["slug"] != f["slug"]:
+            print(f"      slug fijado por cedula: {d['nombre']} -> {f['slug']} (el nombre daria {d['slug']})")
+            d["slug_derivado_del_nombre"] = d["slug"]
+            d["slug"] = f["slug"]
+            d["slug_fijado_por"] = "data/curated/slugs_fijos.json"
     print(f"      {len(diputados)} diputaciones")
 
     print("[2/3] Fracciones parlamentarias...")
