@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-10T12:00:30+00:00",
+  "generado": "2026-11-11T12:00:27+00:00",
   "nota": "Solo se incluyen conjuntos que la Asamblea mantiene al día. Cada uno trae su propia fecha de última actualización, tomada de la fuente.",
   "leyes": {
     "_fuente": "https://www.asamblea.go.cr/glcp/_api/web/lists/getbytitle('res_de_leyes')/items?%24top=2000&%24orderby=Modified%20desc",
@@ -382,14 +382,14 @@
   },
   "mociones": {
     "_fuente": "https://www.asamblea.go.cr/glcp/_api/web/lists/getbytitle('mociones_total')/items?%24top=5000&%24orderby=Id%20desc",
-    "total": 27902,
-    "nota_alcance": "Agregados calculados sobre las 27902 mociones que devuelve la lista completa, no sobre una muestra.",
-    "ultima_actualizacion": "2026-11-06T19:31:47Z",
+    "total": 27914,
+    "nota_alcance": "Agregados calculados sobre las 27914 mociones que devuelve la lista completa, no sobre una muestra.",
+    "ultima_actualizacion": "2026-11-10T22:31:38Z",
     "por_resultado": {
-      "Rechazada": 23667,
-      "Aprobada": 3645,
+      "Rechazada": 23673,
+      "Aprobada": 3650,
       "Retirada": 399,
-      "Pendiente": 190,
+      "Pendiente": 191,
       "Revisión": 1
     },
     "por_anio": {
@@ -397,10 +397,106 @@
       "2023": 3827,
       "2024": 4729,
       "2025": 9086,
-      "2026": 7010
+      "2026": 7022
     },
-    "expedientes_distintos": 1269,
+    "expedientes_distintos": 1270,
     "recientes": [
+      {
+        "numero": "Moción N.° 16-137",
+        "expediente": "25803",
+        "resultado": "Aprobada",
+        "asunto": "SEGUNDO PRESUPUESTO EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2026 Y SEGUNDA MODIFICACIÓN LEGISLATIVA DE LA LEY N° 10.836.",
+        "tramite": "I día",
+        "fecha": "2026-11-10T22:30:56Z"
+      },
+      {
+        "numero": "Moción N.° 15-137",
+        "expediente": "25803",
+        "resultado": "Rechazada",
+        "asunto": "SEGUNDO PRESUPUESTO EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2026 Y SEGUNDA MODIFICACIÓN LEGISLATIVA DE LA LEY N° 10.836.",
+        "tramite": "I día",
+        "fecha": "2026-11-10T22:28:50Z"
+      },
+      {
+        "numero": "Moción N.° 14-137",
+        "expediente": "25803",
+        "resultado": "Rechazada",
+        "asunto": "SEGUNDO PRESUPUESTO EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2026 Y SEGUNDA MODIFICACIÓN LEGISLATIVA DE LA LEY N° 10.836.",
+        "tramite": "I día",
+        "fecha": "2026-11-10T22:27:59Z"
+      },
+      {
+        "numero": "Moción N.°13-137",
+        "expediente": "25803",
+        "resultado": "Rechazada",
+        "asunto": "SEGUNDO PRESUPUESTO EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2026 Y SEGUNDA MODIFICACIÓN LEGISLATIVA DE LA LEY N° 10.836.",
+        "tramite": "I día",
+        "fecha": "2026-11-10T22:26:43Z"
+      },
+      {
+        "numero": "Moción N.° 12-137",
+        "expediente": "25803",
+        "resultado": "Rechazada",
+        "asunto": "SEGUNDO PRESUPUESTO EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2026 Y SEGUNDA MODIFICACIÓN LEGISLATIVA DE LA LEY N° 10.836.",
+        "tramite": "I día",
+        "fecha": "2026-11-10T22:22:10Z"
+      },
+      {
+        "numero": "Moción N.° 11-137",
+        "expediente": "25803",
+        "resultado": "Aprobada",
+        "asunto": "SEGUNDO PRESUPUESTO EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2026 Y SEGUNDA MODIFICACIÓN LEGISLATIVA DE LA LEY N° 10.836.",
+        "tramite": "I día",
+        "fecha": "2026-11-10T22:15:37Z"
+      },
+      {
+        "numero": "Moción N.° 10-137",
+        "expediente": "25803",
+        "resultado": "Aprobada",
+        "asunto": "SEGUNDO PRESUPUESTO EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2026 Y SEGUNDA MODIFICACIÓN LEGISLATIVA DE LA LEY N° 10.836.",
+        "tramite": "I día",
+        "fecha": "2026-11-10T22:14:31Z"
+      },
+      {
+        "numero": "Moción N.° 9-137",
+        "expediente": "25803",
+        "resultado": "Aprobada",
+        "asunto": "SEGUNDO PRESUPUESTO EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2026 Y SEGUNDA MODIFICACIÓN LEGISLATIVA DE LA LEY N° 10.836.",
+        "tramite": "I día",
+        "fecha": "2026-11-10T22:10:33Z"
+      },
+      {
+        "numero": "24717-137-II-69",
+        "expediente": "24717",
+        "resultado": "Rechazada",
+        "asunto": "LEY PARA REGULAR LA EXPLORACIÓN Y EXPLOTACIÓN DE MINERÍA METÁLICA SOSTENIBLE EN EL DISTRITO DE CUTRIS DEL CANTÓN DE SAN CARLOS, PROVINCIA DE ALAJUELA. REFORMAS Y ADICIONES AL CÓDIGO DE MINERÍA, LEY NO. 6797 DEL 04 DE OCTUBRE DE 1982 Y SUS REFORMAS. ANTES",
+        "tramite": "II día",
+        "fecha": "2026-11-10T21:22:31Z"
+      },
+      {
+        "numero": "24717-137-II-67",
+        "expediente": "24717",
+        "resultado": "Rechazada",
+        "asunto": "LEY PARA REGULAR LA EXPLORACIÓN Y EXPLOTACIÓN DE MINERÍA METÁLICA SOSTENIBLE EN EL DISTRITO DE CUTRIS DEL CANTÓN DE SAN CARLOS, PROVINCIA DE ALAJUELA. REFORMAS Y ADICIONES AL CÓDIGO DE MINERÍA, LEY NO. 6797 DEL 04 DE OCTUBRE DE 1982 Y SUS REFORMAS. ANTES",
+        "tramite": "II día",
+        "fecha": "2026-11-10T21:21:45Z"
+      },
+      {
+        "numero": "0003",
+        "expediente": "25498",
+        "resultado": "Pendiente",
+        "asunto": "REFORMA AL INCISO E) DEL ARTÍCULO 2 Y ADICIÓN DE UN NUEVO INCISO K) AL ARTÍCULO 3, AMBOS DE LA LEY GENERAL DE CONTRATACIÓN PÚBLICA, LEY N° 9986 DE 27 DE MAYO DE 2021 Y SUS REFORMAS",
+        "tramite": null,
+        "fecha": "2026-11-10T21:00:30Z"
+      },
+      {
+        "numero": null,
+        "expediente": "25498",
+        "resultado": "Aprobada",
+        "asunto": "REFORMA AL INCISO E) DEL ARTÍCULO 2 Y ADICIÓN DE UN NUEVO INCISO K) AL ARTÍCULO 3, AMBOS DE LA LEY GENERAL DE CONTRATACIÓN PÚBLICA, LEY N° 9986 DE 27 DE MAYO DE 2021 Y SUS REFORMAS",
+        "tramite": null,
+        "fecha": "2026-11-10T20:59:34Z"
+      },
       {
         "numero": "01-16",
         "expediente": "25698",
@@ -624,102 +720,6 @@
         "asunto": "ADICIÓN DE UN ARTÍCULO 8 A LA LEY PARA LA REGULARIZACIÓN DE LAS CONSTRUCCIONES EXISTENTES EN LA ZONA RESTRINGIDA DE LA ZONA MARÍTIMO TERRESTRE, LEY N.°9242 DE 6 DE MAYO DE 2014",
         "tramite": "I día",
         "fecha": "2026-11-04T20:51:37Z"
-      },
-      {
-        "numero": "33",
-        "expediente": "25157",
-        "resultado": "Rechazada",
-        "asunto": "ADICIÓN DE UN ARTÍCULO 8 A LA LEY PARA LA REGULARIZACIÓN DE LAS CONSTRUCCIONES EXISTENTES EN LA ZONA RESTRINGIDA DE LA ZONA MARÍTIMO TERRESTRE, LEY N.°9242 DE 6 DE MAYO DE 2014",
-        "tramite": "I día",
-        "fecha": "2026-11-04T20:48:48Z"
-      },
-      {
-        "numero": "32",
-        "expediente": "25157",
-        "resultado": "Rechazada",
-        "asunto": "ADICIÓN DE UN ARTÍCULO 8 A LA LEY PARA LA REGULARIZACIÓN DE LAS CONSTRUCCIONES EXISTENTES EN LA ZONA RESTRINGIDA DE LA ZONA MARÍTIMO TERRESTRE, LEY N.°9242 DE 6 DE MAYO DE 2014",
-        "tramite": "I día",
-        "fecha": "2026-11-04T20:48:02Z"
-      },
-      {
-        "numero": "31",
-        "expediente": "25157",
-        "resultado": "Rechazada",
-        "asunto": "ADICIÓN DE UN ARTÍCULO 8 A LA LEY PARA LA REGULARIZACIÓN DE LAS CONSTRUCCIONES EXISTENTES EN LA ZONA RESTRINGIDA DE LA ZONA MARÍTIMO TERRESTRE, LEY N.°9242 DE 6 DE MAYO DE 2014",
-        "tramite": "I día",
-        "fecha": "2026-11-04T20:47:25Z"
-      },
-      {
-        "numero": "30",
-        "expediente": "25157",
-        "resultado": "Rechazada",
-        "asunto": "ADICIÓN DE UN ARTÍCULO 8 A LA LEY PARA LA REGULARIZACIÓN DE LAS CONSTRUCCIONES EXISTENTES EN LA ZONA RESTRINGIDA DE LA ZONA MARÍTIMO TERRESTRE, LEY N.°9242 DE 6 DE MAYO DE 2014",
-        "tramite": "I día",
-        "fecha": "2026-11-04T20:46:42Z"
-      },
-      {
-        "numero": "29",
-        "expediente": "25157",
-        "resultado": "Rechazada",
-        "asunto": "ADICIÓN DE UN ARTÍCULO 8 A LA LEY PARA LA REGULARIZACIÓN DE LAS CONSTRUCCIONES EXISTENTES EN LA ZONA RESTRINGIDA DE LA ZONA MARÍTIMO TERRESTRE, LEY N.°9242 DE 6 DE MAYO DE 2014",
-        "tramite": "I día",
-        "fecha": "2026-11-04T20:45:43Z"
-      },
-      {
-        "numero": "28",
-        "expediente": "25157",
-        "resultado": "Rechazada",
-        "asunto": "ADICIÓN DE UN ARTÍCULO 8 A LA LEY PARA LA REGULARIZACIÓN DE LAS CONSTRUCCIONES EXISTENTES EN LA ZONA RESTRINGIDA DE LA ZONA MARÍTIMO TERRESTRE, LEY N.°9242 DE 6 DE MAYO DE 2014",
-        "tramite": "I día",
-        "fecha": "2026-11-04T20:42:49Z"
-      },
-      {
-        "numero": "27",
-        "expediente": "25157",
-        "resultado": "Rechazada",
-        "asunto": "ADICIÓN DE UN ARTÍCULO 8 A LA LEY PARA LA REGULARIZACIÓN DE LAS CONSTRUCCIONES EXISTENTES EN LA ZONA RESTRINGIDA DE LA ZONA MARÍTIMO TERRESTRE, LEY N.°9242 DE 6 DE MAYO DE 2014",
-        "tramite": "I día",
-        "fecha": "2026-11-04T20:40:06Z"
-      },
-      {
-        "numero": "26",
-        "expediente": "25157",
-        "resultado": "Rechazada",
-        "asunto": "ADICIÓN DE UN ARTÍCULO 8 A LA LEY PARA LA REGULARIZACIÓN DE LAS CONSTRUCCIONES EXISTENTES EN LA ZONA RESTRINGIDA DE LA ZONA MARÍTIMO TERRESTRE, LEY N.°9242 DE 6 DE MAYO DE 2014",
-        "tramite": "I día",
-        "fecha": "2026-11-04T20:39:24Z"
-      },
-      {
-        "numero": "25",
-        "expediente": "25157",
-        "resultado": "Rechazada",
-        "asunto": "ADICIÓN DE UN ARTÍCULO 8 A LA LEY PARA LA REGULARIZACIÓN DE LAS CONSTRUCCIONES EXISTENTES EN LA ZONA RESTRINGIDA DE LA ZONA MARÍTIMO TERRESTRE, LEY N.°9242 DE 6 DE MAYO DE 2014",
-        "tramite": "I día",
-        "fecha": "2026-11-04T20:37:44Z"
-      },
-      {
-        "numero": "24",
-        "expediente": "25157",
-        "resultado": "Rechazada",
-        "asunto": "ADICIÓN DE UN ARTÍCULO 8 A LA LEY PARA LA REGULARIZACIÓN DE LAS CONSTRUCCIONES EXISTENTES EN LA ZONA RESTRINGIDA DE LA ZONA MARÍTIMO TERRESTRE, LEY N.°9242 DE 6 DE MAYO DE 2014",
-        "tramite": "I día",
-        "fecha": "2026-11-04T20:37:03Z"
-      },
-      {
-        "numero": "23",
-        "expediente": "25157",
-        "resultado": "Rechazada",
-        "asunto": "ADICIÓN DE UN ARTÍCULO 8 A LA LEY PARA LA REGULARIZACIÓN DE LAS CONSTRUCCIONES EXISTENTES EN LA ZONA RESTRINGIDA DE LA ZONA MARÍTIMO TERRESTRE, LEY N.°9242 DE 6 DE MAYO DE 2014",
-        "tramite": "I día",
-        "fecha": "2026-11-04T20:35:52Z"
-      },
-      {
-        "numero": "22",
-        "expediente": "25157",
-        "resultado": "Rechazada",
-        "asunto": "ADICIÓN DE UN ARTÍCULO 8 A LA LEY PARA LA REGULARIZACIÓN DE LAS CONSTRUCCIONES EXISTENTES EN LA ZONA RESTRINGIDA DE LA ZONA MARÍTIMO TERRESTRE, LEY N.°9242 DE 6 DE MAYO DE 2014",
-        "tramite": "I día",
-        "fecha": "2026-11-04T20:35:09Z"
       }
     ]
   },
