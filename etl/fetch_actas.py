@@ -221,8 +221,13 @@ def main() -> int:
     destino = PROCESADO / "actas_plenario.json"
     procesadas = set()
     if args.solo_nuevas and destino.exists():
+        # Una sesión con votaciones retenidas (el acta no cuadra) no cuenta
+        # como procesada: se vuelve a bajar, por si la Asamblea corrigió el
+        # acta. Las de noviembre de 2026 venían sin los nombres de quienes
+        # no votaron (ADR-031).
         procesadas = {str(s["sil"]["Id_Orden_Dia"]) for s in
-                      json.loads(destino.read_text(encoding="utf-8")).get("sesiones", [])}
+                      json.loads(destino.read_text(encoding="utf-8")).get("sesiones", [])
+                      if all(v.get("publicable", True) for v in s.get("votaciones", []))}
 
     subtitulo = votaciones_del_subtitulo()
     sesiones, sin_documento = [], []

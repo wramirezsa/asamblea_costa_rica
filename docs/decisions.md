@@ -1298,3 +1298,18 @@ ficha. `fetch_gasto` lo detectó y se detuvo, como debe: no adivinó.
   sigue deteniendo todo.
 - Pendiente, a decisión del dueño de la computadora: correr la tarea con
   `pythonw.exe` (sin ventana que se pueda cerrar) y con `WakeToRun`.
+
+### ADR-031, actualización 2026-11-12 — las actas que no cuadran se vuelven a revisar
+
+Desde el 5 de noviembre aparecieron votaciones cuyo acta declara «No-Votación
+(Total: N)» sin listar ningún nombre. Se verificó en el XML del .docx (sesión
+91): donde van los nombres hay párrafos vacíos, sin tablas, cuadros de texto
+ni texto oculto. El acta oficial viene así; el lector no se salta nada. Esas
+votaciones se retienen (regla número uno).
+
+Pero con `--solo-nuevas` (la nube) una sesión ya procesada no se volvía a
+bajar nunca: si la Asamblea corregía el acta, el sitio no se enteraba. Ahora
+una sesión con alguna votación no publicable no cuenta como procesada y se
+vuelve a bajar en cada corrida, mientras siga en la ventana de días que
+revisa `actualizar.py`. Al probarlo, el acta de la sesión 92 ya venía
+corregida: 2 de sus 3 votaciones retenidas pasaron a cuadrar.
