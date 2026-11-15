@@ -1,10 +1,10 @@
 {
-  "generado": "2026-11-12T16:36:23+00:00",
+  "generado": "2026-11-15T15:36:18+00:00",
   "nota": "Solo se incluyen conjuntos que la Asamblea mantiene al día. Cada uno trae su propia fecha de última actualización, tomada de la fuente.",
   "leyes": {
     "_fuente": "https://www.asamblea.go.cr/glcp/_api/web/lists/getbytitle('res_de_leyes')/items?%24top=2000&%24orderby=Modified%20desc",
-    "total": 1634,
-    "ultima_actualizacion": "2026-11-02T15:41:39Z",
+    "total": 1635,
+    "ultima_actualizacion": "2026-11-13T17:29:23Z",
     "por_anio": {
       "2017": 7,
       "2018": 253,
@@ -15,9 +15,15 @@
       "2023": 97,
       "2024": 189,
       "2025": 214,
-      "2026": 151
+      "2026": 152
     },
     "recientes": [
+      {
+        "numero": "10932",
+        "titulo": "REFORMA DE LOS ARTÍCULOS 155 Y 155 BIS DE LA LEY 9078, LEY DE TRÁNSITO POR VÍAS PÚBLICAS TERRESTRES Y SEGURIDAD VIAL, DEL 4 DE OCTUBRE DE 2012, Y ADICIÓN DE UN INCISO O) AL ARTÍCULO 9 DE LA LEY 7088, REAJUSTE TRIBUTARIO Y RESOLUCION 18A CONSEJO ARANCELARI",
+        "resumen": "El proyecto de ley, expediente 24082, reforma la Ley de Tránsito para agilizar la disposición de vehículos no reclamados que permanecen en depósitos del Cosevi. Establece procedimientos para levantar gravámenes judiciales, prendarios y administrativos, permite la condonación de multas e impuestos asociados, y regula su remate o donación cuando no sean retirados por sus propietarios. Además, autoriza remates especiale",
+        "publicada": "2026-11-13T17:29:23Z"
+      },
       {
         "numero": "10978",
         "titulo": "REFORMA DEL ARTÍCULO 17 BIS DE LA LEY N.º 7818, LEY ORGÁNICA DE LA AGRICULTURA E INDUSTRIA DE LA CAÑA DE AZÚCAR, DEL 2 DE SETIEMBRE DE 1998",
@@ -371,23 +377,17 @@
         "titulo": "FOMENTO A LA INFRAESTRUCTURA DE RECARGA ELÉCTRICA Y ESTRATEGIAS PARA LA MOVILIDAD SOSTENIBLE",
         "resumen": "Se reforman los artículos 31 y 32 para autorizar la instalación y operación de centros de recarga eléctrica, declarar la recarga como servicio de interés general y establecer tarifas reguladas y fiscalización por la Aresep\n\nLa presente ley surge del expediente N.° 24.171.",
         "publicada": "2026-04-22T17:43:24Z"
-      },
-      {
-        "numero": "10941",
-        "titulo": "ADICIÓN DE LOS INCISOS 14) Y 15) AL ARTÍCULO 4 DE LA LEY 5524, LEY ORGÁNICA DEL ORGANISMO DE INVESTIGACIÓN JUDICIAL (OIJ), DE 7 DE MAYO DE 1974. ESTABLECIMIENTO DEL SEGUIMIENTO, BASE DE DATOS Y BANCO DE DATOS GENÉTICOS DE PERSONAS CONDENADAS EN FIRME POR",
-        "resumen": "Se adicionan atribuciones al OIJ para crear una base y banco genético de condenados por delitos sexuales y darles seguimiento tras cumplir la pena, bajo estricta confidencialidad y protección de datos.\n\nLa presente ley surge del expediente N.° 24.327.",
-        "publicada": "2026-04-22T18:04:12Z"
       }
     ]
   },
   "mociones": {
     "_fuente": "https://www.asamblea.go.cr/glcp/_api/web/lists/getbytitle('mociones_total')/items?%24top=5000&%24orderby=Id%20desc",
-    "total": 27953,
-    "nota_alcance": "Agregados calculados sobre las 27953 mociones que devuelve la lista completa, no sobre una muestra.",
-    "ultima_actualizacion": "2026-11-12T14:09:40Z",
+    "total": 27960,
+    "nota_alcance": "Agregados calculados sobre las 27960 mociones que devuelve la lista completa, no sobre una muestra.",
+    "ultima_actualizacion": "2026-11-13T19:09:09Z",
     "por_resultado": {
-      "Rechazada": 23708,
-      "Aprobada": 3655,
+      "Rechazada": 23709,
+      "Aprobada": 3661,
       "Retirada": 399,
       "Pendiente": 190,
       "Revisión": 1
@@ -397,10 +397,66 @@
       "2023": 3827,
       "2024": 4729,
       "2025": 9086,
-      "2026": 7061
+      "2026": 7068
     },
-    "expedientes_distintos": 1271,
+    "expedientes_distintos": 1274,
     "recientes": [
+      {
+        "numero": "02-27",
+        "expediente": "25684",
+        "resultado": "Aprobada",
+        "asunto": "REFORMA A LA LEY DE USO, MANEJO Y CONSERVACIÓN DE SUELOS N°7779 DE 30 DE ABRIL DE 1998 Y SUS REFORMAS, Y A LA LEY DE TIERRAS Y COLONIZACIÓN, LEY N°2825 DE 14 DE OCTUBRE DE 1961 Y SUS REFORMAS, PARA ADECUARLAS A LAS COMPETENCIAS DEL INSTITUTO DE DESARROLLO",
+        "tramite": "I día",
+        "fecha": "2026-11-13T18:59:17Z"
+      },
+      {
+        "numero": null,
+        "expediente": "25684",
+        "resultado": "Aprobada",
+        "asunto": "REFORMA A LA LEY DE USO, MANEJO Y CONSERVACIÓN DE SUELOS N°7779 DE 30 DE ABRIL DE 1998 Y SUS REFORMAS, Y A LA LEY DE TIERRAS Y COLONIZACIÓN, LEY N°2825 DE 14 DE OCTUBRE DE 1961 Y SUS REFORMAS, PARA ADECUARLAS A LAS COMPETENCIAS DEL INSTITUTO DE DESARROLLO",
+        "tramite": "I día",
+        "fecha": "2026-11-13T18:58:20Z"
+      },
+      {
+        "numero": null,
+        "expediente": "25780",
+        "resultado": "Aprobada",
+        "asunto": "Aprobación del Tratado entre la República de Costa Rica y la República de Corea sobre Extradición",
+        "tramite": null,
+        "fecha": "2026-11-12T22:15:19Z"
+      },
+      {
+        "numero": null,
+        "expediente": "25780",
+        "resultado": "Aprobada",
+        "asunto": "Aprobación del Tratado entre la República de Costa Rica y la República de Corea sobre Extradición",
+        "tramite": null,
+        "fecha": "2026-11-12T22:06:23Z"
+      },
+      {
+        "numero": "0002",
+        "expediente": "25618",
+        "resultado": "Rechazada",
+        "asunto": "LEY PARA SANCIONAR E INHABILITAR LAS PISTAS DE ATERRIZAJE CLANDESTINAS Y NO AUTORIZADAS VINCULADAS A ACTIVIDADES ILÍCITAS",
+        "tramite": null,
+        "fecha": "2026-11-12T18:29:31Z"
+      },
+      {
+        "numero": "0001",
+        "expediente": "25618",
+        "resultado": "Aprobada",
+        "asunto": "LEY PARA SANCIONAR E INHABILITAR LAS PISTAS DE ATERRIZAJE CLANDESTINAS Y NO AUTORIZADAS VINCULADAS A ACTIVIDADES ILÍCITAS",
+        "tramite": null,
+        "fecha": "2026-11-12T18:29:13Z"
+      },
+      {
+        "numero": null,
+        "expediente": "25618",
+        "resultado": "Aprobada",
+        "asunto": "LEY PARA SANCIONAR E INHABILITAR LAS PISTAS DE ATERRIZAJE CLANDESTINAS Y NO AUTORIZADAS VINCULADAS A ACTIVIDADES ILÍCITAS",
+        "tramite": null,
+        "fecha": "2026-11-12T18:28:17Z"
+      },
       {
         "numero": "Moción N.° 18-137",
         "expediente": "25803",
@@ -664,69 +720,13 @@
         "asunto": "LEY PARA REGULAR LA EXPLORACIÓN Y EXPLOTACIÓN DE MINERÍA METÁLICA SOSTENIBLE EN EL DISTRITO DE CUTRIS DEL CANTÓN DE SAN CARLOS, PROVINCIA DE ALAJUELA. REFORMAS Y ADICIONES AL CÓDIGO DE MINERÍA, LEY NO. 6797 DEL 04 DE OCTUBRE DE 1982 Y SUS REFORMAS. ANTES",
         "tramite": "II día",
         "fecha": "2026-11-11T20:46:42Z"
-      },
-      {
-        "numero": "24717-II-137-78",
-        "expediente": "24717",
-        "resultado": "Rechazada",
-        "asunto": "LEY PARA REGULAR LA EXPLORACIÓN Y EXPLOTACIÓN DE MINERÍA METÁLICA SOSTENIBLE EN EL DISTRITO DE CUTRIS DEL CANTÓN DE SAN CARLOS, PROVINCIA DE ALAJUELA. REFORMAS Y ADICIONES AL CÓDIGO DE MINERÍA, LEY NO. 6797 DEL 04 DE OCTUBRE DE 1982 Y SUS REFORMAS. ANTES",
-        "tramite": "II día",
-        "fecha": "2026-11-11T20:46:05Z"
-      },
-      {
-        "numero": "24717-II-137-76",
-        "expediente": "24717",
-        "resultado": "Rechazada",
-        "asunto": "LEY PARA REGULAR LA EXPLORACIÓN Y EXPLOTACIÓN DE MINERÍA METÁLICA SOSTENIBLE EN EL DISTRITO DE CUTRIS DEL CANTÓN DE SAN CARLOS, PROVINCIA DE ALAJUELA. REFORMAS Y ADICIONES AL CÓDIGO DE MINERÍA, LEY NO. 6797 DEL 04 DE OCTUBRE DE 1982 Y SUS REFORMAS. ANTES",
-        "tramite": "II día",
-        "fecha": "2026-11-11T20:45:21Z"
-      },
-      {
-        "numero": "08-26",
-        "expediente": "25725",
-        "resultado": "Rechazada",
-        "asunto": "LEY PARA EL DESARROLLO DEL PROYECTO DE CIUDAD GOBIERNO",
-        "tramite": "I día",
-        "fecha": "2026-11-11T16:51:21Z"
-      },
-      {
-        "numero": "06-26",
-        "expediente": "25725",
-        "resultado": "Rechazada",
-        "asunto": "LEY PARA EL DESARROLLO DEL PROYECTO DE CIUDAD GOBIERNO",
-        "tramite": "I día",
-        "fecha": "2026-11-11T16:50:52Z"
-      },
-      {
-        "numero": "04-26",
-        "expediente": "25725",
-        "resultado": "Rechazada",
-        "asunto": "LEY PARA EL DESARROLLO DEL PROYECTO DE CIUDAD GOBIERNO",
-        "tramite": "I día",
-        "fecha": "2026-11-11T16:49:29Z"
-      },
-      {
-        "numero": "02-26",
-        "expediente": "25725",
-        "resultado": "Aprobada",
-        "asunto": "LEY PARA EL DESARROLLO DEL PROYECTO DE CIUDAD GOBIERNO",
-        "tramite": "I día",
-        "fecha": "2026-11-11T16:37:21Z"
-      },
-      {
-        "numero": null,
-        "expediente": "25725",
-        "resultado": "Aprobada",
-        "asunto": "LEY PARA EL DESARROLLO DEL PROYECTO DE CIUDAD GOBIERNO",
-        "tramite": "I día",
-        "fecha": "2026-11-11T16:35:32Z"
       }
     ]
   },
   "intervenciones": {
     "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('intervenciones_2026_2030')/items?%24top=5000&%24select=Id%2CDiputadoId%2CFileLeafRef%2CFileRef%2CModified%2CCreated&%24orderby=Modified%20desc",
-    "total": 271,
-    "ultima_actualizacion": "2026-10-15T17:02:34Z",
+    "total": 316,
+    "ultima_actualizacion": "2026-11-12T17:21:33Z",
     "diputaciones_con_registro": 55,
     "sin_registro": [
       "eder-hernandez-ulloa",
@@ -740,6 +740,1662 @@
       "archivo sin diputacion conocida: Hernández Ulloa, mayo 2026.docx"
     ],
     "por_diputacion": {
+      "zaira-murillo-marin": [
+        {
+          "archivo": "Zaira Murillo Marin-octubre 2026.docx",
+          "periodo": "octubre 2026",
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Zaira Murillo Marin-octubre 2026.docx",
+          "modificado": "2026-11-12T17:21:33Z"
+        },
+        {
+          "archivo": "Zaira Murillo Marin-septiembre 2026.docx",
+          "periodo": "septiembre 2026",
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Zaira Murillo Marin-septiembre 2026.docx",
+          "modificado": "2026-10-13T16:36:42Z"
+        },
+        {
+          "archivo": "Zaira Murillo Marin-agosto 2026.docx",
+          "periodo": "agosto 2026",
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Zaira Murillo Marin-agosto 2026.docx",
+          "modificado": "2026-09-09T21:37:02Z"
+        },
+        {
+          "archivo": "Zaira Murillo Marin-julio 2026.docx",
+          "periodo": "julio 2026",
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Zaira Murillo Marin-julio 2026.docx",
+          "modificado": "2026-08-12T21:44:29Z"
+        },
+        {
+          "archivo": "Zaira Murillo Marín-junio 2026.docx",
+          "periodo": "junio 2026",
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Zaira Murillo Marín-junio 2026.docx",
+          "modificado": "2026-07-02T20:17:28Z"
+        },
+        {
+          "archivo": "Zaira Murillo Marín-mayo 2026.docx",
+          "periodo": "mayo 2026",
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Zaira Murillo Marín-mayo 2026.docx",
+          "modificado": "2026-06-10T16:20:42Z"
+        }
+      ],
+      "wilson-alfredo-jimenez-cordero": [
+        {
+          "archivo": "Wilson Alfredo Jimenez Cordero-octubre 2026.docx",
+          "periodo": "octubre 2026",
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Wilson Alfredo Jimenez Cordero-octubre 2026.docx",
+          "modificado": "2026-11-12T17:21:20Z"
+        },
+        {
+          "archivo": "Wilson Alfredo Jimenez Cordero-septiembre 2026.docx",
+          "periodo": "septiembre 2026",
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Wilson Alfredo Jimenez Cordero-septiembre 2026.docx",
+          "modificado": "2026-10-13T16:36:16Z"
+        },
+        {
+          "archivo": "Wilson Alfredo Jimenez Cordero- agosto 2026.docx",
+          "periodo": "agosto 2026",
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Wilson Alfredo Jimenez Cordero- agosto 2026.docx",
+          "modificado": "2026-09-09T21:36:49Z"
+        },
+        {
+          "archivo": "Wilson Alfredo Jimenez Cordero-julio 2026.docx",
+          "periodo": "julio 2026",
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Wilson Alfredo Jimenez Cordero-julio 2026.docx",
+          "modificado": "2026-08-12T21:44:00Z"
+        },
+        {
+          "archivo": "Wilson Alfredo Jiménez Cordero-junio 2026.docx",
+          "periodo": "junio 2026",
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Wilson Alfredo Jiménez Cordero-junio 2026.docx",
+          "modificado": "2026-07-02T20:17:09Z"
+        },
+        {
+          "archivo": "Wilson Alfredo Jiménez Cordero-mayo 2026.docx",
+          "periodo": "mayo 2026",
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Wilson Alfredo Jiménez Cordero-mayo 2026.docx",
+          "modificado": "2026-06-10T16:20:19Z"
+        }
+      ],
+      "sigrid-segura-artavia": [
+        {
+          "archivo": "Sigrid Segura Artavia-octubre 2026.docx",
+          "periodo": "octubre 2026",
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Sigrid Segura Artavia-octubre 2026.docx",
+          "modificado": "2026-11-12T17:20:19Z"
+        },
+        {
+          "archivo": "Sigrid Segura Artavia-septiembre 2026.docx",
+          "periodo": "septiembre 2026",
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Sigrid Segura Artavia-septiembre 2026.docx",
+          "modificado": "2026-10-13T16:36:00Z"
+        },
+        {
+          "archivo": "Sigrid Segura Artavia-agosto 2026.docx",
+          "periodo": "agosto 2026",
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Sigrid Segura Artavia-agosto 2026.docx",
+          "modificado": "2026-09-09T21:36:29Z"
+        },
+        {
+          "archivo": "Sigrid Segura Artavia-julio 2026.docx",
+          "periodo": "julio 2026",
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Sigrid Segura Artavia-julio 2026.docx",
+          "modificado": "2026-08-12T21:43:17Z"
+        },
+        {
+          "archivo": "Sigrid Segura Artavia-junio 2026.docx",
+          "periodo": "junio 2026",
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Sigrid Segura Artavia-junio 2026.docx",
+          "modificado": "2026-07-02T20:16:48Z"
+        },
+        {
+          "archivo": "Sigrid Segura Artavia-mayo 2026.docx",
+          "periodo": "mayo 2026",
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Sigrid Segura Artavia-mayo 2026.docx",
+          "modificado": "2026-06-10T16:20:05Z"
+        }
+      ],
+      "kattia-maria-ulate-alvarado": [
+        {
+          "archivo": "Kattia Maria Ulate Alvarado-octubre 2026.docx",
+          "periodo": "octubre 2026",
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Kattia Maria Ulate Alvarado-octubre 2026.docx",
+          "modificado": "2026-11-12T17:19:49Z"
+        },
+        {
+          "archivo": "Kattia Maria Ulate Alvarado-septiembre 2026.docx",
+          "periodo": "septiembre 2026",
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Kattia Maria Ulate Alvarado-septiembre 2026.docx",
+          "modificado": "2026-10-13T16:35:43Z"
+        },
+        {
+          "archivo": "Kattia Maria Ulate Alvarado-agosto 2026.docx",
+          "periodo": "agosto 2026",
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Kattia Maria Ulate Alvarado-agosto 2026.docx",
+          "modificado": "2026-09-09T21:36:13Z"
+        },
+        {
+          "archivo": "Kattia Maria Ulate Alvarado-julio 2026.docx",
+          "periodo": "julio 2026",
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Kattia Maria Ulate Alvarado-julio 2026.docx",
+          "modificado": "2026-08-12T21:42:45Z"
+        },
+        {
+          "archivo": "Kattia María Ulate Alvarado-junio 2026.docx",
+          "periodo": "junio 2026",
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Kattia María Ulate Alvarado-junio 2026.docx",
+          "modificado": "2026-07-02T20:16:26Z"
+        },
+        {
+          "archivo": "Kattia María Ulate Alvarado-mayo 2026.docx",
+          "periodo": "mayo 2026",
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Kattia María Ulate Alvarado-mayo 2026.docx",
+          "modificado": "2026-06-10T16:19:38Z"
+        }
+      ],
+      "karen-alfaro-jimenez": [
+        {
+          "archivo": "Karen Alfaro Jimenez-octubre 2026.docx",
+          "periodo": "octubre 2026",
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Karen Alfaro Jimenez-octubre 2026.docx",
+          "modificado": "2026-11-12T17:19:28Z"
+        },
+        {
+          "archivo": "Karen Alfaro Jimenez-septiembre 2026.docx",
+          "periodo": "septiembre 2026",
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Karen Alfaro Jimenez-septiembre 2026.docx",
+          "modificado": "2026-10-13T16:35:27Z"
+        },
+        {
+          "archivo": "Karen Alfaro Jimenez-agosto 2026.docx",
+          "periodo": "agosto 2026",
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Karen Alfaro Jimenez-agosto 2026.docx",
+          "modificado": "2026-09-09T21:35:56Z"
+        },
+        {
+          "archivo": "Karen Alfaro Jimenez-julio 2026.docx",
+          "periodo": "julio 2026",
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Karen Alfaro Jimenez-julio 2026.docx",
+          "modificado": "2026-08-12T21:42:23Z"
+        },
+        {
+          "archivo": "Karen Alfaro Jiménez-junio 2026.docx",
+          "periodo": "junio 2026",
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Karen Alfaro Jiménez-junio 2026.docx",
+          "modificado": "2026-07-02T20:16:08Z"
+        },
+        {
+          "archivo": "Karen Alfaro Jiménez-mayo 2026.docx",
+          "periodo": "mayo 2026",
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Karen Alfaro Jiménez-mayo 2026.docx",
+          "modificado": "2026-06-10T16:19:22Z"
+        }
+      ],
+      "grethel-maria-avila-vargas": [
+        {
+          "archivo": "Grethel Maria Avila Vargas-octubre 2026.docx",
+          "periodo": "octubre 2026",
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Grethel Maria Avila Vargas-octubre 2026.docx",
+          "modificado": "2026-11-12T17:19:02Z"
+        },
+        {
+          "archivo": "Grethel Maria Avila Vargas-septiembre 2026.docx",
+          "periodo": "septiembre 2026",
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Grethel Maria Avila Vargas-septiembre 2026.docx",
+          "modificado": "2026-10-13T16:35:11Z"
+        },
+        {
+          "archivo": "Grethel Maria Avila Vargas-agosto 2026.docx",
+          "periodo": "agosto 2026",
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Grethel Maria Avila Vargas-agosto 2026.docx",
+          "modificado": "2026-09-09T21:35:37Z"
+        },
+        {
+          "archivo": "Grethel Maria Avila Vargas-julio 2026.docx",
+          "periodo": "julio 2026",
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Grethel Maria Avila Vargas-julio 2026.docx",
+          "modificado": "2026-08-12T21:41:57Z"
+        },
+        {
+          "archivo": "Gréthel Maria Ávila Vargas-junio 2026.docx",
+          "periodo": "junio 2026",
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Gréthel Maria Ávila Vargas-junio 2026.docx",
+          "modificado": "2026-07-02T20:15:48Z"
+        },
+        {
+          "archivo": "Gréthel Maria Ávila Vargas-mayo 2026.docx",
+          "periodo": "mayo 2026",
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Gréthel Maria Ávila Vargas-mayo 2026.docx",
+          "modificado": "2026-06-10T16:18:57Z"
+        }
+      ],
+      "gerald-bogantes-rivera": [
+        {
+          "archivo": "Gerald Bogantes Rivera-octubre 2026.docx",
+          "periodo": "octubre 2026",
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Gerald Bogantes Rivera-octubre 2026.docx",
+          "modificado": "2026-11-12T17:18:42Z"
+        },
+        {
+          "archivo": "Gerald Bogantes Rivera-septiembre 2026.docx",
+          "periodo": "septiembre 2026",
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Gerald Bogantes Rivera-septiembre 2026.docx",
+          "modificado": "2026-10-13T16:34:56Z"
+        },
+        {
+          "archivo": "Gerald Bogantes Rivera-agosto 2026.docx",
+          "periodo": "agosto 2026",
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Gerald Bogantes Rivera-agosto 2026.docx",
+          "modificado": "2026-09-09T21:35:20Z"
+        },
+        {
+          "archivo": "Gerald Bogantes Rivera-julio 2026.docx",
+          "periodo": "julio 2026",
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Gerald Bogantes Rivera-julio 2026.docx",
+          "modificado": "2026-08-12T21:41:35Z"
+        },
+        {
+          "archivo": "Gerald Bogantes Rivera-junio 2026.docx",
+          "periodo": "junio 2026",
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Gerald Bogantes Rivera-junio 2026.docx",
+          "modificado": "2026-07-02T20:15:27Z"
+        },
+        {
+          "archivo": "Gerald Bogantes Rivera-mayo 2026.docx",
+          "periodo": "mayo 2026",
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Gerald Bogantes Rivera-mayo 2026.docx",
+          "modificado": "2026-06-10T16:18:41Z"
+        }
+      ],
+      "fernando-obaldia-alvarez": [
+        {
+          "archivo": "Fernando Obaldia Alvarez-octubre 2026.docx",
+          "periodo": "octubre 2026",
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Fernando Obaldia Alvarez-octubre 2026.docx",
+          "modificado": "2026-11-12T17:18:25Z"
+        },
+        {
+          "archivo": "Fernando Obaldia Alvarez-septiembre 2026.docx",
+          "periodo": "septiembre 2026",
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Fernando Obaldia Alvarez-septiembre 2026.docx",
+          "modificado": "2026-10-13T16:34:28Z"
+        },
+        {
+          "archivo": "Fernando Obaldia Alvarez-agosto 2026.docx",
+          "periodo": "agosto 2026",
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Fernando Obaldia Alvarez-agosto 2026.docx",
+          "modificado": "2026-09-09T21:35:05Z"
+        },
+        {
+          "archivo": "Fernando Obaldia Alvarez-julio 2026.docx",
+          "periodo": "julio 2026",
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Fernando Obaldia Alvarez-julio 2026.docx",
+          "modificado": "2026-08-12T21:41:13Z"
+        },
+        {
+          "archivo": "Fernando Obaldía Álvarez-junio 2026.docx",
+          "periodo": "junio 2026",
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Fernando Obaldía Álvarez-junio 2026.docx",
+          "modificado": "2026-07-02T20:15:11Z"
+        },
+        {
+          "archivo": "Fernando Obaldía Álvarez-mayo 2026.docx",
+          "periodo": "mayo 2026",
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Fernando Obaldía Álvarez-mayo 2026.docx",
+          "modificado": "2026-06-10T16:00:32Z"
+        }
+      ],
+      "robert-junior-barrantes-camacho": [
+        {
+          "archivo": "Robert Johsan Carranctes Camacho, Octubre 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Robert Johsan Carranctes Camacho, Octubre 2026.docx",
+          "modificado": "2026-11-12T17:17:01Z"
+        },
+        {
+          "archivo": "Robert Johsan Carranctes Camacho, Setiembre  2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Robert Johsan Carranctes Camacho, Setiembre  2026.docx",
+          "modificado": "2026-10-13T16:29:31Z"
+        },
+        {
+          "archivo": "Robert Johsan Carranctes Camacho, Agosto  2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Robert Johsan Carranctes Camacho, Agosto  2026.docx",
+          "modificado": "2026-09-09T21:33:48Z"
+        },
+        {
+          "archivo": "Robert Johsan Barrantes Camacho, Julio  2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Robert Johsan Barrantes Camacho, Julio  2026.docx",
+          "modificado": "2026-08-12T21:36:33Z"
+        },
+        {
+          "archivo": "Robert Johsan Carranctes Camacho, Junio  2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Robert Johsan Carranctes Camacho, Junio  2026.docx",
+          "modificado": "2026-07-15T17:29:38Z"
+        },
+        {
+          "archivo": "Robert Johsan Barrantes Camacho, mayo 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Robert Johsan Barrantes Camacho, mayo 2026.docx",
+          "modificado": "2026-06-22T20:01:11Z"
+        }
+      ],
+      "marco-badilla-chavarria": [
+        {
+          "archivo": "Marco Badilla Chavarria, Octubre 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Marco Badilla Chavarria, Octubre 2026.docx",
+          "modificado": "2026-11-12T17:16:38Z"
+        },
+        {
+          "archivo": "Marco Badilla Chavarria, Setiembre 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Marco Badilla Chavarria, Setiembre 2026.docx",
+          "modificado": "2026-10-13T16:29:16Z"
+        },
+        {
+          "archivo": "Marco Badilla Chavarria, Agosto 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Marco Badilla Chavarria, Agosto 2026.docx",
+          "modificado": "2026-09-09T21:33:30Z"
+        },
+        {
+          "archivo": "Marco Badilla Chavarria, Julio  2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Marco Badilla Chavarria, Julio  2026.docx",
+          "modificado": "2026-08-12T21:35:33Z"
+        },
+        {
+          "archivo": "Marco Badilla Chavarria, Junio  2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Marco Badilla Chavarria, Junio  2026.docx",
+          "modificado": "2026-07-15T17:29:20Z"
+        }
+      ],
+      "diana-murillo-murillo": [
+        {
+          "archivo": "Diana Murillo Murillo, Octubre 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Diana Murillo Murillo, Octubre 2026.docx",
+          "modificado": "2026-11-12T17:16:15Z"
+        },
+        {
+          "archivo": "Diana Murillo Murillo, Setiembre 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Diana Murillo Murillo, Setiembre 2026.docx",
+          "modificado": "2026-10-13T16:28:57Z"
+        },
+        {
+          "archivo": "Diana Murillo Murillo, Agosto 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Diana Murillo Murillo, Agosto 2026.docx",
+          "modificado": "2026-09-09T21:33:07Z"
+        },
+        {
+          "archivo": "Diana Murillo Murillo, Julio  2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Diana Murillo Murillo, Julio  2026.docx",
+          "modificado": "2026-08-12T21:35:09Z"
+        },
+        {
+          "archivo": "Diana Murillo Murillo, Junio  2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Diana Murillo Murillo, Junio  2026.docx",
+          "modificado": "2026-07-15T17:28:57Z"
+        },
+        {
+          "archivo": "Diana Murillo Murillo, mayo 2026 - copia.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Diana Murillo Murillo, mayo 2026 - copia.docx",
+          "modificado": "2026-06-22T20:00:03Z"
+        }
+      ],
+      "kristel-ward-hudson": [
+        {
+          "archivo": "Ward Hudson, Kristel octubre 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Ward Hudson, Kristel octubre 2026.docx",
+          "modificado": "2026-11-12T17:11:38Z"
+        },
+        {
+          "archivo": "Ward Hudson, Kristel setiembre 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Ward Hudson, Kristel setiembre 2026.docx",
+          "modificado": "2026-10-13T16:28:25Z"
+        },
+        {
+          "archivo": "Ward Hudson, Kristel agosto 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Ward Hudson, Kristel agosto 2026.docx",
+          "modificado": "2026-09-09T21:31:41Z"
+        },
+        {
+          "archivo": "Ward Hudson, Kristel julio 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Ward Hudson, Kristel julio 2026.docx",
+          "modificado": "2026-08-12T21:34:08Z"
+        },
+        {
+          "archivo": "Ward Hudson, Kristel junio 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Ward Hudson, Kristel junio 2026.docx",
+          "modificado": "2026-07-02T21:08:44Z"
+        },
+        {
+          "archivo": "Ward Hudson, Kristel mayo 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Ward Hudson, Kristel mayo 2026.docx",
+          "modificado": "2026-06-10T15:56:06Z"
+        }
+      ],
+      "janice-sandi-morales": [
+        {
+          "archivo": "Sandí Morales, Janice octubre 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Sandí Morales, Janice octubre 2026.docx",
+          "modificado": "2026-11-12T17:11:10Z"
+        },
+        {
+          "archivo": "Sandí Morales, Janice setiembre 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Sandí Morales, Janice setiembre 2026.docx",
+          "modificado": "2026-10-13T16:28:02Z"
+        },
+        {
+          "archivo": "Sandí Morales, Janice julio 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Sandí Morales, Janice julio 2026.docx",
+          "modificado": "2026-08-12T21:33:43Z"
+        },
+        {
+          "archivo": "Sandí Morales, Janice junio 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Sandí Morales, Janice junio 2026.docx",
+          "modificado": "2026-07-02T21:08:15Z"
+        },
+        {
+          "archivo": "Sandí Morales, Janice mayo 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Sandí Morales, Janice mayo 2026.docx",
+          "modificado": "2026-06-10T15:55:27Z"
+        }
+      ],
+      "ariel-mora-fallas": [
+        {
+          "archivo": "Mora Fallas, Ariel octubre 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Mora Fallas, Ariel octubre 2026.docx",
+          "modificado": "2026-11-12T17:10:52Z"
+        },
+        {
+          "archivo": "Mora Fallas, Ariel setiembre 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Mora Fallas, Ariel setiembre 2026.docx",
+          "modificado": "2026-10-13T16:27:40Z"
+        },
+        {
+          "archivo": "Mora Fallas, Ariel agosto 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Mora Fallas, Ariel agosto 2026.docx",
+          "modificado": "2026-09-09T21:31:18Z"
+        },
+        {
+          "archivo": "Mora Fallas, Ariel julio 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Mora Fallas, Ariel julio 2026.docx",
+          "modificado": "2026-08-12T21:33:17Z"
+        },
+        {
+          "archivo": "Mora Fallas, Ariel junio 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Mora Fallas, Ariel junio 2026.docx",
+          "modificado": "2026-07-02T21:07:54Z"
+        },
+        {
+          "archivo": "Mora Fallas, Ariel mayo 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Mora Fallas, Ariel mayo 2026.docx",
+          "modificado": "2026-06-10T15:55:09Z"
+        }
+      ],
+      "karol-vanessa-matamoros-montoya": [
+        {
+          "archivo": "Matamoros Montoya, Karol Vanessa octubre 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Matamoros Montoya, Karol Vanessa octubre 2026.docx",
+          "modificado": "2026-11-12T17:10:34Z"
+        },
+        {
+          "archivo": "Matamoros Montoya, Karol Vanessa setiembre 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Matamoros Montoya, Karol Vanessa setiembre 2026.docx",
+          "modificado": "2026-10-13T16:27:13Z"
+        },
+        {
+          "archivo": "Matamoros Montoya, Karol Vanessa agosto 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Matamoros Montoya, Karol Vanessa agosto 2026.docx",
+          "modificado": "2026-09-09T21:30:59Z"
+        },
+        {
+          "archivo": "Matamoros Montoya, Karol Vanessa julio 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Matamoros Montoya, Karol Vanessa julio 2026.docx",
+          "modificado": "2026-08-12T21:32:54Z"
+        },
+        {
+          "archivo": "Matamoros Montoya, Karol Vanessa junio 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Matamoros Montoya, Karol Vanessa junio 2026.docx",
+          "modificado": "2026-07-02T21:07:31Z"
+        },
+        {
+          "archivo": "Matamoros Montoya, Karol Vanessa mayo 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Matamoros Montoya, Karol Vanessa mayo 2026.docx",
+          "modificado": "2026-06-10T15:54:33Z"
+        }
+      ],
+      "norjelens-maria-lobo-vargas": [
+        {
+          "archivo": "Lobo Vargas, Norjelens María octubre 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Lobo Vargas, Norjelens María octubre 2026.docx",
+          "modificado": "2026-11-12T17:09:25Z"
+        },
+        {
+          "archivo": "Lobo Vargas, Norjelens María setiembre 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Lobo Vargas, Norjelens María setiembre 2026.docx",
+          "modificado": "2026-10-13T16:26:54Z"
+        },
+        {
+          "archivo": "Lobo Vargas, Norjelens María agosto 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Lobo Vargas, Norjelens María agosto 2026.docx",
+          "modificado": "2026-09-09T21:30:36Z"
+        },
+        {
+          "archivo": "Lobo Vargas, Norjelens María julio 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Lobo Vargas, Norjelens María julio 2026.docx",
+          "modificado": "2026-08-12T21:32:18Z"
+        },
+        {
+          "archivo": "Lobo Vargas, Norjelens María junio 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Lobo Vargas, Norjelens María junio 2026.docx",
+          "modificado": "2026-07-02T21:06:51Z"
+        },
+        {
+          "archivo": "Lobo Vargas, Norjelens María mayo 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Lobo Vargas, Norjelens María mayo 2026.docx",
+          "modificado": "2026-06-10T15:54:15Z"
+        }
+      ],
+      "ana-ruth-esquivel-medrano": [
+        {
+          "archivo": "Esquivel Medrano, Ana Ruth octubre 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Esquivel Medrano, Ana Ruth octubre 2026.docx",
+          "modificado": "2026-11-12T17:08:56Z"
+        },
+        {
+          "archivo": "Esquivel Medrano, Ana Ruth setiembre 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Esquivel Medrano, Ana Ruth setiembre 2026.docx",
+          "modificado": "2026-10-13T16:26:32Z"
+        },
+        {
+          "archivo": "Esquivel Medrano, Ana Ruth agosto 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Esquivel Medrano, Ana Ruth agosto 2026.docx",
+          "modificado": "2026-09-09T21:29:42Z"
+        },
+        {
+          "archivo": "Esquivel Medrano, Ana Ruth julio 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Esquivel Medrano, Ana Ruth julio 2026.docx",
+          "modificado": "2026-08-12T21:30:51Z"
+        },
+        {
+          "archivo": "Esquivel Medrano, Ana Ruth junio 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Esquivel Medrano, Ana Ruth junio 2026.docx",
+          "modificado": "2026-07-02T21:06:24Z"
+        },
+        {
+          "archivo": "Esquivel Medrano, Ana Ruth mayo 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Esquivel Medrano, Ana Ruth mayo 2026.docx",
+          "modificado": "2026-06-10T15:50:13Z"
+        }
+      ],
+      "ronald-campos-villegas": [
+        {
+          "archivo": "Campos Villegas, Ronald octubre 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Campos Villegas, Ronald octubre 2026.docx",
+          "modificado": "2026-11-12T17:08:27Z"
+        },
+        {
+          "archivo": "Campos Villegas, Ronald setiembre 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Campos Villegas, Ronald setiembre 2026.docx",
+          "modificado": "2026-10-13T16:25:52Z"
+        },
+        {
+          "archivo": "Campos Villegas, Ronald agosto 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Campos Villegas, Ronald agosto 2026.docx",
+          "modificado": "2026-09-09T21:29:24Z"
+        },
+        {
+          "archivo": "Campos Villegas, Ronald julio 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Campos Villegas, Ronald julio 2026.docx",
+          "modificado": "2026-08-12T21:30:31Z"
+        },
+        {
+          "archivo": "Campos Villegas, Ronald junio 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Campos Villegas, Ronald junio 2026.docx",
+          "modificado": "2026-07-02T21:05:58Z"
+        },
+        {
+          "archivo": "Campos Villegas, Ronald mayo 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Campos Villegas, Ronald mayo 2026.docx",
+          "modificado": "2026-06-10T15:49:50Z"
+        }
+      ],
+      "maria-isabel-camareno-camareno": [
+        {
+          "archivo": "Camareno Camareno, María Isabel octubre 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Camareno Camareno, María Isabel octubre 2026.docx",
+          "modificado": "2026-11-12T17:07:48Z"
+        },
+        {
+          "archivo": "Camareno Camareno, María Isabel setiembre 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Camareno Camareno, María Isabel setiembre 2026.docx",
+          "modificado": "2026-10-13T16:25:28Z"
+        },
+        {
+          "archivo": "Camareno Camareno, María Isabel agosto 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Camareno Camareno, María Isabel agosto 2026.docx",
+          "modificado": "2026-09-09T21:29:05Z"
+        },
+        {
+          "archivo": "Camareno Camareno, María Isabel julio 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Camareno Camareno, María Isabel julio 2026.docx",
+          "modificado": "2026-08-12T21:29:56Z"
+        },
+        {
+          "archivo": "Camareno Camareno, María Isabel junio 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Camareno Camareno, María Isabel junio 2026.docx",
+          "modificado": "2026-07-02T21:05:35Z"
+        },
+        {
+          "archivo": "Camareno Camareno, María Isabel mayo 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Camareno Camareno, María Isabel mayo 2026.docx",
+          "modificado": "2026-06-10T15:49:14Z"
+        }
+      ],
+      "jesus-calderon-calderon": [
+        {
+          "archivo": "Calderón Calderón, Jesús octubre 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Calderón Calderón, Jesús octubre 2026.docx",
+          "modificado": "2026-11-12T17:07:29Z"
+        },
+        {
+          "archivo": "Calderón Calderón, Jesús setiembre 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Calderón Calderón, Jesús setiembre 2026.docx",
+          "modificado": "2026-10-13T16:25:06Z"
+        },
+        {
+          "archivo": "Calderón Calderón, Jesús agosto 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Calderón Calderón, Jesús agosto 2026.docx",
+          "modificado": "2026-09-09T21:28:33Z"
+        },
+        {
+          "archivo": "Calderón Calderón, Jesús julio 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Calderón Calderón, Jesús julio 2026.docx",
+          "modificado": "2026-08-12T21:29:06Z"
+        },
+        {
+          "archivo": "Calderón Calderón, Jesús junio 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Calderón Calderón, Jesús junio 2026.docx",
+          "modificado": "2026-07-02T21:05:08Z"
+        },
+        {
+          "archivo": "Calderón Calderón, Jesús mayo 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Calderón Calderón, Jesús mayo 2026.docx",
+          "modificado": "2026-06-10T15:48:50Z"
+        }
+      ],
+      "stephan-brunner-neibig": [
+        {
+          "archivo": "Stephan Brunner Neibig 10-26.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Stephan Brunner Neibig 10-26.docx",
+          "modificado": "2026-11-12T17:04:11Z"
+        },
+        {
+          "archivo": "Stephan Brunner Neibig 09-26.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Stephan Brunner Neibig 09-26.docx",
+          "modificado": "2026-10-13T16:16:27Z"
+        },
+        {
+          "archivo": "Stephan Brunner Neibig 08-26.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Stephan Brunner Neibig 08-26.docx",
+          "modificado": "2026-09-09T21:28:04Z"
+        },
+        {
+          "archivo": "Stephan Brunner Neibig 07-26.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Stephan Brunner Neibig 07-26.docx",
+          "modificado": "2026-08-11T21:59:58Z"
+        },
+        {
+          "archivo": "Stephan Brunner Neibig 06-26.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Stephan Brunner Neibig 06-26.docx",
+          "modificado": "2026-07-29T17:39:14Z"
+        },
+        {
+          "archivo": "Stephan Brunner Neibig 05-26.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Stephan Brunner Neibig 05-26.docx",
+          "modificado": "2026-06-10T15:48:18Z"
+        }
+      ],
+      "royner-g-mora-ruiz": [
+        {
+          "archivo": "Royner Mora Ruiz 10-26.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Royner Mora Ruiz 10-26.docx",
+          "modificado": "2026-11-12T17:03:55Z"
+        },
+        {
+          "archivo": "Royner Mora Ruiz 09-26.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Royner Mora Ruiz 09-26.docx",
+          "modificado": "2026-10-13T16:16:03Z"
+        },
+        {
+          "archivo": "Royner Mora Ruiz 08-26.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Royner Mora Ruiz 08-26.docx",
+          "modificado": "2026-09-09T21:27:45Z"
+        },
+        {
+          "archivo": "Royner Mora Ruiz 07-26.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Royner Mora Ruiz 07-26.docx",
+          "modificado": "2026-08-11T21:59:39Z"
+        },
+        {
+          "archivo": "Royner Mora Ruiz 06-26.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Royner Mora Ruiz 06-26.docx",
+          "modificado": "2026-07-29T17:38:28Z"
+        },
+        {
+          "archivo": "Royner G. Mora Ruiz 05-26.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Royner G. Mora Ruiz 05-26.docx",
+          "modificado": "2026-06-10T15:47:59Z"
+        }
+      ],
+      "reynaldo-arias-mora": [
+        {
+          "archivo": "Reynaldo Arias Mora 10-26.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Reynaldo Arias Mora 10-26.docx",
+          "modificado": "2026-11-12T17:03:34Z"
+        },
+        {
+          "archivo": "Reynnaldo Arias Mora 09-26.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Reynnaldo Arias Mora 09-26.docx",
+          "modificado": "2026-10-13T16:15:47Z"
+        },
+        {
+          "archivo": "Reynaldo Arias Mora 08-26.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Reynaldo Arias Mora 08-26.docx",
+          "modificado": "2026-09-09T21:27:19Z"
+        },
+        {
+          "archivo": "Reynaldo Arias Mora 07-26.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Reynaldo Arias Mora 07-26.docx",
+          "modificado": "2026-08-11T21:59:13Z"
+        },
+        {
+          "archivo": "Reynaldo Arias Mora 06-26.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Reynaldo Arias Mora 06-26.docx",
+          "modificado": "2026-07-29T17:37:51Z"
+        },
+        {
+          "archivo": "Reynaldo Arias Mora 05-26.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Reynaldo Arias Mora 05-26.docx",
+          "modificado": "2026-06-10T15:47:42Z"
+        }
+      ],
+      "nogui-acosta-jaen": [
+        {
+          "archivo": "Nogui Acosta Jaén 10-26.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Nogui Acosta Jaén 10-26.docx",
+          "modificado": "2026-11-12T17:03:16Z"
+        },
+        {
+          "archivo": "Nogui Acosta Jaén 09-26.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Nogui Acosta Jaén 09-26.docx",
+          "modificado": "2026-10-13T16:15:21Z"
+        },
+        {
+          "archivo": "Nogui Acosta Jaén 08-26.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Nogui Acosta Jaén 08-26.docx",
+          "modificado": "2026-09-09T21:26:57Z"
+        },
+        {
+          "archivo": "Nogui Acosta Ja+�n 07-26.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Nogui Acosta Ja+�n 07-26.docx",
+          "modificado": "2026-08-11T21:58:54Z"
+        },
+        {
+          "archivo": "Nogui Acosta Jaen 06-26.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Nogui Acosta Jaen 06-26.docx",
+          "modificado": "2026-07-29T17:37:19Z"
+        },
+        {
+          "archivo": "Nogui Acosta Jaén.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Nogui Acosta Jaén.docx",
+          "modificado": "2026-06-10T15:47:21Z"
+        }
+      ],
+      "mayuli-ortega-guzman": [
+        {
+          "archivo": "Mayuli Ortega Guzmán 10-26.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Mayuli Ortega Guzmán 10-26.docx",
+          "modificado": "2026-11-12T17:02:58Z"
+        },
+        {
+          "archivo": "Mayuli Ortega Guzmán 09-26.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Mayuli Ortega Guzmán 09-26.docx",
+          "modificado": "2026-10-13T16:15:03Z"
+        },
+        {
+          "archivo": "Mayuli Ortega Guzman 08-26.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Mayuli Ortega Guzman 08-26.docx",
+          "modificado": "2026-09-09T21:26:36Z"
+        },
+        {
+          "archivo": "Mayuli Ortega Guzm+�n 07-26.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Mayuli Ortega Guzm+�n 07-26.docx",
+          "modificado": "2026-08-11T21:58:34Z"
+        },
+        {
+          "archivo": "Mayuli Ortega Guzmán 06-26.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Mayuli Ortega Guzmán 06-26.docx",
+          "modificado": "2026-07-29T17:36:43Z"
+        },
+        {
+          "archivo": "Mayuli Ortega Guzmán  05-26.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Mayuli Ortega Guzmán  05-26.docx",
+          "modificado": "2026-06-10T15:47:04Z"
+        }
+      ],
+      "kattya-mora-montoya": [
+        {
+          "archivo": "Kattya Mora Montoya 10-26.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Kattya Mora Montoya 10-26.docx",
+          "modificado": "2026-11-12T17:02:40Z"
+        },
+        {
+          "archivo": "Kattya Mora Montoya 09-26.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Kattya Mora Montoya 09-26.docx",
+          "modificado": "2026-10-13T16:14:45Z"
+        },
+        {
+          "archivo": "Kattya Mora Montoya 08-26.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Kattya Mora Montoya 08-26.docx",
+          "modificado": "2026-09-09T21:26:17Z"
+        },
+        {
+          "archivo": "Kattya Mora Montoya 07-26.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Kattya Mora Montoya 07-26.docx",
+          "modificado": "2026-08-11T21:58:12Z"
+        },
+        {
+          "archivo": "Kattya Mora Montoya 06-26.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Kattya Mora Montoya 06-26.docx",
+          "modificado": "2026-07-29T17:36:08Z"
+        },
+        {
+          "archivo": "Kattya Mora Montoya 05-26.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Kattya Mora Montoya 05-26.docx",
+          "modificado": "2026-06-10T15:46:45Z"
+        }
+      ],
+      "gonzalo-ramirez-zamora": [
+        {
+          "archivo": "Gonzalo Ramírez Zamora 10-26.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Gonzalo Ramírez Zamora 10-26.docx",
+          "modificado": "2026-11-12T17:02:20Z"
+        },
+        {
+          "archivo": "Gonzalo Ramírez Zamora 09-26.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Gonzalo Ramírez Zamora 09-26.docx",
+          "modificado": "2026-10-13T16:13:32Z"
+        },
+        {
+          "archivo": "Gonzalo Ramírez Zamora 08-26.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Gonzalo Ramírez Zamora 08-26.docx",
+          "modificado": "2026-09-09T21:25:58Z"
+        },
+        {
+          "archivo": "Gonzalo Ramirez Zamora 07-26.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Gonzalo Ramirez Zamora 07-26.docx",
+          "modificado": "2026-08-11T21:57:55Z"
+        },
+        {
+          "archivo": "Gonzalo Ramírez Zamora 06-26.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Gonzalo Ramírez Zamora 06-26.docx",
+          "modificado": "2026-07-29T17:35:25Z"
+        },
+        {
+          "archivo": "Gonzalo Ramirez Zamora 05-26.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Gonzalo Ramirez Zamora 05-26.docx",
+          "modificado": "2026-06-10T15:46:28Z"
+        }
+      ],
+      "antonio-barzuna-thompson": [
+        {
+          "archivo": "Antonio Barzuna Thompson 10-26.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Antonio Barzuna Thompson 10-26.docx",
+          "modificado": "2026-11-12T17:02:02Z"
+        },
+        {
+          "archivo": "Antonio Barzuna Thompson 09-26.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Antonio Barzuna Thompson 09-26.docx",
+          "modificado": "2026-10-13T16:13:06Z"
+        },
+        {
+          "archivo": "Antonio Barzuna Thompson 08-26.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Antonio Barzuna Thompson 08-26.docx",
+          "modificado": "2026-09-09T21:25:35Z"
+        },
+        {
+          "archivo": "Antonio Barzuna Thompson 07-26.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Antonio Barzuna Thompson 07-26.docx",
+          "modificado": "2026-08-11T21:56:29Z"
+        },
+        {
+          "archivo": "Antonio Barzuna Thompson  06-26.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Antonio Barzuna Thompson  06-26.docx",
+          "modificado": "2026-07-29T17:34:52Z"
+        },
+        {
+          "archivo": "Antonio Barzuna Thompson   05-26.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Antonio Barzuna Thompson   05-26.docx",
+          "modificado": "2026-06-10T15:45:48Z"
+        }
+      ],
+      "abril-gordienko-lopez": [
+        {
+          "archivo": "Abril Gordienko López 10-26.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Abril Gordienko López 10-26.docx",
+          "modificado": "2026-11-12T17:01:46Z"
+        },
+        {
+          "archivo": "Abril Gordienko López 09-26.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Abril Gordienko López 09-26.docx",
+          "modificado": "2026-10-13T16:12:53Z"
+        },
+        {
+          "archivo": "Abril Gordienko López 08-26.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Abril Gordienko López 08-26.docx",
+          "modificado": "2026-09-09T21:23:37Z"
+        },
+        {
+          "archivo": "Gordienko López, julio 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Gordienko López, julio 2026.docx",
+          "modificado": "2026-08-06T23:06:58Z"
+        },
+        {
+          "archivo": "Gordienko López, junio 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Gordienko López, junio 2026.docx",
+          "modificado": "2026-07-02T21:11:12Z"
+        },
+        {
+          "archivo": "Gordienko López, mayo 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Gordienko López, mayo 2026.docx",
+          "modificado": "2026-06-10T15:40:39Z"
+        }
+      ],
+      "yara-jimenez-fallas": [
+        {
+          "archivo": "Yara Vanessa Jiménez Fallas, octubre 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Yara Vanessa Jiménez Fallas, octubre 2026.docx",
+          "modificado": "2026-11-12T16:59:50Z"
+        },
+        {
+          "archivo": "Yara Vanessa Jiménez Fallas, septiembre  2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Yara Vanessa Jiménez Fallas, septiembre  2026.docx",
+          "modificado": "2026-10-13T16:12:24Z"
+        },
+        {
+          "archivo": "Yara Vanessa Jiménez Fallas, agosto 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Yara Vanessa Jiménez Fallas, agosto 2026.docx",
+          "modificado": "2026-09-09T21:22:55Z"
+        },
+        {
+          "archivo": "Yara Vanessa Jiménez Fallas, julio 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Yara Vanessa Jiménez Fallas, julio 2026.docx",
+          "modificado": "2026-08-06T23:16:12Z"
+        },
+        {
+          "archivo": "Yara Vanessa Jiménez Fallas, mayo 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Yara Vanessa Jiménez Fallas, mayo 2026.docx",
+          "modificado": "2026-06-22T20:01:29Z"
+        }
+      ],
+      "jose-miguel-villalobos-umana": [
+        {
+          "archivo": "José Miguel Villalobos Umaña, octubre 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/José Miguel Villalobos Umaña, octubre 2026.docx",
+          "modificado": "2026-11-12T16:59:34Z"
+        },
+        {
+          "archivo": "José Miguel Villalobos Umaña, septiembre 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/José Miguel Villalobos Umaña, septiembre 2026.docx",
+          "modificado": "2026-10-13T16:12:08Z"
+        },
+        {
+          "archivo": "José Miguel Villalobos Umaña, agosto 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/José Miguel Villalobos Umaña, agosto 2026.docx",
+          "modificado": "2026-09-09T21:22:37Z"
+        },
+        {
+          "archivo": "José Miguel Villalobos Umaña, julio 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/José Miguel Villalobos Umaña, julio 2026.docx",
+          "modificado": "2026-08-06T23:15:53Z"
+        },
+        {
+          "archivo": "José Miguel Villalobos Umaña, mayo 2026 - copia (3).docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/José Miguel Villalobos Umaña, mayo 2026 - copia (3).docx",
+          "modificado": "2026-06-22T20:00:53Z"
+        }
+      ],
+      "esmeralda-britton-gonzalez": [
+        {
+          "archivo": "Esmeralda Britton González, octubre 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Esmeralda Britton González, octubre 2026.docx",
+          "modificado": "2026-11-12T16:59:12Z"
+        },
+        {
+          "archivo": "Esmeralda Britton González, septiembre  2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Esmeralda Britton González, septiembre  2026.docx",
+          "modificado": "2026-10-13T16:11:48Z"
+        },
+        {
+          "archivo": "Esmeralda Britton González, agosto 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Esmeralda Britton González, agosto 2026.docx",
+          "modificado": "2026-09-09T21:22:18Z"
+        },
+        {
+          "archivo": "Esmeralda Britton González, julio 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Esmeralda Britton González, julio 2026.docx",
+          "modificado": "2026-08-06T23:15:34Z"
+        },
+        {
+          "archivo": "Esmeralda Britton González, mayo 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Esmeralda Britton González, mayo 2026.docx",
+          "modificado": "2026-06-22T20:00:34Z"
+        }
+      ],
+      "edgardo-araya-sibaja": [
+        {
+          "archivo": "Edgardo Vinicio Araya Sibaja, octubre 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Edgardo Vinicio Araya Sibaja, octubre 2026.docx",
+          "modificado": "2026-11-12T16:58:57Z"
+        },
+        {
+          "archivo": "Edgardo Vinicio Araya Sibaja, septiembre 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Edgardo Vinicio Araya Sibaja, septiembre 2026.docx",
+          "modificado": "2026-10-13T16:11:32Z"
+        },
+        {
+          "archivo": "Edgardo Vinicio Araya Sibaja, agosto 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Edgardo Vinicio Araya Sibaja, agosto 2026.docx",
+          "modificado": "2026-09-09T21:21:59Z"
+        },
+        {
+          "archivo": "Edgardo Vinicio Araya Sibaja, julio 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Edgardo Vinicio Araya Sibaja, julio 2026.docx",
+          "modificado": "2026-08-06T23:15:13Z"
+        },
+        {
+          "archivo": "Edgardo Vinicio Araya Sibaja, mayo 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Edgardo Vinicio Araya Sibaja, mayo 2026.docx",
+          "modificado": "2026-06-22T20:00:17Z"
+        }
+      ],
+      "rafael-vargas-brenes": [
+        {
+          "archivo": "Vargas, Rafael, octubre 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Vargas, Rafael, octubre 2026.docx",
+          "modificado": "2026-11-12T16:52:29Z"
+        },
+        {
+          "archivo": "Vargas Brenes, setiembre 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Vargas Brenes, setiembre 2026.docx",
+          "modificado": "2026-10-13T16:10:55Z"
+        },
+        {
+          "archivo": "Vargas Brenes, agosto 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Vargas Brenes, agosto 2026.docx",
+          "modificado": "2026-09-09T21:18:33Z"
+        },
+        {
+          "archivo": "Vargas Brenes, julio 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Vargas Brenes, julio 2026.docx",
+          "modificado": "2026-08-06T23:12:27Z"
+        },
+        {
+          "archivo": "Vargas Brenes, junio 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Vargas Brenes, junio 2026.docx",
+          "modificado": "2026-07-02T21:12:42Z"
+        },
+        {
+          "archivo": "Vargas Brenes, mayo 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Vargas Brenes, mayo 2026.docx",
+          "modificado": "2026-06-10T15:44:45Z"
+        }
+      ],
+      "andrea-valverde-palavicini": [
+        {
+          "archivo": "Valverde, Andrea, octubre 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Valverde, Andrea, octubre 2026.docx",
+          "modificado": "2026-11-12T16:52:05Z"
+        },
+        {
+          "archivo": "Valverde Palavicini, setiembre 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Valverde Palavicini, setiembre 2026.docx",
+          "modificado": "2026-10-13T16:10:36Z"
+        },
+        {
+          "archivo": "Valverde Palavicini, agosto 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Valverde Palavicini, agosto 2026.docx",
+          "modificado": "2026-09-09T21:18:05Z"
+        },
+        {
+          "archivo": "Valverde Palavicini, julio 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Valverde Palavicini, julio 2026.docx",
+          "modificado": "2026-08-06T23:12:03Z"
+        },
+        {
+          "archivo": "Valverde Palavicini, junio 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Valverde Palavicini, junio 2026.docx",
+          "modificado": "2026-07-02T21:12:19Z"
+        },
+        {
+          "archivo": "Valverde Palavicini, mayo 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Valverde Palavicini, mayo 2026.docx",
+          "modificado": "2026-06-10T15:44:25Z"
+        }
+      ],
+      "joselyn-saenz-nunez": [
+        {
+          "archivo": "Sáenz, Joselyn, octubre 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Sáenz, Joselyn, octubre 2026.docx",
+          "modificado": "2026-11-12T16:51:40Z"
+        },
+        {
+          "archivo": "Sáenz Núñez, setiembre  2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Sáenz Núñez, setiembre  2026.docx",
+          "modificado": "2026-10-13T16:10:15Z"
+        },
+        {
+          "archivo": "Sáenz Núñez, agosto 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Sáenz Núñez, agosto 2026.docx",
+          "modificado": "2026-09-09T21:17:48Z"
+        },
+        {
+          "archivo": "Sáenz Núñez, julio 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Sáenz Núñez, julio 2026.docx",
+          "modificado": "2026-08-06T23:11:32Z"
+        },
+        {
+          "archivo": "Sáenz Núñez, junio 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Sáenz Núñez, junio 2026.docx",
+          "modificado": "2026-07-02T21:12:01Z"
+        },
+        {
+          "archivo": "Sáenz Núñez, mayo 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Sáenz Núñez, mayo 2026.docx",
+          "modificado": "2026-06-10T15:44:08Z"
+        }
+      ],
+      "alvaro-ramirez-bogantes": [
+        {
+          "archivo": "Ramírez, Álvaro, octubre 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Ramírez, Álvaro, octubre 2026.docx",
+          "modificado": "2026-11-12T16:51:20Z"
+        },
+        {
+          "archivo": "Ramírez Bogantes, setiembre 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Ramírez Bogantes, setiembre 2026.docx",
+          "modificado": "2026-10-13T16:09:57Z"
+        },
+        {
+          "archivo": "Ramírez Bogantes, agosto 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Ramírez Bogantes, agosto 2026.docx",
+          "modificado": "2026-09-09T21:17:26Z"
+        },
+        {
+          "archivo": "Ramírez Bogantes, julio 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Ramírez Bogantes, julio 2026.docx",
+          "modificado": "2026-08-06T23:08:45Z"
+        },
+        {
+          "archivo": "Ramírez Bogantes, junio 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Ramírez Bogantes, junio 2026.docx",
+          "modificado": "2026-07-02T21:11:35Z"
+        },
+        {
+          "archivo": "Ramírez Bogantes, mayo 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Ramírez Bogantes, mayo 2026.docx",
+          "modificado": "2026-06-10T15:43:23Z"
+        }
+      ],
+      "anna-katharina-muller-castro": [
+        {
+          "archivo": "Müller, Anna, octubre 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Müller, Anna, octubre 2026.docx",
+          "modificado": "2026-11-12T16:50:56Z"
+        },
+        {
+          "archivo": "Müller Castro, setiembre 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Müller Castro, setiembre 2026.docx",
+          "modificado": "2026-10-13T16:09:35Z"
+        },
+        {
+          "archivo": "Müller Castro, agosto 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Müller Castro, agosto 2026.docx",
+          "modificado": "2026-09-09T21:17:08Z"
+        },
+        {
+          "archivo": "Anna Katherina Muller Castro 07-26.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Anna Katherina Muller Castro 07-26.docx",
+          "modificado": "2026-08-11T21:56:12Z"
+        },
+        {
+          "archivo": "Anna Katharina Muller Castro 06-26.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Anna Katharina Muller Castro 06-26.docx",
+          "modificado": "2026-07-29T17:34:17Z"
+        },
+        {
+          "archivo": "Anna Katharina Müller Castro 05-26.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Anna Katharina Müller Castro 05-26.docx",
+          "modificado": "2026-06-10T15:45:23Z"
+        }
+      ],
+      "claudia-dobles-camargo": [
+        {
+          "archivo": "Dobles, Claudia, octubre 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Dobles, Claudia, octubre 2026.docx",
+          "modificado": "2026-11-12T16:50:37Z"
+        },
+        {
+          "archivo": "Dobles Camargo, setiembre 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Dobles Camargo, setiembre 2026.docx",
+          "modificado": "2026-10-13T16:08:57Z"
+        },
+        {
+          "archivo": "Dobles Camargo, agosto 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Dobles Camargo, agosto 2026.docx",
+          "modificado": "2026-09-09T21:16:49Z"
+        },
+        {
+          "archivo": "Dobles Camargo, julio 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Dobles Camargo, julio 2026.docx",
+          "modificado": "2026-08-06T23:06:36Z"
+        },
+        {
+          "archivo": "Dobles Camargo, junio 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Dobles Camargo, junio 2026.docx",
+          "modificado": "2026-07-02T21:10:56Z"
+        },
+        {
+          "archivo": "Dobles Camargo, mayo 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Dobles Camargo, mayo 2026.docx",
+          "modificado": "2026-06-10T15:40:23Z"
+        }
+      ],
+      "kattia-calvo-cruz": [
+        {
+          "archivo": "Calvo, Kattia, octubre 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Calvo, Kattia, octubre 2026.docx",
+          "modificado": "2026-11-12T16:50:14Z"
+        },
+        {
+          "archivo": "Calvo Cruz, setiembre  2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Calvo Cruz, setiembre  2026.docx",
+          "modificado": "2026-10-13T16:08:37Z"
+        },
+        {
+          "archivo": "Calvo Cruz, agosto 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Calvo Cruz, agosto 2026.docx",
+          "modificado": "2026-09-09T21:16:32Z"
+        },
+        {
+          "archivo": "Calvo Cruz, julio 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Calvo Cruz, julio 2026.docx",
+          "modificado": "2026-08-06T23:06:16Z"
+        },
+        {
+          "archivo": "Calvo Cruz, junio 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Calvo Cruz, junio 2026.docx",
+          "modificado": "2026-07-02T21:10:37Z"
+        },
+        {
+          "archivo": "Calvo Cruz, mayo 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Calvo Cruz, mayo 2026.docx",
+          "modificado": "2026-06-10T15:39:34Z"
+        }
+      ],
+      "osvaldo-artavia-carballo": [
+        {
+          "archivo": "Artavia, Osvaldo, octubre 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Artavia, Osvaldo, octubre 2026.docx",
+          "modificado": "2026-11-12T16:49:58Z"
+        },
+        {
+          "archivo": "Artavia Carballo, setiembre 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Artavia Carballo, setiembre 2026.docx",
+          "modificado": "2026-10-13T16:08:19Z"
+        },
+        {
+          "archivo": "Artavia Carballo, agosto 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Artavia Carballo, agosto 2026.docx",
+          "modificado": "2026-09-09T21:16:04Z"
+        },
+        {
+          "archivo": "Artavia Carballo, julio 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Artavia Carballo, julio 2026.docx",
+          "modificado": "2026-08-06T23:05:40Z"
+        },
+        {
+          "archivo": "Artavia Carballo, junio 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Artavia Carballo, junio 2026.docx",
+          "modificado": "2026-07-02T21:10:14Z"
+        },
+        {
+          "archivo": "Artavia Carballo, mayo 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Artavia Carballo, mayo 2026.docx",
+          "modificado": "2026-06-10T15:39:00Z"
+        }
+      ],
+      "iztaru-alfaro-guerrero": [
+        {
+          "archivo": "Alfaro, Iztarú, octubre 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Alfaro, Iztarú, octubre 2026.docx",
+          "modificado": "2026-11-12T16:49:37Z"
+        },
+        {
+          "archivo": "Alfaro Guerrero, setiembre 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Alfaro Guerrero, setiembre 2026.docx",
+          "modificado": "2026-10-13T16:07:47Z"
+        },
+        {
+          "archivo": "Alfaro Guerrero, agosto 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Alfaro Guerrero, agosto 2026.docx",
+          "modificado": "2026-09-09T21:15:41Z"
+        },
+        {
+          "archivo": "Alfaro Guerrero, julio 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Alfaro Guerrero, julio 2026.docx",
+          "modificado": "2026-08-06T23:04:35Z"
+        },
+        {
+          "archivo": "Alfaro Guerrero, junio 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Alfaro Guerrero, junio 2026.docx",
+          "modificado": "2026-07-02T21:09:49Z"
+        },
+        {
+          "archivo": "Alfaro Guerrero, mayo 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Alfaro Guerrero, mayo 2026.docx",
+          "modificado": "2026-06-10T15:38:35Z"
+        }
+      ],
+      "jose-maria-villalta-florez-estrada": [
+        {
+          "archivo": "Villalta Fl+�rez-Estrada, octubre 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Villalta Fl+�rez-Estrada, octubre 2026.docx",
+          "modificado": "2026-11-12T16:44:34Z"
+        },
+        {
+          "archivo": "Villalta Flórez-Estrada, setiembre 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Villalta Flórez-Estrada, setiembre 2026.docx",
+          "modificado": "2026-10-13T16:06:37Z"
+        },
+        {
+          "archivo": "Villalta Flórez-Estrada, agosto 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Villalta Flórez-Estrada, agosto 2026.docx",
+          "modificado": "2026-09-09T21:14:14Z"
+        },
+        {
+          "archivo": "Villalta Fl+�rez-Estrada, julio 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Villalta Fl+�rez-Estrada, julio 2026.docx",
+          "modificado": "2026-08-06T23:03:53Z"
+        },
+        {
+          "archivo": "Villalta Flórez-Estrada, mayo 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Villalta Flórez-Estrada, mayo 2026.docx",
+          "modificado": "2026-06-10T15:31:20Z"
+        }
+      ],
+      "antonio-trejos-mazariegos": [
+        {
+          "archivo": "Trejos Mazariegos, octubre 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Trejos Mazariegos, octubre 2026.docx",
+          "modificado": "2026-11-12T16:44:07Z"
+        },
+        {
+          "archivo": "Trejos Mazariegos, setiembre 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Trejos Mazariegos, setiembre 2026.docx",
+          "modificado": "2026-10-13T16:06:13Z"
+        },
+        {
+          "archivo": "Trejos Mazariegos, agosto 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Trejos Mazariegos, agosto 2026.docx",
+          "modificado": "2026-09-09T21:11:14Z"
+        },
+        {
+          "archivo": "Trejos Mazariegos, julio 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Trejos Mazariegos, julio 2026.docx",
+          "modificado": "2026-08-06T23:03:21Z"
+        },
+        {
+          "archivo": "Trejos Mazariegos, mayo 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Trejos Mazariegos, mayo 2026.docx",
+          "modificado": "2026-06-10T15:30:23Z"
+        }
+      ],
+      "vianey-mora-vega": [
+        {
+          "archivo": "Mora Vega, octubre 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Mora Vega, octubre 2026.docx",
+          "modificado": "2026-11-12T16:43:46Z"
+        },
+        {
+          "archivo": "Mora Vega, setiembre 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Mora Vega, setiembre 2026.docx",
+          "modificado": "2026-10-13T16:05:47Z"
+        },
+        {
+          "archivo": "Mora Vega, agosto 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Mora Vega, agosto 2026.docx",
+          "modificado": "2026-09-09T21:10:49Z"
+        },
+        {
+          "archivo": "Mora Vega, julio 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Mora Vega, julio 2026.docx",
+          "modificado": "2026-08-06T23:00:39Z"
+        },
+        {
+          "archivo": "Mora Vega, mayo 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Mora Vega, mayo 2026.docx",
+          "modificado": "2026-06-10T15:29:24Z"
+        }
+      ],
       "cindy-murillo-artavia": [
         {
           "archivo": "Cindy Murillo Artavia, Setiembre 2026.docx",
@@ -1058,1392 +2714,6 @@
           "periodo": null,
           "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Aguilar Vargas, mayo 2026.docx",
           "modificado": "2026-06-10T15:33:38Z"
-        }
-      ],
-      "zaira-murillo-marin": [
-        {
-          "archivo": "Zaira Murillo Marin-septiembre 2026.docx",
-          "periodo": "septiembre 2026",
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Zaira Murillo Marin-septiembre 2026.docx",
-          "modificado": "2026-10-13T16:36:42Z"
-        },
-        {
-          "archivo": "Zaira Murillo Marin-agosto 2026.docx",
-          "periodo": "agosto 2026",
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Zaira Murillo Marin-agosto 2026.docx",
-          "modificado": "2026-09-09T21:37:02Z"
-        },
-        {
-          "archivo": "Zaira Murillo Marin-julio 2026.docx",
-          "periodo": "julio 2026",
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Zaira Murillo Marin-julio 2026.docx",
-          "modificado": "2026-08-12T21:44:29Z"
-        },
-        {
-          "archivo": "Zaira Murillo Marín-junio 2026.docx",
-          "periodo": "junio 2026",
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Zaira Murillo Marín-junio 2026.docx",
-          "modificado": "2026-07-02T20:17:28Z"
-        },
-        {
-          "archivo": "Zaira Murillo Marín-mayo 2026.docx",
-          "periodo": "mayo 2026",
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Zaira Murillo Marín-mayo 2026.docx",
-          "modificado": "2026-06-10T16:20:42Z"
-        }
-      ],
-      "wilson-alfredo-jimenez-cordero": [
-        {
-          "archivo": "Wilson Alfredo Jimenez Cordero-septiembre 2026.docx",
-          "periodo": "septiembre 2026",
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Wilson Alfredo Jimenez Cordero-septiembre 2026.docx",
-          "modificado": "2026-10-13T16:36:16Z"
-        },
-        {
-          "archivo": "Wilson Alfredo Jimenez Cordero- agosto 2026.docx",
-          "periodo": "agosto 2026",
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Wilson Alfredo Jimenez Cordero- agosto 2026.docx",
-          "modificado": "2026-09-09T21:36:49Z"
-        },
-        {
-          "archivo": "Wilson Alfredo Jimenez Cordero-julio 2026.docx",
-          "periodo": "julio 2026",
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Wilson Alfredo Jimenez Cordero-julio 2026.docx",
-          "modificado": "2026-08-12T21:44:00Z"
-        },
-        {
-          "archivo": "Wilson Alfredo Jiménez Cordero-junio 2026.docx",
-          "periodo": "junio 2026",
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Wilson Alfredo Jiménez Cordero-junio 2026.docx",
-          "modificado": "2026-07-02T20:17:09Z"
-        },
-        {
-          "archivo": "Wilson Alfredo Jiménez Cordero-mayo 2026.docx",
-          "periodo": "mayo 2026",
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Wilson Alfredo Jiménez Cordero-mayo 2026.docx",
-          "modificado": "2026-06-10T16:20:19Z"
-        }
-      ],
-      "sigrid-segura-artavia": [
-        {
-          "archivo": "Sigrid Segura Artavia-septiembre 2026.docx",
-          "periodo": "septiembre 2026",
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Sigrid Segura Artavia-septiembre 2026.docx",
-          "modificado": "2026-10-13T16:36:00Z"
-        },
-        {
-          "archivo": "Sigrid Segura Artavia-agosto 2026.docx",
-          "periodo": "agosto 2026",
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Sigrid Segura Artavia-agosto 2026.docx",
-          "modificado": "2026-09-09T21:36:29Z"
-        },
-        {
-          "archivo": "Sigrid Segura Artavia-julio 2026.docx",
-          "periodo": "julio 2026",
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Sigrid Segura Artavia-julio 2026.docx",
-          "modificado": "2026-08-12T21:43:17Z"
-        },
-        {
-          "archivo": "Sigrid Segura Artavia-junio 2026.docx",
-          "periodo": "junio 2026",
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Sigrid Segura Artavia-junio 2026.docx",
-          "modificado": "2026-07-02T20:16:48Z"
-        },
-        {
-          "archivo": "Sigrid Segura Artavia-mayo 2026.docx",
-          "periodo": "mayo 2026",
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Sigrid Segura Artavia-mayo 2026.docx",
-          "modificado": "2026-06-10T16:20:05Z"
-        }
-      ],
-      "kattia-maria-ulate-alvarado": [
-        {
-          "archivo": "Kattia Maria Ulate Alvarado-septiembre 2026.docx",
-          "periodo": "septiembre 2026",
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Kattia Maria Ulate Alvarado-septiembre 2026.docx",
-          "modificado": "2026-10-13T16:35:43Z"
-        },
-        {
-          "archivo": "Kattia Maria Ulate Alvarado-agosto 2026.docx",
-          "periodo": "agosto 2026",
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Kattia Maria Ulate Alvarado-agosto 2026.docx",
-          "modificado": "2026-09-09T21:36:13Z"
-        },
-        {
-          "archivo": "Kattia Maria Ulate Alvarado-julio 2026.docx",
-          "periodo": "julio 2026",
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Kattia Maria Ulate Alvarado-julio 2026.docx",
-          "modificado": "2026-08-12T21:42:45Z"
-        },
-        {
-          "archivo": "Kattia María Ulate Alvarado-junio 2026.docx",
-          "periodo": "junio 2026",
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Kattia María Ulate Alvarado-junio 2026.docx",
-          "modificado": "2026-07-02T20:16:26Z"
-        },
-        {
-          "archivo": "Kattia María Ulate Alvarado-mayo 2026.docx",
-          "periodo": "mayo 2026",
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Kattia María Ulate Alvarado-mayo 2026.docx",
-          "modificado": "2026-06-10T16:19:38Z"
-        }
-      ],
-      "karen-alfaro-jimenez": [
-        {
-          "archivo": "Karen Alfaro Jimenez-septiembre 2026.docx",
-          "periodo": "septiembre 2026",
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Karen Alfaro Jimenez-septiembre 2026.docx",
-          "modificado": "2026-10-13T16:35:27Z"
-        },
-        {
-          "archivo": "Karen Alfaro Jimenez-agosto 2026.docx",
-          "periodo": "agosto 2026",
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Karen Alfaro Jimenez-agosto 2026.docx",
-          "modificado": "2026-09-09T21:35:56Z"
-        },
-        {
-          "archivo": "Karen Alfaro Jimenez-julio 2026.docx",
-          "periodo": "julio 2026",
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Karen Alfaro Jimenez-julio 2026.docx",
-          "modificado": "2026-08-12T21:42:23Z"
-        },
-        {
-          "archivo": "Karen Alfaro Jiménez-junio 2026.docx",
-          "periodo": "junio 2026",
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Karen Alfaro Jiménez-junio 2026.docx",
-          "modificado": "2026-07-02T20:16:08Z"
-        },
-        {
-          "archivo": "Karen Alfaro Jiménez-mayo 2026.docx",
-          "periodo": "mayo 2026",
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Karen Alfaro Jiménez-mayo 2026.docx",
-          "modificado": "2026-06-10T16:19:22Z"
-        }
-      ],
-      "grethel-maria-avila-vargas": [
-        {
-          "archivo": "Grethel Maria Avila Vargas-septiembre 2026.docx",
-          "periodo": "septiembre 2026",
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Grethel Maria Avila Vargas-septiembre 2026.docx",
-          "modificado": "2026-10-13T16:35:11Z"
-        },
-        {
-          "archivo": "Grethel Maria Avila Vargas-agosto 2026.docx",
-          "periodo": "agosto 2026",
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Grethel Maria Avila Vargas-agosto 2026.docx",
-          "modificado": "2026-09-09T21:35:37Z"
-        },
-        {
-          "archivo": "Grethel Maria Avila Vargas-julio 2026.docx",
-          "periodo": "julio 2026",
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Grethel Maria Avila Vargas-julio 2026.docx",
-          "modificado": "2026-08-12T21:41:57Z"
-        },
-        {
-          "archivo": "Gréthel Maria Ávila Vargas-junio 2026.docx",
-          "periodo": "junio 2026",
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Gréthel Maria Ávila Vargas-junio 2026.docx",
-          "modificado": "2026-07-02T20:15:48Z"
-        },
-        {
-          "archivo": "Gréthel Maria Ávila Vargas-mayo 2026.docx",
-          "periodo": "mayo 2026",
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Gréthel Maria Ávila Vargas-mayo 2026.docx",
-          "modificado": "2026-06-10T16:18:57Z"
-        }
-      ],
-      "gerald-bogantes-rivera": [
-        {
-          "archivo": "Gerald Bogantes Rivera-septiembre 2026.docx",
-          "periodo": "septiembre 2026",
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Gerald Bogantes Rivera-septiembre 2026.docx",
-          "modificado": "2026-10-13T16:34:56Z"
-        },
-        {
-          "archivo": "Gerald Bogantes Rivera-agosto 2026.docx",
-          "periodo": "agosto 2026",
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Gerald Bogantes Rivera-agosto 2026.docx",
-          "modificado": "2026-09-09T21:35:20Z"
-        },
-        {
-          "archivo": "Gerald Bogantes Rivera-julio 2026.docx",
-          "periodo": "julio 2026",
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Gerald Bogantes Rivera-julio 2026.docx",
-          "modificado": "2026-08-12T21:41:35Z"
-        },
-        {
-          "archivo": "Gerald Bogantes Rivera-junio 2026.docx",
-          "periodo": "junio 2026",
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Gerald Bogantes Rivera-junio 2026.docx",
-          "modificado": "2026-07-02T20:15:27Z"
-        },
-        {
-          "archivo": "Gerald Bogantes Rivera-mayo 2026.docx",
-          "periodo": "mayo 2026",
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Gerald Bogantes Rivera-mayo 2026.docx",
-          "modificado": "2026-06-10T16:18:41Z"
-        }
-      ],
-      "fernando-obaldia-alvarez": [
-        {
-          "archivo": "Fernando Obaldia Alvarez-septiembre 2026.docx",
-          "periodo": "septiembre 2026",
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Fernando Obaldia Alvarez-septiembre 2026.docx",
-          "modificado": "2026-10-13T16:34:28Z"
-        },
-        {
-          "archivo": "Fernando Obaldia Alvarez-agosto 2026.docx",
-          "periodo": "agosto 2026",
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Fernando Obaldia Alvarez-agosto 2026.docx",
-          "modificado": "2026-09-09T21:35:05Z"
-        },
-        {
-          "archivo": "Fernando Obaldia Alvarez-julio 2026.docx",
-          "periodo": "julio 2026",
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Fernando Obaldia Alvarez-julio 2026.docx",
-          "modificado": "2026-08-12T21:41:13Z"
-        },
-        {
-          "archivo": "Fernando Obaldía Álvarez-junio 2026.docx",
-          "periodo": "junio 2026",
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Fernando Obaldía Álvarez-junio 2026.docx",
-          "modificado": "2026-07-02T20:15:11Z"
-        },
-        {
-          "archivo": "Fernando Obaldía Álvarez-mayo 2026.docx",
-          "periodo": "mayo 2026",
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Fernando Obaldía Álvarez-mayo 2026.docx",
-          "modificado": "2026-06-10T16:00:32Z"
-        }
-      ],
-      "robert-junior-barrantes-camacho": [
-        {
-          "archivo": "Robert Johsan Carranctes Camacho, Setiembre  2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Robert Johsan Carranctes Camacho, Setiembre  2026.docx",
-          "modificado": "2026-10-13T16:29:31Z"
-        },
-        {
-          "archivo": "Robert Johsan Carranctes Camacho, Agosto  2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Robert Johsan Carranctes Camacho, Agosto  2026.docx",
-          "modificado": "2026-09-09T21:33:48Z"
-        },
-        {
-          "archivo": "Robert Johsan Barrantes Camacho, Julio  2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Robert Johsan Barrantes Camacho, Julio  2026.docx",
-          "modificado": "2026-08-12T21:36:33Z"
-        },
-        {
-          "archivo": "Robert Johsan Carranctes Camacho, Junio  2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Robert Johsan Carranctes Camacho, Junio  2026.docx",
-          "modificado": "2026-07-15T17:29:38Z"
-        },
-        {
-          "archivo": "Robert Johsan Barrantes Camacho, mayo 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Robert Johsan Barrantes Camacho, mayo 2026.docx",
-          "modificado": "2026-06-22T20:01:11Z"
-        }
-      ],
-      "marco-badilla-chavarria": [
-        {
-          "archivo": "Marco Badilla Chavarria, Setiembre 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Marco Badilla Chavarria, Setiembre 2026.docx",
-          "modificado": "2026-10-13T16:29:16Z"
-        },
-        {
-          "archivo": "Marco Badilla Chavarria, Agosto 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Marco Badilla Chavarria, Agosto 2026.docx",
-          "modificado": "2026-09-09T21:33:30Z"
-        },
-        {
-          "archivo": "Marco Badilla Chavarria, Julio  2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Marco Badilla Chavarria, Julio  2026.docx",
-          "modificado": "2026-08-12T21:35:33Z"
-        },
-        {
-          "archivo": "Marco Badilla Chavarria, Junio  2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Marco Badilla Chavarria, Junio  2026.docx",
-          "modificado": "2026-07-15T17:29:20Z"
-        }
-      ],
-      "diana-murillo-murillo": [
-        {
-          "archivo": "Diana Murillo Murillo, Setiembre 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Diana Murillo Murillo, Setiembre 2026.docx",
-          "modificado": "2026-10-13T16:28:57Z"
-        },
-        {
-          "archivo": "Diana Murillo Murillo, Agosto 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Diana Murillo Murillo, Agosto 2026.docx",
-          "modificado": "2026-09-09T21:33:07Z"
-        },
-        {
-          "archivo": "Diana Murillo Murillo, Julio  2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Diana Murillo Murillo, Julio  2026.docx",
-          "modificado": "2026-08-12T21:35:09Z"
-        },
-        {
-          "archivo": "Diana Murillo Murillo, Junio  2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Diana Murillo Murillo, Junio  2026.docx",
-          "modificado": "2026-07-15T17:28:57Z"
-        },
-        {
-          "archivo": "Diana Murillo Murillo, mayo 2026 - copia.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Diana Murillo Murillo, mayo 2026 - copia.docx",
-          "modificado": "2026-06-22T20:00:03Z"
-        }
-      ],
-      "kristel-ward-hudson": [
-        {
-          "archivo": "Ward Hudson, Kristel setiembre 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Ward Hudson, Kristel setiembre 2026.docx",
-          "modificado": "2026-10-13T16:28:25Z"
-        },
-        {
-          "archivo": "Ward Hudson, Kristel agosto 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Ward Hudson, Kristel agosto 2026.docx",
-          "modificado": "2026-09-09T21:31:41Z"
-        },
-        {
-          "archivo": "Ward Hudson, Kristel julio 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Ward Hudson, Kristel julio 2026.docx",
-          "modificado": "2026-08-12T21:34:08Z"
-        },
-        {
-          "archivo": "Ward Hudson, Kristel junio 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Ward Hudson, Kristel junio 2026.docx",
-          "modificado": "2026-07-02T21:08:44Z"
-        },
-        {
-          "archivo": "Ward Hudson, Kristel mayo 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Ward Hudson, Kristel mayo 2026.docx",
-          "modificado": "2026-06-10T15:56:06Z"
-        }
-      ],
-      "janice-sandi-morales": [
-        {
-          "archivo": "Sandí Morales, Janice setiembre 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Sandí Morales, Janice setiembre 2026.docx",
-          "modificado": "2026-10-13T16:28:02Z"
-        },
-        {
-          "archivo": "Sandí Morales, Janice julio 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Sandí Morales, Janice julio 2026.docx",
-          "modificado": "2026-08-12T21:33:43Z"
-        },
-        {
-          "archivo": "Sandí Morales, Janice junio 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Sandí Morales, Janice junio 2026.docx",
-          "modificado": "2026-07-02T21:08:15Z"
-        },
-        {
-          "archivo": "Sandí Morales, Janice mayo 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Sandí Morales, Janice mayo 2026.docx",
-          "modificado": "2026-06-10T15:55:27Z"
-        }
-      ],
-      "ariel-mora-fallas": [
-        {
-          "archivo": "Mora Fallas, Ariel setiembre 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Mora Fallas, Ariel setiembre 2026.docx",
-          "modificado": "2026-10-13T16:27:40Z"
-        },
-        {
-          "archivo": "Mora Fallas, Ariel agosto 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Mora Fallas, Ariel agosto 2026.docx",
-          "modificado": "2026-09-09T21:31:18Z"
-        },
-        {
-          "archivo": "Mora Fallas, Ariel julio 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Mora Fallas, Ariel julio 2026.docx",
-          "modificado": "2026-08-12T21:33:17Z"
-        },
-        {
-          "archivo": "Mora Fallas, Ariel junio 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Mora Fallas, Ariel junio 2026.docx",
-          "modificado": "2026-07-02T21:07:54Z"
-        },
-        {
-          "archivo": "Mora Fallas, Ariel mayo 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Mora Fallas, Ariel mayo 2026.docx",
-          "modificado": "2026-06-10T15:55:09Z"
-        }
-      ],
-      "karol-vanessa-matamoros-montoya": [
-        {
-          "archivo": "Matamoros Montoya, Karol Vanessa setiembre 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Matamoros Montoya, Karol Vanessa setiembre 2026.docx",
-          "modificado": "2026-10-13T16:27:13Z"
-        },
-        {
-          "archivo": "Matamoros Montoya, Karol Vanessa agosto 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Matamoros Montoya, Karol Vanessa agosto 2026.docx",
-          "modificado": "2026-09-09T21:30:59Z"
-        },
-        {
-          "archivo": "Matamoros Montoya, Karol Vanessa julio 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Matamoros Montoya, Karol Vanessa julio 2026.docx",
-          "modificado": "2026-08-12T21:32:54Z"
-        },
-        {
-          "archivo": "Matamoros Montoya, Karol Vanessa junio 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Matamoros Montoya, Karol Vanessa junio 2026.docx",
-          "modificado": "2026-07-02T21:07:31Z"
-        },
-        {
-          "archivo": "Matamoros Montoya, Karol Vanessa mayo 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Matamoros Montoya, Karol Vanessa mayo 2026.docx",
-          "modificado": "2026-06-10T15:54:33Z"
-        }
-      ],
-      "norjelens-maria-lobo-vargas": [
-        {
-          "archivo": "Lobo Vargas, Norjelens María setiembre 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Lobo Vargas, Norjelens María setiembre 2026.docx",
-          "modificado": "2026-10-13T16:26:54Z"
-        },
-        {
-          "archivo": "Lobo Vargas, Norjelens María agosto 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Lobo Vargas, Norjelens María agosto 2026.docx",
-          "modificado": "2026-09-09T21:30:36Z"
-        },
-        {
-          "archivo": "Lobo Vargas, Norjelens María julio 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Lobo Vargas, Norjelens María julio 2026.docx",
-          "modificado": "2026-08-12T21:32:18Z"
-        },
-        {
-          "archivo": "Lobo Vargas, Norjelens María junio 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Lobo Vargas, Norjelens María junio 2026.docx",
-          "modificado": "2026-07-02T21:06:51Z"
-        },
-        {
-          "archivo": "Lobo Vargas, Norjelens María mayo 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Lobo Vargas, Norjelens María mayo 2026.docx",
-          "modificado": "2026-06-10T15:54:15Z"
-        }
-      ],
-      "ana-ruth-esquivel-medrano": [
-        {
-          "archivo": "Esquivel Medrano, Ana Ruth setiembre 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Esquivel Medrano, Ana Ruth setiembre 2026.docx",
-          "modificado": "2026-10-13T16:26:32Z"
-        },
-        {
-          "archivo": "Esquivel Medrano, Ana Ruth agosto 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Esquivel Medrano, Ana Ruth agosto 2026.docx",
-          "modificado": "2026-09-09T21:29:42Z"
-        },
-        {
-          "archivo": "Esquivel Medrano, Ana Ruth julio 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Esquivel Medrano, Ana Ruth julio 2026.docx",
-          "modificado": "2026-08-12T21:30:51Z"
-        },
-        {
-          "archivo": "Esquivel Medrano, Ana Ruth junio 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Esquivel Medrano, Ana Ruth junio 2026.docx",
-          "modificado": "2026-07-02T21:06:24Z"
-        },
-        {
-          "archivo": "Esquivel Medrano, Ana Ruth mayo 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Esquivel Medrano, Ana Ruth mayo 2026.docx",
-          "modificado": "2026-06-10T15:50:13Z"
-        }
-      ],
-      "ronald-campos-villegas": [
-        {
-          "archivo": "Campos Villegas, Ronald setiembre 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Campos Villegas, Ronald setiembre 2026.docx",
-          "modificado": "2026-10-13T16:25:52Z"
-        },
-        {
-          "archivo": "Campos Villegas, Ronald agosto 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Campos Villegas, Ronald agosto 2026.docx",
-          "modificado": "2026-09-09T21:29:24Z"
-        },
-        {
-          "archivo": "Campos Villegas, Ronald julio 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Campos Villegas, Ronald julio 2026.docx",
-          "modificado": "2026-08-12T21:30:31Z"
-        },
-        {
-          "archivo": "Campos Villegas, Ronald junio 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Campos Villegas, Ronald junio 2026.docx",
-          "modificado": "2026-07-02T21:05:58Z"
-        },
-        {
-          "archivo": "Campos Villegas, Ronald mayo 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Campos Villegas, Ronald mayo 2026.docx",
-          "modificado": "2026-06-10T15:49:50Z"
-        }
-      ],
-      "maria-isabel-camareno-camareno": [
-        {
-          "archivo": "Camareno Camareno, María Isabel setiembre 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Camareno Camareno, María Isabel setiembre 2026.docx",
-          "modificado": "2026-10-13T16:25:28Z"
-        },
-        {
-          "archivo": "Camareno Camareno, María Isabel agosto 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Camareno Camareno, María Isabel agosto 2026.docx",
-          "modificado": "2026-09-09T21:29:05Z"
-        },
-        {
-          "archivo": "Camareno Camareno, María Isabel julio 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Camareno Camareno, María Isabel julio 2026.docx",
-          "modificado": "2026-08-12T21:29:56Z"
-        },
-        {
-          "archivo": "Camareno Camareno, María Isabel junio 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Camareno Camareno, María Isabel junio 2026.docx",
-          "modificado": "2026-07-02T21:05:35Z"
-        },
-        {
-          "archivo": "Camareno Camareno, María Isabel mayo 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Camareno Camareno, María Isabel mayo 2026.docx",
-          "modificado": "2026-06-10T15:49:14Z"
-        }
-      ],
-      "jesus-calderon-calderon": [
-        {
-          "archivo": "Calderón Calderón, Jesús setiembre 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Calderón Calderón, Jesús setiembre 2026.docx",
-          "modificado": "2026-10-13T16:25:06Z"
-        },
-        {
-          "archivo": "Calderón Calderón, Jesús agosto 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Calderón Calderón, Jesús agosto 2026.docx",
-          "modificado": "2026-09-09T21:28:33Z"
-        },
-        {
-          "archivo": "Calderón Calderón, Jesús julio 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Calderón Calderón, Jesús julio 2026.docx",
-          "modificado": "2026-08-12T21:29:06Z"
-        },
-        {
-          "archivo": "Calderón Calderón, Jesús junio 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Calderón Calderón, Jesús junio 2026.docx",
-          "modificado": "2026-07-02T21:05:08Z"
-        },
-        {
-          "archivo": "Calderón Calderón, Jesús mayo 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Calderón Calderón, Jesús mayo 2026.docx",
-          "modificado": "2026-06-10T15:48:50Z"
-        }
-      ],
-      "stephan-brunner-neibig": [
-        {
-          "archivo": "Stephan Brunner Neibig 09-26.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Stephan Brunner Neibig 09-26.docx",
-          "modificado": "2026-10-13T16:16:27Z"
-        },
-        {
-          "archivo": "Stephan Brunner Neibig 08-26.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Stephan Brunner Neibig 08-26.docx",
-          "modificado": "2026-09-09T21:28:04Z"
-        },
-        {
-          "archivo": "Stephan Brunner Neibig 07-26.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Stephan Brunner Neibig 07-26.docx",
-          "modificado": "2026-08-11T21:59:58Z"
-        },
-        {
-          "archivo": "Stephan Brunner Neibig 06-26.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Stephan Brunner Neibig 06-26.docx",
-          "modificado": "2026-07-29T17:39:14Z"
-        },
-        {
-          "archivo": "Stephan Brunner Neibig 05-26.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Stephan Brunner Neibig 05-26.docx",
-          "modificado": "2026-06-10T15:48:18Z"
-        }
-      ],
-      "royner-g-mora-ruiz": [
-        {
-          "archivo": "Royner Mora Ruiz 09-26.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Royner Mora Ruiz 09-26.docx",
-          "modificado": "2026-10-13T16:16:03Z"
-        },
-        {
-          "archivo": "Royner Mora Ruiz 08-26.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Royner Mora Ruiz 08-26.docx",
-          "modificado": "2026-09-09T21:27:45Z"
-        },
-        {
-          "archivo": "Royner Mora Ruiz 07-26.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Royner Mora Ruiz 07-26.docx",
-          "modificado": "2026-08-11T21:59:39Z"
-        },
-        {
-          "archivo": "Royner Mora Ruiz 06-26.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Royner Mora Ruiz 06-26.docx",
-          "modificado": "2026-07-29T17:38:28Z"
-        },
-        {
-          "archivo": "Royner G. Mora Ruiz 05-26.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Royner G. Mora Ruiz 05-26.docx",
-          "modificado": "2026-06-10T15:47:59Z"
-        }
-      ],
-      "reynaldo-arias-mora": [
-        {
-          "archivo": "Reynnaldo Arias Mora 09-26.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Reynnaldo Arias Mora 09-26.docx",
-          "modificado": "2026-10-13T16:15:47Z"
-        },
-        {
-          "archivo": "Reynaldo Arias Mora 08-26.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Reynaldo Arias Mora 08-26.docx",
-          "modificado": "2026-09-09T21:27:19Z"
-        },
-        {
-          "archivo": "Reynaldo Arias Mora 07-26.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Reynaldo Arias Mora 07-26.docx",
-          "modificado": "2026-08-11T21:59:13Z"
-        },
-        {
-          "archivo": "Reynaldo Arias Mora 06-26.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Reynaldo Arias Mora 06-26.docx",
-          "modificado": "2026-07-29T17:37:51Z"
-        },
-        {
-          "archivo": "Reynaldo Arias Mora 05-26.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Reynaldo Arias Mora 05-26.docx",
-          "modificado": "2026-06-10T15:47:42Z"
-        }
-      ],
-      "nogui-acosta-jaen": [
-        {
-          "archivo": "Nogui Acosta Jaén 09-26.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Nogui Acosta Jaén 09-26.docx",
-          "modificado": "2026-10-13T16:15:21Z"
-        },
-        {
-          "archivo": "Nogui Acosta Jaén 08-26.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Nogui Acosta Jaén 08-26.docx",
-          "modificado": "2026-09-09T21:26:57Z"
-        },
-        {
-          "archivo": "Nogui Acosta Ja+�n 07-26.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Nogui Acosta Ja+�n 07-26.docx",
-          "modificado": "2026-08-11T21:58:54Z"
-        },
-        {
-          "archivo": "Nogui Acosta Jaen 06-26.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Nogui Acosta Jaen 06-26.docx",
-          "modificado": "2026-07-29T17:37:19Z"
-        },
-        {
-          "archivo": "Nogui Acosta Jaén.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Nogui Acosta Jaén.docx",
-          "modificado": "2026-06-10T15:47:21Z"
-        }
-      ],
-      "mayuli-ortega-guzman": [
-        {
-          "archivo": "Mayuli Ortega Guzmán 09-26.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Mayuli Ortega Guzmán 09-26.docx",
-          "modificado": "2026-10-13T16:15:03Z"
-        },
-        {
-          "archivo": "Mayuli Ortega Guzman 08-26.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Mayuli Ortega Guzman 08-26.docx",
-          "modificado": "2026-09-09T21:26:36Z"
-        },
-        {
-          "archivo": "Mayuli Ortega Guzm+�n 07-26.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Mayuli Ortega Guzm+�n 07-26.docx",
-          "modificado": "2026-08-11T21:58:34Z"
-        },
-        {
-          "archivo": "Mayuli Ortega Guzmán 06-26.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Mayuli Ortega Guzmán 06-26.docx",
-          "modificado": "2026-07-29T17:36:43Z"
-        },
-        {
-          "archivo": "Mayuli Ortega Guzmán  05-26.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Mayuli Ortega Guzmán  05-26.docx",
-          "modificado": "2026-06-10T15:47:04Z"
-        }
-      ],
-      "kattya-mora-montoya": [
-        {
-          "archivo": "Kattya Mora Montoya 09-26.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Kattya Mora Montoya 09-26.docx",
-          "modificado": "2026-10-13T16:14:45Z"
-        },
-        {
-          "archivo": "Kattya Mora Montoya 08-26.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Kattya Mora Montoya 08-26.docx",
-          "modificado": "2026-09-09T21:26:17Z"
-        },
-        {
-          "archivo": "Kattya Mora Montoya 07-26.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Kattya Mora Montoya 07-26.docx",
-          "modificado": "2026-08-11T21:58:12Z"
-        },
-        {
-          "archivo": "Kattya Mora Montoya 06-26.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Kattya Mora Montoya 06-26.docx",
-          "modificado": "2026-07-29T17:36:08Z"
-        },
-        {
-          "archivo": "Kattya Mora Montoya 05-26.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Kattya Mora Montoya 05-26.docx",
-          "modificado": "2026-06-10T15:46:45Z"
-        }
-      ],
-      "gonzalo-ramirez-zamora": [
-        {
-          "archivo": "Gonzalo Ramírez Zamora 09-26.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Gonzalo Ramírez Zamora 09-26.docx",
-          "modificado": "2026-10-13T16:13:32Z"
-        },
-        {
-          "archivo": "Gonzalo Ramírez Zamora 08-26.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Gonzalo Ramírez Zamora 08-26.docx",
-          "modificado": "2026-09-09T21:25:58Z"
-        },
-        {
-          "archivo": "Gonzalo Ramirez Zamora 07-26.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Gonzalo Ramirez Zamora 07-26.docx",
-          "modificado": "2026-08-11T21:57:55Z"
-        },
-        {
-          "archivo": "Gonzalo Ramírez Zamora 06-26.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Gonzalo Ramírez Zamora 06-26.docx",
-          "modificado": "2026-07-29T17:35:25Z"
-        },
-        {
-          "archivo": "Gonzalo Ramirez Zamora 05-26.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Gonzalo Ramirez Zamora 05-26.docx",
-          "modificado": "2026-06-10T15:46:28Z"
-        }
-      ],
-      "antonio-barzuna-thompson": [
-        {
-          "archivo": "Antonio Barzuna Thompson 09-26.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Antonio Barzuna Thompson 09-26.docx",
-          "modificado": "2026-10-13T16:13:06Z"
-        },
-        {
-          "archivo": "Antonio Barzuna Thompson 08-26.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Antonio Barzuna Thompson 08-26.docx",
-          "modificado": "2026-09-09T21:25:35Z"
-        },
-        {
-          "archivo": "Antonio Barzuna Thompson 07-26.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Antonio Barzuna Thompson 07-26.docx",
-          "modificado": "2026-08-11T21:56:29Z"
-        },
-        {
-          "archivo": "Antonio Barzuna Thompson  06-26.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Antonio Barzuna Thompson  06-26.docx",
-          "modificado": "2026-07-29T17:34:52Z"
-        },
-        {
-          "archivo": "Antonio Barzuna Thompson   05-26.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Antonio Barzuna Thompson   05-26.docx",
-          "modificado": "2026-06-10T15:45:48Z"
-        }
-      ],
-      "abril-gordienko-lopez": [
-        {
-          "archivo": "Abril Gordienko López 09-26.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Abril Gordienko López 09-26.docx",
-          "modificado": "2026-10-13T16:12:53Z"
-        },
-        {
-          "archivo": "Abril Gordienko López 08-26.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Abril Gordienko López 08-26.docx",
-          "modificado": "2026-09-09T21:23:37Z"
-        },
-        {
-          "archivo": "Gordienko López, julio 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Gordienko López, julio 2026.docx",
-          "modificado": "2026-08-06T23:06:58Z"
-        },
-        {
-          "archivo": "Gordienko López, junio 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Gordienko López, junio 2026.docx",
-          "modificado": "2026-07-02T21:11:12Z"
-        },
-        {
-          "archivo": "Gordienko López, mayo 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Gordienko López, mayo 2026.docx",
-          "modificado": "2026-06-10T15:40:39Z"
-        }
-      ],
-      "yara-jimenez-fallas": [
-        {
-          "archivo": "Yara Vanessa Jiménez Fallas, septiembre  2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Yara Vanessa Jiménez Fallas, septiembre  2026.docx",
-          "modificado": "2026-10-13T16:12:24Z"
-        },
-        {
-          "archivo": "Yara Vanessa Jiménez Fallas, agosto 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Yara Vanessa Jiménez Fallas, agosto 2026.docx",
-          "modificado": "2026-09-09T21:22:55Z"
-        },
-        {
-          "archivo": "Yara Vanessa Jiménez Fallas, julio 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Yara Vanessa Jiménez Fallas, julio 2026.docx",
-          "modificado": "2026-08-06T23:16:12Z"
-        },
-        {
-          "archivo": "Yara Vanessa Jiménez Fallas, mayo 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Yara Vanessa Jiménez Fallas, mayo 2026.docx",
-          "modificado": "2026-06-22T20:01:29Z"
-        }
-      ],
-      "jose-miguel-villalobos-umana": [
-        {
-          "archivo": "José Miguel Villalobos Umaña, septiembre 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/José Miguel Villalobos Umaña, septiembre 2026.docx",
-          "modificado": "2026-10-13T16:12:08Z"
-        },
-        {
-          "archivo": "José Miguel Villalobos Umaña, agosto 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/José Miguel Villalobos Umaña, agosto 2026.docx",
-          "modificado": "2026-09-09T21:22:37Z"
-        },
-        {
-          "archivo": "José Miguel Villalobos Umaña, julio 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/José Miguel Villalobos Umaña, julio 2026.docx",
-          "modificado": "2026-08-06T23:15:53Z"
-        },
-        {
-          "archivo": "José Miguel Villalobos Umaña, mayo 2026 - copia (3).docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/José Miguel Villalobos Umaña, mayo 2026 - copia (3).docx",
-          "modificado": "2026-06-22T20:00:53Z"
-        }
-      ],
-      "esmeralda-britton-gonzalez": [
-        {
-          "archivo": "Esmeralda Britton González, septiembre  2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Esmeralda Britton González, septiembre  2026.docx",
-          "modificado": "2026-10-13T16:11:48Z"
-        },
-        {
-          "archivo": "Esmeralda Britton González, agosto 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Esmeralda Britton González, agosto 2026.docx",
-          "modificado": "2026-09-09T21:22:18Z"
-        },
-        {
-          "archivo": "Esmeralda Britton González, julio 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Esmeralda Britton González, julio 2026.docx",
-          "modificado": "2026-08-06T23:15:34Z"
-        },
-        {
-          "archivo": "Esmeralda Britton González, mayo 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Esmeralda Britton González, mayo 2026.docx",
-          "modificado": "2026-06-22T20:00:34Z"
-        }
-      ],
-      "edgardo-araya-sibaja": [
-        {
-          "archivo": "Edgardo Vinicio Araya Sibaja, septiembre 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Edgardo Vinicio Araya Sibaja, septiembre 2026.docx",
-          "modificado": "2026-10-13T16:11:32Z"
-        },
-        {
-          "archivo": "Edgardo Vinicio Araya Sibaja, agosto 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Edgardo Vinicio Araya Sibaja, agosto 2026.docx",
-          "modificado": "2026-09-09T21:21:59Z"
-        },
-        {
-          "archivo": "Edgardo Vinicio Araya Sibaja, julio 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Edgardo Vinicio Araya Sibaja, julio 2026.docx",
-          "modificado": "2026-08-06T23:15:13Z"
-        },
-        {
-          "archivo": "Edgardo Vinicio Araya Sibaja, mayo 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Edgardo Vinicio Araya Sibaja, mayo 2026.docx",
-          "modificado": "2026-06-22T20:00:17Z"
-        }
-      ],
-      "rafael-vargas-brenes": [
-        {
-          "archivo": "Vargas Brenes, setiembre 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Vargas Brenes, setiembre 2026.docx",
-          "modificado": "2026-10-13T16:10:55Z"
-        },
-        {
-          "archivo": "Vargas Brenes, agosto 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Vargas Brenes, agosto 2026.docx",
-          "modificado": "2026-09-09T21:18:33Z"
-        },
-        {
-          "archivo": "Vargas Brenes, julio 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Vargas Brenes, julio 2026.docx",
-          "modificado": "2026-08-06T23:12:27Z"
-        },
-        {
-          "archivo": "Vargas Brenes, junio 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Vargas Brenes, junio 2026.docx",
-          "modificado": "2026-07-02T21:12:42Z"
-        },
-        {
-          "archivo": "Vargas Brenes, mayo 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Vargas Brenes, mayo 2026.docx",
-          "modificado": "2026-06-10T15:44:45Z"
-        }
-      ],
-      "andrea-valverde-palavicini": [
-        {
-          "archivo": "Valverde Palavicini, setiembre 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Valverde Palavicini, setiembre 2026.docx",
-          "modificado": "2026-10-13T16:10:36Z"
-        },
-        {
-          "archivo": "Valverde Palavicini, agosto 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Valverde Palavicini, agosto 2026.docx",
-          "modificado": "2026-09-09T21:18:05Z"
-        },
-        {
-          "archivo": "Valverde Palavicini, julio 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Valverde Palavicini, julio 2026.docx",
-          "modificado": "2026-08-06T23:12:03Z"
-        },
-        {
-          "archivo": "Valverde Palavicini, junio 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Valverde Palavicini, junio 2026.docx",
-          "modificado": "2026-07-02T21:12:19Z"
-        },
-        {
-          "archivo": "Valverde Palavicini, mayo 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Valverde Palavicini, mayo 2026.docx",
-          "modificado": "2026-06-10T15:44:25Z"
-        }
-      ],
-      "joselyn-saenz-nunez": [
-        {
-          "archivo": "Sáenz Núñez, setiembre  2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Sáenz Núñez, setiembre  2026.docx",
-          "modificado": "2026-10-13T16:10:15Z"
-        },
-        {
-          "archivo": "Sáenz Núñez, agosto 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Sáenz Núñez, agosto 2026.docx",
-          "modificado": "2026-09-09T21:17:48Z"
-        },
-        {
-          "archivo": "Sáenz Núñez, julio 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Sáenz Núñez, julio 2026.docx",
-          "modificado": "2026-08-06T23:11:32Z"
-        },
-        {
-          "archivo": "Sáenz Núñez, junio 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Sáenz Núñez, junio 2026.docx",
-          "modificado": "2026-07-02T21:12:01Z"
-        },
-        {
-          "archivo": "Sáenz Núñez, mayo 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Sáenz Núñez, mayo 2026.docx",
-          "modificado": "2026-06-10T15:44:08Z"
-        }
-      ],
-      "alvaro-ramirez-bogantes": [
-        {
-          "archivo": "Ramírez Bogantes, setiembre 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Ramírez Bogantes, setiembre 2026.docx",
-          "modificado": "2026-10-13T16:09:57Z"
-        },
-        {
-          "archivo": "Ramírez Bogantes, agosto 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Ramírez Bogantes, agosto 2026.docx",
-          "modificado": "2026-09-09T21:17:26Z"
-        },
-        {
-          "archivo": "Ramírez Bogantes, julio 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Ramírez Bogantes, julio 2026.docx",
-          "modificado": "2026-08-06T23:08:45Z"
-        },
-        {
-          "archivo": "Ramírez Bogantes, junio 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Ramírez Bogantes, junio 2026.docx",
-          "modificado": "2026-07-02T21:11:35Z"
-        },
-        {
-          "archivo": "Ramírez Bogantes, mayo 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Ramírez Bogantes, mayo 2026.docx",
-          "modificado": "2026-06-10T15:43:23Z"
-        }
-      ],
-      "anna-katharina-muller-castro": [
-        {
-          "archivo": "Müller Castro, setiembre 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Müller Castro, setiembre 2026.docx",
-          "modificado": "2026-10-13T16:09:35Z"
-        },
-        {
-          "archivo": "Müller Castro, agosto 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Müller Castro, agosto 2026.docx",
-          "modificado": "2026-09-09T21:17:08Z"
-        },
-        {
-          "archivo": "Anna Katherina Muller Castro 07-26.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Anna Katherina Muller Castro 07-26.docx",
-          "modificado": "2026-08-11T21:56:12Z"
-        },
-        {
-          "archivo": "Anna Katharina Muller Castro 06-26.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Anna Katharina Muller Castro 06-26.docx",
-          "modificado": "2026-07-29T17:34:17Z"
-        },
-        {
-          "archivo": "Anna Katharina Müller Castro 05-26.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Anna Katharina Müller Castro 05-26.docx",
-          "modificado": "2026-06-10T15:45:23Z"
-        }
-      ],
-      "claudia-dobles-camargo": [
-        {
-          "archivo": "Dobles Camargo, setiembre 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Dobles Camargo, setiembre 2026.docx",
-          "modificado": "2026-10-13T16:08:57Z"
-        },
-        {
-          "archivo": "Dobles Camargo, agosto 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Dobles Camargo, agosto 2026.docx",
-          "modificado": "2026-09-09T21:16:49Z"
-        },
-        {
-          "archivo": "Dobles Camargo, julio 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Dobles Camargo, julio 2026.docx",
-          "modificado": "2026-08-06T23:06:36Z"
-        },
-        {
-          "archivo": "Dobles Camargo, junio 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Dobles Camargo, junio 2026.docx",
-          "modificado": "2026-07-02T21:10:56Z"
-        },
-        {
-          "archivo": "Dobles Camargo, mayo 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Dobles Camargo, mayo 2026.docx",
-          "modificado": "2026-06-10T15:40:23Z"
-        }
-      ],
-      "kattia-calvo-cruz": [
-        {
-          "archivo": "Calvo Cruz, setiembre  2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Calvo Cruz, setiembre  2026.docx",
-          "modificado": "2026-10-13T16:08:37Z"
-        },
-        {
-          "archivo": "Calvo Cruz, agosto 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Calvo Cruz, agosto 2026.docx",
-          "modificado": "2026-09-09T21:16:32Z"
-        },
-        {
-          "archivo": "Calvo Cruz, julio 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Calvo Cruz, julio 2026.docx",
-          "modificado": "2026-08-06T23:06:16Z"
-        },
-        {
-          "archivo": "Calvo Cruz, junio 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Calvo Cruz, junio 2026.docx",
-          "modificado": "2026-07-02T21:10:37Z"
-        },
-        {
-          "archivo": "Calvo Cruz, mayo 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Calvo Cruz, mayo 2026.docx",
-          "modificado": "2026-06-10T15:39:34Z"
-        }
-      ],
-      "osvaldo-artavia-carballo": [
-        {
-          "archivo": "Artavia Carballo, setiembre 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Artavia Carballo, setiembre 2026.docx",
-          "modificado": "2026-10-13T16:08:19Z"
-        },
-        {
-          "archivo": "Artavia Carballo, agosto 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Artavia Carballo, agosto 2026.docx",
-          "modificado": "2026-09-09T21:16:04Z"
-        },
-        {
-          "archivo": "Artavia Carballo, julio 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Artavia Carballo, julio 2026.docx",
-          "modificado": "2026-08-06T23:05:40Z"
-        },
-        {
-          "archivo": "Artavia Carballo, junio 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Artavia Carballo, junio 2026.docx",
-          "modificado": "2026-07-02T21:10:14Z"
-        },
-        {
-          "archivo": "Artavia Carballo, mayo 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Artavia Carballo, mayo 2026.docx",
-          "modificado": "2026-06-10T15:39:00Z"
-        }
-      ],
-      "iztaru-alfaro-guerrero": [
-        {
-          "archivo": "Alfaro Guerrero, setiembre 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Alfaro Guerrero, setiembre 2026.docx",
-          "modificado": "2026-10-13T16:07:47Z"
-        },
-        {
-          "archivo": "Alfaro Guerrero, agosto 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Alfaro Guerrero, agosto 2026.docx",
-          "modificado": "2026-09-09T21:15:41Z"
-        },
-        {
-          "archivo": "Alfaro Guerrero, julio 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Alfaro Guerrero, julio 2026.docx",
-          "modificado": "2026-08-06T23:04:35Z"
-        },
-        {
-          "archivo": "Alfaro Guerrero, junio 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Alfaro Guerrero, junio 2026.docx",
-          "modificado": "2026-07-02T21:09:49Z"
-        },
-        {
-          "archivo": "Alfaro Guerrero, mayo 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Alfaro Guerrero, mayo 2026.docx",
-          "modificado": "2026-06-10T15:38:35Z"
-        }
-      ],
-      "jose-maria-villalta-florez-estrada": [
-        {
-          "archivo": "Villalta Flórez-Estrada, setiembre 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Villalta Flórez-Estrada, setiembre 2026.docx",
-          "modificado": "2026-10-13T16:06:37Z"
-        },
-        {
-          "archivo": "Villalta Flórez-Estrada, agosto 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Villalta Flórez-Estrada, agosto 2026.docx",
-          "modificado": "2026-09-09T21:14:14Z"
-        },
-        {
-          "archivo": "Villalta Fl+�rez-Estrada, julio 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Villalta Fl+�rez-Estrada, julio 2026.docx",
-          "modificado": "2026-08-06T23:03:53Z"
-        },
-        {
-          "archivo": "Villalta Flórez-Estrada, mayo 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Villalta Flórez-Estrada, mayo 2026.docx",
-          "modificado": "2026-06-10T15:31:20Z"
-        }
-      ],
-      "antonio-trejos-mazariegos": [
-        {
-          "archivo": "Trejos Mazariegos, setiembre 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Trejos Mazariegos, setiembre 2026.docx",
-          "modificado": "2026-10-13T16:06:13Z"
-        },
-        {
-          "archivo": "Trejos Mazariegos, agosto 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Trejos Mazariegos, agosto 2026.docx",
-          "modificado": "2026-09-09T21:11:14Z"
-        },
-        {
-          "archivo": "Trejos Mazariegos, julio 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Trejos Mazariegos, julio 2026.docx",
-          "modificado": "2026-08-06T23:03:21Z"
-        },
-        {
-          "archivo": "Trejos Mazariegos, mayo 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Trejos Mazariegos, mayo 2026.docx",
-          "modificado": "2026-06-10T15:30:23Z"
-        }
-      ],
-      "vianey-mora-vega": [
-        {
-          "archivo": "Mora Vega, setiembre 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Mora Vega, setiembre 2026.docx",
-          "modificado": "2026-10-13T16:05:47Z"
-        },
-        {
-          "archivo": "Mora Vega, agosto 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Mora Vega, agosto 2026.docx",
-          "modificado": "2026-09-09T21:10:49Z"
-        },
-        {
-          "archivo": "Mora Vega, julio 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Mora Vega, julio 2026.docx",
-          "modificado": "2026-08-06T23:00:39Z"
-        },
-        {
-          "archivo": "Mora Vega, mayo 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Mora Vega, mayo 2026.docx",
-          "modificado": "2026-06-10T15:29:24Z"
         }
       ]
     }
