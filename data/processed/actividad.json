@@ -1,10 +1,10 @@
 {
-  "generado": "2026-11-16T12:00:25+00:00",
+  "generado": "2026-11-19T12:00:29+00:00",
   "nota": "Solo se incluyen conjuntos que la Asamblea mantiene al día. Cada uno trae su propia fecha de última actualización, tomada de la fuente.",
   "leyes": {
     "_fuente": "https://www.asamblea.go.cr/glcp/_api/web/lists/getbytitle('res_de_leyes')/items?%24top=2000&%24orderby=Modified%20desc",
     "total": 1635,
-    "ultima_actualizacion": "2026-11-13T17:29:23Z",
+    "ultima_actualizacion": "2026-11-18T16:47:34Z",
     "por_anio": {
       "2017": 7,
       "2018": 253,
@@ -18,6 +18,48 @@
       "2026": 152
     },
     "recientes": [
+      {
+        "numero": "10658",
+        "titulo": "LEY PARA ELIMINAR ABUSOS EN COBROS POR MORA",
+        "resumen": "Regula los cobros que realizan a los deudores las personas físicas o jurídicas que otorguen financiamiento a un tercero, por concepto de pago de obligaciones, fuera de la fecha de su vencimiento.\n\nLa presente ley surge del expediente n.° 23.237.",
+        "publicada": "2025-02-17T20:10:54Z"
+      },
+      {
+        "numero": "10981",
+        "titulo": "LEY DE CREACIÓN DEL MINISTERIO DE VIVIENDA Y ASENTAMIENTOS HUMANOS",
+        "resumen": "La ley fortalece al MIVAH como ente rector de vivienda, ordenamiento territorial y asentamientos humanos en Costa Rica. Le otorga la responsabilidad de definir políticas, coordinar instituciones, administrar información territorial, promover el acceso a vivienda y orientar los recursos del sector, manteniendo su estructura, financiamiento y personal actual.\n\nLa presente ley surge del expediente N.° 24.410.",
+        "publicada": "2026-10-07T22:46:30Z"
+      },
+      {
+        "numero": "10982",
+        "titulo": "REFORMAS LEGALES PARA LA IMPLEMENTACIÓN DEL PROYECTO DE HACIENDA DIGITAL (SISTEMA TRIBU-CR)",
+        "resumen": "El proyecto moderniza la administración tributaria al establecer el buzón hacendario como principal medio de notificación, permite aplicar automáticamente retenciones a pagos parciales del impuesto sobre la renta, amplía el uso de valoraciones de inmuebles por Hacienda y actualiza diversos procedimientos tributarios.\n\nLa presente ley surge del expediente N.° 25.093.",
+        "publicada": "2026-10-13T20:48:53Z"
+      },
+      {
+        "numero": "10983",
+        "titulo": "CIERRE DEL MINISTERIO DE GOBERNACIÓN Y POLICÍA DE COSTA RICA Y REORDENAMIENTO DE SUS COMPETENCIAS DESCONCENTRADAS",
+        "resumen": "El proyecto elimina el Ministerio de Gobernación y Policía y redistribuye sus funciones: Migración y Extranjería pasa al Ministerio de Seguridad Pública, Dinadeco a Mideplán y la Imprenta Nacional al Ministerio de la Presidencia. Además, reforma diversas leyes para adecuarlas a esta nueva estructura institucional y regula el traslado de personal, recursos y competencias, garantizando los derechos laborales de los fun",
+        "publicada": "2026-10-13T20:51:25Z"
+      },
+      {
+        "numero": "10987",
+        "titulo": "ADICIÓN DE UN INCISO K) AL ARTÍCULO 79 DE LA LEY 7410, LEY GENERAL DE POLICÍA, DEL 26 DE MAYO DE 1994, PARA REGULAR LA SUSCRIPCIÓN DE UNA PÓLIZA DE RESPONSABILIDAD PATRIMONIAL Y REPRESENTACIÓN LEGAL DE LOS FUNCIONARIOS POLICIALES DEMANDADOS O DENUNCIADOS",
+        "resumen": "Se agrega un nuevo derecho para los miembros de las fuerzas de policía: que el Estado contrate una póliza de seguro que cubra la responsabilidad patrimonial y los gastos de defensa legal cuando sean demandados o procesados por actuaciones realizadas en el ejercicio de sus funciones policiales. La cobertura tiene límites específicos, excluye conductas ilegales graves o contrarias a protocolos, y sustituye la represent",
+        "publicada": "2026-10-16T17:16:15Z"
+      },
+      {
+        "numero": "10988",
+        "titulo": "AUTORIZACIÓN AL INSTITUTO COSTARRICENSE DE ACUEDUCTOS Y ALCANTARILLADOS PARA QUE CONDONE LA DEUDA POR SERVICIOS PRESTADOS DE AGUA POTABLE, CARGOS VARIOS Y MULTAS, FACTURADOS CON LOS SERVICIOS NIS 3276895 Y NIS 3276897, A NOMBRE DE CONSORCIO COOPERATIVO DE",
+        "resumen": "Se autoriza al AYA a condonar la totalidad de la deuda (principal, intereses, multas, honorarios y otros cargos) de los servicios NIS 3276895 y 3276897, utilizados por el Consorcio Cooperativo de Vivienda FEDECRÉDITO R.L. para abastecer la escuela y colegio de Rincón Grande de Pavas, por un monto de ₡32.461.830,18 al 20 de noviembre de 2024. Si la deuda hubiera variado al momento de aplicar la ley, se condonará el sa",
+        "publicada": "2026-10-16T17:18:58Z"
+      },
+      {
+        "numero": "10989",
+        "titulo": "LEY PARA HABILITAR EL TRASLADO DE DOMICILIO ELECTORAL POR MEDIOS DIGITALES",
+        "resumen": "El proyecto de ley reforma la Ley Orgánica del Tribunal Supremo de Elecciones para permitir que los ciudadanos realicen el cambio de domicilio electoral mediante formularios físicos o digitales. El TSE deberá garantizar la autenticación de identidad, la seguridad de la información y la protección de los datos personales. Además, emitirá un comprobante del trámite realizado. La iniciativa obliga al TSE a desarrollar l",
+        "publicada": "2026-10-21T17:12:24Z"
+      },
       {
         "numero": "10932",
         "titulo": "REFORMA DE LOS ARTÍCULOS 155 Y 155 BIS DE LA LEY 9078, LEY DE TRÁNSITO POR VÍAS PÚBLICAS TERRESTRES Y SEGURIDAD VIAL, DEL 4 DE OCTUBRE DE 2012, Y ADICIÓN DE UN INCISO O) AL ARTÍCULO 9 DE LA LEY 7088, REAJUSTE TRIBUTARIO Y RESOLUCION 18A CONSEJO ARANCELARI",
@@ -43,12 +85,6 @@
         "publicada": "2026-10-06T17:09:46Z"
       },
       {
-        "numero": "10989",
-        "titulo": "LEY PARA HABILITAR EL TRASLADO DE DOMICILIO ELECTORAL POR MEDIOS DIGITALES",
-        "resumen": "El proyecto de ley reforma la Ley Orgánica del Tribunal Supremo de Elecciones para permitir que los ciudadanos realicen el cambio de domicilio electoral mediante formularios físicos o digitales. El TSE deberá garantizar la autenticación de identidad, la seguridad de la información y la protección de los datos personales. Además, emitirá un comprobante del trámite realizado. La iniciativa obliga al TSE a desarrollar l",
-        "publicada": "2026-10-21T17:12:24Z"
-      },
-      {
         "numero": "10991",
         "titulo": "APROBACIÓN DE LA ADHESIÓN DE LA REPÚBLICA DE COSTA RICA AL PROTOCOLO AL TRATADO ANTÁRTICO SOBRE PROTECCIÓN DEL MEDIO AMBIENTE (PTAPMA)",
         "resumen": "Se aprueba la adhesión de Costa Rica al Protocolo al Tratado Antártico sobre Protección del Medio Ambiente, firmado en Madrid el 4 de abril de 1991, comprometiéndose con las normas internacionales para la protección y conservación del medio ambiente en la Antártida.\n\nLa presente ley surge del expediente N.° 25.303.",
@@ -59,18 +95,6 @@
         "titulo": "APROBACIÓN DEL ACUERDO INTERNACIONAL DEL CAFÉ DE 2022",
         "resumen": "Se aprueba en su totalidad el Acuerdo Internacional del Café de 2022, suscrito en Londres, Reino Unido, el 9 de junio de 2022, incorporándolo formalmente al ordenamiento jurídico nacional.\n\nLa presente ley surge del expediente N.° 25.278.",
         "publicada": "2026-10-21T17:01:21Z"
-      },
-      {
-        "numero": "10988",
-        "titulo": "AUTORIZACIÓN AL INSTITUTO COSTARRICENSE DE ACUEDUCTOS Y ALCANTARILLADOS PARA QUE CONDONE LA DEUDA POR SERVICIOS PRESTADOS DE AGUA POTABLE, CARGOS VARIOS Y MULTAS, FACTURADOS CON LOS SERVICIOS NIS 3276895 Y NIS 3276897, A NOMBRE DE CONSORCIO COOPERATIVO DE",
-        "resumen": "Se autoriza al AYA a condonar la totalidad de la deuda (principal, intereses, multas, honorarios y otros cargos) de los servicios NIS 3276895 y 3276897, utilizados por el Consorcio Cooperativo de Vivienda FEDECRÉDITO R.L. para abastecer la escuela y colegio de Rincón Grande de Pavas, por un monto de ₡32.461.830,18 al 20 de noviembre de 2024. Si la deuda hubiera variado al momento de aplicar la ley, se condonará el sa",
-        "publicada": "2026-10-16T17:18:58Z"
-      },
-      {
-        "numero": "10987",
-        "titulo": "ADICIÓN DE UN INCISO K) AL ARTÍCULO 79 DE LA LEY 7410, LEY GENERAL DE POLICÍA, DEL 26 DE MAYO DE 1994, PARA REGULAR LA SUSCRIPCIÓN DE UNA PÓLIZA DE RESPONSABILIDAD PATRIMONIAL Y REPRESENTACIÓN LEGAL DE LOS FUNCIONARIOS POLICIALES DEMANDADOS O DENUNCIADOS",
-        "resumen": "Se agrega un nuevo derecho para los miembros de las fuerzas de policía: que el Estado contrate una póliza de seguro que cubra la responsabilidad patrimonial y los gastos de defensa legal cuando sean demandados o procesados por actuaciones realizadas en el ejercicio de sus funciones policiales. La cobertura tiene límites específicos, excluye conductas ilegales graves o contrarias a protocolos, y sustituye la represent",
-        "publicada": "2026-10-16T17:16:15Z"
       },
       {
         "numero": "10986",
@@ -109,28 +133,10 @@
         "publicada": "2026-10-14T23:21:59Z"
       },
       {
-        "numero": "10983",
-        "titulo": "CIERRE DEL MINISTERIO DE GOBERNACIÓN Y POLICÍA DE COSTA RICA Y REORDENAMIENTO DE SUS COMPETENCIAS DESCONCENTRADAS",
-        "resumen": "El proyecto elimina el Ministerio de Gobernación y Policía y redistribuye sus funciones: Migración y Extranjería pasa al Ministerio de Seguridad Pública, Dinadeco a Mideplán y la Imprenta Nacional al Ministerio de la Presidencia. Además, reforma diversas leyes para adecuarlas a esta nueva estructura institucional y regula el traslado de personal, recursos y competencias, garantizando los derechos laborales de los fun",
-        "publicada": "2026-10-13T20:51:25Z"
-      },
-      {
-        "numero": "10982",
-        "titulo": "REFORMAS LEGALES PARA LA IMPLEMENTACIÓN DEL PROYECTO DE HACIENDA DIGITAL (SISTEMA TRIBU-CR)",
-        "resumen": "El proyecto moderniza la administración tributaria al establecer el buzón hacendario como principal medio de notificación, permite aplicar automáticamente retenciones a pagos parciales del impuesto sobre la renta, amplía el uso de valoraciones de inmuebles por Hacienda y actualiza diversos procedimientos tributarios.\n\nLa presente ley surge del expediente N.° 25.093.",
-        "publicada": "2026-10-13T20:48:53Z"
-      },
-      {
         "numero": "10971",
         "titulo": "REFORMA DEL INCISO F) DEL ARTÍCULO 14, SE REFORMA EL INCISO R), SE CORRE LA NUMERACIÓN DE LOS INCISOS SUBSIGUIENTES DEL ARTÍCULO 119 Y SE REFORMA EL PÁRRAFO FINAL DEL ARTÍCULO 119 DE LA LEY 9986, LEY GENERAL DE CONTRATACIÓN PÚBLICA, DEL 27 DE MAYO DE 2021",
         "resumen": "La reforma exige que los oferentes y contratistas del Estado cumplan con sus obligaciones laborales, aportes a la seguridad social, pago de impuestos y póliza de riesgos del trabajo. Además, el incumplimiento de estas obligaciones podrá ser sancionado con la exclusión del proceso de contratación o la resolución del contrato. Las instituciones tendrán seis meses para adecuar sus sistemas de verificación.\n\nLa presente ",
         "publicada": "2026-08-27T19:06:00Z"
-      },
-      {
-        "numero": "10981",
-        "titulo": "LEY DE CREACIÓN DEL MINISTERIO DE VIVIENDA Y ASENTAMIENTOS HUMANOS",
-        "resumen": "La ley fortalece al MIVAH como ente rector de vivienda, ordenamiento territorial y asentamientos humanos en Costa Rica. Le otorga la responsabilidad de definir políticas, coordinar instituciones, administrar información territorial, promover el acceso a vivienda y orientar los recursos del sector, manteniendo su estructura, financiamiento y personal actual.\n\nLa presente ley surge del expediente N.° 24.410.",
-        "publicada": "2026-10-07T22:46:30Z"
       },
       {
         "numero": "10972",
@@ -371,25 +377,19 @@
         "titulo": "HABILITACIÓN DEL ALLANAMIENTO EN LOS PROCESOS DE EXTRADICIÓN, REFORMA DE LA LEY DE EXTRADICIÓN, LEY N.° 4795, DEL 16 DE JULIO DE 1971",
         "resumen": "Se adiciona el artículo 7 bis a la Ley de Extradición, que permite el allanamiento de inmuebles para aprehender a personas requeridas en extradición, bajo autorización y control judicial.\n\nLa presente ley surge del expediente N.° 25.079.",
         "publicada": "2026-04-22T17:41:11Z"
-      },
-      {
-        "numero": "10937",
-        "titulo": "FOMENTO A LA INFRAESTRUCTURA DE RECARGA ELÉCTRICA Y ESTRATEGIAS PARA LA MOVILIDAD SOSTENIBLE",
-        "resumen": "Se reforman los artículos 31 y 32 para autorizar la instalación y operación de centros de recarga eléctrica, declarar la recarga como servicio de interés general y establecer tarifas reguladas y fiscalización por la Aresep\n\nLa presente ley surge del expediente N.° 24.171.",
-        "publicada": "2026-04-22T17:43:24Z"
       }
     ]
   },
   "mociones": {
     "_fuente": "https://www.asamblea.go.cr/glcp/_api/web/lists/getbytitle('mociones_total')/items?%24top=5000&%24orderby=Id%20desc",
-    "total": 27960,
-    "nota_alcance": "Agregados calculados sobre las 27960 mociones que devuelve la lista completa, no sobre una muestra.",
-    "ultima_actualizacion": "2026-11-13T19:09:09Z",
+    "total": 28023,
+    "nota_alcance": "Agregados calculados sobre las 28023 mociones que devuelve la lista completa, no sobre una muestra.",
+    "ultima_actualizacion": "2026-11-19T02:47:56Z",
     "por_resultado": {
-      "Rechazada": 23709,
-      "Aprobada": 3661,
-      "Retirada": 399,
-      "Pendiente": 190,
+      "Rechazada": 23759,
+      "Aprobada": 3669,
+      "Retirada": 400,
+      "Pendiente": 194,
       "Revisión": 1
     },
     "por_anio": {
@@ -397,329 +397,329 @@
       "2023": 3827,
       "2024": 4729,
       "2025": 9086,
-      "2026": 7068
+      "2026": 7131
     },
-    "expedientes_distintos": 1274,
+    "expedientes_distintos": 1276,
     "recientes": [
       {
-        "numero": "02-27",
-        "expediente": "25684",
+        "numero": "17-28",
+        "expediente": "25723",
         "resultado": "Aprobada",
-        "asunto": "REFORMA A LA LEY DE USO, MANEJO Y CONSERVACIÓN DE SUELOS N°7779 DE 30 DE ABRIL DE 1998 Y SUS REFORMAS, Y A LA LEY DE TIERRAS Y COLONIZACIÓN, LEY N°2825 DE 14 DE OCTUBRE DE 1961 Y SUS REFORMAS, PARA ADECUARLAS A LAS COMPETENCIAS DEL INSTITUTO DE DESARROLLO",
+        "asunto": "LEY PARA ESTABLECER UN PROCEDIMIENTO ESPECIAL PARA LA PREVENCIÓN DE RIESGOS INMINENTES ANTE EMERGENCIAS",
         "tramite": "I día",
-        "fecha": "2026-11-13T18:59:17Z"
+        "fecha": "2026-11-18T23:01:11Z"
       },
       {
         "numero": null,
-        "expediente": "25684",
+        "expediente": "25723",
         "resultado": "Aprobada",
-        "asunto": "REFORMA A LA LEY DE USO, MANEJO Y CONSERVACIÓN DE SUELOS N°7779 DE 30 DE ABRIL DE 1998 Y SUS REFORMAS, Y A LA LEY DE TIERRAS Y COLONIZACIÓN, LEY N°2825 DE 14 DE OCTUBRE DE 1961 Y SUS REFORMAS, PARA ADECUARLAS A LAS COMPETENCIAS DEL INSTITUTO DE DESARROLLO",
+        "asunto": "LEY PARA ESTABLECER UN PROCEDIMIENTO ESPECIAL PARA LA PREVENCIÓN DE RIESGOS INMINENTES ANTE EMERGENCIAS",
         "tramite": "I día",
-        "fecha": "2026-11-13T18:58:20Z"
+        "fecha": "2026-11-18T22:59:04Z"
       },
       {
-        "numero": null,
-        "expediente": "25780",
-        "resultado": "Aprobada",
-        "asunto": "Aprobación del Tratado entre la República de Costa Rica y la República de Corea sobre Extradición",
-        "tramite": null,
-        "fecha": "2026-11-12T22:15:19Z"
+        "numero": "Moción N.° 26-137",
+        "expediente": "25803",
+        "resultado": "Rechazada",
+        "asunto": "SEGUNDO PRESUPUESTO EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2026 Y SEGUNDA MODIFICACIÓN LEGISLATIVA DE LA LEY N° 10.836.",
+        "tramite": "II día",
+        "fecha": "2026-11-18T22:44:44Z"
       },
       {
-        "numero": null,
-        "expediente": "25780",
+        "numero": "Moción N.° 25-137",
+        "expediente": "25803",
+        "resultado": "Rechazada",
+        "asunto": "SEGUNDO PRESUPUESTO EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2026 Y SEGUNDA MODIFICACIÓN LEGISLATIVA DE LA LEY N° 10.836.",
+        "tramite": "II día",
+        "fecha": "2026-11-18T22:44:08Z"
+      },
+      {
+        "numero": "Moción N.° 24-137",
+        "expediente": "25803",
+        "resultado": "Rechazada",
+        "asunto": "SEGUNDO PRESUPUESTO EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2026 Y SEGUNDA MODIFICACIÓN LEGISLATIVA DE LA LEY N° 10.836.",
+        "tramite": "II día",
+        "fecha": "2026-11-18T22:43:21Z"
+      },
+      {
+        "numero": "Moción N.° 23-137",
+        "expediente": "25803",
+        "resultado": "Rechazada",
+        "asunto": "SEGUNDO PRESUPUESTO EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2026 Y SEGUNDA MODIFICACIÓN LEGISLATIVA DE LA LEY N° 10.836.",
+        "tramite": "II día",
+        "fecha": "2026-11-18T22:42:28Z"
+      },
+      {
+        "numero": "0003",
+        "expediente": "25312",
+        "resultado": "Rechazada",
+        "asunto": "LEY DESAFECTACIÓN DEL USO PÚBLICO Y AUTORIZACIÓN AL INSTITUTO MIXTO DE AYUDA SOCIAL PARA QUE DONE TRES FINCAS DE SU PROPIEDAD EN FAVOR DEL INSTITUTO NACIONAL DE APRENDIAZJE, LA CAJA COSTARRICENSE DE SEGURO SOCIAL Y LA DIRECCION NACIONAL DE CENTROS DE EDUC",
+        "tramite": "I día",
+        "fecha": "2026-11-18T21:27:02Z"
+      },
+      {
+        "numero": "24717-137-II-141",
+        "expediente": "24717",
+        "resultado": "Rechazada",
+        "asunto": "LEY PARA REGULAR LA EXPLORACIÓN Y EXPLOTACIÓN DE MINERÍA METÁLICA SOSTENIBLE EN EL DISTRITO DE CUTRIS DEL CANTÓN DE SAN CARLOS, PROVINCIA DE ALAJUELA. REFORMAS Y ADICIONES AL CÓDIGO DE MINERÍA, LEY NO. 6797 DEL 04 DE OCTUBRE DE 1982 Y SUS REFORMAS. ANTES",
+        "tramite": "II día",
+        "fecha": "2026-11-18T20:47:53Z"
+      },
+      {
+        "numero": "24717-137-II-140",
+        "expediente": "24717",
+        "resultado": "Rechazada",
+        "asunto": "LEY PARA REGULAR LA EXPLORACIÓN Y EXPLOTACIÓN DE MINERÍA METÁLICA SOSTENIBLE EN EL DISTRITO DE CUTRIS DEL CANTÓN DE SAN CARLOS, PROVINCIA DE ALAJUELA. REFORMAS Y ADICIONES AL CÓDIGO DE MINERÍA, LEY NO. 6797 DEL 04 DE OCTUBRE DE 1982 Y SUS REFORMAS. ANTES",
+        "tramite": "II día",
+        "fecha": "2026-11-18T20:47:15Z"
+      },
+      {
+        "numero": "24717-137-II-139",
+        "expediente": "24717",
+        "resultado": "Rechazada",
+        "asunto": "LEY PARA REGULAR LA EXPLORACIÓN Y EXPLOTACIÓN DE MINERÍA METÁLICA SOSTENIBLE EN EL DISTRITO DE CUTRIS DEL CANTÓN DE SAN CARLOS, PROVINCIA DE ALAJUELA. REFORMAS Y ADICIONES AL CÓDIGO DE MINERÍA, LEY NO. 6797 DEL 04 DE OCTUBRE DE 1982 Y SUS REFORMAS. ANTES",
+        "tramite": "II día",
+        "fecha": "2026-11-18T20:46:35Z"
+      },
+      {
+        "numero": "24717-137-II-138",
+        "expediente": "24717",
+        "resultado": "Rechazada",
+        "asunto": "LEY PARA REGULAR LA EXPLORACIÓN Y EXPLOTACIÓN DE MINERÍA METÁLICA SOSTENIBLE EN EL DISTRITO DE CUTRIS DEL CANTÓN DE SAN CARLOS, PROVINCIA DE ALAJUELA. REFORMAS Y ADICIONES AL CÓDIGO DE MINERÍA, LEY NO. 6797 DEL 04 DE OCTUBRE DE 1982 Y SUS REFORMAS. ANTES",
+        "tramite": "II día",
+        "fecha": "2026-11-18T20:45:48Z"
+      },
+      {
+        "numero": "24717-137-II-137",
+        "expediente": "24717",
+        "resultado": "Rechazada",
+        "asunto": "LEY PARA REGULAR LA EXPLORACIÓN Y EXPLOTACIÓN DE MINERÍA METÁLICA SOSTENIBLE EN EL DISTRITO DE CUTRIS DEL CANTÓN DE SAN CARLOS, PROVINCIA DE ALAJUELA. REFORMAS Y ADICIONES AL CÓDIGO DE MINERÍA, LEY NO. 6797 DEL 04 DE OCTUBRE DE 1982 Y SUS REFORMAS. ANTES",
+        "tramite": "II día",
+        "fecha": "2026-11-18T20:44:57Z"
+      },
+      {
+        "numero": "24717-137-II-136",
+        "expediente": "24717",
+        "resultado": "Rechazada",
+        "asunto": "LEY PARA REGULAR LA EXPLORACIÓN Y EXPLOTACIÓN DE MINERÍA METÁLICA SOSTENIBLE EN EL DISTRITO DE CUTRIS DEL CANTÓN DE SAN CARLOS, PROVINCIA DE ALAJUELA. REFORMAS Y ADICIONES AL CÓDIGO DE MINERÍA, LEY NO. 6797 DEL 04 DE OCTUBRE DE 1982 Y SUS REFORMAS. ANTES",
+        "tramite": "II día",
+        "fecha": "2026-11-18T20:44:20Z"
+      },
+      {
+        "numero": "24717-137-II-135",
+        "expediente": "24717",
+        "resultado": "Rechazada",
+        "asunto": "LEY PARA REGULAR LA EXPLORACIÓN Y EXPLOTACIÓN DE MINERÍA METÁLICA SOSTENIBLE EN EL DISTRITO DE CUTRIS DEL CANTÓN DE SAN CARLOS, PROVINCIA DE ALAJUELA. REFORMAS Y ADICIONES AL CÓDIGO DE MINERÍA, LEY NO. 6797 DEL 04 DE OCTUBRE DE 1982 Y SUS REFORMAS. ANTES",
+        "tramite": "II día",
+        "fecha": "2026-11-18T20:41:03Z"
+      },
+      {
+        "numero": "24717-137-II-134",
+        "expediente": "24717",
+        "resultado": "Rechazada",
+        "asunto": "LEY PARA REGULAR LA EXPLORACIÓN Y EXPLOTACIÓN DE MINERÍA METÁLICA SOSTENIBLE EN EL DISTRITO DE CUTRIS DEL CANTÓN DE SAN CARLOS, PROVINCIA DE ALAJUELA. REFORMAS Y ADICIONES AL CÓDIGO DE MINERÍA, LEY NO. 6797 DEL 04 DE OCTUBRE DE 1982 Y SUS REFORMAS. ANTES",
+        "tramite": "II día",
+        "fecha": "2026-11-18T20:40:22Z"
+      },
+      {
+        "numero": "24717-137-II-130",
+        "expediente": "24717",
+        "resultado": "Rechazada",
+        "asunto": "LEY PARA REGULAR LA EXPLORACIÓN Y EXPLOTACIÓN DE MINERÍA METÁLICA SOSTENIBLE EN EL DISTRITO DE CUTRIS DEL CANTÓN DE SAN CARLOS, PROVINCIA DE ALAJUELA. REFORMAS Y ADICIONES AL CÓDIGO DE MINERÍA, LEY NO. 6797 DEL 04 DE OCTUBRE DE 1982 Y SUS REFORMAS. ANTES",
+        "tramite": "II día",
+        "fecha": "2026-11-18T20:38:40Z"
+      },
+      {
+        "numero": "24717-137-II-128",
+        "expediente": "24717",
+        "resultado": "Rechazada",
+        "asunto": "LEY PARA REGULAR LA EXPLORACIÓN Y EXPLOTACIÓN DE MINERÍA METÁLICA SOSTENIBLE EN EL DISTRITO DE CUTRIS DEL CANTÓN DE SAN CARLOS, PROVINCIA DE ALAJUELA. REFORMAS Y ADICIONES AL CÓDIGO DE MINERÍA, LEY NO. 6797 DEL 04 DE OCTUBRE DE 1982 Y SUS REFORMAS. ANTES",
+        "tramite": "II día",
+        "fecha": "2026-11-18T20:37:47Z"
+      },
+      {
+        "numero": "24717-137-II-127",
+        "expediente": "24717",
+        "resultado": "Rechazada",
+        "asunto": "LEY PARA REGULAR LA EXPLORACIÓN Y EXPLOTACIÓN DE MINERÍA METÁLICA SOSTENIBLE EN EL DISTRITO DE CUTRIS DEL CANTÓN DE SAN CARLOS, PROVINCIA DE ALAJUELA. REFORMAS Y ADICIONES AL CÓDIGO DE MINERÍA, LEY NO. 6797 DEL 04 DE OCTUBRE DE 1982 Y SUS REFORMAS. ANTES",
+        "tramite": "II día",
+        "fecha": "2026-11-18T20:37:02Z"
+      },
+      {
+        "numero": "24717-137-II-126",
+        "expediente": "24717",
+        "resultado": "Rechazada",
+        "asunto": "LEY PARA REGULAR LA EXPLORACIÓN Y EXPLOTACIÓN DE MINERÍA METÁLICA SOSTENIBLE EN EL DISTRITO DE CUTRIS DEL CANTÓN DE SAN CARLOS, PROVINCIA DE ALAJUELA. REFORMAS Y ADICIONES AL CÓDIGO DE MINERÍA, LEY NO. 6797 DEL 04 DE OCTUBRE DE 1982 Y SUS REFORMAS. ANTES",
+        "tramite": "II día",
+        "fecha": "2026-11-18T20:36:18Z"
+      },
+      {
+        "numero": "24717-137-II-125",
+        "expediente": "24717",
+        "resultado": "Rechazada",
+        "asunto": "LEY PARA REGULAR LA EXPLORACIÓN Y EXPLOTACIÓN DE MINERÍA METÁLICA SOSTENIBLE EN EL DISTRITO DE CUTRIS DEL CANTÓN DE SAN CARLOS, PROVINCIA DE ALAJUELA. REFORMAS Y ADICIONES AL CÓDIGO DE MINERÍA, LEY NO. 6797 DEL 04 DE OCTUBRE DE 1982 Y SUS REFORMAS. ANTES",
+        "tramite": "II día",
+        "fecha": "2026-11-18T20:35:41Z"
+      },
+      {
+        "numero": "24171-137-II-122",
+        "expediente": "24717",
+        "resultado": "Rechazada",
+        "asunto": "LEY PARA REGULAR LA EXPLORACIÓN Y EXPLOTACIÓN DE MINERÍA METÁLICA SOSTENIBLE EN EL DISTRITO DE CUTRIS DEL CANTÓN DE SAN CARLOS, PROVINCIA DE ALAJUELA. REFORMAS Y ADICIONES AL CÓDIGO DE MINERÍA, LEY NO. 6797 DEL 04 DE OCTUBRE DE 1982 Y SUS REFORMAS. ANTES",
+        "tramite": "II día",
+        "fecha": "2026-11-18T20:30:34Z"
+      },
+      {
+        "numero": "Acta N.° 51 del 19 de marzo del 2026",
+        "expediente": "19032026",
         "resultado": "Aprobada",
-        "asunto": "Aprobación del Tratado entre la República de Costa Rica y la República de Corea sobre Extradición",
+        "asunto": "Acta N.° 51 del 19 de marzo del 2026",
         "tramite": null,
-        "fecha": "2026-11-12T22:06:23Z"
+        "fecha": "2026-11-18T18:06:51Z"
+      },
+      {
+        "numero": "0004",
+        "expediente": "25312",
+        "resultado": "Rechazada",
+        "asunto": "LEY DESAFECTACIÓN DEL USO PÚBLICO Y AUTORIZACIÓN AL INSTITUTO MIXTO DE AYUDA SOCIAL PARA QUE DONE TRES FINCAS DE SU PROPIEDAD EN FAVOR DEL INSTITUTO NACIONAL DE APRENDIAZJE, LA CAJA COSTARRICENSE DE SEGURO SOCIAL Y LA DIRECCION NACIONAL DE CENTROS DE EDUC",
+        "tramite": "I día",
+        "fecha": "2026-11-18T15:39:36Z"
       },
       {
         "numero": "0002",
-        "expediente": "25618",
+        "expediente": "25312",
         "resultado": "Rechazada",
-        "asunto": "LEY PARA SANCIONAR E INHABILITAR LAS PISTAS DE ATERRIZAJE CLANDESTINAS Y NO AUTORIZADAS VINCULADAS A ACTIVIDADES ILÍCITAS",
-        "tramite": null,
-        "fecha": "2026-11-12T18:29:31Z"
+        "asunto": "LEY DESAFECTACIÓN DEL USO PÚBLICO Y AUTORIZACIÓN AL INSTITUTO MIXTO DE AYUDA SOCIAL PARA QUE DONE TRES FINCAS DE SU PROPIEDAD EN FAVOR DEL INSTITUTO NACIONAL DE APRENDIAZJE, LA CAJA COSTARRICENSE DE SEGURO SOCIAL Y LA DIRECCION NACIONAL DE CENTROS DE EDUC",
+        "tramite": "I día",
+        "fecha": "2026-11-18T15:38:48Z"
       },
       {
         "numero": "0001",
-        "expediente": "25618",
-        "resultado": "Aprobada",
-        "asunto": "LEY PARA SANCIONAR E INHABILITAR LAS PISTAS DE ATERRIZAJE CLANDESTINAS Y NO AUTORIZADAS VINCULADAS A ACTIVIDADES ILÍCITAS",
-        "tramite": null,
-        "fecha": "2026-11-12T18:29:13Z"
+        "expediente": "25312",
+        "resultado": "Rechazada",
+        "asunto": "LEY DESAFECTACIÓN DEL USO PÚBLICO Y AUTORIZACIÓN AL INSTITUTO MIXTO DE AYUDA SOCIAL PARA QUE DONE TRES FINCAS DE SU PROPIEDAD EN FAVOR DEL INSTITUTO NACIONAL DE APRENDIAZJE, LA CAJA COSTARRICENSE DE SEGURO SOCIAL Y LA DIRECCION NACIONAL DE CENTROS DE EDUC",
+        "tramite": "I día",
+        "fecha": "2026-11-18T15:38:19Z"
       },
       {
-        "numero": null,
-        "expediente": "25618",
-        "resultado": "Aprobada",
-        "asunto": "LEY PARA SANCIONAR E INHABILITAR LAS PISTAS DE ATERRIZAJE CLANDESTINAS Y NO AUTORIZADAS VINCULADAS A ACTIVIDADES ILÍCITAS",
-        "tramite": null,
-        "fecha": "2026-11-12T18:28:17Z"
+        "numero": "0002",
+        "expediente": "25482",
+        "resultado": "Rechazada",
+        "asunto": "DESAFECTACIÓN DE USO Y DOMINIO PÚBLICO DEL INMUEBLE PROPIEDAD DE LA ASOCIACIÓN ADMINISTRADORA DEL ACUEDUCTO Y ALCANTARILLADO SANITARIO DE SANTA GERTRUDIS CENTRO, DISTRITO SAN JOSÉ, CANTÓN GRECIA DE LA PROVINCIA DE ALAJUELA Y AUTORIZACIÓN PARA DISPONER DEL",
+        "tramite": "I día",
+        "fecha": "2026-11-18T15:37:36Z"
+      },
+      {
+        "numero": "0001",
+        "expediente": "25482",
+        "resultado": "Rechazada",
+        "asunto": "DESAFECTACIÓN DE USO Y DOMINIO PÚBLICO DEL INMUEBLE PROPIEDAD DE LA ASOCIACIÓN ADMINISTRADORA DEL ACUEDUCTO Y ALCANTARILLADO SANITARIO DE SANTA GERTRUDIS CENTRO, DISTRITO SAN JOSÉ, CANTÓN GRECIA DE LA PROVINCIA DE ALAJUELA Y AUTORIZACIÓN PARA DISPONER DEL",
+        "tramite": "I día",
+        "fecha": "2026-11-18T15:36:01Z"
+      },
+      {
+        "numero": "Moción N.° 22-137",
+        "expediente": "25803",
+        "resultado": "Rechazada",
+        "asunto": "SEGUNDO PRESUPUESTO EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2026 Y SEGUNDA MODIFICACIÓN LEGISLATIVA DE LA LEY N° 10.836.",
+        "tramite": "II día",
+        "fecha": "2026-11-17T23:24:07Z"
+      },
+      {
+        "numero": "Moción N.° 21-137",
+        "expediente": "25803",
+        "resultado": "Rechazada",
+        "asunto": "SEGUNDO PRESUPUESTO EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2026 Y SEGUNDA MODIFICACIÓN LEGISLATIVA DE LA LEY N° 10.836.",
+        "tramite": "II día",
+        "fecha": "2026-11-17T23:23:10Z"
+      },
+      {
+        "numero": "Moción N.° 20",
+        "expediente": "25803",
+        "resultado": "Rechazada",
+        "asunto": "SEGUNDO PRESUPUESTO EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2026 Y SEGUNDA MODIFICACIÓN LEGISLATIVA DE LA LEY N° 10.836.",
+        "tramite": "II día",
+        "fecha": "2026-11-17T23:22:33Z"
+      },
+      {
+        "numero": "Moción N.° 19-137",
+        "expediente": "25803",
+        "resultado": "Rechazada",
+        "asunto": "SEGUNDO PRESUPUESTO EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2026 Y SEGUNDA MODIFICACIÓN LEGISLATIVA DE LA LEY N° 10.836.",
+        "tramite": "II día",
+        "fecha": "2026-11-17T23:19:11Z"
       },
       {
         "numero": "Moción N.° 18-137",
         "expediente": "25803",
-        "resultado": "Aprobada",
+        "resultado": "Rechazada",
         "asunto": "SEGUNDO PRESUPUESTO EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2026 Y SEGUNDA MODIFICACIÓN LEGISLATIVA DE LA LEY N° 10.836.",
-        "tramite": "I día",
-        "fecha": "2026-11-12T14:09:07Z"
+        "tramite": "II día",
+        "fecha": "2026-11-17T23:17:50Z"
       },
       {
         "numero": "Moción N.° 17-137",
         "expediente": "25803",
-        "resultado": "Aprobada",
+        "resultado": "Rechazada",
         "asunto": "SEGUNDO PRESUPUESTO EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2026 Y SEGUNDA MODIFICACIÓN LEGISLATIVA DE LA LEY N° 10.836.",
-        "tramite": "I día",
-        "fecha": "2026-11-12T14:06:07Z"
-      },
-      {
-        "numero": "Moción N.° 440",
-        "expediente": "24945",
-        "resultado": "Rechazada",
-        "asunto": "APROBACIÓN DEL CONTRATO DE FINANCIAMIENTO N° 9745-CR \"PRÉSTAMO DE POLÍTICA DE DESARROLLO PARA LA GESTIÓN DEL RIESGO SOCIAL EN COSTA RICA CON UNA OPCIÓN DE DESEMBOLSO DIFERIDO” SUSCRITO ENTRE EL BANCO INTERNACIONAL DE RECONSTRUCCIÓN Y FOMENTO Y LA REPÚBLIC",
         "tramite": "II día",
-        "fecha": "2026-11-12T14:01:15Z"
+        "fecha": "2026-11-17T23:17:03Z"
       },
       {
-        "numero": "Moción N.° 439-137",
-        "expediente": "24945",
+        "numero": "Moción N.° 16-137",
+        "expediente": "25803",
         "resultado": "Rechazada",
-        "asunto": "APROBACIÓN DEL CONTRATO DE FINANCIAMIENTO N° 9745-CR \"PRÉSTAMO DE POLÍTICA DE DESARROLLO PARA LA GESTIÓN DEL RIESGO SOCIAL EN COSTA RICA CON UNA OPCIÓN DE DESEMBOLSO DIFERIDO” SUSCRITO ENTRE EL BANCO INTERNACIONAL DE RECONSTRUCCIÓN Y FOMENTO Y LA REPÚBLIC",
+        "asunto": "SEGUNDO PRESUPUESTO EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2026 Y SEGUNDA MODIFICACIÓN LEGISLATIVA DE LA LEY N° 10.836.",
         "tramite": "II día",
-        "fecha": "2026-11-12T14:00:19Z"
+        "fecha": "2026-11-17T23:16:07Z"
       },
       {
-        "numero": "Moción N.° 438-137",
-        "expediente": "24945",
+        "numero": "Moción N.° 15-137",
+        "expediente": "25803",
         "resultado": "Rechazada",
-        "asunto": "APROBACIÓN DEL CONTRATO DE FINANCIAMIENTO N° 9745-CR \"PRÉSTAMO DE POLÍTICA DE DESARROLLO PARA LA GESTIÓN DEL RIESGO SOCIAL EN COSTA RICA CON UNA OPCIÓN DE DESEMBOLSO DIFERIDO” SUSCRITO ENTRE EL BANCO INTERNACIONAL DE RECONSTRUCCIÓN Y FOMENTO Y LA REPÚBLIC",
+        "asunto": "SEGUNDO PRESUPUESTO EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2026 Y SEGUNDA MODIFICACIÓN LEGISLATIVA DE LA LEY N° 10.836.",
         "tramite": "II día",
-        "fecha": "2026-11-12T13:57:38Z"
+        "fecha": "2026-11-17T23:15:11Z"
       },
       {
-        "numero": "Moción N.° 437-137",
-        "expediente": "24945",
+        "numero": "Moción N.° 14-137",
+        "expediente": "25803",
         "resultado": "Rechazada",
-        "asunto": "APROBACIÓN DEL CONTRATO DE FINANCIAMIENTO N° 9745-CR \"PRÉSTAMO DE POLÍTICA DE DESARROLLO PARA LA GESTIÓN DEL RIESGO SOCIAL EN COSTA RICA CON UNA OPCIÓN DE DESEMBOLSO DIFERIDO” SUSCRITO ENTRE EL BANCO INTERNACIONAL DE RECONSTRUCCIÓN Y FOMENTO Y LA REPÚBLIC",
+        "asunto": "SEGUNDO PRESUPUESTO EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2026 Y SEGUNDA MODIFICACIÓN LEGISLATIVA DE LA LEY N° 10.836.",
         "tramite": "II día",
-        "fecha": "2026-11-12T13:55:10Z"
+        "fecha": "2026-11-17T23:14:13Z"
       },
       {
-        "numero": "0010",
-        "expediente": "25498",
+        "numero": "Moción N.° 13-137",
+        "expediente": "25803",
         "resultado": "Rechazada",
-        "asunto": "REFORMA AL INCISO E) DEL ARTÍCULO 2 Y ADICIÓN DE UN NUEVO INCISO K) AL ARTÍCULO 3, AMBOS DE LA LEY GENERAL DE CONTRATACIÓN PÚBLICA, LEY N° 9986 DE 27 DE MAYO DE 2021 Y SUS REFORMAS",
-        "tramite": null,
-        "fecha": "2026-11-11T21:26:31Z"
-      },
-      {
-        "numero": "0009",
-        "expediente": "25498",
-        "resultado": "Rechazada",
-        "asunto": "REFORMA AL INCISO E) DEL ARTÍCULO 2 Y ADICIÓN DE UN NUEVO INCISO K) AL ARTÍCULO 3, AMBOS DE LA LEY GENERAL DE CONTRATACIÓN PÚBLICA, LEY N° 9986 DE 27 DE MAYO DE 2021 Y SUS REFORMAS",
-        "tramite": null,
-        "fecha": "2026-11-11T21:26:17Z"
-      },
-      {
-        "numero": "0008",
-        "expediente": "25498",
-        "resultado": "Rechazada",
-        "asunto": "REFORMA AL INCISO E) DEL ARTÍCULO 2 Y ADICIÓN DE UN NUEVO INCISO K) AL ARTÍCULO 3, AMBOS DE LA LEY GENERAL DE CONTRATACIÓN PÚBLICA, LEY N° 9986 DE 27 DE MAYO DE 2021 Y SUS REFORMAS",
-        "tramite": null,
-        "fecha": "2026-11-11T21:26:03Z"
-      },
-      {
-        "numero": "0007",
-        "expediente": "25498",
-        "resultado": "Rechazada",
-        "asunto": "REFORMA AL INCISO E) DEL ARTÍCULO 2 Y ADICIÓN DE UN NUEVO INCISO K) AL ARTÍCULO 3, AMBOS DE LA LEY GENERAL DE CONTRATACIÓN PÚBLICA, LEY N° 9986 DE 27 DE MAYO DE 2021 Y SUS REFORMAS",
-        "tramite": null,
-        "fecha": "2026-11-11T21:25:49Z"
-      },
-      {
-        "numero": "0006",
-        "expediente": "25498",
-        "resultado": "Rechazada",
-        "asunto": "REFORMA AL INCISO E) DEL ARTÍCULO 2 Y ADICIÓN DE UN NUEVO INCISO K) AL ARTÍCULO 3, AMBOS DE LA LEY GENERAL DE CONTRATACIÓN PÚBLICA, LEY N° 9986 DE 27 DE MAYO DE 2021 Y SUS REFORMAS",
-        "tramite": null,
-        "fecha": "2026-11-11T21:25:34Z"
-      },
-      {
-        "numero": "0005",
-        "expediente": "25498",
-        "resultado": "Rechazada",
-        "asunto": "REFORMA AL INCISO E) DEL ARTÍCULO 2 Y ADICIÓN DE UN NUEVO INCISO K) AL ARTÍCULO 3, AMBOS DE LA LEY GENERAL DE CONTRATACIÓN PÚBLICA, LEY N° 9986 DE 27 DE MAYO DE 2021 Y SUS REFORMAS",
-        "tramite": null,
-        "fecha": "2026-11-11T21:25:15Z"
-      },
-      {
-        "numero": "0004",
-        "expediente": "25498",
-        "resultado": "Aprobada",
-        "asunto": "REFORMA AL INCISO E) DEL ARTÍCULO 2 Y ADICIÓN DE UN NUEVO INCISO K) AL ARTÍCULO 3, AMBOS DE LA LEY GENERAL DE CONTRATACIÓN PÚBLICA, LEY N° 9986 DE 27 DE MAYO DE 2021 Y SUS REFORMAS",
-        "tramite": null,
-        "fecha": "2026-11-11T21:25:01Z"
-      },
-      {
-        "numero": "24717-II-137-119",
-        "expediente": "24717",
-        "resultado": "Rechazada",
-        "asunto": "LEY PARA REGULAR LA EXPLORACIÓN Y EXPLOTACIÓN DE MINERÍA METÁLICA SOSTENIBLE EN EL DISTRITO DE CUTRIS DEL CANTÓN DE SAN CARLOS, PROVINCIA DE ALAJUELA. REFORMAS Y ADICIONES AL CÓDIGO DE MINERÍA, LEY NO. 6797 DEL 04 DE OCTUBRE DE 1982 Y SUS REFORMAS. ANTES",
+        "asunto": "SEGUNDO PRESUPUESTO EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2026 Y SEGUNDA MODIFICACIÓN LEGISLATIVA DE LA LEY N° 10.836.",
         "tramite": "II día",
-        "fecha": "2026-11-11T21:22:24Z"
+        "fecha": "2026-11-17T23:12:48Z"
       },
       {
-        "numero": "24717-II-137-117",
-        "expediente": "24717",
+        "numero": "Moción N.° 12-137",
+        "expediente": "25803",
         "resultado": "Rechazada",
-        "asunto": "LEY PARA REGULAR LA EXPLORACIÓN Y EXPLOTACIÓN DE MINERÍA METÁLICA SOSTENIBLE EN EL DISTRITO DE CUTRIS DEL CANTÓN DE SAN CARLOS, PROVINCIA DE ALAJUELA. REFORMAS Y ADICIONES AL CÓDIGO DE MINERÍA, LEY NO. 6797 DEL 04 DE OCTUBRE DE 1982 Y SUS REFORMAS. ANTES",
+        "asunto": "SEGUNDO PRESUPUESTO EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2026 Y SEGUNDA MODIFICACIÓN LEGISLATIVA DE LA LEY N° 10.836.",
         "tramite": "II día",
-        "fecha": "2026-11-11T21:21:40Z"
+        "fecha": "2026-11-17T23:12:11Z"
       },
       {
-        "numero": "24717-II-137-116",
-        "expediente": "24717",
+        "numero": "Moción N.° 11-137",
+        "expediente": "25803",
         "resultado": "Rechazada",
-        "asunto": "LEY PARA REGULAR LA EXPLORACIÓN Y EXPLOTACIÓN DE MINERÍA METÁLICA SOSTENIBLE EN EL DISTRITO DE CUTRIS DEL CANTÓN DE SAN CARLOS, PROVINCIA DE ALAJUELA. REFORMAS Y ADICIONES AL CÓDIGO DE MINERÍA, LEY NO. 6797 DEL 04 DE OCTUBRE DE 1982 Y SUS REFORMAS. ANTES",
+        "asunto": "SEGUNDO PRESUPUESTO EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2026 Y SEGUNDA MODIFICACIÓN LEGISLATIVA DE LA LEY N° 10.836.",
         "tramite": "II día",
-        "fecha": "2026-11-11T21:20:29Z"
+        "fecha": "2026-11-17T23:11:32Z"
       },
       {
-        "numero": "24717-II-137-114",
-        "expediente": "24717",
+        "numero": "Moción N.° 10-137",
+        "expediente": "25803",
         "resultado": "Rechazada",
-        "asunto": "LEY PARA REGULAR LA EXPLORACIÓN Y EXPLOTACIÓN DE MINERÍA METÁLICA SOSTENIBLE EN EL DISTRITO DE CUTRIS DEL CANTÓN DE SAN CARLOS, PROVINCIA DE ALAJUELA. REFORMAS Y ADICIONES AL CÓDIGO DE MINERÍA, LEY NO. 6797 DEL 04 DE OCTUBRE DE 1982 Y SUS REFORMAS. ANTES",
+        "asunto": "SEGUNDO PRESUPUESTO EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2026 Y SEGUNDA MODIFICACIÓN LEGISLATIVA DE LA LEY N° 10.836.",
         "tramite": "II día",
-        "fecha": "2026-11-11T21:19:49Z"
-      },
-      {
-        "numero": "24717-II-137-108",
-        "expediente": "24717",
-        "resultado": "Rechazada",
-        "asunto": "LEY PARA REGULAR LA EXPLORACIÓN Y EXPLOTACIÓN DE MINERÍA METÁLICA SOSTENIBLE EN EL DISTRITO DE CUTRIS DEL CANTÓN DE SAN CARLOS, PROVINCIA DE ALAJUELA. REFORMAS Y ADICIONES AL CÓDIGO DE MINERÍA, LEY NO. 6797 DEL 04 DE OCTUBRE DE 1982 Y SUS REFORMAS. ANTES",
-        "tramite": "II día",
-        "fecha": "2026-11-11T21:19:05Z"
-      },
-      {
-        "numero": "24717-II-137-106",
-        "expediente": "24717",
-        "resultado": "Rechazada",
-        "asunto": "LEY PARA REGULAR LA EXPLORACIÓN Y EXPLOTACIÓN DE MINERÍA METÁLICA SOSTENIBLE EN EL DISTRITO DE CUTRIS DEL CANTÓN DE SAN CARLOS, PROVINCIA DE ALAJUELA. REFORMAS Y ADICIONES AL CÓDIGO DE MINERÍA, LEY NO. 6797 DEL 04 DE OCTUBRE DE 1982 Y SUS REFORMAS. ANTES",
-        "tramite": "II día",
-        "fecha": "2026-11-11T21:18:24Z"
-      },
-      {
-        "numero": "24717-II-137-105",
-        "expediente": "24717",
-        "resultado": "Rechazada",
-        "asunto": "LEY PARA REGULAR LA EXPLORACIÓN Y EXPLOTACIÓN DE MINERÍA METÁLICA SOSTENIBLE EN EL DISTRITO DE CUTRIS DEL CANTÓN DE SAN CARLOS, PROVINCIA DE ALAJUELA. REFORMAS Y ADICIONES AL CÓDIGO DE MINERÍA, LEY NO. 6797 DEL 04 DE OCTUBRE DE 1982 Y SUS REFORMAS. ANTES",
-        "tramite": "II día",
-        "fecha": "2026-11-11T21:17:31Z"
-      },
-      {
-        "numero": "24717-II-137-104",
-        "expediente": "24717",
-        "resultado": "Rechazada",
-        "asunto": "LEY PARA REGULAR LA EXPLORACIÓN Y EXPLOTACIÓN DE MINERÍA METÁLICA SOSTENIBLE EN EL DISTRITO DE CUTRIS DEL CANTÓN DE SAN CARLOS, PROVINCIA DE ALAJUELA. REFORMAS Y ADICIONES AL CÓDIGO DE MINERÍA, LEY NO. 6797 DEL 04 DE OCTUBRE DE 1982 Y SUS REFORMAS. ANTES",
-        "tramite": "II día",
-        "fecha": "2026-11-11T21:16:31Z"
-      },
-      {
-        "numero": "24717-II-137-99",
-        "expediente": "24717",
-        "resultado": "Rechazada",
-        "asunto": "LEY PARA REGULAR LA EXPLORACIÓN Y EXPLOTACIÓN DE MINERÍA METÁLICA SOSTENIBLE EN EL DISTRITO DE CUTRIS DEL CANTÓN DE SAN CARLOS, PROVINCIA DE ALAJUELA. REFORMAS Y ADICIONES AL CÓDIGO DE MINERÍA, LEY NO. 6797 DEL 04 DE OCTUBRE DE 1982 Y SUS REFORMAS. ANTES",
-        "tramite": "II día",
-        "fecha": "2026-11-11T21:15:53Z"
-      },
-      {
-        "numero": "24717-II-137-98",
-        "expediente": "24717",
-        "resultado": "Rechazada",
-        "asunto": "LEY PARA REGULAR LA EXPLORACIÓN Y EXPLOTACIÓN DE MINERÍA METÁLICA SOSTENIBLE EN EL DISTRITO DE CUTRIS DEL CANTÓN DE SAN CARLOS, PROVINCIA DE ALAJUELA. REFORMAS Y ADICIONES AL CÓDIGO DE MINERÍA, LEY NO. 6797 DEL 04 DE OCTUBRE DE 1982 Y SUS REFORMAS. ANTES",
-        "tramite": "II día",
-        "fecha": "2026-11-11T21:15:08Z"
-      },
-      {
-        "numero": "24717-II-137-89",
-        "expediente": "24717",
-        "resultado": "Rechazada",
-        "asunto": "LEY PARA REGULAR LA EXPLORACIÓN Y EXPLOTACIÓN DE MINERÍA METÁLICA SOSTENIBLE EN EL DISTRITO DE CUTRIS DEL CANTÓN DE SAN CARLOS, PROVINCIA DE ALAJUELA. REFORMAS Y ADICIONES AL CÓDIGO DE MINERÍA, LEY NO. 6797 DEL 04 DE OCTUBRE DE 1982 Y SUS REFORMAS. ANTES",
-        "tramite": "II día",
-        "fecha": "2026-11-11T21:12:43Z"
-      },
-      {
-        "numero": "0003",
-        "expediente": "25498",
-        "resultado": "Rechazada",
-        "asunto": "REFORMA AL INCISO E) DEL ARTÍCULO 2 Y ADICIÓN DE UN NUEVO INCISO K) AL ARTÍCULO 3, AMBOS DE LA LEY GENERAL DE CONTRATACIÓN PÚBLICA, LEY N° 9986 DE 27 DE MAYO DE 2021 Y SUS REFORMAS",
-        "tramite": null,
-        "fecha": "2026-11-11T21:10:58Z"
-      },
-      {
-        "numero": "24717-II-137-93",
-        "expediente": "24717",
-        "resultado": "Rechazada",
-        "asunto": "LEY PARA REGULAR LA EXPLORACIÓN Y EXPLOTACIÓN DE MINERÍA METÁLICA SOSTENIBLE EN EL DISTRITO DE CUTRIS DEL CANTÓN DE SAN CARLOS, PROVINCIA DE ALAJUELA. REFORMAS Y ADICIONES AL CÓDIGO DE MINERÍA, LEY NO. 6797 DEL 04 DE OCTUBRE DE 1982 Y SUS REFORMAS. ANTES",
-        "tramite": "II día",
-        "fecha": "2026-11-11T20:53:22Z"
-      },
-      {
-        "numero": "24717-II-137-88",
-        "expediente": "24717",
-        "resultado": "Rechazada",
-        "asunto": "LEY PARA REGULAR LA EXPLORACIÓN Y EXPLOTACIÓN DE MINERÍA METÁLICA SOSTENIBLE EN EL DISTRITO DE CUTRIS DEL CANTÓN DE SAN CARLOS, PROVINCIA DE ALAJUELA. REFORMAS Y ADICIONES AL CÓDIGO DE MINERÍA, LEY NO. 6797 DEL 04 DE OCTUBRE DE 1982 Y SUS REFORMAS. ANTES",
-        "tramite": "II día",
-        "fecha": "2026-11-11T20:52:32Z"
-      },
-      {
-        "numero": "24717-II-137-87",
-        "expediente": "24717",
-        "resultado": "Rechazada",
-        "asunto": "LEY PARA REGULAR LA EXPLORACIÓN Y EXPLOTACIÓN DE MINERÍA METÁLICA SOSTENIBLE EN EL DISTRITO DE CUTRIS DEL CANTÓN DE SAN CARLOS, PROVINCIA DE ALAJUELA. REFORMAS Y ADICIONES AL CÓDIGO DE MINERÍA, LEY NO. 6797 DEL 04 DE OCTUBRE DE 1982 Y SUS REFORMAS. ANTES",
-        "tramite": "II día",
-        "fecha": "2026-11-11T20:51:41Z"
-      },
-      {
-        "numero": "24717-II-137-86",
-        "expediente": "24717",
-        "resultado": "Rechazada",
-        "asunto": "LEY PARA REGULAR LA EXPLORACIÓN Y EXPLOTACIÓN DE MINERÍA METÁLICA SOSTENIBLE EN EL DISTRITO DE CUTRIS DEL CANTÓN DE SAN CARLOS, PROVINCIA DE ALAJUELA. REFORMAS Y ADICIONES AL CÓDIGO DE MINERÍA, LEY NO. 6797 DEL 04 DE OCTUBRE DE 1982 Y SUS REFORMAS. ANTES",
-        "tramite": "II día",
-        "fecha": "2026-11-11T20:50:41Z"
-      },
-      {
-        "numero": "24717-II-137-85",
-        "expediente": "24717",
-        "resultado": "Rechazada",
-        "asunto": "LEY PARA REGULAR LA EXPLORACIÓN Y EXPLOTACIÓN DE MINERÍA METÁLICA SOSTENIBLE EN EL DISTRITO DE CUTRIS DEL CANTÓN DE SAN CARLOS, PROVINCIA DE ALAJUELA. REFORMAS Y ADICIONES AL CÓDIGO DE MINERÍA, LEY NO. 6797 DEL 04 DE OCTUBRE DE 1982 Y SUS REFORMAS. ANTES",
-        "tramite": "II día",
-        "fecha": "2026-11-11T20:48:53Z"
-      },
-      {
-        "numero": "24717-II-137-84",
-        "expediente": "24717",
-        "resultado": "Rechazada",
-        "asunto": "LEY PARA REGULAR LA EXPLORACIÓN Y EXPLOTACIÓN DE MINERÍA METÁLICA SOSTENIBLE EN EL DISTRITO DE CUTRIS DEL CANTÓN DE SAN CARLOS, PROVINCIA DE ALAJUELA. REFORMAS Y ADICIONES AL CÓDIGO DE MINERÍA, LEY NO. 6797 DEL 04 DE OCTUBRE DE 1982 Y SUS REFORMAS. ANTES",
-        "tramite": "II día",
-        "fecha": "2026-11-11T20:48:08Z"
-      },
-      {
-        "numero": "24717-II-137-80",
-        "expediente": "24717",
-        "resultado": "Rechazada",
-        "asunto": "LEY PARA REGULAR LA EXPLORACIÓN Y EXPLOTACIÓN DE MINERÍA METÁLICA SOSTENIBLE EN EL DISTRITO DE CUTRIS DEL CANTÓN DE SAN CARLOS, PROVINCIA DE ALAJUELA. REFORMAS Y ADICIONES AL CÓDIGO DE MINERÍA, LEY NO. 6797 DEL 04 DE OCTUBRE DE 1982 Y SUS REFORMAS. ANTES",
-        "tramite": "II día",
-        "fecha": "2026-11-11T20:47:24Z"
-      },
-      {
-        "numero": "24717-II-137-79",
-        "expediente": "24717",
-        "resultado": "Rechazada",
-        "asunto": "LEY PARA REGULAR LA EXPLORACIÓN Y EXPLOTACIÓN DE MINERÍA METÁLICA SOSTENIBLE EN EL DISTRITO DE CUTRIS DEL CANTÓN DE SAN CARLOS, PROVINCIA DE ALAJUELA. REFORMAS Y ADICIONES AL CÓDIGO DE MINERÍA, LEY NO. 6797 DEL 04 DE OCTUBRE DE 1982 Y SUS REFORMAS. ANTES",
-        "tramite": "II día",
-        "fecha": "2026-11-11T20:46:42Z"
+        "fecha": "2026-11-17T23:10:08Z"
       }
     ]
   },
