@@ -1332,3 +1332,11 @@ las 8:00:19 (`0x8007042B`) y el Wi-Fi recién se conectó entre 8:00:20 y
   Ningún `git` ni paso abre ventana (`CREATE_NO_WINDOW`), y la salida queda
   en `data/bitacora/` como siempre. Con `pythonw` `sys.stdout` es `None`:
   el código ya no asume consola.
+- **Publicación:** `actions/deploy-pages` falló 4 de 30 veces en noviembre con
+  «No artifacts named github-pages were found», aunque el paquete se había
+  subido; el propio mensaje pide reintentar. Si falla, el flujo espera 90 s
+  y reintenta una vez.
+- **Verificado el 2026-11-24:** lanzada desde el Programador de tareas, la
+  corrida con `pythonw.exe` extrajo y subió sin abrir ventanas; una segunda
+  corrida el mismo día terminó en segundos («ya se subieron»). Respaldo de
+  la tarea anterior: `%USERPROFILE%\AsambleaAbierta\tarea-respaldo-2026-11-24.xml`.
