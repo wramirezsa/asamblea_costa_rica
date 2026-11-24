@@ -67,6 +67,14 @@ export default function Fuentes({ datos }: { datos: Asamblea }) {
       automatico: false,
     },
     {
+      nombre: 'Uso de vehículos y viajes al exterior',
+      contenido:
+        'Boletas de transporte e informes de viajes institucionales del portal de datos abiertos, desde mayo de 2026. Una fila por viaje, tal como se publica: sin sumas. Los montos escritos de formas distintas se leen solo si el formato es inequívoco; si no, se muestra el texto original.',
+      fuentes: datos.vehiculos_viajes ? [{ texto: 'Portal de datos abiertos', url: datos.vehiculos_viajes._fuente }] : [],
+      extraido: datos.extraido.vehiculos_viajes,
+      automatico: false,
+    },
+    {
       nombre: 'Asistencia y votaciones del Plenario',
       contenido:
         'Actas oficiales de cada sesión, redactadas por el Área de Actas, Sonido y Grabación: la lista de presentes y el voto nominal de cada votación.',
@@ -83,8 +91,10 @@ export default function Fuentes({ datos }: { datos: Asamblea }) {
       'Cubrimos solo el Plenario: las actas que leemos son las de sus sesiones. No mostramos asistencia ni votaciones de comisiones.',
     ],
     [
-      'Uso de vehículos y viajes al exterior',
-      'La Asamblea los publica, pero con formatos mezclados: montos escritos de varias formas y la diputación dentro de un texto libre. Leerlos mal sería inventar cifras, así que todavía no los mostramos.',
+      'Boletas de vehículo sin asignar',
+      `En las boletas de transporte la diputación viene escrita a mano, de muchas formas. Una boleta se asigna solo si el nombre coincide con el padrón o con una variante verificada una por una${
+        datos.vehiculos_viajes ? ` (hoy quedan ${datos.vehiculos_viajes.sin_asignar} sin asignar)` : ''
+      }. Las boletas de oficinas («Segunda Secretaría», departamentos) no se atribuyen a la persona que ocupa el cargo.`,
     ],
     [
       'Votaciones que no cuadran',

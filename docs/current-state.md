@@ -57,7 +57,10 @@ En producción, GitHub Actions actualiza `data/` y publica el sitio cada día
 **Gasto por diputación** *(nuevo, ADR-023)*
 - Remuneración (dieta, representación, bruta) y combustible, mes a mes desde
   mayo de 2026, en la ficha de cada diputación, con enlace al Excel oficial.
-- Pendiente: los conjuntos de vehículos y viajes. El caso de Joselyn Sáenz
+- **Uso de vehículos y viajes al exterior** (ADR-032, 2026-11-24): boleta por
+  boleta y viaje por viaje en la pestaña Gasto. 7 variantes de nombre esperan
+  decisión humana.
+- Antes pendiente: los conjuntos de vehículos y viajes. El caso de Joselyn Sáenz
   (segundo apellido distinto entre fuentes) se resolvió por decisión humana.
 
 **Preguntá: asistente con IA** *(nuevo, ADR-030)*

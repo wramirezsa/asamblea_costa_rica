@@ -313,6 +313,59 @@ export interface Gasto {
   >
 }
 
+/** Un viaje en vehículo de la Asamblea, tal como lo registra la boleta (ADR-032). */
+export interface ViajeVehiculo {
+  mes: string
+  fecha: string
+  boleta: number | string | null
+  destino: string | null
+  km: number | null
+  /** Columna TOTAL del archivo, en colones, tal cual. */
+  costo: number | null
+  /** false = el TOTAL publicado no es litros × precio. null = faltan datos. */
+  costo_cuadra: boolean | null
+  /** La fecha de la boleta no es del mes del archivo (p. ej., año mal digitado). */
+  fecha_fuera_del_mes: boolean
+  tipo_servicio: string | null
+  /** Cómo escribe el archivo a quién se le asignó el viaje. */
+  departamento_en_fuente: string
+}
+
+/** Un monto de viaje: el número leído y, si venía como texto, el texto original. */
+export interface MontoViaje {
+  monto: number | null
+  texto: string | null
+}
+
+/** Un viaje al exterior (ADR-032). */
+export interface ViajeExterior {
+  id: number | string
+  /** Archivos mensuales en que aparece. */
+  meses: string[]
+  destino: string | null
+  ida: string | null
+  regreso: string | null
+  fechas_venian_como: string | null
+  motivo: string | null
+  viaticos: MontoViaje & { costeados_por: string | null }
+  pasajes_aereos: MontoViaje & { costeados_por: string | null }
+  pasajes_terrestres: MontoViaje
+  inscripcion: MontoViaje
+  /** Notas oficiales del archivo que nombran a esta persona. */
+  notas: { mes: string; texto: string }[]
+}
+
+export interface VehiculosViajes {
+  _fuente: string
+  _extraido: string
+  archivos: { vehiculos: Record<string, string>; viajes: Record<string, string> }
+  /** Meses del período sin archivo publicado (no es lo mismo que "sin viajes"). */
+  meses_sin_archivo: { vehiculos: string[]; viajes: string[] }
+  /** Viajes en vehículo a nombre de diputaciones que no se pudieron asignar con certeza. */
+  sin_asignar: number
+  por_diputacion: Record<string, { vehiculos: ViajeVehiculo[]; viajes: ViajeExterior[] }>
+}
+
 /**
  * Cuándo se leyó cada fuente (ISO 8601). No confundir con `generado`, que es
  * cuándo se armó el payload: las fuentes se actualizan en momentos distintos
@@ -323,6 +376,7 @@ export interface Extraido {
   directorio: string | null
   actividad: string | null
   gasto: string | null
+  vehiculos_viajes: string | null
   actas: string | null
 }
 
@@ -352,6 +406,7 @@ export interface Asamblea {
   glosario: Glosario | null
   extraido: Extraido
   gasto: Gasto | null
+  vehiculos_viajes: VehiculosViajes | null
   periodo: string
   fuente_oficial: string
   /** Lista oficial de fracciones (nombres y banderas). */

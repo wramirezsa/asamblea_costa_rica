@@ -1340,3 +1340,51 @@ las 8:00:19 (`0x8007042B`) y el Wi-Fi recién se conectó entre 8:00:20 y
   corrida con `pythonw.exe` extrajo y subió sin abrir ventanas; una segunda
   corrida el mismo día terminó en segundos («ya se subieron»). Respaldo de
   la tarea anterior: `%USERPROFILE%\AsambleaAbierta\tarea-respaldo-2026-11-24.xml`.
+
+## ADR-032 — Uso de vehículos y viajes al exterior, fila por fila
+
+**2026-11-24**
+
+`etl/fetch_vehiculos_viajes.py` lee del portal de datos abiertos (ADR-020)
+los Excel mensuales de **uso de vehículos** (`UsoVehiculos`, boletas de
+transporte) y de **viajes al exterior** (`GastosViajes`, viajes
+institucionales) desde mayo de 2026. ADR-023 los había dejado fuera por sus
+formatos; este es su tratamiento propio.
+
+- **Fila por fila, sin sumar**, como el resto del gasto. Cada boleta y cada
+  viaje se muestran tal como se publican. El monto de una boleta es la
+  columna TOTAL (litros × precio del combustible del viaje).
+- **Vehículos: la diputación viene dentro de DEPARTAMENTO**, escrita a mano
+  de 63 formas («DIP. X», «DIPUTADA X PPS», «DIP.CINDY BLANCO GONZALEZ»). Se
+  quita el prefijo y la sigla de partido y se resuelve exacto o por la tabla
+  curada. Se agregaron 24 variantes que cumplen el criterio de la tabla o un
+  precedente ya aceptado (segundo nombre omitido, inicial, errata de una
+  letra, nombre de pila y primer apellido únicos entre las 57), cada una con
+  su motivo. **Siete quedaron sin asignar** a la espera de decisión humana:
+  «Mangell León Villalobos» (el padrón dice Mc Lean), «Sadie Britton
+  González» (el padrón dice Esmeralda), «Nayuribe Rosales», «Daniel Siesar»,
+  «Fernando Obadia», «Edgardo Vinicio», «Kristel Lizethward Hudson».
+- **Lo que no se atribuye a una persona:** «varias diputaciones»,
+  «diputados y asesores» y las oficinas («Segunda Secretaría DL»), aunque se
+  sepa quién ocupa el cargo. El sitio dice cuántas boletas quedaron sin
+  asignar, y que una diputación sin boletas no es lo mismo que no haber
+  usado vehículos.
+- **Cuadres:** la fila TOTAL del archivo contra la suma de filas (cuadra);
+  litros × precio contra TOTAL (en mayo y junio 12 boletas de diputaciones
+  no cuadran: se publican con su TOTAL y marcadas). Cuatro boletas del
+  informe de julio traen fecha de 2024: se publican con esa fecha, marcadas.
+- **Viajes: montos en formatos mezclados** («¢382,795.94», «¢ 811.037,00»,
+  0, «No aplica»). Solo se leen los dos formatos de miles conocidos, por
+  expresión exacta; lo demás se muestra como texto. Fechas como texto
+  («19 de octubre del 2026») o como número de serie de Excel (46282) se
+  convierten y se dice que venían así.
+- **Un viaje en dos informes** (el 465, setiembre y octubre) se publica una
+  vez con los meses en que aparece; si cambiara entre archivos, se avisa.
+  La **nota oficial** de setiembre (los viáticos de la presidenta eran un
+  adelanto sujeto a liquidación) se muestra junto al viaje: se vincula solo
+  porque nombra a la persona. Octubre repitió los mismos montos sin nota:
+  no se afirma que se liquidó.
+- **No hay informe de viajes de mayo de 2026** en el portal (85 archivos
+  revisados). El sitio dice que no se publicó, no que no hubo viajes.
+- Los viajes de funcionarios y los nombres de choferes no se publican: no
+  son gasto de una diputación.

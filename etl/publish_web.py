@@ -311,6 +311,25 @@ def main() -> int:
     else:
         print("  ! Sin datos de gasto. Corre: python etl/fetch_gasto.py")
 
+    # Uso de vehiculos y viajes al exterior (ADR-032): fila por fila, sin sumar.
+    vv_web = None
+    archivo_vv = PROCESADO / "vehiculos_viajes.json"
+    if archivo_vv.exists():
+        vv = json.loads(archivo_vv.read_text(encoding="utf-8"))
+        vv_web = {
+            "_fuente": vv["_fuente"],
+            "_extraido": vv["_extraido"],
+            "archivos": {k: {m: vv[k][m]["_fuente"] for m in vv[k]} for k in ("vehiculos", "viajes")},
+            "meses_sin_archivo": vv["meses_sin_archivo"],
+            # Viajes en vehiculo a nombre de diputaciones que no se asignan:
+            # plurales («varias diputaciones») o nombres sin resolver.
+            "sin_asignar": sum(len(x["no_atribuibles"]) for x in vv["vehiculos"].values())
+            + sum(vv["variantes_sin_resolver"].values()),
+            "por_diputacion": vv["por_diputacion"],
+        }
+    else:
+        print("  ! Sin vehiculos ni viajes. Corre: python etl/fetch_vehiculos_viajes.py")
+
     archivo_colores = PROCESADO / "colores.json"
     if not archivo_colores.exists():
         print("  ! Faltan colores. Corre antes: python etl/derive_colores.py")
@@ -353,6 +372,7 @@ def main() -> int:
         "directorio": directorio.get("generado"),
         "actividad": actividad.get("generado") if actividad else None,
         "gasto": g.get("_extraido") if archivo_gasto.exists() else None,
+        "vehiculos_viajes": vv_web["_extraido"] if vv_web else None,
         "actas": actas.get("_extraido") if archivo_actas.exists() else None,
     }
 
@@ -386,6 +406,7 @@ def main() -> int:
         "actividad": actividad,
         "actas": actas_resumen,
         "gasto": gasto_web,
+        "vehiculos_viajes": vv_web,
         "escudo": manifiesto.get("escudo"),
         # Glosario curado a mano del Reglamento (cita literal y articulo).
         "glosario": (json.loads(GLOSARIO.read_text(encoding="utf-8"))

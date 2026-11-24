@@ -6,6 +6,7 @@ export const FUENTES: [keyof Extraido, string][] = [
   ['directorio', 'Directorio'],
   ['actividad', 'Leyes, mociones e intervenciones'],
   ['gasto', 'Remuneración y combustible'],
+  ['vehiculos_viajes', 'Vehículos y viajes al exterior'],
   ['actas', 'Actas del Plenario'],
 ]
 

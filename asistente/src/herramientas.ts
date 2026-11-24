@@ -500,7 +500,7 @@ export async function ejecutar(ctx: Contexto, nombre: string, args: Record<strin
           actas: d.actas,
           no_se_muestra: [
             'Comisiones (solo el Plenario).',
-            'Uso de vehículos y viajes al exterior.',
+            'Boletas de vehículo cuyo nombre no se asigna con certeza a una diputación.',
             'Votaciones cuya acta no cuadra.',
             'Si una ausencia tuvo permiso: el acta no lo dice.',
           ],

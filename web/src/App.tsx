@@ -670,14 +670,15 @@ export default function App() {
               <a href="https://www.asamblea.go.cr" target="_blank" rel="noopener noreferrer">
                 Asamblea Legislativa de Costa Rica
               </a>
-              : el padrón y la actividad de su sitio, la remuneración y el combustible de su
-              portal de datos abiertos, y la asistencia y las votaciones de las actas del
+              : el padrón y la actividad de su sitio, la remuneración, el combustible, el uso de
+              vehículos y los viajes al exterior de su portal de datos abiertos, y la asistencia
+              y las votaciones de las actas del
               Plenario. {datos.licencia}.
             </p>
             <p>
               <strong style={{ color: 'var(--texto-2)' }}>Lo que no mostramos:</strong>{' '}
-              comisiones, uso de vehículos, viajes al exterior y toda votación cuya acta no
-              cuadra. Preferimos dejar el vacío visible antes que llenarlo con estimaciones.{' '}
+              comisiones, boletas de vehículo cuyo nombre no se asigna con certeza y toda
+              votación cuya acta no cuadra. Preferimos dejar el vacío visible antes que llenarlo con estimaciones.{' '}
               <a
                 href={rutaAUrl({ tipo: 'seccion', seccion: 'fuentes' })}
                 onClick={(e) => {

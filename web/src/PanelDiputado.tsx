@@ -21,7 +21,7 @@ type Pestana = 'perfil' | 'plenario' | 'remuneracion' | 'intervenciones'
 const PESTANAS: Array<[Pestana, string]> = [
   ['plenario', 'En el Plenario'],
   ['perfil', 'Perfil'],
-  ['remuneracion', 'Remuneración'],
+  ['remuneracion', 'Gasto'],
   ['intervenciones', 'Intervenciones'],
 ]
 
@@ -218,12 +218,17 @@ export default function PanelDiputado({
               <SinDato titulo="En el Plenario" />
             ))}
 
-          {pestana === 'remuneracion' &&
-            (datos.gasto ? (
-              <GastoMensual slug={dip.slug} datos={datos} />
-            ) : (
-              <SinDato titulo="Remuneración y combustible" />
-            ))}
+          {pestana === 'remuneracion' && (
+            <>
+              {datos.gasto ? (
+                <GastoMensual slug={dip.slug} datos={datos} />
+              ) : (
+                <SinDato titulo="Remuneración y combustible" />
+              )}
+              <VehiculosAsamblea slug={dip.slug} datos={datos} />
+              <ViajesExterior slug={dip.slug} datos={datos} />
+            </>
+          )}
 
           {pestana === 'intervenciones' &&
             (intervenciones.length > 0 ? (
@@ -519,6 +524,168 @@ function GastoMensual({ slug, datos }: { slug: string; datos: Asamblea }) {
           </>
         )}
         . {g.notas.salarios.map((n) => n.replace(/^Nota:\s*/i, '')).join(' ')}
+      </p>
+    </div>
+  )
+}
+
+function rangoMeses(meses: string[]): string {
+  const m = [...meses].sort()
+  if (!m.length) return 'el período'
+  return m.length === 1 ? nombreMes(m[0]) : `${nombreMes(m[0])} a ${nombreMes(m[m.length - 1])}`
+}
+
+function fechaConAnio(iso: string): string {
+  return new Date(`${iso}T12:00:00`).toLocaleDateString('es-CR', { day: 'numeric', month: 'short', year: 'numeric' })
+}
+
+const FILAS_VEHICULO = 8
+
+/**
+ * Uso de vehículos de la Asamblea (ADR-032): una fila por boleta, tal como la
+ * publica la Asamblea. Nada se suma. Que no haya boletas asignadas no
+ * significa que no haya usado vehículos: el nombre pudo venir escrito de una
+ * forma que no se asigna con certeza.
+ */
+function VehiculosAsamblea({ slug, datos }: { slug: string; datos: Asamblea }) {
+  const [todos, setTodos] = useState(false)
+  const vv = datos.vehiculos_viajes
+  if (!vv) return <SinDato titulo="Uso de vehículos de la Asamblea" />
+  const lista = vv.por_diputacion[slug]?.vehiculos ?? []
+  const meses = Object.keys(vv.archivos.vehiculos)
+  const ultimo = [...meses].sort().pop()
+  const visibles = todos ? lista : lista.slice(0, FILAS_VEHICULO)
+
+  return (
+    <div className="seccion">
+      <h3>Uso de vehículos de la Asamblea</h3>
+      {lista.length === 0 ? (
+        <p className="vacio">
+          Ninguna boleta de transporte asignada con certeza a esta diputación ({rangoMeses(meses)}).
+        </p>
+      ) : (
+        <>
+          <p className="fuente-chica">
+            {lista.length} {lista.length === 1 ? 'boleta' : 'boletas'} a su nombre ({rangoMeses(meses)}).
+            Cada fila es un viaje en un vehículo de la Asamblea; el monto es el combustible que
+            registra la boleta.
+          </p>
+          <ul className="vv-lista">
+            {visibles.map((v) => (
+              <li key={`${v.boleta}-${v.fecha}`}>
+                <div className="vv-fila">
+                  <span className="vv-fecha">{v.fecha_fuera_del_mes ? fechaConAnio(v.fecha) : fechaCorta(v.fecha)}</span>
+                  <span className="vv-destino">{v.destino ?? <span className="vacio">Destino sin dato oficial</span>}</span>
+                  <span className="vv-monto"><Monto v={v.costo} /></span>
+                </div>
+                <div className="vv-detalle">
+                  {v.km != null ? `${v.km.toLocaleString('es-CR')} km` : 'km sin dato oficial'}
+                  {' · '}
+                  {v.tipo_servicio ? v.tipo_servicio.toLowerCase() : 'tipo de servicio sin dato oficial'}
+                  {v.costo_cuadra === false && ' · el monto publicado no es litros × precio'}
+                  {v.fecha_fuera_del_mes && ` · la boleta trae esta fecha pero viene en el informe de ${nombreMes(v.mes)}`}
+                </div>
+              </li>
+            ))}
+          </ul>
+          {lista.length > FILAS_VEHICULO && (
+            <button className="vv-mas" onClick={() => setTodos(!todos)}>
+              {todos ? 'Ver menos' : `Ver las ${lista.length} boletas`}
+            </button>
+          )}
+        </>
+      )}
+      <p className="fuente-chica">
+        Boletas de transporte del portal de{' '}
+        <a href={vv._fuente} target="_blank" rel="noopener noreferrer">datos abiertos</a>
+        {ultimo && (
+          <>
+            {' '}(
+            <a href={vv.archivos.vehiculos[ultimo]} target="_blank" rel="noopener noreferrer">
+              informe de {nombreMes(ultimo)}
+            </a>
+            )
+          </>
+        )}
+        . Una boleta se asigna a una diputación solo si el nombre que trae coincide con el padrón
+        o con una variante verificada una por una.
+        {vv.sin_asignar > 0 &&
+          ` Hay ${vv.sin_asignar} boletas a nombre de diputaciones que no se asignaron a nadie: nombres que no calzan con certeza o «varias diputaciones».`}
+      </p>
+    </div>
+  )
+}
+
+/** Un monto de viaje: el número si se pudo leer; si no, el texto tal cual. */
+function MontoViaje({ m }: { m: { monto: number | null; texto: string | null } }) {
+  if (m.monto != null) return <span title={m.texto ?? undefined}>{colones.format(m.monto)}</span>
+  if (m.texto) return <>{m.texto}</>
+  return <span className="vacio">Sin dato oficial</span>
+}
+
+function rangoViaje(ida: string | null, regreso: string | null): string {
+  if (!ida && !regreso) return 'Fechas sin dato oficial'
+  if (!ida || !regreso) return fechaConAnio((ida ?? regreso)!)
+  return `${fechaCorta(ida)} al ${fechaConAnio(regreso)}`
+}
+
+/** Viajes al exterior (ADR-032), uno por uno, con quién pagó cada parte. */
+function ViajesExterior({ slug, datos }: { slug: string; datos: Asamblea }) {
+  const vv = datos.vehiculos_viajes
+  if (!vv) return <SinDato titulo="Viajes al exterior" />
+  const lista = vv.por_diputacion[slug]?.viajes ?? []
+  const meses = Object.keys(vv.archivos.viajes)
+  const faltan = vv.meses_sin_archivo.viajes
+
+  return (
+    <div className="seccion">
+      <h3>Viajes al exterior</h3>
+      {lista.length === 0 ? (
+        <p className="vacio">
+          Ningún viaje al exterior a su nombre en los informes de {rangoMeses(meses)}.
+        </p>
+      ) : (
+        lista.map((v) => (
+          <div className="viaje" key={String(v.id)}>
+            <div className="viaje-cab">
+              <b>{v.destino ?? 'Destino sin dato oficial'}</b>
+              <span>{rangoViaje(v.ida, v.regreso)}</span>
+            </div>
+            {v.motivo && <p className="viaje-motivo">{v.motivo}</p>}
+            <div className="gasto-tabla">
+              <span>Viáticos{v.viaticos.costeados_por && ` · pagó ${v.viaticos.costeados_por}`}</span>
+              <span><MontoViaje m={v.viaticos} /></span>
+              <span>Pasajes aéreos{v.pasajes_aereos.costeados_por && ` · pagó ${v.pasajes_aereos.costeados_por}`}</span>
+              <span><MontoViaje m={v.pasajes_aereos} /></span>
+              <span>Pasajes terrestres</span>
+              <span><MontoViaje m={v.pasajes_terrestres} /></span>
+              <span>Cuota de inscripción</span>
+              <span><MontoViaje m={v.inscripcion} /></span>
+            </div>
+            {v.notas.map((n) => (
+              <p key={n.mes} className="fuente-chica viaje-nota">
+                Nota oficial del informe de {nombreMes(n.mes)}: {n.texto.replace(/^Nota:\s*/i, '')}
+              </p>
+            ))}
+            {v.meses.length > 1 && (
+              <p className="fuente-chica">
+                Aparece en los informes de {v.meses.map(nombreMes).join(' y ')}; se muestra el más reciente.
+              </p>
+            )}
+            {v.fechas_venian_como && (
+              <p className="fuente-chica">
+                El informe trae las fechas como {v.fechas_venian_como}; aquí se muestran convertidas.
+              </p>
+            )}
+          </div>
+        ))
+      )}
+      <p className="fuente-chica">
+        Informes mensuales de viajes institucionales del portal de{' '}
+        <a href={vv._fuente} target="_blank" rel="noopener noreferrer">datos abiertos</a>. Montos en
+        colones y textos («No aplica», quién pagó) tal como los escribe el informe.
+        {faltan.length > 0 &&
+          ` La Asamblea no publicó informe de ${faltan.map(nombreMes).join(', ')}: no se sabe si hubo viajes ese mes.`}
       </p>
     </div>
   )

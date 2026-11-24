@@ -187,6 +187,198 @@
       "motivo": "DECISIÓN HUMANA (2026-10-09): misma persona. Es la única Joselyn Sáenz entre las 57 y de la misma fracción (Frente Amplio). El segundo apellido difiere entre fuentes oficiales: «Blanco» en los Excel de remuneración y combustible, «Núñez» en el padrón y en las actas. Inconsistencia de la fuente, reportada y no corregida (ADR-023).",
       "decidido_por": "persona responsable del proyecto",
       "agregado": "2026-10-09"
+    },
+    {
+      "variante": "CINDY BLANCO GONZALEZ",
+      "slug": "cindy-maria-blanco-gonzalez",
+      "padron": "Cindy María Blanco González",
+      "visto_en": "Excel de uso de vehículos del portal de datos abiertos (columna DEPARTAMENTO, sin el prefijo «DIP.» ni la sigla de partido), mayo a octubre de 2026",
+      "motivo": "Mismo nombre de pila y apellidos; omite el segundo nombre. Única coincidencia entre las 57.",
+      "agregado": "2026-11-24"
+    },
+    {
+      "variante": "MARTA ESQUIVEL RODRÍGUEZ",
+      "slug": "marta-eugenia-esquivel-rodriguez",
+      "padron": "Marta Eugenia Esquivel Rodríguez",
+      "visto_en": "Excel de uso de vehículos del portal de datos abiertos (columna DEPARTAMENTO, sin el prefijo «DIP.» ni la sigla de partido), mayo a octubre de 2026",
+      "motivo": "Mismo nombre de pila y apellidos; omite el segundo nombre. Única coincidencia entre las 57.",
+      "agregado": "2026-11-24"
+    },
+    {
+      "variante": "MARÍA CAMARENO CAMARENO",
+      "slug": "maria-isabel-camareno-camareno",
+      "padron": "María Isabel Camareno Camareno",
+      "visto_en": "Excel de uso de vehículos del portal de datos abiertos (columna DEPARTAMENTO, sin el prefijo «DIP.» ni la sigla de partido), mayo a octubre de 2026",
+      "motivo": "Mismo nombre de pila y apellidos; omite el segundo nombre. Única coincidencia entre las 57.",
+      "agregado": "2026-11-24"
+    },
+    {
+      "variante": "WILSON JIMÉNEZ CORDERO",
+      "slug": "wilson-alfredo-jimenez-cordero",
+      "padron": "Wilson Alfredo Jiménez Cordero",
+      "visto_en": "Excel de uso de vehículos del portal de datos abiertos (columna DEPARTAMENTO, sin el prefijo «DIP.» ni la sigla de partido), mayo a octubre de 2026; también en viajes como «Jiménez Cordero Wilson»",
+      "motivo": "Mismo nombre de pila y apellidos; omite el segundo nombre. Única coincidencia entre las 57.",
+      "agregado": "2026-11-24"
+    },
+    {
+      "variante": "JUAN QUESADA ESPINOZA",
+      "slug": "juan-manuel-quesada-espinoza",
+      "padron": "Juan Manuel Quesada Espinoza",
+      "visto_en": "Excel de uso de vehículos del portal de datos abiertos (columna DEPARTAMENTO, sin el prefijo «DIP.» ni la sigla de partido), mayo a octubre de 2026",
+      "motivo": "Mismo nombre de pila y apellidos; omite el segundo nombre. Única coincidencia entre las 57.",
+      "agregado": "2026-11-24"
+    },
+    {
+      "variante": "GRETTEL ÁVILA VARGAS",
+      "slug": "grethel-maria-avila-vargas",
+      "padron": "Gréthel María Ávila Vargas",
+      "visto_en": "Excel de uso de vehículos del portal de datos abiertos (columna DEPARTAMENTO, sin el prefijo «DIP.» ni la sigla de partido), mayo a octubre de 2026",
+      "motivo": "Grafía distinta del nombre de pila (Grettel/Gréthel, como la ya aceptada «Gréthel Ávila Vargas») y omite el segundo nombre. Los dos apellidos coinciden con una sola diputación.",
+      "agregado": "2026-11-24"
+    },
+    {
+      "variante": "SIGRID VIOLETA SEGURA ARTAVIA",
+      "slug": "sigrid-segura-artavia",
+      "padron": "Sigrid Segura Artavia",
+      "visto_en": "Excel de uso de vehículos del portal de datos abiertos (columna DEPARTAMENTO, sin el prefijo «DIP.» ni la sigla de partido), mayo a octubre de 2026",
+      "motivo": "Mismo nombre de pila y apellidos; agrega el segundo nombre, que el padrón omite. Única coincidencia entre las 57.",
+      "agregado": "2026-11-24"
+    },
+    {
+      "variante": "STHEPHAN BRUNNER NEIBIG",
+      "slug": "stephan-brunner-neibig",
+      "padron": "Stephan Brunner Neibig",
+      "visto_en": "Excel de uso de vehículos del portal de datos abiertos (columna DEPARTAMENTO, sin el prefijo «DIP.» ni la sigla de partido), mayo a octubre de 2026",
+      "motivo": "Grafía distinta del nombre de pila («Sthephan» por «Stephan»). Los dos apellidos coinciden con una sola diputación.",
+      "agregado": "2026-11-24"
+    },
+    {
+      "variante": "FERNANDO OBADIA ALVAREZ",
+      "slug": "fernando-obaldia-alvarez",
+      "padron": "Fernando Obaldía Álvarez",
+      "visto_en": "Excel de uso de vehículos del portal de datos abiertos (columna DEPARTAMENTO, sin el prefijo «DIP.» ni la sigla de partido), mayo a octubre de 2026",
+      "motivo": "Errata de una letra en el primer apellido («Obadia» por «Obaldía», como «Chavaría» o «Hudsun» ya aceptadas). Nombre de pila y segundo apellido idénticos. Única coincidencia entre las 57.",
+      "agregado": "2026-11-24"
+    },
+    {
+      "variante": "Cindy Murrillo Artavia",
+      "slug": "cindy-murillo-artavia",
+      "padron": "Cindy Murillo Artavia",
+      "visto_en": "Excel de viajes al exterior del portal de datos abiertos (escrito «Apellidos Nombre»), 2026 («Murrillo Artavia Cindy», condición «Dputada»)",
+      "motivo": "Errata de una letra en el primer apellido («Murrillo» por «Murillo»). Nombre de pila y segundo apellido idénticos. Única coincidencia entre las 57.",
+      "agregado": "2026-11-24"
+    },
+    {
+      "variante": "KATTIA ULATE A",
+      "slug": "kattia-maria-ulate-alvarado",
+      "padron": "Kattia María Ulate Alvarado",
+      "visto_en": "Excel de uso de vehículos del portal de datos abiertos (columna DEPARTAMENTO, sin el prefijo «DIP.» ni la sigla de partido), mayo a octubre de 2026",
+      "motivo": "Nombre de pila y primer apellido; «A» es la inicial del segundo apellido (como «J.» en Barrantes, ya aceptada). Única coincidencia entre las 57.",
+      "agregado": "2026-11-24"
+    },
+    {
+      "variante": "MARIA CAMARENO C",
+      "slug": "maria-isabel-camareno-camareno",
+      "padron": "María Isabel Camareno Camareno",
+      "visto_en": "Excel de uso de vehículos del portal de datos abiertos (columna DEPARTAMENTO, sin el prefijo «DIP.» ni la sigla de partido), mayo a octubre de 2026",
+      "motivo": "Nombre de pila y primer apellido; «C» es la inicial del segundo apellido. Única coincidencia entre las 57.",
+      "agregado": "2026-11-24"
+    },
+    {
+      "variante": "JESUS CALDERON C",
+      "slug": "jesus-calderon-calderon",
+      "padron": "Jesús Calderón Calderón",
+      "visto_en": "Excel de uso de vehículos del portal de datos abiertos (columna DEPARTAMENTO, sin el prefijo «DIP.» ni la sigla de partido), mayo a octubre de 2026",
+      "motivo": "Nombre de pila y primer apellido; «C» es la inicial del segundo apellido. Única coincidencia entre las 57.",
+      "agregado": "2026-11-24"
+    },
+    {
+      "variante": "JUAN M. QUESADA",
+      "slug": "juan-manuel-quesada-espinoza",
+      "padron": "Juan Manuel Quesada Espinoza",
+      "visto_en": "Excel de uso de vehículos del portal de datos abiertos (columna DEPARTAMENTO, sin el prefijo «DIP.» ni la sigla de partido), mayo a octubre de 2026",
+      "motivo": "Nombre de pila, inicial del segundo nombre y primer apellido; omite el segundo apellido. Única coincidencia entre las 57.",
+      "agregado": "2026-11-24"
+    },
+    {
+      "variante": "SALVADOR PADILLA",
+      "slug": "salvador-padilla-villanueva",
+      "padron": "Salvador Padilla Villanueva",
+      "visto_en": "Excel de uso de vehículos del portal de datos abiertos (columna DEPARTAMENTO, sin el prefijo «DIP.» ni la sigla de partido), mayo a octubre de 2026",
+      "motivo": "Nombre de pila y primer apellido; omite el segundo apellido (como la ya aceptada «María Isabel Camareno»). Verificado: ninguna otra diputación tiene ese nombre de pila con ese apellido. Única coincidencia entre las 57.",
+      "agregado": "2026-11-24"
+    },
+    {
+      "variante": "CINDY BLANCO",
+      "slug": "cindy-maria-blanco-gonzalez",
+      "padron": "Cindy María Blanco González",
+      "visto_en": "Excel de uso de vehículos del portal de datos abiertos (columna DEPARTAMENTO, sin el prefijo «DIP.» ni la sigla de partido), mayo a octubre de 2026",
+      "motivo": "Nombre de pila y primer apellido; omite el segundo apellido (como la ya aceptada «María Isabel Camareno»). Verificado: ninguna otra diputación tiene ese nombre de pila con ese apellido. Única coincidencia entre las 57.",
+      "agregado": "2026-11-24"
+    },
+    {
+      "variante": "NAYURIBE GUADAMUZ",
+      "slug": "nayuribe-guadamuz-rosales",
+      "padron": "Nayuribe Guadamuz Rosales",
+      "visto_en": "Excel de uso de vehículos del portal de datos abiertos (columna DEPARTAMENTO, sin el prefijo «DIP.» ni la sigla de partido), mayo a octubre de 2026",
+      "motivo": "Nombre de pila y primer apellido; omite el segundo apellido (como la ya aceptada «María Isabel Camareno»). Verificado: ninguna otra diputación tiene ese nombre de pila con ese apellido. Única coincidencia entre las 57.",
+      "agregado": "2026-11-24"
+    },
+    {
+      "variante": "DIANA MURILLO",
+      "slug": "diana-murillo-murillo",
+      "padron": "Diana Murillo Murillo",
+      "visto_en": "Excel de uso de vehículos del portal de datos abiertos (columna DEPARTAMENTO, sin el prefijo «DIP.» ni la sigla de partido), mayo a octubre de 2026",
+      "motivo": "Nombre de pila y primer apellido; omite el segundo apellido (como la ya aceptada «María Isabel Camareno»). Verificado: ninguna otra diputación tiene ese nombre de pila con ese apellido. Única coincidencia entre las 57.",
+      "agregado": "2026-11-24"
+    },
+    {
+      "variante": "KAROL MATAMOROS",
+      "slug": "karol-vanessa-matamoros-montoya",
+      "padron": "Karol Vanessa Matamoros Montoya",
+      "visto_en": "Excel de uso de vehículos del portal de datos abiertos (columna DEPARTAMENTO, sin el prefijo «DIP.» ni la sigla de partido), mayo a octubre de 2026",
+      "motivo": "Nombre de pila y primer apellido; omite el segundo apellido (como la ya aceptada «María Isabel Camareno»). Verificado: ninguna otra diputación tiene ese nombre de pila con ese apellido. Única coincidencia entre las 57.",
+      "agregado": "2026-11-24"
+    },
+    {
+      "variante": "JOSELYN SAENZ",
+      "slug": "joselyn-saenz-nunez",
+      "padron": "Joselyn Sáenz Núñez",
+      "visto_en": "Excel de uso de vehículos del portal de datos abiertos (columna DEPARTAMENTO, sin el prefijo «DIP.» ni la sigla de partido), mayo a octubre de 2026",
+      "motivo": "Nombre de pila y primer apellido; omite el segundo apellido (como la ya aceptada «María Isabel Camareno»). Verificado: ninguna otra diputación tiene ese nombre de pila con ese apellido. Única coincidencia entre las 57.",
+      "agregado": "2026-11-24"
+    },
+    {
+      "variante": "ARIEL MORA",
+      "slug": "ariel-mora-fallas",
+      "padron": "Ariel Mora Fallas",
+      "visto_en": "Excel de uso de vehículos del portal de datos abiertos (columna DEPARTAMENTO, sin el prefijo «DIP.» ni la sigla de partido), mayo a octubre de 2026",
+      "motivo": "Nombre de pila y primer apellido; omite el segundo apellido (como la ya aceptada «María Isabel Camareno»). Verificado: ninguna otra diputación tiene ese nombre de pila con ese apellido. Única coincidencia entre las 57.",
+      "agregado": "2026-11-24"
+    },
+    {
+      "variante": "STEPHAN BRUNNER",
+      "slug": "stephan-brunner-neibig",
+      "padron": "Stephan Brunner Neibig",
+      "visto_en": "Excel de uso de vehículos del portal de datos abiertos (columna DEPARTAMENTO, sin el prefijo «DIP.» ni la sigla de partido), mayo a octubre de 2026",
+      "motivo": "Nombre de pila y primer apellido; omite el segundo apellido (como la ya aceptada «María Isabel Camareno»). Verificado: ninguna otra diputación tiene ese nombre de pila con ese apellido. Única coincidencia entre las 57.",
+      "agregado": "2026-11-24"
+    },
+    {
+      "variante": "JUAN QUESADA",
+      "slug": "juan-manuel-quesada-espinoza",
+      "padron": "Juan Manuel Quesada Espinoza",
+      "visto_en": "Excel de uso de vehículos del portal de datos abiertos (columna DEPARTAMENTO, sin el prefijo «DIP.» ni la sigla de partido), mayo a octubre de 2026",
+      "motivo": "Nombre de pila y primer apellido; omite el segundo apellido (como la ya aceptada «María Isabel Camareno»). Verificado: ninguna otra diputación tiene ese nombre de pila con ese apellido. Única coincidencia entre las 57.",
+      "agregado": "2026-11-24"
+    },
+    {
+      "variante": "MARÍA CAMARENO",
+      "slug": "maria-isabel-camareno-camareno",
+      "padron": "María Isabel Camareno Camareno",
+      "visto_en": "Excel de uso de vehículos del portal de datos abiertos (columna DEPARTAMENTO, sin el prefijo «DIP.» ni la sigla de partido), mayo a octubre de 2026",
+      "motivo": "Nombre de pila y primer apellido; omite el segundo apellido (como la ya aceptada «María Isabel Camareno»). Verificado: ninguna otra diputación tiene ese nombre de pila con ese apellido. Única coincidencia entre las 57.",
+      "agregado": "2026-11-24"
     }
   ]
 }

@@ -81,7 +81,7 @@ def pasos(completo: bool, fuentes: str) -> list[list[str]]:
         lista += [["fetch_diputados.py"], ["fetch_directorio.py"]]
         if completo:
             lista += [["fetch_assets.py"], ["derive_colores.py"]]
-        lista += [["fetch_actividad.py"], ["fetch_gasto.py"]]
+        lista += [["fetch_actividad.py"], ["fetch_gasto.py"], ["fetch_vehiculos_viajes.py"]]
     if fuentes in ("todas", "sil"):
         lista += [["fetch_actas.py", "--desde", desde, "--solo-nuevas"]]
     lista += [["publish_web.py"]]
