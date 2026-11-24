@@ -50,7 +50,11 @@ from pathlib import Path
 
 # Programada, la tarea corre sin consola: se fija utf-8 aqui para no depender
 # de PYTHONIOENCODING (los nombres de las actas traen tildes).
-sys.stdout.reconfigure(encoding="utf-8")
+if sys.stdout is not None:  # con pythonw.exe no hay consola: stdout es None
+    sys.stdout.reconfigure(encoding="utf-8")
+# Sin consola propia, cada git o paso abriría una ventana nueva (que además
+# se puede cerrar sin querer y cortar la corrida). Así no se abre ninguna.
+SIN_VENTANA = {"creationflags": subprocess.CREATE_NO_WINDOW} if os.name == "nt" else {}
 
 RAIZ = Path(__file__).resolve().parent.parent
 ETL = RAIZ / "etl"
@@ -88,7 +92,8 @@ def correr(paso: list[str], registro) -> bool:
     entorno = {**os.environ, "PYTHONIOENCODING": "utf-8"}
     inicio = datetime.now()
     r = subprocess.run([sys.executable, str(ETL / paso[0]), *paso[1:]], cwd=RAIZ,
-                       env=entorno, capture_output=True, text=True, encoding="utf-8")
+                       env=entorno, capture_output=True, text=True, encoding="utf-8",
+                       **SIN_VENTANA)
     segundos = (datetime.now() - inicio).seconds
     registro.write(f"\n===== {' '.join(paso)} ({segundos} s, codigo {r.returncode}) =====\n")
     registro.write(r.stdout)
@@ -160,7 +165,34 @@ def revisar() -> list[str]:
 
 def git(*args: str) -> subprocess.CompletedProcess:
     return subprocess.run(["git", *args], cwd=RAIZ, capture_output=True, text=True,
-                          encoding="utf-8")
+                          encoding="utf-8", **SIN_VENTANA)
+
+
+def esperar_red(registro, limite_s: int = 180) -> bool:
+    """Al salir de suspensión la tarea arranca antes que el Wi-Fi (2026-11-24:
+    proceso muerto a los 16 s, red lista a los 50 s). Espera hasta 3 minutos."""
+    import socket
+    import time
+    inicio = time.monotonic()
+    while True:
+        try:
+            socket.create_connection(("github.com", 443), timeout=5).close()
+            espera = int(time.monotonic() - inicio)
+            if espera:
+                registro.write(f"Red disponible tras {espera} s de espera.\n")
+            return True
+        except OSError:
+            if time.monotonic() - inicio > limite_s:
+                registro.write(f"Sin red despues de {limite_s} s.\n")
+                return False
+            time.sleep(10)
+
+
+def ya_subido_hoy() -> bool:
+    """La tarea corre varias veces al día como respaldo: si una ya subió los
+    datos de hoy, las siguientes no repiten la extracción."""
+    hoy = f"{PREFIJO_COMMIT} actualizacion desde Costa Rica del {date.today()}"
+    return hoy in git("log", "--format=%s", "-50", "origin/main").stdout.splitlines()
 
 
 def _fallo_git(registro, paso: str, r: subprocess.CompletedProcess) -> list[str]:
@@ -258,11 +290,18 @@ def main() -> int:
           f"{' (completa)' if args.completo else ''}")
     with ruta.open("w", encoding="utf-8") as registro:
         if args.subir:
+            if not esperar_red(registro):
+                print("\n  Sin conexion a internet: no se extrae nada. La proxima corrida lo intenta.")
+                return 1
             problemas = preparar_subida(registro)
             if problemas:
                 # No se extrae nada: quedarian cambios locales sin poder subir.
                 print("\n  REQUIERE ATENCION:\n      - " + "\n      - ".join(problemas))
                 return 2
+            if args.fuentes == "sharepoint" and ya_subido_hoy():
+                registro.write("Los datos de hoy ya se subieron en una corrida anterior: nada que hacer.\n")
+                print("  Los datos de hoy ya se subieron: nada que hacer.")
+                return 0
         for paso in pasos(args.completo, args.fuentes):
             if not correr(paso, registro):
                 print(f"\n  Se detuvo en {paso[0]}. El sitio sigue con el ultimo dato bueno.")

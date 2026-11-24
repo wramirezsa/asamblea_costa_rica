@@ -1313,3 +1313,22 @@ una sesión con alguna votación no publicable no cuenta como procesada y se
 vuelve a bajar en cada corrida, mientras siga en la ventana de días que
 revisa `actualizar.py`. Al probarlo, el acta de la sesión 92 ya venía
 corregida: 2 de sus 3 votaciones retenidas pasaron a cuadrar.
+
+### ADR-031, actualización 2026-11-24 — la tarea arrancaba antes que el Wi-Fi
+
+Del 12 al 24 de noviembre la tarea subió datos 4 días de 12. Las corridas
+fallidas dejaron bitácoras vacías: el proceso moría en los primeros segundos.
+El registro de Windows del 2026-11-24 lo explica: la computadora salió de
+suspensión a las 8:00:03, la tarea arrancó en el acto, el proceso murió a
+las 8:00:19 (`0x8007042B`) y el Wi-Fi recién se conectó entre 8:00:20 y
+8:00:51.
+
+- `actualizar.py --subir` espera hasta 3 minutos a tener conexión con
+  GitHub antes de empezar; si no la hay, termina sin tocar nada.
+- La tarea corre tres veces al día (06:00, 12:00 y 18:00) con `WakeToRun`:
+  si la primera falla, la siguiente la recupera. Con `--fuentes sharepoint`,
+  si los datos de hoy ya se subieron, termina sin repetir la extracción.
+- Corre con `pythonw.exe`: sin ventana que se pueda cerrar sin querer.
+  Ningún `git` ni paso abre ventana (`CREATE_NO_WINDOW`), y la salida queda
+  en `data/bitacora/` como siempre. Con `pythonw` `sys.stdout` es `None`:
+  el código ya no asume consola.
