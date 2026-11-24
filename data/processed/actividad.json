@@ -1,10 +1,10 @@
 {
-  "generado": "2026-11-23T12:00:25+00:00",
+  "generado": "2026-11-24T18:12:30+00:00",
   "nota": "Solo se incluyen conjuntos que la Asamblea mantiene al día. Cada uno trae su propia fecha de última actualización, tomada de la fuente.",
   "leyes": {
     "_fuente": "https://www.asamblea.go.cr/glcp/_api/web/lists/getbytitle('res_de_leyes')/items?%24top=2000&%24orderby=Modified%20desc",
     "total": 1637,
-    "ultima_actualizacion": "2026-11-20T18:06:18Z",
+    "ultima_actualizacion": "2026-11-24T16:27:33Z",
     "por_anio": {
       "2017": 7,
       "2018": 253,
@@ -18,6 +18,36 @@
       "2026": 154
     },
     "recientes": [
+      {
+        "numero": "10991",
+        "titulo": "APROBACIÓN DE LA ADHESIÓN DE LA REPÚBLICA DE COSTA RICA AL PROTOCOLO AL TRATADO ANTÁRTICO SOBRE PROTECCIÓN DEL MEDIO AMBIENTE (PTAPMA)",
+        "resumen": "Se aprueba la adhesión de Costa Rica al Protocolo al Tratado Antártico sobre Protección del Medio Ambiente, firmado en Madrid el 4 de abril de 1991, comprometiéndose con las normas internacionales para la protección y conservación del medio ambiente en la Antártida.\n\nLa presente ley surge del expediente N.° 25.303.",
+        "publicada": "2026-10-21T17:06:23Z"
+      },
+      {
+        "numero": "10990",
+        "titulo": "APROBACIÓN DEL ACUERDO INTERNACIONAL DEL CAFÉ DE 2022",
+        "resumen": "Se aprueba en su totalidad el Acuerdo Internacional del Café de 2022, suscrito en Londres, Reino Unido, el 9 de junio de 2022, incorporándolo formalmente al ordenamiento jurídico nacional.\n\nLa presente ley surge del expediente N.° 25.278.",
+        "publicada": "2026-10-21T17:01:21Z"
+      },
+      {
+        "numero": "10986",
+        "titulo": "ADICIÓN DE UN INCISO K) AL ARTÍCULO 79 DE LA LEY 7410, LEY GENERAL DE POLICÍA, DEL 26 DE MAYO DE 1994, PARA REGULAR LA SUSCRIPCIÓN DE UNA PÓLIZA DE RESPONSABILIDAD PATRIMONIAL Y REPRESENTACIÓN LEGAL DE LOS FUNCIONARIOS POLICIALES DEMANDADOS O DENUNCIADOS",
+        "resumen": "Se aprueba en todas sus partes el Protocolo de 2014 que modifica el Convenio sobre las Infracciones y Ciertos Otros Actos Cometidos a Bordo de las Aeronaves (Ley N.° 5067 de 1972), con el fin de actualizar y fortalecer las normas internacionales para atender infracciones y actos ilícitos cometidos en aeronaves.\n\nLa presente ley surge del expediente N.° 25.207.",
+        "publicada": "2026-10-16T17:12:43Z"
+      },
+      {
+        "numero": "10985",
+        "titulo": "APROBACIÓN DEL ACUERDO SOBRE TRANSPORTE AÉREO ENTRE EL GOBIERNO DE LA REPÚBLICA DE COSTA RICA Y EL GOBIERNO DE LA REPÚBLICA DE EL SALVADOR",
+        "resumen": "Se aprueba en su totalidad el Acuerdo sobre Transporte Aéreo suscrito entre el Gobierno de la República de Costa Rica y el Gobierno de la República de El Salvador, firmado en San José, Costa Rica, el 11 de noviembre de 2024. El acuerdo regula las condiciones de cooperación y operación del transporte aéreo entre ambos países.\n\nLa presente ley surge del expediente N.° 25.080.",
+        "publicada": "2026-10-14T23:23:55Z"
+      },
+      {
+        "numero": "10984",
+        "titulo": "ACUERDO DE SERVICIOS AÉREOS ENTRE EL GOBIERNO DE LA REPÚBLICA DE COSTA RICA Y LA REPÚBLICA ORIENTAL DEL URUGUAY",
+        "resumen": "Se aprueba en su totalidad el Acuerdo de Servicios Aéreos entre Costa Rica y Uruguay, firmado en San José, Costa Rica, el 10 de junio de 2024. El acuerdo regula la cooperación y los servicios de transporte aéreo entre ambos países.\n\nLa presente ley surge del expediente N.° 25.302.",
+        "publicada": "2026-10-14T23:21:59Z"
+      },
       {
         "numero": "10994",
         "titulo": "LEY PARA FORTALECER LA PREVENCIÓN Y SANCIÓN DE ACTIVIDADES ILEGÍTIMAS RELACIONADAS CON EL APODERAMIENTO ILEGAL DE COMBUSTIBLES Y DELITOS CONEXOS",
@@ -97,24 +127,6 @@
         "publicada": "2026-10-06T17:09:46Z"
       },
       {
-        "numero": "10991",
-        "titulo": "APROBACIÓN DE LA ADHESIÓN DE LA REPÚBLICA DE COSTA RICA AL PROTOCOLO AL TRATADO ANTÁRTICO SOBRE PROTECCIÓN DEL MEDIO AMBIENTE (PTAPMA)",
-        "resumen": "Se aprueba la adhesión de Costa Rica al Protocolo al Tratado Antártico sobre Protección del Medio Ambiente, firmado en Madrid el 4 de abril de 1991, comprometiéndose con las normas internacionales para la protección y conservación del medio ambiente en la Antártida.\n\nLa presente ley surge del expediente N.° 25.303.",
-        "publicada": "2026-10-21T17:06:23Z"
-      },
-      {
-        "numero": "10990",
-        "titulo": "APROBACIÓN DEL ACUERDO INTERNACIONAL DEL CAFÉ DE 2022",
-        "resumen": "Se aprueba en su totalidad el Acuerdo Internacional del Café de 2022, suscrito en Londres, Reino Unido, el 9 de junio de 2022, incorporándolo formalmente al ordenamiento jurídico nacional.\n\nLa presente ley surge del expediente N.° 25.278.",
-        "publicada": "2026-10-21T17:01:21Z"
-      },
-      {
-        "numero": "10986",
-        "titulo": "ADICIÓN DE UN INCISO K) AL ARTÍCULO 79 DE LA LEY 7410, LEY GENERAL DE POLICÍA, DEL 26 DE MAYO DE 1994, PARA REGULAR LA SUSCRIPCIÓN DE UNA PÓLIZA DE RESPONSABILIDAD PATRIMONIAL Y REPRESENTACIÓN LEGAL DE LOS FUNCIONARIOS POLICIALES DEMANDADOS O DENUNCIADOS",
-        "resumen": "Se aprueba en todas sus partes el Protocolo de 2014 que modifica el Convenio sobre las Infracciones y Ciertos Otros Actos Cometidos a Bordo de las Aeronaves (Ley N.° 5067 de 1972), con el fin de actualizar y fortalecer las normas internacionales para atender infracciones y actos ilícitos cometidos en aeronaves.\n\nLa presente ley surge del expediente N.° 25.207.",
-        "publicada": "2026-10-16T17:12:43Z"
-      },
-      {
         "numero": "10977",
         "titulo": "APROBACIÓN DE LA ENMIENDA AL ARTÍCULO 50 A) Y APROBACIÓN DE LA ENMIENDA AL ARTÍCULO 56, AMBAS DEL CONVENIO DE AVIACIÓN CIVIL INTERNACIONAL, LEY 877, DEL 4 DE JULIO DE 1947",
         "resumen": "Se aprueban las enmiendas de 2016 a los artículos 50(a) y 56 del Convenio de Aviación Civil Internacional adoptadas por la OACI.\n\nLa presente ley surge del expediente N.° 25.243.",
@@ -131,18 +143,6 @@
         "titulo": "MODIFICACIÓN DEL INCISO A) DEL ARTÍCULO 13 DE LA LEY 7794, CÓDIGO MUNICIPAL, DEL 30 DE ABRIL DE 1998",
         "resumen": "El concejo municipal deberá definir las políticas de desarrollo del cantón con participación ciudadana, garantizando los derechos humanos y la igualdad de género, y podrá crear una oficina especializada para estos temas con presupuesto propio.\n\nLa presente ley surge del expediente N.° 24.880.",
         "publicada": "2026-09-18T17:06:00Z"
-      },
-      {
-        "numero": "10985",
-        "titulo": "APROBACIÓN DEL ACUERDO SOBRE TRANSPORTE AÉREO ENTRE EL GOBIERNO DE LA REPÚBLICA DE COSTA RICA Y EL GOBIERNO DE LA REPÚBLICA DE EL SALVADOR",
-        "resumen": "Se aprueba en su totalidad el Acuerdo sobre Transporte Aéreo suscrito entre el Gobierno de la República de Costa Rica y el Gobierno de la República de El Salvador, firmado en San José, Costa Rica, el 11 de noviembre de 2024. El acuerdo regula las condiciones de cooperación y operación del transporte aéreo entre ambos países.\n\nLa presente ley surge del expediente N.° 25.080.",
-        "publicada": "2026-10-14T23:23:55Z"
-      },
-      {
-        "numero": "10984",
-        "titulo": "ACUERDO DE SERVICIOS AÉREOS ENTRE EL GOBIERNO DE LA REPÚBLICA DE COSTA RICA Y LA REPÚBLICA ORIENTAL DEL URUGUAY",
-        "resumen": "Se aprueba en su totalidad el Acuerdo de Servicios Aéreos entre Costa Rica y Uruguay, firmado en San José, Costa Rica, el 10 de junio de 2024. El acuerdo regula la cooperación y los servicios de transporte aéreo entre ambos países.\n\nLa presente ley surge del expediente N.° 25.302.",
-        "publicada": "2026-10-14T23:21:59Z"
       },
       {
         "numero": "10971",
@@ -382,11 +382,11 @@
   },
   "mociones": {
     "_fuente": "https://www.asamblea.go.cr/glcp/_api/web/lists/getbytitle('mociones_total')/items?%24top=5000&%24orderby=Id%20desc",
-    "total": 28043,
-    "nota_alcance": "Agregados calculados sobre las 28043 mociones que devuelve la lista completa, no sobre una muestra.",
-    "ultima_actualizacion": "2026-11-20T16:22:07Z",
+    "total": 28046,
+    "nota_alcance": "Agregados calculados sobre las 28046 mociones que devuelve la lista completa, no sobre una muestra.",
+    "ultima_actualizacion": "2026-11-24T14:12:35Z",
     "por_resultado": {
-      "Rechazada": 23777,
+      "Rechazada": 23780,
       "Aprobada": 3671,
       "Retirada": 400,
       "Pendiente": 194,
@@ -397,10 +397,34 @@
       "2023": 3827,
       "2024": 4729,
       "2025": 9086,
-      "2026": 7151
+      "2026": 7154
     },
     "expedientes_distintos": 1276,
     "recientes": [
+      {
+        "numero": "Moción N.° 29-137",
+        "expediente": "25803",
+        "resultado": "Rechazada",
+        "asunto": "SEGUNDO PRESUPUESTO EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2026 Y SEGUNDA MODIFICACIÓN LEGISLATIVA DE LA LEY N° 10.836.",
+        "tramite": "II día",
+        "fecha": "2026-11-24T02:25:11Z"
+      },
+      {
+        "numero": "Moción N.° 28-137",
+        "expediente": "25803",
+        "resultado": "Rechazada",
+        "asunto": "SEGUNDO PRESUPUESTO EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2026 Y SEGUNDA MODIFICACIÓN LEGISLATIVA DE LA LEY N° 10.836.",
+        "tramite": "II día",
+        "fecha": "2026-11-24T02:24:40Z"
+      },
+      {
+        "numero": "Moción N.° 27-137",
+        "expediente": "25803",
+        "resultado": "Rechazada",
+        "asunto": "SEGUNDO PRESUPUESTO EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2026 Y SEGUNDA MODIFICACIÓN LEGISLATIVA DE LA LEY N° 10.836.",
+        "tramite": "II día",
+        "fecha": "2026-11-24T02:24:02Z"
+      },
       {
         "numero": "137-I-003",
         "expediente": "25473",
@@ -696,37 +720,13 @@
         "asunto": "LEY PARA REGULAR LA EXPLORACIÓN Y EXPLOTACIÓN DE MINERÍA METÁLICA SOSTENIBLE EN EL DISTRITO DE CUTRIS DEL CANTÓN DE SAN CARLOS, PROVINCIA DE ALAJUELA. REFORMAS Y ADICIONES AL CÓDIGO DE MINERÍA, LEY NO. 6797 DEL 04 DE OCTUBRE DE 1982 Y SUS REFORMAS. ANTES",
         "tramite": "II día",
         "fecha": "2026-11-18T20:37:47Z"
-      },
-      {
-        "numero": "24717-137-II-127",
-        "expediente": "24717",
-        "resultado": "Rechazada",
-        "asunto": "LEY PARA REGULAR LA EXPLORACIÓN Y EXPLOTACIÓN DE MINERÍA METÁLICA SOSTENIBLE EN EL DISTRITO DE CUTRIS DEL CANTÓN DE SAN CARLOS, PROVINCIA DE ALAJUELA. REFORMAS Y ADICIONES AL CÓDIGO DE MINERÍA, LEY NO. 6797 DEL 04 DE OCTUBRE DE 1982 Y SUS REFORMAS. ANTES",
-        "tramite": "II día",
-        "fecha": "2026-11-18T20:37:02Z"
-      },
-      {
-        "numero": "24717-137-II-126",
-        "expediente": "24717",
-        "resultado": "Rechazada",
-        "asunto": "LEY PARA REGULAR LA EXPLORACIÓN Y EXPLOTACIÓN DE MINERÍA METÁLICA SOSTENIBLE EN EL DISTRITO DE CUTRIS DEL CANTÓN DE SAN CARLOS, PROVINCIA DE ALAJUELA. REFORMAS Y ADICIONES AL CÓDIGO DE MINERÍA, LEY NO. 6797 DEL 04 DE OCTUBRE DE 1982 Y SUS REFORMAS. ANTES",
-        "tramite": "II día",
-        "fecha": "2026-11-18T20:36:18Z"
-      },
-      {
-        "numero": "24717-137-II-125",
-        "expediente": "24717",
-        "resultado": "Rechazada",
-        "asunto": "LEY PARA REGULAR LA EXPLORACIÓN Y EXPLOTACIÓN DE MINERÍA METÁLICA SOSTENIBLE EN EL DISTRITO DE CUTRIS DEL CANTÓN DE SAN CARLOS, PROVINCIA DE ALAJUELA. REFORMAS Y ADICIONES AL CÓDIGO DE MINERÍA, LEY NO. 6797 DEL 04 DE OCTUBRE DE 1982 Y SUS REFORMAS. ANTES",
-        "tramite": "II día",
-        "fecha": "2026-11-18T20:35:41Z"
       }
     ]
   },
   "intervenciones": {
     "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('intervenciones_2026_2030')/items?%24top=5000&%24select=Id%2CDiputadoId%2CFileLeafRef%2CFileRef%2CModified%2CCreated&%24orderby=Modified%20desc",
-    "total": 324,
-    "ultima_actualizacion": "2026-11-19T16:18:37Z",
+    "total": 326,
+    "ultima_actualizacion": "2026-11-24T17:37:28Z",
     "diputaciones_con_registro": 55,
     "sin_registro": [
       "eder-hernandez-ulloa",
@@ -740,6 +740,82 @@
       "archivo sin diputacion conocida: Hernández Ulloa, mayo 2026.docx"
     ],
     "por_diputacion": {
+      "cindy-murillo-artavia": [
+        {
+          "archivo": "Cindy Murillo Artavia, Octubre 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Cindy Murillo Artavia, Octubre 2026.docx",
+          "modificado": "2026-11-24T17:37:28Z"
+        },
+        {
+          "archivo": "Cindy Murillo Artavia, Setiembre 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Cindy Murillo Artavia, Setiembre 2026.docx",
+          "modificado": "2026-10-14T17:30:28Z"
+        },
+        {
+          "archivo": "Cindy Murillo Artavia, Agosto 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Cindy Murillo Artavia, Agosto 2026.docx",
+          "modificado": "2026-10-14T13:58:13Z"
+        },
+        {
+          "archivo": "Murillo Artavia, julio 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Murillo Artavia, julio 2026.docx",
+          "modificado": "2026-08-12T21:39:19Z"
+        },
+        {
+          "archivo": "Murillo Artavia, junio 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Murillo Artavia, junio 2026.docx",
+          "modificado": "2026-07-15T17:31:19Z"
+        },
+        {
+          "archivo": "Murillo Artavia, mayo 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Murillo Artavia, mayo 2026.docx",
+          "modificado": "2026-06-10T15:59:16Z"
+        }
+      ],
+      "cindy-maria-blanco-gonzalez": [
+        {
+          "archivo": "Cindy Blanco González, Octubre 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Cindy Blanco González, Octubre 2026.docx",
+          "modificado": "2026-11-24T16:53:58Z"
+        },
+        {
+          "archivo": "Cindy Blanco González, Setiembre 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Cindy Blanco González, Setiembre 2026.docx",
+          "modificado": "2026-10-14T14:37:44Z"
+        },
+        {
+          "archivo": "Cindy Blanco González, Agosto 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Cindy Blanco González, Agosto 2026.docx",
+          "modificado": "2026-09-23T17:42:09Z"
+        },
+        {
+          "archivo": "Blanco González, julio 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Blanco González, julio 2026.docx",
+          "modificado": "2026-08-12T21:37:12Z"
+        },
+        {
+          "archivo": "Blanco González, junio 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Blanco González, junio 2026.docx",
+          "modificado": "2026-07-15T17:30:05Z"
+        },
+        {
+          "archivo": "Blanco González, mayo 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Blanco González, mayo 2026.docx",
+          "modificado": "2026-06-10T15:57:39Z"
+        }
+      ],
       "daniel-siezar-cardenas": [
         {
           "archivo": "Siezar Cardenas, Octubre 2026.docx",
@@ -2698,70 +2774,6 @@
           "periodo": null,
           "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Mora Vega, mayo 2026.docx",
           "modificado": "2026-06-10T15:29:24Z"
-        }
-      ],
-      "cindy-murillo-artavia": [
-        {
-          "archivo": "Cindy Murillo Artavia, Setiembre 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Cindy Murillo Artavia, Setiembre 2026.docx",
-          "modificado": "2026-10-14T17:30:28Z"
-        },
-        {
-          "archivo": "Cindy Murillo Artavia, Agosto 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Cindy Murillo Artavia, Agosto 2026.docx",
-          "modificado": "2026-10-14T13:58:13Z"
-        },
-        {
-          "archivo": "Murillo Artavia, julio 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Murillo Artavia, julio 2026.docx",
-          "modificado": "2026-08-12T21:39:19Z"
-        },
-        {
-          "archivo": "Murillo Artavia, junio 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Murillo Artavia, junio 2026.docx",
-          "modificado": "2026-07-15T17:31:19Z"
-        },
-        {
-          "archivo": "Murillo Artavia, mayo 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Murillo Artavia, mayo 2026.docx",
-          "modificado": "2026-06-10T15:59:16Z"
-        }
-      ],
-      "cindy-maria-blanco-gonzalez": [
-        {
-          "archivo": "Cindy Blanco González, Setiembre 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Cindy Blanco González, Setiembre 2026.docx",
-          "modificado": "2026-10-14T14:37:44Z"
-        },
-        {
-          "archivo": "Cindy Blanco González, Agosto 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Cindy Blanco González, Agosto 2026.docx",
-          "modificado": "2026-09-23T17:42:09Z"
-        },
-        {
-          "archivo": "Blanco González, julio 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Blanco González, julio 2026.docx",
-          "modificado": "2026-08-12T21:37:12Z"
-        },
-        {
-          "archivo": "Blanco González, junio 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Blanco González, junio 2026.docx",
-          "modificado": "2026-07-15T17:30:05Z"
-        },
-        {
-          "archivo": "Blanco González, mayo 2026.docx",
-          "periodo": null,
-          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Blanco González, mayo 2026.docx",
-          "modificado": "2026-06-10T15:57:39Z"
         }
       ]
     }
