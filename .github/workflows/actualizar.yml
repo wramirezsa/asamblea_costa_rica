@@ -146,7 +146,7 @@ jobs:
       id-token: write
     environment:
       name: github-pages
-      url: ${{ steps.despliegue.outputs.page_url }}
+      url: ${{ steps.despliegue.outputs.page_url || steps.despliegue_reintento.outputs.page_url }}
     steps:
       # main, no el commit que disparo la corrida: asi entran los datos que
       # el paso anterior acaba de guardar.
@@ -196,5 +196,16 @@ jobs:
         with:
           path: web/dist
 
+      # A veces deploy-pages no encuentra el paquete recien subido («No
+      # artifacts named github-pages», 4 de 30 corridas en noviembre de 2026)
+      # y el propio mensaje pide reintentar: se espera y se intenta otra vez.
       - id: despliegue
+        uses: actions/deploy-pages@v5
+        continue-on-error: true
+
+      - if: steps.despliegue.outcome == 'failure'
+        run: sleep 90
+
+      - id: despliegue_reintento
+        if: steps.despliegue.outcome == 'failure'
         uses: actions/deploy-pages@v5
