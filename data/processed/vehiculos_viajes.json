@@ -1,0 +1,2316 @@
+{
+ "_fuente": "https://www.asamblea.go.cr/pa/datosabiertos/SitePages/Inicio.aspx",
+ "_extraido": "2026-11-25T00:01:00+00:00",
+ "periodo_desde": "2026-05",
+ "vehiculos": {
+  "2026-05": {
+   "_fuente": "https://www.asamblea.go.cr/pa/datosabiertos/Documentos%20compartidos/UsoVehiculos/2026-05-2018-05-Uso_Transporte.xlsx",
+   "publicado": "2026-06-03",
+   "filas": 115,
+   "filas_de_diputaciones": 11,
+   "costo_no_cuadra": 4,
+   "no_atribuibles": []
+  },
+  "2026-06": {
+   "_fuente": "https://www.asamblea.go.cr/pa/datosabiertos/Documentos%20compartidos/UsoVehiculos/2026-06-2018-05-Uso_Transporte.xlsx",
+   "publicado": "2026-07-13",
+   "filas": 96,
+   "filas_de_diputaciones": 29,
+   "costo_no_cuadra": 8,
+   "no_atribuibles": [
+    {
+     "fecha": "2026-06-18",
+     "destino": "CRUCITAS",
+     "km": 438.0,
+     "costo": 32560.0,
+     "departamento_en_fuente": "VARIAS DIPUTACIONES"
+    }
+   ]
+  },
+  "2026-07": {
+   "_fuente": "https://www.asamblea.go.cr/pa/datosabiertos/Documentos%20compartidos/UsoVehiculos/2026-07-2018-05-Uso_Transporte.xlsx",
+   "publicado": "2026-08-03",
+   "filas": 83,
+   "filas_de_diputaciones": 22,
+   "costo_no_cuadra": 0,
+   "no_atribuibles": [
+    {
+     "fecha": "2024-07-30",
+     "destino": "SAN CARLOS",
+     "km": 219.0,
+     "costo": 16299.794999999998,
+     "departamento_en_fuente": "DIPUTADOS Y ASESORES"
+    }
+   ]
+  },
+  "2026-08": {
+   "_fuente": "https://www.asamblea.go.cr/pa/datosabiertos/Documentos%20compartidos/UsoVehiculos/2026-08-2018-05-Uso_Transporte.xlsx",
+   "publicado": "2026-09-03",
+   "filas": 92,
+   "filas_de_diputaciones": 21,
+   "costo_no_cuadra": 0,
+   "no_atribuibles": []
+  },
+  "2026-09": {
+   "_fuente": "https://www.asamblea.go.cr/pa/datosabiertos/Documentos%20compartidos/UsoVehiculos/2026-09-2018-05-Uso_Transporte.xlsx",
+   "publicado": "2026-10-05",
+   "filas": 100,
+   "filas_de_diputaciones": 28,
+   "costo_no_cuadra": 0,
+   "no_atribuibles": []
+  },
+  "2026-10": {
+   "_fuente": "https://www.asamblea.go.cr/pa/datosabiertos/Documentos%20compartidos/UsoVehiculos/2026-10-2018-05-Uso_Transporte.xlsx",
+   "publicado": "2026-11-04",
+   "filas": 111,
+   "filas_de_diputaciones": 33,
+   "costo_no_cuadra": 0,
+   "no_atribuibles": []
+  }
+ },
+ "viajes": {
+  "2026-06": {
+   "_fuente": "https://www.asamblea.go.cr/pa/datosabiertos/Documentos%20compartidos/GastosViajes/2026-06-Viajes_Institucionales.xlsx",
+   "publicado": "2026-07-24",
+   "filas_de_diputaciones": 2,
+   "filas_de_funcionarios": 3,
+   "notas": []
+  },
+  "2026-07": {
+   "_fuente": "https://www.asamblea.go.cr/pa/datosabiertos/Documentos%20compartidos/GastosViajes/2026-07-Viajes_Institucionales.xlsx",
+   "publicado": "2026-08-06",
+   "filas_de_diputaciones": 0,
+   "filas_de_funcionarios": 2,
+   "notas": []
+  },
+  "2026-08": {
+   "_fuente": "https://www.asamblea.go.cr/pa/datosabiertos/Documentos%20compartidos/GastosViajes/2026-08-Viajes_Institucionales.xlsx",
+   "publicado": "2026-09-09",
+   "filas_de_diputaciones": 2,
+   "filas_de_funcionarios": 2,
+   "notas": []
+  },
+  "2026-09": {
+   "_fuente": "https://www.asamblea.go.cr/pa/datosabiertos/Documentos%20compartidos/GastosViajes/2026-09-Viajes_Institucionales.xlsx",
+   "publicado": "2026-10-27",
+   "filas_de_diputaciones": 2,
+   "filas_de_funcionarios": 2,
+   "notas": [
+    "Nota: En referencia al viaje realizado por la señora presidenta, Yara Jiménez, con destino a España, el monto de viáticos indicado en el cuadro anterior, corresponde al adelanto tramitado. Al no haber concluido el viaje, no se ha realizado la liquidación de viáticos correspondiente, por lo que este monto está sujeto a variaciones. Cualquier variación será reportada en el informe correspondiente al mes de octubre de 2026."
+   ]
+  },
+  "2026-10": {
+   "_fuente": "https://www.asamblea.go.cr/pa/datosabiertos/Documentos%20compartidos/GastosViajes/2026-10-Viajes_Institucionales.xlsx",
+   "publicado": "2026-11-16",
+   "filas_de_diputaciones": 9,
+   "filas_de_funcionarios": 1,
+   "notas": []
+  }
+ },
+ "por_diputacion": {
+  "nayuribe-guadamuz-rosales": {
+   "vehiculos": [
+    {
+     "mes": "2026-10",
+     "fecha": "2026-10-30",
+     "boleta": 261499,
+     "destino": "SAN JOSE",
+     "km": 11.0,
+     "costo": 1328.4615384615383,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "SERVICIO CORTO",
+     "departamento_en_fuente": "DIP. NAYURIBE GUADAMUZ ROSALES"
+    },
+    {
+     "mes": "2026-10",
+     "fecha": "2026-10-22",
+     "boleta": 261453,
+     "destino": "SALA CONSITUCIONAL",
+     "km": 13.0,
+     "costo": 1570.0,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "SERVICIO CORTO",
+     "departamento_en_fuente": "DIP. NAYURIBE GUADAMUZ ROSALES"
+    },
+    {
+     "mes": "2026-10",
+     "fecha": "2026-10-15",
+     "boleta": 261400,
+     "destino": "GUANACASTE/CANTONES",
+     "km": 857.0,
+     "costo": 52288.85,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "GIRA COMUNAL",
+     "departamento_en_fuente": "DIP. NAYURIBE GUADAMUZ ROSALES"
+    },
+    {
+     "mes": "2026-09",
+     "fecha": "2026-09-24",
+     "boleta": 261272,
+     "destino": "GUANACASTE CANTONES",
+     "km": 679.0,
+     "costo": 47814.624,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "GIRA COMUNAL",
+     "departamento_en_fuente": "DIP. NAYURIBE GUADAMUZ ROSALES"
+    },
+    {
+     "mes": "2026-09",
+     "fecha": "2026-09-03",
+     "boleta": 261206,
+     "destino": "DESAMPARADOS",
+     "km": 12.0,
+     "costo": 1118.769230769231,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "SERVICIO CORTO",
+     "departamento_en_fuente": "DIP. NAYURIBE GUADAMUZ ROSALES"
+    },
+    {
+     "mes": "2026-09",
+     "fecha": "2026-09-03",
+     "boleta": 261194,
+     "destino": "GUANACASTE/CANTONES",
+     "km": 763.0,
+     "costo": 56719.176,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "GIRA COMUNAL",
+     "departamento_en_fuente": "DIP. NAYURIBE GUADAMUZ ROSALES"
+    },
+    {
+     "mes": "2026-08",
+     "fecha": "2026-08-06",
+     "boleta": 261043,
+     "destino": "GUANACASTE/CANTONES",
+     "km": 828.0,
+     "costo": 48005.920000000006,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "GIRA COMUNAL",
+     "departamento_en_fuente": "DIP. NAYURIBE GUADAMUZ ROSALES"
+    },
+    {
+     "mes": "2026-07",
+     "fecha": "2026-07-17",
+     "boleta": 260917,
+     "destino": "GUANACASTE",
+     "km": 734.0,
+     "costo": 58108.274000000005,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "GIRA COMUNAL",
+     "departamento_en_fuente": "DIP. NAYURIBE GUADAMUZ ROSALES"
+    },
+    {
+     "mes": "2026-06",
+     "fecha": "2026-06-25",
+     "boleta": 260867,
+     "destino": "SAN JOSÉ",
+     "km": 18.0,
+     "costo": 1855.3846153846152,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "SERVICIO CORTO",
+     "departamento_en_fuente": "DIPUTADA NAYURIBE GUADAMUZ"
+    },
+    {
+     "mes": "2026-05",
+     "fecha": "2026-05-14",
+     "boleta": 260586,
+     "destino": "GIRA GUANACASTE",
+     "km": 663.0,
+     "costo": 53298.0,
+     "costo_cuadra": false,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": null,
+     "departamento_en_fuente": "DIPUTADA NAYURIBE GUADAMUZ"
+    },
+    {
+     "mes": "2026-07",
+     "fecha": "2024-07-30",
+     "boleta": 261005,
+     "destino": "GUANACASTE/CANTONES",
+     "km": 912.0,
+     "costo": 33764.788,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": true,
+     "tipo_servicio": "GIRA COMUNAL",
+     "departamento_en_fuente": "DIP. NAYURIBE GUADAMUZ ROSALES"
+    }
+   ],
+   "viajes": []
+  },
+  "salvador-padilla-villanueva": {
+   "vehiculos": [
+    {
+     "mes": "2026-10",
+     "fecha": "2026-10-31",
+     "boleta": 261489,
+     "destino": "CARTAGO",
+     "km": 60.0,
+     "costo": 11412.33,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "GIRA COMUNAL",
+     "departamento_en_fuente": "DIP.SALVADOR PADILLA"
+    },
+    {
+     "mes": "2026-09",
+     "fecha": "2026-09-29",
+     "boleta": 261293,
+     "destino": "PUNTARENAS",
+     "km": 226.0,
+     "costo": 19813.023999999998,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "GIRA COMUNAL",
+     "departamento_en_fuente": "DIP. SALVADOR PADILLA VILLANUEVA"
+    },
+    {
+     "mes": "2026-08",
+     "fecha": "2026-08-20",
+     "boleta": 261114,
+     "destino": "CARTAGO/SAN JOSÉ",
+     "km": 314.0,
+     "costo": 26968.212000000003,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "GIRA COMUNAL",
+     "departamento_en_fuente": "DIP. SALVADOR PADILLA VILLANUEVA"
+    },
+    {
+     "mes": "2026-08",
+     "fecha": "2026-08-07",
+     "boleta": 261039,
+     "destino": "CARTAGO",
+     "km": 152.0,
+     "costo": 12807.216,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "GIRA COMUNAL",
+     "departamento_en_fuente": "DIP. SALVADOR PADILLA VILLANUEVA"
+    },
+    {
+     "mes": "2026-07",
+     "fecha": "2026-07-18",
+     "boleta": 260919,
+     "destino": "CARTAGO",
+     "km": 151.0,
+     "costo": 20205.189,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "GIRA COMUNAL",
+     "departamento_en_fuente": "DIP. SALVADOR PADILLA VILLANUEVA"
+    },
+    {
+     "mes": "2026-06",
+     "fecha": "2026-06-19",
+     "boleta": 260800,
+     "destino": "CARTAGO",
+     "km": 86.0,
+     "costo": 8009.0,
+     "costo_cuadra": false,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "GIRA COMUNAL",
+     "departamento_en_fuente": "DIPUTADO SALVADOR PADILLA"
+    },
+    {
+     "mes": "2026-06",
+     "fecha": "2026-06-05",
+     "boleta": 260718,
+     "destino": "CARTAGO/CANTONES",
+     "km": 148.0,
+     "costo": 15079.0,
+     "costo_cuadra": false,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "GIRA COMUNAL",
+     "departamento_en_fuente": "DIPUTADO SALVADOR PADILLA"
+    },
+    {
+     "mes": "2026-06",
+     "fecha": "2026-06-02",
+     "boleta": 260692,
+     "destino": "CARTAGO/CANTONES",
+     "km": 58.0,
+     "costo": 5012.0,
+     "costo_cuadra": false,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "GIRA COMUNAL",
+     "departamento_en_fuente": "DIPUTADO SALVADOR PADILLA"
+    },
+    {
+     "mes": "2026-05",
+     "fecha": "2026-05-22",
+     "boleta": 260624,
+     "destino": "CARTAGO-GIRA",
+     "km": 163.0,
+     "costo": 19453.0,
+     "costo_cuadra": false,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": null,
+     "departamento_en_fuente": "DIPUTADO SALVADOR PADILLA VILLANUEVA"
+    },
+    {
+     "mes": "2026-05",
+     "fecha": "2026-05-15",
+     "boleta": 260588,
+     "destino": "GIRA CARTAGO",
+     "km": 79.0,
+     "costo": 11438.0,
+     "costo_cuadra": false,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": null,
+     "departamento_en_fuente": "DIPUTADO SALVADOR PADILLA VILLANUEVA"
+    }
+   ],
+   "viajes": []
+  },
+  "kattia-calvo-cruz": {
+   "vehiculos": [
+    {
+     "mes": "2026-10",
+     "fecha": "2026-10-31",
+     "boleta": 261471,
+     "destino": "ALAJUELA",
+     "km": 43.0,
+     "costo": 5193.076923076923,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "SERVICIO CORTO",
+     "departamento_en_fuente": "DIP. KATTIA CALVO CRUZ"
+    },
+    {
+     "mes": "2026-10",
+     "fecha": "2026-10-28",
+     "boleta": 261470,
+     "destino": "ALAJUELA",
+     "km": 46.0,
+     "costo": 5555.384615384615,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "SERVICIO CORTO",
+     "departamento_en_fuente": "DIP. KATTIA CALVO CRUZ"
+    },
+    {
+     "mes": "2026-07",
+     "fecha": "2026-07-29",
+     "boleta": 261011,
+     "destino": "SAN JOSÉ",
+     "km": 11.0,
+     "costo": 1155.8461538461538,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "SERVICIO CORTO",
+     "departamento_en_fuente": "DIP. KATTIA CALVO CRUZ"
+    },
+    {
+     "mes": "2026-07",
+     "fecha": "2026-07-23",
+     "boleta": 260975,
+     "destino": "GUANACASTE/CANTONES",
+     "km": 577.0,
+     "costo": 40376.228,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "GIRA COMUNAL",
+     "departamento_en_fuente": "DIP. KATTIA CALVO CRUZ"
+    },
+    {
+     "mes": "2026-06",
+     "fecha": "2026-06-19",
+     "boleta": 260835,
+     "destino": "SAN JOSÉ",
+     "km": 30.0,
+     "costo": 3092.307692307692,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "SERVICIO CORTO",
+     "departamento_en_fuente": "DIPUTADA KATTIA CALVO CRUZ"
+    },
+    {
+     "mes": "2026-06",
+     "fecha": "2026-06-12",
+     "boleta": 260771,
+     "destino": "LIMÓN",
+     "km": 455.0,
+     "costo": 31798.2,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "GIRA COMUNAL",
+     "departamento_en_fuente": "DIPUTADA KATTIA CALVO CRUZ"
+    },
+    {
+     "mes": "2026-05",
+     "fecha": "2026-05-28",
+     "boleta": 260681,
+     "destino": "CASA PRESIDENCIAL",
+     "km": 14.0,
+     "costo": 1542.1538461538462,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": null,
+     "departamento_en_fuente": "DIPUTADO KATTIA CALVO CRUZ PPS"
+    },
+    {
+     "mes": "2026-05",
+     "fecha": "2026-05-22",
+     "boleta": 260631,
+     "destino": "LIMON-GIRA",
+     "km": 551.0,
+     "costo": 47381.0,
+     "costo_cuadra": false,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": null,
+     "departamento_en_fuente": "DIPUTADA KATTIA CALVO CRUZ"
+    }
+   ],
+   "viajes": [
+    {
+     "id": 471,
+     "meses": [
+      "2026-10"
+     ],
+     "destino": "República Dominicana",
+     "ida": "2026-10-29",
+     "regreso": "2026-10-31",
+     "fechas_venian_como": null,
+     "motivo": "Participación en la XVII Reunión de la Comisión Interparlamentaria de Seguridad Ciudadana y Administración de Justicia.",
+     "viaticos": {
+      "costeados_por": "FOPREL/ OEA",
+      "monto": null,
+      "texto": "No aplica"
+     },
+     "pasajes_aereos": {
+      "costeados_por": "FOPREL/ OEA",
+      "monto": null,
+      "texto": "No aplica"
+     },
+     "pasajes_terrestres": {
+      "monto": null,
+      "texto": "No aplica"
+     },
+     "inscripcion": {
+      "monto": 0.0,
+      "texto": null
+     },
+     "notas": []
+    }
+   ]
+  },
+  "janice-sandi-morales": {
+   "vehiculos": [
+    {
+     "mes": "2026-05",
+     "fecha": "2026-05-22",
+     "boleta": 260635,
+     "destino": "CARTAGO-GIRA",
+     "km": 142.0,
+     "costo": 13224.519999999999,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": null,
+     "departamento_en_fuente": "DIPUTADA JANICE SANDI MORALES"
+    }
+   ],
+   "viajes": []
+  },
+  "juan-manuel-quesada-espinoza": {
+   "vehiculos": [
+    {
+     "mes": "2026-06",
+     "fecha": "2026-06-18",
+     "boleta": 260778,
+     "destino": "CRUCITAS",
+     "km": 465.0,
+     "costo": 26299.0,
+     "costo_cuadra": false,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "GIRA COMUNAL",
+     "departamento_en_fuente": "DIPUTADO JUAN QUESADA"
+    },
+    {
+     "mes": "2026-06",
+     "fecha": "2026-06-08",
+     "boleta": 260720,
+     "destino": "EMBAJADA E.U",
+     "km": 19.0,
+     "costo": 1958.4615384615383,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "SERVICIO CORTO",
+     "departamento_en_fuente": "DIPUTADO JUAN M. QUESADA"
+    },
+    {
+     "mes": "2026-05",
+     "fecha": "2026-05-25",
+     "boleta": 260664,
+     "destino": "REPRETEL",
+     "km": 15.0,
+     "costo": 1652.3076923076922,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": null,
+     "departamento_en_fuente": "DIPUTADO JUAN QUESADA ESPINOZA"
+    }
+   ],
+   "viajes": []
+  },
+  "kattia-maria-ulate-alvarado": {
+   "vehiculos": [
+    {
+     "mes": "2026-10",
+     "fecha": "2026-10-29",
+     "boleta": 261454,
+     "destino": "ESCAZÚ",
+     "km": 37.0,
+     "costo": 4468.461538461539,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "SERVICIO CORTO",
+     "departamento_en_fuente": "DIP. KATTIA ULATE ALVARADO"
+    },
+    {
+     "mes": "2026-09",
+     "fecha": "2026-09-28",
+     "boleta": 261288,
+     "destino": "ALAJUELA CANTONES",
+     "km": 115.0,
+     "costo": 12172.307692307693,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "SERVICIO CORTO",
+     "departamento_en_fuente": "DIP. KATTIA ULATE ALVARADO"
+    },
+    {
+     "mes": "2026-08",
+     "fecha": "2026-08-11",
+     "boleta": 261082,
+     "destino": "MEP",
+     "km": 7.0,
+     "costo": 652.6153846153845,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "SERVICIO CORTO",
+     "departamento_en_fuente": "DIP. KATTIA ULATE ALVARADO"
+    },
+    {
+     "mes": "2026-06",
+     "fecha": "2026-06-25",
+     "boleta": 260854,
+     "destino": "ZAPOTE",
+     "km": 16.0,
+     "costo": 1649.2307692307693,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "SERVICIO CORTO",
+     "departamento_en_fuente": "DIPUTADA KATTIA ULATE ALVARADO"
+    },
+    {
+     "mes": "2026-06",
+     "fecha": "2026-06-10",
+     "boleta": 260729,
+     "destino": "DIEE-MEP",
+     "km": 8.0,
+     "costo": 824.6153846153846,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "SERVICIO CORTO",
+     "departamento_en_fuente": "DIPUTADA KATTIA ULATE A"
+    },
+    {
+     "mes": "2026-06",
+     "fecha": "2026-06-09",
+     "boleta": 260753,
+     "destino": "HOTEL CROWNE PLAZA",
+     "km": 18.0,
+     "costo": 1855.3846153846152,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "SERVICIO CORTO",
+     "departamento_en_fuente": "DIPUTADA KATTIA ULATE A"
+    },
+    {
+     "mes": "2026-05",
+     "fecha": "2026-05-28",
+     "boleta": 260698,
+     "destino": "CASA PRESIDENCIAL",
+     "km": 8.0,
+     "costo": 881.2307692307693,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": null,
+     "departamento_en_fuente": "DIPUTADA KATTIA ULATE ALVARADO-PPS"
+    },
+    {
+     "mes": "2026-05",
+     "fecha": "2026-05-26",
+     "boleta": 260684,
+     "destino": "UNIVERSIDAD DE COSTA RICA",
+     "km": 3.0,
+     "costo": 330.46153846153845,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": null,
+     "departamento_en_fuente": "DIPUTADA KATTIA ULATE ALVARADO-PPS"
+    }
+   ],
+   "viajes": []
+  },
+  "reynaldo-arias-mora": {
+   "vehiculos": [
+    {
+     "mes": "2026-05",
+     "fecha": "2026-05-29",
+     "boleta": 260708,
+     "destino": "INS",
+     "km": 26.0,
+     "costo": 2864.0,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": null,
+     "departamento_en_fuente": "DIPUTADO REYNALDO ARIAS MORA PPS"
+    }
+   ],
+   "viajes": []
+  },
+  "fernando-obaldia-alvarez": {
+   "vehiculos": [
+    {
+     "mes": "2026-08",
+     "fecha": "2026-08-19",
+     "boleta": 261119,
+     "destino": "CASA PRESIDENCIAL",
+     "km": 8.0,
+     "costo": 745.8461538461539,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "SERVICIO CORTO",
+     "departamento_en_fuente": "DIP. FERNANDO OBADIA ALVAREZ"
+    },
+    {
+     "mes": "2026-05",
+     "fecha": "2026-05-29",
+     "boleta": 260705,
+     "destino": "INS",
+     "km": 6.0,
+     "costo": 660.9230769230769,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": null,
+     "departamento_en_fuente": "DIPUTADO FERNANDO OBALDIA ALVAREZ"
+    }
+   ],
+   "viajes": []
+  },
+  "diana-murillo-murillo": {
+   "vehiculos": [
+    {
+     "mes": "2026-06",
+     "fecha": "2026-06-09",
+     "boleta": 260760,
+     "destino": "HEREDIA -SAN JOSE",
+     "km": 39.0,
+     "costo": 4020.0,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "SERVICIO CORTO",
+     "departamento_en_fuente": "DIPUTADA DIANA MURILLO"
+    },
+    {
+     "mes": "2026-06",
+     "fecha": "2026-06-05",
+     "boleta": 260719,
+     "destino": "SAN CARLOS",
+     "km": 229.0,
+     "costo": 18781.0,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "GIRA COMUNAL",
+     "departamento_en_fuente": "DIPUTADA DIANA MURILLO"
+    }
+   ],
+   "viajes": []
+  },
+  "cindy-maria-blanco-gonzalez": {
+   "vehiculos": [
+    {
+     "mes": "2026-10",
+     "fecha": "2026-10-23",
+     "boleta": 261443,
+     "destino": "CARTAGO",
+     "km": 159.0,
+     "costo": 23157.5,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "GIRA COMUNAL",
+     "departamento_en_fuente": "DIP. CINDY BLANCO GONZALEZ"
+    },
+    {
+     "mes": "2026-10",
+     "fecha": "2026-10-16",
+     "boleta": 261407,
+     "destino": "POCOCÍ",
+     "km": 302.0,
+     "costo": 27902.825,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "GIRA COMUNAL",
+     "departamento_en_fuente": "DIP.CINDY BLANCO GONZALEZ"
+    },
+    {
+     "mes": "2026-06",
+     "fecha": "2026-06-18",
+     "boleta": 260806,
+     "destino": "FLORENCIA, SAN CARLOS",
+     "km": 272.0,
+     "costo": 23015.0,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "GIRA COMUNAL",
+     "departamento_en_fuente": "DIPUTADA CINDY BLANCO"
+    },
+    {
+     "mes": "2026-06",
+     "fecha": "2026-06-12",
+     "boleta": 260766,
+     "destino": "TURRIALBA Y TUCURRIQUE",
+     "km": 181.0,
+     "costo": 9999.84,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "GIRA COMUNAL",
+     "departamento_en_fuente": "DIPUTADA CINDY BLANCO"
+    },
+    {
+     "mes": "2026-06",
+     "fecha": "2026-06-05",
+     "boleta": 260725,
+     "destino": "HEREDIA, SNTA BARBARA",
+     "km": 43.0,
+     "costo": 4432.307692307692,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "SERVICIO CORTO",
+     "departamento_en_fuente": "DIPUTADA CINDY BLANCO"
+    }
+   ],
+   "viajes": []
+  },
+  "karol-vanessa-matamoros-montoya": {
+   "vehiculos": [
+    {
+     "mes": "2026-06",
+     "fecha": "2026-06-09",
+     "boleta": 260774,
+     "destino": "ESTADIO NACIONAL",
+     "km": 12.0,
+     "costo": 1236.923076923077,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "SERVICIO CORTO",
+     "departamento_en_fuente": "DIPUTADA KAROL MATAMOROS"
+    }
+   ],
+   "viajes": []
+  },
+  "maria-isabel-camareno-camareno": {
+   "vehiculos": [
+    {
+     "mes": "2026-09",
+     "fecha": "2026-09-29",
+     "boleta": 261318,
+     "destino": "PUNTARENAS",
+     "km": 313.0,
+     "costo": 25336.288,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "GIRA COMUNAL",
+     "departamento_en_fuente": "DIP. MARÍA CAMARENO CAMARENO"
+    },
+    {
+     "mes": "2026-09",
+     "fecha": "2026-09-25",
+     "boleta": 261290,
+     "destino": "PUNTARENAS CANTONES",
+     "km": 733.0,
+     "costo": 55344.096,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "GIRA COMUNAL",
+     "departamento_en_fuente": "DIP. MARÍA CAMARENO CAMARENO"
+    },
+    {
+     "mes": "2026-09",
+     "fecha": "2026-09-18",
+     "boleta": 261249,
+     "destino": "SARAPIQUÍ",
+     "km": 196.0,
+     "costo": 17219.264,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "GIRA COMUNAL",
+     "departamento_en_fuente": "DIP. MARÍA CAMARENO CAMARENO"
+    },
+    {
+     "mes": "2026-08",
+     "fecha": "2026-08-28",
+     "boleta": 261160,
+     "destino": "LIMÓN",
+     "km": 376.0,
+     "costo": 32586.438000000002,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "GIRA COMUNAL",
+     "departamento_en_fuente": "DIP. MARÍA CAMARENO CAMARENO"
+    },
+    {
+     "mes": "2026-07",
+     "fecha": "2026-07-22",
+     "boleta": 260977,
+     "destino": "CANCILERÍA",
+     "km": 9.0,
+     "costo": 945.6923076923076,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "SERVICIO CORTO",
+     "departamento_en_fuente": "DIP. MARÍA CAMARENO CAMARENO"
+    },
+    {
+     "mes": "2026-06",
+     "fecha": "2026-06-30",
+     "boleta": 260898,
+     "destino": "SANTA ANA",
+     "km": 52.0,
+     "costo": 5360.0,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "SERVICIO CORTO",
+     "departamento_en_fuente": "DIPUTADA MARÍA CAMARENO"
+    },
+    {
+     "mes": "2026-06",
+     "fecha": "2026-06-09",
+     "boleta": 260709,
+     "destino": "CASA PRESIDENCIAL",
+     "km": 22.0,
+     "costo": 2267.6923076923076,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "SERVICIO CORTO",
+     "departamento_en_fuente": "DIPUTADA MARIA CAMARENO C"
+    }
+   ],
+   "viajes": []
+  },
+  "jesus-calderon-calderon": {
+   "vehiculos": [
+    {
+     "mes": "2026-06",
+     "fecha": "2026-06-09",
+     "boleta": 260732,
+     "destino": "CONTRALORIA GENERAL",
+     "km": 13.0,
+     "costo": 1340.0,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "SERVICIO CORTO",
+     "departamento_en_fuente": "DIPUTADO JESUS CALDERON C"
+    }
+   ],
+   "viajes": []
+  },
+  "joselyn-saenz-nunez": {
+   "vehiculos": [
+    {
+     "mes": "2026-10",
+     "fecha": "2026-10-16",
+     "boleta": 261402,
+     "destino": "CARTAGO",
+     "km": 101.0,
+     "costo": 16646.71,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "GIRA COMUNAL",
+     "departamento_en_fuente": "DIP. JOSELYN SAENZ NUÑEZ"
+    },
+    {
+     "mes": "2026-10",
+     "fecha": "2026-10-07",
+     "boleta": 261367,
+     "destino": "CARTAGO",
+     "km": 52.0,
+     "costo": 6280.0,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "SERVICIO CORTO",
+     "departamento_en_fuente": "DIP. JOSELYN SAENZ NUÑEZ"
+    },
+    {
+     "mes": "2026-10",
+     "fecha": "2026-10-02",
+     "boleta": 261335,
+     "destino": "CARTAGO",
+     "km": 65.0,
+     "costo": 7850.0,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "GIRA COMUNAL",
+     "departamento_en_fuente": "DIP. JOSELYN SAENZ NUÑEZ"
+    },
+    {
+     "mes": "2026-09",
+     "fecha": "2026-09-18",
+     "boleta": 261252,
+     "destino": "CARTAGO",
+     "km": 51.0,
+     "costo": 5398.153846153846,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "SERVICIO CORTO",
+     "departamento_en_fuente": "DIP. JOSELYN SAÉNZ NUÑEZ"
+    },
+    {
+     "mes": "2026-08",
+     "fecha": "2026-08-21",
+     "boleta": 261097,
+     "destino": "CARTAGO",
+     "km": 48.0,
+     "costo": 3003.942,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "GIRA COMUNAL",
+     "departamento_en_fuente": "DIP. JOSELYN SAENZ NUÑEZ"
+    },
+    {
+     "mes": "2026-08",
+     "fecha": "2026-08-07",
+     "boleta": 261059,
+     "destino": "TRES RÍOS",
+     "km": 30.0,
+     "costo": 2787.6923076923076,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "SERVICIO CORTO",
+     "departamento_en_fuente": "DIP. JOSELYN SAENZ NUÑEZ"
+    },
+    {
+     "mes": "2026-06",
+     "fecha": "2026-06-12",
+     "boleta": 260763,
+     "destino": "PACAYAS, CARTAGO",
+     "km": 87.0,
+     "costo": 8857.4,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "GIRA COMUNAL",
+     "departamento_en_fuente": "DIPUTADA JOSELYN SAENZ"
+    }
+   ],
+   "viajes": []
+  },
+  "ariel-mora-fallas": {
+   "vehiculos": [
+    {
+     "mes": "2026-08",
+     "fecha": "2026-08-20",
+     "boleta": 261104,
+     "destino": "BUENOS AIRES",
+     "km": 391.0,
+     "costo": 22000.224000000002,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "GIRA COMUNAL",
+     "departamento_en_fuente": "DIP. ARIEL MORA FALLAS"
+    },
+    {
+     "mes": "2026-08",
+     "fecha": "2026-08-19",
+     "boleta": 261109,
+     "destino": "CASA PRESIDENCIAL",
+     "km": 9.0,
+     "costo": 839.0769230769231,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "SERVICIO CORTO",
+     "departamento_en_fuente": "DIP. ARIEL MORA FALLAS"
+    },
+    {
+     "mes": "2026-08",
+     "fecha": "2026-08-06",
+     "boleta": 261042,
+     "destino": "PUNTARENAS (BUENOS AIRES)",
+     "km": 937.0,
+     "costo": 53062.608,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "GIRA COMUNAL",
+     "departamento_en_fuente": "DIP. ARIEL MORA FALLAS"
+    },
+    {
+     "mes": "2026-07",
+     "fecha": "2026-07-30",
+     "boleta": 261006,
+     "destino": "SABANA",
+     "km": 10.0,
+     "costo": 1050.7692307692307,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "SERVICIO CORTO",
+     "departamento_en_fuente": "DIP. ARIEL MORA FALLAS"
+    },
+    {
+     "mes": "2026-07",
+     "fecha": "2026-07-29",
+     "boleta": 261008,
+     "destino": "INDER",
+     "km": 20.0,
+     "costo": 2101.5384615384614,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "SERVICIO CORTO",
+     "departamento_en_fuente": "DIP. ARIEL MORA FALLAS"
+    },
+    {
+     "mes": "2026-07",
+     "fecha": "2026-07-27",
+     "boleta": 260982,
+     "destino": "MINAE",
+     "km": 11.0,
+     "costo": 1155.8461538461538,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "SERVICIO CORTO",
+     "departamento_en_fuente": "DIP, ARIEL MORA FALLAS"
+    },
+    {
+     "mes": "2026-07",
+     "fecha": "2026-07-23",
+     "boleta": 260965,
+     "destino": "GUANACASTE/CANTONES",
+     "km": 444.0,
+     "costo": 30424.235,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "GIRA COMUNAL",
+     "departamento_en_fuente": "DIP. ARIEL MORA FALLAS"
+    },
+    {
+     "mes": "2026-07",
+     "fecha": "2026-07-02",
+     "boleta": 260891,
+     "destino": "PUNTARENAS",
+     "km": 208.0,
+     "costo": 31191.18,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "GIRA COMUNAL",
+     "departamento_en_fuente": "DIP. ARIEL MORA FALLAS"
+    },
+    {
+     "mes": "2026-06",
+     "fecha": "2026-06-12",
+     "boleta": 260791,
+     "destino": "PUNTARENAS, ESPARZA",
+     "km": 260.0,
+     "costo": 20014.0,
+     "costo_cuadra": false,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "GIRA COMUNAL",
+     "departamento_en_fuente": "DIPUTADO ARIEL MORA"
+    }
+   ],
+   "viajes": []
+  },
+  "stephan-brunner-neibig": {
+   "vehiculos": [
+    {
+     "mes": "2026-10",
+     "fecha": "2026-10-30",
+     "boleta": 261472,
+     "destino": "ALAJUELA/CANTONES",
+     "km": 335.0,
+     "costo": 37330.675,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "GIRA COMUNAL",
+     "departamento_en_fuente": "DIP. STHEPHAN BRUNNER NEIBIG"
+    },
+    {
+     "mes": "2026-10",
+     "fecha": "2026-10-16",
+     "boleta": 261408,
+     "destino": "PUNTARENAS",
+     "km": 304.0,
+     "costo": 41987.295,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "GIRA COMUNAL",
+     "departamento_en_fuente": "DIP. STHEPHAN BRUNNER NEIBIG"
+    },
+    {
+     "mes": "2026-09",
+     "fecha": "2026-09-29",
+     "boleta": 261308,
+     "destino": "PUNTARENAS",
+     "km": 184.0,
+     "costo": 18044.864,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "GIRA COMUNAL",
+     "departamento_en_fuente": "DIP. STEPHAN BRUNNER NEIBIG"
+    },
+    {
+     "mes": "2026-08",
+     "fecha": "2026-08-28",
+     "boleta": 261143,
+     "destino": "LIMÓN",
+     "km": 381.0,
+     "costo": 27562.697999999997,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "GIRA COMUNAL",
+     "departamento_en_fuente": "DIP. STEPHAN BRUNNER NEIBIG"
+    },
+    {
+     "mes": "2026-07",
+     "fecha": "2026-07-23",
+     "boleta": 260973,
+     "destino": "GUANACASTE/CANTONES",
+     "km": 574.0,
+     "costo": 27817.907,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "GIRA COMUNAL",
+     "departamento_en_fuente": "DIP. STEPHAN BRUNNER NEIBIG"
+    },
+    {
+     "mes": "2026-06",
+     "fecha": "2026-06-18",
+     "boleta": 260759,
+     "destino": "SAN CARLOS",
+     "km": 341.0,
+     "costo": 24580.0,
+     "costo_cuadra": false,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "GIRA COMUNAL",
+     "departamento_en_fuente": "DIPUTADO STEPHAN BRUNNER"
+    }
+   ],
+   "viajes": []
+  },
+  "daniel-siezar-cardenas": {
+   "vehiculos": [
+    {
+     "mes": "2026-10",
+     "fecha": "2026-10-29",
+     "boleta": 261476,
+     "destino": "GUANACASTE/CANTONES",
+     "km": 624.0,
+     "costo": 63899.00000000001,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "GIRA COMUNAL",
+     "departamento_en_fuente": "DIP. DANIEL SIEZAR CARDENAS"
+    },
+    {
+     "mes": "2026-10",
+     "fecha": "2026-10-27",
+     "boleta": 261482,
+     "destino": "ZAPOTE",
+     "km": 9.0,
+     "costo": 1086.923076923077,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "SERVICIO CORTO",
+     "departamento_en_fuente": "DIP. DANIEL SIEZAR CARDENAS"
+    },
+    {
+     "mes": "2026-10",
+     "fecha": "2026-10-26",
+     "boleta": 261446,
+     "destino": "SAN JOSÉ",
+     "km": 8.0,
+     "costo": 966.1538461538462,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "SERVICIO CORTO",
+     "departamento_en_fuente": "DIP. DANIEL SIEZAR CARDENAS"
+    },
+    {
+     "mes": "2026-09",
+     "fecha": "2026-09-29",
+     "boleta": 261280,
+     "destino": "PUNTARENAS",
+     "km": 233.0,
+     "costo": 18705.344,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "GIRA COMUNAL",
+     "departamento_en_fuente": "DIP. DANIEL SIEZAR CARDENAS"
+    },
+    {
+     "mes": "2026-09",
+     "fecha": "2026-09-24",
+     "boleta": 261278,
+     "destino": "GUANACASTE CANTONES",
+     "km": 721.0,
+     "costo": 47349.536,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "GIRA COMUNAL",
+     "departamento_en_fuente": "DIP. DANIEL SIEZAR CARDENAS"
+    },
+    {
+     "mes": "2026-09",
+     "fecha": "2026-09-10",
+     "boleta": 261220,
+     "destino": "GUANACASTE CANTONES",
+     "km": 766.0,
+     "costo": 44735.824,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "GIRA COMUNAL",
+     "departamento_en_fuente": "DIP. DANIEL SIEZAR CARDENAS"
+    },
+    {
+     "mes": "2026-08",
+     "fecha": "2026-08-19",
+     "boleta": 261110,
+     "destino": "CASA PRESIDENCIAL",
+     "km": 8.0,
+     "costo": 745.8461538461539,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "SERVICIO CORTO",
+     "departamento_en_fuente": "DIP. DANIEL SIEZAR CARDENAS"
+    },
+    {
+     "mes": "2026-08",
+     "fecha": "2026-08-06",
+     "boleta": 261040,
+     "destino": "GUANACASTE",
+     "km": 739.0,
+     "costo": 44050.928,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "GIRA COMUNAL",
+     "departamento_en_fuente": "DIP.DANIEL SIEZAR CARDENAS"
+    },
+    {
+     "mes": "2026-07",
+     "fecha": "2026-07-21",
+     "boleta": 260960,
+     "destino": "RADIO COLUMBIA",
+     "km": 11.0,
+     "costo": 1155.8461538461538,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "SERVICIO CORTO",
+     "departamento_en_fuente": "DIP. DANIEL SIEZAR CARDENAS"
+    },
+    {
+     "mes": "2026-07",
+     "fecha": "2026-07-17",
+     "boleta": 260936,
+     "destino": "PUNTARENAS",
+     "km": 247.0,
+     "costo": 17775.758,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "GIRA COMUNAL",
+     "departamento_en_fuente": "DIP. DANIEL SIEZAR CARDENAS"
+    },
+    {
+     "mes": "2026-07",
+     "fecha": "2026-07-02",
+     "boleta": 260894,
+     "destino": "SAN JOSÉ-CARTAGO",
+     "km": 44.0,
+     "costo": 4535.384615384615,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "SERVICIO CORTO",
+     "departamento_en_fuente": "DIP. DANIEL SIEZAR CARDENAS"
+    }
+   ],
+   "viajes": []
+  },
+  "wilson-alfredo-jimenez-cordero": {
+   "vehiculos": [
+    {
+     "mes": "2026-10",
+     "fecha": "2026-10-29",
+     "boleta": 261498,
+     "destino": "SAN JOSÉ",
+     "km": 17.0,
+     "costo": 2053.0769230769233,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "SERVICIO CORTO",
+     "departamento_en_fuente": "DIP. WILSON JIMÉNEZ CORDERO"
+    },
+    {
+     "mes": "2026-09",
+     "fecha": "2026-09-11",
+     "boleta": 261217,
+     "destino": "ALAJUELA CANTONES",
+     "km": 395.0,
+     "costo": 35101.76,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "GIRA COMUNAL",
+     "departamento_en_fuente": "DIP. WILSON JIMÉNEZ CORDERO"
+    },
+    {
+     "mes": "2026-07",
+     "fecha": "2026-07-17",
+     "boleta": 260915,
+     "destino": "SAN CARLOS",
+     "km": 369.0,
+     "costo": 34177.32,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "GIRA COMUNAL",
+     "departamento_en_fuente": "DIP. WILSON JIMÉNEZ CORDERO"
+    }
+   ],
+   "viajes": [
+    {
+     "id": 462,
+     "meses": [
+      "2026-08"
+     ],
+     "destino": "República Dominicana",
+     "ida": "2026-08-23",
+     "regreso": "2026-08-26",
+     "fechas_venian_como": null,
+     "motivo": "Participación en el VI Foro Latinoamericano contra el Antisemitismo.",
+     "viaticos": {
+      "costeados_por": "Combat Antisemitism Movement (CAM",
+      "monto": null,
+      "texto": "No aplica"
+     },
+     "pasajes_aereos": {
+      "costeados_por": "Combat Antisemitism Movement (CAM",
+      "monto": null,
+      "texto": "No aplica"
+     },
+     "pasajes_terrestres": {
+      "monto": null,
+      "texto": "No aplica"
+     },
+     "inscripcion": {
+      "monto": 0.0,
+      "texto": null
+     },
+     "notas": []
+    }
+   ]
+  },
+  "claudia-dobles-camargo": {
+   "vehiculos": [
+    {
+     "mes": "2026-10",
+     "fecha": "2026-10-16",
+     "boleta": 261399,
+     "destino": "CARTAGO/CANTONES",
+     "km": 152.0,
+     "costo": 20502.629999999997,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "GIRA COMUNAL",
+     "departamento_en_fuente": "DIP. CLAUDIA DOBLES CAMARGO"
+    },
+    {
+     "mes": "2026-10",
+     "fecha": "2026-10-15",
+     "boleta": 261417,
+     "destino": "CLUB UNIÓN",
+     "km": 7.0,
+     "costo": 845.3846153846154,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "SERVICIO CORTO",
+     "departamento_en_fuente": "DIP. CLAUDIA DOBLES CAMARGO"
+    },
+    {
+     "mes": "2026-09",
+     "fecha": "2026-09-30",
+     "boleta": 261309,
+     "destino": "PUNTARENAS",
+     "km": 221.0,
+     "costo": 20505.152,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "GIRA COMUNAL",
+     "departamento_en_fuente": "DIP. CLAUDIA DOBLES CAMARGO"
+    },
+    {
+     "mes": "2026-08",
+     "fecha": "2026-08-28",
+     "boleta": 261157,
+     "destino": "SANTA ANA/LIMÓN",
+     "km": 413.0,
+     "costo": 28970.304000000004,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "GIRA COMUNAL",
+     "departamento_en_fuente": "DIP. CLAUDIA DOBLES CAMARGO"
+    },
+    {
+     "mes": "2026-07",
+     "fecha": "2026-07-23",
+     "boleta": 260968,
+     "destino": "GUANACASTE/CANTONES",
+     "km": 434.0,
+     "costo": 28190.142,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "GIRA COMUNAL",
+     "departamento_en_fuente": "DIP. CLAUDIA DOBLES CAMARGO"
+    }
+   ],
+   "viajes": [
+    {
+     "id": 472,
+     "meses": [
+      "2026-10"
+     ],
+     "destino": "Panamá",
+     "ida": "2026-10-21",
+     "regreso": "2026-10-23",
+     "fechas_venian_como": null,
+     "motivo": "Participación en la Red Iberoamericana de Mujeres en Política.",
+     "viaticos": {
+      "costeados_por": "Club de Madrid en alianza con ONU Mujeres, Comisión Económica para América Latina y el Caribe (CEPAL) y Secretaría General Iberoamericana (SEGIB)",
+      "monto": null,
+      "texto": "No aplica"
+     },
+     "pasajes_aereos": {
+      "costeados_por": "Club de Madrid en alianza con ONU Mujeres, Comisión Económica para América Latina y el Caribe (CEPAL) y Secretaría General Iberoamericana (SEGIB)",
+      "monto": null,
+      "texto": "No aplica"
+     },
+     "pasajes_terrestres": {
+      "monto": null,
+      "texto": "No aplica"
+     },
+     "inscripcion": {
+      "monto": 0.0,
+      "texto": null
+     },
+     "notas": []
+    }
+   ]
+  },
+  "grethel-maria-avila-vargas": {
+   "vehiculos": [
+    {
+     "mes": "2026-08",
+     "fecha": "2026-08-19",
+     "boleta": 261116,
+     "destino": "CASA PRESIDENCIAL",
+     "km": 8.0,
+     "costo": 745.8461538461539,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "SERVICIO CORTO",
+     "departamento_en_fuente": "DIP. GRETTEL ÁVILA VARGAS"
+    },
+    {
+     "mes": "2026-07",
+     "fecha": "2024-07-30",
+     "boleta": 260997,
+     "destino": "SAN CARLOS",
+     "km": 280.0,
+     "costo": 23662.535000000003,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": true,
+     "tipo_servicio": "GIRA COMUNAL",
+     "departamento_en_fuente": "DIP. GRETTEL ÁVILA VARGAS"
+    }
+   ],
+   "viajes": []
+  },
+  "edgardo-araya-sibaja": {
+   "vehiculos": [
+    {
+     "mes": "2026-10",
+     "fecha": "2026-10-23",
+     "boleta": 261433,
+     "destino": "PÉREZ ZELEDÓN",
+     "km": 397.0,
+     "costo": 34580.82,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "GIRA COMUNAL",
+     "departamento_en_fuente": "DIP. EDGARDO ARAYA SIBAJA"
+    },
+    {
+     "mes": "2026-09",
+     "fecha": "2026-09-28",
+     "boleta": 261316,
+     "destino": "GRECIA",
+     "km": 97.0,
+     "costo": 8009.008,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "GIRA COMUNAL",
+     "departamento_en_fuente": "DIP. EDGARDO ARAYA SIBAJA"
+    },
+    {
+     "mes": "2026-07",
+     "fecha": "2024-07-30",
+     "boleta": 261000,
+     "destino": "SAN CARLOS",
+     "km": 237.0,
+     "costo": 23754.74,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": true,
+     "tipo_servicio": "GIRA COMUNAL",
+     "departamento_en_fuente": "DIP. EDGARDO ARAYA SIBAJA"
+    }
+   ],
+   "viajes": []
+  },
+  "royner-g-mora-ruiz": {
+   "vehiculos": [
+    {
+     "mes": "2026-10",
+     "fecha": "2026-10-29",
+     "boleta": 261497,
+     "destino": "BARRIO AMÓN",
+     "km": 6.0,
+     "costo": 724.6153846153846,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "SERVICIO CORTO",
+     "departamento_en_fuente": "DIP. ROYNER MORA RUÍZ"
+    },
+    {
+     "mes": "2026-10",
+     "fecha": "2026-10-29",
+     "boleta": 261496,
+     "destino": "EMBAJADA DE COREA",
+     "km": 20.0,
+     "costo": 2415.3846153846157,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "SERVICIO CORTO",
+     "departamento_en_fuente": "DIP. ROYNER MORA RUÍZ"
+    },
+    {
+     "mes": "2026-10",
+     "fecha": "2026-10-21",
+     "boleta": 261447,
+     "destino": "ZAPOTE",
+     "km": 10.0,
+     "costo": 1207.6923076923078,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "SERVICIO CORTO",
+     "departamento_en_fuente": "DIP. ROYNER MORA RUÍZ"
+    },
+    {
+     "mes": "2026-09",
+     "fecha": "2026-09-25",
+     "boleta": 261297,
+     "destino": "PUNTARENAS CANTONES",
+     "km": 484.0,
+     "costo": 36003.04,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "GIRA COMUNAL",
+     "departamento_en_fuente": "DIP. ROYNER MORA RUÍZ"
+    },
+    {
+     "mes": "2026-09",
+     "fecha": "2026-09-20",
+     "boleta": 261250,
+     "destino": "PUNTARENAS BUENOS AIRES",
+     "km": 472.0,
+     "costo": 33970.688,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "GIRA COMUNAL",
+     "departamento_en_fuente": "DIP, ROYNER MORA RUÍZ"
+    },
+    {
+     "mes": "2026-09",
+     "fecha": "2026-09-10",
+     "boleta": 261231,
+     "destino": "PUNTARENAS CANTONES",
+     "km": 653.0,
+     "costo": 44006.2,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "GIRA COMUNAL",
+     "departamento_en_fuente": "DIP. ROYNER MORA RUÍZ"
+    },
+    {
+     "mes": "2026-08",
+     "fecha": "2026-08-21",
+     "boleta": 261139,
+     "destino": "PARRITA",
+     "km": 302.0,
+     "costo": 24312.114,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "GIRA COMUNAL",
+     "departamento_en_fuente": "DIP. ROYNER MORA RUÍZ"
+    },
+    {
+     "mes": "2026-08",
+     "fecha": "2026-08-06",
+     "boleta": 261052,
+     "destino": "BUENOS AIRES, COTO BRUS, PÉREZ ZELEDÓN",
+     "km": 601.0,
+     "costo": 44021.331999999995,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "GIRA COMUNAL",
+     "departamento_en_fuente": "DIP. ROYNER MORA RUÍZ"
+    }
+   ],
+   "viajes": [
+    {
+     "id": 473,
+     "meses": [
+      "2026-10"
+     ],
+     "destino": "Estados Unidos",
+     "ida": "2026-10-09",
+     "regreso": "2026-10-13",
+     "fechas_venian_como": null,
+     "motivo": "Participación en la actividad denominada: “Desfile de la Hispanidad 2026”, desarrollada por la organización Sector 011 – Yo Soy Costa Rica, entidad dedicada a promover, preservar y fortalecer la identidad cultural costarricense entre las comunidades residentes en los Estados Unidos.",
+     "viaticos": {
+      "costeados_por": "Peculio Propio",
+      "monto": null,
+      "texto": "No aplica"
+     },
+     "pasajes_aereos": {
+      "costeados_por": "Peculio Propio",
+      "monto": null,
+      "texto": "No aplica"
+     },
+     "pasajes_terrestres": {
+      "monto": null,
+      "texto": "No aplica"
+     },
+     "inscripcion": {
+      "monto": 0.0,
+      "texto": null
+     },
+     "notas": []
+    }
+   ]
+  },
+  "victor-hidalgo-solis": {
+   "vehiculos": [
+    {
+     "mes": "2026-09",
+     "fecha": "2026-09-30",
+     "boleta": 261317,
+     "destino": "PUNTARENAS",
+     "km": 229.0,
+     "costo": 16619.327999999998,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "GIRA COMUNAL",
+     "departamento_en_fuente": "DIP.VÍCTOR HIDALGO SOLÍS"
+    },
+    {
+     "mes": "2026-08",
+     "fecha": "2026-08-28",
+     "boleta": 261146,
+     "destino": "LIMÓN",
+     "km": 199.0,
+     "costo": 30457.152,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "GIRA COMUNAL",
+     "departamento_en_fuente": "DIP. VÍCTOR HIDALGO SOLÍS"
+    },
+    {
+     "mes": "2026-08",
+     "fecha": "2026-08-07",
+     "boleta": 261057,
+     "destino": "GUANACASTE",
+     "km": 491.0,
+     "costo": 32219.776,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "GIRA COMUNAL",
+     "departamento_en_fuente": "DIP. VÍCTOR HIDALGO SOLÍS"
+    }
+   ],
+   "viajes": []
+  },
+  "sigrid-segura-artavia": {
+   "vehiculos": [
+    {
+     "mes": "2026-10",
+     "fecha": "2026-10-30",
+     "boleta": 261485,
+     "destino": "ALAJUELA/CANTONES",
+     "km": 220.0,
+     "costo": 23089.99,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "GIRA COMUNAL",
+     "departamento_en_fuente": "DIP. SIGRID VIOLETA SEGURA ARTAVIA"
+    },
+    {
+     "mes": "2026-09",
+     "fecha": "2026-09-30",
+     "boleta": 261311,
+     "destino": "PUNTARENAS",
+     "km": 251.0,
+     "costo": 20082.72,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "GIRA COMUNAL",
+     "departamento_en_fuente": "DIP.SIGRID SEGURA ARTAVIA"
+    },
+    {
+     "mes": "2026-09",
+     "fecha": "2026-09-26",
+     "boleta": 261275,
+     "destino": "SAN CARLOS",
+     "km": 213.0,
+     "costo": 15696.720000000001,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "GIRA COMUNAL",
+     "departamento_en_fuente": "DIP. SIGRID SEGURA ARTAVIA"
+    },
+    {
+     "mes": "2026-09",
+     "fecha": "2026-09-25",
+     "boleta": 261276,
+     "destino": "ALAJUELA CANTONES",
+     "km": 113.0,
+     "costo": 16302.16,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "GIRA COMUNAL",
+     "departamento_en_fuente": "DIP. SIGRID SEGURA ARTAVIA"
+    },
+    {
+     "mes": "2026-09",
+     "fecha": "2026-09-19",
+     "boleta": 261256,
+     "destino": "ZARCERO",
+     "km": 186.0,
+     "costo": 19687.384615384617,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "SERVICIO CORTO",
+     "departamento_en_fuente": "DIP.SIGRID SEGURA ARTAVIA"
+    },
+    {
+     "mes": "2026-09",
+     "fecha": "2026-09-18",
+     "boleta": 261251,
+     "destino": "PUNTARENAS",
+     "km": 229.0,
+     "costo": 23762.143999999997,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "GIRA COMUNAL",
+     "departamento_en_fuente": "DIP. SIGRID SEGURA ARTAVIA"
+    },
+    {
+     "mes": "2026-08",
+     "fecha": "2026-08-28",
+     "boleta": 261161,
+     "destino": "LIMÓN",
+     "km": 374.0,
+     "costo": 41031.048,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "GIRA COMUNAL",
+     "departamento_en_fuente": "DIP. SIGRID SEGURA ARTAVIA"
+    }
+   ],
+   "viajes": []
+  },
+  "zaira-murillo-marin": {
+   "vehiculos": [
+    {
+     "mes": "2026-10",
+     "fecha": "2026-10-30",
+     "boleta": 261478,
+     "destino": "ALAJUELA/CANTONES",
+     "km": 261.0,
+     "costo": 21234.25,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "GIRA COMUNAL",
+     "departamento_en_fuente": "DIP. ZAIRA MURILLO MARÍN"
+    },
+    {
+     "mes": "2026-10",
+     "fecha": "2026-10-28",
+     "boleta": 261480,
+     "destino": "ALAJUELA",
+     "km": 51.0,
+     "costo": 6159.230769230769,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "SERVICIO CORTO",
+     "departamento_en_fuente": "DIP. ZAIRA MURILLO MARÍN"
+    },
+    {
+     "mes": "2026-10",
+     "fecha": "2026-10-27",
+     "boleta": 261479,
+     "destino": "ALAJUELA",
+     "km": 54.0,
+     "costo": 12676.18,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "SERVICIO CORTO",
+     "departamento_en_fuente": "DIP. ZAIRA MURILLO MARÍN"
+    },
+    {
+     "mes": "2026-10",
+     "fecha": "2026-10-22",
+     "boleta": 261450,
+     "destino": "ALAJUELA",
+     "km": 45.0,
+     "costo": 5434.615384615385,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "GIRA COMUNAL",
+     "departamento_en_fuente": "DIP. ZAIRA MURILLO MARÍN"
+    },
+    {
+     "mes": "2026-09",
+     "fecha": "2026-09-30",
+     "boleta": 261333,
+     "destino": "PUNTARENAS",
+     "km": 219.0,
+     "costo": 15096.096,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "GIRA COMUNAL",
+     "departamento_en_fuente": "DIP. ZAIRA MURILLO MARÍN"
+    }
+   ],
+   "viajes": [
+    {
+     "id": 461,
+     "meses": [
+      "2026-08"
+     ],
+     "destino": "Honduras",
+     "ida": "2026-08-19",
+     "regreso": "2026-08-21",
+     "fechas_venian_como": null,
+     "motivo": "Participación en representación de la Asamblea Legislativa de Costa Rica, en la Sesión Solemne de Instalación de la Comisión Interparlamentaria Especial de Salud (CIES) del Foro de Presidentes de Poderes Legislativos de Centroamérica y la Cuenca del Caribe (FOPREL).",
+     "viaticos": {
+      "costeados_por": "Congreso Nacional de Honduras",
+      "monto": null,
+      "texto": "No aplica"
+     },
+     "pasajes_aereos": {
+      "costeados_por": "Foro de Presidentes de Poderes Legislativos (FOPREL)",
+      "monto": null,
+      "texto": "No aplica"
+     },
+     "pasajes_terrestres": {
+      "monto": null,
+      "texto": "No aplica"
+     },
+     "inscripcion": {
+      "monto": 0.0,
+      "texto": null
+     },
+     "notas": []
+    }
+   ]
+  },
+  "marco-badilla-chavarria": {
+   "vehiculos": [
+    {
+     "mes": "2026-09",
+     "fecha": "2026-09-30",
+     "boleta": 261326,
+     "destino": "PUNTARENAS",
+     "km": 200.0,
+     "costo": 13581.807999999999,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "GIRA COMUNAL",
+     "departamento_en_fuente": "DIP. MARCO BADILLA CHAVARRÍA"
+    }
+   ],
+   "viajes": []
+  },
+  "marta-eugenia-esquivel-rodriguez": {
+   "vehiculos": [
+    {
+     "mes": "2026-10",
+     "fecha": "2026-10-26",
+     "boleta": 261466,
+     "destino": "SAN JOSÉ",
+     "km": 13.0,
+     "costo": 1570.0,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "SERVICIO CORTO",
+     "departamento_en_fuente": "DIP. MARTA ESQUIVEL RODRÍGUEZ"
+    },
+    {
+     "mes": "2026-10",
+     "fecha": "2026-10-21",
+     "boleta": 261449,
+     "destino": "SAN JOSÉ",
+     "km": 9.0,
+     "costo": 1086.923076923077,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "SERVICIO CORTO",
+     "departamento_en_fuente": "DIP. MARTA ESQUIVEL RODRÍGUEZ"
+    }
+   ],
+   "viajes": []
+  },
+  "karen-alfaro-jimenez": {
+   "vehiculos": [],
+   "viajes": [
+    {
+     "id": 468,
+     "meses": [
+      "2026-09"
+     ],
+     "destino": "Panamà",
+     "ida": "2026-09-17",
+     "regreso": "2026-09-20",
+     "fechas_venian_como": "numero de serie de Excel",
+     "motivo": "Visita institucional a la Asamblea Legislativa de Panamá y reuniones de trabajo con las distintas comisiones legislativas (Asuntos Agropecuarios y Municipales)..",
+     "viaticos": {
+      "costeados_por": "Peculio propio",
+      "monto": null,
+      "texto": "No aplica"
+     },
+     "pasajes_aereos": {
+      "costeados_por": "Peculio propio",
+      "monto": null,
+      "texto": "No aplica"
+     },
+     "pasajes_terrestres": {
+      "monto": null,
+      "texto": "No aplica"
+     },
+     "inscripcion": {
+      "monto": 0.0,
+      "texto": null
+     },
+     "notas": []
+    },
+    {
+     "id": 454,
+     "meses": [
+      "2026-06"
+     ],
+     "destino": "España",
+     "ida": "2026-06-15",
+     "regreso": "2026-06-22",
+     "fechas_venian_como": null,
+     "motivo": "Participación a la actividad denominada Fortalecimiento de Gobiernos Locales como Agentes de Transformación Social en Centroamérica y el Caribe.",
+     "viaticos": {
+      "costeados_por": "Centro de Investigación y Documentación sobre Problemas de la Economía, el Empleo y las Cualificaciones Profesionales (CIDEC) y la Agencia Vasca de Cooperación y Solidaridad",
+      "monto": null,
+      "texto": "No aplica"
+     },
+     "pasajes_aereos": {
+      "costeados_por": "Centro de Investigación y Documentación sobre Problemas de la Economía, el Empleo y las Cualificaciones Profesionales (CIDEC) y la Agencia Vasca de Cooperación y Solidaridad",
+      "monto": null,
+      "texto": "No aplica"
+     },
+     "pasajes_terrestres": {
+      "monto": 0.0,
+      "texto": null
+     },
+     "inscripcion": {
+      "monto": 0.0,
+      "texto": null
+     },
+     "notas": []
+    }
+   ]
+  },
+  "gonzalo-ramirez-zamora": {
+   "vehiculos": [],
+   "viajes": [
+    {
+     "id": 476,
+     "meses": [
+      "2026-10"
+     ],
+     "destino": "Estados Unidos",
+     "ida": "2026-10-19",
+     "regreso": "2026-10-22",
+     "fechas_venian_como": null,
+     "motivo": "Participación en la conferencia “NHCLC Leadership Summit & Celebratory Gala”",
+     "viaticos": {
+      "costeados_por": "Peculio Propio",
+      "monto": null,
+      "texto": "No aplica"
+     },
+     "pasajes_aereos": {
+      "costeados_por": "Peculio Propio",
+      "monto": null,
+      "texto": "No aplica"
+     },
+     "pasajes_terrestres": {
+      "monto": null,
+      "texto": "No aplica"
+     },
+     "inscripcion": {
+      "monto": 0.0,
+      "texto": null
+     },
+     "notas": []
+    },
+    {
+     "id": 475,
+     "meses": [
+      "2026-10"
+     ],
+     "destino": "Estados Unidos",
+     "ida": "2026-10-05",
+     "regreso": "2026-10-08",
+     "fechas_venian_como": null,
+     "motivo": "Participación en la actividad denominada “Global Leadership and Values Summit 2026”, desarrollada por la Maxwell Leadership Foundation, fundación internacional dedicada a promover procesos de transformación personal, comunitaria e institucional mediante el fortalecimiento del liderazgo basado en valores.",
+     "viaticos": {
+      "costeados_por": "Peculio Propio",
+      "monto": null,
+      "texto": "No aplica"
+     },
+     "pasajes_aereos": {
+      "costeados_por": "Peculio Propio",
+      "monto": null,
+      "texto": "No aplica"
+     },
+     "pasajes_terrestres": {
+      "monto": null,
+      "texto": "No aplica"
+     },
+     "inscripcion": {
+      "monto": 0.0,
+      "texto": null
+     },
+     "notas": []
+    },
+    {
+     "id": 455,
+     "meses": [
+      "2026-06"
+     ],
+     "destino": "Argentina",
+     "ida": "2026-06-25",
+     "regreso": "2026-06-30",
+     "fechas_venian_como": null,
+     "motivo": "Participación en la Conferencia, “Latin America Chairmen´s Conference”",
+     "viaticos": {
+      "costeados_por": "La Fundación Aliados de Israel (Israel Allies Foundation – IAF) y la American Friends of Isaac Accords (AFOIA), de la Genesis Prize Foundation",
+      "monto": null,
+      "texto": "No aplica"
+     },
+     "pasajes_aereos": {
+      "costeados_por": "La Fundación Aliados de Israel (Israel Allies Foundation – IAF) y la American Friends of Isaac Accords (AFOIA), de la Genesis Prize Foundation",
+      "monto": null,
+      "texto": "No aplica"
+     },
+     "pasajes_terrestres": {
+      "monto": 0.0,
+      "texto": null
+     },
+     "inscripcion": {
+      "monto": 0.0,
+      "texto": null
+     },
+     "notas": []
+    }
+   ]
+  },
+  "yara-jimenez-fallas": {
+   "vehiculos": [],
+   "viajes": [
+    {
+     "id": 465,
+     "meses": [
+      "2026-09",
+      "2026-10"
+     ],
+     "destino": "España",
+     "ida": "2026-09-27",
+     "regreso": "2026-10-03",
+     "fechas_venian_como": null,
+     "motivo": "Participación en el XII Foro Parlamentario Iberoamericano.",
+     "viaticos": {
+      "costeados_por": "Asamblea Legislativa 40%",
+      "monto": 382795.94,
+      "texto": "¢382,795.94"
+     },
+     "pasajes_aereos": {
+      "costeados_por": "Asamblea Legislativa",
+      "monto": 811037.0,
+      "texto": "¢ 811.037,00"
+     },
+     "pasajes_terrestres": {
+      "monto": 0.0,
+      "texto": null
+     },
+     "inscripcion": {
+      "monto": 0.0,
+      "texto": null
+     },
+     "notas": [
+      {
+       "mes": "2026-09",
+       "texto": "Nota: En referencia al viaje realizado por la señora presidenta, Yara Jiménez, con destino a España, el monto de viáticos indicado en el cuadro anterior, corresponde al adelanto tramitado. Al no haber concluido el viaje, no se ha realizado la liquidación de viáticos correspondiente, por lo que este monto está sujeto a variaciones. Cualquier variación será reportada en el informe correspondiente al mes de octubre de 2026."
+      }
+     ]
+    }
+   ]
+  },
+  "osvaldo-artavia-carballo": {
+   "vehiculos": [],
+   "viajes": [
+    {
+     "id": 469,
+     "meses": [
+      "2026-10"
+     ],
+     "destino": "Estados Unidos",
+     "ida": "2026-10-09",
+     "regreso": "2026-10-13",
+     "fechas_venian_como": null,
+     "motivo": "Participación en la actividad denominada: “Desfile de la Hispanidad 2026”, desarrollada por la organización Sector 011 – Yo Soy Costa Rica, entidad dedicada a promover, preservar y fortalecer la identidad cultural costarricense entre las comunidades residentes en los Estados Unidos.",
+     "viaticos": {
+      "costeados_por": "Peculio Propio",
+      "monto": null,
+      "texto": "No aplica"
+     },
+     "pasajes_aereos": {
+      "costeados_por": "Peculio Propio",
+      "monto": null,
+      "texto": "No aplica"
+     },
+     "pasajes_terrestres": {
+      "monto": null,
+      "texto": "No aplica"
+     },
+     "inscripcion": {
+      "monto": 0.0,
+      "texto": null
+     },
+     "notas": []
+    }
+   ]
+  },
+  "gerald-bogantes-rivera": {
+   "vehiculos": [],
+   "viajes": [
+    {
+     "id": 470,
+     "meses": [
+      "2026-10"
+     ],
+     "destino": "Argentina",
+     "ida": "2026-10-29",
+     "regreso": "2026-11-03",
+     "fechas_venian_como": null,
+     "motivo": "Participación en la misión internacional de liderazgo y cooperación organizada por la Coalición Latina por Israel, que comprende las actividades denominadas “Escuela de Gobierno y Liderazgo” y “Tercer Foro Latinoamericano Combatiendo el Antisemitismo”",
+     "viaticos": {
+      "costeados_por": "Coalición Latina por Israel",
+      "monto": null,
+      "texto": "No aplica"
+     },
+     "pasajes_aereos": {
+      "costeados_por": "Coalición Latina por Israel",
+      "monto": null,
+      "texto": "No aplica"
+     },
+     "pasajes_terrestres": {
+      "monto": null,
+      "texto": "No aplica"
+     },
+     "inscripcion": {
+      "monto": 0.0,
+      "texto": null
+     },
+     "notas": []
+    }
+   ]
+  },
+  "cindy-murillo-artavia": {
+   "vehiculos": [],
+   "viajes": [
+    {
+     "id": 474,
+     "meses": [
+      "2026-10"
+     ],
+     "destino": "Argentina",
+     "ida": "2026-10-29",
+     "regreso": "2026-11-03",
+     "fechas_venian_como": null,
+     "motivo": "Participación en el Foro Latinoamericano contra el Antisemitismo.",
+     "viaticos": {
+      "costeados_por": "Congreso Judío Latinoamericano con la Cancillería del Estado de Israel",
+      "monto": null,
+      "texto": "No aplica"
+     },
+     "pasajes_aereos": {
+      "costeados_por": "Congreso Judío Latinoamericano con la Cancillería del Estado de Israel",
+      "monto": null,
+      "texto": "No aplica"
+     },
+     "pasajes_terrestres": {
+      "monto": null,
+      "texto": "No aplica"
+     },
+     "inscripcion": {
+      "monto": 0.0,
+      "texto": null
+     },
+     "notas": []
+    }
+   ]
+  }
+ },
+ "meses_sin_archivo": {
+  "vehiculos": [],
+  "viajes": [
+   "2026-05"
+  ]
+ },
+ "avisos": [
+  "Vehiculos 2026-05: en 4 viaje(s) de diputaciones el TOTAL publicado no es litros x precio. Se publica el TOTAL tal cual, marcado.",
+  "Vehiculos 2026-06: en 8 viaje(s) de diputaciones el TOTAL publicado no es litros x precio. Se publica el TOTAL tal cual, marcado.",
+  "Vehiculos 2026-07: la boleta 261005 es del 2024-07-30.",
+  "Vehiculos 2026-07: la boleta 260997 es del 2024-07-30.",
+  "Vehiculos 2026-07: la boleta 261000 es del 2024-07-30.",
+  "Vehiculos 2026-07: la boleta 261014 es del 2024-07-30.",
+  "GastosViajes: la Asamblea no publico archivo de 2026-05."
+ ],
+ "variantes_sin_resolver": {
+  "DIPUTADO DANIEL SIESAR": 3,
+  "DIPUTADA NAYURIBE ROSALES": 1,
+  "DIPUTADO FERNANDO OBADIA": 1,
+  "DIP. SADIE BRITTON GONZALEZ": 2,
+  "DIP. MANGELL LEÓN VILLALOBOS": 1,
+  "DIP.EDGARDO VINICIO": 1,
+  "DIP.KRISTEL LIZETHWARD HUDSON": 1
+ }
+}
