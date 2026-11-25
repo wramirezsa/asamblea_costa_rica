@@ -1,6 +1,6 @@
 {
  "_fuente": "https://www.asamblea.go.cr/pa/datosabiertos/SitePages/Inicio.aspx",
- "_extraido": "2026-11-25T00:01:00+00:00",
+ "_extraido": "2026-11-25T00:10:11+00:00",
  "periodo_desde": "2026-05",
  "vehiculos": {
   "2026-05": {
@@ -217,6 +217,18 @@
      "fecha_fuera_del_mes": false,
      "tipo_servicio": "SERVICIO CORTO",
      "departamento_en_fuente": "DIPUTADA NAYURIBE GUADAMUZ"
+    },
+    {
+     "mes": "2026-06",
+     "fecha": "2026-06-11",
+     "boleta": 260764,
+     "destino": "GUANACASTE, CANTONES",
+     "km": 656.0,
+     "costo": 52635.200000000004,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "GIRA COMUNAL",
+     "departamento_en_fuente": "DIPUTADA NAYURIBE ROSALES"
     },
     {
      "mes": "2026-05",
@@ -693,6 +705,18 @@
      "departamento_en_fuente": "DIP. FERNANDO OBADIA ALVAREZ"
     },
     {
+     "mes": "2026-06",
+     "fecha": "2026-06-18",
+     "boleta": 260816,
+     "destino": "CRUCITAS",
+     "km": 320.0,
+     "costo": 27331.0,
+     "costo_cuadra": false,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "GIRA COMUNAL",
+     "departamento_en_fuente": "DIPUTADO FERNANDO OBADIA"
+    },
+    {
      "mes": "2026-05",
      "fecha": "2026-05-29",
      "boleta": 260705,
@@ -703,6 +727,179 @@
      "fecha_fuera_del_mes": false,
      "tipo_servicio": null,
      "departamento_en_fuente": "DIPUTADO FERNANDO OBALDIA ALVAREZ"
+    }
+   ],
+   "viajes": []
+  },
+  "daniel-siezar-cardenas": {
+   "vehiculos": [
+    {
+     "mes": "2026-10",
+     "fecha": "2026-10-29",
+     "boleta": 261476,
+     "destino": "GUANACASTE/CANTONES",
+     "km": 624.0,
+     "costo": 63899.00000000001,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "GIRA COMUNAL",
+     "departamento_en_fuente": "DIP. DANIEL SIEZAR CARDENAS"
+    },
+    {
+     "mes": "2026-10",
+     "fecha": "2026-10-27",
+     "boleta": 261482,
+     "destino": "ZAPOTE",
+     "km": 9.0,
+     "costo": 1086.923076923077,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "SERVICIO CORTO",
+     "departamento_en_fuente": "DIP. DANIEL SIEZAR CARDENAS"
+    },
+    {
+     "mes": "2026-10",
+     "fecha": "2026-10-26",
+     "boleta": 261446,
+     "destino": "SAN JOSÉ",
+     "km": 8.0,
+     "costo": 966.1538461538462,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "SERVICIO CORTO",
+     "departamento_en_fuente": "DIP. DANIEL SIEZAR CARDENAS"
+    },
+    {
+     "mes": "2026-09",
+     "fecha": "2026-09-29",
+     "boleta": 261280,
+     "destino": "PUNTARENAS",
+     "km": 233.0,
+     "costo": 18705.344,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "GIRA COMUNAL",
+     "departamento_en_fuente": "DIP. DANIEL SIEZAR CARDENAS"
+    },
+    {
+     "mes": "2026-09",
+     "fecha": "2026-09-24",
+     "boleta": 261278,
+     "destino": "GUANACASTE CANTONES",
+     "km": 721.0,
+     "costo": 47349.536,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "GIRA COMUNAL",
+     "departamento_en_fuente": "DIP. DANIEL SIEZAR CARDENAS"
+    },
+    {
+     "mes": "2026-09",
+     "fecha": "2026-09-10",
+     "boleta": 261220,
+     "destino": "GUANACASTE CANTONES",
+     "km": 766.0,
+     "costo": 44735.824,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "GIRA COMUNAL",
+     "departamento_en_fuente": "DIP. DANIEL SIEZAR CARDENAS"
+    },
+    {
+     "mes": "2026-08",
+     "fecha": "2026-08-19",
+     "boleta": 261110,
+     "destino": "CASA PRESIDENCIAL",
+     "km": 8.0,
+     "costo": 745.8461538461539,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "SERVICIO CORTO",
+     "departamento_en_fuente": "DIP. DANIEL SIEZAR CARDENAS"
+    },
+    {
+     "mes": "2026-08",
+     "fecha": "2026-08-06",
+     "boleta": 261040,
+     "destino": "GUANACASTE",
+     "km": 739.0,
+     "costo": 44050.928,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "GIRA COMUNAL",
+     "departamento_en_fuente": "DIP.DANIEL SIEZAR CARDENAS"
+    },
+    {
+     "mes": "2026-07",
+     "fecha": "2026-07-21",
+     "boleta": 260960,
+     "destino": "RADIO COLUMBIA",
+     "km": 11.0,
+     "costo": 1155.8461538461538,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "SERVICIO CORTO",
+     "departamento_en_fuente": "DIP. DANIEL SIEZAR CARDENAS"
+    },
+    {
+     "mes": "2026-07",
+     "fecha": "2026-07-17",
+     "boleta": 260936,
+     "destino": "PUNTARENAS",
+     "km": 247.0,
+     "costo": 17775.758,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "GIRA COMUNAL",
+     "departamento_en_fuente": "DIP. DANIEL SIEZAR CARDENAS"
+    },
+    {
+     "mes": "2026-07",
+     "fecha": "2026-07-02",
+     "boleta": 260894,
+     "destino": "SAN JOSÉ-CARTAGO",
+     "km": 44.0,
+     "costo": 4535.384615384615,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "SERVICIO CORTO",
+     "departamento_en_fuente": "DIP. DANIEL SIEZAR CARDENAS"
+    },
+    {
+     "mes": "2026-06",
+     "fecha": "2026-06-30",
+     "boleta": 260880,
+     "destino": "SANTA ANA",
+     "km": 45.0,
+     "costo": 4638.461538461539,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "SERVICIO CORTO",
+     "departamento_en_fuente": "DIPUTADO DANIEL SIESAR"
+    },
+    {
+     "mes": "2026-06",
+     "fecha": "2026-06-11",
+     "boleta": 260752,
+     "destino": "GUANACASTE, CANTONES",
+     "km": 520.0,
+     "costo": 41004.0,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "GIRA COMUNAL",
+     "departamento_en_fuente": "DIPUTADO DANIEL SIESAR"
+    },
+    {
+     "mes": "2026-06",
+     "fecha": "2026-06-04",
+     "boleta": 260671,
+     "destino": "GUANACASTE, CANTONES",
+     "km": 856.0,
+     "costo": 49513.00000000001,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "GIRA COMUNAL",
+     "departamento_en_fuente": "DIPUTADO DANIEL SIESAR"
     }
    ],
    "viajes": []
@@ -1203,143 +1400,6 @@
    ],
    "viajes": []
   },
-  "daniel-siezar-cardenas": {
-   "vehiculos": [
-    {
-     "mes": "2026-10",
-     "fecha": "2026-10-29",
-     "boleta": 261476,
-     "destino": "GUANACASTE/CANTONES",
-     "km": 624.0,
-     "costo": 63899.00000000001,
-     "costo_cuadra": true,
-     "fecha_fuera_del_mes": false,
-     "tipo_servicio": "GIRA COMUNAL",
-     "departamento_en_fuente": "DIP. DANIEL SIEZAR CARDENAS"
-    },
-    {
-     "mes": "2026-10",
-     "fecha": "2026-10-27",
-     "boleta": 261482,
-     "destino": "ZAPOTE",
-     "km": 9.0,
-     "costo": 1086.923076923077,
-     "costo_cuadra": true,
-     "fecha_fuera_del_mes": false,
-     "tipo_servicio": "SERVICIO CORTO",
-     "departamento_en_fuente": "DIP. DANIEL SIEZAR CARDENAS"
-    },
-    {
-     "mes": "2026-10",
-     "fecha": "2026-10-26",
-     "boleta": 261446,
-     "destino": "SAN JOSÉ",
-     "km": 8.0,
-     "costo": 966.1538461538462,
-     "costo_cuadra": true,
-     "fecha_fuera_del_mes": false,
-     "tipo_servicio": "SERVICIO CORTO",
-     "departamento_en_fuente": "DIP. DANIEL SIEZAR CARDENAS"
-    },
-    {
-     "mes": "2026-09",
-     "fecha": "2026-09-29",
-     "boleta": 261280,
-     "destino": "PUNTARENAS",
-     "km": 233.0,
-     "costo": 18705.344,
-     "costo_cuadra": true,
-     "fecha_fuera_del_mes": false,
-     "tipo_servicio": "GIRA COMUNAL",
-     "departamento_en_fuente": "DIP. DANIEL SIEZAR CARDENAS"
-    },
-    {
-     "mes": "2026-09",
-     "fecha": "2026-09-24",
-     "boleta": 261278,
-     "destino": "GUANACASTE CANTONES",
-     "km": 721.0,
-     "costo": 47349.536,
-     "costo_cuadra": true,
-     "fecha_fuera_del_mes": false,
-     "tipo_servicio": "GIRA COMUNAL",
-     "departamento_en_fuente": "DIP. DANIEL SIEZAR CARDENAS"
-    },
-    {
-     "mes": "2026-09",
-     "fecha": "2026-09-10",
-     "boleta": 261220,
-     "destino": "GUANACASTE CANTONES",
-     "km": 766.0,
-     "costo": 44735.824,
-     "costo_cuadra": true,
-     "fecha_fuera_del_mes": false,
-     "tipo_servicio": "GIRA COMUNAL",
-     "departamento_en_fuente": "DIP. DANIEL SIEZAR CARDENAS"
-    },
-    {
-     "mes": "2026-08",
-     "fecha": "2026-08-19",
-     "boleta": 261110,
-     "destino": "CASA PRESIDENCIAL",
-     "km": 8.0,
-     "costo": 745.8461538461539,
-     "costo_cuadra": true,
-     "fecha_fuera_del_mes": false,
-     "tipo_servicio": "SERVICIO CORTO",
-     "departamento_en_fuente": "DIP. DANIEL SIEZAR CARDENAS"
-    },
-    {
-     "mes": "2026-08",
-     "fecha": "2026-08-06",
-     "boleta": 261040,
-     "destino": "GUANACASTE",
-     "km": 739.0,
-     "costo": 44050.928,
-     "costo_cuadra": true,
-     "fecha_fuera_del_mes": false,
-     "tipo_servicio": "GIRA COMUNAL",
-     "departamento_en_fuente": "DIP.DANIEL SIEZAR CARDENAS"
-    },
-    {
-     "mes": "2026-07",
-     "fecha": "2026-07-21",
-     "boleta": 260960,
-     "destino": "RADIO COLUMBIA",
-     "km": 11.0,
-     "costo": 1155.8461538461538,
-     "costo_cuadra": true,
-     "fecha_fuera_del_mes": false,
-     "tipo_servicio": "SERVICIO CORTO",
-     "departamento_en_fuente": "DIP. DANIEL SIEZAR CARDENAS"
-    },
-    {
-     "mes": "2026-07",
-     "fecha": "2026-07-17",
-     "boleta": 260936,
-     "destino": "PUNTARENAS",
-     "km": 247.0,
-     "costo": 17775.758,
-     "costo_cuadra": true,
-     "fecha_fuera_del_mes": false,
-     "tipo_servicio": "GIRA COMUNAL",
-     "departamento_en_fuente": "DIP. DANIEL SIEZAR CARDENAS"
-    },
-    {
-     "mes": "2026-07",
-     "fecha": "2026-07-02",
-     "boleta": 260894,
-     "destino": "SAN JOSÉ-CARTAGO",
-     "km": 44.0,
-     "costo": 4535.384615384615,
-     "costo_cuadra": true,
-     "fecha_fuera_del_mes": false,
-     "tipo_servicio": "SERVICIO CORTO",
-     "departamento_en_fuente": "DIP. DANIEL SIEZAR CARDENAS"
-    }
-   ],
-   "viajes": []
-  },
   "wilson-alfredo-jimenez-cordero": {
    "vehiculos": [
     {
@@ -1539,6 +1599,18 @@
   },
   "edgardo-araya-sibaja": {
    "vehiculos": [
+    {
+     "mes": "2026-10",
+     "fecha": "2026-10-30",
+     "boleta": 261468,
+     "destino": "ALAJUELA/CANTONES",
+     "km": 141.0,
+     "costo": 15001.35,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "GIRA COMUNAL",
+     "departamento_en_fuente": "DIP.EDGARDO VINICIO"
+    },
     {
      "mes": "2026-10",
      "fecha": "2026-10-23",
@@ -1840,6 +1912,23 @@
    ],
    "viajes": []
   },
+  "mangell-mc-lean-villalobos": {
+   "vehiculos": [
+    {
+     "mes": "2026-09",
+     "fecha": "2026-09-06",
+     "boleta": 261068,
+     "destino": "SIQUIRRES/SAN JOSÉ",
+     "km": 211.0,
+     "costo": 22852.923076923074,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "SERVICIO CORTO",
+     "departamento_en_fuente": "DIP. MANGELL LEÓN VILLALOBOS"
+    }
+   ],
+   "viajes": []
+  },
   "zaira-murillo-marin": {
    "vehiculos": [
     {
@@ -1978,6 +2067,23 @@
      "fecha_fuera_del_mes": false,
      "tipo_servicio": "SERVICIO CORTO",
      "departamento_en_fuente": "DIP. MARTA ESQUIVEL RODRÍGUEZ"
+    }
+   ],
+   "viajes": []
+  },
+  "kristel-ward-hudson": {
+   "vehiculos": [
+    {
+     "mes": "2026-10",
+     "fecha": "2026-10-30",
+     "boleta": 261501,
+     "destino": "LIMON",
+     "km": 315.0,
+     "costo": 22443.15,
+     "costo_cuadra": true,
+     "fecha_fuera_del_mes": false,
+     "tipo_servicio": "GIRA COMUNAL",
+     "departamento_en_fuente": "DIP.KRISTEL LIZETHWARD HUDSON"
     }
    ],
    "viajes": []
@@ -2305,12 +2411,6 @@
   "GastosViajes: la Asamblea no publico archivo de 2026-05."
  ],
  "variantes_sin_resolver": {
-  "DIPUTADO DANIEL SIESAR": 3,
-  "DIPUTADA NAYURIBE ROSALES": 1,
-  "DIPUTADO FERNANDO OBADIA": 1,
-  "DIP. SADIE BRITTON GONZALEZ": 2,
-  "DIP. MANGELL LEÓN VILLALOBOS": 1,
-  "DIP.EDGARDO VINICIO": 1,
-  "DIP.KRISTEL LIZETHWARD HUDSON": 1
+  "DIP. SADIE BRITTON GONZALEZ": 2
  }
 }
