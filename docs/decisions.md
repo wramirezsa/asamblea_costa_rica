@@ -1388,3 +1388,15 @@ formatos; este es su tratamiento propio.
   revisados). El sitio dice que no se publicó, no que no hubo viajes.
 - Los viajes de funcionarios y los nombres de choferes no se publican: no
   son gasto de una diputación.
+
+### ADR-032, actualización 2026-11-24 — las 7 variantes dudosas, decididas
+
+La persona responsable del proyecto aceptó 6 (Daniel Siesar, Nayuribe
+Rosales, Fernando Obadia, Mangell León Villalobos, Edgardo Vinicio, Kristel
+Lizethward Hudson): en todas el nombre de pila es único entre las 57 y el
+destino de la boleta está en la provincia de esa diputación. Quedaron en la
+tabla curada con `decidido_por`. **Rechazó «Sadie Britton González»**: los
+apellidos son los de Esmeralda Britton González, pero el nombre de pila es
+otro y ninguna fuente oficial los vincula. Quedó en la lista `rechazadas` de
+la tabla: el ETL ya no la reporta como pendiente, y se reconsidera solo con
+un dato oficial nuevo.

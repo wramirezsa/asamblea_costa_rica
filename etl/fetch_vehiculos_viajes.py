@@ -332,7 +332,14 @@ def main() -> int:
         print("\n  ADVERTENCIAS -- se reportan, no se corrigen:")
         for a in avisos:
             print(f"      - {a}")
+        # Las que una persona ya decidio NO asignar no son pendientes.
+        tabla = json.loads(EQUIVALENCIAS.read_text(encoding="utf-8"))
+        rechazadas = {plano(r["variante"]) for r in tabla.get("rechazadas", [])}
         for n, k in sin_resolver.most_common():
+            if plano(nombre_en_departamento(n)) in rechazadas:
+                print(f"      - «{n}» ({k} veces): rechazada por decision humana, no se asigna "
+                      f"(ver «rechazadas» en la tabla curada).")
+                continue
             print(f"      - nombre sin resolver «{n}» ({k} veces); candidatos: "
                   f"{nombres.base.candidatos(nombre_en_departamento(n))}")
     else:

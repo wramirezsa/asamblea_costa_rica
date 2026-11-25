@@ -379,6 +379,69 @@
       "visto_en": "Excel de uso de vehículos del portal de datos abiertos (columna DEPARTAMENTO, sin el prefijo «DIP.» ni la sigla de partido), mayo a octubre de 2026",
       "motivo": "Nombre de pila y primer apellido; omite el segundo apellido (como la ya aceptada «María Isabel Camareno»). Verificado: ninguna otra diputación tiene ese nombre de pila con ese apellido. Única coincidencia entre las 57.",
       "agregado": "2026-11-24"
+    },
+    {
+      "variante": "DANIEL SIESAR",
+      "slug": "daniel-siezar-cardenas",
+      "padron": "Daniel Siézar Cárdenas",
+      "visto_en": "Excel de uso de vehículos del portal de datos abiertos (columna DEPARTAMENTO), 2026, 3 boletas de junio (2 a Guanacaste)",
+      "motivo": "DECISIÓN HUMANA (2026-11-24): misma persona. Errata en el apellido («Siesar» por «Siézar») y omite el segundo. Único Daniel entre las 57; dos de las tres boletas van a Guanacaste, su provincia.",
+      "decidido_por": "persona responsable del proyecto",
+      "agregado": "2026-11-24"
+    },
+    {
+      "variante": "NAYURIBE ROSALES",
+      "slug": "nayuribe-guadamuz-rosales",
+      "padron": "Nayuribe Guadamuz Rosales",
+      "visto_en": "Excel de uso de vehículos del portal de datos abiertos (columna DEPARTAMENTO), 2026, 1 boleta de junio a Guanacaste",
+      "motivo": "DECISIÓN HUMANA (2026-11-24): misma persona. Omite el primer apellido; «Rosales» es el segundo. Única Nayuribe entre las 57; la boleta va a Guanacaste, su provincia.",
+      "decidido_por": "persona responsable del proyecto",
+      "agregado": "2026-11-24"
+    },
+    {
+      "variante": "FERNANDO OBADIA",
+      "slug": "fernando-obaldia-alvarez",
+      "padron": "Fernando Obaldía Álvarez",
+      "visto_en": "Excel de uso de vehículos del portal de datos abiertos (columna DEPARTAMENTO), 2026, 1 boleta de junio a Crucitas",
+      "motivo": "DECISIÓN HUMANA (2026-11-24): misma persona. Errata de una letra en el apellido («Obadia» por «Obaldía») y omite el segundo. Único Fernando entre las 57; Crucitas está en Alajuela, su provincia.",
+      "decidido_por": "persona responsable del proyecto",
+      "agregado": "2026-11-24"
+    },
+    {
+      "variante": "MANGELL LEÓN VILLALOBOS",
+      "slug": "mangell-mc-lean-villalobos",
+      "padron": "Mangell Mc Lean Villalobos",
+      "visto_en": "Excel de uso de vehículos del portal de datos abiertos (columna DEPARTAMENTO), 2026, 1 boleta de setiembre a Siquirres",
+      "motivo": "DECISIÓN HUMANA (2026-11-24): misma persona. El primer apellido difiere («León» por «Mc Lean», de sonido parecido); el nombre de pila y el segundo apellido son idénticos. Único Mangell entre las 57; Siquirres está en Limón, su provincia. No cumple el criterio automático: lo decidió la persona responsable.",
+      "decidido_por": "persona responsable del proyecto",
+      "agregado": "2026-11-24"
+    },
+    {
+      "variante": "EDGARDO VINICIO",
+      "slug": "edgardo-araya-sibaja",
+      "padron": "Edgardo Araya Sibaja",
+      "visto_en": "Excel de uso de vehículos del portal de datos abiertos (columna DEPARTAMENTO), 2026, 1 boleta de octubre a cantones de Alajuela",
+      "motivo": "DECISIÓN HUMANA (2026-11-24): misma persona. Solo nombres de pila, sin apellidos. «Edgardo Vinicio Araya Sibaja» ya es una variante aceptada de esta diputación; único Edgardo entre las 57 y la boleta va a Alajuela, su provincia. No cumple el criterio automático: lo decidió la persona responsable.",
+      "decidido_por": "persona responsable del proyecto",
+      "agregado": "2026-11-24"
+    },
+    {
+      "variante": "KRISTEL LIZETHWARD HUDSON",
+      "slug": "kristel-ward-hudson",
+      "padron": "Kristel Ward Hudson",
+      "visto_en": "Excel de uso de vehículos del portal de datos abiertos (columna DEPARTAMENTO), 2026, 1 boleta de octubre a Limón",
+      "motivo": "DECISIÓN HUMANA (2026-11-24): misma persona. Segundo nombre «Lizeth» pegado al apellido «Ward»; nombre de pila y apellido «Hudson» idénticos. Única Kristel entre las 57; la boleta va a Limón, su provincia.",
+      "decidido_por": "persona responsable del proyecto",
+      "agregado": "2026-11-24"
+    }
+  ],
+  "rechazadas": [
+    {
+      "variante": "SADIE BRITTON GONZALEZ",
+      "candidata": "esmeralda-britton-gonzalez",
+      "visto_en": "Excel de uso de vehículos del portal de datos abiertos (columna DEPARTAMENTO), 2026, 2 boletas de julio (Limón y San José)",
+      "motivo": "DECISIÓN HUMANA (2026-11-24): NO se asigna. Los apellidos coinciden con Esmeralda Britton González, pero el nombre de pila es otro («Sadie») y ninguna fuente oficial consultada lo vincula con ella. Se reconsidera solo con un dato oficial nuevo.",
+      "decidido_por": "persona responsable del proyecto"
     }
   ]
 }
