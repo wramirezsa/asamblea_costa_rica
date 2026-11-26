@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-25T14:06:01+00:00",
+  "generado": "2026-11-26T13:49:28+00:00",
   "nota": "Solo se incluyen conjuntos que la Asamblea mantiene al día. Cada uno trae su propia fecha de última actualización, tomada de la fuente.",
   "leyes": {
     "_fuente": "https://www.asamblea.go.cr/glcp/_api/web/lists/getbytitle('res_de_leyes')/items?%24top=2000&%24orderby=Modified%20desc",
@@ -382,12 +382,12 @@
   },
   "mociones": {
     "_fuente": "https://www.asamblea.go.cr/glcp/_api/web/lists/getbytitle('mociones_total')/items?%24top=5000&%24orderby=Id%20desc",
-    "total": 28046,
-    "nota_alcance": "Agregados calculados sobre las 28046 mociones que devuelve la lista completa, no sobre una muestra.",
-    "ultima_actualizacion": "2026-11-24T14:12:35Z",
+    "total": 28092,
+    "nota_alcance": "Agregados calculados sobre las 28092 mociones que devuelve la lista completa, no sobre una muestra.",
+    "ultima_actualizacion": "2026-11-26T00:51:10Z",
     "por_resultado": {
-      "Rechazada": 23780,
-      "Aprobada": 3671,
+      "Rechazada": 23825,
+      "Aprobada": 3672,
       "Retirada": 400,
       "Pendiente": 194,
       "Revisión": 1
@@ -397,339 +397,338 @@
       "2023": 3827,
       "2024": 4729,
       "2025": 9086,
-      "2026": 7154
+      "2026": 7200
     },
-    "expedientes_distintos": 1276,
+    "expedientes_distintos": 1277,
     "recientes": [
       {
-        "numero": "Moción N.° 29-137",
-        "expediente": "25803",
-        "resultado": "Rechazada",
-        "asunto": "SEGUNDO PRESUPUESTO EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2026 Y SEGUNDA MODIFICACIÓN LEGISLATIVA DE LA LEY N° 10.836.",
-        "tramite": "II día",
-        "fecha": "2026-11-24T02:25:11Z"
-      },
-      {
-        "numero": "Moción N.° 28-137",
-        "expediente": "25803",
-        "resultado": "Rechazada",
-        "asunto": "SEGUNDO PRESUPUESTO EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2026 Y SEGUNDA MODIFICACIÓN LEGISLATIVA DE LA LEY N° 10.836.",
-        "tramite": "II día",
-        "fecha": "2026-11-24T02:24:40Z"
-      },
-      {
-        "numero": "Moción N.° 27-137",
-        "expediente": "25803",
-        "resultado": "Rechazada",
-        "asunto": "SEGUNDO PRESUPUESTO EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2026 Y SEGUNDA MODIFICACIÓN LEGISLATIVA DE LA LEY N° 10.836.",
-        "tramite": "II día",
-        "fecha": "2026-11-24T02:24:02Z"
-      },
-      {
-        "numero": "137-I-003",
-        "expediente": "25473",
-        "resultado": "Rechazada",
-        "asunto": "APROBACIÓN DEL TRATADO CONSTITUTIVO DE LA COMUNIDAD DE POLICÍAS DE AMÉRICA.",
-        "tramite": "I día",
-        "fecha": "2026-11-20T16:21:47Z"
-      },
-      {
-        "numero": "137-I-002",
-        "expediente": "25473",
-        "resultado": "Rechazada",
-        "asunto": "APROBACIÓN DEL TRATADO CONSTITUTIVO DE LA COMUNIDAD DE POLICÍAS DE AMÉRICA.",
-        "tramite": "I día",
-        "fecha": "2026-11-20T16:21:17Z"
-      },
-      {
-        "numero": "137-I-001",
-        "expediente": "25473",
-        "resultado": "Rechazada",
-        "asunto": "APROBACIÓN DEL TRATADO CONSTITUTIVO DE LA COMUNIDAD DE POLICÍAS DE AMÉRICA.",
-        "tramite": "I día",
-        "fecha": "2026-11-20T16:20:40Z"
-      },
-      {
-        "numero": "137-I-001",
-        "expediente": "25590",
-        "resultado": "Rechazada",
-        "asunto": "APROBACIÓN DEL TRATADO DE SINGAPUR SOBRE EL DERECHO DE MARCAS (STLT).",
-        "tramite": "I día",
-        "fecha": "2026-11-20T16:18:41Z"
-      },
-      {
-        "numero": "137-I-001",
-        "expediente": "25638",
-        "resultado": "Rechazada",
-        "asunto": "Aprobación de la “Lista de Costa Rica para incorporar los compromisos adicionales en materia de reglamentación nacional en el ámbito de los servicios en su Lista de Compromisos Específicos del Acuerdo General sobre el Comercio de Servicios de la Organizac",
-        "tramite": "I día",
-        "fecha": "2026-11-20T16:17:29Z"
-      },
-      {
-        "numero": "137-I-002",
-        "expediente": "25628",
-        "resultado": "Rechazada",
-        "asunto": "Aprobación del Acuerdo de Servicios Aéreos entre el Gobierno de la República de Costa Rica y el Gobierno Federal de Austria",
-        "tramite": "I día",
-        "fecha": "2026-11-20T16:16:25Z"
-      },
-      {
-        "numero": "137-I-001",
-        "expediente": "25628",
+        "numero": "Moción N.° 49-79 Texto Sustitutivo N.° 2",
+        "expediente": "25363",
         "resultado": "Aprobada",
-        "asunto": "Aprobación del Acuerdo de Servicios Aéreos entre el Gobierno de la República de Costa Rica y el Gobierno Federal de Austria",
-        "tramite": "I día",
-        "fecha": "2026-11-20T16:15:40Z"
+        "asunto": "AUTORIZACIÓN PARA EMITIR TÍTULOS VALORES EN EL MERCADO INTERNACIONAL",
+        "tramite": "Texto Sustitutivo N.° 2",
+        "fecha": "2026-11-26T00:50:35Z"
       },
       {
-        "numero": "0017",
-        "expediente": "25208",
+        "numero": "Moción N.° 48-79 Texto Sustitutivo N.° 1",
+        "expediente": "25363",
         "resultado": "Rechazada",
-        "asunto": "REFORMA DEL ARTÍCULO 174 DE LA LEY REGULADORA DEL MERCADO DE VALORES LEY N.º 7732 DE 17 DE DICIEMBRE DE 1997 Y SUS REFORMAS, REFORMA DE LOS ARTÍCULOS 16 BIS, 25, 69 BIS Y 72 Y ADICIÓN DE LOS ARTÍCULOS 16 TER Y 69 TER DE LA LEY SOBRE ESTUPEFACIENTES, SUSTA",
-        "tramite": "II día",
-        "fecha": "2026-11-19T17:49:57Z"
+        "asunto": "AUTORIZACIÓN PARA EMITIR TÍTULOS VALORES EN EL MERCADO INTERNACIONAL",
+        "tramite": "Texto Sustitutivo N.° 1",
+        "fecha": "2026-11-26T00:49:40Z"
       },
       {
-        "numero": "0016",
-        "expediente": "25208",
+        "numero": "Moción N.° 44-79",
+        "expediente": "25363",
         "resultado": "Rechazada",
-        "asunto": "REFORMA DEL ARTÍCULO 174 DE LA LEY REGULADORA DEL MERCADO DE VALORES LEY N.º 7732 DE 17 DE DICIEMBRE DE 1997 Y SUS REFORMAS, REFORMA DE LOS ARTÍCULOS 16 BIS, 25, 69 BIS Y 72 Y ADICIÓN DE LOS ARTÍCULOS 16 TER Y 69 TER DE LA LEY SOBRE ESTUPEFACIENTES, SUSTA",
-        "tramite": "II día",
-        "fecha": "2026-11-19T17:49:45Z"
+        "asunto": "AUTORIZACIÓN PARA EMITIR TÍTULOS VALORES EN EL MERCADO INTERNACIONAL",
+        "tramite": null,
+        "fecha": "2026-11-26T00:49:10Z"
       },
       {
-        "numero": "0015",
-        "expediente": "25208",
+        "numero": "Moción N.° 43-79",
+        "expediente": "25363",
         "resultado": "Rechazada",
-        "asunto": "REFORMA DEL ARTÍCULO 174 DE LA LEY REGULADORA DEL MERCADO DE VALORES LEY N.º 7732 DE 17 DE DICIEMBRE DE 1997 Y SUS REFORMAS, REFORMA DE LOS ARTÍCULOS 16 BIS, 25, 69 BIS Y 72 Y ADICIÓN DE LOS ARTÍCULOS 16 TER Y 69 TER DE LA LEY SOBRE ESTUPEFACIENTES, SUSTA",
-        "tramite": "II día",
-        "fecha": "2026-11-19T17:49:18Z"
+        "asunto": "AUTORIZACIÓN PARA EMITIR TÍTULOS VALORES EN EL MERCADO INTERNACIONAL",
+        "tramite": null,
+        "fecha": "2026-11-26T00:48:43Z"
       },
       {
-        "numero": "0014",
-        "expediente": "25208",
+        "numero": "Moción N.° 42-79",
+        "expediente": "25363",
         "resultado": "Rechazada",
-        "asunto": "REFORMA DEL ARTÍCULO 174 DE LA LEY REGULADORA DEL MERCADO DE VALORES LEY N.º 7732 DE 17 DE DICIEMBRE DE 1997 Y SUS REFORMAS, REFORMA DE LOS ARTÍCULOS 16 BIS, 25, 69 BIS Y 72 Y ADICIÓN DE LOS ARTÍCULOS 16 TER Y 69 TER DE LA LEY SOBRE ESTUPEFACIENTES, SUSTA",
-        "tramite": "II día",
-        "fecha": "2026-11-19T17:49:05Z"
+        "asunto": "AUTORIZACIÓN PARA EMITIR TÍTULOS VALORES EN EL MERCADO INTERNACIONAL",
+        "tramite": null,
+        "fecha": "2026-11-26T00:48:17Z"
       },
       {
-        "numero": "0013",
-        "expediente": "25208",
+        "numero": "Moción N.° 41-79",
+        "expediente": "25363",
         "resultado": "Rechazada",
-        "asunto": "REFORMA DEL ARTÍCULO 174 DE LA LEY REGULADORA DEL MERCADO DE VALORES LEY N.º 7732 DE 17 DE DICIEMBRE DE 1997 Y SUS REFORMAS, REFORMA DE LOS ARTÍCULOS 16 BIS, 25, 69 BIS Y 72 Y ADICIÓN DE LOS ARTÍCULOS 16 TER Y 69 TER DE LA LEY SOBRE ESTUPEFACIENTES, SUSTA",
-        "tramite": "II día",
-        "fecha": "2026-11-19T17:48:53Z"
+        "asunto": "AUTORIZACIÓN PARA EMITIR TÍTULOS VALORES EN EL MERCADO INTERNACIONAL",
+        "tramite": null,
+        "fecha": "2026-11-26T00:47:52Z"
       },
       {
-        "numero": "0012",
-        "expediente": "25208",
+        "numero": "Moción N.° 40-79",
+        "expediente": "25363",
         "resultado": "Rechazada",
-        "asunto": "REFORMA DEL ARTÍCULO 174 DE LA LEY REGULADORA DEL MERCADO DE VALORES LEY N.º 7732 DE 17 DE DICIEMBRE DE 1997 Y SUS REFORMAS, REFORMA DE LOS ARTÍCULOS 16 BIS, 25, 69 BIS Y 72 Y ADICIÓN DE LOS ARTÍCULOS 16 TER Y 69 TER DE LA LEY SOBRE ESTUPEFACIENTES, SUSTA",
-        "tramite": "II día",
-        "fecha": "2026-11-19T17:48:38Z"
+        "asunto": "AUTORIZACIÓN PARA EMITIR TÍTULOS VALORES EN EL MERCADO INTERNACIONAL",
+        "tramite": null,
+        "fecha": "2026-11-26T00:47:25Z"
       },
       {
-        "numero": "0011",
-        "expediente": "25208",
+        "numero": "Moción N.° 39-79",
+        "expediente": "25363",
         "resultado": "Rechazada",
-        "asunto": "REFORMA DEL ARTÍCULO 174 DE LA LEY REGULADORA DEL MERCADO DE VALORES LEY N.º 7732 DE 17 DE DICIEMBRE DE 1997 Y SUS REFORMAS, REFORMA DE LOS ARTÍCULOS 16 BIS, 25, 69 BIS Y 72 Y ADICIÓN DE LOS ARTÍCULOS 16 TER Y 69 TER DE LA LEY SOBRE ESTUPEFACIENTES, SUSTA",
-        "tramite": "II día",
-        "fecha": "2026-11-19T17:48:24Z"
+        "asunto": "AUTORIZACIÓN PARA EMITIR TÍTULOS VALORES EN EL MERCADO INTERNACIONAL",
+        "tramite": null,
+        "fecha": "2026-11-26T00:46:59Z"
       },
       {
-        "numero": "0010",
-        "expediente": "25208",
+        "numero": "Moción N.° 38-79",
+        "expediente": "25363",
         "resultado": "Rechazada",
-        "asunto": "REFORMA DEL ARTÍCULO 174 DE LA LEY REGULADORA DEL MERCADO DE VALORES LEY N.º 7732 DE 17 DE DICIEMBRE DE 1997 Y SUS REFORMAS, REFORMA DE LOS ARTÍCULOS 16 BIS, 25, 69 BIS Y 72 Y ADICIÓN DE LOS ARTÍCULOS 16 TER Y 69 TER DE LA LEY SOBRE ESTUPEFACIENTES, SUSTA",
-        "tramite": "II día",
-        "fecha": "2026-11-19T17:48:10Z"
+        "asunto": "AUTORIZACIÓN PARA EMITIR TÍTULOS VALORES EN EL MERCADO INTERNACIONAL",
+        "tramite": null,
+        "fecha": "2026-11-26T00:46:14Z"
       },
       {
-        "numero": "0009",
-        "expediente": "25208",
+        "numero": "Moción N.° 37-79",
+        "expediente": "25363",
         "resultado": "Rechazada",
-        "asunto": "REFORMA DEL ARTÍCULO 174 DE LA LEY REGULADORA DEL MERCADO DE VALORES LEY N.º 7732 DE 17 DE DICIEMBRE DE 1997 Y SUS REFORMAS, REFORMA DE LOS ARTÍCULOS 16 BIS, 25, 69 BIS Y 72 Y ADICIÓN DE LOS ARTÍCULOS 16 TER Y 69 TER DE LA LEY SOBRE ESTUPEFACIENTES, SUSTA",
-        "tramite": "II día",
-        "fecha": "2026-11-19T17:47:52Z"
+        "asunto": "AUTORIZACIÓN PARA EMITIR TÍTULOS VALORES EN EL MERCADO INTERNACIONAL",
+        "tramite": null,
+        "fecha": "2026-11-26T00:45:40Z"
       },
       {
-        "numero": "0004",
-        "expediente": "25208",
-        "resultado": "Aprobada",
-        "asunto": "REFORMA DEL ARTÍCULO 174 DE LA LEY REGULADORA DEL MERCADO DE VALORES LEY N.º 7732 DE 17 DE DICIEMBRE DE 1997 Y SUS REFORMAS, REFORMA DE LOS ARTÍCULOS 16 BIS, 25, 69 BIS Y 72 Y ADICIÓN DE LOS ARTÍCULOS 16 TER Y 69 TER DE LA LEY SOBRE ESTUPEFACIENTES, SUSTA",
-        "tramite": "II día",
-        "fecha": "2026-11-19T17:47:35Z"
-      },
-      {
-        "numero": "0001",
-        "expediente": "25208",
+        "numero": "Moción N.° 36-79",
+        "expediente": "25363",
         "resultado": "Rechazada",
-        "asunto": "REFORMA DEL ARTÍCULO 174 DE LA LEY REGULADORA DEL MERCADO DE VALORES LEY N.º 7732 DE 17 DE DICIEMBRE DE 1997 Y SUS REFORMAS, REFORMA DE LOS ARTÍCULOS 16 BIS, 25, 69 BIS Y 72 Y ADICIÓN DE LOS ARTÍCULOS 16 TER Y 69 TER DE LA LEY SOBRE ESTUPEFACIENTES, SUSTA",
-        "tramite": "II día",
-        "fecha": "2026-11-19T17:47:15Z"
+        "asunto": "AUTORIZACIÓN PARA EMITIR TÍTULOS VALORES EN EL MERCADO INTERNACIONAL",
+        "tramite": null,
+        "fecha": "2026-11-26T00:45:14Z"
       },
       {
-        "numero": "0001",
-        "expediente": "25602",
+        "numero": "Moción N.° 35-79",
+        "expediente": "25363",
         "resultado": "Rechazada",
-        "asunto": "DONACIÓN DE UN BIEN INMUEBLE PROPIEDAD DEL INSTITUTO COSTARRICENSE DE ELECTRICIDAD AL MINISTERIO DE EDUCACIÓN PÚBLICA",
-        "tramite": "I día",
-        "fecha": "2026-11-19T16:17:40Z"
+        "asunto": "AUTORIZACIÓN PARA EMITIR TÍTULOS VALORES EN EL MERCADO INTERNACIONAL",
+        "tramite": null,
+        "fecha": "2026-11-26T00:44:46Z"
       },
       {
-        "numero": "0001",
-        "expediente": "25595",
+        "numero": "Moción N.° 34-79",
+        "expediente": "25363",
         "resultado": "Rechazada",
-        "asunto": "DONACIÓN DE UNA PROPIEDAD DEL INSTITUTO COSTARRICENSE DE ELECTRICIDAD AL MINISTERIO DE EDUCACIÓN PÚBLICA",
-        "tramite": "I día",
-        "fecha": "2026-11-19T16:16:29Z"
+        "asunto": "AUTORIZACIÓN PARA EMITIR TÍTULOS VALORES EN EL MERCADO INTERNACIONAL",
+        "tramite": null,
+        "fecha": "2026-11-26T00:44:18Z"
       },
       {
-        "numero": "17-28",
-        "expediente": "25723",
-        "resultado": "Aprobada",
-        "asunto": "LEY PARA ESTABLECER UN PROCEDIMIENTO ESPECIAL PARA LA PREVENCIÓN DE RIESGOS INMINENTES ANTE EMERGENCIAS",
-        "tramite": "I día",
-        "fecha": "2026-11-18T23:01:11Z"
-      },
-      {
-        "numero": null,
-        "expediente": "25723",
-        "resultado": "Aprobada",
-        "asunto": "LEY PARA ESTABLECER UN PROCEDIMIENTO ESPECIAL PARA LA PREVENCIÓN DE RIESGOS INMINENTES ANTE EMERGENCIAS",
-        "tramite": "I día",
-        "fecha": "2026-11-18T22:59:04Z"
-      },
-      {
-        "numero": "Moción N.° 26-137",
-        "expediente": "25803",
+        "numero": "Moción N.° 33-79",
+        "expediente": "25363",
         "resultado": "Rechazada",
-        "asunto": "SEGUNDO PRESUPUESTO EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2026 Y SEGUNDA MODIFICACIÓN LEGISLATIVA DE LA LEY N° 10.836.",
-        "tramite": "II día",
-        "fecha": "2026-11-18T22:44:44Z"
+        "asunto": "AUTORIZACIÓN PARA EMITIR TÍTULOS VALORES EN EL MERCADO INTERNACIONAL",
+        "tramite": null,
+        "fecha": "2026-11-26T00:43:16Z"
       },
       {
-        "numero": "Moción N.° 25-137",
-        "expediente": "25803",
+        "numero": "Moción N.° 32-79",
+        "expediente": "25363",
         "resultado": "Rechazada",
-        "asunto": "SEGUNDO PRESUPUESTO EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2026 Y SEGUNDA MODIFICACIÓN LEGISLATIVA DE LA LEY N° 10.836.",
-        "tramite": "II día",
-        "fecha": "2026-11-18T22:44:08Z"
+        "asunto": "AUTORIZACIÓN PARA EMITIR TÍTULOS VALORES EN EL MERCADO INTERNACIONAL",
+        "tramite": null,
+        "fecha": "2026-11-26T00:42:45Z"
       },
       {
-        "numero": "Moción N.° 24-137",
-        "expediente": "25803",
+        "numero": "Moción N.° 31-79",
+        "expediente": "25363",
         "resultado": "Rechazada",
-        "asunto": "SEGUNDO PRESUPUESTO EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2026 Y SEGUNDA MODIFICACIÓN LEGISLATIVA DE LA LEY N° 10.836.",
-        "tramite": "II día",
-        "fecha": "2026-11-18T22:43:21Z"
+        "asunto": "AUTORIZACIÓN PARA EMITIR TÍTULOS VALORES EN EL MERCADO INTERNACIONAL",
+        "tramite": null,
+        "fecha": "2026-11-26T00:42:22Z"
       },
       {
-        "numero": "Moción N.° 23-137",
-        "expediente": "25803",
+        "numero": "Moción N.° 30-79",
+        "expediente": "25363",
         "resultado": "Rechazada",
-        "asunto": "SEGUNDO PRESUPUESTO EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2026 Y SEGUNDA MODIFICACIÓN LEGISLATIVA DE LA LEY N° 10.836.",
-        "tramite": "II día",
-        "fecha": "2026-11-18T22:42:28Z"
+        "asunto": "AUTORIZACIÓN PARA EMITIR TÍTULOS VALORES EN EL MERCADO INTERNACIONAL",
+        "tramite": null,
+        "fecha": "2026-11-26T00:41:56Z"
       },
       {
-        "numero": "0003",
-        "expediente": "25312",
+        "numero": "Moción N.° 29-79",
+        "expediente": "25363",
         "resultado": "Rechazada",
-        "asunto": "LEY DESAFECTACIÓN DEL USO PÚBLICO Y AUTORIZACIÓN AL INSTITUTO MIXTO DE AYUDA SOCIAL PARA QUE DONE TRES FINCAS DE SU PROPIEDAD EN FAVOR DEL INSTITUTO NACIONAL DE APRENDIAZJE, LA CAJA COSTARRICENSE DE SEGURO SOCIAL Y LA DIRECCION NACIONAL DE CENTROS DE EDUC",
-        "tramite": "I día",
-        "fecha": "2026-11-18T21:27:02Z"
+        "asunto": "AUTORIZACIÓN PARA EMITIR TÍTULOS VALORES EN EL MERCADO INTERNACIONAL",
+        "tramite": null,
+        "fecha": "2026-11-26T00:41:27Z"
       },
       {
-        "numero": "24717-137-II-141",
-        "expediente": "24717",
+        "numero": "Moción N.° 28-79",
+        "expediente": "25363",
         "resultado": "Rechazada",
-        "asunto": "LEY PARA REGULAR LA EXPLORACIÓN Y EXPLOTACIÓN DE MINERÍA METÁLICA SOSTENIBLE EN EL DISTRITO DE CUTRIS DEL CANTÓN DE SAN CARLOS, PROVINCIA DE ALAJUELA. REFORMAS Y ADICIONES AL CÓDIGO DE MINERÍA, LEY NO. 6797 DEL 04 DE OCTUBRE DE 1982 Y SUS REFORMAS. ANTES",
-        "tramite": "II día",
-        "fecha": "2026-11-18T20:47:53Z"
+        "asunto": "AUTORIZACIÓN PARA EMITIR TÍTULOS VALORES EN EL MERCADO INTERNACIONAL",
+        "tramite": null,
+        "fecha": "2026-11-26T00:40:57Z"
       },
       {
-        "numero": "24717-137-II-140",
-        "expediente": "24717",
+        "numero": "Moción N.° 27-79",
+        "expediente": "25363",
         "resultado": "Rechazada",
-        "asunto": "LEY PARA REGULAR LA EXPLORACIÓN Y EXPLOTACIÓN DE MINERÍA METÁLICA SOSTENIBLE EN EL DISTRITO DE CUTRIS DEL CANTÓN DE SAN CARLOS, PROVINCIA DE ALAJUELA. REFORMAS Y ADICIONES AL CÓDIGO DE MINERÍA, LEY NO. 6797 DEL 04 DE OCTUBRE DE 1982 Y SUS REFORMAS. ANTES",
-        "tramite": "II día",
-        "fecha": "2026-11-18T20:47:15Z"
+        "asunto": "AUTORIZACIÓN PARA EMITIR TÍTULOS VALORES EN EL MERCADO INTERNACIONAL",
+        "tramite": null,
+        "fecha": "2026-11-26T00:40:31Z"
       },
       {
-        "numero": "24717-137-II-139",
-        "expediente": "24717",
+        "numero": "Moción N.° 26-79",
+        "expediente": "25363",
         "resultado": "Rechazada",
-        "asunto": "LEY PARA REGULAR LA EXPLORACIÓN Y EXPLOTACIÓN DE MINERÍA METÁLICA SOSTENIBLE EN EL DISTRITO DE CUTRIS DEL CANTÓN DE SAN CARLOS, PROVINCIA DE ALAJUELA. REFORMAS Y ADICIONES AL CÓDIGO DE MINERÍA, LEY NO. 6797 DEL 04 DE OCTUBRE DE 1982 Y SUS REFORMAS. ANTES",
-        "tramite": "II día",
-        "fecha": "2026-11-18T20:46:35Z"
+        "asunto": "AUTORIZACIÓN PARA EMITIR TÍTULOS VALORES EN EL MERCADO INTERNACIONAL",
+        "tramite": null,
+        "fecha": "2026-11-26T00:40:02Z"
       },
       {
-        "numero": "24717-137-II-138",
-        "expediente": "24717",
+        "numero": "Moción N.° 25-79",
+        "expediente": "25363",
         "resultado": "Rechazada",
-        "asunto": "LEY PARA REGULAR LA EXPLORACIÓN Y EXPLOTACIÓN DE MINERÍA METÁLICA SOSTENIBLE EN EL DISTRITO DE CUTRIS DEL CANTÓN DE SAN CARLOS, PROVINCIA DE ALAJUELA. REFORMAS Y ADICIONES AL CÓDIGO DE MINERÍA, LEY NO. 6797 DEL 04 DE OCTUBRE DE 1982 Y SUS REFORMAS. ANTES",
-        "tramite": "II día",
-        "fecha": "2026-11-18T20:45:48Z"
+        "asunto": "AUTORIZACIÓN PARA EMITIR TÍTULOS VALORES EN EL MERCADO INTERNACIONAL",
+        "tramite": null,
+        "fecha": "2026-11-26T00:39:30Z"
       },
       {
-        "numero": "24717-137-II-137",
-        "expediente": "24717",
+        "numero": "Moción N.° 24-79",
+        "expediente": "25363",
         "resultado": "Rechazada",
-        "asunto": "LEY PARA REGULAR LA EXPLORACIÓN Y EXPLOTACIÓN DE MINERÍA METÁLICA SOSTENIBLE EN EL DISTRITO DE CUTRIS DEL CANTÓN DE SAN CARLOS, PROVINCIA DE ALAJUELA. REFORMAS Y ADICIONES AL CÓDIGO DE MINERÍA, LEY NO. 6797 DEL 04 DE OCTUBRE DE 1982 Y SUS REFORMAS. ANTES",
-        "tramite": "II día",
-        "fecha": "2026-11-18T20:44:57Z"
+        "asunto": "AUTORIZACIÓN PARA EMITIR TÍTULOS VALORES EN EL MERCADO INTERNACIONAL",
+        "tramite": null,
+        "fecha": "2026-11-26T00:39:05Z"
       },
       {
-        "numero": "24717-137-II-136",
-        "expediente": "24717",
+        "numero": "Moción N.° 23-79",
+        "expediente": "25363",
         "resultado": "Rechazada",
-        "asunto": "LEY PARA REGULAR LA EXPLORACIÓN Y EXPLOTACIÓN DE MINERÍA METÁLICA SOSTENIBLE EN EL DISTRITO DE CUTRIS DEL CANTÓN DE SAN CARLOS, PROVINCIA DE ALAJUELA. REFORMAS Y ADICIONES AL CÓDIGO DE MINERÍA, LEY NO. 6797 DEL 04 DE OCTUBRE DE 1982 Y SUS REFORMAS. ANTES",
-        "tramite": "II día",
-        "fecha": "2026-11-18T20:44:20Z"
+        "asunto": "AUTORIZACIÓN PARA EMITIR TÍTULOS VALORES EN EL MERCADO INTERNACIONAL",
+        "tramite": null,
+        "fecha": "2026-11-26T00:38:33Z"
       },
       {
-        "numero": "24717-137-II-135",
-        "expediente": "24717",
+        "numero": "Moción N.° 22-79",
+        "expediente": "25363",
         "resultado": "Rechazada",
-        "asunto": "LEY PARA REGULAR LA EXPLORACIÓN Y EXPLOTACIÓN DE MINERÍA METÁLICA SOSTENIBLE EN EL DISTRITO DE CUTRIS DEL CANTÓN DE SAN CARLOS, PROVINCIA DE ALAJUELA. REFORMAS Y ADICIONES AL CÓDIGO DE MINERÍA, LEY NO. 6797 DEL 04 DE OCTUBRE DE 1982 Y SUS REFORMAS. ANTES",
-        "tramite": "II día",
-        "fecha": "2026-11-18T20:41:03Z"
+        "asunto": "AUTORIZACIÓN PARA EMITIR TÍTULOS VALORES EN EL MERCADO INTERNACIONAL",
+        "tramite": null,
+        "fecha": "2026-11-26T00:38:09Z"
       },
       {
-        "numero": "24717-137-II-134",
-        "expediente": "24717",
+        "numero": "Moción N.° 21-79",
+        "expediente": "25363",
         "resultado": "Rechazada",
-        "asunto": "LEY PARA REGULAR LA EXPLORACIÓN Y EXPLOTACIÓN DE MINERÍA METÁLICA SOSTENIBLE EN EL DISTRITO DE CUTRIS DEL CANTÓN DE SAN CARLOS, PROVINCIA DE ALAJUELA. REFORMAS Y ADICIONES AL CÓDIGO DE MINERÍA, LEY NO. 6797 DEL 04 DE OCTUBRE DE 1982 Y SUS REFORMAS. ANTES",
-        "tramite": "II día",
-        "fecha": "2026-11-18T20:40:22Z"
+        "asunto": "AUTORIZACIÓN PARA EMITIR TÍTULOS VALORES EN EL MERCADO INTERNACIONAL",
+        "tramite": null,
+        "fecha": "2026-11-26T00:37:43Z"
       },
       {
-        "numero": "24717-137-II-130",
-        "expediente": "24717",
+        "numero": "Moción N.° 20-79",
+        "expediente": "25363",
         "resultado": "Rechazada",
-        "asunto": "LEY PARA REGULAR LA EXPLORACIÓN Y EXPLOTACIÓN DE MINERÍA METÁLICA SOSTENIBLE EN EL DISTRITO DE CUTRIS DEL CANTÓN DE SAN CARLOS, PROVINCIA DE ALAJUELA. REFORMAS Y ADICIONES AL CÓDIGO DE MINERÍA, LEY NO. 6797 DEL 04 DE OCTUBRE DE 1982 Y SUS REFORMAS. ANTES",
-        "tramite": "II día",
-        "fecha": "2026-11-18T20:38:40Z"
+        "asunto": "AUTORIZACIÓN PARA EMITIR TÍTULOS VALORES EN EL MERCADO INTERNACIONAL",
+        "tramite": null,
+        "fecha": "2026-11-26T00:37:16Z"
       },
       {
-        "numero": "24717-137-II-128",
-        "expediente": "24717",
+        "numero": "Moción N.° 19-79",
+        "expediente": "25363",
         "resultado": "Rechazada",
-        "asunto": "LEY PARA REGULAR LA EXPLORACIÓN Y EXPLOTACIÓN DE MINERÍA METÁLICA SOSTENIBLE EN EL DISTRITO DE CUTRIS DEL CANTÓN DE SAN CARLOS, PROVINCIA DE ALAJUELA. REFORMAS Y ADICIONES AL CÓDIGO DE MINERÍA, LEY NO. 6797 DEL 04 DE OCTUBRE DE 1982 Y SUS REFORMAS. ANTES",
-        "tramite": "II día",
-        "fecha": "2026-11-18T20:37:47Z"
+        "asunto": "AUTORIZACIÓN PARA EMITIR TÍTULOS VALORES EN EL MERCADO INTERNACIONAL",
+        "tramite": null,
+        "fecha": "2026-11-26T00:36:51Z"
+      },
+      {
+        "numero": "Moción N.° 18-79",
+        "expediente": "25363",
+        "resultado": "Rechazada",
+        "asunto": "AUTORIZACIÓN PARA EMITIR TÍTULOS VALORES EN EL MERCADO INTERNACIONAL",
+        "tramite": null,
+        "fecha": "2026-11-26T00:36:28Z"
+      },
+      {
+        "numero": "Moción N.° 17-79",
+        "expediente": "25363",
+        "resultado": "Rechazada",
+        "asunto": "AUTORIZACIÓN PARA EMITIR TÍTULOS VALORES EN EL MERCADO INTERNACIONAL",
+        "tramite": null,
+        "fecha": "2026-11-26T00:35:59Z"
+      },
+      {
+        "numero": "Moción N.° 16-79",
+        "expediente": "25363",
+        "resultado": "Rechazada",
+        "asunto": "AUTORIZACIÓN PARA EMITIR TÍTULOS VALORES EN EL MERCADO INTERNACIONAL",
+        "tramite": null,
+        "fecha": "2026-11-26T00:35:33Z"
+      },
+      {
+        "numero": "Moción N.° 15-79",
+        "expediente": "25363",
+        "resultado": "Rechazada",
+        "asunto": "AUTORIZACIÓN PARA EMITIR TÍTULOS VALORES EN EL MERCADO INTERNACIONAL",
+        "tramite": null,
+        "fecha": "2026-11-26T00:35:09Z"
+      },
+      {
+        "numero": "Moción N.° 14-79",
+        "expediente": "25363",
+        "resultado": "Rechazada",
+        "asunto": "AUTORIZACIÓN PARA EMITIR TÍTULOS VALORES EN EL MERCADO INTERNACIONAL",
+        "tramite": null,
+        "fecha": "2026-11-26T00:34:38Z"
+      },
+      {
+        "numero": "Moción N.° 13-79",
+        "expediente": "25363",
+        "resultado": "Rechazada",
+        "asunto": "AUTORIZACIÓN PARA EMITIR TÍTULOS VALORES EN EL MERCADO INTERNACIONAL",
+        "tramite": null,
+        "fecha": "2026-11-26T00:34:04Z"
+      },
+      {
+        "numero": "Moción N.° 12-79",
+        "expediente": "25363",
+        "resultado": "Rechazada",
+        "asunto": "AUTORIZACIÓN PARA EMITIR TÍTULOS VALORES EN EL MERCADO INTERNACIONAL",
+        "tramite": null,
+        "fecha": "2026-11-26T00:33:34Z"
+      },
+      {
+        "numero": "Moción N.° 11-79",
+        "expediente": "25363",
+        "resultado": "Rechazada",
+        "asunto": "AUTORIZACIÓN PARA EMITIR TÍTULOS VALORES EN EL MERCADO INTERNACIONAL",
+        "tramite": null,
+        "fecha": "2026-11-26T00:33:07Z"
+      },
+      {
+        "numero": "Moción N.° 10-79",
+        "expediente": "25363",
+        "resultado": "Rechazada",
+        "asunto": "AUTORIZACIÓN PARA EMITIR TÍTULOS VALORES EN EL MERCADO INTERNACIONAL",
+        "tramite": null,
+        "fecha": "2026-11-26T00:32:41Z"
+      },
+      {
+        "numero": "Moción N.° 09-79",
+        "expediente": "25363",
+        "resultado": "Rechazada",
+        "asunto": "AUTORIZACIÓN PARA EMITIR TÍTULOS VALORES EN EL MERCADO INTERNACIONAL",
+        "tramite": null,
+        "fecha": "2026-11-26T00:32:15Z"
+      },
+      {
+        "numero": "Moción N.° 08-79",
+        "expediente": "25363",
+        "resultado": "Rechazada",
+        "asunto": "AUTORIZACIÓN PARA EMITIR TÍTULOS VALORES EN EL MERCADO INTERNACIONAL",
+        "tramite": null,
+        "fecha": "2026-11-26T00:31:51Z"
+      },
+      {
+        "numero": "Moción N.° 07-79",
+        "expediente": "25363",
+        "resultado": "Rechazada",
+        "asunto": "AUTORIZACIÓN PARA EMITIR TÍTULOS VALORES EN EL MERCADO INTERNACIONAL",
+        "tramite": null,
+        "fecha": "2026-11-26T00:31:29Z"
       }
     ]
   },
   "intervenciones": {
     "_fuente": "https://www.asamblea.go.cr/Diputados/_api/web/lists/getbytitle('intervenciones_2026_2030')/items?%24top=5000&%24select=Id%2CDiputadoId%2CFileLeafRef%2CFileRef%2CModified%2CCreated&%24orderby=Modified%20desc",
-    "total": 326,
-    "ultima_actualizacion": "2026-11-24T17:37:28Z",
-    "diputaciones_con_registro": 55,
+    "total": 327,
+    "ultima_actualizacion": "2026-11-25T16:46:44Z",
+    "diputaciones_con_registro": 56,
     "sin_registro": [
-      "eder-hernandez-ulloa",
       "juan-manuel-quesada-espinoza"
     ],
     "avisos": [
@@ -740,6 +739,14 @@
       "archivo sin diputacion conocida: Hernández Ulloa, mayo 2026.docx"
     ],
     "por_diputacion": {
+      "eder-hernandez-ulloa": [
+        {
+          "archivo": "Eder Hernández Ulloa, Octubre 2026.docx",
+          "periodo": null,
+          "url": "https://www.asamblea.go.cr/Diputados/intervenciones_2026_2030/Eder Hernández Ulloa, Octubre 2026.docx",
+          "modificado": "2026-11-25T16:46:44Z"
+        }
+      ],
       "cindy-murillo-artavia": [
         {
           "archivo": "Cindy Murillo Artavia, Octubre 2026.docx",
