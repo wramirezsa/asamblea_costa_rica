@@ -1,10 +1,10 @@
 {
-  "generado": "2026-11-26T13:49:28+00:00",
+  "generado": "2026-11-27T18:01:05+00:00",
   "nota": "Solo se incluyen conjuntos que la Asamblea mantiene al día. Cada uno trae su propia fecha de última actualización, tomada de la fuente.",
   "leyes": {
     "_fuente": "https://www.asamblea.go.cr/glcp/_api/web/lists/getbytitle('res_de_leyes')/items?%24top=2000&%24orderby=Modified%20desc",
-    "total": 1637,
-    "ultima_actualizacion": "2026-11-24T16:27:33Z",
+    "total": 1638,
+    "ultima_actualizacion": "2026-11-27T16:30:11Z",
     "por_anio": {
       "2017": 7,
       "2018": 253,
@@ -15,9 +15,15 @@
       "2023": 97,
       "2024": 189,
       "2025": 214,
-      "2026": 154
+      "2026": 155
     },
     "recientes": [
+      {
+        "numero": "10995",
+        "titulo": "SEGUNDO RESUPUESTO EXTRAORDINARIO DE LA REPÚBLICA Y SEGUNDA  MODIFICACIÓN LEGISLATIVA A LA LEY N.º 10.836, LEY DE PRESUPUESTO ORDINARIO Y EXTRAORDINARIO DE LA REPÚBLICA PARA EL EJERCICIO ECONÓMICO 2026",
+        "resumen": "El proyecto de ley del Segundo Presupuesto Extraordinario y Segunda Modificación Legislativa a la Ley N.° 10.836 tiene como objetivo ajustar el presupuesto 2026 ante una reducción en los ingresos corrientes proyectados. Para ello, incorpora nuevos recursos, aplica rebajas al gasto público por más de ₡60.862 millones, realiza modificaciones presupuestarias entre instituciones por ₡35.581 millones, elimina una plaza va",
+        "publicada": "2026-11-27T16:30:11Z"
+      },
       {
         "numero": "10991",
         "titulo": "APROBACIÓN DE LA ADHESIÓN DE LA REPÚBLICA DE COSTA RICA AL PROTOCOLO AL TRATADO ANTÁRTICO SOBRE PROTECCIÓN DEL MEDIO AMBIENTE (PTAPMA)",
@@ -371,23 +377,17 @@
         "titulo": "AUTORIZACIÓN A LA MUNICIPALIDAD DE DESAMPARADOS PARA QUE DONE TERRENO DE SU PROPIEDAD AL MINISTERIO DE EDUCACIÓN PÚBLICA EN LOS GUIDO SECTOR #2",
         "resumen": "Se autoriza a la Municipalidad de Desamparados\na donar un terreno en Los Guido al Ministerio de Educación Pública,\ndestinado a la escuela local.\n\nLa presente ley surge del expediente N.° 25.155.",
         "publicada": "2026-04-22T17:27:25Z"
-      },
-      {
-        "numero": "10933",
-        "titulo": "Ley N. º10933  REFORMA INTEGRAL DE LA LEY 8778, TARIFA DE IMPUESTOS MUNICIPALES DEL CANTÓN DE TALAMANCA",
-        "resumen": "En Talamanca toda actividad comercial, productiva o lucrativa requiere licencia municipal y pago de patente según ingresos y tipo de actividad.\n\nLa presente ley surge del expediente N.° 24.835.",
-        "publicada": "2026-04-22T17:31:53Z"
       }
     ]
   },
   "mociones": {
     "_fuente": "https://www.asamblea.go.cr/glcp/_api/web/lists/getbytitle('mociones_total')/items?%24top=5000&%24orderby=Id%20desc",
-    "total": 28092,
-    "nota_alcance": "Agregados calculados sobre las 28092 mociones que devuelve la lista completa, no sobre una muestra.",
-    "ultima_actualizacion": "2026-11-26T00:51:10Z",
+    "total": 28098,
+    "nota_alcance": "Agregados calculados sobre las 28098 mociones que devuelve la lista completa, no sobre una muestra.",
+    "ultima_actualizacion": "2026-11-26T16:23:16Z",
     "por_resultado": {
-      "Rechazada": 23825,
-      "Aprobada": 3672,
+      "Rechazada": 23827,
+      "Aprobada": 3676,
       "Retirada": 400,
       "Pendiente": 194,
       "Revisión": 1
@@ -397,25 +397,73 @@
       "2023": 3827,
       "2024": 4729,
       "2025": 9086,
-      "2026": 7200
+      "2026": 7206
     },
-    "expedientes_distintos": 1277,
+    "expedientes_distintos": 1279,
     "recientes": [
       {
-        "numero": "Moción N.° 49-79 Texto Sustitutivo N.° 2",
+        "numero": null,
+        "expediente": "25729",
+        "resultado": "Rechazada",
+        "asunto": "SEGUNDO PROTOCOLO AL ACUERDO ENTRE EL GOBIERNO DE LA REPÚBLICA DE COSTA RICA Y EL GOBIERNO DE LOS ESTADOS UNIDOS DE AMÉRICA SOBRE LA COOPERACIÓN PARA SUPRIMIR EL TRÁFICO ILÍCITO.",
+        "tramite": null,
+        "fecha": "2026-11-26T16:22:57Z"
+      },
+      {
+        "numero": null,
+        "expediente": "25729",
+        "resultado": "Rechazada",
+        "asunto": "SEGUNDO PROTOCOLO AL ACUERDO ENTRE EL GOBIERNO DE LA REPÚBLICA DE COSTA RICA Y EL GOBIERNO DE LOS ESTADOS UNIDOS DE AMÉRICA SOBRE LA COOPERACIÓN PARA SUPRIMIR EL TRÁFICO ILÍCITO.",
+        "tramite": null,
+        "fecha": "2026-11-26T16:20:43Z"
+      },
+      {
+        "numero": null,
+        "expediente": "25729",
+        "resultado": "Aprobada",
+        "asunto": "SEGUNDO PROTOCOLO AL ACUERDO ENTRE EL GOBIERNO DE LA REPÚBLICA DE COSTA RICA Y EL GOBIERNO DE LOS ESTADOS UNIDOS DE AMÉRICA SOBRE LA COOPERACIÓN PARA SUPRIMIR EL TRÁFICO ILÍCITO.",
+        "tramite": null,
+        "fecha": "2026-11-26T16:19:40Z"
+      },
+      {
+        "numero": null,
+        "expediente": "25729",
+        "resultado": "Aprobada",
+        "asunto": "SEGUNDO PROTOCOLO AL ACUERDO ENTRE EL GOBIERNO DE LA REPÚBLICA DE COSTA RICA Y EL GOBIERNO DE LOS ESTADOS UNIDOS DE AMÉRICA SOBRE LA COOPERACIÓN PARA SUPRIMIR EL TRÁFICO ILÍCITO.",
+        "tramite": null,
+        "fecha": "2026-11-26T16:18:51Z"
+      },
+      {
+        "numero": null,
+        "expediente": "25729",
+        "resultado": "Aprobada",
+        "asunto": "SEGUNDO PROTOCOLO AL ACUERDO ENTRE EL GOBIERNO DE LA REPÚBLICA DE COSTA RICA Y EL GOBIERNO DE LOS ESTADOS UNIDOS DE AMÉRICA SOBRE LA COOPERACIÓN PARA SUPRIMIR EL TRÁFICO ILÍCITO.",
+        "tramite": null,
+        "fecha": "2026-11-26T16:17:30Z"
+      },
+      {
+        "numero": null,
+        "expediente": "25304",
+        "resultado": "Aprobada",
+        "asunto": "LEY PARA PROTEGER LA VIDA DE LA PERSONA RECIÉN NACIDA",
+        "tramite": "124",
+        "fecha": "2026-11-26T16:02:56Z"
+      },
+      {
+        "numero": "Moción N.° 03-79 Texto Sustitutivo N.° 2",
         "expediente": "25363",
         "resultado": "Aprobada",
         "asunto": "AUTORIZACIÓN PARA EMITIR TÍTULOS VALORES EN EL MERCADO INTERNACIONAL",
         "tramite": "Texto Sustitutivo N.° 2",
-        "fecha": "2026-11-26T00:50:35Z"
+        "fecha": "2026-11-26T15:34:37Z"
       },
       {
-        "numero": "Moción N.° 48-79 Texto Sustitutivo N.° 1",
+        "numero": "Moción N.° 02-79 Texto Sustitutivo N.° 1",
         "expediente": "25363",
         "resultado": "Rechazada",
         "asunto": "AUTORIZACIÓN PARA EMITIR TÍTULOS VALORES EN EL MERCADO INTERNACIONAL",
         "tramite": "Texto Sustitutivo N.° 1",
-        "fecha": "2026-11-26T00:49:40Z"
+        "fecha": "2026-11-26T15:33:44Z"
       },
       {
         "numero": "Moción N.° 44-79",
@@ -672,54 +720,6 @@
         "asunto": "AUTORIZACIÓN PARA EMITIR TÍTULOS VALORES EN EL MERCADO INTERNACIONAL",
         "tramite": null,
         "fecha": "2026-11-26T00:34:04Z"
-      },
-      {
-        "numero": "Moción N.° 12-79",
-        "expediente": "25363",
-        "resultado": "Rechazada",
-        "asunto": "AUTORIZACIÓN PARA EMITIR TÍTULOS VALORES EN EL MERCADO INTERNACIONAL",
-        "tramite": null,
-        "fecha": "2026-11-26T00:33:34Z"
-      },
-      {
-        "numero": "Moción N.° 11-79",
-        "expediente": "25363",
-        "resultado": "Rechazada",
-        "asunto": "AUTORIZACIÓN PARA EMITIR TÍTULOS VALORES EN EL MERCADO INTERNACIONAL",
-        "tramite": null,
-        "fecha": "2026-11-26T00:33:07Z"
-      },
-      {
-        "numero": "Moción N.° 10-79",
-        "expediente": "25363",
-        "resultado": "Rechazada",
-        "asunto": "AUTORIZACIÓN PARA EMITIR TÍTULOS VALORES EN EL MERCADO INTERNACIONAL",
-        "tramite": null,
-        "fecha": "2026-11-26T00:32:41Z"
-      },
-      {
-        "numero": "Moción N.° 09-79",
-        "expediente": "25363",
-        "resultado": "Rechazada",
-        "asunto": "AUTORIZACIÓN PARA EMITIR TÍTULOS VALORES EN EL MERCADO INTERNACIONAL",
-        "tramite": null,
-        "fecha": "2026-11-26T00:32:15Z"
-      },
-      {
-        "numero": "Moción N.° 08-79",
-        "expediente": "25363",
-        "resultado": "Rechazada",
-        "asunto": "AUTORIZACIÓN PARA EMITIR TÍTULOS VALORES EN EL MERCADO INTERNACIONAL",
-        "tramite": null,
-        "fecha": "2026-11-26T00:31:51Z"
-      },
-      {
-        "numero": "Moción N.° 07-79",
-        "expediente": "25363",
-        "resultado": "Rechazada",
-        "asunto": "AUTORIZACIÓN PARA EMITIR TÍTULOS VALORES EN EL MERCADO INTERNACIONAL",
-        "tramite": null,
-        "fecha": "2026-11-26T00:31:29Z"
       }
     ]
   },
